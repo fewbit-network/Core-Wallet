@@ -478,7 +478,7 @@ public:
     CMainParams()
     {
         strNetworkID = "main";
-        consensus.nSubsidyHalvingInterval = 2100000;            // Note: actual number of blocks per calendar year with DGW v3 is ~200700 (for example 449750 - 249050)
+        consensus.nSubsidyHalvingInterval = 308720;
         consensus.nSmartnodePaymentsStartBlock = 5761;         //
         consensus.nSmartnodePaymentsIncreaseBlock = 158000;    // actual historical value
         consensus.nSmartnodePaymentsIncreasePeriod = 576 * 30; // 17280 - actual historical value
@@ -577,7 +577,8 @@ public:
                 {176720, 10000 * COIN},
                 {220720, 12500 * COIN},
                 {264720, 15000 * COIN},
-                {INT_MAX, 18000 * COIN}},
+                {308720, 18000 * COIN},
+                {INT_MAX, 50000 * COIN}},
             {{5761, 0}, {INT_MAX, 65}});
         // FutureRewardShare defaultShare(0.8,0.2,0.0);
         consensus.nFutureRewardShare = Consensus::FutureRewardShare(0.8, 0.2, 0.0);
@@ -703,8 +704,8 @@ public:
 
         vSeeds.clear();
         // nodes with support for servicebits filtering should be at the top
-        vSeeds.emplace_back("109.236.81.133");
-        vSeeds.emplace_back("mtn.fewbit.com");
+        vSeeds.emplace_back("89.168.20.232");
+        vSeeds.emplace_back("89.168.18.209");
 
         // Testnet FewBit addresses start with 'f'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 95);
