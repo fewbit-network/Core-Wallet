@@ -549,8 +549,10 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0x2e3f75b45a25238f94d44655a44f5259c3ba4d4d031ec2f7485cafdd338092c8"));
         assert(genesis.hashMerkleRoot == uint256S("0x14cb17bc7b9d969d93c3a50a225166818638cede0727bc776cffd79746adc01f"));
 
-        vSeeds.emplace_back("95.179.185.30");
-        vSeeds.emplace_back("node.fewbit.net");
+        vSeeds.emplace_back("89.168.20.232");
+        vSeeds.emplace_back("89.168.18.209");
+        vSeeds.emplace_back("81.57.117.43");
+        vSeeds.emplace_back("fewbit.online");
 
         // FewBit addresses start with 'F'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 35);
