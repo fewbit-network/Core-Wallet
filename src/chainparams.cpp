@@ -478,7 +478,7 @@ public:
     CMainParams()
     {
         strNetworkID = "main";
-        consensus.nSubsidyHalvingInterval = 308720;
+        consensus.nSubsidyHalvingInterval = 300000;
         consensus.nSmartnodePaymentsStartBlock = 5761;         //
         consensus.nSmartnodePaymentsIncreaseBlock = 158000;    // actual historical value
         consensus.nSmartnodePaymentsIncreasePeriod = 576 * 30; // 17280 - actual historical value
