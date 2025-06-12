@@ -539,7 +539,7 @@ BOOST_FIXTURE_TEST_CASE(CreateTransactionTest, CreateTransactionTestSetup)
             {12, {{100001, false}}},
             {13, {{100001, true}}}};
         assert(mapTestCases.size() == mapExpected.size());
-        for (int i = 0; i < mapTestCases.size(); ++i) {
+        for (size_t i = 0; i < mapTestCases.size(); ++i) {
             if (!CreateTransaction(mapTestCases.at(i), mapExpected.at(i).first, mapExpected.at(i).second)) {
                 std::cout << strprintf("CreateTransactionTest failed at: %d - %d\n", nTestId, i) << std::endl;
             }
