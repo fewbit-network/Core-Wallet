@@ -506,7 +506,7 @@ public:
         std::vector<COutPoint> vecOutpoints;
         size_t n;
         for (n = 0; n < tx->vout.size(); ++n) {
-            if (nChangePosRet != -1 && n == nChangePosRet) {
+            if (nChangePosRet != -1 && n == static_cast<size_t>(nChangePosRet)) {
                 // Skip the change output to only return the requested coins
                 continue;
             }
