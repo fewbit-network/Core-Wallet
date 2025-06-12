@@ -12,12 +12,12 @@
  * for both fewbitd and fewbit-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("FewBit Core");
+const std::string CLIENT_NAME("FewBit Core 3.3 by GhostRider");
 
 /**
  * Client version number
  */
-#define CLIENT_VERSION_SUFFIX ""
+#define CLIENT_VERSION_SUFFIX "-beta"
 
 
 /**
