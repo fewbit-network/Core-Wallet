@@ -3,9 +3,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include <clientversion.h>
-
 #include <tinyformat.h>
-
 
 /**
  * Name of client reported in the 'version' message. Report the same name
@@ -17,8 +15,8 @@ const std::string CLIENT_NAME("FewBit Core 3.3 by GhostRider");
 /**
  * Client version number
  */
-#define CLIENT_VERSION_SUFFIX "-beta"
 
+#define CLIENT_VERSION_SUFFIX "-halving"
 
 /**
  * The following part of the code determines the CLIENT_BUILD variable.
@@ -45,7 +43,7 @@ const std::string CLIENT_NAME("FewBit Core 3.3 by GhostRider");
 #define GIT_ARCHIVE 1
 #ifdef GIT_ARCHIVE
 #define GIT_COMMIT_ID "1de001dc3da6495956b49b9b3be6ec1e8249a6b0"
-#define GIT_COMMIT_DATE "Tue, 22 Mar 2024 07:14:51 -0700"
+#define GIT_COMMIT_DATE "Wed, 12 Jun 2025 14:00:00 +0000"
 #endif
 
 #define BUILD_DESC_WITH_SUFFIX(maj, min, rev, build, suffix) \
