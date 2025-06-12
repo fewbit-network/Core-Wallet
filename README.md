@@ -1,3 +1,29 @@
+The MIT License (MIT)
+
+Copyright (c) 2009-2020 The Bitcoin Core developers  
+Copyright (c) 2009-2020 Bitcoin Developers  
+Copyright (c) 2014-2020 The Dash Core developers  
+Copyright (c) 2020-2024 The FewBit developers  
+Copyright (c) 2024-2025 The FewBit Network developers
+
+Permission is hereby granted, free of charge, to any person obtaining a copy  
+of this software and associated documentation files (the "Software"), to deal  
+in the Software without restriction, including without limitation the rights  
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell  
+copies of the Software, and to permit persons to whom the Software is  
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in  
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR  
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,  
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE  
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER  
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,  
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN  
+THE SOFTWARE.
+
 FewBit Coin – Balancing Self-Governance through SmartNodes, Staking, and Mining
 FewBit is a self-governed blockchain network where all stakeholders—stakers, token holders, SmartNode operators, and community participants—can collaboratively influence the future of the project.
 
@@ -18,3 +44,4 @@ The master branch is stable and production-ready. Active development takes place
 Tags indicate new official and stable releases of the FewBit Core Wallet.
 
 For guidelines on contributing, please refer to CONTRIBUTING.md.
+The MIT License (MIT)
