@@ -1899,7 +1899,7 @@
 </svg>
 </a>
       <span>
-        &copy; 2025 GitHub,&nbsp;Inc.
+        // © 2025 GitHub, Inc.
       </span>
     </div>
 
