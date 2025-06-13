@@ -1,2041 +1,5511 @@
-
-
-
-
-
-
-<!DOCTYPE html>
-<html
-  lang="en"
-  
-  data-color-mode="auto" data-light-theme="light" data-dark-theme="dark"
-  data-a11y-animated-images="system" data-a11y-link-underlines="true"
-  
-  >
-
-
-
-  <head>
-    <meta charset="utf-8">
-  <link rel="dns-prefetch" href="https://github.githubassets.com">
-  <link rel="dns-prefetch" href="https://avatars.githubusercontent.com">
-  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
-  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
-  <link rel="preconnect" href="https://github.githubassets.com" crossorigin>
-  <link rel="preconnect" href="https://avatars.githubusercontent.com">
-
-  
-
-
-  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/light-c59dc71e3a4c.css" /><link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/light_high_contrast-4bf0cb726930.css" /><link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/dark-89751e879f8b.css" /><link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/dark_high_contrast-67c7180a598a.css" /><link data-color-theme="light" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light-c59dc71e3a4c.css" /><link data-color-theme="light_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_high_contrast-4bf0cb726930.css" /><link data-color-theme="light_colorblind" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_colorblind-6060e905eb78.css" /><link data-color-theme="light_colorblind_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_colorblind_high_contrast-04e818620b9c.css" /><link data-color-theme="light_tritanopia" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_tritanopia-ae65df249e0f.css" /><link data-color-theme="light_tritanopia_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_tritanopia_high_contrast-fdadc12a1ec2.css" /><link data-color-theme="dark" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark-89751e879f8b.css" /><link data-color-theme="dark_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_high_contrast-67c7180a598a.css" /><link data-color-theme="dark_colorblind" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_colorblind-4277e18a7c75.css" /><link data-color-theme="dark_colorblind_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_colorblind_high_contrast-2e33ed61bc8c.css" /><link data-color-theme="dark_tritanopia" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_tritanopia-48d44d87614d.css" /><link data-color-theme="dark_tritanopia_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_tritanopia_high_contrast-6adcb5080302.css" /><link data-color-theme="dark_dimmed" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_dimmed-250cee4c1ea8.css" /><link data-color-theme="dark_dimmed_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_dimmed_high_contrast-e3802beb8c06.css" />
-
-
-    <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-primitives-225433424a87.css" />
-    <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-b8b91660c29d.css" />
-    <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/global-46e30a0a488d.css" />
-    <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/github-ef14fd9f242b.css" />
-  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/repository-fa462f1c51f1.css" />
-<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/code-177d21388df8.css" />
-
-  
-
-
-  <script type="application/json" id="client-env">{"locale":"en","featureFlags":["alternate_user_config_repo","api_insights_show_missing_data_banner","appearance_settings","codespaces_prebuild_region_target_update","contact_requests_implicit_opt_in","contentful_lp_flex_features","contentful_lp_footnotes","contentful_lp_form_phone_e164","copilot_chat_attach_multiple_images","copilot_chat_autocomplete","copilot_chat_custom_instructions","copilot_chat_repo_custom_instructions_preview","copilot_chat_vision_in_claude","copilot_chat_wholearea_dd","copilot_custom_copilots_feature_preview","copilot_custom_copilots_org_owned","copilot_duplicate_thread","copilot_free_to_paid_telem","copilot_ftp_settings_upgrade","copilot_ftp_upgrade_to_pro_from_models","copilot_ftp_your_copilot_settings","copilot_immersive_draft_issue_template_required","copilot_immersive_issue_preview","copilot_new_conversation_starters","copilot_new_immersive_references_ui","copilot_no_floating_button","copilot_read_shared_conversation","copilot_showcase_icebreakers","copilot_task_oriented_assistive_prompts","copilot_topics_as_references","copilot_workbench_iterate_panel","copilot_workbench_preview_analytics","copilot_workbench_refresh_on_wsod","copilot_workbench_user_limits","custom_copilots_capi_mode","direct_to_salesforce","dotcom_chat_client_side_skills","ghost_pilot_confidence_truncation_25","ghost_pilot_confidence_truncation_40","insert_before_patch","issues_react_blur_item_picker_on_close","issues_react_create_milestone","issues_react_prohibit_title_fallback","issues_react_remove_placeholders","lifecycle_label_name_updates","link_contact_sales_swp_marketo","marketing_pages_search_explore_provider","memex_mwl_filter_field_delimiter","nonreporting_relay_graphql_status_codes","primer_primitives_experimental","primer_react_css_modules_ga","primer_react_select_panel_with_modern_action_list","remove_child_patch","sample_network_conn_type","scheduled_reminders_updated_limits","site_homepage_contentful","site_msbuild_hide_integrations","site_msbuild_launch","site_msbuild_webgl_hero","spark_auth_token_endpoint","spark_commit_on_default_branch","swp_enterprise_contact_form","use_copilot_avatar","use_paginated_repo_picker_cost_center_form","viewscreen_sandbox"]}</script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/high-contrast-cookie-a58297b2ebf8.js"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/wp-runtime-304c7fd49c8c.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_oddbird_popover-polyfill_dist_popover-fn_js-a8c266e5f126.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_stacktrace-parser_dist_s-1d3d52-babac9434833.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/ui_packages_failbot_failbot_ts-1f9a502c66b9.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/environment-89128d48c6ff.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_primer_behaviors_dist_esm_index_mjs-c44edfed7f0d.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_selector-observer_dist_index_esm_js-cdf2757bd188.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_relative-time-element_dist_index_js-5913bc24f35d.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_text-expander-element_dist_index_js-e50fb7a5fe8c.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_auto-complete-element_dist_index_js-node_modules_github_catalyst_-8e9f78-c1e2fb329866.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_filter-input-element_dist_index_js-node_modules_github_remote-inp-d8c643-251bc3964eb6.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_markdown-toolbar-element_dist_index_js-6a8c7d9a08fe.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_file-attachment-element_dist_index_js-node_modules_primer_view-co-cadbad-2b39299ff4a8.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/github-elements-a0eacac9865b.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/element-registry-db5ab8f70033.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_braintree_browser-detection_dist_browser-detection_js-node_modules_githu-bb80ec-34c4b68b1dd3.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_lit-html_lit-html_js-b93a87060d31.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_morphdom_dist_morphdom-esm_js-300e8e4e0414.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_fzy_js_index_js-node_modules_github_paste-markdown_dist_index_js-63a26702fa42.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_turbo_dist_turbo_es2017-esm_js-595819d3686f.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_remote-form_dist_index_js-node_modules_delegated-events_dist_inde-893f9f-1bcf38e06f01.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_color-convert_index_js-1a149db8dc99.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_quote-selection_dist_index_js-node_modules_github_session-resume_-c1aa61-91618cb63471.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/ui_packages_updatable-content_updatable-content_ts-a5daa16ae903.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/app_assets_modules_github_behaviors_task-list_ts-app_assets_modules_github_sso_ts-ui_packages-900dde-f953ddf42948.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/app_assets_modules_github_sticky-scroll-into-view_ts-84e0c4a441a7.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/app_assets_modules_github_behaviors_ajax-error_ts-app_assets_modules_github_behaviors_include-d0d0a6-a7da4270c5f4.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/app_assets_modules_github_behaviors_commenting_edit_ts-app_assets_modules_github_behaviors_ht-83c235-567e0f340e27.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/behaviors-b02c9c945bf2.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_catalyst_lib_index_js-ea8eaa-eefe25567449.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/notifications-global-eadae94940d6.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_github_catalyst_lib_inde-dbbea9-558c1f223d1d.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/code-menu-8c39716e9d81.js" defer="defer"></script>
-  
-  <script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/primer-react-957709c85fcc.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/react-core-0e721ea952e3.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/react-lib-8705026b409a.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/octicons-react-9fd6ca6872cc.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_emotion_is-prop-valid_dist_emotion-is-prop-valid_esm_js-node_modules_emo-b1c483-b5947865157f.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_catalyst_lib_index_js-node_modules_primer_live-region-element_dis-b2aea6-bfc50dd77594.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_dompurify_dist_purify_es_mjs-7457ebdd1a1f.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_lodash-es__Stack_js-node_modules_lodash-es__Uint8Array_js-node_modules_l-4faaa6-16c4e2c524de.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_lodash-es_isEqual_js-a0841ced23fc.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_tanstack_react-virtual_dist_esm_index_js-807aab04afeb.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_focus-visible_dist_focus-visible_js-node_modules_github_hydro-analytics--e21ffd-0b758af67e69.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_fzy_js_index_js-node_modules_react-reverse-portal_dist_web_index_js-node-835def-721f0587143e.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/ui_packages_document-metadata_document-metadata_ts-ui_packages_history_history_ts-ui_packages-417c81-00e1a3522739.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/ui_packages_paths_index_ts-2c6108a4a75d.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/ui_packages_ref-selector_RefSelector_tsx-09f18b452658.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/ui_packages_commit-attribution_index_ts-ui_packages_commit-checks-status_index_ts-ui_packages-762eaa-0ccc80d07903.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/ui_packages_app-uuid_app-uuid_ts-ui_packages_repos-file-tree-view_repos-file-tree-view_ts-ui_-e7c631-d515915515f3.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/ui_packages_hydro-analytics_hydro-analytics_ts-ui_packages_use-client-value_use-client-value_-6f712e-1a5c6e896470.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/ui_packages_code-view-shared_hooks_use-canonical-object_ts-ui_packages_code-view-shared_hooks-7b64b1-2f677e5ac3a8.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/app_assets_modules_github_blob-anchor_ts-ui_packages_code-nav_code-nav_ts-ui_packages_filter--8253c1-5fde020dbad1.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/react-code-view-56efbb51d993.js" defer="defer"></script>
-<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-react.40c6e83ff50327d4c9c1.module.css" />
-<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/react-code-view.f828e7c17d2129f3c506.module.css" />
-
-  <script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/notifications-subscriptions-menu-6a6c51243b78.js" defer="defer"></script>
-<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-react.40c6e83ff50327d4c9c1.module.css" />
-<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/notifications-subscriptions-menu.e5e6e593370c808590a5.module.css" />
-
-
-  <title>Core-Wallet/src/wallet/wallet.cpp at main · FewBit-Coin/Core-Wallet · GitHub</title>
-
-
-
-  <meta name="route-pattern" content="/:user_id/:repository/blob/*name(/*path)" data-turbo-transient>
-  <meta name="route-controller" content="blob" data-turbo-transient>
-  <meta name="route-action" content="show" data-turbo-transient>
-  <meta name="fetch-nonce" content="v2:a5de8598-cc27-f736-aa8c-c6311bae96cb">
-
-    
-  <meta name="current-catalog-service-hash" content="f3abb0cc802f3d7b95fc8762b94bdcb13bf39634c40c357301c4aa1d67a256fb">
-
-
-  <meta name="request-id" content="C7BA:E641C:EB1E32:F1F52F:684B50C4" data-pjax-transient="true"/><meta name="html-safe-nonce" content="f02cc4e125b5e4d78e4d08a421f995640150d1ca82e97d18c19abbccb9acb0ef" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJDN0JBOkU2NDFDOkVCMUUzMjpGMUY1MkY6Njg0QjUwQzQiLCJ2aXNpdG9yX2lkIjoiNDI4ODc1NzE3NDQ3MTcwODg2OCIsInJlZ2lvbl9lZGdlIjoiZnJhIiwicmVnaW9uX3JlbmRlciI6ImZyYSJ9" data-pjax-transient="true"/><meta name="visitor-hmac" content="625c458fcd6b6e63a2a188c8463171740f609d3f084995283d90b86b6b0d9c45" data-pjax-transient="true"/>
-
-
-    <meta name="hovercard-subject-tag" content="repository:800855917" data-turbo-transient>
-
-
-  <meta name="github-keyboard-shortcuts" content="repository,source-code,file-tree,copilot" data-turbo-transient="true" />
-  
-
-  <meta name="selected-link" value="repo_source" data-turbo-transient>
-  <link rel="assets" href="https://github.githubassets.com/">
-
-    <meta name="google-site-verification" content="Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I">
-
-<meta name="octolytics-url" content="https://collector.github.com/github/collect" />
-
-  <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-turbo-transient="true" />
-
-  
-
-
-
-
-    <meta name="user-login" content="">
-
-  
-
-    <meta name="viewport" content="width=device-width">
-
-    
-
-      <meta name="description" content="Contribute to FewBit-Coin/Core-Wallet development by creating an account on GitHub.">
-
-      <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
-
-    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
-    <meta property="fb:app_id" content="1401488693436528">
-    <meta name="apple-itunes-app" content="app-id=1477376905, app-argument=https://github.com/FewBit-Coin/Core-Wallet/blob/main/src/wallet/wallet.cpp" />
-
-      <meta name="twitter:image" content="https://opengraph.githubassets.com/b4f3318e73246cfa8336d7663c09868b24974c8df4b6138b94c830329c5c3004/FewBit-Coin/Core-Wallet" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="Core-Wallet/src/wallet/wallet.cpp at main · FewBit-Coin/Core-Wallet" /><meta name="twitter:description" content="Contribute to FewBit-Coin/Core-Wallet development by creating an account on GitHub." />
-  <meta property="og:image" content="https://opengraph.githubassets.com/b4f3318e73246cfa8336d7663c09868b24974c8df4b6138b94c830329c5c3004/FewBit-Coin/Core-Wallet" /><meta property="og:image:alt" content="Contribute to FewBit-Coin/Core-Wallet development by creating an account on GitHub." /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="600" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="Core-Wallet/src/wallet/wallet.cpp at main · FewBit-Coin/Core-Wallet" /><meta property="og:url" content="https://github.com/FewBit-Coin/Core-Wallet/blob/main/src/wallet/wallet.cpp" /><meta property="og:description" content="Contribute to FewBit-Coin/Core-Wallet development by creating an account on GitHub." />
-  
-
-
-
-
-      <meta name="hostname" content="github.com">
-
-
-
-        <meta name="expected-hostname" content="github.com">
-
-
-  <meta http-equiv="x-pjax-version" content="23a7d6bd66ff9961dd1d98b1efa34875c23149d6f8761ac3a5a102b8bc7f1655" data-turbo-track="reload">
-  <meta http-equiv="x-pjax-csp-version" content="352e51c42d5f5727a7c545752bf34d1f83f40219e7036c6959817149a51651bc" data-turbo-track="reload">
-  <meta http-equiv="x-pjax-css-version" content="1f54d8cc783c30a2477daabff9d96f7012083d75959dca606d284f335a804324" data-turbo-track="reload">
-  <meta http-equiv="x-pjax-js-version" content="632143056105498d08c036f2eb6d43606d9782bbbc061987c1919d2ece7b07fe" data-turbo-track="reload">
-
-  <meta name="turbo-cache-control" content="no-preview" data-turbo-transient="">
-
-      <meta name="turbo-cache-control" content="no-cache" data-turbo-transient>
-
-    <meta data-hydrostats="publish">
-  <meta name="go-import" content="github.com/FewBit-Coin/Core-Wallet git https://github.com/FewBit-Coin/Core-Wallet.git">
-
-  <meta name="octolytics-dimension-user_id" content="169876752" /><meta name="octolytics-dimension-user_login" content="FewBit-Coin" /><meta name="octolytics-dimension-repository_id" content="800855917" /><meta name="octolytics-dimension-repository_nwo" content="FewBit-Coin/Core-Wallet" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="800855917" /><meta name="octolytics-dimension-repository_network_root_nwo" content="FewBit-Coin/Core-Wallet" />
-
-
-
-    
-
-    <meta name="turbo-body-classes" content="logged-out env-production page-responsive">
-
-
-  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
-
-  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
-
-  <meta name="release" content="e0039edb7953313b9600979aa773abca270c868c">
-
-  <link rel="mask-icon" href="https://github.githubassets.com/assets/pinned-octocat-093da3e6fa40.svg" color="#000000">
-  <link rel="alternate icon" class="js-site-favicon" type="image/png" href="https://github.githubassets.com/favicons/favicon.png">
-  <link rel="icon" class="js-site-favicon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon.svg" data-base-href="https://github.githubassets.com/favicons/favicon">
-
-<meta name="theme-color" content="#1e2327">
-<meta name="color-scheme" content="light dark" />
-
-
-  <link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
-
-  </head>
-
-  <body class="logged-out env-production page-responsive" style="word-wrap: break-word;">
-    <div data-turbo-body class="logged-out env-production page-responsive" style="word-wrap: break-word;">
-      
-
-
-
-    <div class="position-relative header-wrapper js-header-wrapper ">
-      <a href="#start-of-content" data-skip-target-assigned="false" class="px-2 py-4 color-bg-accent-emphasis color-fg-on-emphasis show-on-focus js-skip-to-content">Skip to content</a>
-
-      <span data-view-component="true" class="progress-pjax-loader Progress position-fixed width-full">
-    <span style="width: 0%;" data-view-component="true" class="Progress-item progress-pjax-loader-bar left-0 top-0 color-bg-accent-emphasis"></span>
-</span>      
-      
-      <script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/ui_packages_ui-commands_ui-commands_ts-bbf08236150c.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/keyboard-shortcuts-dialog-6bb6aa2945d5.js" defer="defer"></script>
-<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-react.40c6e83ff50327d4c9c1.module.css" />
-<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/keyboard-shortcuts-dialog.47de85e2c17af43cefd5.module.css" />
-
-<react-partial
-  partial-name="keyboard-shortcuts-dialog"
-  data-ssr="false"
-  data-attempted-ssr="false"
->
-  
-  <script type="application/json" data-target="react-partial.embeddedData">{"props":{"docsUrl":"https://docs.github.com/get-started/accessibility/keyboard-shortcuts"}}</script>
-  <div data-target="react-partial.reactRoot"></div>
-</react-partial>
-
-
-
-
-      
-
-          
-
-              
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_remote-form_dist_index_js-node_modules_delegated-events_dist_inde-94fd67-99b04cc350b5.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/sessions-eed3aa0554dd.js" defer="defer"></script>
-<header class="HeaderMktg header-logged-out js-details-container js-header Details f4 py-3" role="banner" data-is-top="true" data-color-mode=light data-light-theme=light data-dark-theme=dark>
-  <h2 class="sr-only">Navigation Menu</h2>
-
-  <button type="button" class="HeaderMktg-backdrop d-lg-none border-0 position-fixed top-0 left-0 width-full height-full js-details-target" aria-label="Toggle navigation">
-    <span class="d-none">Toggle navigation</span>
-  </button>
-
-  <div class="d-flex flex-column flex-lg-row flex-items-center px-3 px-md-4 px-lg-5 height-full position-relative z-1">
-    <div class="d-flex flex-justify-between flex-items-center width-full width-lg-auto">
-      <div class="flex-1">
-        <button aria-label="Toggle navigation" aria-expanded="false" type="button" data-view-component="true" class="js-details-target js-nav-padding-recalculate js-header-menu-toggle Button--link Button--medium Button d-lg-none color-fg-inherit p-1">  <span class="Button-content">
-    <span class="Button-label"><div class="HeaderMenu-toggle-bar rounded my-1"></div>
-            <div class="HeaderMenu-toggle-bar rounded my-1"></div>
-            <div class="HeaderMenu-toggle-bar rounded my-1"></div></span>
-  </span>
-</button>
-      </div>
-
-      <a class="mr-lg-3 color-fg-inherit flex-order-2 js-prevent-focus-on-mobile-nav"
-        href="/"
-        aria-label="Homepage"
-        data-analytics-event="{&quot;category&quot;:&quot;Marketing nav&quot;,&quot;action&quot;:&quot;click to go to homepage&quot;,&quot;label&quot;:&quot;ref_page:Marketing;ref_cta:Logomark;ref_loc:Header&quot;}">
-        <svg height="32" aria-hidden="true" viewBox="0 0 24 24" version="1.1" width="32" data-view-component="true" class="octicon octicon-mark-github">
-    <path d="M12 1C5.9225 1 1 5.9225 1 12C1 16.8675 4.14875 20.9787 8.52125 22.4362C9.07125 22.5325 9.2775 22.2025 9.2775 21.9137C9.2775 21.6525 9.26375 20.7862 9.26375 19.865C6.5 20.3737 5.785 19.1912 5.565 18.5725C5.44125 18.2562 4.905 17.28 4.4375 17.0187C4.0525 16.8125 3.5025 16.3037 4.42375 16.29C5.29 16.2762 5.90875 17.0875 6.115 17.4175C7.105 19.0812 8.68625 18.6137 9.31875 18.325C9.415 17.61 9.70375 17.1287 10.02 16.8537C7.5725 16.5787 5.015 15.63 5.015 11.4225C5.015 10.2262 5.44125 9.23625 6.1425 8.46625C6.0325 8.19125 5.6475 7.06375 6.2525 5.55125C6.2525 5.55125 7.17375 5.2625 9.2775 6.67875C10.1575 6.43125 11.0925 6.3075 12.0275 6.3075C12.9625 6.3075 13.8975 6.43125 14.7775 6.67875C16.8813 5.24875 17.8025 5.55125 17.8025 5.55125C18.4075 7.06375 18.0225 8.19125 17.9125 8.46625C18.6138 9.23625 19.04 10.2125 19.04 11.4225C19.04 15.6437 16.4688 16.5787 14.0213 16.8537C14.42 17.1975 14.7638 17.8575 14.7638 18.8887C14.7638 20.36 14.75 21.5425 14.75 21.9137C14.75 22.2025 14.9563 22.5462 15.5063 22.4362C19.8513 20.9787 23 16.8537 23 12C23 5.9225 18.0775 1 12 1Z"></path>
-</svg>
-      </a>
-
-      <div class="d-flex flex-1 flex-order-2 text-right d-lg-none gap-2 flex-justify-end">
-          <a
-            href="/login?return_to=https%3A%2F%2Fgithub.com%2FFewBit-Coin%2FCore-Wallet%2Fblob%2Fmain%2Fsrc%2Fwallet%2Fwallet.cpp"
-            class="HeaderMenu-link HeaderMenu-button d-inline-flex f5 no-underline border color-border-default rounded-2 px-2 py-1 color-fg-inherit js-prevent-focus-on-mobile-nav"
-            data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/FewBit-Coin/Core-Wallet/blob/main/src/wallet/wallet.cpp&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="162a9c5947a5602c13fb89dbcd35ccccabd4fb585386ba6c2f17e8fd4966836f"
-            data-analytics-event="{&quot;category&quot;:&quot;Marketing nav&quot;,&quot;action&quot;:&quot;click to Sign in&quot;,&quot;label&quot;:&quot;ref_page:Marketing;ref_cta:Sign in;ref_loc:Header&quot;}"
-          >
-            Sign in
-          </a>
-              <div class="AppHeader-appearanceSettings">
-    <react-partial-anchor>
-      <button data-target="react-partial-anchor.anchor" id="icon-button-871b71e8-380c-4423-9230-866ee04e16a8" aria-labelledby="tooltip-f2dd73c9-0d6c-4e53-82d8-5589973a2bc3" type="button" disabled="disabled" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium AppHeader-button HeaderMenu-link border cursor-wait">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-sliders Button-visual">
-    <path d="M15 2.75a.75.75 0 0 1-.75.75h-4a.75.75 0 0 1 0-1.5h4a.75.75 0 0 1 .75.75Zm-8.5.75v1.25a.75.75 0 0 0 1.5 0v-4a.75.75 0 0 0-1.5 0V2H1.75a.75.75 0 0 0 0 1.5H6.5Zm1.25 5.25a.75.75 0 0 0 0-1.5h-6a.75.75 0 0 0 0 1.5h6ZM15 8a.75.75 0 0 1-.75.75H11.5V10a.75.75 0 1 1-1.5 0V6a.75.75 0 0 1 1.5 0v1.25h2.75A.75.75 0 0 1 15 8Zm-9 5.25v-2a.75.75 0 0 0-1.5 0v1.25H1.75a.75.75 0 0 0 0 1.5H4.5v1.25a.75.75 0 0 0 1.5 0v-2Zm9 0a.75.75 0 0 1-.75.75h-6a.75.75 0 0 1 0-1.5h6a.75.75 0 0 1 .75.75Z"></path>
-</svg>
-</button><tool-tip id="tooltip-f2dd73c9-0d6c-4e53-82d8-5589973a2bc3" for="icon-button-871b71e8-380c-4423-9230-866ee04e16a8" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Appearance settings</tool-tip>
-
-      <template data-target="react-partial-anchor.template">
-        <script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/ui_packages_document-metadata_document-metadata_ts-ui_packages_promise-with-resolvers-polyfil-40d47c-9a520a0203c8.js" defer="defer"></script>
-<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/appearance-settings-ca5eb47b4f39.js" defer="defer"></script>
-<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-react.40c6e83ff50327d4c9c1.module.css" />
-<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/appearance-settings.4e1ca273f504ba849f8c.module.css" />
-
-<react-partial
-  partial-name="appearance-settings"
-  data-ssr="false"
-  data-attempted-ssr="false"
->
-  
-  <script type="application/json" data-target="react-partial.embeddedData">{"props":{}}</script>
-  <div data-target="react-partial.reactRoot"></div>
-</react-partial>
-
-      </template>
-    </react-partial-anchor>
-  </div>
-
-      </div>
-    </div>
-
-
-    <div class="HeaderMenu js-header-menu height-fit position-lg-relative d-lg-flex flex-column flex-auto top-0">
-      <div class="HeaderMenu-wrapper d-flex flex-column flex-self-start flex-lg-row flex-auto rounded rounded-lg-0">
-          <nav class="HeaderMenu-nav" aria-label="Global">
-            <ul class="d-lg-flex list-style-none">
-
-
-                <li class="HeaderMenu-item position-relative flex-wrap flex-justify-between flex-items-center d-block d-lg-flex flex-lg-nowrap flex-lg-items-center js-details-container js-header-menu-item">
-      <button type="button" class="HeaderMenu-link border-0 width-full width-lg-auto px-0 px-lg-2 py-lg-2 no-wrap d-flex flex-items-center flex-justify-between js-details-target" aria-expanded="false">
-        Product
-        <svg opacity="0.5" aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-chevron-down HeaderMenu-icon ml-1">
-    <path d="M12.78 5.22a.749.749 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.06 0L3.22 6.28a.749.749 0 1 1 1.06-1.06L8 8.939l3.72-3.719a.749.749 0 0 1 1.06 0Z"></path>
-</svg>
-      </button>
-
-      <div class="HeaderMenu-dropdown dropdown-menu rounded m-0 p-0 pt-2 pt-lg-4 position-relative position-lg-absolute left-0 left-lg-n3 pb-2 pb-lg-4 d-lg-flex flex-wrap dropdown-menu-wide">
-          <div class="HeaderMenu-column px-lg-4 border-lg-right mb-4 mb-lg-0 pr-lg-7">
-              <div class="border-bottom pb-3 pb-lg-0 border-lg-bottom-0">
-
-                <ul class="list-style-none f5" >
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary d-flex flex-items-center Link--has-description pb-lg-3" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;github_copilot&quot;,&quot;context&quot;:&quot;product&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;github_copilot_link_product_navbar&quot;}" href="https://github.com/features/copilot">
-      <svg aria-hidden="true" height="24" viewBox="0 0 24 24" version="1.1" width="24" data-view-component="true" class="octicon octicon-copilot color-fg-subtle mr-3">
-    <path d="M23.922 16.992c-.861 1.495-5.859 5.023-11.922 5.023-6.063 0-11.061-3.528-11.922-5.023A.641.641 0 0 1 0 16.736v-2.869a.841.841 0 0 1 .053-.22c.372-.935 1.347-2.292 2.605-2.656.167-.429.414-1.055.644-1.517a10.195 10.195 0 0 1-.052-1.086c0-1.331.282-2.499 1.132-3.368.397-.406.89-.717 1.474-.952 1.399-1.136 3.392-2.093 6.122-2.093 2.731 0 4.767.957 6.166 2.093.584.235 1.077.546 1.474.952.85.869 1.132 2.037 1.132 3.368 0 .368-.014.733-.052 1.086.23.462.477 1.088.644 1.517 1.258.364 2.233 1.721 2.605 2.656a.832.832 0 0 1 .053.22v2.869a.641.641 0 0 1-.078.256ZM12.172 11h-.344a4.323 4.323 0 0 1-.355.508C10.703 12.455 9.555 13 7.965 13c-1.725 0-2.989-.359-3.782-1.259a2.005 2.005 0 0 1-.085-.104L4 11.741v6.585c1.435.779 4.514 2.179 8 2.179 3.486 0 6.565-1.4 8-2.179v-6.585l-.098-.104s-.033.045-.085.104c-.793.9-2.057 1.259-3.782 1.259-1.59 0-2.738-.545-3.508-1.492a4.323 4.323 0 0 1-.355-.508h-.016.016Zm.641-2.935c.136 1.057.403 1.913.878 2.497.442.544 1.134.938 2.344.938 1.573 0 2.292-.337 2.657-.751.384-.435.558-1.15.558-2.361 0-1.14-.243-1.847-.705-2.319-.477-.488-1.319-.862-2.824-1.025-1.487-.161-2.192.138-2.533.529-.269.307-.437.808-.438 1.578v.021c0 .265.021.562.063.893Zm-1.626 0c.042-.331.063-.628.063-.894v-.02c-.001-.77-.169-1.271-.438-1.578-.341-.391-1.046-.69-2.533-.529-1.505.163-2.347.537-2.824 1.025-.462.472-.705 1.179-.705 2.319 0 1.211.175 1.926.558 2.361.365.414 1.084.751 2.657.751 1.21 0 1.902-.394 2.344-.938.475-.584.742-1.44.878-2.497Z"></path><path d="M14.5 14.25a1 1 0 0 1 1 1v2a1 1 0 0 1-2 0v-2a1 1 0 0 1 1-1Zm-5 0a1 1 0 0 1 1 1v2a1 1 0 0 1-2 0v-2a1 1 0 0 1 1-1Z"></path>
-</svg>
-      <div>
-          <div class="color-fg-default h4">
-            GitHub Copilot
-          </div>
-        Write better code with AI
-      </div>
-
-    
-</a></li>
-
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary d-flex flex-items-center Link--has-description pb-lg-3" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;github_models&quot;,&quot;context&quot;:&quot;product&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;github_models_link_product_navbar&quot;}" href="https://github.com/features/models">
-      <svg aria-hidden="true" height="24" viewBox="0 0 24 24" version="1.1" width="24" data-view-component="true" class="octicon octicon-ai-model color-fg-subtle mr-3">
-    <path d="M19.375 8.5a3.25 3.25 0 1 1-3.163 4h-3a3.252 3.252 0 0 1-4.443 2.509L7.214 17.76a3.25 3.25 0 1 1-1.342-.674l1.672-2.957A3.238 3.238 0 0 1 6.75 12c0-.907.371-1.727.97-2.316L6.117 6.846A3.253 3.253 0 0 1 1.875 3.75a3.25 3.25 0 1 1 5.526 2.32l1.603 2.836A3.25 3.25 0 0 1 13.093 11h3.119a3.252 3.252 0 0 1 3.163-2.5ZM10 10.25a1.75 1.75 0 1 0-.001 3.499A1.75 1.75 0 0 0 10 10.25ZM5.125 2a1.75 1.75 0 1 0 0 3.5 1.75 1.75 0 0 0 0-3.5Zm12.5 9.75a1.75 1.75 0 1 0 3.5 0 1.75 1.75 0 0 0-3.5 0Zm-14.25 8.5a1.75 1.75 0 1 0 3.501-.001 1.75 1.75 0 0 0-3.501.001Z"></path>
-</svg>
-      <div>
-          <div class="color-fg-default h4">
-            GitHub Models
-              <span class="HeaderMenu-label">
-                New
-              </span>
-          </div>
-        Manage and compare prompts
-      </div>
-
-    
-</a></li>
-
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary d-flex flex-items-center Link--has-description pb-lg-3" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;github_advanced_security&quot;,&quot;context&quot;:&quot;product&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;github_advanced_security_link_product_navbar&quot;}" href="https://github.com/security/advanced-security">
-      <svg aria-hidden="true" height="24" viewBox="0 0 24 24" version="1.1" width="24" data-view-component="true" class="octicon octicon-shield-check color-fg-subtle mr-3">
-    <path d="M16.53 9.78a.75.75 0 0 0-1.06-1.06L11 13.19l-1.97-1.97a.75.75 0 0 0-1.06 1.06l2.5 2.5a.75.75 0 0 0 1.06 0l5-5Z"></path><path d="m12.54.637 8.25 2.675A1.75 1.75 0 0 1 22 4.976V10c0 6.19-3.771 10.704-9.401 12.83a1.704 1.704 0 0 1-1.198 0C5.77 20.705 2 16.19 2 10V4.976c0-.758.489-1.43 1.21-1.664L11.46.637a1.748 1.748 0 0 1 1.08 0Zm-.617 1.426-8.25 2.676a.249.249 0 0 0-.173.237V10c0 5.46 3.28 9.483 8.43 11.426a.199.199 0 0 0 .14 0C17.22 19.483 20.5 15.461 20.5 10V4.976a.25.25 0 0 0-.173-.237l-8.25-2.676a.253.253 0 0 0-.154 0Z"></path>
-</svg>
-      <div>
-          <div class="color-fg-default h4">
-            GitHub Advanced Security
-          </div>
-        Find and fix vulnerabilities
-      </div>
-
-    
-</a></li>
-
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary d-flex flex-items-center Link--has-description pb-lg-3" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;actions&quot;,&quot;context&quot;:&quot;product&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;actions_link_product_navbar&quot;}" href="https://github.com/features/actions">
-      <svg aria-hidden="true" height="24" viewBox="0 0 24 24" version="1.1" width="24" data-view-component="true" class="octicon octicon-workflow color-fg-subtle mr-3">
-    <path d="M1 3a2 2 0 0 1 2-2h6.5a2 2 0 0 1 2 2v6.5a2 2 0 0 1-2 2H7v4.063C7 16.355 7.644 17 8.438 17H12.5v-2.5a2 2 0 0 1 2-2H21a2 2 0 0 1 2 2V21a2 2 0 0 1-2 2h-6.5a2 2 0 0 1-2-2v-2.5H8.437A2.939 2.939 0 0 1 5.5 15.562V11.5H3a2 2 0 0 1-2-2Zm2-.5a.5.5 0 0 0-.5.5v6.5a.5.5 0 0 0 .5.5h6.5a.5.5 0 0 0 .5-.5V3a.5.5 0 0 0-.5-.5ZM14.5 14a.5.5 0 0 0-.5.5V21a.5.5 0 0 0 .5.5H21a.5.5 0 0 0 .5-.5v-6.5a.5.5 0 0 0-.5-.5Z"></path>
-</svg>
-      <div>
-          <div class="color-fg-default h4">
-            Actions
-          </div>
-        Automate any workflow
-      </div>
-
-    
-</a></li>
-
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary d-flex flex-items-center Link--has-description" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;codespaces&quot;,&quot;context&quot;:&quot;product&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;codespaces_link_product_navbar&quot;}" href="https://github.com/features/codespaces">
-      <svg aria-hidden="true" height="24" viewBox="0 0 24 24" version="1.1" width="24" data-view-component="true" class="octicon octicon-codespaces color-fg-subtle mr-3">
-    <path d="M3.5 3.75C3.5 2.784 4.284 2 5.25 2h13.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 18.75 13H5.25a1.75 1.75 0 0 1-1.75-1.75Zm-2 12c0-.966.784-1.75 1.75-1.75h17.5c.966 0 1.75.784 1.75 1.75v4a1.75 1.75 0 0 1-1.75 1.75H3.25a1.75 1.75 0 0 1-1.75-1.75ZM5.25 3.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h13.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Zm-2 12a.25.25 0 0 0-.25.25v4c0 .138.112.25.25.25h17.5a.25.25 0 0 0 .25-.25v-4a.25.25 0 0 0-.25-.25Z"></path><path d="M10 17.75a.75.75 0 0 1 .75-.75h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1-.75-.75Zm-4 0a.75.75 0 0 1 .75-.75h.5a.75.75 0 0 1 0 1.5h-.5a.75.75 0 0 1-.75-.75Z"></path>
-</svg>
-      <div>
-          <div class="color-fg-default h4">
-            Codespaces
-          </div>
-        Instant dev environments
-      </div>
-
-    
-</a></li>
-
-                </ul>
-              </div>
-          </div>
-          <div class="HeaderMenu-column px-lg-4 border-lg-right mb-4 mb-lg-0 pr-lg-7">
-              <div class="border-bottom pb-3 pb-lg-0 border-lg-bottom-0">
-
-                <ul class="list-style-none f5" >
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary d-flex flex-items-center Link--has-description pb-lg-3" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;issues&quot;,&quot;context&quot;:&quot;product&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;issues_link_product_navbar&quot;}" href="https://github.com/features/issues">
-      <svg aria-hidden="true" height="24" viewBox="0 0 24 24" version="1.1" width="24" data-view-component="true" class="octicon octicon-issue-opened color-fg-subtle mr-3">
-    <path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Zm9.5 2a2 2 0 1 1-.001-3.999A2 2 0 0 1 12 14Z"></path>
-</svg>
-      <div>
-          <div class="color-fg-default h4">
-            Issues
-          </div>
-        Plan and track work
-      </div>
-
-    
-</a></li>
-
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary d-flex flex-items-center Link--has-description pb-lg-3" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;code_review&quot;,&quot;context&quot;:&quot;product&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;code_review_link_product_navbar&quot;}" href="https://github.com/features/code-review">
-      <svg aria-hidden="true" height="24" viewBox="0 0 24 24" version="1.1" width="24" data-view-component="true" class="octicon octicon-code-review color-fg-subtle mr-3">
-    <path d="M10.3 6.74a.75.75 0 0 1-.04 1.06l-2.908 2.7 2.908 2.7a.75.75 0 1 1-1.02 1.1l-3.5-3.25a.75.75 0 0 1 0-1.1l3.5-3.25a.75.75 0 0 1 1.06.04Zm3.44 1.06a.75.75 0 1 1 1.02-1.1l3.5 3.25a.75.75 0 0 1 0 1.1l-3.5 3.25a.75.75 0 1 1-1.02-1.1l2.908-2.7-2.908-2.7Z"></path><path d="M1.5 4.25c0-.966.784-1.75 1.75-1.75h17.5c.966 0 1.75.784 1.75 1.75v12.5a1.75 1.75 0 0 1-1.75 1.75h-9.69l-3.573 3.573A1.458 1.458 0 0 1 5 21.043V18.5H3.25a1.75 1.75 0 0 1-1.75-1.75ZM3.25 4a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h2.5a.75.75 0 0 1 .75.75v3.19l3.72-3.72a.749.749 0 0 1 .53-.22h10a.25.25 0 0 0 .25-.25V4.25a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <div>
-          <div class="color-fg-default h4">
-            Code Review
-          </div>
-        Manage code changes
-      </div>
-
-    
-</a></li>
-
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary d-flex flex-items-center Link--has-description pb-lg-3" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;discussions&quot;,&quot;context&quot;:&quot;product&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;discussions_link_product_navbar&quot;}" href="https://github.com/features/discussions">
-      <svg aria-hidden="true" height="24" viewBox="0 0 24 24" version="1.1" width="24" data-view-component="true" class="octicon octicon-comment-discussion color-fg-subtle mr-3">
-    <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"></path><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"></path>
-</svg>
-      <div>
-          <div class="color-fg-default h4">
-            Discussions
-          </div>
-        Collaborate outside of code
-      </div>
-
-    
-</a></li>
-
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary d-flex flex-items-center Link--has-description" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;code_search&quot;,&quot;context&quot;:&quot;product&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;code_search_link_product_navbar&quot;}" href="https://github.com/features/code-search">
-      <svg aria-hidden="true" height="24" viewBox="0 0 24 24" version="1.1" width="24" data-view-component="true" class="octicon octicon-code-square color-fg-subtle mr-3">
-    <path d="M10.3 8.24a.75.75 0 0 1-.04 1.06L7.352 12l2.908 2.7a.75.75 0 1 1-1.02 1.1l-3.5-3.25a.75.75 0 0 1 0-1.1l3.5-3.25a.75.75 0 0 1 1.06.04Zm3.44 1.06a.75.75 0 1 1 1.02-1.1l3.5 3.25a.75.75 0 0 1 0 1.1l-3.5 3.25a.75.75 0 1 1-1.02-1.1l2.908-2.7-2.908-2.7Z"></path><path d="M2 3.75C2 2.784 2.784 2 3.75 2h16.5c.966 0 1.75.784 1.75 1.75v16.5A1.75 1.75 0 0 1 20.25 22H3.75A1.75 1.75 0 0 1 2 20.25Zm1.75-.25a.25.25 0 0 0-.25.25v16.5c0 .138.112.25.25.25h16.5a.25.25 0 0 0 .25-.25V3.75a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <div>
-          <div class="color-fg-default h4">
-            Code Search
-          </div>
-        Find more, search less
-      </div>
-
-    
-</a></li>
-
-                </ul>
-              </div>
-          </div>
-          <div class="HeaderMenu-column px-lg-4">
-              <div class="border-bottom pb-3 pb-lg-0 border-lg-bottom-0 border-bottom-0">
-                    <span class="d-block h4 color-fg-default my-1" id="product-explore-heading">Explore</span>
-
-                <ul class="list-style-none f5" aria-labelledby="product-explore-heading">
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;why_github&quot;,&quot;context&quot;:&quot;product&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;why_github_link_product_navbar&quot;}" href="https://github.com/why-github">
-      Why GitHub
-
-    
-</a></li>
-
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;all_features&quot;,&quot;context&quot;:&quot;product&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;all_features_link_product_navbar&quot;}" href="https://github.com/features">
-      All features
-
-    
-</a></li>
-
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary Link--external" target="_blank" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;documentation&quot;,&quot;context&quot;:&quot;product&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;documentation_link_product_navbar&quot;}" href="https://docs.github.com">
-      Documentation
-
-    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-link-external HeaderMenu-external-icon color-fg-subtle">
-    <path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path>
-</svg>
-</a></li>
-
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary Link--external" target="_blank" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;github_skills&quot;,&quot;context&quot;:&quot;product&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;github_skills_link_product_navbar&quot;}" href="https://skills.github.com">
-      GitHub Skills
-
-    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-link-external HeaderMenu-external-icon color-fg-subtle">
-    <path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path>
-</svg>
-</a></li>
-
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary Link--external" target="_blank" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;blog&quot;,&quot;context&quot;:&quot;product&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;blog_link_product_navbar&quot;}" href="https://github.blog">
-      Blog
-
-    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-link-external HeaderMenu-external-icon color-fg-subtle">
-    <path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path>
-</svg>
-</a></li>
-
-                </ul>
-              </div>
-          </div>
-
-      </div>
-</li>
-
-
-                <li class="HeaderMenu-item position-relative flex-wrap flex-justify-between flex-items-center d-block d-lg-flex flex-lg-nowrap flex-lg-items-center js-details-container js-header-menu-item">
-      <button type="button" class="HeaderMenu-link border-0 width-full width-lg-auto px-0 px-lg-2 py-lg-2 no-wrap d-flex flex-items-center flex-justify-between js-details-target" aria-expanded="false">
-        Solutions
-        <svg opacity="0.5" aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-chevron-down HeaderMenu-icon ml-1">
-    <path d="M12.78 5.22a.749.749 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.06 0L3.22 6.28a.749.749 0 1 1 1.06-1.06L8 8.939l3.72-3.719a.749.749 0 0 1 1.06 0Z"></path>
-</svg>
-      </button>
-
-      <div class="HeaderMenu-dropdown dropdown-menu rounded m-0 p-0 pt-2 pt-lg-4 position-relative position-lg-absolute left-0 left-lg-n3 d-lg-flex flex-wrap dropdown-menu-wide">
-          <div class="HeaderMenu-column px-lg-4 border-lg-right mb-4 mb-lg-0 pr-lg-7">
-              <div class="border-bottom pb-3 pb-lg-0 border-lg-bottom-0 pb-lg-3 mb-3 mb-lg-0">
-                    <span class="d-block h4 color-fg-default my-1" id="solutions-by-company-size-heading">By company size</span>
-
-                <ul class="list-style-none f5" aria-labelledby="solutions-by-company-size-heading">
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;enterprises&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;enterprises_link_solutions_navbar&quot;}" href="https://github.com/enterprise">
-      Enterprises
-
-    
-</a></li>
-
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;small_and_medium_teams&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;small_and_medium_teams_link_solutions_navbar&quot;}" href="https://github.com/team">
-      Small and medium teams
-
-    
-</a></li>
-
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;startups&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;startups_link_solutions_navbar&quot;}" href="https://github.com/enterprise/startups">
-      Startups
-
-    
-</a></li>
-
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;nonprofits&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;nonprofits_link_solutions_navbar&quot;}" href="/solutions/industry/nonprofits">
-      Nonprofits
-
-    
-</a></li>
-
-                </ul>
-              </div>
-              <div class="border-bottom pb-3 pb-lg-0 border-lg-bottom-0">
-                    <span class="d-block h4 color-fg-default my-1" id="solutions-by-use-case-heading">By use case</span>
-
-                <ul class="list-style-none f5" aria-labelledby="solutions-by-use-case-heading">
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;devsecops&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;devsecops_link_solutions_navbar&quot;}" href="/solutions/use-case/devsecops">
-      DevSecOps
-
-    
-</a></li>
-
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;devops&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;devops_link_solutions_navbar&quot;}" href="/solutions/use-case/devops">
-      DevOps
-
-    
-</a></li>
-
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;ci_cd&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;ci_cd_link_solutions_navbar&quot;}" href="/solutions/use-case/ci-cd">
-      CI/CD
-
-    
-</a></li>
-
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;view_all_use_cases&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;view_all_use_cases_link_solutions_navbar&quot;}" href="/solutions/use-case">
-      View all use cases
-
-    
-</a></li>
-
-                </ul>
-              </div>
-          </div>
-          <div class="HeaderMenu-column px-lg-4">
-              <div class="border-bottom pb-3 pb-lg-0 border-lg-bottom-0">
-                    <span class="d-block h4 color-fg-default my-1" id="solutions-by-industry-heading">By industry</span>
-
-                <ul class="list-style-none f5" aria-labelledby="solutions-by-industry-heading">
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;healthcare&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;healthcare_link_solutions_navbar&quot;}" href="/solutions/industry/healthcare">
-      Healthcare
-
-    
-</a></li>
-
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;financial_services&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;financial_services_link_solutions_navbar&quot;}" href="/solutions/industry/financial-services">
-      Financial services
-
-    
-</a></li>
-
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;manufacturing&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;manufacturing_link_solutions_navbar&quot;}" href="/solutions/industry/manufacturing">
-      Manufacturing
-
-    
-</a></li>
-
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;government&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;government_link_solutions_navbar&quot;}" href="/solutions/industry/government">
-      Government
-
-    
-</a></li>
-
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;view_all_industries&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;view_all_industries_link_solutions_navbar&quot;}" href="/solutions/industry">
-      View all industries
-
-    
-</a></li>
-
-                </ul>
-              </div>
-          </div>
-
-         <div class="HeaderMenu-trailing-link rounded-bottom-2 flex-shrink-0 mt-lg-4 px-lg-4 py-4 py-lg-3 f5 text-semibold">
-            <a href="/solutions">
-              View all solutions
-              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-chevron-right HeaderMenu-trailing-link-icon">
-    <path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path>
-</svg>
-</a>         </div>
-      </div>
-</li>
-
-
-                <li class="HeaderMenu-item position-relative flex-wrap flex-justify-between flex-items-center d-block d-lg-flex flex-lg-nowrap flex-lg-items-center js-details-container js-header-menu-item">
-      <button type="button" class="HeaderMenu-link border-0 width-full width-lg-auto px-0 px-lg-2 py-lg-2 no-wrap d-flex flex-items-center flex-justify-between js-details-target" aria-expanded="false">
-        Resources
-        <svg opacity="0.5" aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-chevron-down HeaderMenu-icon ml-1">
-    <path d="M12.78 5.22a.749.749 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.06 0L3.22 6.28a.749.749 0 1 1 1.06-1.06L8 8.939l3.72-3.719a.749.749 0 0 1 1.06 0Z"></path>
-</svg>
-      </button>
-
-      <div class="HeaderMenu-dropdown dropdown-menu rounded m-0 p-0 pt-2 pt-lg-4 position-relative position-lg-absolute left-0 left-lg-n3 pb-2 pb-lg-4 d-lg-flex flex-wrap dropdown-menu-wide">
-          <div class="HeaderMenu-column px-lg-4 border-lg-right mb-4 mb-lg-0 pr-lg-7">
-              <div class="border-bottom pb-3 pb-lg-0 border-lg-bottom-0">
-                    <span class="d-block h4 color-fg-default my-1" id="resources-topics-heading">Topics</span>
-
-                <ul class="list-style-none f5" aria-labelledby="resources-topics-heading">
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;ai&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;ai_link_resources_navbar&quot;}" href="/resources/articles/ai">
-      AI
-
-    
-</a></li>
-
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;devops&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;devops_link_resources_navbar&quot;}" href="/resources/articles/devops">
-      DevOps
-
-    
-</a></li>
-
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;security&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;security_link_resources_navbar&quot;}" href="/resources/articles/security">
-      Security
-
-    
-</a></li>
-
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;software_development&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;software_development_link_resources_navbar&quot;}" href="/resources/articles/software-development">
-      Software Development
-
-    
-</a></li>
-
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;view_all&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;view_all_link_resources_navbar&quot;}" href="/resources/articles">
-      View all
-
-    
-</a></li>
-
-                </ul>
-              </div>
-          </div>
-          <div class="HeaderMenu-column px-lg-4">
-              <div class="border-bottom pb-3 pb-lg-0 border-lg-bottom-0 border-bottom-0">
-                    <span class="d-block h4 color-fg-default my-1" id="resources-explore-heading">Explore</span>
-
-                <ul class="list-style-none f5" aria-labelledby="resources-explore-heading">
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary Link--external" target="_blank" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;learning_pathways&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;learning_pathways_link_resources_navbar&quot;}" href="https://resources.github.com/learn/pathways">
-      Learning Pathways
-
-    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-link-external HeaderMenu-external-icon color-fg-subtle">
-    <path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path>
-</svg>
-</a></li>
-
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary Link--external" target="_blank" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;events_amp_webinars&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;events_amp_webinars_link_resources_navbar&quot;}" href="https://resources.github.com">
-      Events &amp; Webinars
-
-    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-link-external HeaderMenu-external-icon color-fg-subtle">
-    <path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path>
-</svg>
-</a></li>
-
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;ebooks_amp_whitepapers&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;ebooks_amp_whitepapers_link_resources_navbar&quot;}" href="https://github.com/resources/whitepapers">
-      Ebooks &amp; Whitepapers
-
-    
-</a></li>
-
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;customer_stories&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;customer_stories_link_resources_navbar&quot;}" href="https://github.com/customer-stories">
-      Customer Stories
-
-    
-</a></li>
-
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary Link--external" target="_blank" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;partners&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;partners_link_resources_navbar&quot;}" href="https://partner.github.com">
-      Partners
-
-    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-link-external HeaderMenu-external-icon color-fg-subtle">
-    <path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path>
-</svg>
-</a></li>
-
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;executive_insights&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;executive_insights_link_resources_navbar&quot;}" href="https://github.com/solutions/executive-insights">
-      Executive Insights
-
-    
-</a></li>
-
-                </ul>
-              </div>
-          </div>
-
-      </div>
-</li>
-
-
-                <li class="HeaderMenu-item position-relative flex-wrap flex-justify-between flex-items-center d-block d-lg-flex flex-lg-nowrap flex-lg-items-center js-details-container js-header-menu-item">
-      <button type="button" class="HeaderMenu-link border-0 width-full width-lg-auto px-0 px-lg-2 py-lg-2 no-wrap d-flex flex-items-center flex-justify-between js-details-target" aria-expanded="false">
-        Open Source
-        <svg opacity="0.5" aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-chevron-down HeaderMenu-icon ml-1">
-    <path d="M12.78 5.22a.749.749 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.06 0L3.22 6.28a.749.749 0 1 1 1.06-1.06L8 8.939l3.72-3.719a.749.749 0 0 1 1.06 0Z"></path>
-</svg>
-      </button>
-
-      <div class="HeaderMenu-dropdown dropdown-menu rounded m-0 p-0 pt-2 pt-lg-4 position-relative position-lg-absolute left-0 left-lg-n3 pb-2 pb-lg-4 px-lg-4">
-          <div class="HeaderMenu-column">
-              <div class="border-bottom pb-3 pb-lg-0 pb-lg-3 mb-3 mb-lg-0 mb-lg-3">
-
-                <ul class="list-style-none f5" >
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary d-flex flex-items-center Link--has-description" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;github_sponsors&quot;,&quot;context&quot;:&quot;open_source&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;github_sponsors_link_open_source_navbar&quot;}" href="/sponsors">
-      
-      <div>
-          <div class="color-fg-default h4">
-            GitHub Sponsors
-          </div>
-        Fund open source developers
-      </div>
-
-    
-</a></li>
-
-                </ul>
-              </div>
-              <div class="border-bottom pb-3 pb-lg-0 pb-lg-3 mb-3 mb-lg-0 mb-lg-3">
-
-                <ul class="list-style-none f5" >
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary d-flex flex-items-center Link--has-description" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;the_readme_project&quot;,&quot;context&quot;:&quot;open_source&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;the_readme_project_link_open_source_navbar&quot;}" href="https://github.com/readme">
-      
-      <div>
-          <div class="color-fg-default h4">
-            The ReadME Project
-          </div>
-        GitHub community articles
-      </div>
-
-    
-</a></li>
-
-                </ul>
-              </div>
-              <div class="border-bottom pb-3 pb-lg-0 border-bottom-0">
-                    <span class="d-block h4 color-fg-default my-1" id="open-source-repositories-heading">Repositories</span>
-
-                <ul class="list-style-none f5" aria-labelledby="open-source-repositories-heading">
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;topics&quot;,&quot;context&quot;:&quot;open_source&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;topics_link_open_source_navbar&quot;}" href="https://github.com/topics">
-      Topics
-
-    
-</a></li>
-
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;trending&quot;,&quot;context&quot;:&quot;open_source&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;trending_link_open_source_navbar&quot;}" href="https://github.com/trending">
-      Trending
-
-    
-</a></li>
-
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;collections&quot;,&quot;context&quot;:&quot;open_source&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;collections_link_open_source_navbar&quot;}" href="https://github.com/collections">
-      Collections
-
-    
-</a></li>
-
-                </ul>
-              </div>
-          </div>
-
-      </div>
-</li>
-
-
-                <li class="HeaderMenu-item position-relative flex-wrap flex-justify-between flex-items-center d-block d-lg-flex flex-lg-nowrap flex-lg-items-center js-details-container js-header-menu-item">
-      <button type="button" class="HeaderMenu-link border-0 width-full width-lg-auto px-0 px-lg-2 py-lg-2 no-wrap d-flex flex-items-center flex-justify-between js-details-target" aria-expanded="false">
-        Enterprise
-        <svg opacity="0.5" aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-chevron-down HeaderMenu-icon ml-1">
-    <path d="M12.78 5.22a.749.749 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.06 0L3.22 6.28a.749.749 0 1 1 1.06-1.06L8 8.939l3.72-3.719a.749.749 0 0 1 1.06 0Z"></path>
-</svg>
-      </button>
-
-      <div class="HeaderMenu-dropdown dropdown-menu rounded m-0 p-0 pt-2 pt-lg-4 position-relative position-lg-absolute left-0 left-lg-n3 pb-2 pb-lg-4 px-lg-4">
-          <div class="HeaderMenu-column">
-              <div class="border-bottom pb-3 pb-lg-0 pb-lg-3 mb-3 mb-lg-0 mb-lg-3">
-
-                <ul class="list-style-none f5" >
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary d-flex flex-items-center Link--has-description" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;enterprise_platform&quot;,&quot;context&quot;:&quot;enterprise&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;enterprise_platform_link_enterprise_navbar&quot;}" href="/enterprise">
-      <svg aria-hidden="true" height="24" viewBox="0 0 24 24" version="1.1" width="24" data-view-component="true" class="octicon octicon-stack color-fg-subtle mr-3">
-    <path d="M11.063 1.456a1.749 1.749 0 0 1 1.874 0l8.383 5.316a1.751 1.751 0 0 1 0 2.956l-8.383 5.316a1.749 1.749 0 0 1-1.874 0L2.68 9.728a1.751 1.751 0 0 1 0-2.956Zm1.071 1.267a.25.25 0 0 0-.268 0L3.483 8.039a.25.25 0 0 0 0 .422l8.383 5.316a.25.25 0 0 0 .268 0l8.383-5.316a.25.25 0 0 0 0-.422Z"></path><path d="M1.867 12.324a.75.75 0 0 1 1.035-.232l8.964 5.685a.25.25 0 0 0 .268 0l8.964-5.685a.75.75 0 0 1 .804 1.267l-8.965 5.685a1.749 1.749 0 0 1-1.874 0l-8.965-5.685a.75.75 0 0 1-.231-1.035Z"></path><path d="M1.867 16.324a.75.75 0 0 1 1.035-.232l8.964 5.685a.25.25 0 0 0 .268 0l8.964-5.685a.75.75 0 0 1 .804 1.267l-8.965 5.685a1.749 1.749 0 0 1-1.874 0l-8.965-5.685a.75.75 0 0 1-.231-1.035Z"></path>
-</svg>
-      <div>
-          <div class="color-fg-default h4">
-            Enterprise platform
-          </div>
-        AI-powered developer platform
-      </div>
-
-    
-</a></li>
-
-                </ul>
-              </div>
-              <div class="border-bottom pb-3 pb-lg-0 border-bottom-0">
-                    <span class="d-block h4 color-fg-default my-1" id="enterprise-available-add-ons-heading">Available add-ons</span>
-
-                <ul class="list-style-none f5" aria-labelledby="enterprise-available-add-ons-heading">
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary d-flex flex-items-center Link--has-description pb-lg-3" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;github_advanced_security&quot;,&quot;context&quot;:&quot;enterprise&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;github_advanced_security_link_enterprise_navbar&quot;}" href="https://github.com/security/advanced-security">
-      <svg aria-hidden="true" height="24" viewBox="0 0 24 24" version="1.1" width="24" data-view-component="true" class="octicon octicon-shield-check color-fg-subtle mr-3">
-    <path d="M16.53 9.78a.75.75 0 0 0-1.06-1.06L11 13.19l-1.97-1.97a.75.75 0 0 0-1.06 1.06l2.5 2.5a.75.75 0 0 0 1.06 0l5-5Z"></path><path d="m12.54.637 8.25 2.675A1.75 1.75 0 0 1 22 4.976V10c0 6.19-3.771 10.704-9.401 12.83a1.704 1.704 0 0 1-1.198 0C5.77 20.705 2 16.19 2 10V4.976c0-.758.489-1.43 1.21-1.664L11.46.637a1.748 1.748 0 0 1 1.08 0Zm-.617 1.426-8.25 2.676a.249.249 0 0 0-.173.237V10c0 5.46 3.28 9.483 8.43 11.426a.199.199 0 0 0 .14 0C17.22 19.483 20.5 15.461 20.5 10V4.976a.25.25 0 0 0-.173-.237l-8.25-2.676a.253.253 0 0 0-.154 0Z"></path>
-</svg>
-      <div>
-          <div class="color-fg-default h4">
-            GitHub Advanced Security
-          </div>
-        Enterprise-grade security features
-      </div>
-
-    
-</a></li>
-
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary d-flex flex-items-center Link--has-description pb-lg-3" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;copilot_for_business&quot;,&quot;context&quot;:&quot;enterprise&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;copilot_for_business_link_enterprise_navbar&quot;}" href="/features/copilot/copilot-business">
-      <svg aria-hidden="true" height="24" viewBox="0 0 24 24" version="1.1" width="24" data-view-component="true" class="octicon octicon-copilot color-fg-subtle mr-3">
-    <path d="M23.922 16.992c-.861 1.495-5.859 5.023-11.922 5.023-6.063 0-11.061-3.528-11.922-5.023A.641.641 0 0 1 0 16.736v-2.869a.841.841 0 0 1 .053-.22c.372-.935 1.347-2.292 2.605-2.656.167-.429.414-1.055.644-1.517a10.195 10.195 0 0 1-.052-1.086c0-1.331.282-2.499 1.132-3.368.397-.406.89-.717 1.474-.952 1.399-1.136 3.392-2.093 6.122-2.093 2.731 0 4.767.957 6.166 2.093.584.235 1.077.546 1.474.952.85.869 1.132 2.037 1.132 3.368 0 .368-.014.733-.052 1.086.23.462.477 1.088.644 1.517 1.258.364 2.233 1.721 2.605 2.656a.832.832 0 0 1 .053.22v2.869a.641.641 0 0 1-.078.256ZM12.172 11h-.344a4.323 4.323 0 0 1-.355.508C10.703 12.455 9.555 13 7.965 13c-1.725 0-2.989-.359-3.782-1.259a2.005 2.005 0 0 1-.085-.104L4 11.741v6.585c1.435.779 4.514 2.179 8 2.179 3.486 0 6.565-1.4 8-2.179v-6.585l-.098-.104s-.033.045-.085.104c-.793.9-2.057 1.259-3.782 1.259-1.59 0-2.738-.545-3.508-1.492a4.323 4.323 0 0 1-.355-.508h-.016.016Zm.641-2.935c.136 1.057.403 1.913.878 2.497.442.544 1.134.938 2.344.938 1.573 0 2.292-.337 2.657-.751.384-.435.558-1.15.558-2.361 0-1.14-.243-1.847-.705-2.319-.477-.488-1.319-.862-2.824-1.025-1.487-.161-2.192.138-2.533.529-.269.307-.437.808-.438 1.578v.021c0 .265.021.562.063.893Zm-1.626 0c.042-.331.063-.628.063-.894v-.02c-.001-.77-.169-1.271-.438-1.578-.341-.391-1.046-.69-2.533-.529-1.505.163-2.347.537-2.824 1.025-.462.472-.705 1.179-.705 2.319 0 1.211.175 1.926.558 2.361.365.414 1.084.751 2.657.751 1.21 0 1.902-.394 2.344-.938.475-.584.742-1.44.878-2.497Z"></path><path d="M14.5 14.25a1 1 0 0 1 1 1v2a1 1 0 0 1-2 0v-2a1 1 0 0 1 1-1Zm-5 0a1 1 0 0 1 1 1v2a1 1 0 0 1-2 0v-2a1 1 0 0 1 1-1Z"></path>
-</svg>
-      <div>
-          <div class="color-fg-default h4">
-            Copilot for business
-          </div>
-        Enterprise-grade AI features
-      </div>
-
-    
-</a></li>
-
-                    <li>
-  <a class="HeaderMenu-dropdown-link d-block no-underline position-relative py-2 Link--secondary d-flex flex-items-center Link--has-description" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;premium_support&quot;,&quot;context&quot;:&quot;enterprise&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;premium_support_link_enterprise_navbar&quot;}" href="/premium-support">
-      <svg aria-hidden="true" height="24" viewBox="0 0 24 24" version="1.1" width="24" data-view-component="true" class="octicon octicon-comment-discussion color-fg-subtle mr-3">
-    <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"></path><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"></path>
-</svg>
-      <div>
-          <div class="color-fg-default h4">
-            Premium Support
-          </div>
-        Enterprise-grade 24/7 support
-      </div>
-
-    
-</a></li>
-
-                </ul>
-              </div>
-          </div>
-
-      </div>
-</li>
-
-
-                <li class="HeaderMenu-item position-relative flex-wrap flex-justify-between flex-items-center d-block d-lg-flex flex-lg-nowrap flex-lg-items-center js-details-container js-header-menu-item">
-    <a class="HeaderMenu-link no-underline px-0 px-lg-2 py-3 py-lg-2 d-block d-lg-inline-block" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;pricing&quot;,&quot;context&quot;:&quot;global&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;pricing_link_global_navbar&quot;}" href="https://github.com/pricing">Pricing</a>
-</li>
-
-            </ul>
-          </nav>
-
-        <div class="d-flex flex-column flex-lg-row width-full flex-justify-end flex-lg-items-center text-center mt-3 mt-lg-0 text-lg-left ml-lg-3">
-                
-
-
-<qbsearch-input class="search-input" data-scope="repo:FewBit-Coin/Core-Wallet" data-custom-scopes-path="/search/custom_scopes" data-delete-custom-scopes-csrf="NHo7bgOWGGbT45XzstE61L5x6cD9uco3ViXGHauDQx7z2uRh5dG8lyBqde8PcAYq0CuiVutXJIPjddV1Bmlsjw" data-max-custom-scopes="10" data-header-redesign-enabled="false" data-initial-value="" data-blackbird-suggestions-path="/search/suggestions" data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations" data-current-repository="FewBit-Coin/Core-Wallet" data-current-org="FewBit-Coin" data-current-owner="" data-logged-in="false" data-copilot-chat-enabled="false" data-nl-search-enabled="false" data-retain-scroll-position="true">
-  <div
-    class="search-input-container search-with-dialog position-relative d-flex flex-row flex-items-center mr-4 rounded"
-    data-action="click:qbsearch-input#searchInputContainerClicked"
-  >
-      <button
-        type="button"
-        class="header-search-button placeholder  input-button form-control d-flex flex-1 flex-self-stretch flex-items-center no-wrap width-full py-0 pl-2 pr-0 text-left border-0 box-shadow-none"
-        data-target="qbsearch-input.inputButton"
-        aria-label="Search or jump to…"
-        aria-haspopup="dialog"
-        placeholder="Search or jump to..."
-        data-hotkey=s,/
-        autocapitalize="off"
-        data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;searchbar&quot;,&quot;context&quot;:&quot;global&quot;,&quot;tag&quot;:&quot;input&quot;,&quot;label&quot;:&quot;searchbar_input_global_navbar&quot;}"
-        data-action="click:qbsearch-input#handleExpand"
-      >
-        <div class="mr-2 color-fg-muted">
-          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-search">
-    <path d="M10.68 11.74a6 6 0 0 1-7.922-8.982 6 6 0 0 1 8.982 7.922l3.04 3.04a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215ZM11.5 7a4.499 4.499 0 1 0-8.997 0A4.499 4.499 0 0 0 11.5 7Z"></path>
-</svg>
-        </div>
-        <span class="flex-1" data-target="qbsearch-input.inputButtonText">Search or jump to...</span>
-          <div class="d-flex" data-target="qbsearch-input.hotkeyIndicator">
-            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" aria-hidden="true" class="mr-1"><path fill="none" stroke="#979A9C" opacity=".4" d="M3.5.5h12c1.7 0 3 1.3 3 3v13c0 1.7-1.3 3-3 3h-12c-1.7 0-3-1.3-3-3v-13c0-1.7 1.3-3 3-3z"></path><path fill="#979A9C" d="M11.8 6L8 15.1h-.9L10.8 6h1z"></path></svg>
-          </div>
-      </button>
-
-    <input type="hidden" name="type" class="js-site-search-type-field">
-
-    
-<div class="Overlay--hidden " data-modal-dialog-overlay>
-  <modal-dialog data-action="close:qbsearch-input#handleClose cancel:qbsearch-input#handleClose" data-target="qbsearch-input.searchSuggestionsDialog" role="dialog" id="search-suggestions-dialog" aria-modal="true" aria-labelledby="search-suggestions-dialog-header" data-view-component="true" class="Overlay Overlay--width-large Overlay--height-auto">
-      <h1 id="search-suggestions-dialog-header" class="sr-only">Search code, repositories, users, issues, pull requests...</h1>
-    <div class="Overlay-body Overlay-body--paddingNone">
-      
-          <div data-view-component="true">        <div class="search-suggestions position-fixed width-full color-shadow-large border color-fg-default color-bg-default overflow-hidden d-flex flex-column query-builder-container"
-          style="border-radius: 12px;"
-          data-target="qbsearch-input.queryBuilderContainer"
-          hidden
-        >
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form id="query-builder-test-form" action="" accept-charset="UTF-8" method="get">
-  <query-builder data-target="qbsearch-input.queryBuilder" id="query-builder-query-builder-test" data-filter-key=":" data-view-component="true" class="QueryBuilder search-query-builder">
-    <div class="FormControl FormControl--fullWidth">
-      <label id="query-builder-test-label" for="query-builder-test" class="FormControl-label sr-only">
-        Search
-      </label>
-      <div
-        class="QueryBuilder-StyledInput width-fit "
-        data-target="query-builder.styledInput"
-      >
-          <span id="query-builder-test-leadingvisual-wrap" class="FormControl-input-leadingVisualWrap QueryBuilder-leadingVisualWrap">
-            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-search FormControl-input-leadingVisual">
-    <path d="M10.68 11.74a6 6 0 0 1-7.922-8.982 6 6 0 0 1 8.982 7.922l3.04 3.04a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215ZM11.5 7a4.499 4.499 0 1 0-8.997 0A4.499 4.499 0 0 0 11.5 7Z"></path>
-</svg>
-          </span>
-        <div data-target="query-builder.styledInputContainer" class="QueryBuilder-StyledInputContainer">
-          <div
-            aria-hidden="true"
-            class="QueryBuilder-StyledInputContent"
-            data-target="query-builder.styledInputContent"
-          ></div>
-          <div class="QueryBuilder-InputWrapper">
-            <div aria-hidden="true" class="QueryBuilder-Sizer" data-target="query-builder.sizer"></div>
-            <input id="query-builder-test" name="query-builder-test" value="" autocomplete="off" type="text" role="combobox" spellcheck="false" aria-expanded="false" aria-describedby="validation-b41a4584-ef5d-4c09-b866-ea430bde4c2d" data-target="query-builder.input" data-action="
-          input:query-builder#inputChange
-          blur:query-builder#inputBlur
-          keydown:query-builder#inputKeydown
-          focus:query-builder#inputFocus
-        " data-view-component="true" class="FormControl-input QueryBuilder-Input FormControl-medium" />
-          </div>
-        </div>
-          <span class="sr-only" id="query-builder-test-clear">Clear</span>
-          <button role="button" id="query-builder-test-clear-button" aria-labelledby="query-builder-test-clear query-builder-test-label" data-target="query-builder.clearButton" data-action="
-                click:query-builder#clear
-                focus:query-builder#clearButtonFocus
-                blur:query-builder#clearButtonBlur
-              " variant="small" hidden="hidden" type="button" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium mr-1 px-2 py-0 d-flex flex-items-center rounded-1 color-fg-muted">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x-circle-fill Button-visual">
-    <path d="M2.343 13.657A8 8 0 1 1 13.658 2.343 8 8 0 0 1 2.343 13.657ZM6.03 4.97a.751.751 0 0 0-1.042.018.751.751 0 0 0-.018 1.042L6.94 8 4.97 9.97a.749.749 0 0 0 .326 1.275.749.749 0 0 0 .734-.215L8 9.06l1.97 1.97a.749.749 0 0 0 1.275-.326.749.749 0 0 0-.215-.734L9.06 8l1.97-1.97a.749.749 0 0 0-.326-1.275.749.749 0 0 0-.734.215L8 6.94Z"></path>
-</svg>
-</button>
-
-      </div>
-      <template id="search-icon">
-  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-search">
-    <path d="M10.68 11.74a6 6 0 0 1-7.922-8.982 6 6 0 0 1 8.982 7.922l3.04 3.04a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215ZM11.5 7a4.499 4.499 0 1 0-8.997 0A4.499 4.499 0 0 0 11.5 7Z"></path>
-</svg>
-</template>
-
-<template id="code-icon">
-  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code">
-    <path d="m11.28 3.22 4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L13.94 8l-3.72-3.72a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215Zm-6.56 0a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042L2.06 8l3.72 3.72a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L.47 8.53a.75.75 0 0 1 0-1.06Z"></path>
-</svg>
-</template>
-
-<template id="file-code-icon">
-  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file-code">
-    <path d="M4 1.75C4 .784 4.784 0 5.75 0h5.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v8.586A1.75 1.75 0 0 1 14.25 15h-9a.75.75 0 0 1 0-1.5h9a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 10 4.25V1.5H5.75a.25.25 0 0 0-.25.25v2.5a.75.75 0 0 1-1.5 0Zm1.72 4.97a.75.75 0 0 1 1.06 0l2 2a.75.75 0 0 1 0 1.06l-2 2a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734l1.47-1.47-1.47-1.47a.75.75 0 0 1 0-1.06ZM3.28 7.78 1.81 9.25l1.47 1.47a.751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018l-2-2a.75.75 0 0 1 0-1.06l2-2a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042Zm8.22-6.218V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path>
-</svg>
-</template>
-
-<template id="history-icon">
-  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-history">
-    <path d="m.427 1.927 1.215 1.215a8.002 8.002 0 1 1-1.6 5.685.75.75 0 1 1 1.493-.154 6.5 6.5 0 1 0 1.18-4.458l1.358 1.358A.25.25 0 0 1 3.896 6H.25A.25.25 0 0 1 0 5.75V2.104a.25.25 0 0 1 .427-.177ZM7.75 4a.75.75 0 0 1 .75.75v2.992l2.028.812a.75.75 0 0 1-.557 1.392l-2.5-1A.751.751 0 0 1 7 8.25v-3.5A.75.75 0 0 1 7.75 4Z"></path>
-</svg>
-</template>
-
-<template id="repo-icon">
-  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo">
-    <path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"></path>
-</svg>
-</template>
-
-<template id="bookmark-icon">
-  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-bookmark">
-    <path d="M3 2.75C3 1.784 3.784 1 4.75 1h6.5c.966 0 1.75.784 1.75 1.75v11.5a.75.75 0 0 1-1.227.579L8 11.722l-3.773 3.107A.751.751 0 0 1 3 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v9.91l3.023-2.489a.75.75 0 0 1 .954 0l3.023 2.49V2.75a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-</template>
-
-<template id="plus-circle-icon">
-  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus-circle">
-    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm7.25-3.25v2.5h2.5a.75.75 0 0 1 0 1.5h-2.5v2.5a.75.75 0 0 1-1.5 0v-2.5h-2.5a.75.75 0 0 1 0-1.5h2.5v-2.5a.75.75 0 0 1 1.5 0Z"></path>
-</svg>
-</template>
-
-<template id="circle-icon">
-  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-dot-fill">
-    <path d="M8 4a4 4 0 1 1 0 8 4 4 0 0 1 0-8Z"></path>
-</svg>
-</template>
-
-<template id="trash-icon">
-  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-trash">
-    <path d="M11 1.75V3h2.25a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1 0-1.5H5V1.75C5 .784 5.784 0 6.75 0h2.5C10.216 0 11 .784 11 1.75ZM4.496 6.675l.66 6.6a.25.25 0 0 0 .249.225h5.19a.25.25 0 0 0 .249-.225l.66-6.6a.75.75 0 0 1 1.492.149l-.66 6.6A1.748 1.748 0 0 1 10.595 15h-5.19a1.75 1.75 0 0 1-1.741-1.575l-.66-6.6a.75.75 0 1 1 1.492-.15ZM6.5 1.75V3h3V1.75a.25.25 0 0 0-.25-.25h-2.5a.25.25 0 0 0-.25.25Z"></path>
-</svg>
-</template>
-
-<template id="team-icon">
-  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-people">
-    <path d="M2 5.5a3.5 3.5 0 1 1 5.898 2.549 5.508 5.508 0 0 1 3.034 4.084.75.75 0 1 1-1.482.235 4 4 0 0 0-7.9 0 .75.75 0 0 1-1.482-.236A5.507 5.507 0 0 1 3.102 8.05 3.493 3.493 0 0 1 2 5.5ZM11 4a3.001 3.001 0 0 1 2.22 5.018 5.01 5.01 0 0 1 2.56 3.012.749.749 0 0 1-.885.954.752.752 0 0 1-.549-.514 3.507 3.507 0 0 0-2.522-2.372.75.75 0 0 1-.574-.73v-.352a.75.75 0 0 1 .416-.672A1.5 1.5 0 0 0 11 5.5.75.75 0 0 1 11 4Zm-5.5-.5a2 2 0 1 0-.001 3.999A2 2 0 0 0 5.5 3.5Z"></path>
-</svg>
-</template>
-
-<template id="project-icon">
-  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-project">
-    <path d="M1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25V1.75C0 .784.784 0 1.75 0ZM1.5 1.75v12.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25ZM11.75 3a.75.75 0 0 1 .75.75v7.5a.75.75 0 0 1-1.5 0v-7.5a.75.75 0 0 1 .75-.75Zm-8.25.75a.75.75 0 0 1 1.5 0v5.5a.75.75 0 0 1-1.5 0ZM8 3a.75.75 0 0 1 .75.75v3.5a.75.75 0 0 1-1.5 0v-3.5A.75.75 0 0 1 8 3Z"></path>
-</svg>
-</template>
-
-<template id="pencil-icon">
-  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-pencil">
-    <path d="M11.013 1.427a1.75 1.75 0 0 1 2.474 0l1.086 1.086a1.75 1.75 0 0 1 0 2.474l-8.61 8.61c-.21.21-.47.364-.756.445l-3.251.93a.75.75 0 0 1-.927-.928l.929-3.25c.081-.286.235-.547.445-.758l8.61-8.61Zm.176 4.823L9.75 4.81l-6.286 6.287a.253.253 0 0 0-.064.108l-.558 1.953 1.953-.558a.253.253 0 0 0 .108-.064Zm1.238-3.763a.25.25 0 0 0-.354 0L10.811 3.75l1.439 1.44 1.263-1.263a.25.25 0 0 0 0-.354Z"></path>
-</svg>
-</template>
-
-<template id="copilot-icon">
-  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copilot">
-    <path d="M7.998 15.035c-4.562 0-7.873-2.914-7.998-3.749V9.338c.085-.628.677-1.686 1.588-2.065.013-.07.024-.143.036-.218.029-.183.06-.384.126-.612-.201-.508-.254-1.084-.254-1.656 0-.87.128-1.769.693-2.484.579-.733 1.494-1.124 2.724-1.261 1.206-.134 2.262.034 2.944.765.05.053.096.108.139.165.044-.057.094-.112.143-.165.682-.731 1.738-.899 2.944-.765 1.23.137 2.145.528 2.724 1.261.566.715.693 1.614.693 2.484 0 .572-.053 1.148-.254 1.656.066.228.098.429.126.612.012.076.024.148.037.218.924.385 1.522 1.471 1.591 2.095v1.872c0 .766-3.351 3.795-8.002 3.795Zm0-1.485c2.28 0 4.584-1.11 5.002-1.433V7.862l-.023-.116c-.49.21-1.075.291-1.727.291-1.146 0-2.059-.327-2.71-.991A3.222 3.222 0 0 1 8 6.303a3.24 3.24 0 0 1-.544.743c-.65.664-1.563.991-2.71.991-.652 0-1.236-.081-1.727-.291l-.023.116v4.255c.419.323 2.722 1.433 5.002 1.433ZM6.762 2.83c-.193-.206-.637-.413-1.682-.297-1.019.113-1.479.404-1.713.7-.247.312-.369.789-.369 1.554 0 .793.129 1.171.308 1.371.162.181.519.379 1.442.379.853 0 1.339-.235 1.638-.54.315-.322.527-.827.617-1.553.117-.935-.037-1.395-.241-1.614Zm4.155-.297c-1.044-.116-1.488.091-1.681.297-.204.219-.359.679-.242 1.614.091.726.303 1.231.618 1.553.299.305.784.54 1.638.54.922 0 1.28-.198 1.442-.379.179-.2.308-.578.308-1.371 0-.765-.123-1.242-.37-1.554-.233-.296-.693-.587-1.713-.7Z"></path><path d="M6.25 9.037a.75.75 0 0 1 .75.75v1.501a.75.75 0 0 1-1.5 0V9.787a.75.75 0 0 1 .75-.75Zm4.25.75v1.501a.75.75 0 0 1-1.5 0V9.787a.75.75 0 0 1 1.5 0Z"></path>
-</svg>
-</template>
-
-<template id="copilot-error-icon">
-  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copilot-error">
-    <path d="M16 11.24c0 .112-.072.274-.21.467L13 9.688V7.862l-.023-.116c-.49.21-1.075.291-1.727.291-.198 0-.388-.009-.571-.029L6.833 5.226a4.01 4.01 0 0 0 .17-.782c.117-.935-.037-1.395-.241-1.614-.193-.206-.637-.413-1.682-.297-.683.076-1.115.231-1.395.415l-1.257-.91c.579-.564 1.413-.877 2.485-.996 1.206-.134 2.262.034 2.944.765.05.053.096.108.139.165.044-.057.094-.112.143-.165.682-.731 1.738-.899 2.944-.765 1.23.137 2.145.528 2.724 1.261.566.715.693 1.614.693 2.484 0 .572-.053 1.148-.254 1.656.066.228.098.429.126.612.012.076.024.148.037.218.924.385 1.522 1.471 1.591 2.095Zm-5.083-8.707c-1.044-.116-1.488.091-1.681.297-.204.219-.359.679-.242 1.614.091.726.303 1.231.618 1.553.299.305.784.54 1.638.54.922 0 1.28-.198 1.442-.379.179-.2.308-.578.308-1.371 0-.765-.123-1.242-.37-1.554-.233-.296-.693-.587-1.713-.7Zm2.511 11.074c-1.393.776-3.272 1.428-5.43 1.428-4.562 0-7.873-2.914-7.998-3.749V9.338c.085-.628.677-1.686 1.588-2.065.013-.07.024-.143.036-.218.029-.183.06-.384.126-.612-.18-.455-.241-.963-.252-1.475L.31 4.107A.747.747 0 0 1 0 3.509V3.49a.748.748 0 0 1 .625-.73c.156-.026.306.047.435.139l14.667 10.578a.592.592 0 0 1 .227.264.752.752 0 0 1 .046.249v.022a.75.75 0 0 1-1.19.596Zm-1.367-.991L5.635 7.964a5.128 5.128 0 0 1-.889.073c-.652 0-1.236-.081-1.727-.291l-.023.116v4.255c.419.323 2.722 1.433 5.002 1.433 1.539 0 3.089-.505 4.063-.934Z"></path>
-</svg>
-</template>
-
-<template id="workflow-icon">
-  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-workflow">
-    <path d="M0 1.75C0 .784.784 0 1.75 0h3.5C6.216 0 7 .784 7 1.75v3.5A1.75 1.75 0 0 1 5.25 7H4v4a1 1 0 0 0 1 1h4v-1.25C9 9.784 9.784 9 10.75 9h3.5c.966 0 1.75.784 1.75 1.75v3.5A1.75 1.75 0 0 1 14.25 16h-3.5A1.75 1.75 0 0 1 9 14.25v-.75H5A2.5 2.5 0 0 1 2.5 11V7h-.75A1.75 1.75 0 0 1 0 5.25Zm1.75-.25a.25.25 0 0 0-.25.25v3.5c0 .138.112.25.25.25h3.5a.25.25 0 0 0 .25-.25v-3.5a.25.25 0 0 0-.25-.25Zm9 9a.25.25 0 0 0-.25.25v3.5c0 .138.112.25.25.25h3.5a.25.25 0 0 0 .25-.25v-3.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-</template>
-
-<template id="book-icon">
-  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-book">
-    <path d="M0 1.75A.75.75 0 0 1 .75 1h4.253c1.227 0 2.317.59 3 1.501A3.743 3.743 0 0 1 11.006 1h4.245a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75h-4.507a2.25 2.25 0 0 0-1.591.659l-.622.621a.75.75 0 0 1-1.06 0l-.622-.621A2.25 2.25 0 0 0 5.258 13H.75a.75.75 0 0 1-.75-.75Zm7.251 10.324.004-5.073-.002-2.253A2.25 2.25 0 0 0 5.003 2.5H1.5v9h3.757a3.75 3.75 0 0 1 1.994.574ZM8.755 4.75l-.004 7.322a3.752 3.752 0 0 1 1.992-.572H14.5v-9h-3.495a2.25 2.25 0 0 0-2.25 2.25Z"></path>
-</svg>
-</template>
-
-<template id="code-review-icon">
-  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code-review">
-    <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 13H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 14.543V13H1.75A1.75 1.75 0 0 1 0 11.25v-8.5C0 1.784.784 1 1.75 1ZM1.5 2.75v8.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-8.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Zm5.28 1.72a.75.75 0 0 1 0 1.06L5.31 7l1.47 1.47a.751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018l-2-2a.75.75 0 0 1 0-1.06l2-2a.75.75 0 0 1 1.06 0Zm2.44 0a.75.75 0 0 1 1.06 0l2 2a.75.75 0 0 1 0 1.06l-2 2a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L10.69 7 9.22 5.53a.75.75 0 0 1 0-1.06Z"></path>
-</svg>
-</template>
-
-<template id="codespaces-icon">
-  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-codespaces">
-    <path d="M0 11.25c0-.966.784-1.75 1.75-1.75h12.5c.966 0 1.75.784 1.75 1.75v3A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25Zm2-9.5C2 .784 2.784 0 3.75 0h8.5C13.216 0 14 .784 14 1.75v5a1.75 1.75 0 0 1-1.75 1.75h-8.5A1.75 1.75 0 0 1 2 6.75Zm1.75-.25a.25.25 0 0 0-.25.25v5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-5a.25.25 0 0 0-.25-.25Zm-2 9.5a.25.25 0 0 0-.25.25v3c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-3a.25.25 0 0 0-.25-.25Z"></path><path d="M7 12.75a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1-.75-.75Zm-4 0a.75.75 0 0 1 .75-.75h.5a.75.75 0 0 1 0 1.5h-.5a.75.75 0 0 1-.75-.75Z"></path>
-</svg>
-</template>
-
-<template id="comment-icon">
-  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-comment">
-    <path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-</template>
-
-<template id="comment-discussion-icon">
-  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-comment-discussion">
-    <path d="M1.75 1h8.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 10.25 10H7.061l-2.574 2.573A1.458 1.458 0 0 1 2 11.543V10h-.25A1.75 1.75 0 0 1 0 8.25v-5.5C0 1.784.784 1 1.75 1ZM1.5 2.75v5.5c0 .138.112.25.25.25h1a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h3.5a.25.25 0 0 0 .25-.25v-5.5a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25Zm13 2a.25.25 0 0 0-.25-.25h-.5a.75.75 0 0 1 0-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 14.25 12H14v1.543a1.458 1.458 0 0 1-2.487 1.03L9.22 12.28a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l2.22 2.22v-2.19a.75.75 0 0 1 .75-.75h1a.25.25 0 0 0 .25-.25Z"></path>
-</svg>
-</template>
-
-<template id="organization-icon">
-  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-organization">
-    <path d="M1.75 16A1.75 1.75 0 0 1 0 14.25V1.75C0 .784.784 0 1.75 0h8.5C11.216 0 12 .784 12 1.75v12.5c0 .085-.006.168-.018.25h2.268a.25.25 0 0 0 .25-.25V8.285a.25.25 0 0 0-.111-.208l-1.055-.703a.749.749 0 1 1 .832-1.248l1.055.703c.487.325.779.871.779 1.456v5.965A1.75 1.75 0 0 1 14.25 16h-3.5a.766.766 0 0 1-.197-.026c-.099.017-.2.026-.303.026h-3a.75.75 0 0 1-.75-.75V14h-1v1.25a.75.75 0 0 1-.75.75Zm-.25-1.75c0 .138.112.25.25.25H4v-1.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 .75.75v1.25h2.25a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25ZM3.75 6h.5a.75.75 0 0 1 0 1.5h-.5a.75.75 0 0 1 0-1.5ZM3 3.75A.75.75 0 0 1 3.75 3h.5a.75.75 0 0 1 0 1.5h-.5A.75.75 0 0 1 3 3.75Zm4 3A.75.75 0 0 1 7.75 6h.5a.75.75 0 0 1 0 1.5h-.5A.75.75 0 0 1 7 6.75ZM7.75 3h.5a.75.75 0 0 1 0 1.5h-.5a.75.75 0 0 1 0-1.5ZM3 9.75A.75.75 0 0 1 3.75 9h.5a.75.75 0 0 1 0 1.5h-.5A.75.75 0 0 1 3 9.75ZM7.75 9h.5a.75.75 0 0 1 0 1.5h-.5a.75.75 0 0 1 0-1.5Z"></path>
-</svg>
-</template>
-
-<template id="rocket-icon">
-  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-rocket">
-    <path d="M14.064 0h.186C15.216 0 16 .784 16 1.75v.186a8.752 8.752 0 0 1-2.564 6.186l-.458.459c-.314.314-.641.616-.979.904v3.207c0 .608-.315 1.172-.833 1.49l-2.774 1.707a.749.749 0 0 1-1.11-.418l-.954-3.102a1.214 1.214 0 0 1-.145-.125L3.754 9.816a1.218 1.218 0 0 1-.124-.145L.528 8.717a.749.749 0 0 1-.418-1.11l1.71-2.774A1.748 1.748 0 0 1 3.31 4h3.204c.288-.338.59-.665.904-.979l.459-.458A8.749 8.749 0 0 1 14.064 0ZM8.938 3.623h-.002l-.458.458c-.76.76-1.437 1.598-2.02 2.5l-1.5 2.317 2.143 2.143 2.317-1.5c.902-.583 1.74-1.26 2.499-2.02l.459-.458a7.25 7.25 0 0 0 2.123-5.127V1.75a.25.25 0 0 0-.25-.25h-.186a7.249 7.249 0 0 0-5.125 2.123ZM3.56 14.56c-.732.732-2.334 1.045-3.005 1.148a.234.234 0 0 1-.201-.064.234.234 0 0 1-.064-.201c.103-.671.416-2.273 1.15-3.003a1.502 1.502 0 1 1 2.12 2.12Zm6.94-3.935c-.088.06-.177.118-.266.175l-2.35 1.521.548 1.783 1.949-1.2a.25.25 0 0 0 .119-.213ZM3.678 8.116 5.2 5.766c.058-.09.117-.178.176-.266H3.309a.25.25 0 0 0-.213.119l-1.2 1.95ZM12 5a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
-</svg>
-</template>
-
-<template id="shield-check-icon">
-  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-shield-check">
-    <path d="m8.533.133 5.25 1.68A1.75 1.75 0 0 1 15 3.48V7c0 1.566-.32 3.182-1.303 4.682-.983 1.498-2.585 2.813-5.032 3.855a1.697 1.697 0 0 1-1.33 0c-2.447-1.042-4.049-2.357-5.032-3.855C1.32 10.182 1 8.566 1 7V3.48a1.75 1.75 0 0 1 1.217-1.667l5.25-1.68a1.748 1.748 0 0 1 1.066 0Zm-.61 1.429.001.001-5.25 1.68a.251.251 0 0 0-.174.237V7c0 1.36.275 2.666 1.057 3.859.784 1.194 2.121 2.342 4.366 3.298a.196.196 0 0 0 .154 0c2.245-.957 3.582-2.103 4.366-3.297C13.225 9.666 13.5 8.358 13.5 7V3.48a.25.25 0 0 0-.174-.238l-5.25-1.68a.25.25 0 0 0-.153 0ZM11.28 6.28l-3.5 3.5a.75.75 0 0 1-1.06 0l-1.5-1.5a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l.97.97 2.97-2.97a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042Z"></path>
-</svg>
-</template>
-
-<template id="heart-icon">
-  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-heart">
-    <path d="m8 14.25.345.666a.75.75 0 0 1-.69 0l-.008-.004-.018-.01a7.152 7.152 0 0 1-.31-.17 22.055 22.055 0 0 1-3.434-2.414C2.045 10.731 0 8.35 0 5.5 0 2.836 2.086 1 4.25 1 5.797 1 7.153 1.802 8 3.02 8.847 1.802 10.203 1 11.75 1 13.914 1 16 2.836 16 5.5c0 2.85-2.045 5.231-3.885 6.818a22.066 22.066 0 0 1-3.744 2.584l-.018.01-.006.003h-.002ZM4.25 2.5c-1.336 0-2.75 1.164-2.75 3 0 2.15 1.58 4.144 3.365 5.682A20.58 20.58 0 0 0 8 13.393a20.58 20.58 0 0 0 3.135-2.211C12.92 9.644 14.5 7.65 14.5 5.5c0-1.836-1.414-3-2.75-3-1.373 0-2.609.986-3.029 2.456a.749.749 0 0 1-1.442 0C6.859 3.486 5.623 2.5 4.25 2.5Z"></path>
-</svg>
-</template>
-
-<template id="server-icon">
-  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-server">
-    <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v4c0 .372-.116.717-.314 1 .198.283.314.628.314 1v4a1.75 1.75 0 0 1-1.75 1.75H1.75A1.75 1.75 0 0 1 0 12.75v-4c0-.358.109-.707.314-1a1.739 1.739 0 0 1-.314-1v-4C0 1.784.784 1 1.75 1ZM1.5 2.75v4c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-4a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Zm.25 5.75a.25.25 0 0 0-.25.25v4c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-4a.25.25 0 0 0-.25-.25ZM7 4.75A.75.75 0 0 1 7.75 4h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 7 4.75ZM7.75 10h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM3 4.75A.75.75 0 0 1 3.75 4h.5a.75.75 0 0 1 0 1.5h-.5A.75.75 0 0 1 3 4.75ZM3.75 10h.5a.75.75 0 0 1 0 1.5h-.5a.75.75 0 0 1 0-1.5Z"></path>
-</svg>
-</template>
-
-<template id="globe-icon">
-  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-globe">
-    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM5.78 8.75a9.64 9.64 0 0 0 1.363 4.177c.255.426.542.832.857 1.215.245-.296.551-.705.857-1.215A9.64 9.64 0 0 0 10.22 8.75Zm4.44-1.5a9.64 9.64 0 0 0-1.363-4.177c-.307-.51-.612-.919-.857-1.215a9.927 9.927 0 0 0-.857 1.215A9.64 9.64 0 0 0 5.78 7.25Zm-5.944 1.5H1.543a6.507 6.507 0 0 0 4.666 5.5c-.123-.181-.24-.365-.352-.552-.715-1.192-1.437-2.874-1.581-4.948Zm-2.733-1.5h2.733c.144-2.074.866-3.756 1.58-4.948.12-.197.237-.381.353-.552a6.507 6.507 0 0 0-4.666 5.5Zm10.181 1.5c-.144 2.074-.866 3.756-1.58 4.948-.12.197-.237.381-.353.552a6.507 6.507 0 0 0 4.666-5.5Zm2.733-1.5a6.507 6.507 0 0 0-4.666-5.5c.123.181.24.365.353.552.714 1.192 1.436 2.874 1.58 4.948Z"></path>
-</svg>
-</template>
-
-<template id="issue-opened-icon">
-  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-issue-opened">
-    <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"></path><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"></path>
-</svg>
-</template>
-
-<template id="device-mobile-icon">
-  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-device-mobile">
-    <path d="M3.75 0h8.5C13.216 0 14 .784 14 1.75v12.5A1.75 1.75 0 0 1 12.25 16h-8.5A1.75 1.75 0 0 1 2 14.25V1.75C2 .784 2.784 0 3.75 0ZM3.5 1.75v12.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25ZM8 13a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path>
-</svg>
-</template>
-
-<template id="package-icon">
-  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-package">
-    <path d="m8.878.392 5.25 3.045c.54.314.872.89.872 1.514v6.098a1.75 1.75 0 0 1-.872 1.514l-5.25 3.045a1.75 1.75 0 0 1-1.756 0l-5.25-3.045A1.75 1.75 0 0 1 1 11.049V4.951c0-.624.332-1.201.872-1.514L7.122.392a1.75 1.75 0 0 1 1.756 0ZM7.875 1.69l-4.63 2.685L8 7.133l4.755-2.758-4.63-2.685a.248.248 0 0 0-.25 0ZM2.5 5.677v5.372c0 .09.047.171.125.216l4.625 2.683V8.432Zm6.25 8.271 4.625-2.683a.25.25 0 0 0 .125-.216V5.677L8.75 8.432Z"></path>
-</svg>
-</template>
-
-<template id="credit-card-icon">
-  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-credit-card">
-    <path d="M10.75 9a.75.75 0 0 0 0 1.5h1.5a.75.75 0 0 0 0-1.5h-1.5Z"></path><path d="M0 3.75C0 2.784.784 2 1.75 2h12.5c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 14H1.75A1.75 1.75 0 0 1 0 12.25ZM14.5 6.5h-13v5.75c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25Zm0-2.75a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25V5h13Z"></path>
-</svg>
-</template>
-
-<template id="play-icon">
-  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-play">
-    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm4.879-2.773 4.264 2.559a.25.25 0 0 1 0 .428l-4.264 2.559A.25.25 0 0 1 6 10.559V5.442a.25.25 0 0 1 .379-.215Z"></path>
-</svg>
-</template>
-
-<template id="gift-icon">
-  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-gift">
-    <path d="M2 2.75A2.75 2.75 0 0 1 4.75 0c.983 0 1.873.42 2.57 1.232.268.318.497.668.68 1.042.183-.375.411-.725.68-1.044C9.376.42 10.266 0 11.25 0a2.75 2.75 0 0 1 2.45 4h.55c.966 0 1.75.784 1.75 1.75v2c0 .698-.409 1.301-1 1.582v4.918A1.75 1.75 0 0 1 13.25 16H2.75A1.75 1.75 0 0 1 1 14.25V9.332C.409 9.05 0 8.448 0 7.75v-2C0 4.784.784 4 1.75 4h.55c-.192-.375-.3-.8-.3-1.25ZM7.25 9.5H2.5v4.75c0 .138.112.25.25.25h4.5Zm1.5 0v5h4.5a.25.25 0 0 0 .25-.25V9.5Zm0-4V8h5.5a.25.25 0 0 0 .25-.25v-2a.25.25 0 0 0-.25-.25Zm-7 0a.25.25 0 0 0-.25.25v2c0 .138.112.25.25.25h5.5V5.5h-5.5Zm3-4a1.25 1.25 0 0 0 0 2.5h2.309c-.233-.818-.542-1.401-.878-1.793-.43-.502-.915-.707-1.431-.707ZM8.941 4h2.309a1.25 1.25 0 0 0 0-2.5c-.516 0-1 .205-1.43.707-.337.392-.646.975-.879 1.793Z"></path>
-</svg>
-</template>
-
-<template id="code-square-icon">
-  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code-square">
-    <path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25Zm7.47 3.97a.75.75 0 0 1 1.06 0l2 2a.75.75 0 0 1 0 1.06l-2 2a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L10.69 8 9.22 6.53a.75.75 0 0 1 0-1.06ZM6.78 6.53 5.31 8l1.47 1.47a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215l-2-2a.75.75 0 0 1 0-1.06l2-2a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042Z"></path>
-</svg>
-</template>
-
-<template id="device-desktop-icon">
-  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-device-desktop">
-    <path d="M14.25 1c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 14.25 12h-3.727c.099 1.041.52 1.872 1.292 2.757A.752.752 0 0 1 11.25 16h-6.5a.75.75 0 0 1-.565-1.243c.772-.885 1.192-1.716 1.292-2.757H1.75A1.75 1.75 0 0 1 0 10.25v-7.5C0 1.784.784 1 1.75 1ZM1.75 2.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25ZM9.018 12H6.982a5.72 5.72 0 0 1-.765 2.5h3.566a5.72 5.72 0 0 1-.765-2.5Z"></path>
-</svg>
-</template>
-
-        <div class="position-relative">
-                <ul
-                  role="listbox"
-                  class="ActionListWrap QueryBuilder-ListWrap"
-                  aria-label="Suggestions"
-                  data-action="
-                    combobox-commit:query-builder#comboboxCommit
-                    mousedown:query-builder#resultsMousedown
-                  "
-                  data-target="query-builder.resultsList"
-                  data-persist-list=false
-                  id="query-builder-test-results"
-                ></ul>
-        </div>
-      <div class="FormControl-inlineValidation" id="validation-b41a4584-ef5d-4c09-b866-ea430bde4c2d" hidden="hidden">
-        <span class="FormControl-inlineValidation--visual">
-          <svg aria-hidden="true" height="12" viewBox="0 0 12 12" version="1.1" width="12" data-view-component="true" class="octicon octicon-alert-fill">
-    <path d="M4.855.708c.5-.896 1.79-.896 2.29 0l4.675 8.351a1.312 1.312 0 0 1-1.146 1.954H1.33A1.313 1.313 0 0 1 .183 9.058ZM7 7V3H5v4Zm-1 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"></path>
-</svg>
-        </span>
-        <span></span>
-</div>    </div>
-    <div data-target="query-builder.screenReaderFeedback" aria-live="polite" aria-atomic="true" class="sr-only"></div>
-</query-builder></form>
-          <div class="d-flex flex-row color-fg-muted px-3 text-small color-bg-default search-feedback-prompt">
-            <a target="_blank" href="https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax" data-view-component="true" class="Link color-fg-accent text-normal ml-2">Search syntax tips</a>            <div class="d-flex flex-1"></div>
-          </div>
-        </div>
-</div>
-
-    </div>
-</modal-dialog></div>
-  </div>
-  <div data-action="click:qbsearch-input#retract" class="dark-backdrop position-fixed" hidden data-target="qbsearch-input.darkBackdrop"></div>
-  <div class="color-fg-default">
-    
-<dialog-helper>
-  <dialog data-target="qbsearch-input.feedbackDialog" data-action="close:qbsearch-input#handleDialogClose cancel:qbsearch-input#handleDialogClose" id="feedback-dialog" aria-modal="true" aria-labelledby="feedback-dialog-title" aria-describedby="feedback-dialog-description" data-view-component="true" class="Overlay Overlay-whenNarrow Overlay--size-medium Overlay--motion-scaleFade Overlay--disableScroll">
-    <div data-view-component="true" class="Overlay-header">
-  <div class="Overlay-headerContentWrap">
-    <div class="Overlay-titleWrap">
-      <h1 class="Overlay-title " id="feedback-dialog-title">
-        Provide feedback
-      </h1>
-        
-    </div>
-    <div class="Overlay-actionWrap">
-      <button data-close-dialog-id="feedback-dialog" aria-label="Close" aria-label="Close" type="button" data-view-component="true" class="close-button Overlay-closeButton"><svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
-    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
-</svg></button>
-    </div>
-  </div>
-  
-</div>
-      <scrollable-region data-labelled-by="feedback-dialog-title">
-        <div data-view-component="true" class="Overlay-body">        <!-- '"` --><!-- </textarea></xmp> --></option></form><form id="code-search-feedback-form" data-turbo="false" action="/search/feedback" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="scTQyfbb5rAdCdAIDVVtagiQRjbBBwK8Dxv9HyQ/G/Qcxod2X8FLbKAP3KBY184Pa/N+LZ6G1RpS/NogTQ0esQ==" />
-          <p>We read every piece of feedback, and take your input very seriously.</p>
-          <textarea name="feedback" class="form-control width-full mb-2" style="height: 120px" id="feedback"></textarea>
-          <input name="include_email" id="include_email" aria-label="Include my email address so I can be contacted" class="form-control mr-2" type="checkbox">
-          <label for="include_email" style="font-weight: normal">Include my email address so I can be contacted</label>
-</form></div>
-      </scrollable-region>
-      <div data-view-component="true" class="Overlay-footer Overlay-footer--alignEnd">          <button data-close-dialog-id="feedback-dialog" type="button" data-view-component="true" class="btn">    Cancel
-</button>
-          <button form="code-search-feedback-form" data-action="click:qbsearch-input#submitFeedback" type="submit" data-view-component="true" class="btn-primary btn">    Submit feedback
-</button>
-</div>
-</dialog></dialog-helper>
-
-    <custom-scopes data-target="qbsearch-input.customScopesManager">
-    
-<dialog-helper>
-  <dialog data-target="custom-scopes.customScopesModalDialog" data-action="close:qbsearch-input#handleDialogClose cancel:qbsearch-input#handleDialogClose" id="custom-scopes-dialog" aria-modal="true" aria-labelledby="custom-scopes-dialog-title" aria-describedby="custom-scopes-dialog-description" data-view-component="true" class="Overlay Overlay-whenNarrow Overlay--size-medium Overlay--motion-scaleFade Overlay--disableScroll">
-    <div data-view-component="true" class="Overlay-header Overlay-header--divided">
-  <div class="Overlay-headerContentWrap">
-    <div class="Overlay-titleWrap">
-      <h1 class="Overlay-title " id="custom-scopes-dialog-title">
-        Saved searches
-      </h1>
-        <h2 id="custom-scopes-dialog-description" class="Overlay-description">Use saved searches to filter your results more quickly</h2>
-    </div>
-    <div class="Overlay-actionWrap">
-      <button data-close-dialog-id="custom-scopes-dialog" aria-label="Close" aria-label="Close" type="button" data-view-component="true" class="close-button Overlay-closeButton"><svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
-    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
-</svg></button>
-    </div>
-  </div>
-  
-</div>
-      <scrollable-region data-labelled-by="custom-scopes-dialog-title">
-        <div data-view-component="true" class="Overlay-body">        <div data-target="custom-scopes.customScopesModalDialogFlash"></div>
-
-        <div hidden class="create-custom-scope-form" data-target="custom-scopes.createCustomScopeForm">
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form id="custom-scopes-dialog-form" data-turbo="false" action="/search/custom_scopes" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="JK2lGIh2QO6VbD9WjLvFa9eGRe7tybHFtc/7GNEE8asQFKFeuQZ/ymgnQ6poIxkDaOXmbyrR9/gOEMqm/Bs+kw==" />
-          <div data-target="custom-scopes.customScopesModalDialogFlash"></div>
-
-          <input type="hidden" id="custom_scope_id" name="custom_scope_id" data-target="custom-scopes.customScopesIdField">
-
-          <div class="form-group">
-            <label for="custom_scope_name">Name</label>
-            <auto-check src="/search/custom_scopes/check_name" required>
-              <input
-                type="text"
-                name="custom_scope_name"
-                id="custom_scope_name"
-                data-target="custom-scopes.customScopesNameField"
-                class="form-control"
-                autocomplete="off"
-                placeholder="github-ruby"
-                required
-                maxlength="50">
-              <input type="hidden" data-csrf="true" value="AQGSutyleWQXNecBdwD6kX+FwiQzPBgyBdNeVVrVG8U4M77UfrbBl/eA5j7CRjM8XxrxLmeW0TtvHsjPWUkZxA==" />
-            </auto-check>
-          </div>
-
-          <div class="form-group">
-            <label for="custom_scope_query">Query</label>
-            <input
-              type="text"
-              name="custom_scope_query"
-              id="custom_scope_query"
-              data-target="custom-scopes.customScopesQueryField"
-              class="form-control"
-              autocomplete="off"
-              placeholder="(repo:mona/a OR repo:mona/b) AND lang:python"
-              required
-              maxlength="500">
-          </div>
-
-          <p class="text-small color-fg-muted">
-            To see all available qualifiers, see our <a class="Link--inTextBlock" href="https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax">documentation</a>.
-          </p>
-</form>        </div>
-
-        <div data-target="custom-scopes.manageCustomScopesForm">
-          <div data-target="custom-scopes.list"></div>
-        </div>
-
-</div>
-      </scrollable-region>
-      <div data-view-component="true" class="Overlay-footer Overlay-footer--alignEnd Overlay-footer--divided">          <button data-action="click:custom-scopes#customScopesCancel" type="button" data-view-component="true" class="btn">    Cancel
-</button>
-          <button form="custom-scopes-dialog-form" data-action="click:custom-scopes#customScopesSubmit" data-target="custom-scopes.customScopesSubmitButton" type="submit" data-view-component="true" class="btn-primary btn">    Create saved search
-</button>
-</div>
-</dialog></dialog-helper>
-    </custom-scopes>
-  </div>
-</qbsearch-input>
-
-
-            <div class="position-relative HeaderMenu-link-wrap d-lg-inline-block">
-              <a
-                href="/login?return_to=https%3A%2F%2Fgithub.com%2FFewBit-Coin%2FCore-Wallet%2Fblob%2Fmain%2Fsrc%2Fwallet%2Fwallet.cpp"
-                class="HeaderMenu-link HeaderMenu-link--sign-in HeaderMenu-button flex-shrink-0 no-underline d-none d-lg-inline-flex border border-lg-0 rounded rounded-lg-0 px-2 py-1"
-                style="margin-left: 12px;"
-                data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/FewBit-Coin/Core-Wallet/blob/main/src/wallet/wallet.cpp&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="162a9c5947a5602c13fb89dbcd35ccccabd4fb585386ba6c2f17e8fd4966836f"
-                data-analytics-event="{&quot;category&quot;:&quot;Marketing nav&quot;,&quot;action&quot;:&quot;click to go to homepage&quot;,&quot;label&quot;:&quot;ref_page:Marketing;ref_cta:Sign in;ref_loc:Header&quot;}"
-              >
-                Sign in
-              </a>
-            </div>
-
-              <a href="/signup?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fblob%2Fshow&amp;source=header-repo&amp;source_repo=FewBit-Coin%2FCore-Wallet"
-                class="HeaderMenu-link HeaderMenu-link--sign-up HeaderMenu-button flex-shrink-0 d-flex d-lg-inline-flex no-underline border color-border-default rounded px-2 py-1"
-                data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/FewBit-Coin/Core-Wallet/blob/main/src/wallet/wallet.cpp&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="162a9c5947a5602c13fb89dbcd35ccccabd4fb585386ba6c2f17e8fd4966836f"
-                data-analytics-event="{&quot;category&quot;:&quot;Sign up&quot;,&quot;action&quot;:&quot;click to sign up for account&quot;,&quot;label&quot;:&quot;ref_page:/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show;ref_cta:Sign up;ref_loc:header logged out&quot;}"
-              >
-                Sign up
-              </a>
-
-                <div class="AppHeader-appearanceSettings">
-    <react-partial-anchor>
-      <button data-target="react-partial-anchor.anchor" id="icon-button-584c299a-12b4-4f81-8c27-d4a5b1b9669c" aria-labelledby="tooltip-393e5a69-c644-463b-96e0-0ee7c769d680" type="button" disabled="disabled" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium AppHeader-button HeaderMenu-link border cursor-wait">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-sliders Button-visual">
-    <path d="M15 2.75a.75.75 0 0 1-.75.75h-4a.75.75 0 0 1 0-1.5h4a.75.75 0 0 1 .75.75Zm-8.5.75v1.25a.75.75 0 0 0 1.5 0v-4a.75.75 0 0 0-1.5 0V2H1.75a.75.75 0 0 0 0 1.5H6.5Zm1.25 5.25a.75.75 0 0 0 0-1.5h-6a.75.75 0 0 0 0 1.5h6ZM15 8a.75.75 0 0 1-.75.75H11.5V10a.75.75 0 1 1-1.5 0V6a.75.75 0 0 1 1.5 0v1.25h2.75A.75.75 0 0 1 15 8Zm-9 5.25v-2a.75.75 0 0 0-1.5 0v1.25H1.75a.75.75 0 0 0 0 1.5H4.5v1.25a.75.75 0 0 0 1.5 0v-2Zm9 0a.75.75 0 0 1-.75.75h-6a.75.75 0 0 1 0-1.5h6a.75.75 0 0 1 .75.75Z"></path>
-</svg>
-</button><tool-tip id="tooltip-393e5a69-c644-463b-96e0-0ee7c769d680" for="icon-button-584c299a-12b4-4f81-8c27-d4a5b1b9669c" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Appearance settings</tool-tip>
-
-      <template data-target="react-partial-anchor.template">
-        <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-react.40c6e83ff50327d4c9c1.module.css" />
-<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/appearance-settings.4e1ca273f504ba849f8c.module.css" />
-
-<react-partial
-  partial-name="appearance-settings"
-  data-ssr="false"
-  data-attempted-ssr="false"
->
-  
-  <script type="application/json" data-target="react-partial.embeddedData">{"props":{}}</script>
-  <div data-target="react-partial.reactRoot"></div>
-</react-partial>
-
-      </template>
-    </react-partial-anchor>
-  </div>
-
-          <button type="button" class="sr-only js-header-menu-focus-trap d-block d-lg-none">Resetting focus</button>
-        </div>
-      </div>
-    </div>
-  </div>
-</header>
-
-      <div hidden="hidden" data-view-component="true" class="js-stale-session-flash stale-session-flash flash flash-warn flash-full">
-  
-        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
-    <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
-</svg>
-        <span class="js-stale-session-flash-signed-in" hidden>You signed in with another tab or window. <a class="Link--inTextBlock" href="">Reload</a> to refresh your session.</span>
-        <span class="js-stale-session-flash-signed-out" hidden>You signed out in another tab or window. <a class="Link--inTextBlock" href="">Reload</a> to refresh your session.</span>
-        <span class="js-stale-session-flash-switched" hidden>You switched accounts on another tab or window. <a class="Link--inTextBlock" href="">Reload</a> to refresh your session.</span>
-
-    <button id="icon-button-6440a908-5c09-454f-97d0-36bd2fdb358d" aria-labelledby="tooltip-d1678900-cb0d-48a0-ab34-75dc8cba3a32" type="button" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium flash-close js-flash-close">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x Button-visual">
-    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
-</svg>
-</button><tool-tip id="tooltip-d1678900-cb0d-48a0-ab34-75dc8cba3a32" for="icon-button-6440a908-5c09-454f-97d0-36bd2fdb358d" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Dismiss alert</tool-tip>
-
-
-  
-</div>
-    </div>
-
-  <div id="start-of-content" class="show-on-focus"></div>
-
-
-
-
-
-
-
-
-    <div id="js-flash-container" class="flash-container" data-turbo-replace>
-
-
-
-
-  <template class="js-flash-template">
-    
-<div class="flash flash-full   {{ className }}">
-  <div >
-    <button autofocus class="flash-close js-flash-close" type="button" aria-label="Dismiss this message">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
-    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
-</svg>
-    </button>
-    <div aria-atomic="true" role="alert" class="js-flash-alert">
-      
-      <div>{{ message }}</div>
-
-    </div>
-  </div>
-</div>
-  </template>
-</div>
-
-
-    
-
-
-
-
-
-
-  <div
-    class="application-main "
-    data-commit-hovercards-enabled
-    data-discussion-hovercards-enabled
-    data-issue-and-pr-hovercards-enabled
-    data-project-hovercards-enabled
-  >
-        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
-    <main id="js-repo-pjax-container" >
-      
-      
-    
-
-    
-
-
-
-
-
-
-  
-  <div id="repository-container-header"  class="pt-3 hide-full-screen" style="background-color: var(--page-header-bgColor, var(--color-page-header-bg));" data-turbo-replace>
-
-      <div class="d-flex flex-nowrap flex-justify-end mb-3  px-3 px-lg-5" style="gap: 1rem;">
-
-        <div class="flex-auto min-width-0 width-fit">
-            
-  <div class=" d-flex flex-wrap flex-items-center wb-break-word f3 text-normal">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo color-fg-muted mr-2">
-    <path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"></path>
-</svg>
-    
-    <span class="author flex-self-stretch" itemprop="author">
-      <a class="url fn" rel="author" data-hovercard-type="organization" data-hovercard-url="/orgs/FewBit-Coin/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/FewBit-Coin">
-        FewBit-Coin
-</a>    </span>
-    <span class="mx-1 flex-self-stretch color-fg-muted">/</span>
-    <strong itemprop="name" class="mr-2 flex-self-stretch">
-      <a data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/FewBit-Coin/Core-Wallet">Core-Wallet</a>
-    </strong>
-
-    <span></span><span class="Label Label--secondary v-align-middle mr-1">Public</span>
-  </div>
-
-
-        </div>
-
-        <div id="repository-details-container" class="flex-shrink-0" data-turbo-replace style="max-width: 70%;">
-            <ul class="pagehead-actions flex-shrink-0 d-none d-md-inline" style="padding: 2px 0;">
-    
-      
-
-  <li>
-            <a href="/login?return_to=%2FFewBit-Coin%2FCore-Wallet" rel="nofollow" id="repository-details-watch-button" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/FewBit-Coin/Core-Wallet/blob/main/src/wallet/wallet.cpp&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="4de76af5d62dbf36f1afdb63907786ece349b54d313492faa530f5d44f52065b" aria-label="You must be signed in to change notification settings" data-view-component="true" class="btn-sm btn">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-bell mr-2">
-    <path d="M8 16a2 2 0 0 0 1.985-1.75c.017-.137-.097-.25-.235-.25h-3.5c-.138 0-.252.113-.235.25A2 2 0 0 0 8 16ZM3 5a5 5 0 0 1 10 0v2.947c0 .05.015.098.042.139l1.703 2.555A1.519 1.519 0 0 1 13.482 13H2.518a1.516 1.516 0 0 1-1.263-2.36l1.703-2.554A.255.255 0 0 0 3 7.947Zm5-3.5A3.5 3.5 0 0 0 4.5 5v2.947c0 .346-.102.683-.294.97l-1.703 2.556a.017.017 0 0 0-.003.01l.001.006c0 .002.002.004.004.006l.006.004.007.001h10.964l.007-.001.006-.004.004-.006.001-.007a.017.017 0 0 0-.003-.01l-1.703-2.554a1.745 1.745 0 0 1-.294-.97V5A3.5 3.5 0 0 0 8 1.5Z"></path>
-</svg>Notifications
-</a>    <tool-tip id="tooltip-c05d2936-f57c-4d11-b427-afcc53aaf631" for="repository-details-watch-button" popover="manual" data-direction="s" data-type="description" data-view-component="true" class="sr-only position-absolute">You must be signed in to change notification settings</tool-tip>
-
-  </li>
-
-  <li>
-          <a icon="repo-forked" id="fork-button" href="/login?return_to=%2FFewBit-Coin%2FCore-Wallet" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;repo details fork button&quot;,&quot;repository_id&quot;:800855917,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/FewBit-Coin/Core-Wallet/blob/main/src/wallet/wallet.cpp&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="90ec3559e750fa5ac7b05c3b6c28b6528b17f3acc1a719b2170766ce0ad2b3a2" data-view-component="true" class="btn-sm btn">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked mr-2">
-    <path d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"></path>
-</svg>Fork
-    <span id="repo-network-counter" data-pjax-replace="true" data-turbo-replace="true" title="3" data-view-component="true" class="Counter">3</span>
-</a>
-  </li>
-
-  <li>
-        <div data-view-component="true" class="BtnGroup d-flex">
-        <a href="/login?return_to=%2FFewBit-Coin%2FCore-Wallet" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:800855917,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/FewBit-Coin/Core-Wallet/blob/main/src/wallet/wallet.cpp&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="025460b772ebd88a03b8e8819acd01721af59a9b14a6034d0658ea514b8ad3a9" aria-label="You must be signed in to star a repository" data-view-component="true" class="tooltipped tooltipped-sw btn-sm btn">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star v-align-text-bottom d-inline-block mr-2">
-    <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Zm0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41L8 2.694Z"></path>
-</svg><span data-view-component="true" class="d-inline">
-          Star
-</span>          <span id="repo-stars-counter-star" aria-label="5 users starred this repository" data-singular-suffix="user starred this repository" data-plural-suffix="users starred this repository" data-turbo-replace="true" title="5" data-view-component="true" class="Counter js-social-count">5</span>
-</a></div>
-  </li>
-
-</ul>
-
-        </div>
-      </div>
-
-        <div id="responsive-meta-container" data-turbo-replace>
-</div>
-
-
-          <nav data-pjax="#js-repo-pjax-container" aria-label="Repository" data-view-component="true" class="js-repo-nav js-sidenav-container-pjax js-responsive-underlinenav overflow-hidden UnderlineNav px-3 px-md-4 px-lg-5">
-
-  <ul data-view-component="true" class="UnderlineNav-body list-style-none">
-      <li data-view-component="true" class="d-inline-flex">
-  <a id="code-tab" href="/FewBit-Coin/Core-Wallet" data-tab-item="i0code-tab" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages repo_deployments repo_attestations /FewBit-Coin/Core-Wallet" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g c" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Code&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" aria-current="page" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item selected">
-    
-              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code UnderlineNav-octicon d-none d-sm-inline">
-    <path d="m11.28 3.22 4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L13.94 8l-3.72-3.72a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215Zm-6.56 0a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042L2.06 8l3.72 3.72a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L.47 8.53a.75.75 0 0 1 0-1.06Z"></path>
-</svg>
-        <span data-content="Code">Code</span>
-          <span id="code-repo-tab-count" data-pjax-replace="" data-turbo-replace="" title="Not available" data-view-component="true" class="Counter"></span>
-
-
-    
-</a></li>
-      <li data-view-component="true" class="d-inline-flex">
-  <a id="issues-tab" href="/FewBit-Coin/Core-Wallet/issues" data-tab-item="i1issues-tab" data-selected-links="repo_issues repo_labels repo_milestones /FewBit-Coin/Core-Wallet/issues" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g i" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Issues&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
-    
-              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-issue-opened UnderlineNav-octicon d-none d-sm-inline">
-    <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"></path><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"></path>
-</svg>
-        <span data-content="Issues">Issues</span>
-          <span id="issues-repo-tab-count" data-pjax-replace="" data-turbo-replace="" title="0" hidden="hidden" data-view-component="true" class="Counter">0</span>
-
-
-    
-</a></li>
-      <li data-view-component="true" class="d-inline-flex">
-  <a id="pull-requests-tab" href="/FewBit-Coin/Core-Wallet/pulls" data-tab-item="i2pull-requests-tab" data-selected-links="repo_pulls checks /FewBit-Coin/Core-Wallet/pulls" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g p" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Pull requests&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
-    
-              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-git-pull-request UnderlineNav-octicon d-none d-sm-inline">
-    <path d="M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354ZM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm0 9.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm8.25.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Z"></path>
-</svg>
-        <span data-content="Pull requests">Pull requests</span>
-          <span id="pull-requests-repo-tab-count" data-pjax-replace="" data-turbo-replace="" title="0" hidden="hidden" data-view-component="true" class="Counter">0</span>
-
-
-    
-</a></li>
-      <li data-view-component="true" class="d-inline-flex">
-  <a id="actions-tab" href="/FewBit-Coin/Core-Wallet/actions" data-tab-item="i3actions-tab" data-selected-links="repo_actions /FewBit-Coin/Core-Wallet/actions" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g a" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Actions&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
-    
-              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-play UnderlineNav-octicon d-none d-sm-inline">
-    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm4.879-2.773 4.264 2.559a.25.25 0 0 1 0 .428l-4.264 2.559A.25.25 0 0 1 6 10.559V5.442a.25.25 0 0 1 .379-.215Z"></path>
-</svg>
-        <span data-content="Actions">Actions</span>
-          <span id="actions-repo-tab-count" data-pjax-replace="" data-turbo-replace="" title="Not available" data-view-component="true" class="Counter"></span>
-
-
-    
-</a></li>
-      <li data-view-component="true" class="d-inline-flex">
-  <a id="projects-tab" href="/FewBit-Coin/Core-Wallet/projects" data-tab-item="i4projects-tab" data-selected-links="repo_projects new_repo_project repo_project /FewBit-Coin/Core-Wallet/projects" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g b" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Projects&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
-    
-              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-table UnderlineNav-octicon d-none d-sm-inline">
-    <path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25ZM6.5 6.5v8h7.75a.25.25 0 0 0 .25-.25V6.5Zm8-1.5V1.75a.25.25 0 0 0-.25-.25H6.5V5Zm-13 1.5v7.75c0 .138.112.25.25.25H5v-8ZM5 5V1.5H1.75a.25.25 0 0 0-.25.25V5Z"></path>
-</svg>
-        <span data-content="Projects">Projects</span>
-          <span id="projects-repo-tab-count" data-pjax-replace="" data-turbo-replace="" title="0" hidden="hidden" data-view-component="true" class="Counter">0</span>
-
-
-    
-</a></li>
-      <li data-view-component="true" class="d-inline-flex">
-  <a id="security-tab" href="/FewBit-Coin/Core-Wallet/security" data-tab-item="i5security-tab" data-selected-links="security overview alerts policy token_scanning code_scanning /FewBit-Coin/Core-Wallet/security" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g s" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Security&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
-    
-              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-shield UnderlineNav-octicon d-none d-sm-inline">
-    <path d="M7.467.133a1.748 1.748 0 0 1 1.066 0l5.25 1.68A1.75 1.75 0 0 1 15 3.48V7c0 1.566-.32 3.182-1.303 4.682-.983 1.498-2.585 2.813-5.032 3.855a1.697 1.697 0 0 1-1.33 0c-2.447-1.042-4.049-2.357-5.032-3.855C1.32 10.182 1 8.566 1 7V3.48a1.75 1.75 0 0 1 1.217-1.667Zm.61 1.429a.25.25 0 0 0-.153 0l-5.25 1.68a.25.25 0 0 0-.174.238V7c0 1.358.275 2.666 1.057 3.86.784 1.194 2.121 2.34 4.366 3.297a.196.196 0 0 0 .154 0c2.245-.956 3.582-2.104 4.366-3.298C13.225 9.666 13.5 8.36 13.5 7V3.48a.251.251 0 0 0-.174-.237l-5.25-1.68ZM8.75 4.75v3a.75.75 0 0 1-1.5 0v-3a.75.75 0 0 1 1.5 0ZM9 10.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
-</svg>
-        <span data-content="Security">Security</span>
-          <include-fragment src="/FewBit-Coin/Core-Wallet/security/overall-count" accept="text/fragment+html" data-nonce="v2:a5de8598-cc27-f736-aa8c-c6311bae96cb" data-view-component="true">
-  
-  <div data-show-on-forbidden-error hidden>
-    <div class="Box">
-  <div class="blankslate-container">
-    <div data-view-component="true" class="blankslate blankslate-spacious color-bg-default rounded-2">
-      
-
-      <h3 data-view-component="true" class="blankslate-heading">        Uh oh!
-</h3>
-      <p data-view-component="true">        <p class="color-fg-muted my-2 mb-2 ws-normal">There was an error while loading. <a class="Link--inTextBlock" data-turbo="false" href="" aria-label="Please reload this page">Please reload this page</a>.</p>
-</p>
-
-</div>  </div>
-</div>  </div>
-</include-fragment>
-
-    
-</a></li>
-      <li data-view-component="true" class="d-inline-flex">
-  <a id="insights-tab" href="/FewBit-Coin/Core-Wallet/pulse" data-tab-item="i6insights-tab" data-selected-links="repo_graphs repo_contributors dependency_graph dependabot_updates pulse people community /FewBit-Coin/Core-Wallet/pulse" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Insights&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
-    
-              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-graph UnderlineNav-octicon d-none d-sm-inline">
-    <path d="M1.5 1.75V13.5h13.75a.75.75 0 0 1 0 1.5H.75a.75.75 0 0 1-.75-.75V1.75a.75.75 0 0 1 1.5 0Zm14.28 2.53-5.25 5.25a.75.75 0 0 1-1.06 0L7 7.06 4.28 9.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.25-3.25a.75.75 0 0 1 1.06 0L10 7.94l4.72-4.72a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042Z"></path>
-</svg>
-        <span data-content="Insights">Insights</span>
-          <span id="insights-repo-tab-count" data-pjax-replace="" data-turbo-replace="" title="Not available" data-view-component="true" class="Counter"></span>
-
-
-    
-</a></li>
-</ul>
-    <div style="visibility:hidden;" data-view-component="true" class="UnderlineNav-actions js-responsive-underlinenav-overflow position-absolute pr-3 pr-md-4 pr-lg-5 right-0">      <action-menu data-select-variant="none" data-view-component="true">
-  <focus-group direction="vertical" mnemonics retain>
-    <button id="action-menu-00b02d4a-eac8-45a0-8306-3734a3b1eb27-button" popovertarget="action-menu-00b02d4a-eac8-45a0-8306-3734a3b1eb27-overlay" aria-controls="action-menu-00b02d4a-eac8-45a0-8306-3734a3b1eb27-list" aria-haspopup="true" aria-labelledby="tooltip-5016da43-f6f8-437e-8e82-38a3f2c8d8f2" type="button" data-view-component="true" class="Button Button--iconOnly Button--secondary Button--medium UnderlineNav-item">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-kebab-horizontal Button-visual">
-    <path d="M8 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3ZM1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm13 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"></path>
-</svg>
-</button><tool-tip id="tooltip-5016da43-f6f8-437e-8e82-38a3f2c8d8f2" for="action-menu-00b02d4a-eac8-45a0-8306-3734a3b1eb27-button" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Additional navigation options</tool-tip>
-
-
-<anchored-position data-target="action-menu.overlay" id="action-menu-00b02d4a-eac8-45a0-8306-3734a3b1eb27-overlay" anchor="action-menu-00b02d4a-eac8-45a0-8306-3734a3b1eb27-button" align="start" side="outside-bottom" anchor-offset="normal" popover="auto" data-view-component="true">
-  <div data-view-component="true" class="Overlay Overlay--size-auto">
-    
-      <div data-view-component="true" class="Overlay-body Overlay-body--paddingNone">          <action-list>
-  <div data-view-component="true">
-    <ul aria-labelledby="action-menu-00b02d4a-eac8-45a0-8306-3734a3b1eb27-button" id="action-menu-00b02d4a-eac8-45a0-8306-3734a3b1eb27-list" role="menu" data-view-component="true" class="ActionListWrap--inset ActionListWrap">
-        <li hidden="hidden" data-menu-item="i0code-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
-    
-    
-    <a tabindex="-1" id="item-a86ee666-ac2a-42bc-806b-93617b697791" href="/FewBit-Coin/Core-Wallet" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-        <span class="ActionListItem-visual ActionListItem-visual--leading">
-          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code">
-    <path d="m11.28 3.22 4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L13.94 8l-3.72-3.72a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215Zm-6.56 0a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042L2.06 8l3.72 3.72a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L.47 8.53a.75.75 0 0 1 0-1.06Z"></path>
-</svg>
-        </span>
-      
-        <span data-view-component="true" class="ActionListItem-label">
-          Code
-</span>      
-</a>
-  
-</li>
-        <li hidden="hidden" data-menu-item="i1issues-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
-    
-    
-    <a tabindex="-1" id="item-4336036c-f5aa-49d4-b4e6-103d9db7f392" href="/FewBit-Coin/Core-Wallet/issues" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-        <span class="ActionListItem-visual ActionListItem-visual--leading">
-          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-issue-opened">
-    <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"></path><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"></path>
-</svg>
-        </span>
-      
-        <span data-view-component="true" class="ActionListItem-label">
-          Issues
-</span>      
-</a>
-  
-</li>
-        <li hidden="hidden" data-menu-item="i2pull-requests-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
-    
-    
-    <a tabindex="-1" id="item-eb4c5e50-77f2-4965-ae28-aac9be0f39a0" href="/FewBit-Coin/Core-Wallet/pulls" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-        <span class="ActionListItem-visual ActionListItem-visual--leading">
-          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-git-pull-request">
-    <path d="M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354ZM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm0 9.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm8.25.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Z"></path>
-</svg>
-        </span>
-      
-        <span data-view-component="true" class="ActionListItem-label">
-          Pull requests
-</span>      
-</a>
-  
-</li>
-        <li hidden="hidden" data-menu-item="i3actions-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
-    
-    
-    <a tabindex="-1" id="item-c13519db-4718-43af-9e8c-d865b8716140" href="/FewBit-Coin/Core-Wallet/actions" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-        <span class="ActionListItem-visual ActionListItem-visual--leading">
-          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-play">
-    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm4.879-2.773 4.264 2.559a.25.25 0 0 1 0 .428l-4.264 2.559A.25.25 0 0 1 6 10.559V5.442a.25.25 0 0 1 .379-.215Z"></path>
-</svg>
-        </span>
-      
-        <span data-view-component="true" class="ActionListItem-label">
-          Actions
-</span>      
-</a>
-  
-</li>
-        <li hidden="hidden" data-menu-item="i4projects-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
-    
-    
-    <a tabindex="-1" id="item-838dd5ae-ac09-4931-a71d-d99b85ed439b" href="/FewBit-Coin/Core-Wallet/projects" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-        <span class="ActionListItem-visual ActionListItem-visual--leading">
-          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-table">
-    <path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25ZM6.5 6.5v8h7.75a.25.25 0 0 0 .25-.25V6.5Zm8-1.5V1.75a.25.25 0 0 0-.25-.25H6.5V5Zm-13 1.5v7.75c0 .138.112.25.25.25H5v-8ZM5 5V1.5H1.75a.25.25 0 0 0-.25.25V5Z"></path>
-</svg>
-        </span>
-      
-        <span data-view-component="true" class="ActionListItem-label">
-          Projects
-</span>      
-</a>
-  
-</li>
-        <li hidden="hidden" data-menu-item="i5security-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
-    
-    
-    <a tabindex="-1" id="item-bd6a5070-3bea-4296-a7a0-2a7241a82fa5" href="/FewBit-Coin/Core-Wallet/security" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-        <span class="ActionListItem-visual ActionListItem-visual--leading">
-          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-shield">
-    <path d="M7.467.133a1.748 1.748 0 0 1 1.066 0l5.25 1.68A1.75 1.75 0 0 1 15 3.48V7c0 1.566-.32 3.182-1.303 4.682-.983 1.498-2.585 2.813-5.032 3.855a1.697 1.697 0 0 1-1.33 0c-2.447-1.042-4.049-2.357-5.032-3.855C1.32 10.182 1 8.566 1 7V3.48a1.75 1.75 0 0 1 1.217-1.667Zm.61 1.429a.25.25 0 0 0-.153 0l-5.25 1.68a.25.25 0 0 0-.174.238V7c0 1.358.275 2.666 1.057 3.86.784 1.194 2.121 2.34 4.366 3.297a.196.196 0 0 0 .154 0c2.245-.956 3.582-2.104 4.366-3.298C13.225 9.666 13.5 8.36 13.5 7V3.48a.251.251 0 0 0-.174-.237l-5.25-1.68ZM8.75 4.75v3a.75.75 0 0 1-1.5 0v-3a.75.75 0 0 1 1.5 0ZM9 10.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
-</svg>
-        </span>
-      
-        <span data-view-component="true" class="ActionListItem-label">
-          Security
-</span>      
-</a>
-  
-</li>
-        <li hidden="hidden" data-menu-item="i6insights-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
-    
-    
-    <a tabindex="-1" id="item-b2475cb6-4370-408a-af32-53b9d6657a80" href="/FewBit-Coin/Core-Wallet/pulse" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
-        <span class="ActionListItem-visual ActionListItem-visual--leading">
-          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-graph">
-    <path d="M1.5 1.75V13.5h13.75a.75.75 0 0 1 0 1.5H.75a.75.75 0 0 1-.75-.75V1.75a.75.75 0 0 1 1.5 0Zm14.28 2.53-5.25 5.25a.75.75 0 0 1-1.06 0L7 7.06 4.28 9.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.25-3.25a.75.75 0 0 1 1.06 0L10 7.94l4.72-4.72a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042Z"></path>
-</svg>
-        </span>
-      
-        <span data-view-component="true" class="ActionListItem-label">
-          Insights
-</span>      
-</a>
-  
-</li>
-</ul>    
-</div></action-list>
-
-
-</div>
-      
-</div></anchored-position>  </focus-group>
-</action-menu></div>
-</nav>
-
-  </div>
-
-  
-
-
-
-<turbo-frame id="repo-content-turbo-frame" target="_top" data-turbo-action="advance" class="">
-    <div id="repo-content-pjax-container" class="repository-content " >
-    
-
-
-
-    
-      
-    
-
-
-
-
-
-
-
-
-<react-app
-  app-name="react-code-view"
-  initial-path="/FewBit-Coin/Core-Wallet/blob/main/src/wallet/wallet.cpp"
-    style="display: block; min-height: calc(100vh - 64px);"
-  data-attempted-ssr="false"
-  data-ssr="false"
-  data-lazy="false"
-  data-alternate="false"
-  data-data-router-enabled="false"
->
-  
-  <script type="application/json" data-target="react-app.embeddedData">{"payload":{"allShortcutsEnabled":false,"fileTree":{"src/wallet":{"items":[{"name":"test","path":"src/wallet/test","contentType":"directory"},{"name":"coincontrol.h","path":"src/wallet/coincontrol.h","contentType":"file"},{"name":"coinselection.cpp","path":"src/wallet/coinselection.cpp","contentType":"file"},{"name":"coinselection.h","path":"src/wallet/coinselection.h","contentType":"file"},{"name":"crypter.cpp","path":"src/wallet/crypter.cpp","contentType":"file"},{"name":"crypter.h","path":"src/wallet/crypter.h","contentType":"file"},{"name":"db.cpp","path":"src/wallet/db.cpp","contentType":"file"},{"name":"db.h","path":"src/wallet/db.h","contentType":"file"},{"name":"fees.cpp","path":"src/wallet/fees.cpp","contentType":"file"},{"name":"fees.h","path":"src/wallet/fees.h","contentType":"file"},{"name":"init.cpp","path":"src/wallet/init.cpp","contentType":"file"},{"name":"rpcdump.cpp","path":"src/wallet/rpcdump.cpp","contentType":"file"},{"name":"rpcwallet.cpp","path":"src/wallet/rpcwallet.cpp","contentType":"file"},{"name":"rpcwallet.h","path":"src/wallet/rpcwallet.h","contentType":"file"},{"name":"wallet.cpp","path":"src/wallet/wallet.cpp","contentType":"file"},{"name":"wallet.h","path":"src/wallet/wallet.h","contentType":"file"},{"name":"walletdb.cpp","path":"src/wallet/walletdb.cpp","contentType":"file"},{"name":"walletdb.h","path":"src/wallet/walletdb.h","contentType":"file"},{"name":"walletutil.cpp","path":"src/wallet/walletutil.cpp","contentType":"file"},{"name":"walletutil.h","path":"src/wallet/walletutil.h","contentType":"file"}],"totalCount":20},"src":{"items":[{"name":"bench","path":"src/bench","contentType":"directory"},{"name":"bls","path":"src/bls","contentType":"directory"},{"name":"coinjoin","path":"src/coinjoin","contentType":"directory"},{"name":"compat","path":"src/compat","contentType":"directory"},{"name":"config","path":"src/config","contentType":"directory"},{"name":"consensus","path":"src/consensus","contentType":"directory"},{"name":"crypto","path":"src/crypto","contentType":"directory"},{"name":"cryptonote","path":"src/cryptonote","contentType":"directory"},{"name":"evo","path":"src/evo","contentType":"directory"},{"name":"future","path":"src/future","contentType":"directory"},{"name":"governance","path":"src/governance","contentType":"directory"},{"name":"immer","path":"src/immer","contentType":"directory"},{"name":"indices","path":"src/indices","contentType":"directory"},{"name":"interfaces","path":"src/interfaces","contentType":"directory"},{"name":"leveldb","path":"src/leveldb","contentType":"directory"},{"name":"llmq","path":"src/llmq","contentType":"directory"},{"name":"node","path":"src/node","contentType":"directory"},{"name":"obj-test","path":"src/obj-test","contentType":"directory"},{"name":"obj","path":"src/obj","contentType":"directory"},{"name":"policy","path":"src/policy","contentType":"directory"},{"name":"primitives","path":"src/primitives","contentType":"directory"},{"name":"qt","path":"src/qt","contentType":"directory"},{"name":"rpc","path":"src/rpc","contentType":"directory"},{"name":"script","path":"src/script","contentType":"directory"},{"name":"secp256k1","path":"src/secp256k1","contentType":"directory"},{"name":"smartnode","path":"src/smartnode","contentType":"directory"},{"name":"support","path":"src/support","contentType":"directory"},{"name":"test","path":"src/test","contentType":"directory"},{"name":"univalue","path":"src/univalue","contentType":"directory"},{"name":"wallet","path":"src/wallet","contentType":"directory"},{"name":"zmq","path":"src/zmq","contentType":"directory"},{"name":".clang-format","path":"src/.clang-format","contentType":"file"},{"name":"Makefile.am","path":"src/Makefile.am","contentType":"file"},{"name":"Makefile.bench.include","path":"src/Makefile.bench.include","contentType":"file"},{"name":"Makefile.leveldb.include","path":"src/Makefile.leveldb.include","contentType":"file"},{"name":"Makefile.qt.include","path":"src/Makefile.qt.include","contentType":"file"},{"name":"Makefile.qttest.include","path":"src/Makefile.qttest.include","contentType":"file"},{"name":"Makefile.test.include","path":"src/Makefile.test.include","contentType":"file"},{"name":"addrdb.cpp","path":"src/addrdb.cpp","contentType":"file"},{"name":"addrdb.h","path":"src/addrdb.h","contentType":"file"},{"name":"addressindex.h","path":"src/addressindex.h","contentType":"file"},{"name":"addrman.cpp","path":"src/addrman.cpp","contentType":"file"},{"name":"addrman.h","path":"src/addrman.h","contentType":"file"},{"name":"amount.h","path":"src/amount.h","contentType":"file"},{"name":"arith_uint256.cpp","path":"src/arith_uint256.cpp","contentType":"file"},{"name":"arith_uint256.h","path":"src/arith_uint256.h","contentType":"file"},{"name":"assetTransaction.json","path":"src/assetTransaction.json","contentType":"file"},{"name":"attributes.h","path":"src/attributes.h","contentType":"file"},{"name":"base58.cpp","path":"src/base58.cpp","contentType":"file"},{"name":"base58.h","path":"src/base58.h","contentType":"file"},{"name":"batchedlogger.cpp","path":"src/batchedlogger.cpp","contentType":"file"},{"name":"batchedlogger.h","path":"src/batchedlogger.h","contentType":"file"},{"name":"bech32.cpp","path":"src/bech32.cpp","contentType":"file"},{"name":"bech32.h","path":"src/bech32.h","contentType":"file"},{"name":"bip39.cpp","path":"src/bip39.cpp","contentType":"file"},{"name":"bip39.h","path":"src/bip39.h","contentType":"file"},{"name":"bip39_english.h","path":"src/bip39_english.h","contentType":"file"},{"name":"blockencodings.cpp","path":"src/blockencodings.cpp","contentType":"file"},{"name":"blockencodings.h","path":"src/blockencodings.h","contentType":"file"},{"name":"blockfilter.cpp","path":"src/blockfilter.cpp","contentType":"file"},{"name":"blockfilter.h","path":"src/blockfilter.h","contentType":"file"},{"name":"bloom.cpp","path":"src/bloom.cpp","contentType":"file"},{"name":"bloom.h","path":"src/bloom.h","contentType":"file"},{"name":"cachemap.h","path":"src/cachemap.h","contentType":"file"},{"name":"cachemultimap.h","path":"src/cachemultimap.h","contentType":"file"},{"name":"chain.cpp","path":"src/chain.cpp","contentType":"file"},{"name":"chain.h","path":"src/chain.h","contentType":"file"},{"name":"chainparams.cpp","path":"src/chainparams.cpp","contentType":"file"},{"name":"chainparams.h","path":"src/chainparams.h","contentType":"file"},{"name":"chainparamsbase.cpp","path":"src/chainparamsbase.cpp","contentType":"file"},{"name":"chainparamsbase.h","path":"src/chainparamsbase.h","contentType":"file"},{"name":"chainparamsseeds.h","path":"src/chainparamsseeds.h","contentType":"file"},{"name":"checkpoints.cpp","path":"src/checkpoints.cpp","contentType":"file"},{"name":"checkpoints.h","path":"src/checkpoints.h","contentType":"file"},{"name":"checkqueue.h","path":"src/checkqueue.h","contentType":"file"},{"name":"clientversion.cpp","path":"src/clientversion.cpp","contentType":"file"},{"name":"clientversion.h","path":"src/clientversion.h","contentType":"file"},{"name":"coins.cpp","path":"src/coins.cpp","contentType":"file"},{"name":"coins.h","path":"src/coins.h","contentType":"file"},{"name":"compat.h","path":"src/compat.h","contentType":"file"},{"name":"compressor.cpp","path":"src/compressor.cpp","contentType":"file"},{"name":"compressor.h","path":"src/compressor.h","contentType":"file"},{"name":"core_io.h","path":"src/core_io.h","contentType":"file"},{"name":"core_memusage.h","path":"src/core_memusage.h","contentType":"file"},{"name":"core_read.cpp","path":"src/core_read.cpp","contentType":"file"},{"name":"core_write.cpp","path":"src/core_write.cpp","contentType":"file"},{"name":"ctpl.h","path":"src/ctpl.h","contentType":"file"},{"name":"cuckoocache.h","path":"src/cuckoocache.h","contentType":"file"},{"name":"cxxtimer.hpp","path":"src/cxxtimer.hpp","contentType":"file"},{"name":"dbwrapper.cpp","path":"src/dbwrapper.cpp","contentType":"file"},{"name":"dbwrapper.h","path":"src/dbwrapper.h","contentType":"file"},{"name":"dsnotificationinterface.cpp","path":"src/dsnotificationinterface.cpp","contentType":"file"},{"name":"dsnotificationinterface.h","path":"src/dsnotificationinterface.h","contentType":"file"},{"name":"fewbit-cli-res.rc","path":"src/fewbit-cli-res.rc","contentType":"file"},{"name":"fewbit-cli.cpp","path":"src/fewbit-cli.cpp","contentType":"file"},{"name":"fewbit-tx-res.rc","path":"src/fewbit-tx-res.rc","contentType":"file"},{"name":"fewbit-tx.cpp","path":"src/fewbit-tx.cpp","contentType":"file"},{"name":"fewbitd-res.rc","path":"src/fewbitd-res.rc","contentType":"file"},{"name":"fewbitd.cpp","path":"src/fewbitd.cpp","contentType":"file"},{"name":"flat-database.h","path":"src/flat-database.h","contentType":"file"},{"name":"founder_payment.cpp","path":"src/founder_payment.cpp","contentType":"file"},{"name":"founder_payment.h","path":"src/founder_payment.h","contentType":"file"},{"name":"fs.cpp","path":"src/fs.cpp","contentType":"file"},{"name":"fs.h","path":"src/fs.h","contentType":"file"},{"name":"hash.cpp","path":"src/hash.cpp","contentType":"file"},{"name":"hash.h","path":"src/hash.h","contentType":"file"},{"name":"hash_selection.cpp","path":"src/hash_selection.cpp","contentType":"file"},{"name":"hash_selection.h","path":"src/hash_selection.h","contentType":"file"},{"name":"hdchain.cpp","path":"src/hdchain.cpp","contentType":"file"},{"name":"hdchain.h","path":"src/hdchain.h","contentType":"file"},{"name":"httprpc.cpp","path":"src/httprpc.cpp","contentType":"file"},{"name":"httprpc.h","path":"src/httprpc.h","contentType":"file"},{"name":"httpserver.cpp","path":"src/httpserver.cpp","contentType":"file"},{"name":"httpserver.h","path":"src/httpserver.h","contentType":"file"},{"name":"indirectmap.h","path":"src/indirectmap.h","contentType":"file"},{"name":"init.cpp","path":"src/init.cpp","contentType":"file"},{"name":"init.h","path":"src/init.h","contentType":"file"},{"name":"keepass.cpp","path":"src/keepass.cpp","contentType":"file"},{"name":"keepass.h","path":"src/keepass.h","contentType":"file"},{"name":"key.cpp","path":"src/key.cpp","contentType":"file"},{"name":"key.h","path":"src/key.h","contentType":"file"},{"name":"key_io.cpp","path":"src/key_io.cpp","contentType":"file"},{"name":"key_io.h","path":"src/key_io.h","contentType":"file"},{"name":"keystore.cpp","path":"src/keystore.cpp","contentType":"file"},{"name":"keystore.h","path":"src/keystore.h","contentType":"file"},{"name":"limitedmap.h","path":"src/limitedmap.h","contentType":"file"},{"name":"logging.cpp","path":"src/logging.cpp","contentType":"file"},{"name":"logging.h","path":"src/logging.h","contentType":"file"},{"name":"memusage.h","path":"src/memusage.h","contentType":"file"},{"name":"merkleblock.cpp","path":"src/merkleblock.cpp","contentType":"file"},{"name":"merkleblock.h","path":"src/merkleblock.h","contentType":"file"},{"name":"messagesigner.cpp","path":"src/messagesigner.cpp","contentType":"file"},{"name":"messagesigner.h","path":"src/messagesigner.h","contentType":"file"},{"name":"miner.cpp","path":"src/miner.cpp","contentType":"file"},{"name":"miner.h","path":"src/miner.h","contentType":"file"},{"name":"net.cpp","path":"src/net.cpp","contentType":"file"},{"name":"net.h","path":"src/net.h","contentType":"file"},{"name":"net_processing.cpp","path":"src/net_processing.cpp","contentType":"file"},{"name":"net_processing.h","path":"src/net_processing.h","contentType":"file"},{"name":"netaddress.cpp","path":"src/netaddress.cpp","contentType":"file"},{"name":"netaddress.h","path":"src/netaddress.h","contentType":"file"},{"name":"netbase.cpp","path":"src/netbase.cpp","contentType":"file"},{"name":"netbase.h","path":"src/netbase.h","contentType":"file"},{"name":"netfulfilledman.cpp","path":"src/netfulfilledman.cpp","contentType":"file"},{"name":"netfulfilledman.h","path":"src/netfulfilledman.h","contentType":"file"},{"name":"netmessagemaker.h","path":"src/netmessagemaker.h","contentType":"file"},{"name":"noui.cpp","path":"src/noui.cpp","contentType":"file"},{"name":"noui.h","path":"src/noui.h","contentType":"file"},{"name":"pow.cpp","path":"src/pow.cpp","contentType":"file"},{"name":"pow.h","path":"src/pow.h","contentType":"file"},{"name":"prevector.h","path":"src/prevector.h","contentType":"file"},{"name":"protocol.cpp","path":"src/protocol.cpp","contentType":"file"},{"name":"protocol.h","path":"src/protocol.h","contentType":"file"},{"name":"pubkey.cpp","path":"src/pubkey.cpp","contentType":"file"},{"name":"pubkey.h","path":"src/pubkey.h","contentType":"file"},{"name":"random.cpp","path":"src/random.cpp","contentType":"file"},{"name":"random.h","path":"src/random.h","contentType":"file"},{"name":"rest.cpp","path":"src/rest.cpp","contentType":"file"},{"name":"reverse_iterator.h","path":"src/reverse_iterator.h","contentType":"file"},{"name":"reverselock.h","path":"src/reverselock.h","contentType":"file"},{"name":"saltedhasher.cpp","path":"src/saltedhasher.cpp","contentType":"file"},{"name":"saltedhasher.h","path":"src/saltedhasher.h","contentType":"file"},{"name":"scheduler.cpp","path":"src/scheduler.cpp","contentType":"file"},{"name":"scheduler.h","path":"src/scheduler.h","contentType":"file"},{"name":"serialize.h","path":"src/serialize.h","contentType":"file"},{"name":"span.h","path":"src/span.h","contentType":"file"},{"name":"spork.cpp","path":"src/spork.cpp","contentType":"file"},{"name":"spork.h","path":"src/spork.h","contentType":"file"},{"name":"stacktraces.cpp","path":"src/stacktraces.cpp","contentType":"file"},{"name":"stacktraces.h","path":"src/stacktraces.h","contentType":"file"},{"name":"statsd_client.cpp","path":"src/statsd_client.cpp","contentType":"file"},{"name":"statsd_client.h","path":"src/statsd_client.h","contentType":"file"},{"name":"streams.h","path":"src/streams.h","contentType":"file"},{"name":"sync.cpp","path":"src/sync.cpp","contentType":"file"},{"name":"sync.h","path":"src/sync.h","contentType":"file"},{"name":"threadinterrupt.cpp","path":"src/threadinterrupt.cpp","contentType":"file"},{"name":"threadinterrupt.h","path":"src/threadinterrupt.h","contentType":"file"},{"name":"threadsafety.h","path":"src/threadsafety.h","contentType":"file"},{"name":"timedata.cpp","path":"src/timedata.cpp","contentType":"file"},{"name":"timedata.h","path":"src/timedata.h","contentType":"file"},{"name":"tinyformat.h","path":"src/tinyformat.h","contentType":"file"},{"name":"torcontrol.cpp","path":"src/torcontrol.cpp","contentType":"file"},{"name":"torcontrol.h","path":"src/torcontrol.h","contentType":"file"},{"name":"txdb.cpp","path":"src/txdb.cpp","contentType":"file"},{"name":"txdb.h","path":"src/txdb.h","contentType":"file"},{"name":"txmempool.cpp","path":"src/txmempool.cpp","contentType":"file"},{"name":"txmempool.h","path":"src/txmempool.h","contentType":"file"},{"name":"ui_interface.cpp","path":"src/ui_interface.cpp","contentType":"file"},{"name":"ui_interface.h","path":"src/ui_interface.h","contentType":"file"},{"name":"uint256.cpp","path":"src/uint256.cpp","contentType":"file"},{"name":"uint256.h","path":"src/uint256.h","contentType":"file"},{"name":"undo.h","path":"src/undo.h","contentType":"file"},{"name":"unordered_lru_cache.h","path":"src/unordered_lru_cache.h","contentType":"file"},{"name":"util.cpp","path":"src/util.cpp","contentType":"file"},{"name":"util.h","path":"src/util.h","contentType":"file"},{"name":"utilmemory.h","path":"src/utilmemory.h","contentType":"file"},{"name":"utilmoneystr.cpp","path":"src/utilmoneystr.cpp","contentType":"file"},{"name":"utilmoneystr.h","path":"src/utilmoneystr.h","contentType":"file"},{"name":"utilstrencodings.cpp","path":"src/utilstrencodings.cpp","contentType":"file"},{"name":"utilstrencodings.h","path":"src/utilstrencodings.h","contentType":"file"},{"name":"utiltime.cpp","path":"src/utiltime.cpp","contentType":"file"},{"name":"utiltime.h","path":"src/utiltime.h","contentType":"file"},{"name":"validation.cpp","path":"src/validation.cpp","contentType":"file"},{"name":"validation.h","path":"src/validation.h","contentType":"file"},{"name":"validationinterface.cpp","path":"src/validationinterface.cpp","contentType":"file"},{"name":"validationinterface.h","path":"src/validationinterface.h","contentType":"file"},{"name":"version.h","path":"src/version.h","contentType":"file"},{"name":"versionbits.cpp","path":"src/versionbits.cpp","contentType":"file"},{"name":"versionbits.h","path":"src/versionbits.h","contentType":"file"},{"name":"walletinitinterface.h","path":"src/walletinitinterface.h","contentType":"file"},{"name":"warnings.cpp","path":"src/warnings.cpp","contentType":"file"},{"name":"warnings.h","path":"src/warnings.h","contentType":"file"}],"totalCount":212},"":{"items":[{"name":".tx","path":".tx","contentType":"directory"},{"name":"build-aux","path":"build-aux","contentType":"directory"},{"name":"ci","path":"ci","contentType":"directory"},{"name":"contrib","path":"contrib","contentType":"directory"},{"name":"depends","path":"depends","contentType":"directory"},{"name":"doc","path":"doc","contentType":"directory"},{"name":"docker","path":"docker","contentType":"directory"},{"name":"share","path":"share","contentType":"directory"},{"name":"src","path":"src","contentType":"directory"},{"name":"test","path":"test","contentType":"directory"},{"name":"utils","path":"utils","contentType":"directory"},{"name":".gitattributes","path":".gitattributes","contentType":"file"},{"name":".gitignore","path":".gitignore","contentType":"file"},{"name":".gitlab-ci.yml","path":".gitlab-ci.yml","contentType":"file"},{"name":".travis.yml","path":".travis.yml","contentType":"file"},{"name":"CMakeLists.txt","path":"CMakeLists.txt","contentType":"file"},{"name":"CONTRIBUTING.md","path":"CONTRIBUTING.md","contentType":"file"},{"name":"COPYING","path":"COPYING","contentType":"file"},{"name":"INSTALL.md","path":"INSTALL.md","contentType":"file"},{"name":"Makefile.am","path":"Makefile.am","contentType":"file"},{"name":"README.md","path":"README.md","contentType":"file"},{"name":"autogen.sh","path":"autogen.sh","contentType":"file"},{"name":"build.properties","path":"build.properties","contentType":"file"},{"name":"configure.ac","path":"configure.ac","contentType":"file"},{"name":"libfewbitconsensus.pc.in","path":"libfewbitconsensus.pc.in","contentType":"file"}],"totalCount":25}},"fileTreeProcessingTime":113.507402,"foldersToFetch":[],"incompleteFileTree":false,"repo":{"id":800855917,"defaultBranch":"main","name":"Core-Wallet","ownerLogin":"FewBit-Coin","currentUserCanPush":false,"isFork":false,"isEmpty":false,"createdAt":"2024-05-15T06:08:52.000Z","ownerAvatar":"https://avatars.githubusercontent.com/u/169876752?v=4","public":true,"private":false,"isOrgOwned":true},"codeLineWrapEnabled":false,"symbolsExpanded":false,"treeExpanded":true,"refInfo":{"name":"main","listCacheKey":"v0:1715756711.0","canEdit":false,"refType":"branch","currentOid":"931fd80eb9aede86efcad109f2f6c07adab87881"},"path":"src/wallet/wallet.cpp","currentUser":null,"blob":{"rawLines":["// Copyright (c) 2009-2010 Satoshi Nakamoto","// Copyright (c) 2009-2015 The Bitcoin Core developers","// Copyright (c) 2014-2021 The Dash Core developers","// Copyright (c) 2020-2022 The FewBit developers","// Distributed under the MIT software license, see the accompanying","// file COPYING or http://www.opensource.org/licenses/mit-license.php.","","#include \u003cwallet/wallet.h\u003e","","#include \u003cchain.h\u003e","#include \u003ccheckpoints.h\u003e","#include \u003cconsensus/consensus.h\u003e","#include \u003cconsensus/validation.h\u003e","#include \u003cfs.h\u003e","#include \u003cfuture/fee.h\u003e","#include \u003cinit.h\u003e","#include \u003ckey.h\u003e","#include \u003ckey_io.h\u003e","#include \u003ckeystore.h\u003e","#include \u003cnet.h\u003e","#include \u003cpolicy/fees.h\u003e","#include \u003cpolicy/policy.h\u003e","#include \u003cprimitives/block.h\u003e","#include \u003cprimitives/transaction.h\u003e","#include \u003cscript/script.h\u003e","#include \u003cscript/sign.h\u003e","#include \u003ctimedata.h\u003e","#include \u003ctxmempool.h\u003e","#include \u003cutilmoneystr.h\u003e","#include \u003cvalidation.h\u003e","#include \u003cwallet/coinselection.h\u003e","#include \u003cwallet/fees.h\u003e","","#include \u003ccoinjoin/coinjoin-client-options.h\u003e","#include \u003ccoinjoin/coinjoin-client.h\u003e","#include \u003cgovernance/governance.h\u003e","#include \u003ckeepass.h\u003e","","#include \u003cevo/providertx.h\u003e","","#include \u003cllmq/quorums_chainlocks.h\u003e","#include \u003cllmq/quorums_instantsend.h\u003e","#include \u003crpc/specialtx_utilities.h\u003e","","#include \u003cassert.h\u003e","#include \u003cfuture\u003e","","#include \u003cboost/algorithm/string/replace.hpp\u003e","#include \u003cboost/thread.hpp\u003e","","static CCriticalSection cs_wallets;","static std::vector\u003cstd::shared_ptr\u003cCWallet\u003e\u003e vpwallets GUARDED_BY(cs_wallets);","","bool AddWallet(const std::shared_ptr\u003cCWallet\u003e\u0026 wallet)","{","    LOCK(cs_wallets);","    assert(wallet);","    std::vector\u003cstd::shared_ptr\u003cCWallet\u003e\u003e::const_iterator i = std::find(vpwallets.begin(), vpwallets.end(), wallet);","    if (i != vpwallets.end()) return false;","    coinJoinClientManagers.emplace(std::make_pair(wallet-\u003eGetName(), std::make_shared\u003cCCoinJoinClientManager\u003e(*wallet)));","    vpwallets.push_back(wallet);","    return true;","}","","bool RemoveWallet(const std::shared_ptr\u003cCWallet\u003e\u0026 wallet)","{","    LOCK(cs_wallets);","    assert(wallet);","    std::vector\u003cstd::shared_ptr\u003cCWallet\u003e\u003e::iterator i = std::find(vpwallets.begin(), vpwallets.end(), wallet);","    if (i == vpwallets.end()) return false;","    vpwallets.erase(i);","    auto it = coinJoinClientManagers.find(wallet-\u003eGetName());","    coinJoinClientManagers.erase(it);","    return true;","}","","bool HasWallets()","{","    LOCK(cs_wallets);","    return !vpwallets.empty();","}","","CWallet* GetFirstWallet()","{","#ifdef ENABLE_WALLET","    while (vpwallets.size() == 0) {","        MilliSleep(100);","    }","    if (vpwallets.size() == 0)","        return (NULL);","    return (vpwallets[0].get());","#endif","    return (NULL);","}","","std::vector\u003cstd::shared_ptr\u003cCWallet\u003e\u003e GetWallets()","{","    LOCK(cs_wallets);","    return vpwallets;","}","","std::shared_ptr\u003cCWallet\u003e GetWallet(const std::string\u0026 name)","{","    LOCK(cs_wallets);","    for (const std::shared_ptr\u003cCWallet\u003e\u0026 wallet : vpwallets) {","        if (wallet-\u003eGetName() == name) return wallet;","    }","    return nullptr;","}","","/** Transaction fee set by the user */","CFeeRate payTxFee(DEFAULT_TRANSACTION_FEE);","unsigned int nTxConfirmTarget = DEFAULT_TX_CONFIRM_TARGET;","bool bSpendZeroConfChange = DEFAULT_SPEND_ZEROCONF_CHANGE;","","/**"," * Fees smaller than this (in ruffs) are considered zero fee (for transaction creation)"," * Override with -mintxfee"," */","CFeeRate CWallet::minTxFee = CFeeRate(DEFAULT_TRANSACTION_MINFEE);","/**"," * If fee estimation does not have enough data to provide estimates, use this fee instead."," * Has no effect if not using fee estimation"," * Override with -fallbackfee"," */","CFeeRate CWallet::fallbackFee = CFeeRate(DEFAULT_FALLBACK_FEE);","","CFeeRate CWallet::m_discard_rate = CFeeRate(DEFAULT_DISCARD_FEE);","","// Custom deleter for shared_ptr\u003cCWallet\u003e.","static void ReleaseWallet(CWallet* wallet)","{","    LogPrintf(\"Releasing wallet %s\\n\", wallet-\u003eGetName());","    wallet-\u003eBlockUntilSyncedToCurrentChain();","    wallet-\u003eFlush();","    delete wallet;","}","","const uint256 CMerkleTx::ABANDON_HASH(uint256S(\"0000000000000000000000000000000000000000000000000000000000000001\"));","","/** @defgroup mapWallet"," *"," * @{"," */","","std::string COutput::ToString() const","{","    return strprintf(\"COutput(%s, %d, %d) [%s]\", tx-\u003eGetHash().ToString(), i, nDepth, FormatMoney(tx-\u003etx-\u003evout[i].nValue));","}","","class CAffectedKeysVisitor : public boost::static_visitor\u003cvoid\u003e","{","private:","    const CKeyStore\u0026 keystore;","    std::vector\u003cCKeyID\u003e\u0026 vKeys;","","public:","    CAffectedKeysVisitor(const CKeyStore\u0026 keystoreIn, std::vector\u003cCKeyID\u003e\u0026 vKeysIn) :","        keystore(keystoreIn), vKeys(vKeysIn) {}","","    void Process(const CScript\u0026 script)","    {","        txnouttype type;","        std::vector\u003cCTxDestination\u003e vDest;","        int nRequired;","        if (ExtractDestinations(script, type, vDest, nRequired)) {","            for (const CTxDestination\u0026 dest : vDest)","                boost::apply_visitor(*this, dest);","        }","    }","","    void operator()(const CKeyID\u0026 keyId)","    {","        if (keystore.HaveKey(keyId))","            vKeys.push_back(keyId);","    }","","    void operator()(const CScriptID\u0026 scriptId)","    {","        CScript script;","        if (keystore.GetCScript(scriptId, script))","            Process(script);","    }","","    void operator()(const CNoDestination\u0026 none) {}","};","","int COutput::Priority() const","{","    for (const auto\u0026 d : CCoinJoin::GetStandardDenominations()) {","        // large denoms have lower value","        if (tx-\u003etx-\u003evout[i].nValue == d) return (float)COIN / d * 10000;","    }","    if (tx-\u003etx-\u003evout[i].nValue \u003c 1 * COIN) return 20000;","","    // nondenom return largest first","    return -(tx-\u003etx-\u003evout[i].nValue / COIN);","}","","const CWalletTx* CWallet::GetWalletTx(const uint256\u0026 hash) const","{","    LOCK(cs_wallet);","    std::map\u003cuint256, CWalletTx\u003e::const_iterator it = mapWallet.find(hash);","    if (it == mapWallet.end())","        return nullptr;","    return \u0026(it-\u003esecond);","}","","CPubKey CWallet::GenerateNewKey(WalletBatch\u0026 batch, uint32_t nAccountIndex, bool fInternal)","{","    AssertLockHeld(cs_wallet);                                 // mapKeyMetadata","    bool fCompressed = CanSupportFeature(FEATURE_COMPRPUBKEY); // default to compressed public keys if we want 0.6.0 wallets","","    CKey secret;","","    // Create new metadata","    int64_t nCreationTime = GetTime();","    CKeyMetadata metadata(nCreationTime);","","    CPubKey pubkey;","    // use HD key derivation if HD was enabled during wallet creation","    if (IsHDEnabled()) {","        DeriveNewChildKey(batch, metadata, secret, nAccountIndex, fInternal);","        pubkey = secret.GetPubKey();","    } else {","        secret.MakeNewKey(fCompressed);","","        // Compressed public keys were introduced in version 0.6.0","        if (fCompressed) {","            SetMinVersion(FEATURE_COMPRPUBKEY);","        }","","        pubkey = secret.GetPubKey();","        assert(secret.VerifyPubKey(pubkey));","","        // Create new metadata","        mapKeyMetadata[pubkey.GetID()] = metadata;","        UpdateTimeFirstKey(nCreationTime);","","        if (!AddKeyPubKeyWithDB(batch, secret, pubkey)) {","            throw std::runtime_error(std::string(__func__) + \": AddKey failed\");","        }","    }","    return pubkey;","}","","void CWallet::DeriveNewChildKey(WalletBatch\u0026 batch, const CKeyMetadata\u0026 metadata, CKey\u0026 secretRet, uint32_t nAccountIndex, bool fInternal)","{","    CHDChain hdChainTmp;","    if (!GetHDChain(hdChainTmp)) {","        throw std::runtime_error(std::string(__func__) + \": GetHDChain failed\");","    }","","    if (!DecryptHDChain(hdChainTmp))","        throw std::runtime_error(std::string(__func__) + \": DecryptHDChain failed\");","    // make sure seed matches this chain","    if (hdChainTmp.GetID() != hdChainTmp.GetSeedHash())","        throw std::runtime_error(std::string(__func__) + \": Wrong HD chain!\");","","    CHDAccount acc;","    if (!hdChainTmp.GetAccount(nAccountIndex, acc))","        throw std::runtime_error(std::string(__func__) + \": Wrong HD account!\");","","    // derive child key at next index, skip keys already known to the wallet","    CExtKey childKey;","    uint32_t nChildIndex = fInternal ? acc.nInternalChainCounter : acc.nExternalChainCounter;","    do {","        hdChainTmp.DeriveChildExtKey(nAccountIndex, fInternal, nChildIndex, childKey);","        // increment childkey index","        nChildIndex++;","    } while (HaveKey(childKey.key.GetPubKey().GetID()));","    secretRet = childKey.key;","","    CPubKey pubkey = secretRet.GetPubKey();","    assert(secretRet.VerifyPubKey(pubkey));","","    // store metadata","    mapKeyMetadata[pubkey.GetID()] = metadata;","    UpdateTimeFirstKey(metadata.nCreateTime);","","    // update the chain model in the database","    CHDChain hdChainCurrent;","    GetHDChain(hdChainCurrent);","","    if (fInternal) {","        acc.nInternalChainCounter = nChildIndex;","    } else {","        acc.nExternalChainCounter = nChildIndex;","    }","","    if (!hdChainCurrent.SetAccount(nAccountIndex, acc))","        throw std::runtime_error(std::string(__func__) + \": SetAccount failed\");","","    if (IsCrypted()) {","        if (!SetCryptedHDChain(batch, hdChainCurrent, false))","            throw std::runtime_error(std::string(__func__) + \": SetCryptedHDChain failed\");","    } else {","        if (!SetHDChain(batch, hdChainCurrent, false))","            throw std::runtime_error(std::string(__func__) + \": SetHDChain failed\");","    }","","    if (!AddHDPubKey(batch, childKey.Neuter(), fInternal))","        throw std::runtime_error(std::string(__func__) + \": AddHDPubKey failed\");","}","","bool CWallet::GetPubKey(const CKeyID\u0026 address, CPubKey\u0026 vchPubKeyOut) const","{","    LOCK(cs_wallet);","    std::map\u003cCKeyID, CHDPubKey\u003e::const_iterator mi = mapHdPubKeys.find(address);","    if (mi != mapHdPubKeys.end()) {","        const CHDPubKey\u0026 hdPubKey = (*mi).second;","        vchPubKeyOut = hdPubKey.extPubKey.pubkey;","        return true;","    } else","        return CCryptoKeyStore::GetPubKey(address, vchPubKeyOut);","}","","bool CWallet::GetKey(const CKeyID\u0026 address, CKey\u0026 keyOut) const","{","    LOCK(cs_wallet);","    std::map\u003cCKeyID, CHDPubKey\u003e::const_iterator mi = mapHdPubKeys.find(address);","    if (mi != mapHdPubKeys.end()) {","        // if the key has been found in mapHdPubKeys, derive it on the fly","        const CHDPubKey\u0026 hdPubKey = (*mi).second;","        CHDChain hdChainCurrent;","        if (!GetHDChain(hdChainCurrent))","            throw std::runtime_error(std::string(__func__) + \": GetHDChain failed\");","        if (!DecryptHDChain(hdChainCurrent))","            throw std::runtime_error(std::string(__func__) + \": DecryptHDChain failed\");","        // make sure seed matches this chain","        if (hdChainCurrent.GetID() != hdChainCurrent.GetSeedHash())","            throw std::runtime_error(std::string(__func__) + \": Wrong HD chain!\");","","        CExtKey extkey;","        hdChainCurrent.DeriveChildExtKey(hdPubKey.nAccountIndex, hdPubKey.nChangeIndex != 0, hdPubKey.extPubKey.nChild, extkey);","        keyOut = extkey.key;","","        return true;","    } else {","        return CCryptoKeyStore::GetKey(address, keyOut);","    }","}","","bool CWallet::HaveKey(const CKeyID\u0026 address) const","{","    LOCK(cs_wallet);","    if (mapHdPubKeys.count(address) \u003e 0)","        return true;","    return CCryptoKeyStore::HaveKey(address);","}","","bool CWallet::LoadHDPubKey(const CHDPubKey\u0026 hdPubKey)","{","    AssertLockHeld(cs_wallet);","","    mapHdPubKeys[hdPubKey.extPubKey.pubkey.GetID()] = hdPubKey;","    return true;","}","","bool CWallet::AddHDPubKey(WalletBatch\u0026 batch, const CExtPubKey\u0026 extPubKey, bool fInternal)","{","    AssertLockHeld(cs_wallet);","","    CHDChain hdChainCurrent;","    GetHDChain(hdChainCurrent);","","    CHDPubKey hdPubKey;","    hdPubKey.extPubKey = extPubKey;","    hdPubKey.hdchainID = hdChainCurrent.GetID();","    hdPubKey.nChangeIndex = fInternal ? 1 : 0;","    mapHdPubKeys[extPubKey.pubkey.GetID()] = hdPubKey;","","    // check if we need to remove from watch-only","    CScript script;","    script = GetScriptForDestination(extPubKey.pubkey.GetID());","    if (HaveWatchOnly(script))","        RemoveWatchOnly(script);","    script = GetScriptForRawPubKey(extPubKey.pubkey);","    if (HaveWatchOnly(script))","        RemoveWatchOnly(script);","","    return batch.WriteHDPubKey(hdPubKey, mapKeyMetadata[extPubKey.pubkey.GetID()]);","}","","bool CWallet::AddKeyPubKeyWithDB(WalletBatch\u0026 batch, const CKey\u0026 secret, const CPubKey\u0026 pubkey)","{","    AssertLockHeld(cs_wallet); // mapKeyMetadata","","    // CCryptoKeyStore has no concept of wallet databases, but calls AddCryptedKey","    // which is overridden below.  To avoid flushes, the database handle is","    // tunneled through to it.","    bool needsDB = !encrypted_batch;","    if (needsDB) {","        encrypted_batch = \u0026batch;","    }","    if (!CCryptoKeyStore::AddKeyPubKey(secret, pubkey)) {","        if (needsDB) encrypted_batch = nullptr;","        return false;","    }","    if (needsDB) encrypted_batch = nullptr;","    // check if we need to remove from watch-only","    CScript script;","    script = GetScriptForDestination(pubkey.GetID());","    if (HaveWatchOnly(script)) {","        RemoveWatchOnly(script);","    }","    script = GetScriptForRawPubKey(pubkey);","    if (HaveWatchOnly(script)) {","        RemoveWatchOnly(script);","    }","","    if (!IsCrypted()) {","        return batch.WriteKey(pubkey,","            secret.GetPrivKey(),","            mapKeyMetadata[pubkey.GetID()]);","    }","    return true;","}","","","bool CWallet::AddKeyPubKey(const CKey\u0026 secret, const CPubKey\u0026 pubkey)","{","    WalletBatch batch(*database);","","    return CWallet::AddKeyPubKeyWithDB(batch, secret, pubkey);","}","","bool CWallet::AddCryptedKey(const CPubKey\u0026 vchPubKey,","    const std::vector\u003cunsigned char\u003e\u0026 vchCryptedSecret)","{","    if (!CCryptoKeyStore::AddCryptedKey(vchPubKey, vchCryptedSecret))","        return false;","    {","        LOCK(cs_wallet);","        if (encrypted_batch)","            return encrypted_batch-\u003eWriteCryptedKey(vchPubKey,","                vchCryptedSecret,","                mapKeyMetadata[vchPubKey.GetID()]);","        else","            return WalletBatch(*database).WriteCryptedKey(vchPubKey,","                vchCryptedSecret,","                mapKeyMetadata[vchPubKey.GetID()]);","    }","}","","bool CWallet::LoadKeyMetadata(const CKeyID\u0026 keyID, const CKeyMetadata\u0026 meta)","{","    AssertLockHeld(cs_wallet); // mapKeyMetadata","    UpdateTimeFirstKey(meta.nCreateTime);","    mapKeyMetadata[keyID] = meta;","    return true;","}","","bool CWallet::LoadScriptMetadata(const CScriptID\u0026 script_id, const CKeyMetadata\u0026 meta)","{","    AssertLockHeld(cs_wallet); // m_script_metadata","    UpdateTimeFirstKey(meta.nCreateTime);","    m_script_metadata[script_id] = meta;","    return true;","}","","bool CWallet::LoadCryptedKey(const CPubKey\u0026 vchPubKey, const std::vector\u003cunsigned char\u003e\u0026 vchCryptedSecret)","{","    return CCryptoKeyStore::AddCryptedKey(vchPubKey, vchCryptedSecret);","}","","/**"," * Update wallet first key creation time. This should be called whenever keys"," * are added to the wallet, with the oldest key creation time."," */","void CWallet::UpdateTimeFirstKey(int64_t nCreateTime)","{","    AssertLockHeld(cs_wallet);","    if (nCreateTime \u003c= 1) {","        // Cannot determine birthday information, so set the wallet birthday to","        // the beginning of time.","        nTimeFirstKey = 1;","    } else if (!nTimeFirstKey || nCreateTime \u003c nTimeFirstKey) {","        nTimeFirstKey = nCreateTime;","    }","}","","int64_t CWallet::GetTimeFirstKey() const","{","    AssertLockHeld(cs_wallet);","    return nTimeFirstKey;","}","","bool CWallet::AddCScript(const CScript\u0026 redeemScript)","{","    if (!CCryptoKeyStore::AddCScript(redeemScript))","        return false;","    return WalletBatch(*database).WriteCScript(Hash160(redeemScript), redeemScript);","}","","bool CWallet::LoadCScript(const CScript\u0026 redeemScript)","{","    /* A sanity check was added in pull #3843 to avoid adding redeemScripts","     * that never can be redeemed. However, old wallets may still contain","     * these. Do not add them to the wallet and warn. */","    if (redeemScript.size() \u003e MAX_SCRIPT_ELEMENT_SIZE) {","        std::string strAddr = EncodeDestination(CScriptID(redeemScript));","        LogPrintf(\"%s: Warning: This wallet contains a redeemScript of size %i which exceeds maximum size %i thus can never be redeemed. Do not use address %s.\\n\",","            __func__, redeemScript.size(), MAX_SCRIPT_ELEMENT_SIZE, strAddr);","        return true;","    }","","    return CCryptoKeyStore::AddCScript(redeemScript);","}","","bool CWallet::AddWatchOnly(const CScript\u0026 dest)","{","    if (!CCryptoKeyStore::AddWatchOnly(dest))","        return false;","    const CKeyMetadata\u0026 meta = m_script_metadata[CScriptID(dest)];","    UpdateTimeFirstKey(meta.nCreateTime);","    NotifyWatchonlyChanged(true);","    return WalletBatch(*database).WriteWatchOnly(dest, meta);","}","","bool CWallet::AddWatchOnly(const CScript\u0026 dest, int64_t nCreateTime)","{","    m_script_metadata[CScriptID(dest)].nCreateTime = nCreateTime;","    return AddWatchOnly(dest);","}","","bool CWallet::RemoveWatchOnly(const CScript\u0026 dest)","{","    AssertLockHeld(cs_wallet);","    if (!CCryptoKeyStore::RemoveWatchOnly(dest))","        return false;","    if (!HaveWatchOnly())","        NotifyWatchonlyChanged(false);","    if (!WalletBatch(*database).EraseWatchOnly(dest))","        return false;","","    // Full refresh of UI because many transactions may have been deleted:","    NotifyTransactionChanged(this, uint256(), CT_UPDATED);","","    return true;","}","","bool CWallet::LoadWatchOnly(const CScript\u0026 dest)","{","    return CCryptoKeyStore::AddWatchOnly(dest);","}","","bool CWallet::Unlock(const SecureString\u0026 strWalletPassphrase, bool fForMixingOnly)","{","    SecureString strWalletPassphraseFinal;","","    if (!IsLocked()) // was already fully unlocked, not only for mixing","        return true;","","    // Verify KeePassIntegration","    if (strWalletPassphrase == \"keepass\" \u0026\u0026 gArgs.GetBoolArg(\"-keepass\", false)) {","        try {","            strWalletPassphraseFinal = keePassInt.retrievePassphrase();","        } catch (std::exception\u0026 e) {","            LogPrintf(\"CWallet::Unlock could not retrieve passphrase from KeePass: Error: %s\\n\", e.what());","            return false;","        }","    } else {","        strWalletPassphraseFinal = strWalletPassphrase;","    }","","    CCrypter crypter;","    CKeyingMaterial _vMasterKey;","","    {","        LOCK(cs_wallet);","        for (const MasterKeyMap::value_type\u0026 pMasterKey : mapMasterKeys) {","            if (!crypter.SetKeyFromPassphrase(strWalletPassphraseFinal, pMasterKey.second.vchSalt, pMasterKey.second.nDeriveIterations, pMasterKey.second.nDerivationMethod))","                return false;","            if (!crypter.Decrypt(pMasterKey.second.vchCryptedKey, _vMasterKey))","                continue; // try another master key","            if (CCryptoKeyStore::Unlock(_vMasterKey, fForMixingOnly)) {","                if (nWalletBackups == -2) {","                    TopUpKeyPool();","                    LogPrintf(\"Keypool replenished, re-initializing automatic backups.\\n\");","                    nWalletBackups = gArgs.GetArg(\"-createwalletbackups\", 10);","                }","                return true;","            }","        }","    }","    return false;","}","","bool CWallet::ChangeWalletPassphrase(const SecureString\u0026 strOldWalletPassphrase, const SecureString\u0026 strNewWalletPassphrase)","{","    bool fWasLocked = IsLocked(true);","    bool bUseKeePass = false;","","    SecureString strOldWalletPassphraseFinal;","","    // Verify KeePassIntegration","    if (strOldWalletPassphrase == \"keepass\" \u0026\u0026 gArgs.GetBoolArg(\"-keepass\", false)) {","        bUseKeePass = true;","        try {","            strOldWalletPassphraseFinal = keePassInt.retrievePassphrase();","        } catch (std::exception\u0026 e) {","            LogPrintf(\"CWallet::ChangeWalletPassphrase -- could not retrieve passphrase from KeePass: Error: %s\\n\", e.what());","            return false;","        }","    } else {","        strOldWalletPassphraseFinal = strOldWalletPassphrase;","    }","","    {","        LOCK(cs_wallet);","        Lock();","","        CCrypter crypter;","        CKeyingMaterial _vMasterKey;","        for (MasterKeyMap::value_type\u0026 pMasterKey : mapMasterKeys) {","            if (!crypter.SetKeyFromPassphrase(strOldWalletPassphraseFinal, pMasterKey.second.vchSalt, pMasterKey.second.nDeriveIterations, pMasterKey.second.nDerivationMethod))","                return false;","            if (!crypter.Decrypt(pMasterKey.second.vchCryptedKey, _vMasterKey))","                return false;","            if (CCryptoKeyStore::Unlock(_vMasterKey)) {","                int64_t nStartTime = GetTimeMillis();","                crypter.SetKeyFromPassphrase(strNewWalletPassphrase, pMasterKey.second.vchSalt, pMasterKey.second.nDeriveIterations, pMasterKey.second.nDerivationMethod);","                pMasterKey.second.nDeriveIterations = static_cast\u003cunsigned int\u003e(pMasterKey.second.nDeriveIterations * (100 / ((double)(GetTimeMillis() - nStartTime))));","","                nStartTime = GetTimeMillis();","                crypter.SetKeyFromPassphrase(strNewWalletPassphrase, pMasterKey.second.vchSalt, pMasterKey.second.nDeriveIterations, pMasterKey.second.nDerivationMethod);","                pMasterKey.second.nDeriveIterations = (pMasterKey.second.nDeriveIterations + static_cast\u003cunsigned int\u003e(pMasterKey.second.nDeriveIterations * 100 / ((double)(GetTimeMillis() - nStartTime)))) / 2;","","                if (pMasterKey.second.nDeriveIterations \u003c 25000)","                    pMasterKey.second.nDeriveIterations = 25000;","","                LogPrintf(\"Wallet passphrase changed to an nDeriveIterations of %i\\n\", pMasterKey.second.nDeriveIterations);","","                if (!crypter.SetKeyFromPassphrase(strNewWalletPassphrase, pMasterKey.second.vchSalt, pMasterKey.second.nDeriveIterations, pMasterKey.second.nDerivationMethod))","                    return false;","                if (!crypter.Encrypt(_vMasterKey, pMasterKey.second.vchCryptedKey))","                    return false;","                WalletBatch(*database).WriteMasterKey(pMasterKey.first, pMasterKey.second);","                if (fWasLocked)","                    Lock();","","                // Update KeePass if necessary","                if (bUseKeePass) {","                    LogPrintf(\"CWallet::ChangeWalletPassphrase -- Updating KeePass with new passphrase\\n\");","                    try {","                        keePassInt.updatePassphrase(strNewWalletPassphrase);","                    } catch (std::exception\u0026 e) {","                        LogPrintf(\"CWallet::ChangeWalletPassphrase -- could not update passphrase in KeePass: Error: %s\\n\", e.what());","                        return false;","                    }","                }","","                return true;","            }","        }","    }","","    return false;","}","","void CWallet::SetBestChain(const CBlockLocator\u0026 loc)","{","    WalletBatch batch(*database);","    batch.WriteBestBlock(loc);","}","","bool CWallet::SetMinVersion(enum WalletFeature nVersion, WalletBatch* batch_in, bool fExplicit)","{","    LOCK(cs_wallet); // nWalletVersion","    if (nWalletVersion \u003e= nVersion)","        return true;","","    // when doing an explicit upgrade, if we pass the max version permitted, upgrade all the way","    if (fExplicit \u0026\u0026 nVersion \u003e nWalletMaxVersion)","        nVersion = FEATURE_LATEST;","","    nWalletVersion = nVersion;","","    if (nVersion \u003e nWalletMaxVersion)","        nWalletMaxVersion = nVersion;","","    {","        WalletBatch* batch = batch_in ? batch_in : new WalletBatch(*database);","        if (nWalletVersion \u003e 40000)","            batch-\u003eWriteMinVersion(nWalletVersion);","        if (!batch_in)","            delete batch;","    }","","    return true;","}","","bool CWallet::SetMaxVersion(int nVersion)","{","    LOCK(cs_wallet); // nWalletVersion, nWalletMaxVersion","    // cannot downgrade below current version","    if (nWalletVersion \u003e nVersion)","        return false;","","    nWalletMaxVersion = nVersion;","","    return true;","}","","std::set\u003cuint256\u003e CWallet::GetConflicts(const uint256\u0026 txid) const","{","    std::set\u003cuint256\u003e result;","    AssertLockHeld(cs_wallet);","","    std::map\u003cuint256, CWalletTx\u003e::const_iterator it = mapWallet.find(txid);","    if (it == mapWallet.end())","        return result;","    const CWalletTx\u0026 wtx = it-\u003esecond;","","    std::pair\u003cTxSpends::const_iterator, TxSpends::const_iterator\u003e range;","","    for (const CTxIn\u0026 txin : wtx.tx-\u003evin) {","        if (mapTxSpends.count(txin.prevout) \u003c= 1)","            continue; // No conflict if zero or one spends","        range = mapTxSpends.equal_range(txin.prevout);","        for (TxSpends::const_iterator _it = range.first; _it != range.second; ++_it)","            result.insert(_it-\u003esecond);","    }","    return result;","}","","void CWallet::Flush(bool shutdown)","{","    database-\u003eFlush(shutdown);","}","","void CWallet::SyncMetaData(std::pair\u003cTxSpends::iterator, TxSpends::iterator\u003e range)","{","    // We want all the wallet transactions in range to have the same metadata as","    // the oldest (smallest nOrderPos).","    // So: find smallest nOrderPos:","","    int nMinOrderPos = std::numeric_limits\u003cint\u003e::max();","    const CWalletTx* copyFrom = nullptr;","    for (TxSpends::iterator it = range.first; it != range.second; ++it) {","        const CWalletTx* wtx = \u0026mapWallet.at(it-\u003esecond);","        if (wtx-\u003enOrderPos \u003c nMinOrderPos) {","            nMinOrderPos = wtx-\u003enOrderPos;","            copyFrom = wtx;","        }","    }","","    if (!copyFrom) {","        return;","    }","","    // Now copy data from copyFrom to rest:","    for (TxSpends::iterator it = range.first; it != range.second; ++it) {","        const uint256\u0026 hash = it-\u003esecond;","        CWalletTx* copyTo = \u0026mapWallet.at(hash);","        if (copyFrom == copyTo) continue;","        assert(copyFrom \u0026\u0026 \"Oldest wallet transaction in range assumed to have been found.\");","        if (!copyFrom-\u003eIsEquivalentTo(*copyTo)) continue;","        copyTo-\u003emapValue = copyFrom-\u003emapValue;","        copyTo-\u003evOrderForm = copyFrom-\u003evOrderForm;","        // fTimeReceivedIsTxTime not copied on purpose","        // nTimeReceived not copied on purpose","        copyTo-\u003enTimeSmart = copyFrom-\u003enTimeSmart;","        copyTo-\u003efFromMe = copyFrom-\u003efFromMe;","        copyTo-\u003estrFromAccount = copyFrom-\u003estrFromAccount;","        // nOrderPos not copied on purpose","        // cached members not copied on purpose","    }","}","","/**"," * Outpoint is spent if any non-conflicted transaction"," * spends it:"," */","bool CWallet::IsSpent(const uint256\u0026 hash, unsigned int n) const","{","    const COutPoint outpoint(hash, n);","    std::pair\u003cTxSpends::const_iterator, TxSpends::const_iterator\u003e range;","    range = mapTxSpends.equal_range(outpoint);","","    for (TxSpends::const_iterator it = range.first; it != range.second; ++it) {","        const uint256\u0026 wtxid = it-\u003esecond;","        std::map\u003cuint256, CWalletTx\u003e::const_iterator mit = mapWallet.find(wtxid);","        if (mit != mapWallet.end()) {","            int depth = mit-\u003esecond.GetDepthInMainChain();","            if (depth \u003e 0 || (depth == 0 \u0026\u0026 !mit-\u003esecond.isAbandoned()))","                return true; // Spent","        }","    }","    return false;","}","","void CWallet::AddToSpends(const COutPoint\u0026 outpoint, const uint256\u0026 wtxid)","{","    mapTxSpends.insert(std::make_pair(outpoint, wtxid));","    setWalletUTXO.erase(outpoint);","","    setLockedCoins.erase(outpoint);","","    std::pair\u003cTxSpends::iterator, TxSpends::iterator\u003e range;","    range = mapTxSpends.equal_range(outpoint);","    SyncMetaData(range);","}","","","void CWallet::AddToSpends(const uint256\u0026 wtxid)","{","    auto it = mapWallet.find(wtxid);","    assert(it != mapWallet.end());","    CWalletTx\u0026 thisTx = it-\u003esecond;","    if (thisTx.IsCoinBase()) // Coinbases don't spend anything!","        return;","","    for (const CTxIn\u0026 txin : thisTx.tx-\u003evin)","        AddToSpends(txin.prevout, wtxid);","}","","bool CWallet::EncryptWallet(const SecureString\u0026 strWalletPassphrase)","{","    if (IsCrypted())","        return false;","","    CKeyingMaterial _vMasterKey;","","    _vMasterKey.resize(WALLET_CRYPTO_KEY_SIZE);","    GetStrongRandBytes(\u0026_vMasterKey[0], WALLET_CRYPTO_KEY_SIZE);","","    CMasterKey kMasterKey;","","    kMasterKey.vchSalt.resize(WALLET_CRYPTO_SALT_SIZE);","    GetStrongRandBytes(\u0026kMasterKey.vchSalt[0], WALLET_CRYPTO_SALT_SIZE);","","    CCrypter crypter;","    int64_t nStartTime = GetTimeMillis();","    crypter.SetKeyFromPassphrase(strWalletPassphrase, kMasterKey.vchSalt, 25000, kMasterKey.nDerivationMethod);","    kMasterKey.nDeriveIterations = static_cast\u003cunsigned int\u003e(2500000 / ((double)(GetTimeMillis() - nStartTime)));","","    nStartTime = GetTimeMillis();","    crypter.SetKeyFromPassphrase(strWalletPassphrase, kMasterKey.vchSalt, kMasterKey.nDeriveIterations, kMasterKey.nDerivationMethod);","    kMasterKey.nDeriveIterations = (kMasterKey.nDeriveIterations + static_cast\u003cunsigned int\u003e(kMasterKey.nDeriveIterations * 100 / ((double)(GetTimeMillis() - nStartTime)))) / 2;","","    if (kMasterKey.nDeriveIterations \u003c 25000)","        kMasterKey.nDeriveIterations = 25000;","","    LogPrintf(\"Encrypting Wallet with an nDeriveIterations of %i\\n\", kMasterKey.nDeriveIterations);","","    if (!crypter.SetKeyFromPassphrase(strWalletPassphrase, kMasterKey.vchSalt, kMasterKey.nDeriveIterations, kMasterKey.nDerivationMethod))","        return false;","    if (!crypter.Encrypt(_vMasterKey, kMasterKey.vchCryptedKey))","        return false;","","    {","        LOCK(cs_wallet);","        mapMasterKeys[++nMasterKeyMaxID] = kMasterKey;","        assert(!encrypted_batch);","        encrypted_batch = new WalletBatch(*database);","        if (!encrypted_batch-\u003eTxnBegin()) {","            delete encrypted_batch;","            encrypted_batch = nullptr;","            return false;","        }","        encrypted_batch-\u003eWriteMasterKey(nMasterKeyMaxID, kMasterKey);","","        // must get current HD chain before EncryptKeys","        CHDChain hdChainCurrent;","        GetHDChain(hdChainCurrent);","","        if (!EncryptKeys(_vMasterKey)) {","            encrypted_batch-\u003eTxnAbort();","            delete encrypted_batch;","            // We now probably have half of our keys encrypted in memory, and half not...","            // die and let the user reload the unencrypted wallet.","            assert(false);","        }","","        if (!hdChainCurrent.IsNull()) {","            assert(EncryptHDChain(_vMasterKey));","","            CHDChain hdChainCrypted;","            assert(GetHDChain(hdChainCrypted));","","            DBG(","                printf(\"EncryptWallet -- current seed: '%s'\\n\", HexStr(hdChainCurrent.GetSeed()).c_str());","                printf(\"EncryptWallet -- crypted seed: '%s'\\n\", HexStr(hdChainCrypted.GetSeed()).c_str()););","","            // ids should match, seed hashes should not","            assert(hdChainCurrent.GetID() == hdChainCrypted.GetID());","            assert(hdChainCurrent.GetSeedHash() != hdChainCrypted.GetSeedHash());","","            assert(SetCryptedHDChain(*encrypted_batch, hdChainCrypted, false));","        }","","        // Encryption was introduced in version 0.4.0","        SetMinVersion(FEATURE_WALLETCRYPT, encrypted_batch, true);","","        if (!encrypted_batch-\u003eTxnCommit()) {","            delete encrypted_batch;","            // We now have keys encrypted in memory, but not on disk...","            // die to avoid confusion and let the user reload the unencrypted wallet.","            assert(false);","        }","","        delete encrypted_batch;","        encrypted_batch = nullptr;","","        Lock();","        Unlock(strWalletPassphrase);","","        // if we are not using HD, generate new keypool","        if (IsHDEnabled()) {","            TopUpKeyPool();","        } else {","            NewKeyPool();","        }","","        Lock();","","        // Need to completely rewrite the wallet file; if we don't, bdb might keep","        // bits of the unencrypted private key in slack space in the database file.","        database-\u003eRewrite();","","        // Update KeePass if necessary","        if (gArgs.GetBoolArg(\"-keepass\", false)) {","            LogPrintf(\"CWallet::EncryptWallet -- Updating KeePass with new passphrase\\n\");","            try {","                keePassInt.updatePassphrase(strWalletPassphrase);","            } catch (std::exception\u0026 e) {","                LogPrintf(\"CWallet::EncryptWallet -- could not update passphrase in KeePass: Error: %s\\n\", e.what());","            }","        }","","        // BDB seems to have a bad habit of writing old data into","        // slack space in .dat files; that is bad if the old data is","        // unencrypted private keys. So:","        database-\u003eReloadDbEnv();","    }","    NotifyStatusChanged(this);","","    return true;","}","","DBErrors CWallet::ReorderTransactions()","{","    LOCK(cs_wallet);","    WalletBatch batch(*database);","","    // Old wallets didn't have any defined order for transactions","    // Probably a bad idea to change the output of this","","    // First: get all CWalletTx and CAccountingEntry into a sorted-by-time multimap.","    typedef std::pair\u003cCWalletTx*, CAccountingEntry*\u003e TxPair;","    typedef std::multimap\u003cint64_t, TxPair\u003e TxItems;","    TxItems txByTime;","","    for (auto\u0026 entry : mapWallet) {","        CWalletTx* wtx = \u0026entry.second;","        txByTime.insert(std::make_pair(wtx-\u003enTimeReceived, TxPair(wtx, nullptr)));","    }","    std::list\u003cCAccountingEntry\u003e acentries;","    batch.ListAccountCreditDebit(\"\", acentries);","    for (CAccountingEntry\u0026 entry : acentries) {","        txByTime.insert(std::make_pair(entry.nTime, TxPair(nullptr, \u0026entry)));","    }","","    nOrderPosNext = 0;","    std::vector\u003cint64_t\u003e nOrderPosOffsets;","    for (TxItems::iterator it = txByTime.begin(); it != txByTime.end(); ++it) {","        CWalletTx* const pwtx = (*it).second.first;","        CAccountingEntry* const pacentry = (*it).second.second;","        int64_t\u0026 nOrderPos = (pwtx != nullptr) ? pwtx-\u003enOrderPos : pacentry-\u003enOrderPos;","","        if (nOrderPos == -1) {","            nOrderPos = nOrderPosNext++;","            nOrderPosOffsets.push_back(nOrderPos);","","            if (pwtx) {","                if (!batch.WriteTx(*pwtx))","                    return DBErrors::LOAD_FAIL;","            } else if (!batch.WriteAccountingEntry(pacentry-\u003enEntryNo, *pacentry))","                return DBErrors::LOAD_FAIL;","        } else {","            int64_t nOrderPosOff = 0;","            for (const int64_t\u0026 nOffsetStart : nOrderPosOffsets) {","                if (nOrderPos \u003e= nOffsetStart)","                    ++nOrderPosOff;","            }","            nOrderPos += nOrderPosOff;","            nOrderPosNext = std::max(nOrderPosNext, nOrderPos + 1);","","            if (!nOrderPosOff)","                continue;","","            // Since we're changing the order, write it back","            if (pwtx) {","                if (!batch.WriteTx(*pwtx))","                    return DBErrors::LOAD_FAIL;","            } else if (!batch.WriteAccountingEntry(pacentry-\u003enEntryNo, *pacentry))","                return DBErrors::LOAD_FAIL;","        }","    }","    batch.WriteOrderPosNext(nOrderPosNext);","","    return DBErrors::LOAD_OK;","}","","int64_t CWallet::IncOrderPosNext(WalletBatch* batch)","{","    AssertLockHeld(cs_wallet); // nOrderPosNext","    int64_t nRet = nOrderPosNext++;","    if (batch) {","        batch-\u003eWriteOrderPosNext(nOrderPosNext);","    } else {","        WalletBatch(*database).WriteOrderPosNext(nOrderPosNext);","    }","    return nRet;","}","","bool CWallet::AccountMove(std::string strFrom, std::string strTo, CAmount nAmount, std::string strComment)","{","    WalletBatch batch(*database);","    if (!batch.TxnBegin())","        return false;","","    int64_t nNow = GetAdjustedTime();","","    // Debit","    CAccountingEntry debit;","    debit.nOrderPos = IncOrderPosNext(\u0026batch);","    debit.strAccount = strFrom;","    debit.nCreditDebit = -nAmount;","    debit.nTime = nNow;","    debit.strOtherAccount = strTo;","    debit.strComment = strComment;","    AddAccountingEntry(debit, \u0026batch);","","    // Credit","    CAccountingEntry credit;","    credit.nOrderPos = IncOrderPosNext(\u0026batch);","    credit.strAccount = strTo;","    credit.nCreditDebit = nAmount;","    credit.nTime = nNow;","    credit.strOtherAccount = strFrom;","    credit.strComment = strComment;","    AddAccountingEntry(credit, \u0026batch);","","    if (!batch.TxnCommit())","        return false;","","    return true;","}","","bool CWallet::GetLabelDestination(CTxDestination\u0026 dest, const std::string\u0026 label, bool bForceNew)","{","    WalletBatch batch(*database);","","    CAccount account;","    batch.ReadAccount(label, account);","","    if (!bForceNew) {","        if (!account.vchPubKey.IsValid())","            bForceNew = true;","        else {","            // Check if the current key has been used","            CScript scriptPubKey = GetScriptForDestination(account.vchPubKey.GetID());","            for (std::map\u003cuint256, CWalletTx\u003e::iterator it = mapWallet.begin();","                 it != mapWallet.end() \u0026\u0026 account.vchPubKey.IsValid();","                 ++it)","                for (const CTxOut\u0026 txout : (*it).second.tx-\u003evout)","                    if (txout.scriptPubKey == scriptPubKey) {","                        bForceNew = true;","                        break;","                    }","        }","    }","","    // Generate a new key","    if (bForceNew) {","        if (!GetKeyFromPool(account.vchPubKey, false))","            return false;","","        dest = account.vchPubKey.GetID();","        SetAddressBook(dest, label, \"receive\");","        batch.WriteAccount(label, account);","    } else {","        dest = account.vchPubKey.GetID();","    }","","    return true;","}","","void CWallet::MarkDirty()","{","    {","        LOCK(cs_wallet);","        for (std::pair\u003cconst uint256, CWalletTx\u003e\u0026 item : mapWallet)","            item.second.MarkDirty();","    }","","    fAnonymizableTallyCached = false;","    fAnonymizableTallyCachedNonDenom = false;","}","","bool CWallet::AddToWallet(const CWalletTx\u0026 wtxIn, bool fFlushOnClose, bool rescanningOldBlock)","{","    AssertLockHeld(cs_main); // detect potential deadlocks which might be caused by GetListAtChainTip and IsSpent below","    LOCK(cs_wallet);","","    WalletBatch batch(*database, \"r+\", fFlushOnClose);","","    uint256 hash = wtxIn.GetHash();","","    // Inserts only if not already there, returns tx inserted or tx found","    std::pair\u003cstd::map\u003cuint256, CWalletTx\u003e::iterator, bool\u003e ret = mapWallet.insert(std::make_pair(hash, wtxIn));","    CWalletTx\u0026 wtx = (*ret.first).second;","    wtx.BindWallet(this);","    bool fInsertedNew = ret.second;","    if (fInsertedNew) {","        wtx.nTimeReceived = GetAdjustedTime();","        wtx.nOrderPos = IncOrderPosNext(\u0026batch);","        wtx.m_it_wtxOrdered = wtxOrdered.insert(std::make_pair(wtx.nOrderPos, TxPair(\u0026wtx, nullptr)));","        wtx.nTimeSmart = ComputeTimeSmart(wtx, rescanningOldBlock);","        AddToSpends(hash);","","        auto mnList = deterministicMNManager-\u003eGetListAtChainTip();","        for (unsigned int i = 0; i \u003c wtx.tx-\u003evout.size(); ++i) {","            if (IsMine(wtx.tx-\u003evout[i]) \u0026\u0026 !IsSpent(hash, i)) {","                setWalletUTXO.insert(COutPoint(hash, i));","                if (deterministicMNManager-\u003eIsProTxWithCollateral(wtx.tx, i) || mnList.HasMNByCollateral(COutPoint(hash, i))) {","                    LockCoin(COutPoint(hash, i));","                }","            }","        }","    }","","    bool fUpdated = false;","    if (!fInsertedNew) {","        // Merge","        if (!wtxIn.hashUnset() \u0026\u0026 wtxIn.hashBlock != wtx.hashBlock) {","            wtx.hashBlock = wtxIn.hashBlock;","            fUpdated = true;","        }","        // If no longer abandoned, update","        if (wtxIn.hashBlock.IsNull() \u0026\u0026 wtx.isAbandoned()) {","            wtx.hashBlock = wtxIn.hashBlock;","            fUpdated = true;","        }","        if (wtxIn.nIndex != -1 \u0026\u0026 (wtxIn.nIndex != wtx.nIndex)) {","            wtx.nIndex = wtxIn.nIndex;","            fUpdated = true;","        }","        if (wtxIn.fFromMe \u0026\u0026 wtxIn.fFromMe != wtx.fFromMe) {","            wtx.fFromMe = wtxIn.fFromMe;","            fUpdated = true;","        }","","        auto mnList = deterministicMNManager-\u003eGetListAtChainTip();","        for (unsigned int i = 0; i \u003c wtx.tx-\u003evout.size(); ++i) {","            if (IsMine(wtx.tx-\u003evout[i]) \u0026\u0026 !IsSpent(hash, i)) {","                bool new_utxo = setWalletUTXO.insert(COutPoint(hash, i)).second;","                if (new_utxo \u0026\u0026 (deterministicMNManager-\u003eIsProTxWithCollateral(wtx.tx, i) || mnList.HasMNByCollateral(COutPoint(hash, i)))) {","                    LockCoin(COutPoint(hash, i));","                }","                fUpdated |= new_utxo;","            }","        }","    }","","    //// debug print","    LogPrintf(\"AddToWallet %s  %s%s\\n\", wtxIn.GetHash().ToString(), (fInsertedNew ? \"new\" : \"\"), (fUpdated ? \"update\" : \"\"));","","    // Write to disk","    if (fInsertedNew || fUpdated)","        if (!batch.WriteTx(wtx))","            return false;","","    // Break debit/credit balance caches:","    wtx.MarkDirty();","","    // Notify UI of new or updated transaction","    NotifyTransactionChanged(this, hash, fInsertedNew ? CT_NEW : CT_UPDATED);","","    // notify an external script when a wallet transaction comes in or is updated","    std::string strCmd = gArgs.GetArg(\"-walletnotify\", \"\");","","    if (!strCmd.empty()) {","        boost::replace_all(strCmd, \"%s\", wtxIn.GetHash().GetHex());","        std::thread t(runCommand, strCmd);","        t.detach(); // thread runs free","    }","","    fAnonymizableTallyCached = false;","    fAnonymizableTallyCachedNonDenom = false;","","    return true;","}","","bool CWallet::LoadToWallet(const CWalletTx\u0026 wtxIn)","{","    uint256 hash = wtxIn.GetHash();","    const auto\u0026 ins = mapWallet.emplace(hash, wtxIn);","    CWalletTx\u0026 wtx = ins.first-\u003esecond;","    wtx.BindWallet(this);","    if (/* insertion took place */ ins.second) {","        wtx.m_it_wtxOrdered = wtxOrdered.insert(std::make_pair(wtx.nOrderPos, TxPair(\u0026wtx, nullptr)));","    }","    AddToSpends(hash);","    for (const CTxIn\u0026 txin : wtx.tx-\u003evin) {","        auto it = mapWallet.find(txin.prevout.hash);","        if (it != mapWallet.end()) {","            CWalletTx\u0026 prevtx = it-\u003esecond;","            if (prevtx.nIndex == -1 \u0026\u0026 !prevtx.hashUnset()) {","                MarkConflicted(prevtx.hashBlock, wtx.GetHash());","            }","        }","    }","","    return true;","}","","/**"," * Add a transaction to the wallet, or update it.  pIndex and posInBlock should"," * be set when the transaction was known to be included in a block.  When"," * pIndex == nullptr, then wallet state is not updated in AddToWallet, but"," * notifications happen and cached balances are marked dirty."," *"," * If fUpdate is true, existing transactions will be updated."," * TODO: One exception to this is that the abandoned state is cleared under the"," * assumption that any further notification of a transaction that was considered"," * abandoned is an indication that it is not safe to be considered abandoned."," * Abandoned state should probably be more carefully tracked via different"," * posInBlock signals or by checking mempool presence when necessary."," */","bool CWallet::AddToWalletIfInvolvingMe(const CTransactionRef\u0026 ptx, const CBlockIndex* pIndex, int posInBlock, bool fUpdate, bool rescanningOldBlock)","{","    const CTransaction\u0026 tx = *ptx;","    {","        AssertLockHeld(cs_main); // because of AddToWallet","        AssertLockHeld(cs_wallet);","","        if (pIndex != nullptr) {","            for (const CTxIn\u0026 txin : tx.vin) {","                std::pair\u003cTxSpends::const_iterator, TxSpends::const_iterator\u003e range = mapTxSpends.equal_range(txin.prevout);","                while (range.first != range.second) {","                    if (range.first-\u003esecond != tx.GetHash()) {","                        LogPrintf(\"Transaction %s (in block %s) conflicts with wallet transaction %s (both spend %s:%i)\\n\", tx.GetHash().ToString(), pIndex-\u003eGetBlockHash().ToString(), range.first-\u003esecond.ToString(), range.first-\u003efirst.hash.ToString(), range.first-\u003efirst.n);","                        MarkConflicted(pIndex-\u003eGetBlockHash(), range.first-\u003esecond);","                    }","                    range.first++;","                }","            }","        }","","        bool fExisted = mapWallet.count(tx.GetHash()) != 0;","        if (fExisted \u0026\u0026 !fUpdate) return false;","        if (fExisted || IsMine(tx) || IsFromMe(tx)) {","            /* Check if any keys in the wallet keypool that were supposed to be unused","             * have appeared in a new transaction. If so, remove those keys from the keypool.","             * This can happen when restoring an old wallet backup that does not contain","             * the mostly recently created transactions from newer versions of the wallet.","             */","","            WalletBatch batch(*database);","            // loop though all outputs","            for (const CTxOut\u0026 txout : tx.vout) {","                // extract addresses, check if they match with an unused keypool key, update metadata if needed","                std::vector\u003cCKeyID\u003e vAffected;","                CAffectedKeysVisitor(*this, vAffected).Process(txout.scriptPubKey);","                for (const CKeyID\u0026 keyid : vAffected) {","                    std::map\u003cCKeyID, int64_t\u003e::const_iterator mi = m_pool_key_to_index.find(keyid);","                    if (mi != m_pool_key_to_index.end()) {","                        LogPrintf(\"%s: Detected a used keypool key, mark all keypool key up to this key as used\\n\", __func__);","                        MarkReserveKeysAsUsed(mi-\u003esecond);","","                        if (!TopUpKeyPool()) {","                            LogPrintf(\"%s: Topping up keypool failed (locked wallet)\\n\", __func__);","                        }","                    }","                    if (pIndex != nullptr \u0026\u0026 mapKeyMetadata[keyid].nCreateTime \u003e pIndex-\u003enTime) {","                        LogPrintf(\"%s: Found a key which appears to be used earlier than we expected, updating metadata\\n\", __func__);","                        CPubKey vchPubKey;","                        bool res = GetPubKey(keyid, vchPubKey);","                        assert(res); // this should never fail","                        mapKeyMetadata[keyid].nCreateTime = pIndex-\u003enTime;","                        batch.WriteKeyMeta(vchPubKey, mapKeyMetadata[keyid]);","                        UpdateTimeFirstKey(pIndex-\u003enTime);","                    }","                }","            }","","            CWalletTx wtx(this, ptx);","","            // Get merkle branch if transaction was found in a block","            if (pIndex != nullptr)","                wtx.SetMerkleBranch(pIndex, posInBlock);","","            return AddToWallet(wtx, false, rescanningOldBlock);","        }","    }","    return false;","}","","bool CWallet::TransactionCanBeAbandoned(const uint256\u0026 hashTx) const","{","    LOCK2(cs_main, cs_wallet);","    const CWalletTx* wtx = GetWalletTx(hashTx);","    return wtx \u0026\u0026 !wtx-\u003eisAbandoned() \u0026\u0026 wtx-\u003eGetDepthInMainChain() == 0 \u0026\u0026 !wtx-\u003eInMempool();","}","","bool CWallet::AbandonTransaction(const uint256\u0026 hashTx)","{","    LOCK2(cs_main, cs_wallet);","","    WalletBatch batch(*database, \"r+\");","","    std::set\u003cuint256\u003e todo;","    std::set\u003cuint256\u003e done;","","    // Can't mark abandoned if confirmed or in mempool","    auto it = mapWallet.find(hashTx);","    assert(it != mapWallet.end());","    CWalletTx\u0026 origtx = it-\u003esecond;","    if (origtx.GetDepthInMainChain() != 0 || origtx.InMempool() || origtx.IsLockedByInstantSend()) {","        return false;","    }","","    todo.insert(hashTx);","","    while (!todo.empty()) {","        uint256 now = *todo.begin();","        todo.erase(now);","        done.insert(now);","        auto it = mapWallet.find(now);","        assert(it != mapWallet.end());","        CWalletTx\u0026 wtx = it-\u003esecond;","        int currentconfirm = wtx.GetDepthInMainChain();","        // If the orig tx was not in block, none of its spends can be","        assert(currentconfirm \u003c= 0);","        // if (currentconfirm \u003c 0) {Tx and spends are already conflicted, no need to abandon}","        if (currentconfirm == 0 \u0026\u0026 !wtx.isAbandoned()) {","            // If the orig tx was not in block/mempool, none of its spends can be in mempool","            assert(!wtx.InMempool());","            wtx.nIndex = -1;","            wtx.setAbandoned();","            wtx.MarkDirty();","            batch.WriteTx(wtx);","            NotifyTransactionChanged(this, wtx.GetHash(), CT_UPDATED);","            // Iterate over all its outputs, and mark transactions in the wallet that spend them abandoned too","            TxSpends::const_iterator iter = mapTxSpends.lower_bound(COutPoint(now, 0));","            while (iter != mapTxSpends.end() \u0026\u0026 iter-\u003efirst.hash == now) {","                if (!done.count(iter-\u003esecond)) {","                    todo.insert(iter-\u003esecond);","                }","                iter++;","            }","            // If a transaction changes 'conflicted' state, that changes the balance","            // available of the outputs it spends. So force those to be recomputed","            for (const CTxIn\u0026 txin : wtx.tx-\u003evin) {","                auto it = mapWallet.find(txin.prevout.hash);","                if (it != mapWallet.end()) {","                    it-\u003esecond.MarkDirty();","                }","            }","        }","    }","","    fAnonymizableTallyCached = false;","    fAnonymizableTallyCachedNonDenom = false;","","    return true;","}","","void CWallet::MarkConflicted(const uint256\u0026 hashBlock, const uint256\u0026 hashTx)","{","    LOCK2(cs_main, cs_wallet); // check \"LOCK2(cs_main, pwallet-\u003ecs_wallet);\" in WalletBatch::LoadWallet()","","    int conflictconfirms = 0;","    CBlockIndex* pindex = LookupBlockIndex(hashBlock);","    if (pindex \u0026\u0026 chainActive.Contains(pindex)) {","        conflictconfirms = -(chainActive.Height() - pindex-\u003enHeight + 1);","    }","    // If number of conflict confirms cannot be determined, this means","    // that the block is still unknown or not yet part of the main chain,","    // for example when loading the wallet during a reindex. Do nothing in that","    // case.","    if (conflictconfirms \u003e= 0)","        return;","","    // Do not flush the wallet here for performance reasons","    WalletBatch batch(*database, \"r+\", false);","","    std::set\u003cuint256\u003e todo;","    std::set\u003cuint256\u003e done;","","    todo.insert(hashTx);","","    while (!todo.empty()) {","        uint256 now = *todo.begin();","        todo.erase(now);","        done.insert(now);","        auto it = mapWallet.find(now);","        assert(it != mapWallet.end());","        CWalletTx\u0026 wtx = it-\u003esecond;","        int currentconfirm = wtx.GetDepthInMainChain();","        if (conflictconfirms \u003c currentconfirm) {","            // Block is 'more conflicted' than current confirm; update.","            // Mark transaction as conflicted with this block.","            wtx.nIndex = -1;","            wtx.hashBlock = hashBlock;","            wtx.MarkDirty();","            batch.WriteTx(wtx);","            // Iterate over all its outputs, and mark transactions in the wallet that spend them conflicted too","            TxSpends::const_iterator iter = mapTxSpends.lower_bound(COutPoint(now, 0));","            while (iter != mapTxSpends.end() \u0026\u0026 iter-\u003efirst.hash == now) {","                if (!done.count(iter-\u003esecond)) {","                    todo.insert(iter-\u003esecond);","                }","                iter++;","            }","            // If a transaction changes 'conflicted' state, that changes the balance","            // available of the outputs it spends. So force those to be recomputed","            for (const CTxIn\u0026 txin : wtx.tx-\u003evin) {","                auto it = mapWallet.find(txin.prevout.hash);","                if (it != mapWallet.end()) {","                    it-\u003esecond.MarkDirty();","                }","            }","        }","    }","","    fAnonymizableTallyCached = false;","    fAnonymizableTallyCachedNonDenom = false;","}","","void CWallet::SyncTransaction(const CTransactionRef\u0026 ptx, const CBlockIndex* pindex, int posInBlock, bool rescanningOldBlock)","{","    const CTransaction\u0026 tx = *ptx;","","    if (!AddToWalletIfInvolvingMe(ptx, pindex, posInBlock, true, rescanningOldBlock))","        return; // Not one of ours","","    // If a transaction changes 'conflicted' state, that changes the balance","    // available of the outputs it spends. So force those to be","    // recomputed, also:","    for (const CTxIn\u0026 txin : tx.vin) {","        auto it = mapWallet.find(txin.prevout.hash);","        if (it != mapWallet.end()) {","            it-\u003esecond.MarkDirty();","        }","    }","","    fAnonymizableTallyCached = false;","    fAnonymizableTallyCachedNonDenom = false;","}","","void CWallet::TransactionAddedToMempool(const CTransactionRef\u0026 ptx, int64_t nAcceptTime)","{","    LOCK2(cs_main, cs_wallet);","    SyncTransaction(ptx);","","    auto it = mapWallet.find(ptx-\u003eGetHash());","    if (it != mapWallet.end()) {","        it-\u003esecond.fInMempool = true;","    }","}","","void CWallet::TransactionRemovedFromMempool(const CTransactionRef\u0026 ptx, MemPoolRemovalReason reason)","{","    if (reason != MemPoolRemovalReason::CONFLICT) {","        LOCK(cs_wallet);","        auto it = mapWallet.find(ptx-\u003eGetHash());","        if (it != mapWallet.end()) {","            it-\u003esecond.fInMempool = false;","        }","    }","}","","void CWallet::BlockConnected(const std::shared_ptr\u003cconst CBlock\u003e\u0026 pblock, const CBlockIndex* pindex, const std::vector\u003cCTransactionRef\u003e\u0026 vtxConflicted)","{","    LOCK2(cs_main, cs_wallet);","    // TODO: Temporarily ensure that mempool removals are notified before","    // connected transactions.  This shouldn't matter, but the abandoned","    // state of transactions in our wallet is currently cleared when we","    // receive another notification and there is a race condition where","    // notification of a connected conflict might cause an outside process","    // to abandon a transaction and then have it inadvertently cleared by","    // the notification that the conflicted transaction was evicted.","","    for (const CTransactionRef\u0026 ptx : vtxConflicted) {","        SyncTransaction(ptx);","        // UNKNOWN because it's a manual removal, not using mempool logic","        TransactionRemovedFromMempool(ptx, MemPoolRemovalReason::UNKNOWN);","    }","    for (size_t i = 0; i \u003c pblock-\u003evtx.size(); i++) {","        SyncTransaction(pblock-\u003evtx[i], pindex, i);","        // UNKNOWN because it's a manual removal, not using mempool logic","        TransactionRemovedFromMempool(pblock-\u003evtx[i], MemPoolRemovalReason::UNKNOWN);","    }","","    m_last_block_processed = pindex;","","    // The GUI expects a NotifyTransactionChanged when a coinbase tx","    // which is in our wallet moves from in-the-best-block to","    // 2-confirmations (as it only displays them at that time).","    // We do that here.","    if (hashPrevBestCoinbase.IsNull()) {","        // Immediately after restart we have no idea what the coinbase","        // transaction from the previous block is.","        // For correctness we scan over the entire wallet, looking for","        // the previous block's coinbase, just in case it is ours, so","        // that we can notify the UI that it should now be displayed.","        if (pindex-\u003epprev) {","            for (const std::pair\u003cconst uint256, CWalletTx\u003e\u0026 p : mapWallet) {","                if (p.second.IsCoinBase() \u0026\u0026 p.second.hashBlock == pindex-\u003epprev-\u003eGetBlockHash()) {","                    NotifyTransactionChanged(this, p.first, CT_UPDATED);","                    break;","                }","            }","        }","    } else {","        std::map\u003cuint256, CWalletTx\u003e::const_iterator mi = mapWallet.find(hashPrevBestCoinbase);","        if (mi != mapWallet.end()) {","            NotifyTransactionChanged(this, hashPrevBestCoinbase, CT_UPDATED);","        }","    }","","    hashPrevBestCoinbase = pblock-\u003evtx[0]-\u003eGetHash();","","    // reset cache to make sure no longer immature coins are included","    fAnonymizableTallyCached = false;","    fAnonymizableTallyCachedNonDenom = false;","}","","void CWallet::BlockDisconnected(const std::shared_ptr\u003cconst CBlock\u003e\u0026 pblock, const CBlockIndex* pindexDisconnected)","{","    LOCK2(cs_main, cs_wallet);","","    for (const CTransactionRef\u0026 ptx : pblock-\u003evtx) {","        // NOTE: do NOT pass pindex here","        SyncTransaction(ptx);","    }","","    // reset cache to make sure no longer mature coins are excluded","    fAnonymizableTallyCached = false;","    fAnonymizableTallyCachedNonDenom = false;","}","","","void CWallet::BlockUntilSyncedToCurrentChain()","{","    AssertLockNotHeld(cs_main);","    AssertLockNotHeld(cs_wallet);","","    {","        // Skip the queue-draining stuff if we know we're caught up with","        // chainActive.Tip()...","        // We could also take cs_wallet here, and call m_last_block_processed","        // protected by cs_wallet instead of cs_main, but as long as we need","        // cs_main here anyway, it's easier to just call it cs_main-protected.","        LOCK(cs_main);","        const CBlockIndex* initialChainTip = chainActive.Tip();","","        if (m_last_block_processed \u0026\u0026 m_last_block_processed-\u003eGetAncestor(initialChainTip-\u003enHeight) == initialChainTip) {","            return;","        }","    }","","    // ...otherwise put a callback in the validation interface queue and wait","    // for the queue to drain enough to execute it (indicating we are caught up","    // at least with the time we entered this function).","    SyncWithValidationInterfaceQueue();","}","","","isminetype CWallet::IsMine(const CTxIn\u0026 txin) const","{","    {","        LOCK(cs_wallet);","        std::map\u003cuint256, CWalletTx\u003e::const_iterator mi = mapWallet.find(txin.prevout.hash);","        if (mi != mapWallet.end()) {","            const CWalletTx\u0026 prev = (*mi).second;","            if (txin.prevout.n \u003c prev.tx-\u003evout.size())","                return IsMine(prev.tx-\u003evout[txin.prevout.n]);","        }","    }","    return ISMINE_NO;","}","","// Note that this function doesn't distinguish between a 0-valued input,","// and a not-\"is mine\" (according to the filter) input.","CAmount CWallet::GetDebit(const CTxIn\u0026 txin, const isminefilter\u0026 filter, isminefilter* mineTypes) const","{","    {","        LOCK(cs_wallet);","        std::map\u003cuint256, CWalletTx\u003e::const_iterator mi = mapWallet.find(txin.prevout.hash);","        if (mi != mapWallet.end()) {","            const CWalletTx\u0026 prev = (*mi).second;","            if (txin.prevout.n \u003c prev.tx-\u003evout.size()) {","                isminefilter txMineTypes = IsMine(prev.tx-\u003evout[txin.prevout.n]);","                if (txMineTypes \u0026 filter) {","                    if (mineTypes) *mineTypes |= txMineTypes;","                    return prev.tx-\u003evout[txin.prevout.n].nValue;","                }","            }","        }","    }","    return 0;","}","","// Recursively determine the rounds of a given input (How deep is the CoinJoin chain for a given input)","int CWallet::GetRealOutpointCoinJoinRounds(const COutPoint\u0026 outpoint, int nRounds) const","{","    LOCK(cs_wallet);","","    const int nRoundsMax = MAX_COINJOIN_ROUNDS + CCoinJoinClientOptions::GetRandomRounds();","","    if (nRounds \u003e= nRoundsMax) {","        // there can only be nRoundsMax rounds max","        return nRoundsMax - 1;","    }","","    auto pair = mapOutpointRoundsCache.emplace(outpoint, -10);","    auto nRoundsRef = \u0026pair.first-\u003esecond;","    if (!pair.second) {","        // we already processed it, just return what we have","        return *nRoundsRef;","    }","","    // TODO wtx should refer to a CWalletTx object, not a pointer, based on surrounding code","    const CWalletTx* wtx = GetWalletTx(outpoint.hash);","","    if (wtx == nullptr || wtx-\u003etx == nullptr) {","        // no such tx in this wallet","        *nRoundsRef = -1;","        LogPrint(BCLog::COINJOIN, \"%s FAILED    %-70s %3d\\n\", __func__, outpoint.ToStringShort(), -1);","        return *nRoundsRef;","    }","","    // bounds check","    if (outpoint.n \u003e= wtx-\u003etx-\u003evout.size()) {","        // should never actually hit this","        *nRoundsRef = -4;","        LogPrint(BCLog::COINJOIN, \"%s FAILED    %-70s %3d\\n\", __func__, outpoint.ToStringShort(), -4);","        return *nRoundsRef;","    }","","    auto txOutRef = \u0026wtx-\u003etx-\u003evout[outpoint.n];","","    if (CCoinJoin::IsCollateralAmount(txOutRef-\u003enValue)) {","        *nRoundsRef = -3;","        LogPrint(BCLog::COINJOIN, \"%s UPDATED   %-70s %3d\\n\", __func__, outpoint.ToStringShort(), *nRoundsRef);","        return *nRoundsRef;","    }","","    // make sure the final output is non-denominate","    if (!CCoinJoin::IsDenominatedAmount(txOutRef-\u003enValue)) { // NOT DENOM","        *nRoundsRef = -2;","        LogPrint(BCLog::COINJOIN, \"%s UPDATED   %-70s %3d\\n\", __func__, outpoint.ToStringShort(), *nRoundsRef);","        return *nRoundsRef;","    }","","    for (const auto\u0026 out : wtx-\u003etx-\u003evout) {","        if (!CCoinJoin::IsDenominatedAmount(out.nValue)) {","            // this one is denominated but there is another non-denominated output found in the same tx","            *nRoundsRef = 0;","            LogPrint(BCLog::COINJOIN, \"%s UPDATED   %-70s %3d\\n\", __func__, outpoint.ToStringShort(), *nRoundsRef);","            return *nRoundsRef;","        }","    }","","    int nShortest = -10; // an initial value, should be no way to get this by calculations","    bool fDenomFound = false;","    // only denoms here so let's look up","    for (const auto\u0026 txinNext : wtx-\u003etx-\u003evin) {","        if (IsMine(txinNext)) {","            int n = GetRealOutpointCoinJoinRounds(txinNext.prevout, nRounds + 1);","            // denom found, find the shortest chain or initially assign nShortest with the first found value","            if (n \u003e= 0 \u0026\u0026 (n \u003c nShortest || nShortest == -10)) {","                nShortest = n;","                fDenomFound = true;","            }","        }","    }","    *nRoundsRef = fDenomFound","                      ? (nShortest \u003e= nRoundsMax - 1 ? nRoundsMax : nShortest + 1) // good, we a +1 to the shortest one but only nRoundsMax rounds max allowed","                      : 0;                                                         // too bad, we are the fist one in that chain","    LogPrint(BCLog::COINJOIN, \"%s UPDATED   %-70s %3d\\n\", __func__, outpoint.ToStringShort(), *nRoundsRef);","    return *nRoundsRef;","}","","// respect current settings","int CWallet::GetCappedOutpointCoinJoinRounds(const COutPoint\u0026 outpoint) const","{","    LOCK(cs_wallet);","    int realCoinJoinRounds = GetRealOutpointCoinJoinRounds(outpoint);","    return realCoinJoinRounds \u003e CCoinJoinClientOptions::GetRounds() ? CCoinJoinClientOptions::GetRounds() : realCoinJoinRounds;","}","","bool CWallet::IsDenominated(const COutPoint\u0026 outpoint) const","{","    LOCK(cs_wallet);","","    const auto it = mapWallet.find(outpoint.hash);","    if (it == mapWallet.end()) {","        return false;","    }","","    if (outpoint.n \u003e= it-\u003esecond.tx-\u003evout.size()) {","        return false;","    }","","    return CCoinJoin::IsDenominatedAmount(it-\u003esecond.tx-\u003evout[outpoint.n].nValue);","}","","bool CWallet::IsFullyMixed(const COutPoint\u0026 outpoint) const","{","    int nRounds = GetRealOutpointCoinJoinRounds(outpoint);","    // Mix again if we don't have N rounds yet","    if (nRounds \u003c CCoinJoinClientOptions::GetRounds()) return false;","","    // Try to mix a \"random\" number of rounds more than minimum.","    // If we have already mixed N + MaxOffset rounds, don't mix again.","    // Otherwise, we should mix again 50% of the time, this results in an exponential decay","    // N rounds 50% N+1 25% N+2 12.5%... until we reach N + GetRandomRounds() rounds where we stop.","    if (nRounds \u003c CCoinJoinClientOptions::GetRounds() + CCoinJoinClientOptions::GetRandomRounds()) {","        CDataStream ss(SER_GETHASH, PROTOCOL_VERSION);","        ss \u003c\u003c outpoint \u003c\u003c nCoinJoinSalt;","        uint256 nHash;","        CSHA256().Write((const unsigned char*)ss.data(), ss.size()).Finalize(nHash.begin());","        if (nHash.GetCheapHash() % 2 == 0) {","            return false;","        }","    }","","    return true;","}","","isminetype CWallet::IsMine(const CTxOut\u0026 txout) const","{","    return ::IsMine(*this, txout.scriptPubKey);","}","","CAmount CWallet::GetCredit(const CTxOut\u0026 txout, const isminefilter\u0026 filter, isminefilter* mineTypes) const","{","    if (!MoneyRange(txout.nValue))","        throw std::runtime_error(std::string(__func__) + \": value out of range\");","    isminefilter txMineTypes = IsMine(txout);","    if (txMineTypes \u0026 filter) {","        if (mineTypes) *mineTypes |= txMineTypes;","        return txout.nValue;","    }","    return 0;","}","","bool CWallet::IsChange(const CTxOut\u0026 txout) const","{","    // TODO: fix handling of 'change' outputs. The assumption is that any","    // payment to a script that is ours, but is not in the address book","    // is change. That assumption is likely to break when we implement multisignature","    // wallets that return change back into a multi-signature-protected address;","    // a better way of identifying which outputs are 'the send' and which are","    // 'the change' will need to be implemented (maybe extend CWalletTx to remember","    // which output, if any, was change).","    if (::IsMine(*this, txout.scriptPubKey)) {","        CTxDestination address;","        if (!ExtractDestination(txout.scriptPubKey, address))","            return true;","","        LOCK(cs_wallet);","        if (!mapAddressBook.count(address))","            return true;","    }","    return false;","}","","CAmount CWallet::GetChange(const CTxOut\u0026 txout) const","{","    if (!MoneyRange(txout.nValue))","        throw std::runtime_error(std::string(__func__) + \": value out of range\");","    return (IsChange(txout) ? txout.nValue : 0);","}","","void CWallet::GenerateNewHDChain(const SecureString\u0026 secureMnemonic, const SecureString\u0026 secureMnemonicPassphrase)","{","    CHDChain newHdChain;","","    // NOTE: an empty mnemonic means \"generate a new one for me\"","    // NOTE: default mnemonic passphrase is an empty string","    if (!newHdChain.SetMnemonic(secureMnemonic, secureMnemonicPassphrase, true)) {","        throw std::runtime_error(std::string(__func__) + \": SetMnemonic failed\");","    }","","    newHdChain.Debug(__func__);","","    if (!SetHDChainSingle(newHdChain, false)) {","        throw std::runtime_error(std::string(__func__) + \": SetHDChainSingle failed\");","    }","","    if (!NewKeyPool()) {","        throw std::runtime_error(std::string(__func__) + \": NewKeyPool failed\");","    }","}","","bool CWallet::GenerateNewHDChainEncrypted(const SecureString\u0026 secureMnemonic, const SecureString\u0026 secureMnemonicPassphrase, const SecureString\u0026 secureWalletPassphrase)","{","    LOCK(cs_wallet);","","    if (!IsCrypted()) {","        return false;","    }","","    CCrypter crypter;","    CKeyingMaterial vMasterKey;","    CHDChain hdChainTmp;","","    // NOTE: an empty mnemonic means \"generate a new one for me\"","    // NOTE: default mnemonic passphrase is an empty string","    if (!hdChainTmp.SetMnemonic(secureMnemonic, secureMnemonicPassphrase, true)) {","        throw std::runtime_error(std::string(__func__) + \": SetMnemonic failed\");","    }","","    hdChainTmp.Debug(__func__);","","    for (const MasterKeyMap::value_type\u0026 pMasterKey : mapMasterKeys) {","        if (!crypter.SetKeyFromPassphrase(secureWalletPassphrase, pMasterKey.second.vchSalt, pMasterKey.second.nDeriveIterations, pMasterKey.second.nDerivationMethod)) {","            return false;","        }","        // get vMasterKey to encrypt new hdChain","        if (!crypter.Decrypt(pMasterKey.second.vchCryptedKey, vMasterKey)) {","            continue; // try another master key","        }","","        bool res = EncryptHDChain(vMasterKey, hdChainTmp);","        assert(res);","","        CHDChain hdChainCrypted;","        res = GetHDChain(hdChainCrypted);","        assert(res);","","        DBG(","            printf(\"GenerateNewHDChainEncrypted -- current seed: '%s'\\n\", HexStr(hdChainTmp.GetSeed()).c_str());","            printf(\"GenerateNewHDChainEncrypted -- crypted seed: '%s'\\n\", HexStr(hdChainCrypted.GetSeed()).c_str()););","","        // ids should match, seed hashes should not","        assert(hdChainTmp.GetID() == hdChainCrypted.GetID());","        assert(hdChainTmp.GetSeedHash() != hdChainCrypted.GetSeedHash());","","        hdChainCrypted.Debug(__func__);","","        if (SetCryptedHDChainSingle(hdChainCrypted, false)) {","            Lock();","            if (!Unlock(secureWalletPassphrase)) {","                // this should never happen","                throw std::runtime_error(std::string(__func__) + \": Unlock failed\");","            }","            if (!NewKeyPool()) {","                throw std::runtime_error(std::string(__func__) + \": NewKeyPool failed\");","            }","            Lock();","            return true;","        }","    }","","    return false;","}","","bool CWallet::SetHDChain(WalletBatch\u0026 batch, const CHDChain\u0026 chain, bool memonly)","{","    LOCK(cs_wallet);","","    if (!CCryptoKeyStore::SetHDChain(chain))","        return false;","","    if (!memonly \u0026\u0026 !batch.WriteHDChain(chain))","        throw std::runtime_error(std::string(__func__) + \": WriteHDChain failed\");","","    return true;","}","","bool CWallet::SetCryptedHDChain(WalletBatch\u0026 batch, const CHDChain\u0026 chain, bool memonly)","{","    LOCK(cs_wallet);","","    if (!CCryptoKeyStore::SetCryptedHDChain(chain))","        return false;","","    if (!memonly) {","        if (encrypted_batch) {","            if (!encrypted_batch-\u003eWriteCryptedHDChain(chain))","                throw std::runtime_error(std::string(__func__) + \": WriteCryptedHDChain failed\");","        } else {","            if (!batch.WriteCryptedHDChain(chain))","                throw std::runtime_error(std::string(__func__) + \": WriteCryptedHDChain failed\");","        }","    }","","    return true;","}","","bool CWallet::SetHDChainSingle(const CHDChain\u0026 chain, bool memonly)","{","    WalletBatch batch(*database);","    return SetHDChain(batch, chain, memonly);","}","","bool CWallet::SetCryptedHDChainSingle(const CHDChain\u0026 chain, bool memonly)","{","    WalletBatch batch(*database);","    return SetCryptedHDChain(batch, chain, memonly);","}","","bool CWallet::GetDecryptedHDChain(CHDChain\u0026 hdChainRet)","{","    LOCK(cs_wallet);","","    CHDChain hdChainTmp;","    if (!GetHDChain(hdChainTmp)) {","        return false;","    }","","    if (!DecryptHDChain(hdChainTmp))","        return false;","","    // make sure seed matches this chain","    if (hdChainTmp.GetID() != hdChainTmp.GetSeedHash())","        return false;","","    hdChainRet = hdChainTmp;","","    return true;","}","","bool CWallet::IsHDEnabled() const","{","    CHDChain hdChainCurrent;","    return GetHDChain(hdChainCurrent);","}","","bool CWallet::IsMine(const CTransaction\u0026 tx) const","{","    for (const CTxOut\u0026 txout : tx.vout)","        if (IsMine(txout))","            return true;","    return false;","}","","bool CWallet::IsFromMe(const CTransaction\u0026 tx) const","{","    return (GetDebit(tx, ISMINE_ALL) \u003e 0);","}","","CAmount CWallet::GetDebit(const CTransaction\u0026 tx, const isminefilter\u0026 filter, isminefilter* mineTypes) const","{","    CAmount nDebit = 0;","    for (const CTxIn\u0026 txin : tx.vin) {","        nDebit += GetDebit(txin, filter, mineTypes);","        if (!MoneyRange(nDebit))","            throw std::runtime_error(std::string(__func__) + \": value out of range\");","    }","    return nDebit;","}","","bool CWallet::IsAllFromMe(const CTransaction\u0026 tx, const isminefilter\u0026 filter) const","{","    LOCK(cs_wallet);","","    for (const CTxIn\u0026 txin : tx.vin) {","        auto mi = mapWallet.find(txin.prevout.hash);","        if (mi == mapWallet.end())","            return false; // any unknown inputs can't be from us","","        const CWalletTx\u0026 prev = (*mi).second;","","        if (txin.prevout.n \u003e= prev.tx-\u003evout.size())","            return false; // invalid input!","","        if (!(IsMine(prev.tx-\u003evout[txin.prevout.n]) \u0026 filter))","            return false;","    }","    return true;","}","","CAmount CWallet::GetCredit(const CTransaction\u0026 tx, const isminefilter\u0026 filter, isminefilter* mineTypes) const","{","    CAmount nCredit = 0;","    for (const CTxOut\u0026 txout : tx.vout) {","        nCredit += GetCredit(txout, filter, mineTypes);","        if (!MoneyRange(nCredit))","            throw std::runtime_error(std::string(__func__) + \": value out of range\");","    }","    return nCredit;","}","","CAmount CWallet::GetChange(const CTransaction\u0026 tx) const","{","    CAmount nChange = 0;","    for (const CTxOut\u0026 txout : tx.vout) {","        nChange += GetChange(txout);","        if (!MoneyRange(nChange))","            throw std::runtime_error(std::string(__func__) + \": value out of range\");","    }","    return nChange;","}","","int64_t CWalletTx::GetTxTime() const","{","    int64_t n = nTimeSmart;","    return n ? n : nTimeReceived;","}","","bool CWalletTx::isFutureSpendable(unsigned int outputIndex) const","{","    bool isCoinSpendable;","    if (tx-\u003enType == TRANSACTION_FUTURE) {","        CFutureTx futureTx;","        if (GetTxPayload(tx-\u003evExtraPayload, futureTx)) {","            int maturity = GetDepthInMainChain();","            int64_t adjustCurrentTime = GetAdjustedTime();","            uint32_t confirmedTime = GetConfirmationTime();","            // confirmedTime = currentTime if it is not confirmed so that time maturity math does not need special case","            if (confirmedTime \u003c 0) confirmedTime = adjustCurrentTime;","            if (futureTx.lockOutputIndex == outputIndex) {","                bool isBlockMature = futureTx.maturity \u003e= 0 \u0026\u0026 maturity \u003e= futureTx.maturity;","                bool isTimeMature = futureTx.lockTime \u003e= 0 \u0026\u0026 adjustCurrentTime - confirmedTime \u003e= futureTx.lockTime;","                isCoinSpendable = isBlockMature || isTimeMature;","            } else {","                isCoinSpendable = true;","            }","        } else {","            isCoinSpendable = false;","        }","    } else {","        isCoinSpendable = true;","    }","","    return isCoinSpendable;","}","","// Helper for producing a max-sized low-S signature (eg 72 bytes)","bool CWallet::DummySignInput(CTxIn\u0026 tx_in, const CTxOut\u0026 txout) const","{","    // Fill in dummy signatures for fee calculation.","    const CScript\u0026 scriptPubKey = txout.scriptPubKey;","    SignatureData sigdata;","","    if (!ProduceSignature(DummySignatureCreator(this), scriptPubKey, sigdata)) {","        return false;","    } else {","        UpdateInput(tx_in, sigdata);","    }","    return true;","}","","// Helper for producing a bunch of max-sized low-S signatures (eg 72 bytes)","bool CWallet::DummySignTx(CMutableTransaction\u0026 txNew, const std::vector\u003cCTxOut\u003e\u0026 txouts) const","{","    // Fill in dummy signatures for fee calculation.","    int nIn = 0;","    for (const auto\u0026 txout : txouts) {","        if (!DummySignInput(txNew.vin[nIn], txout)) {","            return false;","        }","","        nIn++;","    }","    return true;","}","","int64_t CalculateMaximumSignedTxSize(const CTransaction\u0026 tx, const CWallet* wallet)","{","    std::vector\u003cCTxOut\u003e txouts;","    // Look up the inputs.  We should have already checked that this transaction","    // IsAllFromMe(ISMINE_SPENDABLE), so every input should already be in our","    // wallet, with a valid index into the vout array, and the ability to sign.","    for (auto\u0026 input : tx.vin) {","        const auto mi = wallet-\u003emapWallet.find(input.prevout.hash);","        if (mi == wallet-\u003emapWallet.end()) {","            return -1;","        }","        assert(input.prevout.n \u003c mi-\u003esecond.tx-\u003evout.size());","        txouts.emplace_back(mi-\u003esecond.tx-\u003evout[input.prevout.n]);","    }","    return CalculateMaximumSignedTxSize(tx, wallet, txouts);","}","","// txouts needs to be in the order of tx.vin","int64_t CalculateMaximumSignedTxSize(const CTransaction\u0026 tx, const CWallet* wallet, const std::vector\u003cCTxOut\u003e\u0026 txouts)","{","    CMutableTransaction txNew(tx);","    if (!wallet-\u003eDummySignTx(txNew, txouts)) {","        // This should never happen, because IsAllFromMe(ISMINE_SPENDABLE)","        // implies that we can sign for every input.","        return -1;","    }","    return ::GetSerializeSize(txNew, SER_NETWORK, PROTOCOL_VERSION);","}","","int CalculateMaximumSignedInputSize(const CTxOut\u0026 txout, const CWallet* wallet)","{","    CMutableTransaction txn;","    txn.vin.push_back(CTxIn(COutPoint()));","    if (!wallet-\u003eDummySignInput(txn.vin[0], txout)) {","        // This should never happen, because IsAllFromMe(ISMINE_SPENDABLE)","        // implies that we can sign for every input.","        return -1;","    }","    return ::GetSerializeSize(txn.vin[0], SER_NETWORK, PROTOCOL_VERSION);","}","","void CWalletTx::GetAmounts(std::list\u003cCOutputEntry\u003e\u0026 listReceived,","    std::list\u003cCOutputEntry\u003e\u0026 listSent,","    CAmount\u0026 nFee,","    std::string\u0026 strSentAccount,","    const isminefilter\u0026 filter) const","{","    nFee = 0;","    listReceived.clear();","    listSent.clear();","    strSentAccount = strFromAccount;","","    // Compute fee:","    CAmount nDebit = GetDebit(filter);","    if (nDebit \u003e 0) // debit\u003e0 means we signed/sent this transaction","    {","        CAmount nValueOut = tx-\u003eGetValueOut();","        nFee = nDebit - nValueOut;","    }","","    // Sent/received.","    for (unsigned int i = 0; i \u003c tx-\u003evout.size(); ++i) {","        const CTxOut\u0026 txout = tx-\u003evout[i];","        isminetype fIsMine = pwallet-\u003eIsMine(txout);","        // Only need to handle txouts if AT LEAST one of these is true:","        //   1) they debit from us (sent)","        //   2) the output is to us (received)","        if (nDebit \u003e 0) {","            // Don't report 'change' txouts","            if (pwallet-\u003eIsChange(txout))","                continue;","        } else if (!(fIsMine \u0026 filter))","            continue;","","        // In either case, we need to get the destination address","        CTxDestination address;","","        if (!ExtractDestination(txout.scriptPubKey, address) \u0026\u0026 !txout.scriptPubKey.IsUnspendable()) {","            LogPrintf(\"CWalletTx::GetAmounts: Unknown transaction type found, txid %s\\n\",","                this-\u003eGetHash().ToString());","            address = CNoDestination();","        }","","        COutputEntry output = {address, txout.nValue, (int)i};","","        // If we are debited by the transaction, add the output as a \"sent\" entry","        if (nDebit \u003e 0)","            listSent.push_back(output);","","        // If we are receiving the output, add it as a \"received\" entry","        if (fIsMine \u0026 filter)","            listReceived.push_back(output);","    }","}","","/**"," * Scan active chain for relevant transactions after importing keys. This should"," * be called whenever new keys are added to the wallet, with the oldest key"," * creation time."," *"," * @return Earliest timestamp that could be successfully scanned from. Timestamp"," * returned will be higher than startTime if relevant blocks could not be read."," */","int64_t CWallet::RescanFromTime(int64_t startTime, const WalletRescanReserver\u0026 reserver, bool update)","{","    // Find starting block. May be null if nCreateTime is greater than the","    // highest blockchain timestamp, in which case there is nothing that needs","    // to be scanned.","    CBlockIndex* startBlock = nullptr;","    {","        LOCK(cs_main);","        startBlock = chainActive.FindEarliestAtLeast(startTime - TIMESTAMP_WINDOW);","        LogPrintf(\"%s: Rescanning last %i blocks\\n\", __func__, startBlock ? chainActive.Height() - startBlock-\u003enHeight + 1 : 0);","    }","","    if (startBlock) {","        const CBlockIndex* const failedBlock = ScanForWalletTransactions(startBlock, nullptr, reserver, update);","        if (failedBlock) {","            return failedBlock-\u003eGetBlockTimeMax() + TIMESTAMP_WINDOW + 1;","        }","    }","    return startTime;","}","","/**"," * Scan the block chain (starting in pindexStart) for transactions"," * from or to us. If fUpdate is true, found transactions that already"," * exist in the wallet will be updated."," *"," * Returns null if scan was successful. Otherwise, if a complete rescan was not"," * possible (due to pruning or corruption), returns pointer to the most recent"," * block that could not be scanned."," *"," * If pindexStop is not a nullptr, the scan will stop at the block-index"," * defined by pindexStop"," *"," * Caller needs to make sure pindexStop (and the optional pindexStart) are on"," * the main chain after to the addition of any new keys you want to detect"," * transactions for."," */","CBlockIndex* CWallet::ScanForWalletTransactions(CBlockIndex* pindexStart, CBlockIndex* pindexStop, const WalletRescanReserver\u0026 reserver, bool fUpdate)","{","    int64_t nNow = GetTime();","    const CChainParams\u0026 chainParams = Params();","","    assert(reserver.isReserved());","    if (pindexStop) {","        assert(pindexStop-\u003enHeight \u003e= pindexStart-\u003enHeight);","    }","","    CBlockIndex* pindex = pindexStart;","    CBlockIndex* ret = nullptr;","","    if (pindex) LogPrintf(\"Rescan started from block %d...\\n\", pindex-\u003enHeight);","","    {","        fAbortRescan = false;","        ShowProgress(_(\"Rescanning...\"), 0); // show rescan progress in GUI as dialog or on splashscreen, if -rescan on startup","        CBlockIndex* tip = nullptr;","        double progress_begin;","        double progress_end;","        {","            LOCK(cs_main);","            progress_begin = GuessVerificationProgress(chainParams.TxData(), pindex);","            if (pindexStop == nullptr) {","                tip = chainActive.Tip();","                progress_end = GuessVerificationProgress(chainParams.TxData(), tip);","            } else {","                progress_end = GuessVerificationProgress(chainParams.TxData(), pindexStop);","            }","        }","        double progress_current = progress_begin;","        while (pindex \u0026\u0026 !fAbortRescan \u0026\u0026 !ShutdownRequested()) {","            m_scanning_progress = (progress_current - progress_begin) / (progress_end - progress_begin);","            if (pindex-\u003enHeight % 100 == 0 \u0026\u0026 progress_end - progress_begin \u003e 0.0) {","                ShowProgress(_(\"Rescanning...\"), std::max(1, std::min(99, (int)(m_scanning_progress * 100))));","            }","            if (GetTime() \u003e= nNow + 60) {","                nNow = GetTime();","                LogPrintf(\"Still rescanning. At block %d. Progress=%f\\n\", pindex-\u003enHeight, progress_current);","            }","","            CBlock block;","            if (ReadBlockFromDisk(block, pindex, Params().GetConsensus())) {","                LOCK2(cs_main, cs_wallet);","                if (pindex \u0026\u0026 !chainActive.Contains(pindex)) {","                    // Abort scan if current block is no longer active, to prevent","                    // marking transactions as coming from the wrong block.","                    ret = pindex;","                    break;","                }","                for (size_t posInBlock = 0; posInBlock \u003c block.vtx.size(); ++posInBlock) {","                    AddToWalletIfInvolvingMe(block.vtx[posInBlock], pindex, posInBlock, fUpdate, true);","                }","            } else {","                ret = pindex;","            }","            if (pindex == pindexStop) {","                break;","            }","            {","                LOCK(cs_main);","                pindex = chainActive.Next(pindex);","                progress_current = GuessVerificationProgress(chainParams.TxData(), pindex);","                if (pindexStop == nullptr \u0026\u0026 tip != chainActive.Tip()) {","                    tip = chainActive.Tip();","                    // in case the tip has changed, update progress max","                    progress_end = GuessVerificationProgress(chainParams.TxData(), tip);","                }","            }","        }","        if (pindex \u0026\u0026 fAbortRescan) {","            LogPrintf(\"Rescan aborted at block %d. Progress=%f\\n\", pindex-\u003enHeight, progress_current);","        } else if (pindex \u0026\u0026 ShutdownRequested()) {","            LogPrintf(\"Rescan interrupted by shutdown request at block %d. Progress=%f\\n\", pindex-\u003enHeight, progress_current);","        }","        ShowProgress(_(\"Rescanning...\"), 100); // hide progress dialog in GUI","    }","    return ret;","}","","void CWallet::ReacceptWalletTransactions()","{","    // If transactions aren't being broadcasted, don't let them into local mempool either","    if (!fBroadcastTransactions)","        return;","    LOCK2(cs_main, mempool.cs);","    LOCK(cs_wallet);","    std::map\u003cint64_t, CWalletTx*\u003e mapSorted;","","    // Sort pending wallet transactions based on their initial wallet insertion order","    for (std::pair\u003cconst uint256, CWalletTx\u003e\u0026 item : mapWallet) {","        const uint256\u0026 wtxid = item.first;","        CWalletTx\u0026 wtx = item.second;","        assert(wtx.GetHash() == wtxid);","","        int nDepth = wtx.GetDepthInMainChain();","","        if (!wtx.IsCoinBase() \u0026\u0026 (nDepth == 0 \u0026\u0026 !wtx.IsLockedByInstantSend() \u0026\u0026 !wtx.isAbandoned())) {","            mapSorted.insert(std::make_pair(wtx.nOrderPos, \u0026wtx));","        }","    }","","    // Try to add wallet transactions to memory pool","    for (std::pair\u003cconst int64_t, CWalletTx*\u003e\u0026 item : mapSorted) {","        CWalletTx\u0026 wtx = *(item.second);","        CValidationState state;","        wtx.AcceptToMemoryPool(maxTxFee, state);","    }","}","","bool CWalletTx::RelayWalletTransaction(CConnman* connman)","{","    assert(pwallet-\u003eGetBroadcastTransactions());","    if (!IsCoinBase() \u0026\u0026 !isAbandoned() \u0026\u0026 GetDepthInMainChain() == 0) {","        CValidationState state;","        /* GetDepthInMainChain already catches known conflicts. */","        if (InMempool() || AcceptToMemoryPool(maxTxFee, state)) {","            uint256 hash = GetHash();","            LogPrintf(\"Relaying wtx %s\\n\", hash.ToString());","","            if (connman) {","                connman-\u003eRelayTransaction(*tx);","                return true;","            }","        }","    }","    return false;","}","","std::set\u003cuint256\u003e CWalletTx::GetConflicts() const","{","    std::set\u003cuint256\u003e result;","    if (pwallet != nullptr) {","        uint256 myHash = GetHash();","        result = pwallet-\u003eGetConflicts(myHash);","        result.erase(myHash);","    }","    return result;","}","","CAmount CWalletTx::GetDebit(const isminefilter\u0026 filter, isminefilter* mineTypes) const","{","    if (tx-\u003evin.empty())","        return 0;","","    CAmount debit = 0;","    if (filter \u0026 ISMINE_SPENDABLE) {","        if (fDebitCached) {","            debit += nDebitCached;","            if (mineTypes \u0026\u0026 nDebitCached \u003e 0.0) *mineTypes |= ISMINE_SPENDABLE;","        } else {","            nDebitCached = pwallet-\u003eGetDebit(*tx, ISMINE_SPENDABLE);","            fDebitCached = true;","            debit += nDebitCached;","        }","    }","    if (filter \u0026 ISMINE_WATCH_ONLY) {","        if (fWatchDebitCached) {","            debit += nWatchDebitCached;","            if (mineTypes \u0026\u0026 nWatchDebitCached \u003e 0.0) *mineTypes |= ISMINE_WATCH_ONLY;","        } else {","            nWatchDebitCached = pwallet-\u003eGetDebit(*tx, ISMINE_WATCH_ONLY);","            fWatchDebitCached = true;","            debit += nWatchDebitCached;","        }","    }","    return debit;","}","","CAmount CWalletTx::GetCredit(const isminefilter\u0026 filter, isminefilter* mineTypes) const","{","    // Must wait until coinbase is safely deep enough in the chain before valuing it","    if (IsCoinBase() \u0026\u0026 GetBlocksToMaturity() \u003e 0)","        return 0;","","    CAmount credit = 0;","    if (filter \u0026 ISMINE_SPENDABLE) {","        // GetBalance can assume transactions in mapWallet won't change","        if (fCreditCached) {","            credit += nCreditCached;","            if (mineTypes \u0026\u0026 nCreditCached \u003e 0.0) *mineTypes |= ISMINE_SPENDABLE;","        } else {","            nCreditCached = pwallet-\u003eGetCredit(*tx, ISMINE_SPENDABLE);","            fCreditCached = true;","            credit += nCreditCached;","        }","    }","    if (filter \u0026 ISMINE_WATCH_ONLY) {","        if (fWatchCreditCached) {","            credit += nWatchCreditCached;","            if (mineTypes \u0026\u0026 nWatchCreditCached \u003e 0.0) *mineTypes |= ISMINE_WATCH_ONLY;","        } else {","            nWatchCreditCached = pwallet-\u003eGetCredit(*tx, ISMINE_WATCH_ONLY);","            fWatchCreditCached = true;","            credit += nWatchCreditCached;","        }","    }","    return credit;","}","","CAmount CWalletTx::GetImmatureCredit(bool fUseCache) const","{","    if (IsCoinBase() \u0026\u0026 GetBlocksToMaturity() \u003e 0 \u0026\u0026 IsInMainChain()) {","        if (fUseCache \u0026\u0026 fImmatureCreditCached)","            return nImmatureCreditCached;","        nImmatureCreditCached = pwallet-\u003eGetCredit(*tx, ISMINE_SPENDABLE);","        fImmatureCreditCached = true;","        return nImmatureCreditCached;","    }","","    return 0;","}","","CAmount CWalletTx::GetAvailableCredit(bool fUseCache, const isminefilter\u0026 filter) const","{","    if (pwallet == nullptr)","        return 0;","","    // Must wait until coinbase is safely deep enough in the chain before valuing it","    if (IsCoinBase() \u0026\u0026 GetBlocksToMaturity() \u003e 0)","        return 0;","","    CAmount* cache = nullptr;","    bool* cache_used = nullptr;","","    if (filter == ISMINE_SPENDABLE) {","        cache = \u0026nAvailableCreditCached;","        cache_used = \u0026fAvailableCreditCached;","    } else if (filter == ISMINE_WATCH_ONLY) {","        cache = \u0026nAvailableWatchCreditCached;","        cache_used = \u0026fAvailableWatchCreditCached;","    }","","    if (fUseCache \u0026\u0026 cache_used \u0026\u0026 *cache_used) {","        return *cache;","    }","","    CAmount nCredit = 0;","    uint256 hashTx = GetHash();","    for (unsigned int i = 0; i \u003c tx-\u003evout.size(); i++) {","        if (!pwallet-\u003eIsSpent(hashTx, i)) {","            const CTxOut\u0026 txout = tx-\u003evout[i];","            nCredit += pwallet-\u003eGetCredit(txout, filter);","            if (!MoneyRange(nCredit))","                throw std::runtime_error(std::string(__func__) + \": value out of range\");","        }","    }","","    if (cache) {","        *cache = nCredit;","        assert(cache_used);","        *cache_used = true;","    }","    return nCredit;","}","","CAmount CWalletTx::GetImmatureWatchOnlyCredit(const bool fUseCache) const","{","    if (IsCoinBase() \u0026\u0026 GetBlocksToMaturity() \u003e 0 \u0026\u0026 IsInMainChain()) {","        if (fUseCache \u0026\u0026 fImmatureWatchCreditCached)","            return nImmatureWatchCreditCached;","        nImmatureWatchCreditCached = pwallet-\u003eGetCredit(*tx, ISMINE_WATCH_ONLY);","        fImmatureWatchCreditCached = true;","        return nImmatureWatchCreditCached;","    }","","    return 0;","}","","CAmount CWalletTx::GetAnonymizedCredit(const CCoinControl* coinControl) const","{","    if (!pwallet)","        return 0;","","    // Exclude coinbase and conflicted txes","    if (IsCoinBase() || GetDepthInMainChain() \u003c 0)","        return 0;","","    if (coinControl == nullptr \u0026\u0026 fAnonymizedCreditCached)","        return nAnonymizedCreditCached;","","    CAmount nCredit = 0;","    uint256 hashTx = GetHash();","    for (unsigned int i = 0; i \u003c tx-\u003evout.size(); i++) {","        const CTxOut\u0026 txout = tx-\u003evout[i];","        const COutPoint outpoint = COutPoint(hashTx, i);","","        if (coinControl != nullptr \u0026\u0026 coinControl-\u003eHasSelected() \u0026\u0026 !coinControl-\u003eIsSelected(outpoint)) {","            continue;","        }","","        if (pwallet-\u003eIsSpent(hashTx, i) || !CCoinJoin::IsDenominatedAmount(txout.nValue)) continue;","","        if (pwallet-\u003eIsFullyMixed(outpoint)) {","            nCredit += pwallet-\u003eGetCredit(txout, ISMINE_SPENDABLE);","            if (!MoneyRange(nCredit))","                throw std::runtime_error(std::string(__func__) + \": value out of range\");","        }","    }","","    if (coinControl == nullptr) {","        nAnonymizedCreditCached = nCredit;","        fAnonymizedCreditCached = true;","    }","","    return nCredit;","}","","CAmount CWalletTx::GetDenominatedCredit(bool unconfirmed, bool fUseCache) const","{","    if (pwallet == nullptr)","        return 0;","","    // Must wait until coinbase is safely deep enough in the chain before valuing it","    if (IsCoinBase() \u0026\u0026 GetBlocksToMaturity() \u003e 0)","        return 0;","","    int nDepth = GetDepthInMainChain();","    if (nDepth \u003c 0) return 0;","","    bool isUnconfirmed = IsTrusted() \u0026\u0026 nDepth == 0;","    if (unconfirmed != isUnconfirmed) return 0;","","    if (fUseCache) {","        if (unconfirmed \u0026\u0026 fDenomUnconfCreditCached)","            return nDenomUnconfCreditCached;","        else if (!unconfirmed \u0026\u0026 fDenomConfCreditCached)","            return nDenomConfCreditCached;","    }","","    CAmount nCredit = 0;","    uint256 hashTx = GetHash();","    for (unsigned int i = 0; i \u003c tx-\u003evout.size(); i++) {","        const CTxOut\u0026 txout = tx-\u003evout[i];","","        if (pwallet-\u003eIsSpent(hashTx, i) || !CCoinJoin::IsDenominatedAmount(txout.nValue)) continue;","","        nCredit += pwallet-\u003eGetCredit(txout, ISMINE_SPENDABLE);","        if (!MoneyRange(nCredit))","            throw std::runtime_error(std::string(__func__) + \": value out of range\");","    }","","    if (unconfirmed) {","        nDenomUnconfCreditCached = nCredit;","        fDenomUnconfCreditCached = true;","    } else {","        nDenomConfCreditCached = nCredit;","        fDenomConfCreditCached = true;","    }","    return nCredit;","}","","CAmount CWalletTx::GetChange() const","{","    if (fChangeCached)","        return nChangeCached;","    nChangeCached = pwallet-\u003eGetChange(*tx);","    fChangeCached = true;","    return nChangeCached;","}","","bool CWalletTx::InMempool() const","{","    return fInMempool;","}","","bool CWalletTx::IsTrusted() const","{","    // Quick answer in most cases","    if (!CheckFinalTx(*tx))","        return false;","    int nDepth = GetDepthInMainChain();","    if (nDepth \u003e= 1)","        return true;","    if (nDepth \u003c 0)","        return false;","    if (IsLockedByInstantSend())","        return true;","    if (!bSpendZeroConfChange || !IsFromMe(ISMINE_ALL)) // using wtx's cached debit","        return false;","","    // Don't trust unconfirmed transactions from us unless they are in the mempool.","    if (!InMempool())","        return false;","","    // Trusted if all inputs are from us and are in the mempool:","    for (const CTxIn\u0026 txin : tx-\u003evin) {","        // Transactions not sent by us: not trusted","        const CWalletTx* parent = pwallet-\u003eGetWalletTx(txin.prevout.hash);","        if (parent == nullptr)","            return false;","        const CTxOut\u0026 parentOut = parent-\u003etx-\u003evout[txin.prevout.n];","        if (pwallet-\u003eIsMine(parentOut) != ISMINE_SPENDABLE)","            return false;","    }","    return true;","}","","bool CWalletTx::IsEquivalentTo(const CWalletTx\u0026 _tx) const","{","    CMutableTransaction tx1 = *this-\u003etx;","    CMutableTransaction tx2 = *_tx.tx;","    for (auto\u0026 txin : tx1.vin)","        txin.scriptSig = CScript();","    for (auto\u0026 txin : tx2.vin)","        txin.scriptSig = CScript();","    return CTransaction(tx1) == CTransaction(tx2);","}","","std::vector\u003cuint256\u003e CWallet::ResendWalletTransactionsBefore(int64_t nTime, CConnman* connman)","{","    std::vector\u003cuint256\u003e result;","","    LOCK2(mempool.cs, cs_wallet);","","    // Sort them in chronological order","    std::multimap\u003cunsigned int, CWalletTx*\u003e mapSorted;","    for (std::pair\u003cconst uint256, CWalletTx\u003e\u0026 item : mapWallet) {","        CWalletTx\u0026 wtx = item.second;","        // Don't rebroadcast if newer than nTime:","        if (wtx.nTimeReceived \u003e nTime)","            continue;","        mapSorted.insert(std::make_pair(wtx.nTimeReceived, \u0026wtx));","    }","    for (std::pair\u003cconst unsigned int, CWalletTx*\u003e\u0026 item : mapSorted) {","        CWalletTx\u0026 wtx = *item.second;","        if (wtx.RelayWalletTransaction(connman))","            result.push_back(wtx.GetHash());","    }","    return result;","}","","void CWallet::ResendWalletTransactions(int64_t nBestBlockTime, CConnman* connman)","{","    // Do this infrequently and randomly to avoid giving away","    // that these are our transactions.","    if (GetTime() \u003c nNextResend || !fBroadcastTransactions)","        return;","    bool fFirst = (nNextResend == 0);","    nNextResend = GetTime() + GetRand(30 * 60);","    if (fFirst)","        return;","","    // Only do it if there's been a new block since last time","    if (nBestBlockTime \u003c nLastResend)","        return;","    nLastResend = GetTime();","","    // Rebroadcast unconfirmed txes older than 5 minutes before the last","    // block was found:","    std::vector\u003cuint256\u003e relayed = ResendWalletTransactionsBefore(nBestBlockTime - 5 * 60, connman);","    if (!relayed.empty())","        LogPrintf(\"%s: rebroadcast %u unconfirmed transactions\\n\", __func__, relayed.size());","}","/** @} */ // end of mapWallet","","","/** @defgroup Actions"," *"," * @{"," */","","","std::unordered_set\u003cconst CWalletTx*, WalletTxHasher\u003e CWallet::GetSpendableTXs() const","{","    AssertLockHeld(cs_wallet);","","    std::unordered_set\u003cconst CWalletTx*, WalletTxHasher\u003e ret;","    for (auto it = setWalletUTXO.begin(); it != setWalletUTXO.end();) {","        const auto\u0026 outpoint = *it;","        const auto jt = mapWallet.find(outpoint.hash);","        if (jt != mapWallet.end()) {","            ret.emplace(\u0026jt-\u003esecond);","        }","","        // setWalletUTXO is sorted by COutPoint, which means that all UTXOs for the same TX are neighbors","        // skip entries until we encounter a new TX","        while (it != setWalletUTXO.end() \u0026\u0026 it-\u003ehash == outpoint.hash) {","            ++it;","        }","    }","    return ret;","}","","CAmount CWallet::GetBalance(const isminefilter\u0026 filter, const int min_depth, const bool fAddLocked) const","{","    CAmount nTotal = 0;","    {","        LOCK2(cs_main, cs_wallet);","        for (auto pcoin : GetSpendableTXs()) {","            if (pcoin-\u003eIsTrusted() \u0026\u0026 ((pcoin-\u003eGetDepthInMainChain() \u003e= min_depth) || (fAddLocked \u0026\u0026 pcoin-\u003eIsLockedByInstantSend()))) {","                nTotal += pcoin-\u003eGetAvailableCredit(true, filter);","            }","        }","    }","","    return nTotal;","}","","CAmount CWallet::GetAnonymizableBalance(bool fSkipDenominated, bool fSkipUnconfirmed) const","{","    if (!CCoinJoinClientOptions::IsEnabled()) return 0;","","    std::vector\u003cCompactTallyItem\u003e vecTally;","    if (!SelectCoinsGroupedByAddresses(vecTally, fSkipDenominated, true, fSkipUnconfirmed)) return 0;","","    CAmount nTotal = 0;","","    const CAmount nSmallestDenom = CCoinJoin::GetSmallestDenomination();","    const CAmount nMixingCollateral = CCoinJoin::GetCollateralAmount();","    for (const auto\u0026 item : vecTally) {","        bool fIsDenominated = CCoinJoin::IsDenominatedAmount(item.nAmount);","        if (fSkipDenominated \u0026\u0026 fIsDenominated) continue;","        // assume that the fee to create denoms should be mixing collateral at max","        if (item.nAmount \u003e= nSmallestDenom + (fIsDenominated ? 0 : nMixingCollateral))","            nTotal += item.nAmount;","    }","","    return nTotal;","}","","CAmount CWallet::GetAnonymizedBalance(const CCoinControl* coinControl) const","{","    if (!CCoinJoinClientOptions::IsEnabled()) return 0;","","    CAmount nTotal = 0;","","    LOCK2(cs_main, cs_wallet);","","    for (auto pcoin : GetSpendableTXs()) {","        nTotal += pcoin-\u003eGetAnonymizedCredit(coinControl);","    }","","    return nTotal;","}","","// Note: calculated including unconfirmed,","// that's ok as long as we use it for informational purposes only","float CWallet::GetAverageAnonymizedRounds() const","{","    if (!CCoinJoinClientOptions::IsEnabled()) return 0;","","    int nTotal = 0;","    int nCount = 0;","","    LOCK2(cs_main, cs_wallet);","    for (const auto\u0026 outpoint : setWalletUTXO) {","        if (!IsDenominated(outpoint)) continue;","","        nTotal += GetCappedOutpointCoinJoinRounds(outpoint);","        nCount++;","    }","","    if (nCount == 0) return 0;","","    return (float)nTotal / nCount;","}","","// Note: calculated including unconfirmed,","// that's ok as long as we use it for informational purposes only","CAmount CWallet::GetNormalizedAnonymizedBalance() const","{","    if (!CCoinJoinClientOptions::IsEnabled()) return 0;","","    CAmount nTotal = 0;","","    LOCK2(cs_main, cs_wallet);","    for (const auto\u0026 outpoint : setWalletUTXO) {","        const auto it = mapWallet.find(outpoint.hash);","        if (it == mapWallet.end()) continue;","","        CAmount nValue = it-\u003esecond.tx-\u003evout[outpoint.n].nValue;","        if (!CCoinJoin::IsDenominatedAmount(nValue)) continue;","        if (it-\u003esecond.GetDepthInMainChain() \u003c 0) continue;","","        int nRounds = GetCappedOutpointCoinJoinRounds(outpoint);","        nTotal += nValue * nRounds / CCoinJoinClientOptions::GetRounds();","    }","","    return nTotal;","}","","CAmount CWallet::GetDenominatedBalance(bool unconfirmed) const","{","    if (!CCoinJoinClientOptions::IsEnabled()) return 0;","","    CAmount nTotal = 0;","","    LOCK2(cs_main, cs_wallet);","","    for (auto pcoin : GetSpendableTXs()) {","        nTotal += pcoin-\u003eGetDenominatedCredit(unconfirmed);","    }","","    return nTotal;","}","","CAmount CWallet::GetUnconfirmedBalance() const","{","    CAmount nTotal = 0;","    {","        LOCK2(cs_main, cs_wallet);","        for (auto pcoin : GetSpendableTXs()) {","            if (!pcoin-\u003eIsTrusted() \u0026\u0026 pcoin-\u003eGetDepthInMainChain() == 0 \u0026\u0026 !pcoin-\u003eIsLockedByInstantSend() \u0026\u0026 pcoin-\u003eInMempool())","                nTotal += pcoin-\u003eGetAvailableCredit();","        }","    }","    return nTotal;","}","","CAmount CWallet::GetImmatureBalance() const","{","    CAmount nTotal = 0;","    {","        LOCK2(cs_main, cs_wallet);","        for (auto pcoin : GetSpendableTXs()) {","            nTotal += pcoin-\u003eGetImmatureCredit();","        }","    }","    return nTotal;","}","","CAmount CWallet::GetUnconfirmedWatchOnlyBalance() const","{","    CAmount nTotal = 0;","    {","        LOCK2(cs_main, cs_wallet);","        for (auto pcoin : GetSpendableTXs()) {","            if (!pcoin-\u003eIsTrusted() \u0026\u0026 pcoin-\u003eGetDepthInMainChain() == 0 \u0026\u0026 !pcoin-\u003eIsLockedByInstantSend() \u0026\u0026 pcoin-\u003eInMempool())","                nTotal += pcoin-\u003eGetAvailableCredit(true, ISMINE_WATCH_ONLY);","        }","    }","    return nTotal;","}","","CAmount CWallet::GetImmatureWatchOnlyBalance() const","{","    CAmount nTotal = 0;","    {","        LOCK2(cs_main, cs_wallet);","        for (auto pcoin : GetSpendableTXs()) {","            nTotal += pcoin-\u003eGetImmatureWatchOnlyCredit();","        }","    }","    return nTotal;","}","","// Calculate total balance in a different way from GetBalance. The biggest","// difference is that GetBalance sums up all unspent TxOuts paying to the","// wallet, while this sums up both spent and unspent TxOuts paying to the","// wallet, and then subtracts the values of TxIns spending from the wallet. This","// also has fewer restrictions on which unconfirmed transactions are considered","// trusted.","CAmount CWallet::GetLegacyBalance(const isminefilter\u0026 filter, int minDepth, const std::string* account, const bool fAddLocked) const","{","    LOCK2(cs_main, cs_wallet);","","    CAmount balance = 0;","    for (const auto\u0026 entry : mapWallet) {","        const CWalletTx\u0026 wtx = entry.second;","        const int depth = wtx.GetDepthInMainChain();","        if (depth \u003c 0 || !CheckFinalTx(*wtx.tx) || wtx.GetBlocksToMaturity() \u003e 0) {","            continue;","        }","","        // Loop through tx outputs and add incoming payments. For outgoing txs,","        // treat change outputs specially, as part of the amount debited.","        CAmount debit = wtx.GetDebit(filter);","        const bool outgoing = debit \u003e 0;","        for (const CTxOut\u0026 out : wtx.tx-\u003evout) {","            if (outgoing \u0026\u0026 IsChange(out)) {","                debit -= out.nValue;","            } else if (IsMine(out) \u0026 filter \u0026\u0026 (depth \u003e= minDepth || (fAddLocked \u0026\u0026 wtx.IsLockedByInstantSend())) \u0026\u0026 (!account || *account == GetLabelName(out.scriptPubKey))) {","                balance += out.nValue;","            }","        }","","        // For outgoing txs, subtract amount debited.","        if (outgoing \u0026\u0026 (!account || *account == wtx.strFromAccount)) {","            balance -= debit;","        }","    }","","    if (account) {","        balance += WalletBatch(*database).GetAccountCreditDebit(*account);","    }","","    return balance;","}","","CAmount CWallet::GetAvailableBalance(const CCoinControl* coinControl) const","{","    LOCK2(cs_main, cs_wallet);","","    CAmount balance = 0;","    std::vector\u003cCOutput\u003e vCoins;","    AvailableCoins(vCoins, true, coinControl);","    for (const COutput\u0026 out : vCoins) {","        if (out.fSpendable \u0026\u0026 out.isFutureSpendable) {","            balance += out.tx-\u003etx-\u003evout[out.i].nValue;","        }","    }","    return balance;","}","","void CWallet::AvailableCoins(std::vector\u003cCOutput\u003e\u0026 vCoins, bool fOnlySafe, const CCoinControl* coinControl, const CAmount\u0026 nMinimumAmount, const CAmount\u0026 nMaximumAmount, const CAmount\u0026 nMinimumSumAmount, const uint64_t nMaximumCount, const int nMinDepth, const int nMaxDepth) const","{","    AssertLockHeld(cs_main);","    AssertLockHeld(cs_wallet);","","    vCoins.clear();","    CoinType nCoinType = coinControl ? coinControl-\u003enCoinType : CoinType::ALL_COINS;","    SmartnodeCollaterals collaterals = Params().GetConsensus().nCollaterals;","","    CAmount nTotal = 0;","","    for (auto pcoin : GetSpendableTXs()) {","        const uint256\u0026 wtxid = pcoin-\u003eGetHash();","","        if (!CheckFinalTx(*pcoin-\u003etx))","            continue;","","        if (pcoin-\u003eIsCoinBase() \u0026\u0026 pcoin-\u003eGetBlocksToMaturity() \u003e 0)","            continue;","","        int nDepth = pcoin-\u003eGetDepthInMainChain();","","        // We should not consider coins which aren't at least in our mempool","        // It's possible for these to be conflicted via ancestors which we may never be able to detect","        if (nDepth == 0 \u0026\u0026 !pcoin-\u003eInMempool())","            continue;","","        bool safeTx = pcoin-\u003eIsTrusted(); // This doesn't account for future Tx outputs - we check that below.","","        if (fOnlySafe \u0026\u0026 !safeTx) {","            continue;","        }","","        if (nDepth \u003c nMinDepth || nDepth \u003e nMaxDepth)","            continue;","","        for (unsigned int i = 0; i \u003c pcoin-\u003etx-\u003evout.size(); i++) {","            bool found = false;","            if (nCoinType == CoinType::ONLY_FULLY_MIXED) {","                if (!CCoinJoin::IsDenominatedAmount(pcoin-\u003etx-\u003evout[i].nValue)) continue;","                found = IsFullyMixed(COutPoint(wtxid, i));","            } else if (nCoinType == CoinType::ONLY_READY_TO_MIX) {","                if (!CCoinJoin::IsDenominatedAmount(pcoin-\u003etx-\u003evout[i].nValue)) continue;","                found = !IsFullyMixed(COutPoint(wtxid, i));","            } else if (nCoinType == CoinType::ONLY_NONDENOMINATED) {","                if (CCoinJoin::IsCollateralAmount(pcoin-\u003etx-\u003evout[i].nValue)) continue; // do not use collateral amounts","                found = !CCoinJoin::IsDenominatedAmount(pcoin-\u003etx-\u003evout[i].nValue);","            } else if (nCoinType == CoinType::ONLY_SMARTNODE_COLLATERAL) {","                found = collaterals.isValidCollateral(pcoin-\u003etx-\u003evout[i].nValue);","            } else if (nCoinType == CoinType::ONLY_COINJOIN_COLLATERAL) {","                found = CCoinJoin::IsCollateralAmount(pcoin-\u003etx-\u003evout[i].nValue);","            } else {","                found = true;","            }","            if (!found) continue;","","            if (pcoin-\u003etx-\u003evout[i].nValue \u003c nMinimumAmount || pcoin-\u003etx-\u003evout[i].nValue \u003e nMaximumAmount)","                continue;","","            if (coinControl \u0026\u0026 coinControl-\u003eHasSelected() \u0026\u0026 !coinControl-\u003efAllowOtherInputs \u0026\u0026 !coinControl-\u003eIsSelected(COutPoint(wtxid, i)))","                continue;","","            if (IsLockedCoin(wtxid, i) \u0026\u0026 nCoinType != CoinType::ONLY_SMARTNODE_COLLATERAL)","                continue;","","            if (IsSpent(wtxid, i))","                continue;","","            isminetype mine = IsMine(pcoin-\u003etx-\u003evout[i]);","","            if (mine == ISMINE_NO) {","                continue;","            }","","            bool fSpendableIn = ((mine \u0026 ISMINE_SPENDABLE) != ISMINE_NO) || (coinControl \u0026\u0026 coinControl-\u003efAllowWatchOnly \u0026\u0026 (mine \u0026 ISMINE_WATCH_SOLVABLE) != ISMINE_NO);","            bool fSolvableIn = (mine \u0026 (ISMINE_SPENDABLE | ISMINE_WATCH_SOLVABLE)) != ISMINE_NO;","            bool isCoinSpendable = pcoin-\u003eisFutureSpendable(i);","","            vCoins.push_back(COutput(pcoin, i, nDepth, fSpendableIn, fSolvableIn, safeTx \u0026\u0026 isCoinSpendable, pcoin-\u003etx-\u003enType == TRANSACTION_FUTURE, isCoinSpendable));","            // Checks the sum amount of all UTXO's.","            if (nMinimumSumAmount != MAX_MONEY) {","                nTotal += pcoin-\u003etx-\u003evout[i].nValue;","","                if (nTotal \u003e= nMinimumSumAmount) {","                    return;","                }","            }","","            // Checks the maximum number of UTXO's.","            if (nMaximumCount \u003e 0 \u0026\u0026 vCoins.size() \u003e= nMaximumCount) {","                return;","            }","        }","    }","}","","std::map\u003cCTxDestination, std::vector\u003cCOutput\u003e\u003e CWallet::ListCoins() const","{","    // TODO: Add AssertLockHeld(cs_wallet) here.","    //","    // Because the return value from this function contains pointers to","    // CWalletTx objects, callers to this function really should acquire the","    // cs_wallet lock before calling it. However, the current caller doesn't","    // acquire this lock yet. There was an attempt to add the missing lock in","    // https://github.com/bitcoin/bitcoin/pull/10340, but that change has been","    // postponed until after https://github.com/bitcoin/bitcoin/pull/10244 to","    // avoid adding some extra complexity to the Qt code.","","    std::map\u003cCTxDestination, std::vector\u003cCOutput\u003e\u003e result;","    std::vector\u003cCOutput\u003e availableCoins;","","    LOCK2(cs_main, cs_wallet);","    AvailableCoins(availableCoins);","","    for (auto\u0026 coin : availableCoins) {","        CTxDestination address;","        if (coin.fSpendable \u0026\u0026","            ExtractDestination(FindNonChangeParentOutput(*coin.tx-\u003etx, coin.i).scriptPubKey, address)) {","            result[address].emplace_back(std::move(coin));","        }","    }","","    std::vector\u003cCOutPoint\u003e lockedCoins;","    ListLockedCoins(lockedCoins);","    for (const auto\u0026 output : lockedCoins) {","        auto it = mapWallet.find(output.hash);","        if (it != mapWallet.end()) {","            int depth = it-\u003esecond.GetDepthInMainChain();","            if (depth \u003e= 0 \u0026\u0026 output.n \u003c it-\u003esecond.tx-\u003evout.size() \u0026\u0026","                IsMine(it-\u003esecond.tx-\u003evout[output.n]) == ISMINE_SPENDABLE) {","                CTxDestination address;","                if (ExtractDestination(FindNonChangeParentOutput(*it-\u003esecond.tx, output.n).scriptPubKey, address)) {","                    result[address].emplace_back(","                        \u0026it-\u003esecond, output.n, depth, true /* spendable */, true /* solvable */, false /* safe */,","                        it-\u003esecond.tx-\u003enType == TRANSACTION_FUTURE, it-\u003esecond.isFutureSpendable(output.n));","                }","            }","        }","    }","","    return result;","}","","const CTxOut\u0026 CWallet::FindNonChangeParentOutput(const CTransaction\u0026 tx, int output) const","{","    const CTransaction* ptx = \u0026tx;","    int n = output;","    while (IsChange(ptx-\u003evout[n]) \u0026\u0026 ptx-\u003evin.size() \u003e 0) {","        const COutPoint\u0026 prevout = ptx-\u003evin[0].prevout;","        auto it = mapWallet.find(prevout.hash);","        if (it == mapWallet.end() || it-\u003esecond.tx-\u003evout.size() \u003c= prevout.n ||","            !IsMine(it-\u003esecond.tx-\u003evout[prevout.n])) {","            break;","        }","        ptx = it-\u003esecond.tx.get();","        n = prevout.n;","    }","    return ptx-\u003evout[n];","}","","void CWallet::InitCoinJoinSalt()","{","    // Avoid fetching it multiple times","    assert(nCoinJoinSalt.IsNull());","","    WalletBatch batch(*database);","    if (!batch.ReadCoinJoinSalt(nCoinJoinSalt) \u0026\u0026 batch.ReadCoinJoinSalt(nCoinJoinSalt, true)) {","        batch.WriteCoinJoinSalt(nCoinJoinSalt);","    }","","    while (nCoinJoinSalt.IsNull()) {","        // We never generated/saved it","        nCoinJoinSalt = GetRandHash();","        batch.WriteCoinJoinSalt(nCoinJoinSalt);","    }","}","","struct CompareByPriority {","    bool operator()(const COutput\u0026 t1,","        const COutput\u0026 t2) const","    {","        return t1.Priority() \u003e t2.Priority();","    }","};","","bool CWallet::OutputEligibleForSpending(const COutput\u0026 output, const CoinEligibilityFilter\u0026 eligibility_filter) const","{","    if (!output.fSpendable || (output.isFuture \u0026\u0026 !output.isFutureSpendable))","        return false;","","    bool fLockedByIS = output.tx-\u003eIsLockedByInstantSend();","","    if ((output.nDepth \u003c (output.tx-\u003eIsFromMe(ISMINE_ALL) ? eligibility_filter.conf_mine : eligibility_filter.conf_theirs)) \u0026\u0026 !fLockedByIS)","        return false;","","    size_t ancestors, descendants;","    mempool.GetTransactionAncestry(output.tx-\u003eGetHash(), ancestors, descendants);","    if (ancestors \u003e eligibility_filter.max_ancestors || descendants \u003e eligibility_filter.max_descendants) {","        return false;","    }","","    return true;","}","","bool CWallet::SelectCoinsMinConf(const CAmount\u0026 nTargetValue, const CoinEligibilityFilter\u0026 eligibility_filter, std::vector\u003cCOutput\u003e vCoins, std::set\u003cCInputCoin\u003e\u0026 setCoinsRet, CAmount\u0026 nValueRet, const CoinSelectionParams\u0026 coin_selection_params, bool\u0026 bnb_used, CoinType nCoinType) const","{","    setCoinsRet.clear();","    nValueRet = 0;","","    std::vector\u003cCInputCoin\u003e utxo_pool;","    if (coin_selection_params.use_bnb) {","        // Get long term estimate","        FeeCalculation feeCalc;","        CCoinControl temp;","        temp.m_confirm_target = 1008;","        CFeeRate long_term_feerate = GetMinimumFeeRate(temp, ::mempool, ::feeEstimator, \u0026feeCalc);","","        // Calculate cost of change","        CAmount cost_of_change = GetDiscardRate(::feeEstimator).GetFee(coin_selection_params.change_spend_size) + coin_selection_params.effective_fee.GetFee(coin_selection_params.change_output_size);","","        // Filter by the min conf specs and add to utxo_pool and calculate effective value","        for (const COutput\u0026 output : vCoins) {","            if (!OutputEligibleForSpending(output, eligibility_filter))","                continue;","","            CInputCoin coin(output.tx-\u003etx, output.i);","            coin.effective_value = coin.txout.nValue - (output.nInputBytes \u003c 0 ? 0 : coin_selection_params.effective_fee.GetFee(output.nInputBytes));","            // Only include outputs that are positive effective value (i.e. not dust)","            if (coin.effective_value \u003e 0) {","                coin.fee = output.nInputBytes \u003c 0 ? 0 : coin_selection_params.effective_fee.GetFee(output.nInputBytes);","                coin.long_term_fee = output.nInputBytes \u003c 0 ? 0 : long_term_feerate.GetFee(output.nInputBytes);","                utxo_pool.push_back(coin);","            }","        }","        // Calculate the fees for things that aren't inputs","        CAmount not_input_fees = coin_selection_params.effective_fee.GetFee(coin_selection_params.tx_noinputs_size);","        bnb_used = true;","        return SelectCoinsBnB(utxo_pool, nTargetValue, cost_of_change, setCoinsRet, nValueRet, not_input_fees);","    } else {","        // Filter by the min conf specs and add to utxo_pool","        for (const COutput\u0026 output : vCoins) {","            if (!OutputEligibleForSpending(output, eligibility_filter))","                continue;","","            CInputCoin coin = CInputCoin(output.tx-\u003etx, output.i);","            utxo_pool.push_back(coin);","        }","        bnb_used = false;","        return KnapsackSolver(nTargetValue, utxo_pool, setCoinsRet, nValueRet, nCoinType == CoinType::ONLY_FULLY_MIXED, maxTxFee);","    }","}","","bool CWallet::SelectCoins(const std::vector\u003cCOutput\u003e\u0026 vAvailableCoins, const CAmount\u0026 nTargetValue, std::set\u003cCInputCoin\u003e\u0026 setCoinsRet, CAmount\u0026 nValueRet, const CCoinControl\u0026 coin_control, const CoinSelectionParams\u0026 coin_selection_params, bool\u0026 bnb_used) const","{","    // Note: this function should never be used for \"always free\" tx types like dstx","","    std::vector\u003cCOutput\u003e vCoins(vAvailableCoins);","    CoinType nCoinType = coin_control.nCoinType;","","    // coin control -\u003e return all selected outputs (we want all selected to go into the transaction for sure)","    if (coin_control.HasSelected() \u0026\u0026 !coin_control.fAllowOtherInputs) {","        // We didn't use BnB here, so set it to false.","        bnb_used = false;","","        for (const COutput\u0026 out : vCoins) {","            if (!out.fSpendable || (out.isFuture \u0026\u0026 !out.isFutureSpendable))","                continue;","","            nValueRet += out.tx-\u003etx-\u003evout[out.i].nValue;","            setCoinsRet.insert(CInputCoin(out.tx-\u003etx, out.i));","","            if (!coin_control.fRequireAllInputs \u0026\u0026 nValueRet \u003e= nTargetValue) {","                // stop when we added at least one input and enough inputs to have at least nTargetValue funds","                return true;","            }","        }","","        return (nValueRet \u003e= nTargetValue);","    }","","    // calculate value from preset inputs and store them","    std::set\u003cCInputCoin\u003e setPresetCoins;","    CAmount nValueFromPresetInputs = 0;","","    std::vector\u003cCOutPoint\u003e vPresetInputs;","    coin_control.ListSelected(vPresetInputs);","    for (const COutPoint\u0026 outpoint : vPresetInputs) {","        // For now, don't use BnB if preset inputs are selected. TODO: Enable this later","        bnb_used = false;","","        std::map\u003cuint256, CWalletTx\u003e::const_iterator it = mapWallet.find(outpoint.hash);","        if (it != mapWallet.end()) {","            const CWalletTx* pcoin = \u0026it-\u003esecond;","            // Clearly invalid input, fail","            if (pcoin-\u003etx-\u003evout.size() \u003c= outpoint.n)","                return false;","            if (nCoinType == CoinType::ONLY_FULLY_MIXED) {","                // Make sure to include mixed preset inputs only,","                // even if some non-mixed inputs were manually selected via CoinControl","                if (!IsFullyMixed(outpoint)) continue;","            } else if (!pcoin-\u003eisFutureSpendable(outpoint.n)) {","                continue;","            }","            // Just to calculate the marginal byte size","            nValueFromPresetInputs += pcoin-\u003etx-\u003evout[outpoint.n].nValue;","            setPresetCoins.insert(CInputCoin(pcoin-\u003etx, outpoint.n));","        } else","            return false; // TODO: Allow non-wallet inputs","    }","","    // remove preset inputs from vCoins","    for (std::vector\u003cCOutput\u003e::iterator it = vCoins.begin(); it != vCoins.end() \u0026\u0026 coin_control.HasSelected();) {","        if (setPresetCoins.count(CInputCoin(it-\u003etx-\u003etx, it-\u003ei)))","            it = vCoins.erase(it);","        else","            ++it;","    }","","    size_t max_ancestors = (size_t)std::max\u003cint64_t\u003e(1, gArgs.GetArg(\"-limitancestorcount\", DEFAULT_ANCESTOR_LIMIT));","    size_t max_descendants = (size_t)std::max\u003cint64_t\u003e(1, gArgs.GetArg(\"-limitdescendantcount\", DEFAULT_DESCENDANT_LIMIT));","    bool fRejectLongChains = gArgs.GetBoolArg(\"-walletrejectlongchains\", DEFAULT_WALLET_REJECT_LONG_CHAINS);","","    bool res = nTargetValue \u003c= nValueFromPresetInputs ||","               SelectCoinsMinConf(nTargetValue - nValueFromPresetInputs, CoinEligibilityFilter(1, 6, 0), vCoins, setCoinsRet, nValueRet, coin_selection_params, bnb_used, nCoinType) ||","               SelectCoinsMinConf(nTargetValue - nValueFromPresetInputs, CoinEligibilityFilter(1, 1, 0), vCoins, setCoinsRet, nValueRet, coin_selection_params, bnb_used, nCoinType) ||","               (bSpendZeroConfChange \u0026\u0026 SelectCoinsMinConf(nTargetValue - nValueFromPresetInputs, CoinEligibilityFilter(0, 1, 2), vCoins, setCoinsRet, nValueRet, coin_selection_params, bnb_used, nCoinType)) ||","               (bSpendZeroConfChange \u0026\u0026 SelectCoinsMinConf(nTargetValue - nValueFromPresetInputs, CoinEligibilityFilter(0, 1, std::min((size_t)4, max_ancestors / 3), std::min((size_t)4, max_descendants / 3)), vCoins, setCoinsRet, nValueRet, coin_selection_params, bnb_used, nCoinType)) ||","               (bSpendZeroConfChange \u0026\u0026 SelectCoinsMinConf(nTargetValue - nValueFromPresetInputs, CoinEligibilityFilter(0, 1, max_ancestors / 2, max_descendants / 2), vCoins, setCoinsRet, nValueRet, coin_selection_params, bnb_used, nCoinType)) ||","               (bSpendZeroConfChange \u0026\u0026 SelectCoinsMinConf(nTargetValue - nValueFromPresetInputs, CoinEligibilityFilter(0, 1, max_ancestors - 1, max_descendants - 1), vCoins, setCoinsRet, nValueRet, coin_selection_params, bnb_used, nCoinType)) ||","               (bSpendZeroConfChange \u0026\u0026 !fRejectLongChains \u0026\u0026 SelectCoinsMinConf(nTargetValue - nValueFromPresetInputs, CoinEligibilityFilter(0, 1, std::numeric_limits\u003cuint64_t\u003e::max()), vCoins, setCoinsRet, nValueRet, coin_selection_params, bnb_used, nCoinType));","","    // because SelectCoinsMinConf clears the setCoinsRet, we now add the possible inputs to the coinset","    setCoinsRet.insert(setPresetCoins.begin(), setPresetCoins.end());","","    // add preset inputs to the total value selected","    nValueRet += nValueFromPresetInputs;","","    return res;","}","","bool CWallet::FundTransaction(CMutableTransaction\u0026 tx, CAmount\u0026 nFeeRet, int\u0026 nChangePosInOut, std::string\u0026 strFailReason, bool lockUnspents, const std::set\u003cint\u003e\u0026 setSubtractFeeFromOutputs, CCoinControl coinControl)","{","    std::vector\u003cCRecipient\u003e vecSend;","","    // Turn the txout set into a CRecipient vector.","    for (size_t idx = 0; idx \u003c tx.vout.size(); idx++) {","        const CTxOut\u0026 txOut = tx.vout[idx];","        CRecipient recipient = {txOut.scriptPubKey, txOut.nValue, setSubtractFeeFromOutputs.count(idx) == 1};","        vecSend.push_back(recipient);","    }","","    coinControl.fAllowOtherInputs = true;","","    for (const CTxIn\u0026 txin : tx.vin) {","        coinControl.Select(txin.prevout);","    }","","    // Acquire the locks to prevent races to the new locked unspents between the","    // CreateTransaction call and LockCoin calls (when lockUnspents is true).","    LOCK2(cs_main, mempool.cs);","    LOCK(cs_wallet);","","    int nExtraPayloadSize = 0;","    if (tx.nVersion == 3 \u0026\u0026 tx.nType != TRANSACTION_NORMAL)","        nExtraPayloadSize = (int)tx.vExtraPayload.size();","","    CReserveKey reservekey(this);","    CTransactionRef tx_new;","    if (!CreateTransaction(vecSend, tx_new, reservekey, nFeeRet, nChangePosInOut, strFailReason, coinControl, false, nExtraPayloadSize)) {","        return false;","    }","","    if (nChangePosInOut != -1) {","        tx.vout.insert(tx.vout.begin() + nChangePosInOut, tx_new-\u003evout[nChangePosInOut]);","        // We don't have the normal Create/Commit cycle, and don't want to risk","        // reusing change, so just remove the key from the keypool here.","        reservekey.KeepKey();","    }","","    // Copy output sizes from new transaction; they may have had the fee","    // subtracted from them.","    for (unsigned int idx = 0; idx \u003c tx.vout.size(); idx++) {","        tx.vout[idx] = tx_new-\u003evout[idx];","    }","","    // Add new txins while keeping original txin scriptSig/order.","    for (const CTxIn\u0026 txin : tx_new-\u003evin) {","        if (!coinControl.IsSelected(txin.prevout)) {","            tx.vin.push_back(txin);","","            if (lockUnspents) {","                LockCoin(txin.prevout);","            }","        }","    }","","    return true;","}","","bool CWallet::SelectTxDSInsByDenomination(int nDenom, CAmount nValueMax, std::vector\u003cCTxDSIn\u003e\u0026 vecTxDSInRet)","{","    LOCK2(cs_main, cs_wallet);","","    CAmount nValueTotal{0};","","    std::set\u003cuint256\u003e setRecentTxIds;","    std::vector\u003cCOutput\u003e vCoins;","","    vecTxDSInRet.clear();","","    if (!CCoinJoin::IsValidDenomination(nDenom)) {","        return false;","    }","    CAmount nDenomAmount = CCoinJoin::DenominationToAmount(nDenom);","","    CCoinControl coin_control;","    coin_control.nCoinType = CoinType::ONLY_READY_TO_MIX;","    AvailableCoins(vCoins, true, \u0026coin_control);","    LogPrint(BCLog::COINJOIN, \"CWallet::%s -- vCoins.size(): %d\\n\", __func__, vCoins.size());","","    Shuffle(vCoins.rbegin(), vCoins.rend(), FastRandomContext());","","    for (const auto\u0026 out : vCoins) {","        uint256 txHash = out.tx-\u003eGetHash();","        CAmount nValue = out.tx-\u003etx-\u003evout[out.i].nValue;","        if (setRecentTxIds.find(txHash) != setRecentTxIds.end()) continue; // no duplicate txids","        if (nValueTotal + nValue \u003e nValueMax) continue;","        if (nValue != nDenomAmount) continue;","","        CTxIn txin = CTxIn(txHash, out.i);","        CScript scriptPubKey = out.tx-\u003etx-\u003evout[out.i].scriptPubKey;","        int nRounds = GetRealOutpointCoinJoinRounds(txin.prevout);","","        nValueTotal += nValue;","        vecTxDSInRet.emplace_back(CTxDSIn(txin, scriptPubKey, nRounds));","        setRecentTxIds.emplace(txHash);","        LogPrint(BCLog::COINJOIN, \"CWallet::%s -- hash: %s, nValue: %d.%08d\\n\",","            __func__, txHash.ToString(), nValue / COIN, nValue % COIN);","    }","","    LogPrint(BCLog::COINJOIN, \"CWallet::%s -- setRecentTxIds.size(): %d\\n\", __func__, setRecentTxIds.size());","","    return nValueTotal \u003e 0;","}","","bool CWallet::SelectCoinsGroupedByAddresses(std::vector\u003cCompactTallyItem\u003e\u0026 vecTallyRet, bool fSkipDenominated, bool fAnonymizable, bool fSkipUnconfirmed, int nMaxOupointsPerAddress) const","{","    LOCK2(cs_main, cs_wallet);","","    isminefilter filter = ISMINE_SPENDABLE;","","    // Try using the cache for already confirmed mixable inputs.","    // This should only be used if nMaxOupointsPerAddress was NOT specified.","    if (nMaxOupointsPerAddress == -1 \u0026\u0026 fAnonymizable \u0026\u0026 fSkipUnconfirmed) {","        if (fSkipDenominated \u0026\u0026 fAnonymizableTallyCachedNonDenom) {","            vecTallyRet = vecAnonymizableTallyCachedNonDenom;","            LogPrint(BCLog::SELECTCOINS, \"SelectCoinsGroupedByAddresses - using cache for non-denom inputs %d\\n\", vecTallyRet.size());","            return vecTallyRet.size() \u003e 0;","        }","        if (!fSkipDenominated \u0026\u0026 fAnonymizableTallyCached) {","            vecTallyRet = vecAnonymizableTallyCached;","            LogPrint(BCLog::SELECTCOINS, \"SelectCoinsGroupedByAddresses - using cache for all inputs %d\\n\", vecTallyRet.size());","            return vecTallyRet.size() \u003e 0;","        }","    }","","    CAmount nSmallestDenom = CCoinJoin::GetSmallestDenomination();","    SmartnodeCollaterals collaterals = Params().GetConsensus().nCollaterals;","","    // Tally","    std::map\u003cCTxDestination, CompactTallyItem\u003e mapTally;","    std::set\u003cuint256\u003e setWalletTxesCounted;","    for (const auto\u0026 outpoint : setWalletUTXO) {","        if (!setWalletTxesCounted.emplace(outpoint.hash).second) continue;","","        std::map\u003cuint256, CWalletTx\u003e::const_iterator it = mapWallet.find(outpoint.hash);","        if (it == mapWallet.end()) continue;","","        const CWalletTx\u0026 wtx = (*it).second;","","        if (wtx.IsCoinBase() \u0026\u0026 wtx.GetBlocksToMaturity() \u003e 0) continue;","        if (fSkipUnconfirmed \u0026\u0026 !wtx.IsTrusted()) continue;","        if (wtx.GetDepthInMainChain() \u003c 0) continue;","","        for (unsigned int i = 0; i \u003c wtx.tx-\u003evout.size(); i++) {","            CTxDestination txdest;","            if (!ExtractDestination(wtx.tx-\u003evout[i].scriptPubKey, txdest)) continue;","","            isminefilter mine = ::IsMine(*this, txdest);","            if (!(mine \u0026 filter)) continue;","","            auto itTallyItem = mapTally.find(txdest);","            if (nMaxOupointsPerAddress != -1 \u0026\u0026 itTallyItem != mapTally.end() \u0026\u0026 itTallyItem-\u003esecond.vecInputCoins.size() \u003e= nMaxOupointsPerAddress) continue;","","            if (IsSpent(outpoint.hash, i) || IsLockedCoin(outpoint.hash, i)) continue;","","            if (fSkipDenominated \u0026\u0026 CCoinJoin::IsDenominatedAmount(wtx.tx-\u003evout[i].nValue)) continue;","","            if (fAnonymizable) {","                // ignore collaterals","                if (CCoinJoin::IsCollateralAmount(wtx.tx-\u003evout[i].nValue)) continue;","                if (fSmartnodeMode \u0026\u0026 collaterals.isValidCollateral(wtx.tx-\u003evout[i].nValue)) continue;","                // ignore outputs that are 10 times smaller then the smallest denomination","                // otherwise they will just lead to higher fee / lower priority","                if (wtx.tx-\u003evout[i].nValue \u003c= nSmallestDenom / 10) continue;","                // ignore mixed","                if (IsFullyMixed(COutPoint(outpoint.hash, i))) continue;","            }","","            if (itTallyItem == mapTally.end()) {","                itTallyItem = mapTally.emplace(txdest, CompactTallyItem()).first;","                itTallyItem-\u003esecond.txdest = txdest;","            }","            itTallyItem-\u003esecond.nAmount += wtx.tx-\u003evout[i].nValue;","            itTallyItem-\u003esecond.vecInputCoins.emplace_back(wtx.tx, i);","        }","    }","","    // construct resulting vector","    // NOTE: vecTallyRet is \"sorted\" by txdest (i.e. address), just like mapTally","    vecTallyRet.clear();","    for (const auto\u0026 item : mapTally) {","        if (fAnonymizable \u0026\u0026 item.second.nAmount \u003c nSmallestDenom) continue;","        vecTallyRet.push_back(item.second);","    }","","    // Cache already confirmed mixable entries for later use.","    // This should only be used if nMaxOupointsPerAddress was NOT specified.","    if (nMaxOupointsPerAddress == -1 \u0026\u0026 fAnonymizable \u0026\u0026 fSkipUnconfirmed) {","        if (fSkipDenominated) {","            vecAnonymizableTallyCachedNonDenom = vecTallyRet;","            fAnonymizableTallyCachedNonDenom = true;","        } else {","            vecAnonymizableTallyCached = vecTallyRet;","            fAnonymizableTallyCached = true;","        }","    }","","    // debug","    if (LogAcceptCategory(BCLog::SELECTCOINS)) {","        std::string strMessage = \"SelectCoinsGroupedByAddresses - vecTallyRet:\\n\";","        for (const auto\u0026 item : vecTallyRet)","            strMessage += strprintf(\"  %s %f\\n\", EncodeDestination(item.txdest).c_str(), float(item.nAmount) / COIN);","        LogPrint(BCLog::SELECTCOINS, \"%s\", strMessage); /* Continued */","    }","","    return vecTallyRet.size() \u003e 0;","}","","bool CWallet::SelectDenominatedAmounts(CAmount nValueMax, std::set\u003cCAmount\u003e\u0026 setAmountsRet) const","{","    LOCK2(cs_main, cs_wallet);","","    CAmount nValueTotal{0};","    setAmountsRet.clear();","","    std::vector\u003cCOutput\u003e vCoins;","    CCoinControl coin_control;","    coin_control.nCoinType = CoinType::ONLY_READY_TO_MIX;","    AvailableCoins(vCoins, true, \u0026coin_control);","    // larger denoms first","    std::sort(vCoins.rbegin(), vCoins.rend(), CompareByPriority());","","    for (const auto\u0026 out : vCoins) {","        CAmount nValue = out.tx-\u003etx-\u003evout[out.i].nValue;","        if (nValueTotal + nValue \u003c= nValueMax) {","            nValueTotal += nValue;","            setAmountsRet.emplace(nValue);","        }","    }","","    return nValueTotal \u003e= CCoinJoin::GetSmallestDenomination();","}","","int CWallet::CountInputsWithAmount(CAmount nInputAmount) const","{","    CAmount nTotal = 0;","","    LOCK2(cs_main, cs_wallet);","","    for (const auto\u0026 outpoint : setWalletUTXO) {","        const auto it = mapWallet.find(outpoint.hash);","        if (it == mapWallet.end()) continue;","        if (it-\u003esecond.tx-\u003evout[outpoint.n].nValue != nInputAmount) continue;","        if (it-\u003esecond.GetDepthInMainChain() \u003c 0) continue;","","        nTotal++;","    }","","    return nTotal;","}","","bool CWallet::HasCollateralInputs(bool fOnlyConfirmed) const","{","    LOCK2(cs_main, cs_wallet);","","    std::vector\u003cCOutput\u003e vCoins;","    CCoinControl coin_control;","    coin_control.nCoinType = CoinType::ONLY_COINJOIN_COLLATERAL;","    AvailableCoins(vCoins, fOnlyConfirmed, \u0026coin_control);","","    return !vCoins.empty();","}","","bool CWallet::GetBudgetSystemCollateralTX(CTransactionRef\u0026 tx, uint256 hash, CAmount amount, const COutPoint\u0026 outpoint)","{","    // make our change address","    CReserveKey reservekey(this);","","    CScript scriptChange;","    scriptChange \u003c\u003c OP_RETURN \u003c\u003c ToByteVector(hash);","","    CAmount nFeeRet = 0;","    int nChangePosRet = -1;","    std::string strFail = \"\";","    std::vector\u003cCRecipient\u003e vecSend;","    vecSend.push_back((CRecipient){scriptChange, amount, false});","","    CCoinControl coinControl;","    if (!outpoint.IsNull()) {","        coinControl.Select(outpoint);","    }","    bool success = CreateTransaction(vecSend, tx, reservekey, nFeeRet, nChangePosRet, strFail, coinControl);","    if (!success) {","        LogPrintf(\"CWallet::GetBudgetSystemCollateralTX -- Error: %s\\n\", strFail);","        return false;","    }","","    return true;","}","","bool CWallet::CreateTransaction(const std::vector\u003cCRecipient\u003e\u0026 vecSend, CTransactionRef\u0026 tx, CReserveKey\u0026 reservekey, CAmount\u0026 nFeeRet, int\u0026 nChangePosInOut, std::string\u0026 strFailReason, const CCoinControl\u0026 coin_control, bool sign, int nExtraPayloadSize, FuturePartialPayload* fpp)","{","    CAmount nValue = 0;","    int nChangePosRequest = nChangePosInOut;","    unsigned int nSubtractFeeFromAmount = 0;","    for (const auto\u0026 recipient : vecSend) {","        if (nValue \u003c 0 || recipient.nAmount \u003c 0) {","            strFailReason = _(\"Transaction amounts must not be negative\");","            return false;","        }","        nValue += recipient.nAmount;","","        if (recipient.fSubtractFeeFromAmount)","            nSubtractFeeFromAmount++;","    }","    if (vecSend.empty()) {","        strFailReason = _(\"Transaction must have at least one recipient\");","        return false;","    }","","    CMutableTransaction txNew;","    CFutureTx ftx;","    CAmount specialFees = 0;","    if (fpp) {","        txNew.nVersion = 3;","        txNew.nType = TRANSACTION_FUTURE;","        ftx.nVersion = CFutureTx::CURRENT_VERSION;","        ftx.lockTime = fpp-\u003elocktime;","        ftx.maturity = fpp-\u003ematurity;","        ftx.lockOutputIndex = 0;","        ftx.updatableByDestination = false;","        ftx.fee = getFutureFees();","        specialFees = getFutureFeesCoin();","    }","    // Discourage fee sniping.","    //","    // For a large miner the value of the transactions in the best block and","    // the mempool can exceed the cost of deliberately attempting to mine two","    // blocks to orphan the current best block. By setting nLockTime such that","    // only the next block can include the transaction, we discourage this","    // practice as the height restricted and limited blocksize gives miners","    // considering fee sniping fewer options for pulling off this attack.","    //","    // A simple way to think about this is from the wallet's point of view we","    // always want the blockchain to move forward. By setting nLockTime this","    // way we're basically making the statement that we only want this","    // transaction to appear in the next block; we don't want to potentially","    // encourage reorgs by allowing transactions to appear at lower heights","    // than the next block in forks of the best chain.","    //","    // Of course, the subsidy is high enough, and transaction volume low","    // enough, that fee sniping isn't a problem yet, but by implementing a fix","    // now we ensure code won't be written that makes assumptions about","    // nLockTime that preclude a fix later.","","    txNew.nLockTime = chainActive.Height();","","    // Secondly occasionally randomly pick a nLockTime even further back, so","    // that transactions that are delayed after signing for whatever reason,","    // e.g. high-latency mix networks and some CoinJoin implementations, have","    // better privacy.","    if (GetRandInt(10) == 0)","        txNew.nLockTime = std::max(0, (int)txNew.nLockTime - GetRandInt(100));","","    assert(txNew.nLockTime \u003c= (unsigned int)chainActive.Height());","    assert(txNew.nLockTime \u003c LOCKTIME_THRESHOLD);","    FeeCalculation feeCalc;","    CFeeRate discard_rate = coin_control.m_discard_feerate ? *coin_control.m_discard_feerate : GetDiscardRate(::feeEstimator);","    unsigned int nBytes;","    {","        std::vector\u003cCInputCoin\u003e vecCoins;","        LOCK2(cs_main, mempool.cs);","        LOCK(cs_wallet);","        {","            CAmount nAmountAvailable{0};","            std::vector\u003cCOutput\u003e vAvailableCoins;","            AvailableCoins(vAvailableCoins, true, \u0026coin_control);","            CoinSelectionParams coin_selection_params; // Parameters for coin selection, init with dummy","            coin_selection_params.use_bnb = false;     // never use BnB","","            for (auto out : vAvailableCoins) {","                if (out.fSpendable \u0026\u0026 out.isFutureSpendable) {","                    nAmountAvailable += out.tx-\u003etx-\u003evout[out.i].nValue;","                }","            }","            // Create change script that will be used if we need change","            // TODO: pass in scriptChange instead of reservekey so","            // change transaction isn't always pay-to-bitcoin-address","            CScript scriptChange;","","            // coin control: send change to custom address","            if (!boost::get\u003cCNoDestination\u003e(\u0026coin_control.destChange)) {","                scriptChange = GetScriptForDestination(coin_control.destChange);","            } else { // no coin control: send change to newly generated address","                // Note: We use a new key here to keep it from being obvious which side is the change.","                //  The drawback is that by not reusing a previous key, the change may be lost if a","                //  backup is restored, if the backup doesn't have the new private key for the change.","                //  If we reused the old key, it would be possible to add code to look for and","                //  rediscover unknown transactions that were written with keys of ours to recover","                //  post-backup change.","","                // Reserve a new key pair from key pool","                CPubKey vchPubKey;","                bool ret;","                ret = reservekey.GetReservedKey(vchPubKey, true);","                if (!ret) {","                    strFailReason = _(\"Keypool ran out, please call keypoolrefill first\");","                    return false;","                }","","                scriptChange = GetScriptForDestination(vchPubKey.GetID());","            }","","            nFeeRet = 0;","            bool pick_new_inputs = true;","            CAmount nValueIn = 0;","            CAmount nAmountToSelectAdditional{0};","            // Start with nAmountToSelectAdditional=0 and loop until there is enough to cover the request + fees, try it 500 times.","            int nMaxTries = 500;","            while (--nMaxTries \u003e 0) {","                nChangePosInOut = std::numeric_limits\u003cint\u003e::max();","                txNew.vin.clear();","                txNew.vout.clear();","                bool fFirst = true;","","                CAmount nValueToSelect = nValue;","                if (nSubtractFeeFromAmount == 0) {","                    assert(nAmountToSelectAdditional \u003e= 0);","                    nValueToSelect += nAmountToSelectAdditional;","                }","                // vouts to the payees","                for (const auto\u0026 recipient : vecSend) {","                    CTxOut txout(recipient.nAmount, recipient.scriptPubKey);","","                    if (recipient.fSubtractFeeFromAmount) {","                        assert(nSubtractFeeFromAmount != 0);","                        txout.nValue -= nFeeRet / nSubtractFeeFromAmount; // Subtract fee equally from each selected recipient","","                        if (fFirst) // first receiver pays the remainder not divisible by output count","                        {","                            fFirst = false;","                            txout.nValue -= nFeeRet % nSubtractFeeFromAmount;","                        }","                    }","                    if (IsDust(txout, ::dustRelayFee)) {","                        if (recipient.fSubtractFeeFromAmount \u0026\u0026 nFeeRet \u003e 0) {","                            if (txout.nValue \u003c 0)","                                strFailReason = _(\"The transaction amount is too small to pay the fee\");","                            else","                                strFailReason = _(\"The transaction amount is too small to send after the fee has been deducted\");","                        } else","                            strFailReason = _(\"Transaction amount too small\");","                        return false;","                    }","                    if (fpp \u0026\u0026 recipient.scriptPubKey == fpp-\u003efutureRecScript) {","                        ftx.lockOutputIndex = txNew.vout.size();","                        CDataStream ds(SER_NETWORK, PROTOCOL_VERSION);","                        ds \u003c\u003c ftx;","                        txNew.vExtraPayload.assign(ds.begin(), ds.end());","                        nExtraPayloadSize = txNew.vExtraPayload.size();","                    }","                    txNew.vout.push_back(txout);","                }","","                // Choose coins to use","                bool bnb_used;","                nValueToSelect += specialFees;","                if (pick_new_inputs) {","                    nValueIn = 0;","                    std::set\u003cCInputCoin\u003e setCoinsTmp;","                    if (!SelectCoins(vAvailableCoins, nValueToSelect, setCoinsTmp, nValueIn, coin_control, coin_selection_params, bnb_used)) {","                        if (coin_control.nCoinType == CoinType::ONLY_NONDENOMINATED) {","                            strFailReason = _(\"Unable to locate enough non-denominated funds for this transaction.\");","                        } else if (coin_control.nCoinType == CoinType::ONLY_FULLY_MIXED) {","                            strFailReason = _(\"Unable to locate enough mixed funds for this transaction.\");","                            strFailReason += \" \" + strprintf(_(\"%s uses exact denominated amounts to send funds, you might simply need to mix some more coins.\"), \"CoinJoin\");","                        } else if (nValueIn \u003c nValueToSelect) {","                            strFailReason = _(\"Insufficient funds.\");","                        }","                        return false;","                    }","                    vecCoins.assign(setCoinsTmp.begin(), setCoinsTmp.end());","                }","","                // Fill vin","                //","                // Note how the sequence number is set to max()-1 so that the","                // nLockTime set above actually works.","                txNew.vin.clear();","                for (const auto\u0026 coin : vecCoins) {","                    txNew.vin.emplace_back(coin.outpoint, CScript(), CTxIn::SEQUENCE_FINAL - 1);","                }","","                auto calculateFee = [\u0026](CAmount\u0026 nFee) -\u003e bool {","                    // Fill in dummy signatures for fee calculation.","                    int nIn = 0;","                    for (const auto\u0026 coin : vecCoins) {","                        const CScript\u0026 scriptPubKey = coin.txout.scriptPubKey;","                        SignatureData sigdata;","                        if (!ProduceSignature(DummySignatureCreator(this), scriptPubKey, sigdata)) {","                            strFailReason = _(\"Signing transaction failed\");","                            return false;","                        } else {","                            UpdateTransaction(txNew, nIn, sigdata);","                        }","","                        nIn++;","                    }","","                    nBytes = ::GetSerializeSize(txNew, SER_NETWORK, PROTOCOL_VERSION);","","                    if (nExtraPayloadSize != 0) {","                        // account for extra payload in fee calculation","                        nBytes += GetSizeOfCompactSize(nExtraPayloadSize) + nExtraPayloadSize;","                    }","","                    if (nBytes \u003e MAX_STANDARD_TX_SIZE) {","                        // Do not create oversized transactions (bad-txns-oversize).","                        strFailReason = _(\"Transaction too large\");","                        return false;","                    }","","                    // Remove scriptSigs to eliminate the fee calculation dummy signatures","                    for (auto\u0026 txin : txNew.vin) {","                        txin.scriptSig = CScript();","                    }","","                    nFee = GetMinimumFee(nBytes, coin_control, ::mempool, ::feeEstimator, \u0026feeCalc);","","                    // If we made it here and we aren't even able to meet the relay fee on the next pass, give up","                    // because we must be at the maximum allowed fee.","                    if (nFee \u003c ::minRelayTxFee.GetFee(nBytes)) {","                        strFailReason = _(\"Transaction too large for fee policy\");","                        return false;","                    }","","                    return true;","                };","","                if (!calculateFee(nFeeRet)) {","                    return false;","                }","","                CTxOut newTxOut;","                const CAmount nAmountLeft = nValueIn - nValue - specialFees;","                auto getChange = [\u0026]() {","                    if (nSubtractFeeFromAmount \u003e 0) {","                        return nAmountLeft;","                    } else {","                        return nAmountLeft - nFeeRet;","                    }","                };","","                if (getChange() \u003e 0) {","                    // over pay for denominated transactions","                    if (coin_control.nCoinType == CoinType::ONLY_FULLY_MIXED) {","                        nChangePosInOut = -1;","                        nFeeRet += getChange();","                    } else {","                        // Fill a vout to ourself with zero amount until we know the correct change","                        newTxOut = CTxOut(0, scriptChange);","                        txNew.vout.push_back(newTxOut);","","                        // Calculate the fee with the change output added, store the","                        // current fee to reset it in case the remainder is dust and we","                        // don't need to fee with change output added.","                        CAmount nFeePrev = nFeeRet;","                        if (!calculateFee(nFeeRet)) {","                            return false;","                        }","","                        // Remove the change output again, it will be added later again if required","                        txNew.vout.pop_back();","","                        // Set the change amount properly","                        newTxOut.nValue = getChange();","","                        // Never create dust outputs; if we would, just","                        // add the dust to the fee.","                        if (IsDust(newTxOut, discard_rate)) {","                            nFeeRet = nFeePrev;","                            nChangePosInOut = -1;","                            nFeeRet += getChange();","                        } else {","                            if (nChangePosRequest == -1) {","                                // Insert change txn at random position:","                                nChangePosInOut = GetRandInt(txNew.vout.size() + 1);","                            } else if ((unsigned int)nChangePosRequest \u003e txNew.vout.size()) {","                                strFailReason = _(\"Change index out of range\");","                                return false;","                            } else {","                                nChangePosInOut = nChangePosRequest;","                            }","","                            std::vector\u003cCTxOut\u003e::iterator position = txNew.vout.begin() + nChangePosInOut;","                            txNew.vout.insert(position, newTxOut);","                        }","                    }","                } else {","                    nChangePosInOut = -1;","                }","","                if (getChange() \u003c 0) {","                    if (nSubtractFeeFromAmount == 0) {","                        // nValueIn is not enough to cover nValue + nFeeRet. Add the missing amount abs(nChange) to the fee","                        // and try to select other inputs in the next loop step to cover the full required amount.","                        nAmountToSelectAdditional += abs(getChange());","                    } else if (nAmountToSelectAdditional \u003e 0 \u0026\u0026 nValueToSelect == nAmountAvailable) {","                        // We tried selecting more and failed. We have no extra funds left,","                        // so just add 1 ruff to fail in the next loop step with a correct reason","                        nAmountToSelectAdditional += 1;","                    }","                    continue;","                }","","                // If no specific change position was requested, apply BIP69","                if (nChangePosRequest == -1) {","                    std::sort(vecCoins.begin(), vecCoins.end(), CompareInputCoinBIP69());","                    std::sort(txNew.vin.begin(), txNew.vin.end(), CompareInputBIP69());","                    std::sort(txNew.vout.begin(), txNew.vout.end(), CompareOutputBIP69());","","                    // If there was a change output added before, we must update its position now","                    if (nChangePosInOut != -1) {","                        int i = 0;","                        for (const CTxOut\u0026 txOut : txNew.vout) {","                            if (txOut == newTxOut) {","                                nChangePosInOut = i;","                                break;","                            }","                            i++;","                        }","                    }","                }","","                if (nAmountLeft == nFeeRet) {","                    // We either added the change amount to nFeeRet because the change amount was considered","                    // to be dust or the input exactly matches output + fee.","                    // Either way, we used the total amount of the inputs we picked and the transaction is ready.","                    break;","                }","","                // We have a change output and we don't need to subtruct fees, which means the transaction is ready.","                if (nChangePosInOut != -1 \u0026\u0026 nSubtractFeeFromAmount == 0) {","                    break;","                }","","                // If subtracting fee from recipients, we now know what fee we","                // need to subtract, we have no reason to reselect inputs","                if (nSubtractFeeFromAmount \u003e 0) {","                    // If we are in here the second time it means we already subtracted the fee from the","                    // output(s) and there weren't any issues while doing that. So the transaction is ready now","                    // and we can break.","                    if (!pick_new_inputs) {","                        break;","                    }","                    pick_new_inputs = false;","                }","            }","","            if (nMaxTries == 0) {","                strFailReason = _(\"Exceeded max tries.\");","                return false;","            }","        }","","        // Make sure change position was updated one way or another","        assert(nChangePosInOut != std::numeric_limits\u003cint\u003e::max());","","        if (nChangePosInOut == -1) reservekey.ReturnKey(); // Return any reserved key if we don't have change","        if (fpp) {","            ftx.lockOutputIndex = 0;","            // this loop needed because vout may be in a different order then recipient list","            for (const auto\u0026 txOut : txNew.vout) {","                if (txOut.scriptPubKey == fpp-\u003efutureRecScript)","                    break;","                ftx.lockOutputIndex++;","            }","            UpdateSpecialTxInputsHash(txNew, ftx);","            SetTxPayload(txNew, ftx);","        }","","        if (sign) {","            CTransaction txNewConst(txNew);","            int nIn = 0;","            for (const auto\u0026 coin : vecCoins) {","                const CScript\u0026 scriptPubKey = coin.txout.scriptPubKey;","                SignatureData sigdata;","","                if (!ProduceSignature(TransactionSignatureCreator(this, \u0026txNewConst, nIn, SIGHASH_ALL), scriptPubKey, sigdata)) {","                    strFailReason = _(\"Signing transaction failed\");","                    return false;","                } else {","                    UpdateTransaction(txNew, nIn, sigdata);","                }","","                nIn++;","            }","        }","","        // Return the constructed transaction data.","        tx = MakeTransactionRef(std::move(txNew));","    }","","    if (gArgs.GetBoolArg(\"-walletrejectlongchains\", DEFAULT_WALLET_REJECT_LONG_CHAINS)) {","        // Lastly, ensure this tx will pass the mempool's chain limits","        LockPoints lp;","        CTxMemPoolEntry entry(tx, 0, 0, 0, 0, false, 0, lp);","        CTxMemPool::setEntries setAncestors;","        size_t nLimitAncestors = gArgs.GetArg(\"-limitancestorcount\", DEFAULT_ANCESTOR_LIMIT);","        size_t nLimitAncestorSize = gArgs.GetArg(\"-limitancestorsize\", DEFAULT_ANCESTOR_SIZE_LIMIT) * 1000;","        size_t nLimitDescendants = gArgs.GetArg(\"-limitdescendantcount\", DEFAULT_DESCENDANT_LIMIT);","        size_t nLimitDescendantSize = gArgs.GetArg(\"-limitdescendantsize\", DEFAULT_DESCENDANT_SIZE_LIMIT) * 1000;","        std::string errString;","        LOCK(::mempool.cs);","        if (!::mempool.CalculateMemPoolAncestors(entry, setAncestors, nLimitAncestors, nLimitAncestorSize, nLimitDescendants, nLimitDescendantSize, errString)) {","            strFailReason = _(\"Transaction has too long of a mempool chain\");","            return false;","        }","    }","","    LogPrintf(\"Fee Calculation: Fee:%d Bytes:%u Tgt:%d (requested %d) Reason:\\\"%s\\\" Decay %.5f: Estimation: (%g - %g) %.2f%% %.1f/(%.1f %d mem %.1f out) Fail: (%g - %g) %.2f%% %.1f/(%.1f %d mem %.1f out)\\n\",","        nFeeRet, nBytes, feeCalc.returnedTarget, feeCalc.desiredTarget, StringForFeeReason(feeCalc.reason), feeCalc.est.decay,","        feeCalc.est.pass.start, feeCalc.est.pass.end,","        100 * feeCalc.est.pass.withinTarget / (feeCalc.est.pass.totalConfirmed + feeCalc.est.pass.inMempool + feeCalc.est.pass.leftMempool),","        feeCalc.est.pass.withinTarget, feeCalc.est.pass.totalConfirmed, feeCalc.est.pass.inMempool, feeCalc.est.pass.leftMempool,","        feeCalc.est.fail.start, feeCalc.est.fail.end,","        100 * feeCalc.est.fail.withinTarget / (feeCalc.est.fail.totalConfirmed + feeCalc.est.fail.inMempool + feeCalc.est.fail.leftMempool),","        feeCalc.est.fail.withinTarget, feeCalc.est.fail.totalConfirmed, feeCalc.est.fail.inMempool, feeCalc.est.fail.leftMempool);","    return true;","}","","/**"," * Call after CreateTransaction unless you want to abort"," */","bool CWallet::CommitTransaction(CTransactionRef tx, mapValue_t mapValue, std::vector\u003cstd::pair\u003cstd::string, std::string\u003e\u003e orderForm, std::string fromAccount, CReserveKey\u0026 reservekey, CConnman* connman, CValidationState\u0026 state)","{","    {","        LOCK2(cs_main, mempool.cs);","        LOCK(cs_wallet);","","        CWalletTx wtxNew(this, std::move(tx));","        wtxNew.mapValue = std::move(mapValue);","        wtxNew.vOrderForm = std::move(orderForm);","        wtxNew.strFromAccount = std::move(fromAccount);","        wtxNew.fTimeReceivedIsTxTime = true;","        wtxNew.fFromMe = true;","","        LogPrintf(\"CommitTransaction:\\n%s\\n\", wtxNew.tx-\u003eToString());","        {","            // Take key pair from key pool so it won't be used again","            reservekey.KeepKey();","","            // Add tx to wallet, because if it has change it's also ours,","            // otherwise just for transaction history.","            AddToWallet(wtxNew);","","            // Notify that old coins are spent","            std::set\u003cuint256\u003e updated_hahes;","            for (const CTxIn\u0026 txin : wtxNew.tx-\u003evin) {","                // notify only once","                if (updated_hahes.find(txin.prevout.hash) != updated_hahes.end()) continue;","","                CWalletTx\u0026 coin = mapWallet.at(txin.prevout.hash);","                coin.BindWallet(this);","                NotifyTransactionChanged(this, txin.prevout.hash, CT_UPDATED);","                updated_hahes.insert(txin.prevout.hash);","            }","        }","","        // Get the inserted-CWalletTx from mapWallet so that the","        // fInMempool flag is cached properly","        CWalletTx\u0026 wtx = mapWallet.at(wtxNew.GetHash());","","        if (fBroadcastTransactions) {","            // Broadcast","            if (!wtx.AcceptToMemoryPool(maxTxFee, state)) {","                LogPrintf(\"CommitTransaction(): Transaction cannot be broadcast immediately, %s\\n\", FormatStateMessage(state));","                // TODO: if we expect the failure to be long term or permanent, instead delete wtx from the wallet and return failure.","            } else {","                wtx.RelayWalletTransaction(connman);","            }","        }","    }","    return true;","}","","void CWallet::ListAccountCreditDebit(const std::string\u0026 strAccount, std::list\u003cCAccountingEntry\u003e\u0026 entries)","{","    WalletBatch batch(*database);","    return batch.ListAccountCreditDebit(strAccount, entries);","}","","bool CWallet::AddAccountingEntry(const CAccountingEntry\u0026 acentry)","{","    WalletBatch batch(*database);","","    return AddAccountingEntry(acentry, \u0026batch);","}","","bool CWallet::AddAccountingEntry(const CAccountingEntry\u0026 acentry, WalletBatch* batch)","{","    if (!batch-\u003eWriteAccountingEntry(++nAccountingEntryNumber, acentry)) {","        return false;","    }","","    laccentries.push_back(acentry);","    CAccountingEntry\u0026 entry = laccentries.back();","    wtxOrdered.insert(std::make_pair(entry.nOrderPos, TxPair(nullptr, \u0026entry)));","","    return true;","}","","DBErrors CWallet::LoadWallet(bool\u0026 fFirstRunRet)","{","    LOCK2(cs_main, cs_wallet);","","    fFirstRunRet = false;","    DBErrors nLoadWalletRet = WalletBatch(*database, \"cr+\").LoadWallet(this);","    if (nLoadWalletRet == DBErrors::NEED_REWRITE) {","        if (database-\u003eRewrite(\"\\x04pool\")) {","            setInternalKeyPool.clear();","            setExternalKeyPool.clear();","            nKeysLeftSinceAutoBackup = 0;","            m_pool_key_to_index.clear();","            // Note: can't top-up keypool here, because wallet is locked.","            // User will be prompted to unlock wallet the next operation","            // that requires a new key.","        }","    }","","    {","        LOCK(cs_KeyStore);","        // This wallet is in its first run if all of these are empty","        fFirstRunRet = mapKeys.empty() \u0026\u0026 mapHdPubKeys.empty() \u0026\u0026 mapCryptedKeys.empty() \u0026\u0026 mapWatchKeys.empty() \u0026\u0026 setWatchOnly.empty() \u0026\u0026 mapScripts.empty();","    }","","    {","        LOCK2(cs_main, cs_wallet);","        for (auto\u0026 pair : mapWallet) {","            for (unsigned int i = 0; i \u003c pair.second.tx-\u003evout.size(); ++i) {","                if (IsMine(pair.second.tx-\u003evout[i]) \u0026\u0026 !IsSpent(pair.first, i)) {","                    setWalletUTXO.insert(COutPoint(pair.first, i));","                }","            }","        }","    }","","    InitCoinJoinSalt();","","    if (nLoadWalletRet != DBErrors::LOAD_OK)","        return nLoadWalletRet;","","    return DBErrors::LOAD_OK;","}","","// Goes through all wallet transactions and checks if they are smartnode collaterals, in which case these are locked","// This avoids accidential spending of collaterals. They can still be unlocked manually if a spend is really intended.","void CWallet::AutoLockSmartnodeCollaterals()","{","    auto mnList = deterministicMNManager-\u003eGetListAtChainTip();","","    LOCK2(cs_main, cs_wallet);","    for (const auto\u0026 pair : mapWallet) {","        for (unsigned int i = 0; i \u003c pair.second.tx-\u003evout.size(); ++i) {","            if (IsMine(pair.second.tx-\u003evout[i]) \u0026\u0026 !IsSpent(pair.first, i)) {","                if (deterministicMNManager-\u003eIsProTxWithCollateral(pair.second.tx, i) || mnList.HasMNByCollateral(COutPoint(pair.first, i))) {","                    LockCoin(COutPoint(pair.first, i));","                }","            }","        }","    }","}","","DBErrors CWallet::ZapSelectTx(std::vector\u003cuint256\u003e\u0026 vHashIn, std::vector\u003cuint256\u003e\u0026 vHashOut)","{","    AssertLockHeld(cs_wallet); // mapWallet","    DBErrors nZapSelectTxRet = WalletBatch(*database, \"cr+\").ZapSelectTx(vHashIn, vHashOut);","    for (uint256 hash : vHashOut) {","        const auto\u0026 it = mapWallet.find(hash);","        wtxOrdered.erase(it-\u003esecond.m_it_wtxOrdered);","        mapWallet.erase(it);","    }","","    if (nZapSelectTxRet == DBErrors::NEED_REWRITE) {","        if (database-\u003eRewrite(\"\\x04pool\")) {","            setInternalKeyPool.clear();","            setExternalKeyPool.clear();","            m_pool_key_to_index.clear();","            // Note: can't top-up keypool here, because wallet is locked.","            // User will be prompted to unlock wallet the next operation","            // that requires a new key.","        }","    }","","    if (nZapSelectTxRet != DBErrors::LOAD_OK)","        return nZapSelectTxRet;","","    MarkDirty();","","    return DBErrors::LOAD_OK;","}","","DBErrors CWallet::ZapWalletTx(std::vector\u003cCWalletTx\u003e\u0026 vWtx)","{","    DBErrors nZapWalletTxRet = WalletBatch(*database, \"cr+\").ZapWalletTx(vWtx);","    if (nZapWalletTxRet == DBErrors::NEED_REWRITE) {","        if (database-\u003eRewrite(\"\\x04pool\")) {","            LOCK(cs_wallet);","            setInternalKeyPool.clear();","            setExternalKeyPool.clear();","            nKeysLeftSinceAutoBackup = 0;","            m_pool_key_to_index.clear();","            // Note: can't top-up keypool here, because wallet is locked.","            // User will be prompted to unlock wallet the next operation","            // that requires a new key.","        }","    }","","    if (nZapWalletTxRet != DBErrors::LOAD_OK)","        return nZapWalletTxRet;","","    return DBErrors::LOAD_OK;","}","","","bool CWallet::SetAddressBook(const CTxDestination\u0026 address, const std::string\u0026 strName, const std::string\u0026 strPurpose)","{","    bool fUpdated = false;","    {","        LOCK(cs_wallet); // mapAddressBook","        std::map\u003cCTxDestination, CAddressBookData\u003e::iterator mi = mapAddressBook.find(address);","        fUpdated = mi != mapAddressBook.end();","        mapAddressBook[address].name = strName;","        if (!strPurpose.empty()) /* update purpose only if requested */","            mapAddressBook[address].purpose = strPurpose;","    }","    NotifyAddressBookChanged(this, address, strName, ::IsMine(*this, address) != ISMINE_NO,","        strPurpose, (fUpdated ? CT_UPDATED : CT_NEW));","    if (!strPurpose.empty() \u0026\u0026 !WalletBatch(*database).WritePurpose(EncodeDestination(address), strPurpose))","        return false;","    return WalletBatch(*database).WriteName(EncodeDestination(address), strName);","}","","bool CWallet::DelAddressBook(const CTxDestination\u0026 address)","{","    {","        LOCK(cs_wallet); // mapAddressBook","","        // Delete destdata tuples associated with address","        std::string strAddress = EncodeDestination(address);","        for (const std::pair\u003cconst std::string, std::string\u003e\u0026 item : mapAddressBook[address].destdata) {","            WalletBatch(*database).EraseDestData(strAddress, item.first);","        }","        mapAddressBook.erase(address);","    }","","    NotifyAddressBookChanged(this, address, \"\", ::IsMine(*this, address) != ISMINE_NO, \"\", CT_DELETED);","","    WalletBatch(*database).ErasePurpose(EncodeDestination(address));","    return WalletBatch(*database).EraseName(EncodeDestination(address));","}","","const std::string\u0026 CWallet::GetLabelName(const CScript\u0026 scriptPubKey) const","{","    CTxDestination address;","    if (ExtractDestination(scriptPubKey, address) \u0026\u0026 !scriptPubKey.IsUnspendable()) {","        auto mi = mapAddressBook.find(address);","        if (mi != mapAddressBook.end()) {","            return mi-\u003esecond.name;","        }","    }","    // A scriptPubKey that doesn't have an entry in the address book is","    // associated with the default label (\"\").","    const static std::string DEFAULT_LABEL_NAME;","    return DEFAULT_LABEL_NAME;","}","","/**"," * Mark old keypool keys as used,"," * and generate all new keys"," */","bool CWallet::NewKeyPool()","{","    {","        LOCK(cs_wallet);","        WalletBatch batch(*database);","        for (int64_t nIndex : setInternalKeyPool) {","            batch.ErasePool(nIndex);","        }","        setInternalKeyPool.clear();","        for (int64_t nIndex : setExternalKeyPool) {","            batch.ErasePool(nIndex);","        }","        setExternalKeyPool.clear();","        coinJoinClientManagers.at(GetName())-\u003eStopMixing();","        nKeysLeftSinceAutoBackup = 0;","","        m_pool_key_to_index.clear();","","        if (!TopUpKeyPool())","            return false;","","        LogPrintf(\"CWallet::NewKeyPool rewrote keypool\\n\");","    }","    return true;","}","","size_t CWallet::KeypoolCountExternalKeys()","{","    AssertLockHeld(cs_wallet); // setExternalKeyPool","    return setExternalKeyPool.size();","}","","void CWallet::LoadKeyPool(int64_t nIndex, const CKeyPool\u0026 keypool)","{","    AssertLockHeld(cs_wallet);","    if (keypool.fInternal) {","        setInternalKeyPool.insert(nIndex);","    } else {","        setExternalKeyPool.insert(nIndex);","    }","    m_max_keypool_index = std::max(m_max_keypool_index, nIndex);","    m_pool_key_to_index[keypool.vchPubKey.GetID()] = nIndex;","","    // If no metadata exists yet, create a default with the pool key's","    // creation time. Note that this may be overwritten by actually","    // stored metadata for that key later, which is fine.","    CKeyID keyid = keypool.vchPubKey.GetID();","    if (mapKeyMetadata.count(keyid) == 0)","        mapKeyMetadata[keyid] = CKeyMetadata(keypool.nTime);","}","","size_t CWallet::KeypoolCountInternalKeys()","{","    AssertLockHeld(cs_wallet); // setInternalKeyPool","    return setInternalKeyPool.size();","}","","bool CWallet::TopUpKeyPool(unsigned int kpSize)","{","    {","        LOCK(cs_wallet);","","        if (IsLocked(true))","            return false;","","        // Top up key pool","        unsigned int nTargetSize;","        if (kpSize \u003e 0)","            nTargetSize = kpSize;","        else","            nTargetSize = std::max(gArgs.GetArg(\"-keypool\", DEFAULT_KEYPOOL_SIZE), (int64_t)0);","","        // count amount of available keys (internal, external)","        // make sure the keypool of external and internal keys fits the user selected target (-keypool)","        int64_t amountExternal = setExternalKeyPool.size();","        int64_t amountInternal = setInternalKeyPool.size();","        int64_t missingExternal = std::max(std::max((int64_t)nTargetSize, (int64_t)1) - amountExternal, (int64_t)0);","        int64_t missingInternal = std::max(std::max((int64_t)nTargetSize, (int64_t)1) - amountInternal, (int64_t)0);","","        if (!IsHDEnabled()) {","            // don't create extra internal keys","            missingInternal = 0;","        } else {","            nTargetSize *= 2;","        }","        bool fInternal = false;","        WalletBatch batch(*database);","        for (int64_t i = missingInternal + missingExternal; i--;) {","            if (i \u003c missingInternal) {","                fInternal = true;","            }","","            assert(m_max_keypool_index \u003c std::numeric_limits\u003cint64_t\u003e::max()); // How in the hell did you use so many keys?","            int64_t index = ++m_max_keypool_index;","","            // TODO: implement keypools for all accounts?","            CPubKey pubkey(GenerateNewKey(batch, 0, fInternal));","            if (!batch.WritePool(index, CKeyPool(pubkey, fInternal))) {","                throw std::runtime_error(std::string(__func__) + \": writing generated key failed\");","            }","","            if (fInternal) {","                setInternalKeyPool.insert(index);","            } else {","                setExternalKeyPool.insert(index);","            }","","            m_pool_key_to_index[pubkey.GetID()] = index;","            if (missingInternal + missingExternal \u003e 0) {","                LogPrintf(\"keypool added %d keys (%d internal), size=%u (%u internal)\\n\",","                    missingInternal + missingExternal, missingInternal,","                    setInternalKeyPool.size() + setExternalKeyPool.size(), setInternalKeyPool.size());","            }","","            double dProgress = 100.f * index / (nTargetSize + 1);","            std::string strMsg = strprintf(_(\"Loading wallet... (%3.2f %%)\"), dProgress);","            uiInterface.InitMessage(strMsg);","        }","    }","    return true;","}","","void CWallet::ReserveKeyFromKeyPool(int64_t\u0026 nIndex, CKeyPool\u0026 keypool, bool fInternal)","{","    nIndex = -1;","    keypool.vchPubKey = CPubKey();","    {","        LOCK(cs_wallet);","","        if (!IsLocked(true))","            TopUpKeyPool();","","        fInternal = fInternal \u0026\u0026 IsHDEnabled();","        std::set\u003cint64_t\u003e\u0026 setKeyPool = fInternal ? setInternalKeyPool : setExternalKeyPool;","","        // Get the oldest key","        if (setKeyPool.empty())","            return;","","        WalletBatch batch(*database);","","        nIndex = *setKeyPool.begin();","        setKeyPool.erase(nIndex);","        if (!batch.ReadPool(nIndex, keypool)) {","            throw std::runtime_error(std::string(__func__) + \": read failed\");","        }","        if (!HaveKey(keypool.vchPubKey.GetID())) {","            throw std::runtime_error(std::string(__func__) + \": unknown key in key pool\");","        }","        if (keypool.fInternal != fInternal) {","            throw std::runtime_error(std::string(__func__) + \": keypool entry misclassified\");","        }","","        assert(keypool.vchPubKey.IsValid());","        m_pool_key_to_index.erase(keypool.vchPubKey.GetID());","        LogPrintf(\"keypool reserve %d\\n\", nIndex);","    }","}","","void CWallet::KeepKey(int64_t nIndex)","{","    // Remove from key pool","    {","        LOCK(cs_wallet);","        WalletBatch batch(*database);","        if (batch.ErasePool(nIndex))","            --nKeysLeftSinceAutoBackup;","        if (!nWalletBackups)","            nKeysLeftSinceAutoBackup = 0;","    }","    LogPrintf(\"keypool keep %d\\n\", nIndex);","}","","void CWallet::ReturnKey(int64_t nIndex, bool fInternal, const CPubKey\u0026 pubkey)","{","    // Return to key pool","    {","        LOCK(cs_wallet);","        if (fInternal) {","            setInternalKeyPool.insert(nIndex);","        } else {","            setExternalKeyPool.insert(nIndex);","        }","        m_pool_key_to_index[pubkey.GetID()] = nIndex;","    }","    LogPrintf(\"keypool return %d\\n\", nIndex);","}","","bool CWallet::GetKeyFromPool(CPubKey\u0026 result, bool internal)","{","    CKeyPool keypool;","    {","        LOCK(cs_wallet);","        int64_t nIndex = 0;","        ReserveKeyFromKeyPool(nIndex, keypool, internal);","        if (nIndex == -1) {","            if (IsLocked(true)) return false;","            // TODO: implement keypool for all accouts?","","            WalletBatch batch(*database);","            result = GenerateNewKey(batch, 0, internal);","            return true;","        }","        KeepKey(nIndex);","        result = keypool.vchPubKey;","    }","    return true;","}","","static int64_t GetOldestKeyInPool(const std::set\u003cint64_t\u003e\u0026 setKeyPool, WalletBatch\u0026 batch)","{","    CKeyPool keypool;","    int64_t nIndex = *(setKeyPool.begin());","    if (!batch.ReadPool(nIndex, keypool)) {","        throw std::runtime_error(std::string(__func__) + \": read oldest key in keypool failed\");","    }","    assert(keypool.vchPubKey.IsValid());","    return keypool.nTime;","}","","int64_t CWallet::GetOldestKeyPoolTime()","{","    LOCK(cs_wallet);","","    // if the keypool is empty, return \u003cNOW\u003e","    if (setExternalKeyPool.empty() \u0026\u0026 setInternalKeyPool.empty())","        return GetTime();","","    WalletBatch batch(*database);","    int64_t oldestKey = -1;","","    // load oldest key from keypool, get time and return","    if (!setInternalKeyPool.empty()) {","        oldestKey = std::max(GetOldestKeyInPool(setInternalKeyPool, batch), oldestKey);","    }","    if (!setExternalKeyPool.empty()) {","        oldestKey = std::max(GetOldestKeyInPool(setExternalKeyPool, batch), oldestKey);","    }","    return oldestKey;","}","","std::map\u003cCTxDestination, CAmount\u003e CWallet::GetAddressBalances()","{","    std::map\u003cCTxDestination, CAmount\u003e balances;","","    {","        LOCK(cs_wallet);","        for (const auto\u0026 walletEntry : mapWallet) {","            const CWalletTx* pcoin = \u0026walletEntry.second;","","            if (!pcoin-\u003eIsTrusted())","                continue;","","            if (pcoin-\u003eIsCoinBase() \u0026\u0026 pcoin-\u003eGetBlocksToMaturity() \u003e 0)","                continue;","","            int nDepth = pcoin-\u003eGetDepthInMainChain();","            if ((nDepth \u003c (pcoin-\u003eIsFromMe(ISMINE_ALL) ? 0 : 1)) \u0026\u0026 !pcoin-\u003eIsLockedByInstantSend())","                continue;","","            for (unsigned int i = 0; i \u003c pcoin-\u003etx-\u003evout.size(); i++) {","                CTxDestination addr;","                if (!IsMine(pcoin-\u003etx-\u003evout[i]))","                    continue;","                if (!ExtractDestination(pcoin-\u003etx-\u003evout[i].scriptPubKey, addr))","                    continue;","","                CAmount n = IsSpent(walletEntry.first, i) ? 0 : pcoin-\u003etx-\u003evout[i].nValue;","","                if (!balances.count(addr))","                    balances[addr] = 0;","                balances[addr] += n;","            }","        }","    }","","    return balances;","}","","std::set\u003cstd::set\u003cCTxDestination\u003e\u003e CWallet::GetAddressGroupings()","{","    AssertLockHeld(cs_wallet); // mapWallet","    std::set\u003cstd::set\u003cCTxDestination\u003e\u003e groupings;","    std::set\u003cCTxDestination\u003e grouping;","","    for (const auto\u0026 walletEntry : mapWallet) {","        const CWalletTx* pcoin = \u0026walletEntry.second;","","        if (pcoin-\u003etx-\u003evin.size() \u003e 0) {","            bool any_mine = false;","            // group all input addresses with each other","            for (CTxIn txin : pcoin-\u003etx-\u003evin) {","                CTxDestination address;","                if (!IsMine(txin)) /* If this input isn't mine, ignore it */","                    continue;","                if (!ExtractDestination(mapWallet.at(txin.prevout.hash).tx-\u003evout[txin.prevout.n].scriptPubKey, address))","                    continue;","                grouping.insert(address);","                any_mine = true;","            }","","            // group change with input addresses","            if (any_mine) {","                for (CTxOut txout : pcoin-\u003etx-\u003evout)","                    if (IsChange(txout)) {","                        CTxDestination txoutAddr;","                        if (!ExtractDestination(txout.scriptPubKey, txoutAddr))","                            continue;","                        grouping.insert(txoutAddr);","                    }","            }","            if (grouping.size() \u003e 0) {","                groupings.insert(grouping);","                grouping.clear();","            }","        }","","        // group lone addrs by themselves","        for (const auto\u0026 txout : pcoin-\u003etx-\u003evout)","            if (IsMine(txout)) {","                CTxDestination address;","                if (!ExtractDestination(txout.scriptPubKey, address))","                    continue;","                grouping.insert(address);","                groupings.insert(grouping);","                grouping.clear();","            }","    }","","    std::set\u003cstd::set\u003cCTxDestination\u003e*\u003e uniqueGroupings;        // a set of pointers to groups of addresses","    std::map\u003cCTxDestination, std::set\u003cCTxDestination\u003e*\u003e setmap; // map addresses to the unique group containing it","    for (std::set\u003cCTxDestination\u003e _grouping : groupings) {","        // make a set of all the groups hit by this new group","        std::set\u003cstd::set\u003cCTxDestination\u003e*\u003e hits;","        std::map\u003cCTxDestination, std::set\u003cCTxDestination\u003e*\u003e::iterator it;","        for (CTxDestination address : _grouping)","            if ((it = setmap.find(address)) != setmap.end())","                hits.insert((*it).second);","","        // merge all hit groups into a new single group and delete old groups","        std::set\u003cCTxDestination\u003e* merged = new std::set\u003cCTxDestination\u003e(_grouping);","        for (std::set\u003cCTxDestination\u003e* hit : hits) {","            merged-\u003einsert(hit-\u003ebegin(), hit-\u003eend());","            uniqueGroupings.erase(hit);","            delete hit;","        }","        uniqueGroupings.insert(merged);","","        // update setmap","        for (CTxDestination element : *merged)","            setmap[element] = merged;","    }","","    std::set\u003cstd::set\u003cCTxDestination\u003e\u003e ret;","    for (std::set\u003cCTxDestination\u003e* uniqueGrouping : uniqueGroupings) {","        ret.insert(*uniqueGrouping);","        delete uniqueGrouping;","    }","","    return ret;","}","","std::set\u003cCTxDestination\u003e CWallet::GetLabelAddresses(const std::string\u0026 label) const","{","    LOCK(cs_wallet);","    std::set\u003cCTxDestination\u003e result;","    for (const std::pair\u003cconst CTxDestination, CAddressBookData\u003e\u0026 item : mapAddressBook) {","        const CTxDestination\u0026 address = item.first;","        const std::string\u0026 strName = item.second.name;","        if (strName == label)","            result.insert(address);","    }","    return result;","}","","void CWallet::DeleteLabel(const std::string\u0026 label)","{","    WalletBatch batch(*database);","    batch.EraseAccount(label);","}","","bool CReserveKey::GetReservedKey(CPubKey\u0026 pubkey, bool fInternalIn)","{","    if (nIndex == -1) {","        CKeyPool keypool;","        pwallet-\u003eReserveKeyFromKeyPool(nIndex, keypool, fInternalIn);","        if (nIndex != -1) {","            vchPubKey = keypool.vchPubKey;","        } else {","            return false;","        }","        fInternal = keypool.fInternal;","    }","    assert(vchPubKey.IsValid());","    pubkey = vchPubKey;","    return true;","}","","void CReserveKey::KeepKey()","{","    if (nIndex != -1) {","        pwallet-\u003eKeepKey(nIndex);","    }","    nIndex = -1;","    vchPubKey = CPubKey();","}","","void CReserveKey::ReturnKey()","{","    if (nIndex != -1) {","        pwallet-\u003eReturnKey(nIndex, fInternal, vchPubKey);","    }","    nIndex = -1;","    vchPubKey = CPubKey();","}","","void CWallet::MarkReserveKeysAsUsed(int64_t keypool_id)","{","    AssertLockHeld(cs_wallet);","    bool internal = setInternalKeyPool.count(keypool_id);","    if (!internal) assert(setExternalKeyPool.count(keypool_id));","    std::set\u003cint64_t\u003e* setKeyPool = internal ? \u0026setInternalKeyPool : \u0026setExternalKeyPool;","    auto it = setKeyPool-\u003ebegin();","","    WalletBatch batch(*database);","    while (it != std::end(*setKeyPool)) {","        const int64_t\u0026 index = *(it);","        if (index \u003e keypool_id) break; // set*KeyPool is ordered","","        CKeyPool keypool;","        if (batch.ReadPool(index, keypool)) { // TODO: This should be unnecessary","            m_pool_key_to_index.erase(keypool.vchPubKey.GetID());","        }","        batch.ErasePool(index);","        LogPrintf(\"keypool index %d removed\\n\", index);","        it = setKeyPool-\u003eerase(it);","    }","}","","void CWallet::GetScriptForMining(std::shared_ptr\u003cCReserveScript\u003e\u0026 script)","{","    std::shared_ptr\u003cCReserveKey\u003e rKey = std::make_shared\u003cCReserveKey\u003e(this);","    CPubKey pubkey;","    if (!rKey-\u003eGetReservedKey(pubkey, false))","        return;","","    script = rKey;","    script-\u003ereserveScript = CScript() \u003c\u003c ToByteVector(pubkey) \u003c\u003c OP_CHECKSIG;","}","","void CWallet::LockCoin(const COutPoint\u0026 output)","{","    AssertLockHeld(cs_wallet); // setLockedCoins","    setLockedCoins.insert(output);","    std::map\u003cuint256, CWalletTx\u003e::iterator it = mapWallet.find(output.hash);","    if (it != mapWallet.end()) it-\u003esecond.MarkDirty(); // recalculate all credits for this tx","","    fAnonymizableTallyCached = false;","    fAnonymizableTallyCachedNonDenom = false;","}","","void CWallet::UnlockCoin(const COutPoint\u0026 output)","{","    AssertLockHeld(cs_wallet); // setLockedCoins","    setLockedCoins.erase(output);","    std::map\u003cuint256, CWalletTx\u003e::iterator it = mapWallet.find(output.hash);","    if (it != mapWallet.end()) it-\u003esecond.MarkDirty(); // recalculate all credits for this tx","","    fAnonymizableTallyCached = false;","    fAnonymizableTallyCachedNonDenom = false;","}","","void CWallet::UnlockAllCoins()","{","    AssertLockHeld(cs_wallet); // setLockedCoins","    setLockedCoins.clear();","}","","bool CWallet::IsLockedCoin(uint256 hash, unsigned int n) const","{","    AssertLockHeld(cs_wallet); // setLockedCoins","    COutPoint outpt(hash, n);","","    return (setLockedCoins.count(outpt) \u003e 0);","}","","void CWallet::ListLockedCoins(std::vector\u003cCOutPoint\u003e\u0026 vOutpts) const","{","    AssertLockHeld(cs_wallet); // setLockedCoins","    for (std::set\u003cCOutPoint\u003e::iterator it = setLockedCoins.begin();","         it != setLockedCoins.end(); it++) {","        COutPoint outpt = (*it);","        vOutpts.push_back(outpt);","    }","}","","void CWallet::GetProTxCoins(const CDeterministicMNList\u0026 mnList, std::vector\u003cCOutPoint\u003e\u0026 vOutpts) const","{","    AssertLockHeld(cs_wallet);","    for (const auto\u0026 o : setWalletUTXO) {","        auto it = mapWallet.find(o.hash);","        if (it != mapWallet.end()) {","            const auto\u0026 p = it-\u003esecond;","            if (deterministicMNManager-\u003eIsProTxWithCollateral(p.tx, o.n) || mnList.HasMNByCollateral(o)) {","                vOutpts.emplace_back(o);","            }","        }","    }","}","","void CWallet::ListProTxCoins(int height, std::vector\u003cCOutPoint\u003e\u0026 vOutpts) const","{","    GetProTxCoins(deterministicMNManager-\u003eGetListForBlock(chainActive[height]), vOutpts);","}","","void CWallet::ListProTxCoins(std::vector\u003cCOutPoint\u003e\u0026 vOutpts) const","{","    GetProTxCoins(deterministicMNManager-\u003eGetListAtChainTip(), vOutpts);","}","","/** @} */ // end of Actions","","void CWallet::GetKeyBirthTimes(std::map\u003cCTxDestination, int64_t\u003e\u0026 mapKeyBirth) const","{","    AssertLockHeld(cs_wallet); // mapKeyMetadata","    mapKeyBirth.clear();","","    // get birth times for keys with metadata","    for (const auto\u0026 entry : mapKeyMetadata) {","        if (entry.second.nCreateTime) {","            mapKeyBirth[entry.first] = entry.second.nCreateTime;","        }","    }","","    // map in which we'll infer heights of other keys","    CBlockIndex* pindexMax = chainActive[std::max(0, chainActive.Height() - 144)]; // the tip can be reorganized; use a 144-block safety margin","    std::map\u003cCKeyID, CBlockIndex*\u003e mapKeyFirstBlock;","    for (const CKeyID\u0026 keyid : GetKeys()) {","        if (mapKeyBirth.count(keyid) == 0)","            mapKeyFirstBlock[keyid] = pindexMax;","    }","","    // if there are no such keys, we're done","    if (mapKeyFirstBlock.empty())","        return;","","    // find first block that affects those keys, if there are any left","    std::vector\u003cCKeyID\u003e vAffected;","    for (const auto\u0026 entry : mapWallet) {","        // iterate over all wallet transactions...","        const CWalletTx\u0026 wtx = entry.second;","        CBlockIndex* pindex = LookupBlockIndex(wtx.hashBlock);","        if (pindex \u0026\u0026 chainActive.Contains(pindex)) {","            // ... which are already in a block","            int nHeight = pindex-\u003enHeight;","            for (const CTxOut\u0026 txout : wtx.tx-\u003evout) {","                // iterate over all their outputs","                CAffectedKeysVisitor(*this, vAffected).Process(txout.scriptPubKey);","                for (const CKeyID\u0026 keyid : vAffected) {","                    // ... and all their affected keys","                    std::map\u003cCKeyID, CBlockIndex*\u003e::iterator rit = mapKeyFirstBlock.find(keyid);","                    if (rit != mapKeyFirstBlock.end() \u0026\u0026 nHeight \u003c rit-\u003esecond-\u003enHeight)","                        rit-\u003esecond = pindex;","                }","                vAffected.clear();","            }","        }","    }","","    // Extract block timestamps for those keys","    for (const auto\u0026 entry : mapKeyFirstBlock)","        mapKeyBirth[entry.first] = entry.second-\u003eGetBlockTime() - TIMESTAMP_WINDOW; // block times can be 2h off","}","","/**"," * Compute smart timestamp for a transaction being added to the wallet."," *"," * Logic:"," * - If sending a transaction, assign its timestamp to the current time."," * - If receiving a transaction outside a block, assign its timestamp to the"," *   current time."," * - If receiving a transaction during a rescanning process, assign all its"," *   (not already known) transactions' timestamps to the block time."," * - If receiving a block with a future timestamp, assign all its (not already"," *   known) transactions' timestamps to the current time."," * - If receiving a block with a past timestamp, before the most recent known"," *   transaction (that we care about), assign all its (not already known)"," *   transactions' timestamps to the same timestamp as that most-recent-known"," *   transaction."," * - If receiving a block with a past timestamp, but after the most recent known"," *   transaction, assign all its (not already known) transactions' timestamps to"," *   the block time."," *"," * For more information see CWalletTx::nTimeSmart,"," * https://bitcointalk.org/?topic=54527, or"," * https://github.com/bitcoin/bitcoin/pull/1393."," */","unsigned int CWallet::ComputeTimeSmart(const CWalletTx\u0026 wtx, bool rescanningOldBlock) const","{","    unsigned int nTimeSmart = wtx.nTimeReceived;","    if (!wtx.hashUnset()) {","        if (const CBlockIndex* pindex = LookupBlockIndex(wtx.hashBlock)) {","            int64_t blocktime = mapBlockIndex[wtx.hashBlock]-\u003eGetBlockTime();","            if (rescanningOldBlock) {","                nTimeSmart = blocktime;","            } else {","                int64_t latestNow = wtx.nTimeReceived;","                int64_t latestEntry = 0;","","                // Tolerate times up to the last timestamp in the wallet not more than 5 minutes into the future","                int64_t latestTolerated = latestNow + 300;","                const TxItems\u0026 txOrdered = wtxOrdered;","                for (auto it = txOrdered.rbegin(); it != txOrdered.rend(); ++it) {","                    CWalletTx* const pwtx = it-\u003esecond.first;","                    if (pwtx == \u0026wtx) {","                        continue;","                    }","                    CAccountingEntry* const pacentry = it-\u003esecond.second;","                    int64_t nSmartTime;","                    if (pwtx) {","                        nSmartTime = pwtx-\u003enTimeSmart;","                        if (!nSmartTime) {","                            nSmartTime = pwtx-\u003enTimeReceived;","                        }","                    } else {","                        nSmartTime = pacentry-\u003enTime;","                    }","                    if (nSmartTime \u003c= latestTolerated) {","                        latestEntry = nSmartTime;","                        if (nSmartTime \u003e latestNow) {","                            latestNow = nSmartTime;","                        }","                        break;","                    }","                }","                nTimeSmart = std::max(latestEntry, std::min(blocktime, latestNow));","            }","        } else {","            LogPrintf(\"%s: found %s in block %s not in index\\n\", __func__, wtx.GetHash().ToString(), wtx.hashBlock.ToString());","        }","    }","    return nTimeSmart;","}","","bool CWallet::AddDestData(const CTxDestination\u0026 dest, const std::string\u0026 key, const std::string\u0026 value)","{","    if (boost::get\u003cCNoDestination\u003e(\u0026dest))","        return false;","","    mapAddressBook[dest].destdata.insert(std::make_pair(key, value));","    return WalletBatch(*database).WriteDestData(EncodeDestination(dest), key, value);","}","","bool CWallet::EraseDestData(const CTxDestination\u0026 dest, const std::string\u0026 key)","{","    if (!mapAddressBook[dest].destdata.erase(key))","        return false;","    return WalletBatch(*database).EraseDestData(EncodeDestination(dest), key);","}","","bool CWallet::LoadDestData(const CTxDestination\u0026 dest, const std::string\u0026 key, const std::string\u0026 value)","{","    mapAddressBook[dest].destdata.insert(std::make_pair(key, value));","    return true;","}","","bool CWallet::GetDestData(const CTxDestination\u0026 dest, const std::string\u0026 key, std::string* value) const","{","    std::map\u003cCTxDestination, CAddressBookData\u003e::const_iterator i = mapAddressBook.find(dest);","    if (i != mapAddressBook.end()) {","        CAddressBookData::StringMap::const_iterator j = i-\u003esecond.destdata.find(key);","        if (j != i-\u003esecond.destdata.end()) {","            if (value)","                *value = j-\u003esecond;","            return true;","        }","    }","    return false;","}","","std::vector\u003cstd::string\u003e CWallet::GetDestValues(const std::string\u0026 prefix) const","{","    LOCK(cs_wallet);","    std::vector\u003cstd::string\u003e values;","    for (const auto\u0026 address : mapAddressBook) {","        for (const auto\u0026 data : address.second.destdata) {","            if (!data.first.compare(0, prefix.size(), prefix)) {","                values.emplace_back(data.second);","            }","        }","    }","    return values;","}","","bool CWallet::Verify(const WalletLocation\u0026 location, bool salvage_wallet, std::string\u0026 error_string, std::string\u0026 warning_string)","{","    // Do some checking on wallet path. It should be either a:","    //","    // 1. Path where a directory can be created.","    // 2. Path to an existing directory.","    // 3. Path to a symlink to a directory.","    // 4. For backwards compatibility, the name of a data file in -walletdir.","    LOCK(cs_wallets);","    const fs::path\u0026 wallet_path = location.GetPath();","    fs::file_type path_type = fs::symlink_status(wallet_path).type();","    if (!(path_type == fs::file_not_found || path_type == fs::directory_file ||","            (path_type == fs::symlink_file \u0026\u0026 fs::is_directory(wallet_path)) ||","            (path_type == fs::regular_file \u0026\u0026 fs::path(location.GetName()).filename() == location.GetName()))) {","        error_string = strprintf(","            \"Invalid -wallet path '%s'. -wallet path should point to a directory where wallet.dat and \"","            \"database/log.?????????? files can be stored, a location where such a directory could be created, \"","            \"or (for backwards compatibility) the name of an existing data file in -walletdir (%s)\",","            location.GetName(), GetWalletDir());","        return false;","    }","","    // Make sure that the wallet path doesn't clash with an existing wallet path","    if (IsWalletLoaded(wallet_path)) {","        error_string = strprintf(\"Error loading wallet %s. Duplicate -wallet filename specified.\", location.GetName());","        return false;","    }","","    try {","        if (!WalletBatch::VerifyEnvironment(wallet_path, error_string)) {","            return false;","        }","    } catch (const fs::filesystem_error\u0026 e) {","        error_string = strprintf(\"Error loading wallet %s. %s\", location.GetName(), e.what());","        return false;","    }","","    std::unique_ptr\u003cCWallet\u003e tempWallet = MakeUnique\u003cCWallet\u003e(location, WalletDatabase::Create(wallet_path));","    if (!tempWallet-\u003eAutoBackupWallet(wallet_path, warning_string, error_string) \u0026\u0026 !error_string.empty()) {","        return false;","    }","","    if (salvage_wallet) {","        // Recover readable keypairs:","        CWallet dummyWallet(WalletLocation(), WalletDatabase::CreateDummy());","        std::string backup_filename;","        if (!WalletBatch::Recover(wallet_path, (void*)\u0026dummyWallet, WalletBatch::RecoverKeysOnlyFilter, backup_filename)) {","            return false;","        }","    }","","    return WalletBatch::VerifyDatabaseFile(wallet_path, warning_string, error_string);","}","","std::shared_ptr\u003cCWallet\u003e CWallet::CreateWalletFromFile(const WalletLocation\u0026 location)","{","    const std::string\u0026 walletFile = location.GetName();","","    // needed to restore wallet transaction meta data after -zapwallettxes","    std::vector\u003cCWalletTx\u003e vWtx;","","    if (gArgs.GetBoolArg(\"-zapwallettxes\", false)) {","        uiInterface.InitMessage(_(\"Zapping all transactions from wallet...\"));","","        std::unique_ptr\u003cCWallet\u003e tempWallet = MakeUnique\u003cCWallet\u003e(location, WalletDatabase::Create(location.GetPath()));","        DBErrors nZapWalletRet = tempWallet-\u003eZapWalletTx(vWtx);","        if (nZapWalletRet != DBErrors::LOAD_OK) {","            InitError(strprintf(_(\"Error loading %s: Wallet corrupted\"), walletFile));","            return nullptr;","        }","    }","","    uiInterface.InitMessage(_(\"Loading wallet...\"));","","    int64_t nStart = GetTimeMillis();","    bool fFirstRun = true;","    // TODO: Can't use std::make_shared because we need a custom deleter but","    // should be possible to use std::allocate_shared.","    std::shared_ptr\u003cCWallet\u003e walletInstance(new CWallet(location, WalletDatabase::Create(location.GetPath())), ReleaseWallet);","    AddWallet(walletInstance);","    auto error = [\u0026](const std::string\u0026 strError) {","        RemoveWallet(walletInstance);","        InitError(strError);","        return nullptr;","    };","    DBErrors nLoadWalletRet;","    try {","        nLoadWalletRet = walletInstance-\u003eLoadWallet(fFirstRun);","    } catch (const std::exception\u0026 e) {","        RemoveWallet(walletInstance);","        throw;","    }","    if (nLoadWalletRet != DBErrors::LOAD_OK) {","        if (nLoadWalletRet == DBErrors::CORRUPT) {","            return error(strprintf(_(\"Error loading %s: Wallet corrupted\"), walletFile));","        } else if (nLoadWalletRet == DBErrors::NONCRITICAL_ERROR) {","            InitWarning(strprintf(_(\"Error reading %s! All keys read correctly, but transaction data\"","                                    \" or address book entries might be missing or incorrect.\"),","                walletFile));","        } else if (nLoadWalletRet == DBErrors::TOO_NEW) {","            return error(strprintf(_(\"Error loading %s: Wallet requires newer version of %s\"), walletFile, _(PACKAGE_NAME)));","        } else if (nLoadWalletRet == DBErrors::NEED_REWRITE) {","            return error(strprintf(_(\"Wallet needed to be rewritten: restart %s to complete\"), _(PACKAGE_NAME)));","        } else {","            return error(strprintf(_(\"Error loading %s\"), walletFile));","        }","    }","","    if (gArgs.GetBoolArg(\"-upgradewallet\", fFirstRun)) {","        int nMaxVersion = gArgs.GetArg(\"-upgradewallet\", 0);","        if (nMaxVersion == 0) // the -upgradewallet without argument case","        {","            LogPrintf(\"Performing wallet upgrade to %i\\n\", FEATURE_LATEST);","            nMaxVersion = FEATURE_LATEST;","            walletInstance-\u003eSetMinVersion(FEATURE_LATEST); // permanently upgrade the wallet immediately","        } else","            LogPrintf(\"Allowing wallet upgrade up to %i\\n\", nMaxVersion);","        if (nMaxVersion \u003c walletInstance-\u003eGetVersion()) {","            return error(_(\"Cannot downgrade wallet\"));","        }","        walletInstance-\u003eSetMaxVersion(nMaxVersion);","    }","","    if (fFirstRun) {","        // Create new keyUser and set as default key","        if (gArgs.GetBoolArg(\"-usehd\", DEFAULT_USE_HD_WALLET) \u0026\u0026 !walletInstance-\u003eIsHDEnabled()) {","            std::string strSeed = gArgs.GetArg(\"-hdseed\", \"not hex\");","","            if (gArgs.IsArgSet(\"-hdseed\") \u0026\u0026 IsHex(strSeed)) {","                CHDChain newHdChain;","                std::vector\u003cunsigned char\u003e vchSeed = ParseHex(strSeed);","                if (!newHdChain.SetSeed(SecureVector(vchSeed.begin(), vchSeed.end()), true)) {","                    return error(strprintf(_(\"%s failed\"), \"SetSeed\"));","                }","                if (!walletInstance-\u003eSetHDChainSingle(newHdChain, false)) {","                    return error(strprintf(_(\"%s failed\"), \"SetHDChainSingle\"));","                }","                newHdChain.Debug(__func__);","            } else {","                if (gArgs.IsArgSet(\"-hdseed\") \u0026\u0026 !IsHex(strSeed)) {","                    LogPrintf(\"%s -- Incorrect seed, generating a random mnemonic instead\\n\", __func__);","                }","                SecureString secureMnemonic = gArgs.GetArg(\"-mnemonic\", \"\").c_str();","                SecureString secureMnemonicPassphrase = gArgs.GetArg(\"-mnemonicpassphrase\", \"\").c_str();","                walletInstance-\u003eGenerateNewHDChain(secureMnemonic, secureMnemonicPassphrase);","            }","","            // ensure this wallet.dat can only be opened by clients supporting HD","            LogPrintf(\"Upgrading wallet to HD\\n\");","            walletInstance-\u003eSetMinVersion(FEATURE_HD);","","            // clean up","            gArgs.ForceRemoveArg(\"-hdseed\");","            gArgs.ForceRemoveArg(\"-mnemonic\");","            gArgs.ForceRemoveArg(\"-mnemonicpassphrase\");","        }","","        // Top up the keypool","        if (!walletInstance-\u003eTopUpKeyPool()) {","            return error(_(\"Unable to generate initial keys\"));","        }","","        walletInstance-\u003eSetBestChain(chainActive.GetLocator());","","        // Try to create wallet backup right after new wallet was created","        std::string strBackupWarning;","        std::string strBackupError;","        if (!walletInstance-\u003eAutoBackupWallet(\"\", strBackupWarning, strBackupError)) {","            if (!strBackupWarning.empty()) {","                InitWarning(strBackupWarning);","            }","            if (!strBackupError.empty()) {","                return error(strBackupError);","            }","        }","","    } else if (gArgs.IsArgSet(\"-usehd\")) {","        bool useHD = gArgs.GetBoolArg(\"-usehd\", DEFAULT_USE_HD_WALLET);","        if (walletInstance-\u003eIsHDEnabled() \u0026\u0026 !useHD) {","            return error(strprintf(_(\"Error loading %s: You can't disable HD on an already existing HD wallet\"),","                walletInstance-\u003eGetName()));","        }","        if (!walletInstance-\u003eIsHDEnabled() \u0026\u0026 useHD) {","            return error(strprintf(_(\"Error loading %s: You can't enable HD on an already existing non-HD wallet\"),","                walletInstance-\u003eGetName()));","        }","    }","","    // Warn user every time he starts non-encrypted HD wallet","    if (gArgs.GetBoolArg(\"-usehd\", DEFAULT_USE_HD_WALLET) \u0026\u0026 !walletInstance-\u003eIsLocked()) {","        InitWarning(_(\"Make sure to encrypt your wallet and delete all non-encrypted backups after you have verified that the wallet works!\"));","    }","","    LogPrintf(\" wallet      %15dms\\n\", GetTimeMillis() - nStart);","","    // Try to top up keypool. No-op if the wallet is locked.","    walletInstance-\u003eTopUpKeyPool();","","    LOCK(cs_main);","","    CBlockIndex* pindexRescan = chainActive.Genesis();","    if (!gArgs.GetBoolArg(\"-rescan\", false)) {","        WalletBatch batch(*walletInstance-\u003edatabase);","        CBlockLocator locator;","        if (batch.ReadBestBlock(locator))","            pindexRescan = FindForkInGlobalIndex(chainActive, locator);","    }","","    walletInstance-\u003em_last_block_processed = chainActive.Tip();","","    if (chainActive.Tip() \u0026\u0026 chainActive.Tip() != pindexRescan) {","        // We can't rescan beyond non-pruned blocks, stop and throw an error","        // this might happen if a user uses an old wallet within a pruned node","        //  or if he ran -disablewallet for a longer time, then decided to re-enable","        if (fPruneMode) {","            CBlockIndex* block = chainActive.Tip();","            while (block \u0026\u0026 block-\u003epprev \u0026\u0026 (block-\u003epprev-\u003enStatus \u0026 BLOCK_HAVE_DATA) \u0026\u0026 block-\u003epprev-\u003enTx \u003e 0 \u0026\u0026 pindexRescan != block)","                block = block-\u003epprev;","","            if (pindexRescan != block) {","                return error(_(\"Prune: last wallet synchronisation goes beyond pruned data. You need to -reindex (download the whole blockchain again in case of pruned node)\"));","            }","        }","","        uiInterface.InitMessage(_(\"Rescanning...\"));","        LogPrintf(\"Rescanning last %i blocks (from block %i)...\\n\", chainActive.Height() - pindexRescan-\u003enHeight, pindexRescan-\u003enHeight);","","        // No need to read and scan block if block was created before","        // our wallet birthday (as adjusted for block time variability)","        // unless a full rescan was requested","        if (gArgs.GetArg(\"-rescan\", 0) != 2) {","            while (pindexRescan \u0026\u0026 walletInstance-\u003enTimeFirstKey \u0026\u0026 (pindexRescan-\u003eGetBlockTime() \u003c (walletInstance-\u003enTimeFirstKey - TIMESTAMP_WINDOW))) {","                pindexRescan = chainActive.Next(pindexRescan);","            }","        }","","        nStart = GetTimeMillis();","        {","            WalletRescanReserver reserver(walletInstance.get());","            if (!reserver.reserve()) {","                return error(_(\"Failed to rescan the wallet during initialization\"));","            }","            walletInstance-\u003eScanForWalletTransactions(pindexRescan, nullptr, reserver, true);","        }","        LogPrintf(\" rescan      %15dms\\n\", GetTimeMillis() - nStart);","        walletInstance-\u003eSetBestChain(chainActive.GetLocator());","        walletInstance-\u003edatabase-\u003eIncrementUpdateCounter();","","        // Restore wallet transaction metadata after -zapwallettxes=1","        if (gArgs.GetBoolArg(\"-zapwallettxes\", false) \u0026\u0026 gArgs.GetArg(\"-zapwallettxes\", \"1\") != \"2\") {","            WalletBatch batch(*walletInstance-\u003edatabase);","","            for (const CWalletTx\u0026 wtxOld : vWtx) {","                uint256 hash = wtxOld.GetHash();","                std::map\u003cuint256, CWalletTx\u003e::iterator mi = walletInstance-\u003emapWallet.find(hash);","                if (mi != walletInstance-\u003emapWallet.end()) {","                    const CWalletTx* copyFrom = \u0026wtxOld;","                    CWalletTx* copyTo = \u0026mi-\u003esecond;","                    copyTo-\u003emapValue = copyFrom-\u003emapValue;","                    copyTo-\u003evOrderForm = copyFrom-\u003evOrderForm;","                    copyTo-\u003enTimeReceived = copyFrom-\u003enTimeReceived;","                    copyTo-\u003enTimeSmart = copyFrom-\u003enTimeSmart;","                    copyTo-\u003efFromMe = copyFrom-\u003efFromMe;","                    copyTo-\u003estrFromAccount = copyFrom-\u003estrFromAccount;","                    copyTo-\u003enOrderPos = copyFrom-\u003enOrderPos;","                    batch.WriteTx(*copyTo);","                }","            }","        }","    }","","    uiInterface.LoadWallet(walletInstance);","","    // Register with the validation interface. It's ok to do this after rescan since we're still holding cs_main.","    RegisterValidationInterface(walletInstance.get());","","    walletInstance-\u003eSetBroadcastTransactions(gArgs.GetBoolArg(\"-walletbroadcast\", DEFAULT_WALLETBROADCAST));","","    {","        LOCK(walletInstance-\u003ecs_wallet);","        LogPrintf(\"setExternalKeyPool.size() = %u\\n\", walletInstance-\u003eKeypoolCountExternalKeys());","        LogPrintf(\"setInternalKeyPool.size() = %u\\n\", walletInstance-\u003eKeypoolCountInternalKeys());","        LogPrintf(\"mapWallet.size() = %u\\n\", walletInstance-\u003emapWallet.size());","        LogPrintf(\"mapAddressBook.size() = %u\\n\", walletInstance-\u003emapAddressBook.size());","        LogPrintf(\"nTimeFirstKey = %u\\n\", walletInstance-\u003enTimeFirstKey);","    }","","    return walletInstance;","}","","void CWallet::postInitProcess()","{","    // Add wallet transactions that aren't already in a block to mempool","    // Do this here as mempool requires genesis block to be loaded","    ReacceptWalletTransactions();","}","","bool CWallet::InitAutoBackup()","{","    if (gArgs.GetBoolArg(\"-disablewallet\", DEFAULT_DISABLE_WALLET))","        return true;","","    nWalletBackups = gArgs.GetArg(\"-createwalletbackups\", 10);","    nWalletBackups = std::max(0, std::min(10, nWalletBackups));","","    return true;","}","","bool CWallet::BackupWallet(const std::string\u0026 strDest)","{","    return database-\u003eBackup(strDest);","}","","// This should be called carefully:","// either supply the actual wallet_path to make a raw copy of wallet.dat or \"\" to backup current instance via BackupWallet()","bool CWallet::AutoBackupWallet(const fs::path\u0026 wallet_path, std::string\u0026 strBackupWarningRet, std::string\u0026 strBackupErrorRet)","{","    strBackupWarningRet = strBackupErrorRet = \"\";","    std::string strWalletName = GetName();","    if (strWalletName.empty()) {","        strWalletName = \"wallet.dat\";","    }","","    if (nWalletBackups \u003c= 0) {","        LogPrintf(\"Automatic wallet backups are disabled!\\n\");","        return false;","    }","","    fs::path backupsDir = GetBackupsDir();","    backupsDir.make_preferred();","","    if (!fs::exists(backupsDir)) {","        // Always create backup folder to not confuse the operating system's file browser","        LogPrintf(\"Creating backup folder %s\\n\", backupsDir.string());","        if (!fs::create_directories(backupsDir)) {","            // something is wrong, we shouldn't continue until it's resolved","            strBackupErrorRet = strprintf(_(\"Wasn't able to create wallet backup folder %s!\"), backupsDir.string());","            LogPrintf(\"%s\\n\", strBackupErrorRet);","            nWalletBackups = -1;","            return false;","        }","    } else if (!fs::is_directory(backupsDir)) {","        // something is wrong, we shouldn't continue until it's resolved","        strBackupErrorRet = strprintf(_(\"%s is not a valid backup folder!\"), backupsDir.string());","        LogPrintf(\"%s\\n\", strBackupErrorRet);","        nWalletBackups = -1;","        return false;","    }","","    // Create backup of the ...","    std::string dateTimeStr = DateTimeStrFormat(\".%Y-%m-%d-%H-%M\", GetTime());","    if (wallet_path.empty()) {","        // ... opened wallet","        LOCK2(cs_main, cs_wallet);","        fs::path backupFile = backupsDir / (strWalletName + dateTimeStr);","        backupFile.make_preferred();","        if (!BackupWallet(backupFile.string())) {","            strBackupWarningRet = strprintf(_(\"Failed to create backup %s!\"), backupFile.string());","            LogPrintf(\"%s\\n\", strBackupWarningRet);","            nWalletBackups = -1;","            return false;","        }","","        // Update nKeysLeftSinceAutoBackup using current external keypool size","        nKeysLeftSinceAutoBackup = KeypoolCountExternalKeys();","        LogPrintf(\"nKeysLeftSinceAutoBackup: %d\\n\", nKeysLeftSinceAutoBackup);","        if (IsLocked(true)) {","            strBackupWarningRet = _(\"Wallet is locked, can't replenish keypool! Automatic backups and mixing are disabled, please unlock your wallet to replenish keypool.\");","            LogPrintf(\"%s\\n\", strBackupWarningRet);","            nWalletBackups = -2;","            return false;","        }","    } else {","        // ... strWalletName file","        std::string strSourceFile;","        BerkeleyEnvironment* env = GetWalletEnv(wallet_path, strSourceFile);","        fs::path sourceFile = env-\u003eDirectory() / strSourceFile;","        fs::path backupFile = backupsDir / (strWalletName + dateTimeStr);","        sourceFile.make_preferred();","        backupFile.make_preferred();","        if (fs::exists(backupFile)) {","            strBackupWarningRet = _(\"Failed to create backup, file already exists! This could happen if you restarted wallet in less than 60 seconds. You can continue if you are ok with this.\");","            LogPrintf(\"%s\\n\", strBackupWarningRet);","            return false;","        }","        if (fs::exists(sourceFile)) {","            try {","                fs::copy_file(sourceFile, backupFile);","                LogPrintf(\"Creating backup of %s -\u003e %s\\n\", sourceFile.string(), backupFile.string());","            } catch (fs::filesystem_error\u0026 error) {","                strBackupWarningRet = strprintf(_(\"Failed to create backup, error: %s\"), error.what());","                LogPrintf(\"%s\\n\", strBackupWarningRet);","                nWalletBackups = -1;","                return false;","            }","        }","    }","","    // Keep only the last 10 backups, including the new one of course","    typedef std::multimap\u003cstd::time_t, fs::path\u003e folder_set_t;","    folder_set_t folder_set;","    fs::directory_iterator end_iter;","    // Build map of backup files for current(!) wallet sorted by last write time","    fs::path currentFile;","    for (fs::directory_iterator dir_iter(backupsDir); dir_iter != end_iter; ++dir_iter) {","        // Only check regular files","        if (fs::is_regular_file(dir_iter-\u003estatus())) {","            currentFile = dir_iter-\u003epath().filename();","            // Only add the backups for the current wallet, e.g. wallet.dat.*","            if (dir_iter-\u003epath().stem().string() == strWalletName) {","                folder_set.insert(folder_set_t::value_type(fs::last_write_time(dir_iter-\u003epath()), *dir_iter));","            }","        }","    }","","    // Loop backward through backup files and keep the N newest ones (1 \u003c= N \u003c= 10)","    int counter = 0;","    for (auto it = folder_set.rbegin(); it != folder_set.rend(); ++it) {","        std::pair\u003cconst std::time_t, fs::path\u003e file = *it;","        counter++;","        if (counter \u003e nWalletBackups) {","            // More than nWalletBackups backups: delete oldest one(s)","            try {","                fs::remove(file.second);","                LogPrintf(\"Old backup deleted: %s\\n\", file.second);","            } catch (fs::filesystem_error\u0026 error) {","                strBackupWarningRet = strprintf(_(\"Failed to delete backup, error: %s\"), error.what());","                LogPrintf(\"%s\\n\", strBackupWarningRet);","                return false;","            }","        }","    }","","    return true;","}","","void CWallet::NotifyTransactionLock(const CTransactionRef\u0026 tx, const std::shared_ptr\u003cconst llmq::CInstantSendLock\u003e\u0026 islock)","{","    LOCK(cs_wallet);","    // Only notify UI if this transaction is in this wallet","    uint256 txHash = tx-\u003eGetHash();","    std::map\u003cuint256, CWalletTx\u003e::const_iterator mi = mapWallet.find(txHash);","    if (mi != mapWallet.end()) {","        NotifyTransactionChanged(this, txHash, CT_UPDATED);","        NotifyISLockReceived();","        // notify an external script","        std::string strCmd = gArgs.GetArg(\"-instantsendnotify\", \"\");","        if (!strCmd.empty()) {","            boost::replace_all(strCmd, \"%s\", txHash.GetHex());","            std::thread t(runCommand, strCmd);","            t.detach(); // thread runs free","        }","    }","}","","void CWallet::NotifyChainLock(const CBlockIndex* pindexChainLock, const std::shared_ptr\u003cconst llmq::CChainLockSig\u003e\u0026 clsig)","{","    NotifyChainLockReceived(pindexChainLock-\u003enHeight);","}","","bool CWallet::LoadGovernanceObject(const CGovernanceObject\u0026 obj)","{","    AssertLockHeld(cs_wallet);","    return m_gobjects.emplace(obj.GetHash(), obj).second;","}","","bool CWallet::WriteGovernanceObject(const CGovernanceObject\u0026 obj)","{","    AssertLockHeld(cs_wallet);","    WalletBatch batch(*database);","    return batch.WriteGovernanceObject(obj) \u0026\u0026 LoadGovernanceObject(obj);","}","","std::vector\u003cconst CGovernanceObject*\u003e CWallet::GetGovernanceObjects()","{","    AssertLockHeld(cs_wallet);","    std::vector\u003cconst CGovernanceObject*\u003e vecObjects;","    vecObjects.reserve(m_gobjects.size());","    for (auto\u0026 obj : m_gobjects) {","        vecObjects.push_back(\u0026obj.second);","    }","    return vecObjects;","}","","CKeyPool::CKeyPool()","{","    nTime = GetTime();","    fInternal = false;","}","","CKeyPool::CKeyPool(const CPubKey\u0026 vchPubKeyIn, bool fInternalIn)","{","    nTime = GetTime();","    vchPubKey = vchPubKeyIn;","    fInternal = fInternalIn;","}","","CWalletKey::CWalletKey(int64_t nExpires)","{","    nTimeCreated = (nExpires ? GetTime() : 0);","    nTimeExpires = nExpires;","}","","void CMerkleTx::SetMerkleBranch(const CBlockIndex* pindex, int posInBlock)","{","    // Update the tx's hashBlock","    hashBlock = pindex-\u003eGetBlockHash();","","    // set the position of the transaction in the block","    nIndex = posInBlock;","}","","int64_t CMerkleTx::GetConfirmationTime() const","{","    int nResult;","","    if (hashUnset())","        return -1;","","    AssertLockHeld(cs_main);","","    // Find the block it claims to be in","    CBlockIndex* pindex = LookupBlockIndex(hashBlock);","    if (!pindex || !chainActive.Contains(pindex) || nIndex == -1)","        return -1;","","    return pindex-\u003eGetBlockTime();","}","","int CMerkleTx::GetDepthInMainChain() const","{","    int nResult;","","    if (hashUnset())","        return 0;","","    AssertLockHeld(cs_main);","","    // Find the block it claims to be in","    CBlockIndex* pindex = LookupBlockIndex(hashBlock);","    if (!pindex || !chainActive.Contains(pindex))","        return 0;","","    return ((nIndex == -1) ? (-1) : 1) * (chainActive.Height() - pindex-\u003enHeight + 1);","}","","bool CMerkleTx::IsLockedByInstantSend() const","{","    if (fIsChainlocked) {","        fIsInstantSendLocked = false;","    } else if (!fIsInstantSendLocked) {","        fIsInstantSendLocked = llmq::quorumInstantSendManager-\u003eIsLocked(GetHash());","    }","    return fIsInstantSendLocked;","}","","bool CMerkleTx::IsChainLocked() const","{","    if (!fIsChainlocked) {","        AssertLockHeld(cs_main);","        CBlockIndex* pIndex = LookupBlockIndex(hashBlock);","        if (pIndex != nullptr) {","            fIsChainlocked = llmq::chainLocksHandler-\u003eHasChainLock(pIndex-\u003enHeight, hashBlock);","        }","    }","    return fIsChainlocked;","}","","int CMerkleTx::GetBlocksToMaturity() const","{","    if (!IsCoinBase())","        return 0;","    int chain_depth = GetDepthInMainChain();","    assert(chain_depth \u003e= 0); // coinbase tx should not be conflicted","    return std::max(0, (COINBASE_MATURITY + 1) - chain_depth);","}","","","bool CWalletTx::AcceptToMemoryPool(const CAmount\u0026 nAbsurdFee, CValidationState\u0026 state)","{","    // We must set fInMempool here - while it will be re-set to true by the","    // entered-mempool callback, if we did not there would be a race where a","    // user could call sendmoney in a loop and hit spurious out of funds errors","    // because we think that this newly generated transaction's change is","    // unavailable as we're not yet aware that it is in the mempool.","    bool ret = ::AcceptToMemoryPool(mempool, state, tx, nullptr /* pfMissingInputs */,","        false /* bypass_limits */, nAbsurdFee);","    fInMempool |= ret;","    return ret;","}"],"stylingDirectives":[[[0,43,"pl-c"],[0,2,"pl-c"]],[[0,54,"pl-c"],[0,2,"pl-c"]],[[0,51,"pl-c"],[0,2,"pl-c"]],[[0,48,"pl-c"],[0,2,"pl-c"]],[[0,67,"pl-c"],[0,2,"pl-c"]],[[0,70,"pl-c"],[0,2,"pl-c"]],[],[[1,8,"pl-k"],[9,26,"pl-s"],[9,10,"pl-pds"],[25,26,"pl-pds"]],[],[[1,8,"pl-k"],[9,18,"pl-s"],[9,10,"pl-pds"],[17,18,"pl-pds"]],[[1,8,"pl-k"],[9,24,"pl-s"],[9,10,"pl-pds"],[23,24,"pl-pds"]],[[1,8,"pl-k"],[9,32,"pl-s"],[9,10,"pl-pds"],[31,32,"pl-pds"]],[[1,8,"pl-k"],[9,33,"pl-s"],[9,10,"pl-pds"],[32,33,"pl-pds"]],[[1,8,"pl-k"],[9,15,"pl-s"],[9,10,"pl-pds"],[14,15,"pl-pds"]],[[1,8,"pl-k"],[9,23,"pl-s"],[9,10,"pl-pds"],[22,23,"pl-pds"]],[[1,8,"pl-k"],[9,17,"pl-s"],[9,10,"pl-pds"],[16,17,"pl-pds"]],[[1,8,"pl-k"],[9,16,"pl-s"],[9,10,"pl-pds"],[15,16,"pl-pds"]],[[1,8,"pl-k"],[9,19,"pl-s"],[9,10,"pl-pds"],[18,19,"pl-pds"]],[[1,8,"pl-k"],[9,21,"pl-s"],[9,10,"pl-pds"],[20,21,"pl-pds"]],[[1,8,"pl-k"],[9,16,"pl-s"],[9,10,"pl-pds"],[15,16,"pl-pds"]],[[1,8,"pl-k"],[9,24,"pl-s"],[9,10,"pl-pds"],[23,24,"pl-pds"]],[[1,8,"pl-k"],[9,26,"pl-s"],[9,10,"pl-pds"],[25,26,"pl-pds"]],[[1,8,"pl-k"],[9,29,"pl-s"],[9,10,"pl-pds"],[28,29,"pl-pds"]],[[1,8,"pl-k"],[9,35,"pl-s"],[9,10,"pl-pds"],[34,35,"pl-pds"]],[[1,8,"pl-k"],[9,26,"pl-s"],[9,10,"pl-pds"],[25,26,"pl-pds"]],[[1,8,"pl-k"],[9,24,"pl-s"],[9,10,"pl-pds"],[23,24,"pl-pds"]],[[1,8,"pl-k"],[9,21,"pl-s"],[9,10,"pl-pds"],[20,21,"pl-pds"]],[[1,8,"pl-k"],[9,22,"pl-s"],[9,10,"pl-pds"],[21,22,"pl-pds"]],[[1,8,"pl-k"],[9,25,"pl-s"],[9,10,"pl-pds"],[24,25,"pl-pds"]],[[1,8,"pl-k"],[9,23,"pl-s"],[9,10,"pl-pds"],[22,23,"pl-pds"]],[[1,8,"pl-k"],[9,33,"pl-s"],[9,10,"pl-pds"],[32,33,"pl-pds"]],[[1,8,"pl-k"],[9,24,"pl-s"],[9,10,"pl-pds"],[23,24,"pl-pds"]],[],[[1,8,"pl-k"],[9,45,"pl-s"],[9,10,"pl-pds"],[44,45,"pl-pds"]],[[1,8,"pl-k"],[9,37,"pl-s"],[9,10,"pl-pds"],[36,37,"pl-pds"]],[[1,8,"pl-k"],[9,34,"pl-s"],[9,10,"pl-pds"],[33,34,"pl-pds"]],[[1,8,"pl-k"],[9,20,"pl-s"],[9,10,"pl-pds"],[19,20,"pl-pds"]],[],[[1,8,"pl-k"],[9,27,"pl-s"],[9,10,"pl-pds"],[26,27,"pl-pds"]],[],[[1,8,"pl-k"],[9,36,"pl-s"],[9,10,"pl-pds"],[35,36,"pl-pds"]],[[1,8,"pl-k"],[9,37,"pl-s"],[9,10,"pl-pds"],[36,37,"pl-pds"]],[[1,8,"pl-k"],[9,36,"pl-s"],[9,10,"pl-pds"],[35,36,"pl-pds"]],[],[[1,8,"pl-k"],[9,19,"pl-s"],[9,10,"pl-pds"],[18,19,"pl-pds"]],[[1,8,"pl-k"],[9,17,"pl-s"],[9,10,"pl-pds"],[16,17,"pl-pds"]],[],[[1,8,"pl-k"],[9,45,"pl-s"],[9,10,"pl-pds"],[44,45,"pl-pds"]],[[1,8,"pl-k"],[9,27,"pl-s"],[9,10,"pl-pds"],[26,27,"pl-pds"]],[],[[0,6,"pl-k"]],[[0,6,"pl-k"],[55,65,"pl-en"]],[],[[0,4,"pl-k"],[5,14,"pl-en"],[15,20,"pl-k"]],[],[[4,8,"pl-c1"]],[[4,10,"pl-c1"]],[[62,71,"pl-c1"],[82,87,"pl-c1"],[101,104,"pl-c1"]],[[4,6,"pl-k"],[23,26,"pl-c1"],[30,36,"pl-k"],[37,42,"pl-c1"]],[[27,34,"pl-c1"],[35,49,"pl-c1"],[58,65,"pl-c1"]],[[14,23,"pl-c1"]],[[4,10,"pl-k"],[11,15,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,17,"pl-en"],[18,23,"pl-k"]],[],[[4,8,"pl-c1"]],[[4,10,"pl-c1"]],[[56,65,"pl-c1"],[76,81,"pl-c1"],[95,98,"pl-c1"]],[[4,6,"pl-k"],[23,26,"pl-c1"],[30,36,"pl-k"],[37,42,"pl-c1"]],[[14,19,"pl-c1"]],[[4,8,"pl-k"],[37,41,"pl-c1"],[50,57,"pl-c1"]],[[27,32,"pl-c1"]],[[4,10,"pl-k"],[11,15,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,15,"pl-en"]],[],[[4,8,"pl-c1"]],[[4,10,"pl-k"],[22,27,"pl-c1"]],[],[],[[9,23,"pl-en"]],[],[[1,6,"pl-k"]],[[4,9,"pl-k"],[21,25,"pl-c1"],[31,32,"pl-c1"]],[[8,18,"pl-c1"],[19,22,"pl-c1"]],[],[[4,6,"pl-k"],[18,22,"pl-c1"],[28,29,"pl-c1"]],[[8,14,"pl-k"],[16,20,"pl-c1"]],[[4,10,"pl-k"],[22,23,"pl-c1"],[25,28,"pl-c1"]],[[1,6,"pl-k"]],[[4,10,"pl-k"],[12,16,"pl-c1"]],[],[],[[38,48,"pl-en"]],[],[[4,8,"pl-c1"]],[[4,10,"pl-k"]],[],[],[[25,34,"pl-en"],[35,40,"pl-k"]],[],[[4,8,"pl-c1"]],[[4,7,"pl-k"],[9,14,"pl-k"]],[[8,10,"pl-k"],[20,27,"pl-c1"],[39,45,"pl-k"]],[],[[4,10,"pl-k"],[11,18,"pl-c1"]],[],[],[[0,38,"pl-c"],[0,2,"pl-c"],[36,38,"pl-c"]],[[9,17,"pl-en"]],[[0,8,"pl-k"],[9,12,"pl-k"]],[[0,4,"pl-k"]],[],[[0,3,"pl-c"],[0,2,"pl-c"]],[[0,87,"pl-c"]],[[0,26,"pl-c"]],[[0,3,"pl-c"],[1,3,"pl-c"]],[],[[0,3,"pl-c"],[0,2,"pl-c"]],[[0,90,"pl-c"]],[[0,44,"pl-c"]],[[0,29,"pl-c"]],[[0,3,"pl-c"],[1,3,"pl-c"]],[],[],[],[],[[0,42,"pl-c"],[0,2,"pl-c"]],[[0,6,"pl-k"],[7,11,"pl-k"],[12,25,"pl-en"]],[],[[4,13,"pl-c1"],[14,37,"pl-s"],[14,15,"pl-pds"],[34,36,"pl-cce"],[36,37,"pl-pds"],[47,54,"pl-c1"]],[[12,42,"pl-c1"]],[[12,17,"pl-c1"]],[[4,10,"pl-k"]],[],[],[[0,5,"pl-k"],[14,37,"pl-en"],[47,113,"pl-s"],[47,48,"pl-pds"],[112,113,"pl-pds"]],[],[[0,23,"pl-c"],[0,2,"pl-c"]],[[0,2,"pl-c"]],[[0,5,"pl-c"]],[[0,3,"pl-c"],[1,3,"pl-c"]],[],[[12,29,"pl-en"],[32,37,"pl-k"]],[],[[4,10,"pl-k"],[11,20,"pl-c1"],[21,47,"pl-s"],[21,22,"pl-pds"],[46,47,"pl-pds"],[53,60,"pl-c1"],[63,71,"pl-c1"],[86,97,"pl-c1"],[102,104,"pl-smi"],[106,110,"pl-smi"],[114,120,"pl-smi"]],[],[],[[0,5,"pl-k"],[6,26,"pl-en"],[29,35,"pl-k"],[36,41,"pl-en"],[58,62,"pl-k"]],[],[[0,8,"pl-k"]],[[4,9,"pl-k"]],[],[],[[0,7,"pl-k"]],[[4,24,"pl-en"],[25,30,"pl-k"]],[[8,16,"pl-en"]],[],[[4,8,"pl-k"],[9,16,"pl-en"],[17,22,"pl-k"]],[],[],[],[[8,11,"pl-k"]],[[8,10,"pl-k"],[12,31,"pl-c1"]],[[12,15,"pl-k"],[17,22,"pl-k"]],[[16,36,"pl-c1"],[38,42,"pl-c1"]],[],[],[],[[4,8,"pl-k"],[9,17,"pl-en"],[20,25,"pl-k"]],[],[[8,10,"pl-k"],[21,28,"pl-c1"]],[[18,27,"pl-c1"]],[],[],[[4,8,"pl-k"],[9,17,"pl-en"],[20,25,"pl-k"]],[],[],[[8,10,"pl-k"],[21,31,"pl-c1"]],[[12,19,"pl-c1"]],[],[],[[4,8,"pl-k"],[9,17,"pl-en"],[20,25,"pl-k"]],[],[],[[0,3,"pl-k"],[4,21,"pl-en"],[24,29,"pl-k"]],[],[[4,7,"pl-k"],[9,14,"pl-k"],[15,19,"pl-k"],[25,60,"pl-c1"]],[[8,40,"pl-c"],[8,10,"pl-c"]],[[8,10,"pl-k"],[16,18,"pl-smi"],[20,24,"pl-smi"],[28,34,"pl-smi"],[41,47,"pl-k"],[49,54,"pl-k"],[66,71,"pl-c1"]],[],[[4,6,"pl-k"],[12,14,"pl-smi"],[16,20,"pl-smi"],[24,30,"pl-smi"],[33,34,"pl-c1"],[43,49,"pl-k"],[50,55,"pl-c1"]],[],[[4,36,"pl-c"],[4,6,"pl-c"]],[[4,10,"pl-k"],[17,19,"pl-smi"],[21,25,"pl-smi"],[29,35,"pl-smi"]],[],[],[[0,5,"pl-k"],[17,37,"pl-en"],[38,43,"pl-k"],[59,64,"pl-k"]],[],[[4,8,"pl-c1"]],[[64,68,"pl-c1"]],[[4,6,"pl-k"],[24,27,"pl-c1"]],[[8,14,"pl-k"],[15,22,"pl-c1"]],[[4,10,"pl-k"],[17,23,"pl-smi"]],[],[],[[8,31,"pl-en"],[52,60,"pl-c1"],[76,80,"pl-k"],[81,90,"pl-smi"]],[],[[4,18,"pl-c1"],[63,80,"pl-c"],[63,65,"pl-c"]],[[4,8,"pl-k"],[9,20,"pl-smi"],[23,40,"pl-c1"],[63,124,"pl-c"],[63,65,"pl-c"]],[],[],[],[[4,26,"pl-c"],[4,6,"pl-c"]],[[4,11,"pl-c1"],[28,35,"pl-c1"]],[[17,25,"pl-smi"]],[],[],[[4,69,"pl-c"],[4,6,"pl-c"]],[[4,6,"pl-k"],[8,19,"pl-c1"]],[[8,25,"pl-c1"],[66,75,"pl-smi"]],[[24,33,"pl-c1"]],[[6,10,"pl-k"]],[[15,25,"pl-c1"],[26,37,"pl-smi"]],[],[[8,66,"pl-c"],[8,10,"pl-c"]],[[8,10,"pl-k"],[12,23,"pl-smi"]],[[12,25,"pl-c1"]],[],[],[[24,33,"pl-c1"]],[[8,14,"pl-c1"],[22,34,"pl-c1"]],[],[[8,30,"pl-c"],[8,10,"pl-c"]],[[30,35,"pl-c1"]],[[8,26,"pl-c1"]],[],[[8,10,"pl-k"],[13,31,"pl-c1"]],[[12,17,"pl-k"],[18,36,"pl-smi"],[37,48,"pl-c1"],[61,78,"pl-s"],[61,62,"pl-pds"],[77,78,"pl-pds"]],[],[],[[4,10,"pl-k"]],[],[],[[0,4,"pl-k"],[5,31,"pl-en"],[52,57,"pl-k"],[99,107,"pl-c1"],[123,127,"pl-k"],[128,137,"pl-smi"]],[],[],[[4,6,"pl-k"],[9,19,"pl-c1"]],[[8,13,"pl-k"],[14,32,"pl-smi"],[33,44,"pl-c1"],[57,78,"pl-s"],[57,58,"pl-pds"],[77,78,"pl-pds"]],[],[],[[4,6,"pl-k"],[9,23,"pl-c1"]],[[8,13,"pl-k"],[14,32,"pl-smi"],[33,44,"pl-c1"],[57,82,"pl-s"],[57,58,"pl-pds"],[81,82,"pl-pds"]],[[4,40,"pl-c"],[4,6,"pl-c"]],[[4,6,"pl-k"],[19,24,"pl-c1"],[41,52,"pl-c1"]],[[8,13,"pl-k"],[14,32,"pl-smi"],[33,44,"pl-c1"],[57,76,"pl-s"],[57,58,"pl-pds"],[75,76,"pl-pds"]],[],[],[[4,6,"pl-k"],[20,30,"pl-c1"]],[[8,13,"pl-k"],[14,32,"pl-smi"],[33,44,"pl-c1"],[57,78,"pl-s"],[57,58,"pl-pds"],[77,78,"pl-pds"]],[],[[4,76,"pl-c"],[4,6,"pl-c"]],[],[[4,12,"pl-c1"],[27,36,"pl-smi"],[43,64,"pl-smi"],[71,92,"pl-smi"]],[[4,6,"pl-k"]],[[19,36,"pl-c1"],[52,61,"pl-smi"]],[[8,35,"pl-c"],[8,10,"pl-c"]],[],[[6,11,"pl-k"],[13,20,"pl-c1"],[30,33,"pl-smi"],[34,43,"pl-c1"],[46,51,"pl-c1"]],[[25,28,"pl-smi"]],[],[[31,40,"pl-c1"]],[[4,10,"pl-c1"],[21,33,"pl-c1"]],[],[[4,21,"pl-c"],[4,6,"pl-c"]],[[26,31,"pl-c1"]],[[4,22,"pl-c1"],[32,43,"pl-smi"]],[],[[4,45,"pl-c"],[4,6,"pl-c"]],[],[[4,14,"pl-c1"]],[],[[4,6,"pl-k"],[8,17,"pl-smi"]],[[12,33,"pl-smi"]],[[6,10,"pl-k"]],[[12,33,"pl-smi"]],[],[],[[4,6,"pl-k"],[24,34,"pl-c1"]],[[8,13,"pl-k"],[14,32,"pl-smi"],[33,44,"pl-c1"],[57,78,"pl-s"],[57,58,"pl-pds"],[77,78,"pl-pds"]],[],[[4,6,"pl-k"],[8,17,"pl-c1"]],[[8,10,"pl-k"],[13,30,"pl-c1"],[54,59,"pl-c1"]],[[12,17,"pl-k"],[18,36,"pl-smi"],[37,48,"pl-c1"],[61,89,"pl-s"],[61,62,"pl-pds"],[88,89,"pl-pds"]],[[6,10,"pl-k"]],[[8,10,"pl-k"],[13,23,"pl-c1"],[47,52,"pl-c1"]],[[12,17,"pl-k"],[18,36,"pl-smi"],[37,48,"pl-c1"],[61,82,"pl-s"],[61,62,"pl-pds"],[81,82,"pl-pds"]],[],[],[[4,6,"pl-k"],[9,20,"pl-c1"],[37,43,"pl-c1"],[47,56,"pl-smi"]],[[8,13,"pl-k"],[14,32,"pl-smi"],[33,44,"pl-c1"],[57,79,"pl-s"],[57,58,"pl-pds"],[78,79,"pl-pds"]],[],[],[[0,4,"pl-k"],[5,23,"pl-en"],[24,29,"pl-k"],[70,75,"pl-k"]],[],[[4,8,"pl-c1"]],[[66,70,"pl-c1"]],[[4,6,"pl-k"],[27,30,"pl-c1"]],[[8,13,"pl-k"],[42,48,"pl-smi"]],[[32,41,"pl-smi"],[42,48,"pl-smi"]],[[8,14,"pl-k"],[15,19,"pl-c1"]],[[6,10,"pl-k"]],[[8,14,"pl-k"],[15,41,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,20,"pl-en"],[21,26,"pl-k"],[58,63,"pl-k"]],[],[[4,8,"pl-c1"]],[[66,70,"pl-c1"]],[[4,6,"pl-k"],[27,30,"pl-c1"]],[[8,74,"pl-c"],[8,10,"pl-c"]],[[8,13,"pl-k"],[42,48,"pl-smi"]],[],[[8,10,"pl-k"],[13,23,"pl-c1"]],[[12,17,"pl-k"],[18,36,"pl-smi"],[37,48,"pl-c1"],[61,82,"pl-s"],[61,62,"pl-pds"],[81,82,"pl-pds"]],[[8,10,"pl-k"],[13,27,"pl-c1"]],[[12,17,"pl-k"],[18,36,"pl-smi"],[37,48,"pl-c1"],[61,86,"pl-s"],[61,62,"pl-pds"],[85,86,"pl-pds"]],[[8,44,"pl-c"],[8,10,"pl-c"]],[[8,10,"pl-k"],[27,32,"pl-c1"],[53,64,"pl-c1"]],[[12,17,"pl-k"],[18,36,"pl-smi"],[37,48,"pl-c1"],[61,80,"pl-s"],[61,62,"pl-pds"],[79,80,"pl-pds"]],[],[],[[23,40,"pl-c1"],[50,63,"pl-smi"],[74,86,"pl-smi"],[90,91,"pl-c1"],[102,111,"pl-smi"],[112,118,"pl-smi"]],[[24,27,"pl-smi"]],[],[[8,14,"pl-k"],[15,19,"pl-c1"]],[[6,10,"pl-k"]],[[8,14,"pl-k"],[15,38,"pl-c1"]],[],[],[],[[0,4,"pl-k"],[5,21,"pl-en"],[22,27,"pl-k"],[45,50,"pl-k"]],[],[[4,8,"pl-c1"]],[[4,6,"pl-k"],[21,26,"pl-c1"],[38,39,"pl-c1"]],[[8,14,"pl-k"],[15,19,"pl-c1"]],[[4,10,"pl-k"],[11,35,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,26,"pl-en"],[27,32,"pl-k"]],[],[[4,18,"pl-c1"]],[],[[26,35,"pl-smi"],[36,42,"pl-smi"],[43,48,"pl-c1"]],[[4,10,"pl-k"],[11,15,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,25,"pl-en"],[46,51,"pl-k"],[75,79,"pl-k"],[80,89,"pl-smi"]],[],[[4,18,"pl-c1"]],[],[],[[4,14,"pl-c1"]],[],[],[[13,22,"pl-smi"]],[[13,22,"pl-smi"],[40,45,"pl-c1"]],[[13,25,"pl-smi"],[28,37,"pl-smi"],[40,41,"pl-c1"],[44,45,"pl-c1"]],[[27,33,"pl-smi"],[34,39,"pl-c1"]],[],[[4,49,"pl-c"],[4,6,"pl-c"]],[],[[13,36,"pl-c1"],[47,53,"pl-smi"],[54,59,"pl-c1"]],[[4,6,"pl-k"],[8,21,"pl-c1"]],[[8,23,"pl-c1"]],[[13,34,"pl-c1"],[45,51,"pl-smi"]],[[4,6,"pl-k"],[8,21,"pl-c1"]],[[8,23,"pl-c1"]],[],[[4,10,"pl-k"],[17,30,"pl-c1"],[66,72,"pl-smi"],[73,78,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,32,"pl-en"],[53,58,"pl-k"],[73,78,"pl-k"]],[],[[4,18,"pl-c1"],[31,48,"pl-c"],[31,33,"pl-c"]],[],[[4,82,"pl-c"],[4,6,"pl-c"]],[[4,75,"pl-c"],[4,6,"pl-c"]],[[4,30,"pl-c"],[4,6,"pl-c"]],[[4,8,"pl-k"]],[[4,6,"pl-k"]],[],[],[[4,6,"pl-k"],[9,38,"pl-c1"]],[[8,10,"pl-k"],[39,46,"pl-c1"]],[[8,14,"pl-k"],[15,20,"pl-c1"]],[],[[4,6,"pl-k"],[35,42,"pl-c1"]],[[4,49,"pl-c"],[4,6,"pl-c"]],[],[[13,36,"pl-c1"],[44,49,"pl-c1"]],[[4,6,"pl-k"],[8,21,"pl-c1"]],[[8,23,"pl-c1"]],[],[[13,34,"pl-c1"]],[[4,6,"pl-k"],[8,21,"pl-c1"]],[[8,23,"pl-c1"]],[],[],[[4,6,"pl-k"],[9,18,"pl-c1"]],[[8,14,"pl-k"],[21,29,"pl-c1"]],[[19,29,"pl-c1"]],[[34,39,"pl-c1"]],[],[[4,10,"pl-k"],[11,15,"pl-c1"]],[],[],[],[[0,4,"pl-k"],[5,26,"pl-en"],[27,32,"pl-k"],[47,52,"pl-k"]],[],[[16,21,"pl-smi"]],[],[[4,10,"pl-k"],[11,38,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,27,"pl-en"],[28,33,"pl-k"]],[[4,9,"pl-k"],[22,30,"pl-k"],[31,35,"pl-k"]],[],[[4,6,"pl-k"],[9,39,"pl-c1"]],[[8,14,"pl-k"],[15,20,"pl-c1"]],[],[[8,12,"pl-c1"]],[[8,10,"pl-k"]],[[12,18,"pl-k"],[36,51,"pl-c1"]],[],[[41,46,"pl-c1"]],[[8,12,"pl-k"]],[[12,18,"pl-k"],[19,30,"pl-c1"],[42,57,"pl-c1"]],[],[[41,46,"pl-c1"]],[],[],[],[[0,4,"pl-k"],[5,29,"pl-en"],[30,35,"pl-k"],[51,56,"pl-k"]],[],[[4,18,"pl-c1"],[31,48,"pl-c"],[31,33,"pl-c"]],[[4,22,"pl-c1"],[28,39,"pl-smi"]],[],[[4,10,"pl-k"],[11,15,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,32,"pl-en"],[33,38,"pl-k"],[61,66,"pl-k"]],[],[[4,18,"pl-c1"],[31,51,"pl-c"],[31,33,"pl-c"]],[[4,22,"pl-c1"],[28,39,"pl-smi"]],[],[[4,10,"pl-k"],[11,15,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,28,"pl-en"],[29,34,"pl-k"],[55,60,"pl-k"],[73,81,"pl-k"],[82,86,"pl-k"]],[],[[4,10,"pl-k"],[11,41,"pl-c1"]],[],[],[[0,3,"pl-c"],[0,2,"pl-c"]],[[0,77,"pl-c"]],[[0,62,"pl-c"]],[[0,3,"pl-c"],[1,3,"pl-c"]],[[0,4,"pl-k"],[5,32,"pl-en"],[33,40,"pl-c1"]],[],[[4,18,"pl-c1"]],[[4,6,"pl-k"],[23,24,"pl-c1"]],[[8,79,"pl-c"],[8,10,"pl-c"]],[[8,33,"pl-c"],[8,10,"pl-c"]],[[24,25,"pl-c1"]],[[6,10,"pl-k"],[11,13,"pl-k"]],[],[],[],[],[[0,7,"pl-c1"],[8,32,"pl-en"],[35,40,"pl-k"]],[],[[4,18,"pl-c1"]],[[4,10,"pl-k"]],[],[],[[0,4,"pl-k"],[5,24,"pl-en"],[25,30,"pl-k"]],[],[[4,6,"pl-k"],[9,36,"pl-c1"]],[[8,14,"pl-k"],[15,20,"pl-c1"]],[[4,10,"pl-k"],[11,22,"pl-c1"],[34,46,"pl-c1"],[47,54,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,25,"pl-en"],[26,31,"pl-k"]],[],[[4,75,"pl-c"],[4,6,"pl-c"]],[[0,73,"pl-c"]],[[0,56,"pl-c"],[54,56,"pl-c"]],[[4,6,"pl-k"],[21,25,"pl-c1"]],[[30,47,"pl-c1"],[48,57,"pl-c1"]],[[8,17,"pl-c1"],[18,162,"pl-s"],[18,19,"pl-pds"],[159,161,"pl-cce"],[161,162,"pl-pds"]],[[35,39,"pl-c1"]],[[8,14,"pl-k"],[15,19,"pl-c1"]],[],[],[[4,10,"pl-k"],[11,38,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,26,"pl-en"],[27,32,"pl-k"]],[],[[4,6,"pl-k"],[9,38,"pl-c1"]],[[8,14,"pl-k"],[15,20,"pl-c1"]],[[4,9,"pl-k"],[49,58,"pl-c1"]],[[4,22,"pl-c1"],[28,39,"pl-smi"]],[[4,26,"pl-c1"],[27,31,"pl-c1"]],[[4,10,"pl-k"],[11,22,"pl-c1"],[34,48,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,26,"pl-en"],[27,32,"pl-k"],[48,55,"pl-c1"]],[],[[22,31,"pl-c1"],[39,50,"pl-smi"]],[[4,10,"pl-k"],[11,23,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,29,"pl-en"],[30,35,"pl-k"]],[],[[4,18,"pl-c1"]],[[4,6,"pl-k"],[9,41,"pl-c1"]],[[8,14,"pl-k"],[15,20,"pl-c1"]],[[4,6,"pl-k"],[9,22,"pl-c1"]],[[8,30,"pl-c1"],[31,36,"pl-c1"]],[[4,6,"pl-k"],[9,20,"pl-c1"],[32,46,"pl-c1"]],[[8,14,"pl-k"],[15,20,"pl-c1"]],[],[[4,74,"pl-c"],[4,6,"pl-c"]],[[4,28,"pl-c1"],[29,33,"pl-c1"],[35,42,"pl-c1"]],[],[[4,10,"pl-k"],[11,15,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,27,"pl-en"],[28,33,"pl-k"]],[],[[4,10,"pl-k"],[11,40,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,20,"pl-en"],[21,26,"pl-k"],[62,66,"pl-k"],[67,81,"pl-smi"]],[],[],[],[[4,6,"pl-k"],[9,17,"pl-c1"],[21,71,"pl-c"],[21,23,"pl-c"]],[[8,14,"pl-k"],[15,19,"pl-c1"]],[],[[4,32,"pl-c"],[4,6,"pl-c"]],[[4,6,"pl-k"],[31,40,"pl-s"],[31,32,"pl-pds"],[39,40,"pl-pds"],[44,49,"pl-smi"],[50,60,"pl-c1"],[61,71,"pl-s"],[61,62,"pl-pds"],[70,71,"pl-pds"],[73,78,"pl-c1"]],[[8,11,"pl-k"]],[[50,68,"pl-c1"]],[[10,15,"pl-k"]],[[12,21,"pl-c1"],[22,95,"pl-s"],[22,23,"pl-pds"],[92,94,"pl-cce"],[94,95,"pl-pds"],[99,103,"pl-c1"]],[[12,18,"pl-k"],[19,24,"pl-c1"]],[],[[6,10,"pl-k"]],[],[],[],[],[],[],[],[[8,12,"pl-c1"]],[[8,11,"pl-k"],[13,18,"pl-k"]],[[12,14,"pl-k"],[25,45,"pl-c1"],[83,89,"pl-smi"],[90,97,"pl-smi"],[110,116,"pl-smi"],[117,134,"pl-smi"],[147,153,"pl-smi"],[154,171,"pl-smi"]],[[16,22,"pl-k"],[23,28,"pl-c1"]],[[12,14,"pl-k"],[25,32,"pl-c1"],[44,50,"pl-smi"],[51,64,"pl-smi"]],[[16,24,"pl-k"],[26,51,"pl-c"],[26,28,"pl-c"]],[[12,14,"pl-k"],[16,39,"pl-c1"],[53,67,"pl-smi"]],[[16,18,"pl-k"],[39,40,"pl-c1"]],[[20,32,"pl-c1"]],[[20,29,"pl-c1"],[30,89,"pl-s"],[30,31,"pl-pds"],[86,88,"pl-cce"],[88,89,"pl-pds"]],[[37,42,"pl-smi"],[43,49,"pl-c1"],[50,72,"pl-s"],[50,51,"pl-pds"],[71,72,"pl-pds"],[74,76,"pl-c1"]],[],[[16,22,"pl-k"],[23,27,"pl-c1"]],[],[],[],[[4,10,"pl-k"],[11,16,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,36,"pl-en"],[37,42,"pl-k"],[81,86,"pl-k"]],[],[[4,8,"pl-k"],[9,19,"pl-smi"],[22,30,"pl-c1"],[31,35,"pl-c1"]],[[4,8,"pl-k"],[23,28,"pl-c1"]],[],[],[],[[4,32,"pl-c"],[4,6,"pl-c"]],[[4,6,"pl-k"],[34,43,"pl-s"],[34,35,"pl-pds"],[42,43,"pl-pds"],[47,52,"pl-smi"],[53,63,"pl-c1"],[64,74,"pl-s"],[64,65,"pl-pds"],[73,74,"pl-pds"],[76,81,"pl-c1"]],[[22,26,"pl-c1"]],[[8,11,"pl-k"]],[[53,71,"pl-c1"]],[[10,15,"pl-k"]],[[12,21,"pl-c1"],[22,114,"pl-s"],[22,23,"pl-pds"],[111,113,"pl-cce"],[113,114,"pl-pds"],[118,122,"pl-c1"]],[[12,18,"pl-k"],[19,24,"pl-c1"]],[],[[6,10,"pl-k"]],[],[],[],[],[[8,12,"pl-c1"]],[[8,12,"pl-c1"]],[],[],[],[[8,11,"pl-k"]],[[12,14,"pl-k"],[25,45,"pl-c1"],[86,92,"pl-smi"],[93,100,"pl-smi"],[113,119,"pl-smi"],[120,137,"pl-smi"],[150,156,"pl-smi"],[157,174,"pl-smi"]],[[16,22,"pl-k"],[23,28,"pl-c1"]],[[12,14,"pl-k"],[25,32,"pl-c1"],[44,50,"pl-smi"],[51,64,"pl-smi"]],[[16,22,"pl-k"],[23,28,"pl-c1"]],[[12,14,"pl-k"],[16,39,"pl-c1"]],[[16,23,"pl-c1"],[37,50,"pl-c1"]],[[24,44,"pl-c1"],[80,86,"pl-smi"],[87,94,"pl-smi"],[107,113,"pl-smi"],[114,131,"pl-smi"],[144,150,"pl-smi"],[151,168,"pl-smi"]],[[27,33,"pl-smi"],[34,51,"pl-smi"],[54,65,"pl-k"],[66,74,"pl-k"],[75,78,"pl-k"],[91,97,"pl-smi"],[98,115,"pl-smi"],[119,122,"pl-c1"],[127,133,"pl-k"],[135,148,"pl-c1"]],[],[[29,42,"pl-c1"]],[[24,44,"pl-c1"],[80,86,"pl-smi"],[87,94,"pl-smi"],[107,113,"pl-smi"],[114,131,"pl-smi"],[144,150,"pl-smi"],[151,168,"pl-smi"]],[[27,33,"pl-smi"],[34,51,"pl-smi"],[66,72,"pl-smi"],[73,90,"pl-smi"],[93,104,"pl-k"],[105,113,"pl-k"],[114,117,"pl-k"],[130,136,"pl-smi"],[137,154,"pl-smi"],[157,160,"pl-c1"],[165,171,"pl-k"],[173,186,"pl-c1"],[208,209,"pl-c1"]],[],[[16,18,"pl-k"],[31,37,"pl-smi"],[38,55,"pl-smi"],[58,63,"pl-c1"]],[[31,37,"pl-smi"],[38,55,"pl-smi"],[58,63,"pl-c1"]],[],[[16,25,"pl-c1"],[26,85,"pl-s"],[26,27,"pl-pds"],[82,84,"pl-cce"],[84,85,"pl-pds"],[98,104,"pl-smi"],[105,122,"pl-smi"]],[],[[16,18,"pl-k"],[29,49,"pl-c1"],[85,91,"pl-smi"],[92,99,"pl-smi"],[112,118,"pl-smi"],[119,136,"pl-smi"],[149,155,"pl-smi"],[156,173,"pl-smi"]],[[20,26,"pl-k"],[27,32,"pl-c1"]],[[16,18,"pl-k"],[29,36,"pl-c1"],[61,67,"pl-smi"],[68,81,"pl-smi"]],[[20,26,"pl-k"],[27,32,"pl-c1"]],[[16,27,"pl-c1"],[39,53,"pl-c1"],[65,70,"pl-smi"],[83,89,"pl-smi"]],[[16,18,"pl-k"],[20,30,"pl-smi"]],[[20,24,"pl-c1"]],[],[[16,46,"pl-c"],[16,18,"pl-c"]],[[16,18,"pl-k"]],[[20,29,"pl-c1"],[30,105,"pl-s"],[30,31,"pl-pds"],[102,104,"pl-cce"],[104,105,"pl-pds"]],[[20,23,"pl-k"]],[[35,51,"pl-c1"]],[[22,27,"pl-k"]],[[24,33,"pl-c1"],[34,122,"pl-s"],[34,35,"pl-pds"],[119,121,"pl-cce"],[121,122,"pl-pds"],[126,130,"pl-c1"]],[[24,30,"pl-k"],[31,36,"pl-c1"]],[],[],[],[[16,22,"pl-k"],[23,27,"pl-c1"]],[],[],[],[],[[4,10,"pl-k"],[11,16,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,26,"pl-en"],[27,32,"pl-k"]],[],[[16,21,"pl-smi"]],[[10,24,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,27,"pl-en"],[28,32,"pl-k"],[80,84,"pl-k"],[85,94,"pl-smi"]],[],[[4,8,"pl-c1"],[21,38,"pl-c"],[21,23,"pl-c"]],[[4,6,"pl-k"]],[[8,14,"pl-k"],[15,19,"pl-c1"]],[],[[4,96,"pl-c"],[4,6,"pl-c"]],[[4,6,"pl-k"],[8,17,"pl-smi"]],[],[],[],[],[[4,6,"pl-k"]],[],[],[],[[51,54,"pl-k"],[55,66,"pl-c1"]],[[8,10,"pl-k"],[29,34,"pl-c1"]],[[19,34,"pl-c1"]],[[8,10,"pl-k"]],[[12,18,"pl-k"]],[],[],[[4,10,"pl-k"],[11,15,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,27,"pl-en"],[28,31,"pl-k"]],[],[[4,8,"pl-c1"],[21,57,"pl-c"],[21,23,"pl-c"]],[[4,45,"pl-c"],[4,6,"pl-c"]],[[4,6,"pl-k"]],[[8,14,"pl-k"],[15,20,"pl-c1"]],[],[],[],[[4,10,"pl-k"],[11,15,"pl-c1"]],[],[],[[18,39,"pl-en"],[40,45,"pl-k"],[61,66,"pl-k"]],[],[],[[4,18,"pl-c1"]],[],[[64,68,"pl-c1"]],[[4,6,"pl-k"],[24,27,"pl-c1"]],[[8,14,"pl-k"]],[[4,9,"pl-k"],[31,37,"pl-smi"]],[],[],[],[[4,7,"pl-k"],[9,14,"pl-k"],[33,35,"pl-smi"],[37,40,"pl-smi"]],[[8,10,"pl-k"],[24,29,"pl-c1"],[35,42,"pl-smi"],[47,48,"pl-c1"]],[[12,20,"pl-k"],[22,58,"pl-c"],[22,24,"pl-c"]],[[28,39,"pl-c1"],[45,52,"pl-smi"]],[[8,11,"pl-k"],[50,55,"pl-smi"],[70,76,"pl-smi"]],[[19,25,"pl-c1"],[31,37,"pl-smi"]],[],[[4,10,"pl-k"]],[],[],[[0,4,"pl-k"],[5,19,"pl-en"],[20,24,"pl-k"]],[],[[14,19,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,26,"pl-en"]],[],[[4,80,"pl-c"],[4,6,"pl-c"]],[[4,39,"pl-c"],[4,6,"pl-c"]],[[4,35,"pl-c"],[4,6,"pl-c"]],[],[[4,7,"pl-k"],[43,46,"pl-k"],[49,52,"pl-c1"]],[[4,9,"pl-k"],[32,39,"pl-c1"]],[[4,7,"pl-k"],[39,44,"pl-smi"],[58,64,"pl-smi"]],[[8,13,"pl-k"],[42,44,"pl-c1"],[49,55,"pl-smi"]],[[8,10,"pl-k"],[17,26,"pl-smi"]],[[32,41,"pl-smi"]],[],[],[],[],[[4,6,"pl-k"]],[[8,14,"pl-k"]],[],[],[[4,43,"pl-c"],[4,6,"pl-c"]],[[4,7,"pl-k"],[39,44,"pl-smi"],[58,64,"pl-smi"]],[[8,13,"pl-k"],[34,40,"pl-smi"]],[[39,41,"pl-c1"]],[[8,10,"pl-k"],[32,40,"pl-k"]],[[8,14,"pl-c1"],[27,91,"pl-s"],[27,28,"pl-pds"],[90,91,"pl-pds"]],[[8,10,"pl-k"],[23,37,"pl-c1"],[48,56,"pl-k"]],[[16,24,"pl-smi"],[37,45,"pl-smi"]],[[16,26,"pl-smi"],[39,49,"pl-smi"]],[[8,54,"pl-c"],[8,10,"pl-c"]],[[8,46,"pl-c"],[8,10,"pl-c"]],[[16,26,"pl-smi"],[39,49,"pl-smi"]],[[16,23,"pl-smi"],[36,43,"pl-smi"]],[[16,30,"pl-smi"],[43,57,"pl-smi"]],[[8,42,"pl-c"],[8,10,"pl-c"]],[[8,47,"pl-c"],[8,10,"pl-c"]],[],[],[],[[0,3,"pl-c"],[0,2,"pl-c"]],[[0,54,"pl-c"]],[[0,13,"pl-c"]],[[0,3,"pl-c"],[1,3,"pl-c"]],[[0,4,"pl-k"],[5,21,"pl-en"],[22,27,"pl-k"],[43,51,"pl-k"],[52,55,"pl-k"],[59,64,"pl-k"]],[],[[4,9,"pl-k"],[20,28,"pl-smi"]],[],[[24,35,"pl-c1"]],[],[[4,7,"pl-k"],[45,50,"pl-smi"],[64,70,"pl-smi"]],[[8,13,"pl-k"],[35,41,"pl-smi"]],[[69,73,"pl-c1"]],[[8,10,"pl-k"],[29,32,"pl-c1"]],[[12,15,"pl-k"],[29,35,"pl-smi"],[36,55,"pl-c1"]],[[12,14,"pl-k"],[24,25,"pl-c1"],[39,40,"pl-c1"],[50,56,"pl-smi"],[57,68,"pl-c1"]],[[16,22,"pl-k"],[23,27,"pl-c1"],[29,37,"pl-c"],[29,31,"pl-c"]],[],[],[[4,10,"pl-k"],[11,16,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,25,"pl-en"],[26,31,"pl-k"],[53,58,"pl-k"]],[],[[16,22,"pl-c1"],[23,37,"pl-c1"]],[[18,23,"pl-c1"]],[],[[19,24,"pl-c1"]],[],[],[[24,35,"pl-c1"]],[[4,16,"pl-c1"]],[],[],[],[[0,4,"pl-k"],[5,25,"pl-en"],[26,31,"pl-k"]],[],[[4,8,"pl-k"],[24,28,"pl-c1"]],[[4,10,"pl-c1"],[27,30,"pl-c1"]],[[28,34,"pl-smi"]],[[4,6,"pl-k"],[15,25,"pl-c1"],[29,63,"pl-c"],[29,31,"pl-c"]],[[8,14,"pl-k"]],[],[[4,7,"pl-k"],[9,14,"pl-k"],[36,38,"pl-smi"],[40,43,"pl-smi"]],[[8,19,"pl-c1"],[25,32,"pl-smi"]],[],[],[[0,4,"pl-k"],[5,27,"pl-en"],[28,33,"pl-k"]],[],[[4,6,"pl-k"],[8,17,"pl-c1"]],[[8,14,"pl-k"],[15,20,"pl-c1"]],[],[],[],[[16,22,"pl-c1"]],[[4,22,"pl-c1"],[36,37,"pl-c1"]],[],[[15,25,"pl-c1"]],[],[[4,14,"pl-c1"],[15,22,"pl-smi"],[23,29,"pl-c1"]],[[4,22,"pl-c1"],[24,34,"pl-c1"],[35,42,"pl-smi"],[43,44,"pl-c1"]],[],[],[[4,11,"pl-c1"],[25,38,"pl-c1"]],[[12,32,"pl-c1"],[54,64,"pl-c1"],[65,72,"pl-smi"],[74,79,"pl-c1"],[81,91,"pl-c1"],[92,109,"pl-smi"]],[[4,14,"pl-c1"],[15,32,"pl-smi"],[35,46,"pl-k"],[47,55,"pl-k"],[56,59,"pl-k"],[61,68,"pl-c1"],[73,79,"pl-k"],[81,94,"pl-c1"]],[],[[17,30,"pl-c1"]],[[12,32,"pl-c1"],[54,64,"pl-c1"],[65,72,"pl-smi"],[74,84,"pl-c1"],[85,102,"pl-smi"],[104,114,"pl-c1"],[115,132,"pl-smi"]],[[4,14,"pl-c1"],[15,32,"pl-smi"],[36,46,"pl-c1"],[47,64,"pl-smi"],[67,78,"pl-k"],[79,87,"pl-k"],[88,91,"pl-k"],[93,103,"pl-c1"],[104,121,"pl-smi"],[124,127,"pl-c1"],[132,138,"pl-k"],[140,153,"pl-c1"],[175,176,"pl-c1"]],[],[[4,6,"pl-k"],[8,18,"pl-c1"],[19,36,"pl-smi"],[39,44,"pl-c1"]],[[8,18,"pl-c1"],[19,36,"pl-smi"],[39,44,"pl-c1"]],[],[[4,13,"pl-c1"],[14,67,"pl-s"],[14,15,"pl-pds"],[64,66,"pl-cce"],[66,67,"pl-pds"],[69,79,"pl-c1"],[80,97,"pl-smi"]],[],[[4,6,"pl-k"],[17,37,"pl-c1"],[59,69,"pl-c1"],[70,77,"pl-smi"],[79,89,"pl-c1"],[90,107,"pl-smi"],[109,119,"pl-c1"],[120,137,"pl-smi"]],[[8,14,"pl-k"],[15,20,"pl-c1"]],[[4,6,"pl-k"],[17,24,"pl-c1"],[38,48,"pl-c1"],[49,62,"pl-smi"]],[[8,14,"pl-k"],[15,20,"pl-c1"]],[],[],[[8,12,"pl-c1"]],[[43,53,"pl-c1"]],[[8,14,"pl-c1"]],[[26,29,"pl-k"],[30,41,"pl-c1"]],[[8,10,"pl-k"],[30,38,"pl-c1"]],[[12,18,"pl-k"]],[[30,37,"pl-c1"]],[[12,18,"pl-k"],[19,24,"pl-c1"]],[],[[25,39,"pl-c1"],[57,67,"pl-c1"]],[],[[8,55,"pl-c"],[8,10,"pl-c"]],[],[[8,18,"pl-c1"]],[],[[8,10,"pl-k"],[13,24,"pl-c1"]],[[29,37,"pl-c1"]],[[12,18,"pl-k"]],[[12,89,"pl-c"],[12,14,"pl-c"]],[[12,66,"pl-c"],[12,14,"pl-c"]],[[12,18,"pl-c1"],[19,24,"pl-c1"]],[],[],[[8,10,"pl-k"],[28,34,"pl-c1"]],[[12,18,"pl-c1"],[19,33,"pl-c1"]],[],[],[[12,18,"pl-c1"],[19,29,"pl-c1"]],[],[[12,15,"pl-c1"]],[[16,22,"pl-c1"],[23,62,"pl-s"],[23,24,"pl-pds"],[59,61,"pl-cce"],[61,62,"pl-pds"],[64,70,"pl-c1"],[86,93,"pl-c1"],[97,102,"pl-c1"]],[[16,22,"pl-c1"],[23,62,"pl-s"],[23,24,"pl-pds"],[59,61,"pl-cce"],[61,62,"pl-pds"],[64,70,"pl-c1"],[86,93,"pl-c1"],[97,102,"pl-c1"]],[],[[12,55,"pl-c"],[12,14,"pl-c"]],[[12,18,"pl-c1"],[34,39,"pl-c1"],[60,65,"pl-c1"]],[[12,18,"pl-c1"],[34,45,"pl-c1"],[66,77,"pl-c1"]],[],[[12,18,"pl-c1"],[19,36,"pl-c1"],[71,76,"pl-c1"]],[],[],[[8,53,"pl-c"],[8,10,"pl-c"]],[[8,21,"pl-c1"],[60,64,"pl-c1"]],[],[[8,10,"pl-k"],[30,39,"pl-c1"]],[[12,18,"pl-k"]],[[12,71,"pl-c"],[12,14,"pl-c"]],[[12,85,"pl-c"],[12,14,"pl-c"]],[[12,18,"pl-c1"],[19,24,"pl-c1"]],[],[],[[8,14,"pl-k"]],[[26,33,"pl-c1"]],[],[[8,12,"pl-c1"]],[[8,14,"pl-c1"]],[],[[8,55,"pl-c"],[8,10,"pl-c"]],[[8,10,"pl-k"],[12,23,"pl-c1"]],[[12,24,"pl-c1"]],[[10,14,"pl-k"]],[[12,22,"pl-c1"]],[],[],[[8,12,"pl-c1"]],[],[[8,82,"pl-c"],[8,10,"pl-c"]],[[8,83,"pl-c"],[8,10,"pl-c"]],[[18,25,"pl-c1"]],[],[[8,38,"pl-c"],[8,10,"pl-c"]],[[8,10,"pl-k"],[12,17,"pl-smi"],[18,28,"pl-c1"],[29,39,"pl-s"],[29,30,"pl-pds"],[38,39,"pl-pds"],[41,46,"pl-c1"]],[[12,21,"pl-c1"],[22,88,"pl-s"],[22,23,"pl-pds"],[85,87,"pl-cce"],[87,88,"pl-pds"]],[[12,15,"pl-k"]],[[27,43,"pl-c1"]],[[14,19,"pl-k"]],[[16,25,"pl-c1"],[26,105,"pl-s"],[26,27,"pl-pds"],[102,104,"pl-cce"],[104,105,"pl-pds"],[109,113,"pl-c1"]],[],[],[],[[8,65,"pl-c"],[8,10,"pl-c"]],[[8,68,"pl-c"],[8,10,"pl-c"]],[[8,40,"pl-c"],[8,10,"pl-c"]],[[18,29,"pl-c1"]],[],[[4,23,"pl-c1"],[24,28,"pl-c1"]],[],[[4,10,"pl-k"],[11,15,"pl-c1"]],[],[],[[9,37,"pl-en"]],[],[[4,8,"pl-c1"]],[[16,21,"pl-smi"]],[],[[4,65,"pl-c"],[4,6,"pl-c"]],[[4,55,"pl-c"],[4,6,"pl-c"]],[],[[4,84,"pl-c"],[4,6,"pl-c"]],[[4,11,"pl-k"]],[[4,11,"pl-k"],[26,33,"pl-c1"]],[],[],[[4,7,"pl-k"],[9,13,"pl-k"]],[[32,38,"pl-smi"]],[[17,23,"pl-c1"],[24,38,"pl-c1"],[44,57,"pl-smi"],[59,65,"pl-c1"],[71,78,"pl-c1"]],[],[],[[10,32,"pl-c1"],[33,35,"pl-s"],[33,34,"pl-pds"],[34,35,"pl-pds"]],[[4,7,"pl-k"]],[[17,23,"pl-c1"],[24,38,"pl-c1"],[45,50,"pl-smi"],[52,58,"pl-c1"],[59,66,"pl-c1"]],[],[],[[20,21,"pl-c1"]],[[16,23,"pl-c1"]],[[4,7,"pl-k"],[41,46,"pl-c1"],[65,68,"pl-c1"]],[[19,24,"pl-k"],[38,44,"pl-smi"],[45,50,"pl-smi"]],[[26,31,"pl-k"],[49,55,"pl-smi"],[56,62,"pl-smi"]],[[8,15,"pl-c1"],[38,45,"pl-c1"],[55,64,"pl-smi"],[77,86,"pl-smi"]],[],[[8,10,"pl-k"],[26,27,"pl-c1"]],[],[[29,38,"pl-c1"]],[],[[12,14,"pl-k"]],[[16,18,"pl-k"],[27,34,"pl-c1"]],[[20,26,"pl-k"]],[[14,18,"pl-k"],[19,21,"pl-k"],[30,50,"pl-c1"],[61,69,"pl-smi"]],[[16,22,"pl-k"]],[[10,14,"pl-k"]],[[12,19,"pl-c1"],[35,36,"pl-c1"]],[[12,15,"pl-k"],[17,22,"pl-k"],[23,30,"pl-c1"]],[[16,18,"pl-k"]],[],[],[],[[28,36,"pl-c1"],[64,65,"pl-c1"]],[],[[12,14,"pl-k"]],[[16,24,"pl-k"]],[],[[12,60,"pl-c"],[12,14,"pl-c"]],[[12,14,"pl-k"]],[[16,18,"pl-k"],[27,34,"pl-c1"]],[[20,26,"pl-k"]],[[14,18,"pl-k"],[19,21,"pl-k"],[30,50,"pl-c1"],[61,69,"pl-smi"]],[[16,22,"pl-k"]],[],[],[[10,27,"pl-c1"]],[],[[4,10,"pl-k"]],[],[],[[0,7,"pl-c1"],[8,32,"pl-en"]],[],[[4,18,"pl-c1"],[31,47,"pl-c"],[31,33,"pl-c"]],[[4,11,"pl-c1"]],[[4,6,"pl-k"]],[[15,32,"pl-c1"]],[[6,10,"pl-k"]],[[8,19,"pl-c1"],[31,48,"pl-c1"]],[],[[4,10,"pl-k"]],[],[],[[0,4,"pl-k"],[5,25,"pl-en"]],[],[[16,21,"pl-smi"]],[[4,6,"pl-k"],[15,23,"pl-c1"]],[[8,14,"pl-k"],[15,20,"pl-c1"]],[],[[4,11,"pl-c1"],[19,34,"pl-c1"]],[],[[4,12,"pl-c"],[4,6,"pl-c"]],[],[[10,19,"pl-smi"],[22,37,"pl-c1"]],[[10,20,"pl-smi"]],[[10,22,"pl-smi"]],[[10,15,"pl-smi"]],[[10,25,"pl-smi"]],[[10,20,"pl-smi"]],[[4,22,"pl-c1"]],[],[[4,13,"pl-c"],[4,6,"pl-c"]],[],[[11,20,"pl-smi"],[23,38,"pl-c1"]],[[11,21,"pl-smi"]],[[11,23,"pl-smi"]],[[11,16,"pl-smi"]],[[11,26,"pl-smi"]],[[11,21,"pl-smi"]],[[4,22,"pl-c1"]],[],[[4,6,"pl-k"],[15,24,"pl-c1"]],[[8,14,"pl-k"],[15,20,"pl-c1"]],[],[[4,10,"pl-k"],[11,15,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,33,"pl-en"],[56,61,"pl-k"],[82,86,"pl-k"]],[],[[16,21,"pl-smi"]],[],[],[[10,21,"pl-c1"]],[],[[4,6,"pl-k"]],[[8,10,"pl-k"],[21,30,"pl-smi"],[31,38,"pl-c1"]],[[24,28,"pl-c1"]],[[8,12,"pl-k"]],[[12,53,"pl-c"],[12,14,"pl-c"]],[[35,58,"pl-c1"],[67,76,"pl-smi"],[77,82,"pl-c1"]],[[12,15,"pl-k"],[71,76,"pl-c1"]],[[33,36,"pl-c1"],[50,59,"pl-smi"],[60,67,"pl-c1"]],[],[[16,19,"pl-k"],[21,26,"pl-k"],[49,55,"pl-smi"],[56,58,"pl-smi"],[60,64,"pl-smi"]],[[20,22,"pl-k"],[30,42,"pl-smi"]],[[36,40,"pl-c1"]],[[24,29,"pl-k"]],[],[],[],[],[[4,25,"pl-c"],[4,6,"pl-c"]],[[4,6,"pl-k"]],[[8,10,"pl-k"],[13,27,"pl-c1"],[36,45,"pl-smi"],[47,52,"pl-c1"]],[[12,18,"pl-k"],[19,24,"pl-c1"]],[],[[23,32,"pl-smi"],[33,38,"pl-c1"]],[[8,22,"pl-c1"],[36,45,"pl-s"],[36,37,"pl-pds"],[44,45,"pl-pds"]],[[14,26,"pl-c1"]],[[6,10,"pl-k"]],[[23,32,"pl-smi"],[33,38,"pl-c1"]],[],[],[[4,10,"pl-k"],[11,15,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,23,"pl-en"]],[],[],[[8,12,"pl-c1"]],[[8,11,"pl-k"],[23,28,"pl-k"]],[[17,23,"pl-smi"],[24,33,"pl-c1"]],[],[],[[4,28,"pl-smi"],[31,36,"pl-c1"]],[[4,36,"pl-smi"],[39,44,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,25,"pl-en"],[26,31,"pl-k"],[50,54,"pl-k"],[55,68,"pl-smi"],[70,74,"pl-k"]],[],[[4,18,"pl-c1"],[29,119,"pl-c"],[29,31,"pl-c"]],[[4,8,"pl-c1"]],[],[[16,21,"pl-smi"],[33,37,"pl-s"],[33,34,"pl-pds"],[36,37,"pl-pds"],[39,52,"pl-smi"]],[],[[25,32,"pl-c1"]],[],[[4,73,"pl-c"],[4,6,"pl-c"]],[[54,58,"pl-k"],[76,82,"pl-c1"],[83,97,"pl-c1"]],[[27,32,"pl-smi"],[34,40,"pl-smi"]],[[8,18,"pl-c1"],[19,23,"pl-c1"]],[[4,8,"pl-k"],[9,21,"pl-smi"],[28,34,"pl-smi"]],[[4,6,"pl-k"],[8,20,"pl-smi"]],[[12,25,"pl-smi"],[28,43,"pl-c1"]],[[12,21,"pl-smi"],[24,39,"pl-c1"]],[[12,27,"pl-smi"],[41,47,"pl-c1"],[48,62,"pl-c1"],[67,76,"pl-smi"],[78,84,"pl-c1"],[91,98,"pl-c1"]],[[12,22,"pl-smi"],[25,41,"pl-c1"]],[[8,19,"pl-c1"]],[],[[8,12,"pl-k"],[46,63,"pl-c1"]],[[8,11,"pl-k"],[13,21,"pl-k"],[22,25,"pl-k"],[30,31,"pl-c1"],[41,43,"pl-smi"],[45,49,"pl-smi"],[50,54,"pl-c1"]],[[12,14,"pl-k"],[16,22,"pl-c1"],[27,29,"pl-smi"],[31,35,"pl-smi"],[44,51,"pl-c1"]],[[30,36,"pl-c1"],[37,46,"pl-c1"]],[[16,18,"pl-k"],[44,65,"pl-c1"],[70,72,"pl-smi"],[87,104,"pl-c1"],[105,114,"pl-c1"]],[[20,28,"pl-c1"],[29,38,"pl-c1"]],[],[],[],[],[],[[4,8,"pl-k"],[9,17,"pl-smi"],[20,25,"pl-c1"]],[[4,6,"pl-k"],[9,21,"pl-smi"]],[[8,16,"pl-c"],[8,10,"pl-c"]],[[8,10,"pl-k"],[19,28,"pl-c1"],[40,49,"pl-smi"],[57,66,"pl-smi"]],[[16,25,"pl-smi"],[34,43,"pl-smi"]],[[12,20,"pl-smi"],[23,27,"pl-c1"]],[],[[8,41,"pl-c"],[8,10,"pl-c"]],[[8,10,"pl-k"],[18,27,"pl-smi"],[28,34,"pl-c1"],[44,55,"pl-c1"]],[[16,25,"pl-smi"],[34,43,"pl-smi"]],[[12,20,"pl-smi"],[23,27,"pl-c1"]],[],[[8,10,"pl-k"],[18,24,"pl-smi"],[29,30,"pl-c1"],[41,47,"pl-smi"],[55,61,"pl-smi"]],[[16,22,"pl-smi"],[31,37,"pl-smi"]],[[12,20,"pl-smi"],[23,27,"pl-c1"]],[],[[8,10,"pl-k"],[18,25,"pl-smi"],[35,42,"pl-smi"],[50,57,"pl-smi"]],[[16,23,"pl-smi"],[32,39,"pl-smi"]],[[12,20,"pl-smi"],[23,27,"pl-c1"]],[],[],[[8,12,"pl-k"],[46,63,"pl-c1"]],[[8,11,"pl-k"],[13,21,"pl-k"],[22,25,"pl-k"],[30,31,"pl-c1"],[41,43,"pl-smi"],[45,49,"pl-smi"],[50,54,"pl-c1"]],[[12,14,"pl-k"],[16,22,"pl-c1"],[27,29,"pl-smi"],[31,35,"pl-smi"],[44,51,"pl-c1"]],[[16,20,"pl-k"],[46,52,"pl-c1"],[53,62,"pl-c1"],[73,79,"pl-smi"]],[[16,18,"pl-k"],[57,78,"pl-c1"],[83,85,"pl-smi"],[100,117,"pl-c1"],[118,127,"pl-c1"]],[[20,28,"pl-c1"],[29,38,"pl-c1"]],[],[[16,24,"pl-smi"]],[],[],[],[],[[4,20,"pl-c"],[4,6,"pl-c"]],[[4,13,"pl-c1"],[14,38,"pl-s"],[14,15,"pl-pds"],[35,37,"pl-cce"],[37,38,"pl-pds"],[46,53,"pl-c1"],[56,64,"pl-c1"],[69,81,"pl-smi"],[84,89,"pl-s"],[84,85,"pl-pds"],[88,89,"pl-pds"],[92,94,"pl-s"],[92,93,"pl-pds"],[93,94,"pl-pds"],[98,106,"pl-smi"],[109,117,"pl-s"],[109,110,"pl-pds"],[116,117,"pl-pds"],[120,122,"pl-s"],[120,121,"pl-pds"],[121,122,"pl-pds"]],[],[[4,20,"pl-c"],[4,6,"pl-c"]],[[4,6,"pl-k"],[8,20,"pl-smi"],[24,32,"pl-smi"]],[[8,10,"pl-k"],[19,26,"pl-c1"]],[[12,18,"pl-k"],[19,24,"pl-c1"]],[],[[4,41,"pl-c"],[4,6,"pl-c"]],[[8,17,"pl-c1"]],[],[[4,46,"pl-c"],[4,6,"pl-c"]],[[4,28,"pl-c1"],[29,33,"pl-c1"],[41,53,"pl-smi"]],[],[[4,81,"pl-c"],[4,6,"pl-c"]],[[25,30,"pl-smi"],[31,37,"pl-c1"],[38,53,"pl-s"],[38,39,"pl-pds"],[52,53,"pl-pds"],[55,57,"pl-s"],[55,56,"pl-pds"],[56,57,"pl-pds"]],[],[[4,6,"pl-k"],[16,21,"pl-c1"]],[[8,26,"pl-c1"],[35,39,"pl-s"],[35,36,"pl-pds"],[38,39,"pl-pds"],[47,54,"pl-c1"],[57,63,"pl-c1"]],[[20,21,"pl-smi"]],[[10,16,"pl-c1"],[20,39,"pl-c"],[20,22,"pl-c"]],[],[],[[4,28,"pl-smi"],[31,36,"pl-c1"]],[[4,36,"pl-smi"],[39,44,"pl-c1"]],[],[[4,10,"pl-k"],[11,15,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,26,"pl-en"],[27,32,"pl-k"]],[],[[25,32,"pl-c1"]],[[4,9,"pl-k"],[10,14,"pl-k"],[32,39,"pl-c1"]],[[25,30,"pl-smi"],[32,38,"pl-smi"]],[[8,18,"pl-c1"],[19,23,"pl-c1"]],[[4,6,"pl-k"],[8,34,"pl-c"],[8,10,"pl-c"],[32,34,"pl-c"],[39,45,"pl-smi"]],[[12,27,"pl-smi"],[41,47,"pl-c1"],[48,62,"pl-c1"],[67,76,"pl-smi"],[78,84,"pl-c1"],[91,98,"pl-c1"]],[],[[4,15,"pl-c1"]],[[4,7,"pl-k"],[9,14,"pl-k"],[33,35,"pl-smi"],[37,40,"pl-smi"]],[[8,12,"pl-k"],[28,32,"pl-c1"],[38,45,"pl-smi"],[46,50,"pl-smi"]],[[8,10,"pl-k"],[28,31,"pl-c1"]],[[36,42,"pl-smi"]],[[12,14,"pl-k"],[23,29,"pl-smi"],[34,35,"pl-c1"],[47,56,"pl-c1"]],[[16,30,"pl-c1"],[38,47,"pl-smi"],[53,60,"pl-c1"]],[],[],[],[],[[4,10,"pl-k"],[11,15,"pl-c1"]],[],[],[[0,3,"pl-c"],[0,2,"pl-c"]],[[0,79,"pl-c"]],[[0,73,"pl-c"]],[[0,74,"pl-c"]],[[0,61,"pl-c"]],[[0,2,"pl-c"]],[[0,61,"pl-c"]],[[0,79,"pl-c"]],[[0,80,"pl-c"]],[[0,77,"pl-c"]],[[0,74,"pl-c"]],[[0,69,"pl-c"]],[[0,3,"pl-c"],[1,3,"pl-c"]],[[0,4,"pl-k"],[5,38,"pl-en"],[39,44,"pl-k"],[67,72,"pl-k"],[94,97,"pl-k"],[110,114,"pl-k"],[115,122,"pl-smi"],[124,128,"pl-k"]],[],[[4,9,"pl-k"]],[],[[8,22,"pl-c1"],[33,58,"pl-c"],[33,35,"pl-c"]],[[8,22,"pl-c1"]],[],[[8,10,"pl-k"],[22,29,"pl-c1"]],[[12,15,"pl-k"],[17,22,"pl-k"],[40,43,"pl-smi"]],[[98,109,"pl-c1"],[115,122,"pl-smi"]],[[16,21,"pl-k"],[29,34,"pl-smi"],[44,50,"pl-smi"]],[[20,22,"pl-k"],[30,35,"pl-smi"],[37,43,"pl-smi"],[50,57,"pl-c1"]],[[24,33,"pl-c1"],[34,122,"pl-s"],[34,35,"pl-pds"],[119,121,"pl-cce"],[121,122,"pl-pds"],[127,134,"pl-c1"],[137,145,"pl-c1"],[157,169,"pl-c1"],[172,180,"pl-c1"],[190,195,"pl-smi"],[197,203,"pl-smi"],[204,212,"pl-c1"],[222,227,"pl-smi"],[229,234,"pl-smi"],[235,239,"pl-smi"],[240,248,"pl-c1"],[258,263,"pl-smi"],[265,270,"pl-smi"],[271,272,"pl-smi"]],[[24,38,"pl-c1"],[47,59,"pl-c1"],[69,74,"pl-smi"],[76,82,"pl-smi"]],[],[[26,31,"pl-smi"]],[],[],[],[],[[8,12,"pl-k"],[13,21,"pl-smi"],[34,39,"pl-c1"],[43,50,"pl-c1"],[57,58,"pl-c1"]],[[8,10,"pl-k"],[12,20,"pl-smi"],[25,32,"pl-smi"],[34,40,"pl-k"],[41,46,"pl-c1"]],[[8,10,"pl-k"],[12,20,"pl-smi"],[24,30,"pl-c1"],[38,46,"pl-c1"]],[[12,86,"pl-c"],[12,14,"pl-c"]],[[0,93,"pl-c"]],[[0,88,"pl-c"]],[[0,90,"pl-c"]],[[0,15,"pl-c"],[13,15,"pl-c"]],[],[[24,29,"pl-smi"]],[[12,38,"pl-c"],[12,14,"pl-c"]],[[12,15,"pl-k"],[17,22,"pl-k"],[42,46,"pl-smi"]],[[16,111,"pl-c"],[16,18,"pl-c"]],[],[[16,36,"pl-c1"],[38,42,"pl-c1"],[55,62,"pl-c1"],[69,81,"pl-smi"]],[[16,19,"pl-k"],[21,26,"pl-k"]],[[37,44,"pl-c1"],[87,91,"pl-c1"]],[[20,22,"pl-k"],[50,53,"pl-c1"]],[[24,33,"pl-c1"],[34,114,"pl-s"],[34,35,"pl-pds"],[111,113,"pl-cce"],[113,114,"pl-pds"]],[[24,45,"pl-c1"],[50,56,"pl-smi"]],[],[[24,26,"pl-k"],[29,41,"pl-c1"]],[[28,37,"pl-c1"],[38,87,"pl-s"],[38,39,"pl-pds"],[84,86,"pl-cce"],[86,87,"pl-pds"]],[],[],[[20,22,"pl-k"],[34,41,"pl-c1"],[67,78,"pl-smi"],[89,94,"pl-smi"]],[[24,33,"pl-c1"],[34,122,"pl-s"],[34,35,"pl-pds"],[119,121,"pl-cce"],[121,122,"pl-pds"]],[],[[24,28,"pl-k"],[35,44,"pl-c1"]],[[24,30,"pl-c1"],[37,62,"pl-c"],[37,39,"pl-c"]],[[46,57,"pl-smi"],[68,73,"pl-smi"]],[[30,42,"pl-c1"]],[[24,42,"pl-c1"],[51,56,"pl-smi"]],[],[],[],[],[[22,25,"pl-smi"],[26,30,"pl-c1"]],[],[[12,68,"pl-c"],[12,14,"pl-c"]],[[12,14,"pl-k"],[26,33,"pl-c1"]],[[20,35,"pl-c1"]],[],[[12,18,"pl-k"],[19,30,"pl-c1"],[36,41,"pl-c1"]],[],[],[[4,10,"pl-k"],[11,16,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,39,"pl-en"],[40,45,"pl-k"],[63,68,"pl-k"]],[],[[4,9,"pl-c1"]],[[4,9,"pl-k"],[27,38,"pl-c1"]],[[4,10,"pl-k"],[24,35,"pl-c1"],[46,65,"pl-c1"],[71,72,"pl-c1"],[82,91,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,32,"pl-en"],[33,38,"pl-k"]],[],[[4,9,"pl-c1"]],[],[[16,21,"pl-smi"],[33,37,"pl-s"],[33,34,"pl-pds"],[36,37,"pl-pds"]],[],[],[],[],[[4,54,"pl-c"],[4,6,"pl-c"]],[[4,8,"pl-k"],[24,28,"pl-c1"]],[[4,10,"pl-c1"],[27,30,"pl-c1"]],[[28,34,"pl-smi"]],[[4,6,"pl-k"],[15,34,"pl-c1"],[40,41,"pl-c1"],[52,61,"pl-c1"],[74,95,"pl-c1"]],[[8,14,"pl-k"],[15,20,"pl-c1"]],[],[],[[9,15,"pl-c1"]],[],[[4,9,"pl-k"],[17,22,"pl-c1"]],[[28,33,"pl-c1"]],[[13,18,"pl-c1"]],[[13,19,"pl-c1"]],[[8,12,"pl-k"],[28,32,"pl-c1"]],[[8,14,"pl-c1"],[31,34,"pl-c1"]],[[29,35,"pl-smi"]],[[8,11,"pl-k"],[33,52,"pl-c1"]],[[8,69,"pl-c"],[8,10,"pl-c"]],[[8,14,"pl-c1"],[33,34,"pl-c1"]],[[8,93,"pl-c"],[8,10,"pl-c"]],[[8,10,"pl-k"],[30,31,"pl-c1"],[40,51,"pl-c1"]],[[12,92,"pl-c"],[12,14,"pl-c"]],[[12,18,"pl-c1"],[24,33,"pl-c1"]],[[16,22,"pl-smi"],[26,27,"pl-c1"]],[[16,28,"pl-c1"]],[[16,25,"pl-c1"]],[[18,25,"pl-c1"]],[[12,36,"pl-c1"],[37,41,"pl-c1"],[47,54,"pl-c1"]],[[12,110,"pl-c"],[12,14,"pl-c"]],[[56,67,"pl-c1"],[68,77,"pl-c1"],[83,84,"pl-c1"]],[[12,17,"pl-k"],[39,42,"pl-c1"],[54,59,"pl-smi"],[60,64,"pl-smi"]],[[16,18,"pl-k"],[26,31,"pl-c1"],[38,44,"pl-smi"]],[[25,31,"pl-c1"],[38,44,"pl-smi"]],[],[],[],[[12,84,"pl-c"],[12,14,"pl-c"]],[[12,82,"pl-c"],[12,14,"pl-c"]],[[12,15,"pl-k"],[17,22,"pl-k"],[41,43,"pl-smi"],[45,48,"pl-smi"]],[[16,20,"pl-k"],[36,40,"pl-c1"],[46,53,"pl-smi"],[54,58,"pl-smi"]],[[16,18,"pl-k"],[36,39,"pl-c1"]],[[24,30,"pl-smi"],[31,40,"pl-c1"]],[],[],[],[],[],[[4,28,"pl-smi"],[31,36,"pl-c1"]],[[4,36,"pl-smi"],[39,44,"pl-c1"]],[],[[4,10,"pl-k"],[11,15,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,28,"pl-en"],[29,34,"pl-k"],[55,60,"pl-k"]],[],[[4,9,"pl-c1"],[31,106,"pl-c"],[31,33,"pl-c"]],[],[[4,7,"pl-k"],[27,28,"pl-c1"]],[[26,42,"pl-c1"]],[[4,6,"pl-k"],[30,38,"pl-c1"]],[[41,47,"pl-c1"],[60,67,"pl-smi"],[70,71,"pl-c1"]],[],[[4,70,"pl-c"],[4,6,"pl-c"]],[[4,73,"pl-c"],[4,6,"pl-c"]],[[4,79,"pl-c"],[4,6,"pl-c"]],[[4,12,"pl-c"],[4,6,"pl-c"]],[[4,6,"pl-k"],[28,29,"pl-c1"]],[[8,14,"pl-k"]],[],[[4,59,"pl-c"],[4,6,"pl-c"]],[[16,21,"pl-smi"],[33,37,"pl-s"],[33,34,"pl-pds"],[36,37,"pl-pds"],[39,44,"pl-c1"]],[],[],[],[],[[9,15,"pl-c1"]],[],[[4,9,"pl-k"],[17,22,"pl-c1"]],[[28,33,"pl-c1"]],[[13,18,"pl-c1"]],[[13,19,"pl-c1"]],[[8,12,"pl-k"],[28,32,"pl-c1"]],[[8,14,"pl-c1"],[31,34,"pl-c1"]],[[29,35,"pl-smi"]],[[8,11,"pl-k"],[33,52,"pl-c1"]],[[8,10,"pl-k"]],[[12,71,"pl-c"],[12,14,"pl-c"]],[[12,62,"pl-c"],[12,14,"pl-c"]],[[16,22,"pl-smi"],[26,27,"pl-c1"]],[[16,25,"pl-smi"]],[[16,25,"pl-c1"]],[[18,25,"pl-c1"]],[[12,111,"pl-c"],[12,14,"pl-c"]],[[56,67,"pl-c1"],[68,77,"pl-c1"],[83,84,"pl-c1"]],[[12,17,"pl-k"],[39,42,"pl-c1"],[54,59,"pl-smi"],[60,64,"pl-smi"]],[[16,18,"pl-k"],[26,31,"pl-c1"],[38,44,"pl-smi"]],[[25,31,"pl-c1"],[38,44,"pl-smi"]],[],[],[],[[12,84,"pl-c"],[12,14,"pl-c"]],[[12,82,"pl-c"],[12,14,"pl-c"]],[[12,15,"pl-k"],[17,22,"pl-k"],[41,43,"pl-smi"],[45,48,"pl-smi"]],[[16,20,"pl-k"],[36,40,"pl-c1"],[46,53,"pl-smi"],[54,58,"pl-smi"]],[[16,18,"pl-k"],[36,39,"pl-c1"]],[[24,30,"pl-smi"],[31,40,"pl-c1"]],[],[],[],[],[],[[4,28,"pl-smi"],[31,36,"pl-c1"]],[[4,36,"pl-smi"],[39,44,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,29,"pl-en"],[30,35,"pl-k"],[58,63,"pl-k"],[85,88,"pl-k"],[101,105,"pl-k"]],[],[[4,9,"pl-k"]],[],[[4,6,"pl-k"],[9,33,"pl-c1"],[59,63,"pl-c1"]],[[8,14,"pl-k"],[16,34,"pl-c"],[16,18,"pl-c"]],[],[[4,76,"pl-c"],[4,6,"pl-c"]],[[4,63,"pl-c"],[4,6,"pl-c"]],[[4,24,"pl-c"],[4,6,"pl-c"]],[[4,7,"pl-k"],[9,14,"pl-k"],[32,35,"pl-smi"]],[[8,12,"pl-k"],[28,32,"pl-c1"],[38,45,"pl-smi"],[46,50,"pl-smi"]],[[8,10,"pl-k"],[28,31,"pl-c1"]],[[16,22,"pl-smi"],[23,32,"pl-c1"]],[],[],[],[[4,28,"pl-smi"],[31,36,"pl-c1"]],[[4,36,"pl-smi"],[39,44,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,39,"pl-en"],[40,45,"pl-k"],[68,75,"pl-c1"]],[],[[4,9,"pl-c1"]],[[4,19,"pl-c1"]],[],[[4,8,"pl-k"],[24,28,"pl-c1"],[34,41,"pl-c1"]],[[4,6,"pl-k"],[24,27,"pl-c1"]],[[12,18,"pl-smi"],[19,29,"pl-smi"],[32,36,"pl-c1"]],[],[],[],[[0,4,"pl-k"],[5,43,"pl-en"],[44,49,"pl-k"]],[],[[4,6,"pl-k"]],[[8,12,"pl-c1"]],[[8,12,"pl-k"],[28,32,"pl-c1"],[38,45,"pl-c1"]],[[8,10,"pl-k"],[28,31,"pl-c1"]],[[16,22,"pl-smi"],[23,33,"pl-smi"],[36,41,"pl-c1"]],[],[],[],[],[[0,4,"pl-k"],[5,28,"pl-en"],[29,34,"pl-k"],[51,56,"pl-k"],[74,79,"pl-k"],[101,106,"pl-k"]],[],[[4,9,"pl-c1"]],[[4,73,"pl-c"],[4,6,"pl-c"]],[[4,72,"pl-c"],[4,6,"pl-c"]],[[4,71,"pl-c"],[4,6,"pl-c"]],[[4,71,"pl-c"],[4,6,"pl-c"]],[[4,74,"pl-c"],[4,6,"pl-c"]],[[4,73,"pl-c"],[4,6,"pl-c"]],[[4,68,"pl-c"],[4,6,"pl-c"]],[],[[4,7,"pl-k"],[9,14,"pl-k"]],[[8,23,"pl-c1"]],[[8,73,"pl-c"],[8,10,"pl-c"]],[[8,37,"pl-c1"]],[],[[4,7,"pl-k"],[9,15,"pl-c1"],[20,21,"pl-c1"],[35,38,"pl-smi"],[39,43,"pl-c1"]],[[8,23,"pl-c1"],[32,35,"pl-smi"]],[[8,73,"pl-c"],[8,10,"pl-c"]],[[8,37,"pl-c1"],[46,49,"pl-smi"]],[],[],[],[],[[4,68,"pl-c"],[4,6,"pl-c"]],[[4,61,"pl-c"],[4,6,"pl-c"]],[[4,63,"pl-c"],[4,6,"pl-c"]],[[4,23,"pl-c"],[4,6,"pl-c"]],[[4,6,"pl-k"],[29,35,"pl-c1"]],[[8,70,"pl-c"],[8,10,"pl-c"]],[[8,50,"pl-c"],[8,10,"pl-c"]],[[8,70,"pl-c"],[8,10,"pl-c"]],[[8,69,"pl-c"],[8,10,"pl-c"]],[[8,69,"pl-c"],[8,10,"pl-c"]],[[8,10,"pl-k"],[20,25,"pl-smi"]],[[12,15,"pl-k"],[17,22,"pl-k"],[33,38,"pl-k"]],[[16,18,"pl-k"],[22,28,"pl-smi"],[29,39,"pl-c1"],[47,53,"pl-smi"],[54,63,"pl-smi"],[75,80,"pl-smi"],[82,94,"pl-c1"]],[[20,44,"pl-c1"],[45,49,"pl-c1"],[53,58,"pl-smi"]],[[20,25,"pl-k"]],[],[],[],[[6,10,"pl-k"]],[[68,72,"pl-c1"]],[[8,10,"pl-k"],[28,31,"pl-c1"]],[[12,36,"pl-c1"],[37,41,"pl-c1"]],[],[],[],[[35,38,"pl-smi"],[39,40,"pl-c1"],[43,50,"pl-c1"]],[],[[4,69,"pl-c"],[4,6,"pl-c"]],[[4,28,"pl-smi"],[31,36,"pl-c1"]],[[4,36,"pl-smi"],[39,44,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,31,"pl-en"],[32,37,"pl-k"],[54,59,"pl-k"],[77,82,"pl-k"]],[],[[4,9,"pl-c1"]],[],[[4,7,"pl-k"],[9,14,"pl-k"],[46,49,"pl-smi"]],[[8,40,"pl-c"],[8,10,"pl-c"]],[[8,23,"pl-c1"]],[],[],[[4,67,"pl-c"],[4,6,"pl-c"]],[[4,28,"pl-smi"],[31,36,"pl-c1"]],[[4,36,"pl-smi"],[39,44,"pl-c1"]],[],[],[],[[0,4,"pl-k"],[5,44,"pl-en"]],[],[[4,21,"pl-c1"]],[[4,21,"pl-c1"]],[],[],[[8,72,"pl-c"],[8,10,"pl-c"]],[[8,31,"pl-c"],[8,10,"pl-c"]],[[8,77,"pl-c"],[8,10,"pl-c"]],[[8,76,"pl-c"],[8,10,"pl-c"]],[[8,78,"pl-c"],[8,10,"pl-c"]],[[8,12,"pl-c1"]],[[8,13,"pl-k"],[57,60,"pl-c1"]],[],[[8,10,"pl-k"],[62,73,"pl-c1"],[91,98,"pl-smi"]],[[12,18,"pl-k"]],[],[],[],[[4,77,"pl-c"],[4,6,"pl-c"]],[[4,79,"pl-c"],[4,6,"pl-c"]],[[4,56,"pl-c"],[4,6,"pl-c"]],[[4,36,"pl-c1"]],[],[],[],[[11,26,"pl-en"],[27,32,"pl-k"],[46,51,"pl-k"]],[],[],[[8,12,"pl-c1"]],[[68,72,"pl-c1"],[78,85,"pl-smi"],[86,90,"pl-smi"]],[[8,10,"pl-k"],[28,31,"pl-c1"]],[[12,17,"pl-k"],[42,48,"pl-smi"]],[[12,14,"pl-k"],[21,28,"pl-smi"],[29,30,"pl-smi"],[38,40,"pl-smi"],[42,46,"pl-smi"],[47,51,"pl-c1"]],[[16,22,"pl-k"],[23,29,"pl-c1"],[35,37,"pl-smi"],[39,43,"pl-smi"],[49,56,"pl-smi"],[57,58,"pl-smi"]],[],[],[[4,10,"pl-k"]],[],[],[[0,72,"pl-c"],[0,2,"pl-c"]],[[0,55,"pl-c"],[0,2,"pl-c"]],[[8,25,"pl-en"],[26,31,"pl-k"],[45,50,"pl-k"],[98,103,"pl-k"]],[],[],[[8,12,"pl-c1"]],[[68,72,"pl-c1"],[78,85,"pl-smi"],[86,90,"pl-smi"]],[[8,10,"pl-k"],[28,31,"pl-c1"]],[[12,17,"pl-k"],[42,48,"pl-smi"]],[[12,14,"pl-k"],[21,28,"pl-smi"],[29,30,"pl-smi"],[38,40,"pl-smi"],[42,46,"pl-smi"],[47,51,"pl-c1"]],[[43,49,"pl-c1"],[55,57,"pl-smi"],[59,63,"pl-smi"],[69,76,"pl-smi"],[77,78,"pl-smi"]],[[16,18,"pl-k"]],[[20,22,"pl-k"]],[[20,26,"pl-k"],[32,34,"pl-smi"],[36,40,"pl-smi"],[46,53,"pl-smi"],[54,55,"pl-smi"],[57,63,"pl-smi"]],[],[],[],[],[[4,10,"pl-k"],[11,12,"pl-c1"]],[],[],[[0,103,"pl-c"],[0,2,"pl-c"]],[[0,3,"pl-k"],[4,42,"pl-en"],[43,48,"pl-k"],[70,73,"pl-k"],[83,88,"pl-k"]],[],[[4,8,"pl-c1"]],[],[[4,9,"pl-k"],[10,13,"pl-k"],[49,88,"pl-c1"]],[],[[4,6,"pl-k"]],[[8,50,"pl-c"],[8,10,"pl-c"]],[[8,14,"pl-k"],[28,29,"pl-c1"]],[],[],[[4,8,"pl-k"],[39,46,"pl-c1"],[58,60,"pl-c1"]],[[4,8,"pl-k"],[28,33,"pl-smi"],[35,41,"pl-smi"]],[[4,6,"pl-k"],[14,20,"pl-smi"]],[[8,60,"pl-c"],[8,10,"pl-c"]],[[8,14,"pl-k"]],[],[],[[4,92,"pl-c"],[4,6,"pl-c"]],[[4,9,"pl-k"],[27,38,"pl-c1"],[48,52,"pl-smi"]],[],[[4,6,"pl-k"],[15,22,"pl-c1"],[31,33,"pl-smi"],[37,44,"pl-c1"]],[[8,36,"pl-c"],[8,10,"pl-c"]],[[23,24,"pl-c1"]],[[8,16,"pl-c1"],[34,60,"pl-s"],[34,35,"pl-pds"],[57,59,"pl-cce"],[59,60,"pl-pds"],[81,94,"pl-c1"],[99,100,"pl-c1"]],[[8,14,"pl-k"]],[],[],[[4,19,"pl-c"],[4,6,"pl-c"]],[[4,6,"pl-k"],[17,18,"pl-smi"],[27,29,"pl-smi"],[31,35,"pl-smi"],[36,40,"pl-c1"]],[[8,41,"pl-c"],[8,10,"pl-c"]],[[23,24,"pl-c1"]],[[8,16,"pl-c1"],[34,60,"pl-s"],[34,35,"pl-pds"],[57,59,"pl-cce"],[59,60,"pl-pds"],[81,94,"pl-c1"],[99,100,"pl-c1"]],[[8,14,"pl-k"]],[],[],[[4,8,"pl-k"],[26,28,"pl-smi"],[30,34,"pl-smi"],[44,45,"pl-smi"]],[],[[4,6,"pl-k"],[8,37,"pl-c1"],[48,54,"pl-smi"]],[[23,24,"pl-c1"]],[[8,16,"pl-c1"],[34,60,"pl-s"],[34,35,"pl-pds"],[57,59,"pl-cce"],[59,60,"pl-pds"],[81,94,"pl-c1"]],[[8,14,"pl-k"]],[],[],[[4,51,"pl-c"],[4,6,"pl-c"]],[[4,6,"pl-k"],[9,39,"pl-c1"],[50,56,"pl-smi"],[61,73,"pl-c"],[61,63,"pl-c"]],[[23,24,"pl-c1"]],[[8,16,"pl-c1"],[34,60,"pl-s"],[34,35,"pl-pds"],[57,59,"pl-cce"],[59,60,"pl-pds"],[81,94,"pl-c1"]],[[8,14,"pl-k"]],[],[],[[4,7,"pl-k"],[9,14,"pl-k"],[15,19,"pl-k"],[32,34,"pl-smi"],[36,40,"pl-smi"]],[[8,10,"pl-k"],[13,43,"pl-c1"],[48,54,"pl-smi"]],[[12,103,"pl-c"],[12,14,"pl-c"]],[[26,27,"pl-c1"]],[[12,20,"pl-c1"],[38,64,"pl-s"],[38,39,"pl-pds"],[61,63,"pl-cce"],[63,64,"pl-pds"],[85,98,"pl-c1"]],[[12,18,"pl-k"]],[],[],[],[[4,7,"pl-k"],[21,23,"pl-c1"],[25,90,"pl-c"],[25,27,"pl-c"]],[[4,8,"pl-k"],[9,20,"pl-smi"],[23,28,"pl-c1"]],[[4,40,"pl-c"],[4,6,"pl-c"]],[[4,7,"pl-k"],[9,14,"pl-k"],[15,19,"pl-k"],[37,39,"pl-smi"],[41,44,"pl-smi"]],[[8,10,"pl-k"],[12,18,"pl-c1"]],[[12,15,"pl-k"],[20,49,"pl-c1"],[59,66,"pl-smi"],[78,79,"pl-c1"]],[[12,108,"pl-c"],[12,14,"pl-c"]],[[12,14,"pl-k"],[21,22,"pl-c1"],[58,60,"pl-c1"]],[],[[16,27,"pl-smi"],[30,34,"pl-c1"]],[],[],[],[[18,29,"pl-smi"]],[[51,52,"pl-c1"],[80,81,"pl-c1"],[83,158,"pl-c"],[83,85,"pl-c"]],[[24,25,"pl-c1"],[83,128,"pl-c"],[83,85,"pl-c"]],[[4,12,"pl-c1"],[30,56,"pl-s"],[30,31,"pl-pds"],[53,55,"pl-cce"],[55,56,"pl-pds"],[77,90,"pl-c1"]],[[4,10,"pl-k"]],[],[],[[0,27,"pl-c"],[0,2,"pl-c"]],[[0,3,"pl-k"],[4,44,"pl-en"],[45,50,"pl-k"],[72,77,"pl-k"]],[],[[4,8,"pl-c1"]],[[4,7,"pl-k"],[29,58,"pl-c1"]],[[4,10,"pl-k"],[32,65,"pl-c1"],[70,103,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,27,"pl-en"],[28,33,"pl-k"],[55,60,"pl-k"]],[],[[4,8,"pl-c1"]],[],[[4,9,"pl-k"],[10,14,"pl-k"],[30,34,"pl-c1"],[44,48,"pl-smi"]],[[4,6,"pl-k"],[24,27,"pl-c1"]],[[8,14,"pl-k"],[15,20,"pl-c1"]],[],[],[[4,6,"pl-k"],[17,18,"pl-smi"],[26,32,"pl-smi"],[33,35,"pl-smi"],[37,41,"pl-smi"],[42,46,"pl-c1"]],[[8,14,"pl-k"],[15,20,"pl-c1"]],[],[],[[4,10,"pl-k"],[11,41,"pl-c1"],[46,52,"pl-smi"],[53,55,"pl-smi"],[57,61,"pl-smi"],[71,72,"pl-smi"],[74,80,"pl-smi"]],[],[],[[0,4,"pl-k"],[5,26,"pl-en"],[27,32,"pl-k"],[54,59,"pl-k"]],[],[[4,7,"pl-k"],[18,47,"pl-c1"]],[[4,46,"pl-c"],[4,6,"pl-c"]],[[4,6,"pl-k"],[18,51,"pl-c1"],[55,61,"pl-k"],[62,67,"pl-c1"]],[],[[4,64,"pl-c"],[4,6,"pl-c"]],[[4,70,"pl-c"],[4,6,"pl-c"]],[[4,91,"pl-c"],[4,6,"pl-c"]],[[4,99,"pl-c"],[4,6,"pl-c"]],[[4,6,"pl-k"],[18,51,"pl-c1"],[56,95,"pl-c1"]],[[20,22,"pl-smi"]],[],[],[[8,15,"pl-c1"],[18,23,"pl-c1"],[25,30,"pl-k"],[31,39,"pl-k"],[40,44,"pl-k"],[49,53,"pl-c1"],[60,64,"pl-c1"],[68,76,"pl-c1"],[83,88,"pl-c1"]],[[8,10,"pl-k"],[18,30,"pl-c1"],[35,36,"pl-c1"],[40,41,"pl-c1"]],[[12,18,"pl-k"],[19,24,"pl-c1"]],[],[],[],[[4,10,"pl-k"],[11,15,"pl-c1"]],[],[],[[11,26,"pl-en"],[27,32,"pl-k"],[48,53,"pl-k"]],[],[[4,10,"pl-k"],[13,19,"pl-c1"],[21,25,"pl-c1"],[33,45,"pl-smi"]],[],[],[[8,26,"pl-en"],[27,32,"pl-k"],[48,53,"pl-k"],[101,106,"pl-k"]],[],[[4,6,"pl-k"],[9,19,"pl-c1"],[26,32,"pl-smi"]],[[8,13,"pl-k"],[14,32,"pl-smi"],[33,44,"pl-c1"],[57,79,"pl-s"],[57,58,"pl-pds"],[78,79,"pl-pds"]],[[31,37,"pl-c1"]],[[4,6,"pl-k"]],[[8,10,"pl-k"]],[[8,14,"pl-k"],[21,27,"pl-smi"]],[],[[4,10,"pl-k"],[11,12,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,22,"pl-en"],[23,28,"pl-k"],[44,49,"pl-k"]],[],[[4,73,"pl-c"],[4,6,"pl-c"]],[[4,71,"pl-c"],[4,6,"pl-c"]],[[4,85,"pl-c"],[4,6,"pl-c"]],[[4,80,"pl-c"],[4,6,"pl-c"]],[[4,77,"pl-c"],[4,6,"pl-c"]],[[4,83,"pl-c"],[4,6,"pl-c"]],[[4,41,"pl-c"],[4,6,"pl-c"]],[[4,6,"pl-k"],[10,16,"pl-c1"],[18,22,"pl-c1"],[30,42,"pl-smi"]],[],[[8,10,"pl-k"],[13,31,"pl-c1"],[38,50,"pl-smi"]],[[12,18,"pl-k"],[19,23,"pl-c1"]],[],[[8,12,"pl-c1"]],[[8,10,"pl-k"],[28,33,"pl-c1"]],[[12,18,"pl-k"],[19,23,"pl-c1"]],[],[[4,10,"pl-k"],[11,16,"pl-c1"]],[],[],[[8,26,"pl-en"],[27,32,"pl-k"],[48,53,"pl-k"]],[],[[4,6,"pl-k"],[9,19,"pl-c1"],[26,32,"pl-smi"]],[[8,13,"pl-k"],[14,32,"pl-smi"],[33,44,"pl-c1"],[57,79,"pl-s"],[57,58,"pl-pds"],[78,79,"pl-pds"]],[[4,10,"pl-k"],[12,20,"pl-c1"],[36,42,"pl-smi"],[45,46,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,32,"pl-en"],[33,38,"pl-k"],[69,74,"pl-k"]],[],[],[],[[4,64,"pl-c"],[4,6,"pl-c"]],[[4,59,"pl-c"],[4,6,"pl-c"]],[[4,6,"pl-k"],[20,31,"pl-c1"],[74,78,"pl-c1"]],[[8,13,"pl-k"],[14,32,"pl-smi"],[33,44,"pl-c1"],[57,79,"pl-s"],[57,58,"pl-pds"],[78,79,"pl-pds"]],[],[],[[15,20,"pl-c1"]],[],[[4,6,"pl-k"],[9,25,"pl-c1"],[38,43,"pl-c1"]],[[8,13,"pl-k"],[14,32,"pl-smi"],[33,44,"pl-c1"],[57,84,"pl-s"],[57,58,"pl-pds"],[83,84,"pl-pds"]],[],[],[[4,6,"pl-k"],[9,19,"pl-c1"]],[[8,13,"pl-k"],[14,32,"pl-smi"],[33,44,"pl-c1"],[57,78,"pl-s"],[57,58,"pl-pds"],[77,78,"pl-pds"]],[],[],[],[[0,4,"pl-k"],[5,41,"pl-en"],[42,47,"pl-k"],[78,83,"pl-k"],[124,129,"pl-k"]],[],[[4,8,"pl-c1"]],[],[[4,6,"pl-k"],[9,18,"pl-c1"]],[[8,14,"pl-k"],[15,20,"pl-c1"]],[],[],[],[],[],[],[[4,64,"pl-c"],[4,6,"pl-c"]],[[4,59,"pl-c"],[4,6,"pl-c"]],[[4,6,"pl-k"],[20,31,"pl-c1"],[74,78,"pl-c1"]],[[8,13,"pl-k"],[14,32,"pl-smi"],[33,44,"pl-c1"],[57,79,"pl-s"],[57,58,"pl-pds"],[78,79,"pl-pds"]],[],[],[[15,20,"pl-c1"]],[],[[4,7,"pl-k"],[9,14,"pl-k"]],[[8,10,"pl-k"],[21,41,"pl-c1"],[77,83,"pl-smi"],[84,91,"pl-smi"],[104,110,"pl-smi"],[111,128,"pl-smi"],[141,147,"pl-smi"],[148,165,"pl-smi"]],[[12,18,"pl-k"],[19,24,"pl-c1"]],[],[[8,48,"pl-c"],[8,10,"pl-c"]],[[8,10,"pl-k"],[21,28,"pl-c1"],[40,46,"pl-smi"],[47,60,"pl-smi"]],[[12,20,"pl-k"],[22,47,"pl-c"],[22,24,"pl-c"]],[],[],[[8,12,"pl-k"],[19,33,"pl-c1"]],[[8,14,"pl-c1"]],[],[],[[14,24,"pl-c1"]],[[8,14,"pl-c1"]],[],[[8,11,"pl-c1"]],[[12,18,"pl-c1"],[19,72,"pl-s"],[19,20,"pl-pds"],[69,71,"pl-cce"],[71,72,"pl-pds"],[74,80,"pl-c1"],[92,99,"pl-c1"],[103,108,"pl-c1"]],[[12,18,"pl-c1"],[19,72,"pl-s"],[19,20,"pl-pds"],[69,71,"pl-cce"],[71,72,"pl-pds"],[74,80,"pl-c1"],[96,103,"pl-c1"],[107,112,"pl-c1"]],[],[[8,51,"pl-c"],[8,10,"pl-c"]],[[8,14,"pl-c1"],[26,31,"pl-c1"],[52,57,"pl-c1"]],[[8,14,"pl-c1"],[26,37,"pl-c1"],[58,69,"pl-c1"]],[],[[23,28,"pl-c1"]],[],[[8,10,"pl-k"],[12,35,"pl-c1"],[52,57,"pl-c1"]],[[12,16,"pl-c1"]],[[12,14,"pl-k"],[17,23,"pl-c1"]],[[16,43,"pl-c"],[16,18,"pl-c"]],[[16,21,"pl-k"],[22,40,"pl-smi"],[41,52,"pl-c1"],[65,82,"pl-s"],[65,66,"pl-pds"],[81,82,"pl-pds"]],[],[[12,14,"pl-k"],[17,27,"pl-c1"]],[[16,21,"pl-k"],[22,40,"pl-smi"],[41,52,"pl-c1"],[65,86,"pl-s"],[65,66,"pl-pds"],[85,86,"pl-pds"]],[],[[12,16,"pl-c1"]],[[12,18,"pl-k"],[19,23,"pl-c1"]],[],[],[],[[4,10,"pl-k"],[11,16,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,24,"pl-en"],[45,50,"pl-k"],[68,72,"pl-k"]],[],[[4,8,"pl-c1"]],[],[[4,6,"pl-k"],[9,36,"pl-c1"]],[[8,14,"pl-k"],[15,20,"pl-c1"]],[],[[4,6,"pl-k"],[27,39,"pl-c1"]],[[8,13,"pl-k"],[14,32,"pl-smi"],[33,44,"pl-c1"],[57,80,"pl-s"],[57,58,"pl-pds"],[79,80,"pl-pds"]],[],[[4,10,"pl-k"],[11,15,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,31,"pl-en"],[52,57,"pl-k"],[75,79,"pl-k"]],[],[[4,8,"pl-c1"]],[],[[4,6,"pl-k"],[9,43,"pl-c1"]],[[8,14,"pl-k"],[15,20,"pl-c1"]],[],[[4,6,"pl-k"]],[[8,10,"pl-k"]],[[12,14,"pl-k"],[34,53,"pl-c1"]],[[16,21,"pl-k"],[22,40,"pl-smi"],[41,52,"pl-c1"],[65,95,"pl-s"],[65,66,"pl-pds"],[94,95,"pl-pds"]],[[10,14,"pl-k"]],[[12,14,"pl-k"],[23,42,"pl-c1"]],[[16,21,"pl-k"],[22,40,"pl-smi"],[41,52,"pl-c1"],[65,95,"pl-s"],[65,66,"pl-pds"],[94,95,"pl-pds"]],[],[],[],[[4,10,"pl-k"],[11,15,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,30,"pl-en"],[31,36,"pl-k"],[54,58,"pl-k"]],[],[[16,21,"pl-smi"]],[[4,10,"pl-k"],[11,21,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,37,"pl-en"],[38,43,"pl-k"],[61,65,"pl-k"]],[],[[16,21,"pl-smi"]],[[4,10,"pl-k"],[11,28,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,33,"pl-en"]],[],[[4,8,"pl-c1"]],[],[],[[4,6,"pl-k"],[9,19,"pl-c1"]],[[8,14,"pl-k"],[15,20,"pl-c1"]],[],[],[[4,6,"pl-k"],[9,23,"pl-c1"]],[[8,14,"pl-k"],[15,20,"pl-c1"]],[],[[4,40,"pl-c"],[4,6,"pl-c"]],[[4,6,"pl-k"],[19,24,"pl-c1"],[41,52,"pl-c1"]],[[8,14,"pl-k"],[15,20,"pl-c1"]],[],[],[],[[4,10,"pl-k"],[11,15,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,25,"pl-en"],[28,33,"pl-k"]],[],[],[[4,10,"pl-k"],[11,21,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,20,"pl-en"],[21,26,"pl-k"],[45,50,"pl-k"]],[],[[4,7,"pl-k"],[9,14,"pl-k"],[34,38,"pl-smi"]],[[8,10,"pl-k"],[12,18,"pl-c1"]],[[12,18,"pl-k"],[19,23,"pl-c1"]],[[4,10,"pl-k"],[11,16,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,22,"pl-en"],[23,28,"pl-k"],[47,52,"pl-k"]],[],[[4,10,"pl-k"],[12,20,"pl-c1"],[39,40,"pl-c1"]],[],[],[[8,25,"pl-en"],[26,31,"pl-k"],[50,55,"pl-k"],[103,108,"pl-k"]],[],[[21,22,"pl-c1"]],[[4,7,"pl-k"],[9,14,"pl-k"],[32,35,"pl-smi"]],[[18,26,"pl-c1"]],[[8,10,"pl-k"],[13,23,"pl-c1"]],[[12,17,"pl-k"],[18,36,"pl-smi"],[37,48,"pl-c1"],[61,83,"pl-s"],[61,62,"pl-pds"],[82,83,"pl-pds"]],[],[[4,10,"pl-k"]],[],[],[[0,4,"pl-k"],[5,25,"pl-en"],[26,31,"pl-k"],[50,55,"pl-k"],[78,83,"pl-k"]],[],[[4,8,"pl-c1"]],[],[[4,7,"pl-k"],[9,14,"pl-k"],[32,35,"pl-smi"]],[[8,12,"pl-k"],[28,32,"pl-c1"],[38,45,"pl-smi"],[46,50,"pl-smi"]],[[8,10,"pl-k"],[28,31,"pl-c1"]],[[12,18,"pl-k"],[19,24,"pl-c1"],[26,64,"pl-c"],[26,28,"pl-c"]],[],[[8,13,"pl-k"],[38,44,"pl-smi"]],[],[[8,10,"pl-k"],[17,24,"pl-smi"],[25,26,"pl-smi"],[35,37,"pl-smi"],[39,43,"pl-smi"],[44,48,"pl-c1"]],[[12,18,"pl-k"],[19,24,"pl-c1"],[26,43,"pl-c"],[26,28,"pl-c"]],[],[[8,10,"pl-k"],[14,20,"pl-c1"],[26,28,"pl-smi"],[30,34,"pl-smi"],[40,47,"pl-smi"],[48,49,"pl-smi"]],[[12,18,"pl-k"],[19,24,"pl-c1"]],[],[[4,10,"pl-k"],[11,15,"pl-c1"]],[],[],[[8,26,"pl-en"],[27,32,"pl-k"],[51,56,"pl-k"],[104,109,"pl-k"]],[],[[22,23,"pl-c1"]],[[4,7,"pl-k"],[9,14,"pl-k"],[34,38,"pl-smi"]],[[19,28,"pl-c1"]],[[8,10,"pl-k"],[13,23,"pl-c1"]],[[12,17,"pl-k"],[18,36,"pl-smi"],[37,48,"pl-c1"],[61,83,"pl-s"],[61,62,"pl-pds"],[82,83,"pl-pds"]],[],[[4,10,"pl-k"]],[],[],[[8,26,"pl-en"],[27,32,"pl-k"],[51,56,"pl-k"]],[],[[22,23,"pl-c1"]],[[4,7,"pl-k"],[9,14,"pl-k"],[34,38,"pl-smi"]],[[19,28,"pl-c1"]],[[8,10,"pl-k"],[13,23,"pl-c1"]],[[12,17,"pl-k"],[18,36,"pl-smi"],[37,48,"pl-c1"],[61,83,"pl-s"],[61,62,"pl-pds"],[82,83,"pl-pds"]],[],[[4,10,"pl-k"]],[],[],[[0,7,"pl-c1"],[8,28,"pl-en"],[31,36,"pl-k"]],[],[[4,11,"pl-c1"]],[[4,10,"pl-k"]],[],[],[[0,4,"pl-k"],[5,33,"pl-en"],[34,42,"pl-k"],[43,46,"pl-k"],[60,65,"pl-k"]],[],[[4,8,"pl-k"]],[[4,6,"pl-k"],[12,17,"pl-smi"]],[],[[8,10,"pl-k"],[12,24,"pl-c1"],[29,42,"pl-smi"]],[[12,15,"pl-k"],[27,46,"pl-c1"]],[[12,19,"pl-c1"],[40,55,"pl-c1"]],[[12,20,"pl-c1"],[37,56,"pl-c1"]],[[12,119,"pl-c"],[12,14,"pl-c"]],[[12,14,"pl-k"],[32,33,"pl-c1"]],[[12,14,"pl-k"],[25,40,"pl-smi"]],[[16,20,"pl-k"],[46,54,"pl-smi"],[58,59,"pl-c1"],[84,92,"pl-smi"]],[[16,20,"pl-k"],[45,53,"pl-smi"],[57,58,"pl-c1"],[108,116,"pl-smi"]],[],[[14,18,"pl-k"]],[[34,38,"pl-c1"]],[],[[10,14,"pl-k"]],[[30,35,"pl-c1"]],[],[[6,10,"pl-k"]],[[26,30,"pl-c1"]],[],[],[[4,10,"pl-k"]],[],[],[[0,65,"pl-c"],[0,2,"pl-c"]],[[0,4,"pl-k"],[5,28,"pl-en"],[43,48,"pl-k"],[64,69,"pl-k"]],[],[[4,52,"pl-c"],[4,6,"pl-c"]],[[4,9,"pl-k"],[40,52,"pl-smi"]],[],[],[[4,6,"pl-k"],[9,25,"pl-c1"],[26,47,"pl-c1"],[48,52,"pl-c1"]],[[8,14,"pl-k"],[15,20,"pl-c1"]],[[6,10,"pl-k"]],[[8,19,"pl-c1"]],[],[[4,10,"pl-k"],[11,15,"pl-c1"]],[],[],[[0,75,"pl-c"],[0,2,"pl-c"]],[[0,4,"pl-k"],[5,25,"pl-en"],[54,59,"pl-k"],[89,94,"pl-k"]],[],[[4,52,"pl-c"],[4,6,"pl-c"]],[[4,7,"pl-k"],[14,15,"pl-c1"]],[[4,7,"pl-k"],[9,14,"pl-k"],[15,19,"pl-k"]],[[8,10,"pl-k"],[13,27,"pl-c1"],[34,37,"pl-smi"]],[[12,18,"pl-k"],[19,24,"pl-c1"]],[],[],[],[],[[4,10,"pl-k"],[11,15,"pl-c1"]],[],[],[[0,7,"pl-c1"],[8,36,"pl-en"],[37,42,"pl-k"],[61,66,"pl-k"]],[],[],[[4,80,"pl-c"],[4,6,"pl-c"]],[[4,77,"pl-c"],[4,6,"pl-c"]],[[4,79,"pl-c"],[4,6,"pl-c"]],[[4,7,"pl-k"],[9,13,"pl-k"],[26,29,"pl-smi"]],[[8,13,"pl-k"],[14,18,"pl-k"],[32,41,"pl-smi"],[42,46,"pl-c1"],[53,60,"pl-smi"],[61,65,"pl-smi"]],[[8,10,"pl-k"],[26,35,"pl-smi"],[36,39,"pl-c1"]],[[12,18,"pl-k"],[20,21,"pl-c1"]],[],[[8,14,"pl-c1"],[21,28,"pl-smi"],[29,30,"pl-smi"],[37,43,"pl-smi"],[44,46,"pl-smi"],[48,52,"pl-smi"],[53,57,"pl-c1"]],[[15,27,"pl-c1"],[32,38,"pl-smi"],[39,41,"pl-smi"],[43,47,"pl-smi"],[54,61,"pl-smi"],[62,63,"pl-smi"]],[],[[4,10,"pl-k"],[11,39,"pl-c1"]],[],[],[[0,44,"pl-c"],[0,2,"pl-c"]],[[0,7,"pl-c1"],[8,36,"pl-en"],[37,42,"pl-k"],[61,66,"pl-k"],[84,89,"pl-k"]],[],[[24,29,"pl-smi"]],[[4,6,"pl-k"],[17,28,"pl-c1"]],[[8,74,"pl-c"],[8,10,"pl-c"]],[[8,52,"pl-c"],[8,10,"pl-c"]],[[8,14,"pl-k"],[16,17,"pl-c1"]],[],[[4,10,"pl-k"],[13,29,"pl-c1"]],[],[],[[0,3,"pl-k"],[4,35,"pl-en"],[36,41,"pl-k"],[57,62,"pl-k"]],[],[],[[8,11,"pl-smi"],[12,21,"pl-c1"],[22,27,"pl-c1"],[28,37,"pl-c1"]],[[4,6,"pl-k"],[17,31,"pl-c1"],[36,39,"pl-smi"],[40,41,"pl-c1"]],[[8,74,"pl-c"],[8,10,"pl-c"]],[[8,52,"pl-c"],[8,10,"pl-c"]],[[8,14,"pl-k"],[16,17,"pl-c1"]],[],[[4,10,"pl-k"],[13,29,"pl-c1"],[34,37,"pl-smi"],[38,39,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,26,"pl-en"]],[],[],[],[[4,9,"pl-k"],[32,37,"pl-k"]],[],[[11,12,"pl-c1"]],[[17,22,"pl-c1"]],[[13,18,"pl-c1"]],[],[],[[4,19,"pl-c"],[4,6,"pl-c"]],[[21,29,"pl-c1"]],[[4,6,"pl-k"],[17,18,"pl-c1"],[20,68,"pl-c"],[20,22,"pl-c"]],[],[[32,43,"pl-c1"]],[],[],[],[[4,21,"pl-c"],[4,6,"pl-c"]],[[4,7,"pl-k"],[9,17,"pl-k"],[18,21,"pl-k"],[26,27,"pl-c1"],[37,41,"pl-smi"],[42,46,"pl-c1"]],[[8,13,"pl-k"],[34,38,"pl-smi"]],[[19,26,"pl-smi"],[38,44,"pl-c1"]],[[8,71,"pl-c"],[8,10,"pl-c"]],[[8,41,"pl-c"],[8,10,"pl-c"]],[[8,46,"pl-c"],[8,10,"pl-c"]],[[8,10,"pl-k"],[21,22,"pl-c1"]],[[12,43,"pl-c"],[12,14,"pl-c"]],[[12,14,"pl-k"],[25,33,"pl-c1"]],[[16,24,"pl-k"]],[[10,14,"pl-k"],[15,17,"pl-k"],[21,28,"pl-smi"]],[[12,20,"pl-k"]],[],[[8,65,"pl-c"],[8,10,"pl-c"]],[],[],[[8,10,"pl-k"],[13,31,"pl-c1"],[38,50,"pl-smi"],[71,83,"pl-smi"],[84,97,"pl-c1"]],[[12,21,"pl-c1"],[22,88,"pl-s"],[22,23,"pl-pds"],[85,87,"pl-cce"],[87,88,"pl-pds"]],[[16,20,"pl-c1"],[22,29,"pl-c1"],[32,40,"pl-c1"]],[[22,36,"pl-c1"]],[],[],[[46,52,"pl-smi"],[55,58,"pl-k"]],[],[[8,81,"pl-c"],[8,10,"pl-c"]],[[8,10,"pl-k"],[21,22,"pl-c1"]],[[21,30,"pl-c1"]],[],[[8,71,"pl-c"],[8,10,"pl-c"]],[[8,10,"pl-k"],[12,19,"pl-smi"]],[[25,34,"pl-c1"]],[],[],[],[[0,3,"pl-c"],[0,2,"pl-c"]],[[0,80,"pl-c"]],[[0,75,"pl-c"]],[[0,17,"pl-c"]],[[0,2,"pl-c"]],[[0,80,"pl-c"]],[[0,79,"pl-c"]],[[0,3,"pl-c"],[1,3,"pl-c"]],[[0,7,"pl-c1"],[8,31,"pl-en"],[32,39,"pl-c1"],[51,56,"pl-k"],[89,93,"pl-k"]],[],[[4,74,"pl-c"],[4,6,"pl-c"]],[[4,78,"pl-c"],[4,6,"pl-c"]],[[4,21,"pl-c"],[4,6,"pl-c"]],[[30,37,"pl-c1"]],[],[[8,12,"pl-c1"]],[[33,52,"pl-c1"]],[[8,17,"pl-c1"],[18,51,"pl-s"],[18,19,"pl-pds"],[48,50,"pl-cce"],[50,51,"pl-pds"],[88,94,"pl-c1"],[111,118,"pl-smi"],[121,122,"pl-c1"],[125,126,"pl-c1"]],[],[],[[4,6,"pl-k"]],[[8,13,"pl-k"],[27,32,"pl-k"],[47,72,"pl-c1"],[85,92,"pl-c1"]],[[8,10,"pl-k"]],[[12,18,"pl-k"],[32,47,"pl-c1"],[71,72,"pl-c1"]],[],[],[[4,10,"pl-k"]],[],[],[[0,3,"pl-c"],[0,2,"pl-c"]],[[0,66,"pl-c"]],[[0,69,"pl-c"]],[[0,39,"pl-c"]],[[0,2,"pl-c"]],[[0,79,"pl-c"]],[[0,78,"pl-c"]],[[0,35,"pl-c"]],[[0,2,"pl-c"]],[[0,72,"pl-c"]],[[0,24,"pl-c"]],[[0,2,"pl-c"]],[[0,77,"pl-c"]],[[0,74,"pl-c"]],[[0,20,"pl-c"]],[[0,3,"pl-c"],[1,3,"pl-c"]],[[13,47,"pl-en"],[99,104,"pl-k"],[137,141,"pl-k"],[142,149,"pl-smi"]],[],[[4,11,"pl-c1"],[19,26,"pl-c1"]],[[4,9,"pl-k"],[38,44,"pl-c1"]],[],[[4,10,"pl-c1"],[20,30,"pl-c1"]],[[4,6,"pl-k"]],[[8,14,"pl-c1"],[27,34,"pl-smi"],[51,58,"pl-smi"]],[],[],[],[[23,30,"pl-c1"]],[],[[4,6,"pl-k"],[16,25,"pl-c1"],[26,61,"pl-s"],[26,27,"pl-pds"],[58,60,"pl-cce"],[60,61,"pl-pds"],[71,78,"pl-smi"]],[],[],[[8,20,"pl-smi"],[23,28,"pl-c1"]],[[8,20,"pl-c1"],[21,22,"pl-c1"],[23,38,"pl-s"],[23,24,"pl-pds"],[37,38,"pl-pds"],[41,42,"pl-c1"],[45,127,"pl-c"],[45,47,"pl-c"]],[[27,34,"pl-c1"]],[[8,14,"pl-k"]],[[8,14,"pl-k"]],[],[[12,16,"pl-c1"]],[[29,54,"pl-c1"],[67,73,"pl-c1"]],[[12,14,"pl-k"],[30,37,"pl-c1"]],[[34,37,"pl-c1"]],[[31,56,"pl-c1"],[69,75,"pl-c1"]],[[14,18,"pl-k"]],[[31,56,"pl-c1"],[69,75,"pl-c1"]],[],[],[[8,14,"pl-k"]],[[8,13,"pl-k"],[26,38,"pl-smi"],[43,60,"pl-c1"]],[],[[12,14,"pl-k"],[24,31,"pl-smi"],[34,37,"pl-c1"],[41,42,"pl-c1"],[78,81,"pl-c1"]],[[16,28,"pl-c1"],[29,30,"pl-c1"],[31,46,"pl-s"],[31,32,"pl-pds"],[45,46,"pl-pds"],[49,57,"pl-c1"],[58,59,"pl-c1"],[61,69,"pl-c1"],[70,72,"pl-c1"],[75,78,"pl-k"],[102,105,"pl-c1"]],[],[[12,14,"pl-k"],[16,23,"pl-c1"],[36,38,"pl-c1"]],[[23,30,"pl-c1"]],[[16,25,"pl-c1"],[26,72,"pl-s"],[26,27,"pl-pds"],[69,71,"pl-cce"],[71,72,"pl-pds"],[82,89,"pl-smi"]],[],[],[],[[12,14,"pl-k"],[16,33,"pl-c1"],[49,55,"pl-c1"],[58,70,"pl-c1"]],[[16,21,"pl-c1"]],[[16,18,"pl-k"],[43,51,"pl-c1"]],[[20,82,"pl-c"],[20,22,"pl-c"]],[[20,75,"pl-c"],[20,22,"pl-c"]],[],[[20,25,"pl-k"]],[],[[16,19,"pl-k"],[21,27,"pl-c1"],[41,42,"pl-c1"],[63,66,"pl-smi"],[67,71,"pl-c1"]],[[20,44,"pl-c1"],[51,54,"pl-smi"],[88,95,"pl-smi"],[97,101,"pl-c1"]],[],[[14,18,"pl-k"]],[],[],[[12,14,"pl-k"]],[[16,21,"pl-k"]],[],[],[[16,20,"pl-c1"]],[[37,41,"pl-c1"]],[[35,60,"pl-c1"],[73,79,"pl-c1"]],[[16,18,"pl-k"],[34,41,"pl-c1"],[64,67,"pl-c1"]],[[38,41,"pl-c1"]],[[20,71,"pl-c"],[20,22,"pl-c"]],[[35,60,"pl-c1"],[73,79,"pl-c1"]],[],[],[],[[8,10,"pl-k"],[22,34,"pl-smi"]],[[12,21,"pl-c1"],[22,65,"pl-s"],[22,23,"pl-pds"],[62,64,"pl-cce"],[64,65,"pl-pds"],[75,82,"pl-smi"]],[[10,14,"pl-k"],[15,17,"pl-k"],[29,46,"pl-c1"]],[[12,21,"pl-c1"],[22,89,"pl-s"],[22,23,"pl-pds"],[86,88,"pl-cce"],[88,89,"pl-pds"],[99,106,"pl-smi"]],[],[[8,20,"pl-c1"],[21,22,"pl-c1"],[23,38,"pl-s"],[23,24,"pl-pds"],[37,38,"pl-pds"],[41,44,"pl-c1"],[47,77,"pl-c"],[47,49,"pl-c"]],[],[[4,10,"pl-k"]],[],[],[[0,4,"pl-k"],[5,40,"pl-en"]],[],[[4,89,"pl-c"],[4,6,"pl-c"]],[[4,6,"pl-k"],[9,31,"pl-smi"]],[[8,14,"pl-k"]],[[4,9,"pl-c1"],[27,29,"pl-smi"]],[[4,8,"pl-c1"]],[[13,20,"pl-c1"]],[],[[4,85,"pl-c"],[4,6,"pl-c"]],[[4,7,"pl-k"],[19,24,"pl-k"]],[[8,13,"pl-k"],[36,41,"pl-smi"]],[[30,36,"pl-smi"]],[[8,14,"pl-c1"],[19,26,"pl-c1"]],[],[[8,11,"pl-k"],[25,44,"pl-c1"]],[],[[8,10,"pl-k"],[17,27,"pl-c1"],[44,45,"pl-c1"],[54,75,"pl-c1"],[86,97,"pl-c1"]],[[22,28,"pl-c1"],[29,43,"pl-c1"],[48,57,"pl-smi"]],[],[],[],[[4,52,"pl-c"],[4,6,"pl-c"]],[[4,7,"pl-k"],[19,24,"pl-k"],[25,32,"pl-c1"]],[[32,38,"pl-smi"]],[],[[12,30,"pl-c1"]],[],[],[],[[0,4,"pl-k"],[5,38,"pl-en"]],[],[[4,10,"pl-c1"],[20,44,"pl-c1"]],[[4,6,"pl-k"],[9,19,"pl-c1"],[26,37,"pl-c1"],[43,62,"pl-c1"],[68,69,"pl-c1"]],[],[[8,66,"pl-c"],[8,10,"pl-c"],[64,66,"pl-c"]],[[8,10,"pl-k"],[12,21,"pl-c1"],[27,45,"pl-c1"]],[[27,34,"pl-c1"]],[[12,21,"pl-c1"],[22,41,"pl-s"],[22,23,"pl-pds"],[38,40,"pl-cce"],[40,41,"pl-pds"],[48,56,"pl-c1"]],[],[[12,14,"pl-k"]],[[25,41,"pl-c1"]],[[16,22,"pl-k"],[23,27,"pl-c1"]],[],[],[],[[4,10,"pl-k"],[11,16,"pl-c1"]],[],[],[[18,41,"pl-en"],[44,49,"pl-k"]],[],[],[[4,6,"pl-k"],[19,26,"pl-c1"]],[[25,32,"pl-c1"]],[[26,38,"pl-c1"]],[[15,20,"pl-c1"]],[],[[4,10,"pl-k"]],[],[],[[8,27,"pl-en"],[28,33,"pl-k"],[81,86,"pl-k"]],[],[[4,6,"pl-k"],[12,15,"pl-smi"],[16,21,"pl-c1"]],[[8,14,"pl-k"],[15,16,"pl-c1"]],[],[[20,21,"pl-c1"]],[[4,6,"pl-k"]],[[8,10,"pl-k"],[12,24,"pl-smi"]],[],[[12,14,"pl-k"],[44,47,"pl-c1"]],[[10,14,"pl-k"]],[[36,44,"pl-c1"]],[[12,24,"pl-smi"],[27,31,"pl-c1"]],[],[],[],[[4,6,"pl-k"]],[[8,10,"pl-k"],[12,29,"pl-smi"]],[],[[12,14,"pl-k"],[49,52,"pl-c1"]],[[10,14,"pl-k"]],[[41,49,"pl-c1"]],[[12,29,"pl-smi"],[32,36,"pl-c1"]],[],[],[],[[4,10,"pl-k"]],[],[],[[8,28,"pl-en"],[29,34,"pl-k"],[82,87,"pl-k"]],[],[[4,84,"pl-c"],[4,6,"pl-c"]],[[4,6,"pl-k"],[8,18,"pl-c1"],[24,43,"pl-c1"],[48,49,"pl-c1"]],[[8,14,"pl-k"],[15,16,"pl-c1"]],[],[[21,22,"pl-c1"]],[[4,6,"pl-k"]],[[8,71,"pl-c"],[8,10,"pl-c"]],[[8,10,"pl-k"],[12,25,"pl-smi"]],[],[[12,14,"pl-k"],[45,48,"pl-c1"]],[[10,14,"pl-k"]],[[37,46,"pl-c1"]],[[12,25,"pl-smi"],[28,32,"pl-c1"]],[],[],[],[[4,6,"pl-k"]],[[8,10,"pl-k"],[12,30,"pl-smi"]],[],[[12,14,"pl-k"],[50,53,"pl-c1"]],[[10,14,"pl-k"]],[[42,51,"pl-c1"]],[[12,30,"pl-smi"],[33,37,"pl-c1"]],[],[],[],[[4,10,"pl-k"]],[],[],[[8,36,"pl-en"],[37,41,"pl-k"],[42,51,"pl-smi"],[53,58,"pl-k"]],[],[[4,6,"pl-k"],[8,18,"pl-c1"],[24,43,"pl-c1"],[48,49,"pl-c1"],[53,66,"pl-c1"]],[[8,10,"pl-k"],[12,21,"pl-smi"],[25,46,"pl-smi"]],[[12,18,"pl-k"]],[[41,50,"pl-c1"]],[[8,29,"pl-smi"],[32,36,"pl-c1"]],[[8,14,"pl-k"]],[],[],[[4,10,"pl-k"],[11,12,"pl-c1"]],[],[],[[8,37,"pl-en"],[38,42,"pl-k"],[43,52,"pl-smi"],[54,59,"pl-k"],[82,87,"pl-k"]],[],[[4,6,"pl-k"],[19,26,"pl-c1"]],[[8,14,"pl-k"],[15,16,"pl-c1"]],[],[[4,84,"pl-c"],[4,6,"pl-c"]],[[4,6,"pl-k"],[8,18,"pl-c1"],[24,43,"pl-c1"],[48,49,"pl-c1"]],[[8,14,"pl-k"],[15,16,"pl-c1"]],[],[[21,28,"pl-c1"]],[[4,8,"pl-k"],[23,30,"pl-c1"]],[],[[4,6,"pl-k"]],[],[[22,44,"pl-smi"]],[[6,10,"pl-k"],[11,13,"pl-k"]],[],[[22,49,"pl-smi"]],[],[],[[4,6,"pl-k"],[8,17,"pl-smi"]],[[8,14,"pl-k"]],[],[],[[22,23,"pl-c1"]],[[21,28,"pl-c1"]],[[4,7,"pl-k"],[9,17,"pl-k"],[18,21,"pl-k"],[26,27,"pl-c1"],[37,41,"pl-smi"],[42,46,"pl-c1"]],[[8,10,"pl-k"],[22,29,"pl-c1"]],[[12,17,"pl-k"],[38,42,"pl-smi"]],[[32,41,"pl-c1"]],[[12,14,"pl-k"],[17,27,"pl-c1"]],[[16,21,"pl-k"],[22,40,"pl-smi"],[41,52,"pl-c1"],[65,87,"pl-s"],[65,66,"pl-pds"],[86,87,"pl-pds"]],[],[],[],[[4,6,"pl-k"]],[],[[8,14,"pl-c1"]],[[22,26,"pl-c1"]],[],[[4,10,"pl-k"]],[],[],[[8,45,"pl-en"],[46,51,"pl-k"],[52,56,"pl-k"],[57,66,"pl-smi"],[68,73,"pl-k"]],[],[[4,6,"pl-k"],[8,18,"pl-c1"],[24,43,"pl-c1"],[48,49,"pl-c1"],[53,66,"pl-c1"]],[[8,10,"pl-k"],[12,21,"pl-smi"],[25,51,"pl-smi"]],[[12,18,"pl-k"]],[[46,55,"pl-c1"]],[[8,34,"pl-smi"],[37,41,"pl-c1"]],[[8,14,"pl-k"]],[],[],[[4,10,"pl-k"],[11,12,"pl-c1"]],[],[],[[8,38,"pl-en"],[39,44,"pl-k"],[72,77,"pl-k"]],[],[[4,6,"pl-k"]],[[8,14,"pl-k"],[15,16,"pl-c1"]],[],[[4,43,"pl-c"],[4,6,"pl-c"]],[[4,6,"pl-k"],[8,18,"pl-c1"],[24,43,"pl-c1"],[48,49,"pl-c1"]],[[8,14,"pl-k"],[15,16,"pl-c1"]],[],[[4,6,"pl-k"],[23,30,"pl-c1"],[34,57,"pl-smi"]],[[8,14,"pl-k"]],[],[[22,23,"pl-c1"]],[[21,28,"pl-c1"]],[[4,7,"pl-k"],[9,17,"pl-k"],[18,21,"pl-k"],[26,27,"pl-c1"],[37,41,"pl-smi"],[42,46,"pl-c1"]],[[8,13,"pl-k"],[34,38,"pl-smi"]],[[8,13,"pl-k"],[35,44,"pl-c1"]],[],[[8,10,"pl-k"],[27,34,"pl-c1"],[51,62,"pl-c1"],[82,92,"pl-c1"]],[[12,20,"pl-k"]],[],[],[[8,10,"pl-k"],[21,28,"pl-c1"],[44,74,"pl-c1"],[81,87,"pl-smi"],[90,98,"pl-k"]],[],[[8,10,"pl-k"],[21,33,"pl-c1"]],[[32,41,"pl-c1"]],[[12,14,"pl-k"],[17,27,"pl-c1"]],[[16,21,"pl-k"],[22,40,"pl-smi"],[41,52,"pl-c1"],[65,87,"pl-s"],[65,66,"pl-pds"],[86,87,"pl-pds"]],[],[],[],[[4,6,"pl-k"],[23,30,"pl-c1"]],[],[[8,31,"pl-smi"],[34,38,"pl-c1"]],[],[],[[4,10,"pl-k"]],[],[],[[8,39,"pl-en"],[40,44,"pl-k"],[58,62,"pl-k"],[63,72,"pl-smi"],[74,79,"pl-k"]],[],[[4,6,"pl-k"],[19,26,"pl-c1"]],[[8,14,"pl-k"],[15,16,"pl-c1"]],[],[[4,84,"pl-c"],[4,6,"pl-c"]],[[4,6,"pl-k"],[8,18,"pl-c1"],[24,43,"pl-c1"],[48,49,"pl-c1"]],[[8,14,"pl-k"],[15,16,"pl-c1"]],[],[[4,7,"pl-k"],[17,36,"pl-c1"]],[[4,6,"pl-k"],[17,18,"pl-c1"],[20,26,"pl-k"],[27,28,"pl-c1"]],[],[[4,8,"pl-k"],[25,34,"pl-c1"],[50,51,"pl-c1"]],[[4,6,"pl-k"],[38,44,"pl-k"],[45,46,"pl-c1"]],[],[[4,6,"pl-k"],[8,17,"pl-smi"]],[[8,10,"pl-k"],[27,51,"pl-smi"]],[[12,18,"pl-k"]],[[8,12,"pl-k"],[13,15,"pl-k"],[33,55,"pl-smi"]],[[12,18,"pl-k"]],[],[],[[22,23,"pl-c1"]],[[21,28,"pl-c1"]],[[4,7,"pl-k"],[9,17,"pl-k"],[18,21,"pl-k"],[26,27,"pl-c1"],[37,41,"pl-smi"],[42,46,"pl-c1"]],[[8,13,"pl-k"],[34,38,"pl-smi"]],[],[[8,10,"pl-k"],[21,28,"pl-c1"],[44,74,"pl-c1"],[81,87,"pl-smi"],[90,98,"pl-k"]],[],[[28,37,"pl-c1"]],[[8,10,"pl-k"],[13,23,"pl-c1"]],[[12,17,"pl-k"],[18,36,"pl-smi"],[37,48,"pl-c1"],[61,83,"pl-s"],[61,62,"pl-pds"],[82,83,"pl-pds"]],[],[],[[4,6,"pl-k"]],[],[[8,32,"pl-smi"],[35,39,"pl-c1"]],[[6,10,"pl-k"]],[],[[8,30,"pl-smi"],[33,37,"pl-c1"]],[],[[4,10,"pl-k"]],[],[],[[8,28,"pl-en"],[31,36,"pl-k"]],[],[[4,6,"pl-k"],[8,21,"pl-smi"]],[[8,14,"pl-k"]],[[29,38,"pl-c1"]],[[4,17,"pl-smi"],[20,24,"pl-c1"]],[[4,10,"pl-k"]],[],[],[[0,4,"pl-k"],[5,25,"pl-en"],[28,33,"pl-k"]],[],[[4,10,"pl-k"],[11,21,"pl-smi"]],[],[],[[0,4,"pl-k"],[5,25,"pl-en"],[28,33,"pl-k"]],[],[[4,33,"pl-c"],[4,6,"pl-c"]],[[4,6,"pl-k"],[9,21,"pl-c1"]],[[8,14,"pl-k"],[15,20,"pl-c1"]],[[4,7,"pl-k"],[17,36,"pl-c1"]],[[4,6,"pl-k"],[18,19,"pl-c1"]],[[8,14,"pl-k"],[15,19,"pl-c1"]],[[4,6,"pl-k"],[17,18,"pl-c1"]],[[8,14,"pl-k"],[15,20,"pl-c1"]],[[4,6,"pl-k"],[8,29,"pl-c1"]],[[8,14,"pl-k"],[15,19,"pl-c1"]],[[4,6,"pl-k"],[34,42,"pl-c1"],[56,83,"pl-c"],[56,58,"pl-c"]],[[8,14,"pl-k"],[15,20,"pl-c1"]],[],[[4,83,"pl-c"],[4,6,"pl-c"]],[[4,6,"pl-k"],[9,18,"pl-c1"]],[[8,14,"pl-k"],[15,20,"pl-c1"]],[],[[4,64,"pl-c"],[4,6,"pl-c"]],[[4,7,"pl-k"],[9,14,"pl-k"],[33,36,"pl-smi"]],[[8,51,"pl-c"],[8,10,"pl-c"]],[[8,13,"pl-k"],[43,54,"pl-c1"],[60,67,"pl-smi"],[68,72,"pl-smi"]],[[8,10,"pl-k"],[22,29,"pl-c1"]],[[12,18,"pl-k"],[19,24,"pl-c1"]],[[8,13,"pl-k"],[42,44,"pl-smi"],[46,50,"pl-smi"],[56,63,"pl-smi"],[64,65,"pl-smi"]],[[8,10,"pl-k"],[21,27,"pl-c1"]],[[12,18,"pl-k"],[19,24,"pl-c1"]],[],[[4,10,"pl-k"],[11,15,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,30,"pl-en"],[31,36,"pl-k"],[53,58,"pl-k"]],[],[[31,35,"pl-c1"],[37,39,"pl-smi"]],[[35,37,"pl-smi"]],[[4,7,"pl-k"],[9,13,"pl-k"],[26,29,"pl-smi"]],[[13,22,"pl-smi"],[25,32,"pl-c1"]],[[4,7,"pl-k"],[9,13,"pl-k"],[26,29,"pl-smi"]],[[13,22,"pl-smi"],[25,32,"pl-c1"]],[[4,10,"pl-k"],[11,23,"pl-c1"],[32,44,"pl-c1"]],[],[],[[21,60,"pl-en"],[61,68,"pl-c1"]],[],[],[],[[4,9,"pl-c1"],[18,20,"pl-smi"]],[],[[4,39,"pl-c"],[4,6,"pl-c"]],[[18,26,"pl-k"],[27,30,"pl-k"]],[[4,7,"pl-k"],[19,24,"pl-k"]],[[30,36,"pl-smi"]],[[8,49,"pl-c"],[8,10,"pl-c"]],[[8,10,"pl-k"],[16,29,"pl-smi"]],[[12,20,"pl-k"]],[[18,24,"pl-c1"],[25,39,"pl-c1"],[44,57,"pl-smi"]],[],[[4,7,"pl-k"],[19,24,"pl-k"],[25,33,"pl-k"],[34,37,"pl-k"]],[[31,37,"pl-smi"]],[[8,10,"pl-k"],[16,38,"pl-c1"]],[[19,28,"pl-c1"],[33,40,"pl-c1"]],[],[[4,10,"pl-k"]],[],[],[[0,4,"pl-k"],[5,38,"pl-en"],[39,46,"pl-c1"]],[],[[4,61,"pl-c"],[4,6,"pl-c"]],[[4,39,"pl-c"],[4,6,"pl-c"]],[[4,6,"pl-k"],[8,15,"pl-c1"],[36,58,"pl-smi"]],[[8,14,"pl-k"]],[[4,8,"pl-k"],[9,15,"pl-smi"],[34,35,"pl-c1"]],[[18,25,"pl-c1"],[30,37,"pl-c1"],[38,40,"pl-c1"],[43,45,"pl-c1"]],[[4,6,"pl-k"],[8,14,"pl-smi"]],[[8,14,"pl-k"]],[],[[4,61,"pl-c"],[4,6,"pl-c"]],[[4,6,"pl-k"]],[[8,14,"pl-k"]],[[18,25,"pl-c1"]],[],[[4,72,"pl-c"],[4,6,"pl-c"]],[[4,23,"pl-c"],[4,6,"pl-c"]],[[35,65,"pl-c1"],[83,84,"pl-c1"],[87,89,"pl-c1"]],[[4,6,"pl-k"],[17,22,"pl-c1"]],[[8,17,"pl-c1"],[18,65,"pl-s"],[18,19,"pl-pds"],[62,64,"pl-cce"],[64,65,"pl-pds"],[85,89,"pl-c1"]],[],[[0,9,"pl-c"],[0,2,"pl-c"],[7,9,"pl-c"],[10,29,"pl-c"],[10,12,"pl-c"]],[],[],[[0,21,"pl-c"],[0,2,"pl-c"]],[[0,2,"pl-c"]],[[0,5,"pl-c"]],[[0,3,"pl-c"],[1,3,"pl-c"]],[],[],[[19,24,"pl-k"],[53,77,"pl-en"],[80,85,"pl-k"]],[],[[4,18,"pl-c1"]],[],[[23,28,"pl-k"]],[[4,7,"pl-k"],[9,13,"pl-k"],[33,38,"pl-c1"],[62,65,"pl-c1"]],[[8,13,"pl-k"],[14,18,"pl-k"]],[[8,13,"pl-k"],[14,18,"pl-k"],[34,38,"pl-c1"],[48,52,"pl-smi"]],[[8,10,"pl-k"],[28,31,"pl-c1"]],[[16,23,"pl-c1"],[29,35,"pl-smi"]],[],[],[[8,105,"pl-c"],[8,10,"pl-c"]],[[8,51,"pl-c"],[8,10,"pl-c"]],[[8,13,"pl-k"],[35,38,"pl-c1"],[48,52,"pl-smi"],[65,69,"pl-smi"]],[],[],[],[[4,10,"pl-k"]],[],[],[[8,27,"pl-en"],[28,33,"pl-k"],[56,61,"pl-k"],[62,65,"pl-k"],[77,82,"pl-k"],[83,87,"pl-k"],[88,98,"pl-smi"],[100,105,"pl-k"]],[],[[21,22,"pl-c1"]],[],[[8,13,"pl-c1"]],[[8,11,"pl-k"],[13,17,"pl-k"],[26,41,"pl-c1"]],[[12,14,"pl-k"],[23,32,"pl-c1"],[47,66,"pl-c1"],[87,97,"pl-smi"],[108,129,"pl-c1"]],[[33,51,"pl-c1"],[52,56,"pl-c1"]],[],[],[],[],[[4,10,"pl-k"]],[],[],[[8,39,"pl-en"],[40,44,"pl-k"],[45,61,"pl-smi"],[63,67,"pl-k"],[68,84,"pl-smi"],[86,91,"pl-k"]],[],[[4,6,"pl-k"],[9,42,"pl-c1"],[46,52,"pl-k"],[53,54,"pl-c1"]],[],[],[[4,6,"pl-k"],[9,38,"pl-c1"],[49,65,"pl-smi"],[67,71,"pl-c1"],[73,89,"pl-smi"],[92,98,"pl-k"],[99,100,"pl-c1"]],[],[[21,22,"pl-c1"]],[],[[4,9,"pl-k"],[35,69,"pl-c1"]],[[4,9,"pl-k"],[38,68,"pl-c1"]],[[4,7,"pl-k"],[9,14,"pl-k"],[15,19,"pl-k"]],[[8,12,"pl-k"],[13,27,"pl-smi"],[30,60,"pl-c1"],[66,73,"pl-smi"]],[[8,10,"pl-k"],[12,28,"pl-smi"],[32,46,"pl-smi"],[48,56,"pl-k"]],[[8,82,"pl-c"],[8,10,"pl-c"]],[[8,10,"pl-k"],[17,24,"pl-smi"],[46,60,"pl-smi"],[63,64,"pl-c1"]],[[27,34,"pl-smi"]],[],[],[[4,10,"pl-k"]],[],[],[[8,37,"pl-en"],[38,43,"pl-k"],[71,76,"pl-k"]],[],[[4,6,"pl-k"],[9,42,"pl-c1"],[46,52,"pl-k"],[53,54,"pl-c1"]],[],[[21,22,"pl-c1"]],[],[[4,9,"pl-c1"]],[],[[4,7,"pl-k"],[9,13,"pl-k"],[22,37,"pl-c1"]],[[25,44,"pl-c1"]],[],[],[[4,10,"pl-k"]],[],[],[[0,42,"pl-c"],[0,2,"pl-c"]],[[0,65,"pl-c"],[0,2,"pl-c"]],[[0,5,"pl-k"],[6,41,"pl-en"],[44,49,"pl-k"]],[],[[4,6,"pl-k"],[9,42,"pl-c1"],[46,52,"pl-k"],[53,54,"pl-c1"]],[],[[4,7,"pl-k"],[17,18,"pl-c1"]],[[4,7,"pl-k"],[17,18,"pl-c1"]],[],[[4,9,"pl-c1"]],[[4,7,"pl-k"],[9,14,"pl-k"],[15,19,"pl-k"]],[[8,10,"pl-k"],[13,26,"pl-c1"],[38,46,"pl-k"]],[],[[18,49,"pl-c1"]],[],[],[],[[4,6,"pl-k"],[18,19,"pl-c1"],[21,27,"pl-k"],[28,29,"pl-c1"]],[],[[4,10,"pl-k"],[12,17,"pl-k"]],[],[],[[0,42,"pl-c"],[0,2,"pl-c"]],[[0,65,"pl-c"],[0,2,"pl-c"]],[[8,47,"pl-en"],[50,55,"pl-k"]],[],[[4,6,"pl-k"],[9,42,"pl-c1"],[46,52,"pl-k"],[53,54,"pl-c1"]],[],[[21,22,"pl-c1"]],[],[[4,9,"pl-c1"]],[[4,7,"pl-k"],[9,14,"pl-k"],[15,19,"pl-k"]],[[8,13,"pl-k"],[14,18,"pl-k"],[34,38,"pl-c1"],[48,52,"pl-smi"]],[[8,10,"pl-k"],[28,31,"pl-c1"],[35,43,"pl-k"]],[],[[29,35,"pl-smi"],[36,38,"pl-smi"],[40,44,"pl-smi"],[54,55,"pl-smi"],[57,63,"pl-smi"]],[[8,10,"pl-k"],[13,43,"pl-c1"],[53,61,"pl-k"]],[[8,10,"pl-k"],[16,22,"pl-smi"],[23,42,"pl-c1"],[47,48,"pl-c1"],[50,58,"pl-k"]],[],[[8,11,"pl-k"],[22,53,"pl-c1"]],[[37,70,"pl-c1"]],[],[],[[4,10,"pl-k"]],[],[],[[8,38,"pl-en"],[39,43,"pl-k"],[57,62,"pl-k"]],[],[[4,6,"pl-k"],[9,42,"pl-c1"],[46,52,"pl-k"],[53,54,"pl-c1"]],[],[[21,22,"pl-c1"]],[],[[4,9,"pl-c1"]],[],[[4,7,"pl-k"],[9,13,"pl-k"],[22,37,"pl-c1"]],[[25,45,"pl-c1"]],[],[],[[4,10,"pl-k"]],[],[],[[8,38,"pl-en"],[41,46,"pl-k"]],[],[[21,22,"pl-c1"]],[],[[8,13,"pl-c1"]],[[8,11,"pl-k"],[13,17,"pl-k"],[26,41,"pl-c1"]],[[12,14,"pl-k"],[24,33,"pl-c1"],[46,65,"pl-c1"],[71,72,"pl-c1"],[84,105,"pl-c1"],[118,127,"pl-c1"]],[[33,51,"pl-c1"]],[],[],[[4,10,"pl-k"]],[],[],[[8,35,"pl-en"],[38,43,"pl-k"]],[],[[21,22,"pl-c1"]],[],[[8,13,"pl-c1"]],[[8,11,"pl-k"],[13,17,"pl-k"],[26,41,"pl-c1"]],[[29,46,"pl-c1"]],[],[],[[4,10,"pl-k"]],[],[],[[8,47,"pl-en"],[50,55,"pl-k"]],[],[[21,22,"pl-c1"]],[],[[8,13,"pl-c1"]],[[8,11,"pl-k"],[13,17,"pl-k"],[26,41,"pl-c1"]],[[12,14,"pl-k"],[24,33,"pl-c1"],[46,65,"pl-c1"],[71,72,"pl-c1"],[84,105,"pl-c1"],[118,127,"pl-c1"]],[[33,51,"pl-c1"],[52,56,"pl-c1"]],[],[],[[4,10,"pl-k"]],[],[],[[8,44,"pl-en"],[47,52,"pl-k"]],[],[[21,22,"pl-c1"]],[],[[8,13,"pl-c1"]],[[8,11,"pl-k"],[13,17,"pl-k"],[26,41,"pl-c1"]],[[29,55,"pl-c1"]],[],[],[[4,10,"pl-k"]],[],[],[[0,74,"pl-c"],[0,2,"pl-c"]],[[0,73,"pl-c"],[0,2,"pl-c"]],[[0,73,"pl-c"],[0,2,"pl-c"]],[[0,80,"pl-c"],[0,2,"pl-c"]],[[0,79,"pl-c"],[0,2,"pl-c"]],[[0,11,"pl-c"],[0,2,"pl-c"]],[[8,33,"pl-en"],[34,39,"pl-k"],[62,65,"pl-k"],[76,81,"pl-k"],[104,109,"pl-k"],[110,114,"pl-k"],[115,125,"pl-smi"],[127,132,"pl-k"]],[],[[4,9,"pl-c1"]],[],[[22,23,"pl-c1"]],[[4,7,"pl-k"],[9,14,"pl-k"],[15,19,"pl-k"]],[[8,13,"pl-k"],[37,43,"pl-smi"]],[[8,13,"pl-k"],[14,17,"pl-k"],[30,49,"pl-c1"]],[[8,10,"pl-k"],[20,21,"pl-c1"],[26,38,"pl-c1"],[44,46,"pl-smi"],[55,74,"pl-c1"],[79,80,"pl-c1"]],[[12,20,"pl-k"]],[],[],[[8,79,"pl-c"],[8,10,"pl-c"]],[[8,73,"pl-c"],[8,10,"pl-c"]],[[28,36,"pl-c1"]],[[8,13,"pl-k"],[14,18,"pl-k"],[38,39,"pl-c1"]],[[8,11,"pl-k"],[13,18,"pl-k"],[37,39,"pl-smi"],[41,45,"pl-smi"]],[[12,14,"pl-k"],[28,36,"pl-c1"]],[[29,35,"pl-smi"]],[[14,18,"pl-k"],[19,21,"pl-k"],[23,29,"pl-c1"],[70,80,"pl-smi"],[88,109,"pl-c1"],[142,154,"pl-c1"],[159,171,"pl-smi"]],[[31,37,"pl-smi"]],[],[],[],[[8,53,"pl-c"],[8,10,"pl-c"]],[[8,10,"pl-k"],[53,67,"pl-smi"]],[],[],[],[],[[4,6,"pl-k"]],[[19,30,"pl-c1"],[42,63,"pl-c1"]],[],[],[[4,10,"pl-k"]],[],[],[[8,36,"pl-en"],[37,42,"pl-k"],[70,75,"pl-k"]],[],[[4,9,"pl-c1"]],[],[[22,23,"pl-c1"]],[],[[4,18,"pl-c1"],[27,31,"pl-c1"]],[[4,7,"pl-k"],[9,14,"pl-k"]],[[8,10,"pl-k"],[16,26,"pl-smi"],[34,51,"pl-smi"]],[[27,29,"pl-smi"],[31,33,"pl-smi"],[35,39,"pl-smi"],[44,45,"pl-smi"],[47,53,"pl-smi"]],[],[],[[4,10,"pl-k"]],[],[],[[0,4,"pl-k"],[5,28,"pl-en"],[59,63,"pl-k"],[64,73,"pl-smi"],[75,80,"pl-k"],[108,113,"pl-k"],[139,144,"pl-k"],[170,175,"pl-k"],[204,209,"pl-k"],[210,218,"pl-c1"],[234,239,"pl-k"],[240,243,"pl-k"],[255,260,"pl-k"],[261,264,"pl-k"],[276,281,"pl-k"]],[],[[4,18,"pl-c1"]],[[4,18,"pl-c1"]],[],[[11,16,"pl-c1"]],[[52,61,"pl-smi"]],[[39,45,"pl-c1"],[48,60,"pl-c1"],[63,75,"pl-smi"]],[],[[21,22,"pl-c1"]],[],[[4,7,"pl-k"],[9,13,"pl-k"],[22,37,"pl-c1"]],[[8,13,"pl-k"],[38,45,"pl-c1"]],[],[[8,10,"pl-k"],[13,25,"pl-c1"],[34,36,"pl-smi"]],[[12,20,"pl-k"]],[],[[8,10,"pl-k"],[19,29,"pl-c1"],[42,61,"pl-c1"],[66,67,"pl-c1"]],[[12,20,"pl-k"]],[],[[8,11,"pl-k"],[28,47,"pl-c1"]],[],[[8,76,"pl-c"],[8,10,"pl-c"]],[[8,102,"pl-c"],[8,10,"pl-c"]],[[8,10,"pl-k"],[22,23,"pl-c1"],[35,44,"pl-c1"]],[[12,20,"pl-k"]],[],[[8,12,"pl-k"],[29,38,"pl-c1"],[42,110,"pl-c"],[42,44,"pl-c"]],[],[[8,10,"pl-k"],[12,21,"pl-smi"]],[[12,20,"pl-k"]],[],[],[[8,10,"pl-k"]],[[12,20,"pl-k"]],[],[[8,11,"pl-k"],[13,21,"pl-k"],[22,25,"pl-k"],[30,31,"pl-c1"],[44,46,"pl-smi"],[48,52,"pl-smi"],[53,57,"pl-c1"]],[[12,16,"pl-k"],[25,30,"pl-c1"]],[[12,14,"pl-k"]],[[16,18,"pl-k"],[21,51,"pl-c1"],[59,61,"pl-smi"],[63,67,"pl-smi"],[71,77,"pl-smi"],[80,88,"pl-k"]],[[24,36,"pl-c1"],[37,46,"pl-c1"]],[[14,18,"pl-k"],[19,21,"pl-k"]],[[16,18,"pl-k"],[21,51,"pl-c1"],[59,61,"pl-smi"],[63,67,"pl-smi"],[71,77,"pl-smi"],[80,88,"pl-k"]],[[25,37,"pl-c1"],[38,47,"pl-c1"]],[[14,18,"pl-k"],[19,21,"pl-k"]],[[16,18,"pl-k"],[20,49,"pl-c1"],[57,59,"pl-smi"],[61,65,"pl-smi"],[69,75,"pl-smi"],[78,86,"pl-k"],[88,120,"pl-c"],[88,90,"pl-c"]],[[25,55,"pl-c1"],[63,65,"pl-smi"],[67,71,"pl-smi"],[75,81,"pl-smi"]],[[14,18,"pl-k"],[19,21,"pl-k"]],[[36,53,"pl-c1"],[61,63,"pl-smi"],[65,69,"pl-smi"],[73,79,"pl-smi"]],[[14,18,"pl-k"],[19,21,"pl-k"]],[[24,53,"pl-c1"],[61,63,"pl-smi"],[65,69,"pl-smi"],[73,79,"pl-smi"]],[[14,18,"pl-k"]],[[24,28,"pl-c1"]],[],[[12,14,"pl-k"],[24,32,"pl-k"]],[],[[12,14,"pl-k"],[23,25,"pl-smi"],[27,31,"pl-smi"],[35,41,"pl-smi"],[69,71,"pl-smi"],[73,77,"pl-smi"],[81,87,"pl-smi"]],[[16,24,"pl-k"]],[],[[12,14,"pl-k"],[44,55,"pl-c1"],[75,92,"pl-smi"],[110,120,"pl-c1"],[121,130,"pl-c1"]],[[16,24,"pl-k"]],[],[[12,14,"pl-k"],[16,28,"pl-c1"]],[[16,24,"pl-k"]],[],[[12,14,"pl-k"],[16,23,"pl-c1"]],[[16,24,"pl-k"]],[],[[30,36,"pl-c1"],[44,46,"pl-smi"],[48,52,"pl-smi"]],[],[[12,14,"pl-k"]],[[16,24,"pl-k"]],[],[],[[12,16,"pl-k"],[17,29,"pl-smi"],[105,120,"pl-smi"]],[[12,16,"pl-k"],[17,28,"pl-smi"]],[[12,16,"pl-k"],[42,59,"pl-c1"]],[],[[19,28,"pl-c1"],[29,36,"pl-c1"],[55,67,"pl-smi"],[69,80,"pl-smi"],[116,118,"pl-smi"],[120,125,"pl-smi"]],[[12,51,"pl-c"],[12,14,"pl-c"]],[[12,14,"pl-k"]],[[33,35,"pl-smi"],[37,41,"pl-smi"],[45,51,"pl-smi"]],[],[[16,18,"pl-k"]],[[20,26,"pl-k"]],[],[],[],[[12,51,"pl-c"],[12,14,"pl-c"]],[[12,14,"pl-k"],[32,33,"pl-c1"],[44,48,"pl-c1"]],[[16,22,"pl-k"]],[],[],[],[],[],[[47,65,"pl-en"],[68,73,"pl-k"]],[],[[4,48,"pl-c"],[4,6,"pl-c"]],[[4,6,"pl-c"],[4,6,"pl-c"]],[[4,71,"pl-c"],[4,6,"pl-c"]],[[4,76,"pl-c"],[4,6,"pl-c"]],[[4,76,"pl-c"],[4,6,"pl-c"]],[[4,77,"pl-c"],[4,6,"pl-c"]],[[4,78,"pl-c"],[4,6,"pl-c"]],[[4,77,"pl-c"],[4,6,"pl-c"]],[[4,57,"pl-c"],[4,6,"pl-c"]],[],[],[],[],[[4,9,"pl-c1"]],[[4,18,"pl-c1"]],[],[[4,7,"pl-k"],[9,13,"pl-k"]],[],[[8,10,"pl-k"],[17,27,"pl-smi"]],[[12,30,"pl-c1"],[31,56,"pl-c1"],[63,65,"pl-smi"],[67,69,"pl-smi"],[76,77,"pl-smi"],[79,91,"pl-smi"]],[[28,40,"pl-c1"],[41,50,"pl-c1"]],[],[],[],[],[[4,19,"pl-c1"]],[[4,7,"pl-k"],[9,14,"pl-k"],[15,19,"pl-k"]],[[8,12,"pl-k"],[28,32,"pl-c1"],[40,44,"pl-smi"]],[[8,10,"pl-k"],[28,31,"pl-c1"]],[[12,15,"pl-k"],[28,34,"pl-smi"],[35,54,"pl-c1"]],[[12,14,"pl-k"],[25,26,"pl-c1"],[37,38,"pl-smi"],[45,51,"pl-smi"],[52,54,"pl-smi"],[56,60,"pl-smi"],[61,65,"pl-c1"]],[[16,22,"pl-c1"],[27,33,"pl-smi"],[34,36,"pl-smi"],[38,42,"pl-smi"],[50,51,"pl-smi"]],[],[[16,18,"pl-k"],[20,38,"pl-c1"],[39,64,"pl-c1"],[70,76,"pl-smi"],[77,79,"pl-smi"],[88,89,"pl-smi"],[91,103,"pl-smi"]],[[36,48,"pl-c1"]],[[29,35,"pl-smi"],[44,45,"pl-smi"],[54,58,"pl-c1"],[59,74,"pl-c"],[59,61,"pl-c"],[72,74,"pl-c"],[76,80,"pl-c1"],[81,95,"pl-c"],[81,83,"pl-c"],[93,95,"pl-c"],[97,102,"pl-c1"],[103,113,"pl-c"],[103,105,"pl-c"],[111,113,"pl-c"]],[[28,34,"pl-smi"],[35,37,"pl-smi"],[39,44,"pl-smi"],[72,78,"pl-smi"],[79,96,"pl-c1"],[104,105,"pl-smi"]],[],[],[],[],[],[[4,10,"pl-k"]],[],[],[[0,5,"pl-k"],[14,48,"pl-en"],[49,54,"pl-k"],[73,76,"pl-k"],[85,90,"pl-k"]],[],[[4,9,"pl-k"]],[[4,7,"pl-k"]],[[4,9,"pl-k"],[11,19,"pl-c1"],[25,29,"pl-smi"],[42,45,"pl-smi"],[46,50,"pl-c1"],[55,56,"pl-c1"]],[[8,13,"pl-k"],[40,43,"pl-smi"],[44,45,"pl-c1"],[47,54,"pl-smi"]],[[8,12,"pl-k"],[28,32,"pl-c1"],[41,45,"pl-smi"]],[[8,10,"pl-k"],[28,31,"pl-c1"],[41,47,"pl-smi"],[48,50,"pl-smi"],[52,56,"pl-smi"],[57,61,"pl-c1"],[75,76,"pl-smi"]],[[13,19,"pl-c1"],[24,30,"pl-smi"],[31,33,"pl-smi"],[35,39,"pl-smi"],[48,49,"pl-smi"]],[[12,17,"pl-k"]],[],[[18,24,"pl-smi"],[25,27,"pl-smi"],[28,31,"pl-c1"]],[[20,21,"pl-smi"]],[],[[4,10,"pl-k"],[16,20,"pl-smi"]],[],[],[[0,4,"pl-k"],[5,30,"pl-en"]],[],[[4,39,"pl-c"],[4,6,"pl-c"]],[[4,10,"pl-c1"],[25,31,"pl-c1"]],[],[[16,21,"pl-smi"]],[[4,6,"pl-k"],[15,31,"pl-c1"],[56,72,"pl-c1"],[88,92,"pl-c1"]],[[14,31,"pl-c1"]],[],[],[[4,9,"pl-k"],[25,31,"pl-c1"]],[[8,38,"pl-c"],[8,10,"pl-c"]],[[24,35,"pl-c1"]],[[14,31,"pl-c1"]],[],[],[],[[0,6,"pl-k"],[7,24,"pl-en"]],[[4,8,"pl-k"],[9,17,"pl-en"],[20,25,"pl-k"]],[[8,13,"pl-k"],[27,32,"pl-k"]],[],[[8,14,"pl-k"],[18,26,"pl-c1"],[34,42,"pl-c1"]],[],[],[],[[0,4,"pl-k"],[5,39,"pl-en"],[40,45,"pl-k"],[63,68,"pl-k"],[112,117,"pl-k"]],[],[[4,6,"pl-k"],[16,26,"pl-smi"],[38,46,"pl-smi"],[58,75,"pl-smi"]],[[8,14,"pl-k"],[15,20,"pl-c1"]],[],[[4,8,"pl-k"],[9,20,"pl-smi"],[30,32,"pl-smi"],[34,55,"pl-c1"]],[],[[4,6,"pl-k"],[16,22,"pl-smi"],[33,35,"pl-smi"],[37,45,"pl-c1"],[79,88,"pl-smi"],[110,121,"pl-smi"],[128,139,"pl-smi"]],[[8,14,"pl-k"],[15,20,"pl-c1"]],[],[[4,10,"pl-c1"]],[[12,34,"pl-c1"],[42,44,"pl-smi"],[46,53,"pl-c1"]],[[4,6,"pl-k"],[39,52,"pl-smi"],[89,104,"pl-smi"]],[[8,14,"pl-k"],[15,20,"pl-c1"]],[],[],[[4,10,"pl-k"],[11,15,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,32,"pl-en"],[33,38,"pl-k"],[62,67,"pl-k"],[195,200,"pl-k"],[245,249,"pl-k"],[281,286,"pl-k"]],[],[[16,21,"pl-c1"]],[[16,17,"pl-c1"]],[],[],[[4,6,"pl-k"],[30,37,"pl-smi"]],[[8,33,"pl-c"],[8,10,"pl-c"]],[],[],[[13,29,"pl-smi"],[32,36,"pl-c1"]],[[37,54,"pl-c1"]],[],[[8,35,"pl-c"],[8,10,"pl-c"]],[[33,47,"pl-c1"],[64,70,"pl-c1"],[93,110,"pl-smi"],[136,149,"pl-smi"],[150,156,"pl-c1"],[179,197,"pl-smi"]],[],[[8,90,"pl-c"],[8,10,"pl-c"]],[[8,11,"pl-k"],[13,18,"pl-k"]],[[12,14,"pl-k"],[17,42,"pl-c1"]],[[16,24,"pl-k"]],[],[[23,27,"pl-smi"],[35,37,"pl-smi"],[39,41,"pl-smi"],[50,51,"pl-smi"]],[[17,32,"pl-smi"],[40,45,"pl-smi"],[46,52,"pl-smi"],[63,74,"pl-smi"],[77,78,"pl-c1"],[81,82,"pl-c1"],[107,120,"pl-smi"],[121,127,"pl-c1"],[135,146,"pl-smi"]],[[12,85,"pl-c"],[12,14,"pl-c"]],[[12,14,"pl-k"],[21,36,"pl-smi"],[39,40,"pl-c1"]],[[21,24,"pl-smi"],[34,45,"pl-smi"],[48,49,"pl-c1"],[52,53,"pl-c1"],[78,91,"pl-smi"],[92,98,"pl-c1"],[106,117,"pl-smi"]],[[21,34,"pl-smi"],[44,55,"pl-smi"],[58,59,"pl-c1"],[62,63,"pl-c1"],[84,90,"pl-c1"],[98,109,"pl-smi"]],[[26,35,"pl-c1"]],[],[],[[8,59,"pl-c"],[8,10,"pl-c"]],[[55,68,"pl-smi"],[69,75,"pl-c1"],[98,114,"pl-smi"]],[[19,23,"pl-c1"]],[[8,14,"pl-k"],[15,29,"pl-c1"]],[[6,10,"pl-k"]],[[8,60,"pl-c"],[8,10,"pl-c"]],[[8,11,"pl-k"],[13,18,"pl-k"]],[[12,14,"pl-k"],[17,42,"pl-c1"]],[[16,24,"pl-k"]],[],[[30,40,"pl-c1"],[48,50,"pl-smi"],[52,54,"pl-smi"],[63,64,"pl-smi"]],[[22,31,"pl-c1"]],[],[[19,24,"pl-c1"]],[[8,14,"pl-k"],[15,29,"pl-c1"]],[],[],[],[[0,4,"pl-k"],[5,25,"pl-en"],[26,31,"pl-k"],[71,76,"pl-k"],[155,160,"pl-k"],[189,194,"pl-k"],[239,243,"pl-k"],[255,260,"pl-k"]],[],[[4,84,"pl-c"],[4,6,"pl-c"]],[],[[25,31,"pl-c1"]],[[38,47,"pl-smi"]],[],[[4,109,"pl-c"],[4,6,"pl-c"]],[[4,6,"pl-k"],[21,32,"pl-c1"],[52,69,"pl-smi"]],[[8,54,"pl-c"],[8,10,"pl-c"]],[[19,24,"pl-c1"]],[],[[8,11,"pl-k"],[13,18,"pl-k"]],[[12,14,"pl-k"],[21,31,"pl-smi"],[40,48,"pl-smi"],[57,74,"pl-smi"]],[[16,24,"pl-k"]],[],[[29,31,"pl-smi"],[33,35,"pl-smi"],[37,41,"pl-smi"],[46,47,"pl-smi"],[49,55,"pl-smi"]],[[24,30,"pl-c1"],[31,41,"pl-c1"],[46,48,"pl-smi"],[50,52,"pl-smi"],[58,59,"pl-smi"]],[],[[12,14,"pl-k"],[30,47,"pl-smi"]],[[16,110,"pl-c"],[16,18,"pl-c"]],[[16,22,"pl-k"],[23,27,"pl-c1"]],[],[],[],[[8,14,"pl-k"]],[],[],[[4,56,"pl-c"],[4,6,"pl-c"]],[],[[37,38,"pl-c1"]],[],[],[[17,29,"pl-c1"]],[[4,7,"pl-k"],[9,14,"pl-k"]],[[8,88,"pl-c"],[8,10,"pl-c"]],[[19,24,"pl-c1"]],[],[[68,72,"pl-c1"],[82,86,"pl-smi"]],[[8,10,"pl-k"],[28,31,"pl-c1"]],[[12,17,"pl-k"],[42,48,"pl-smi"]],[[12,42,"pl-c"],[12,14,"pl-c"]],[[12,14,"pl-k"],[23,25,"pl-smi"],[27,31,"pl-smi"],[32,36,"pl-c1"],[51,52,"pl-smi"]],[[16,22,"pl-k"],[23,28,"pl-c1"]],[[12,14,"pl-k"]],[[16,65,"pl-c"],[16,18,"pl-c"]],[[16,87,"pl-c"],[16,18,"pl-c"]],[[16,18,"pl-k"],[21,33,"pl-c1"],[45,53,"pl-k"]],[[14,18,"pl-k"],[19,21,"pl-k"],[31,48,"pl-c1"],[58,59,"pl-smi"]],[[16,24,"pl-k"]],[],[[12,55,"pl-c"],[12,14,"pl-c"]],[[45,47,"pl-smi"],[49,53,"pl-smi"],[63,64,"pl-smi"],[66,72,"pl-smi"]],[[27,33,"pl-c1"],[34,44,"pl-c1"],[52,54,"pl-smi"],[65,66,"pl-smi"]],[[10,14,"pl-k"]],[[12,18,"pl-k"],[19,24,"pl-c1"],[26,58,"pl-c"],[26,28,"pl-c"]],[],[],[[4,39,"pl-c"],[4,6,"pl-c"]],[[4,7,"pl-k"],[52,57,"pl-c1"],[74,77,"pl-c1"],[96,107,"pl-c1"]],[[8,10,"pl-k"],[27,32,"pl-c1"],[33,43,"pl-c1"],[48,50,"pl-smi"],[52,54,"pl-smi"],[60,61,"pl-smi"]],[[24,29,"pl-c1"]],[[8,12,"pl-k"]],[],[],[],[[4,10,"pl-c1"],[28,34,"pl-c1"],[44,51,"pl-c1"],[53,54,"pl-c1"],[56,61,"pl-smi"],[62,68,"pl-c1"],[69,90,"pl-s"],[69,70,"pl-pds"],[89,90,"pl-pds"]],[[4,10,"pl-c1"],[30,36,"pl-c1"],[46,53,"pl-c1"],[55,56,"pl-c1"],[58,63,"pl-smi"],[64,70,"pl-c1"],[71,94,"pl-s"],[71,72,"pl-pds"],[93,94,"pl-pds"]],[[4,8,"pl-k"],[9,26,"pl-smi"],[29,34,"pl-smi"],[35,45,"pl-c1"],[46,71,"pl-s"],[46,47,"pl-pds"],[70,71,"pl-pds"]],[],[[4,8,"pl-k"]],[[15,33,"pl-c1"],[73,94,"pl-c1"],[95,96,"pl-c1"],[98,99,"pl-c1"],[101,102,"pl-c1"]],[[15,33,"pl-c1"],[73,94,"pl-c1"],[95,96,"pl-c1"],[98,99,"pl-c1"],[101,102,"pl-c1"]],[[40,58,"pl-c1"],[98,119,"pl-c1"],[120,121,"pl-c1"],[123,124,"pl-c1"],[126,127,"pl-c1"]],[[40,58,"pl-c1"],[98,119,"pl-c1"],[120,121,"pl-c1"],[123,124,"pl-c1"],[126,134,"pl-c1"],[136,142,"pl-c1"],[143,144,"pl-c1"],[162,163,"pl-c1"],[166,174,"pl-c1"],[176,182,"pl-c1"],[183,184,"pl-c1"],[204,205,"pl-c1"]],[[40,58,"pl-c1"],[98,119,"pl-c1"],[120,121,"pl-c1"],[123,124,"pl-c1"],[142,143,"pl-c1"],[163,164,"pl-c1"]],[[40,58,"pl-c1"],[98,119,"pl-c1"],[120,121,"pl-c1"],[123,124,"pl-c1"],[142,143,"pl-c1"],[163,164,"pl-c1"]],[[41,58,"pl-smi"],[62,80,"pl-c1"],[120,141,"pl-c1"],[142,143,"pl-c1"],[145,146,"pl-c1"],[168,176,"pl-c1"],[179,182,"pl-c1"]],[],[[4,103,"pl-c"],[4,6,"pl-c"]],[[16,22,"pl-c1"],[38,43,"pl-c1"],[62,65,"pl-c1"]],[],[[4,52,"pl-c"],[4,6,"pl-c"]],[],[],[[4,10,"pl-k"]],[],[],[[0,4,"pl-k"],[5,29,"pl-en"],[73,76,"pl-k"],[123,127,"pl-k"],[142,147,"pl-k"],[157,160,"pl-k"]],[],[],[],[[4,51,"pl-c"],[4,6,"pl-c"]],[[4,7,"pl-k"],[9,15,"pl-c1"],[22,23,"pl-c1"],[34,38,"pl-smi"],[39,43,"pl-c1"]],[[8,13,"pl-k"],[33,37,"pl-smi"]],[[38,50,"pl-smi"],[58,64,"pl-smi"],[92,97,"pl-c1"],[106,107,"pl-c1"]],[[16,25,"pl-c1"]],[],[],[[16,33,"pl-smi"],[36,40,"pl-c1"]],[],[[4,7,"pl-k"],[9,14,"pl-k"],[32,35,"pl-smi"]],[[20,26,"pl-c1"],[32,39,"pl-smi"]],[],[],[[4,80,"pl-c"],[4,6,"pl-c"]],[[4,77,"pl-c"],[4,6,"pl-c"]],[[4,9,"pl-c1"],[27,29,"pl-smi"]],[[4,8,"pl-c1"]],[],[[4,7,"pl-k"],[28,29,"pl-c1"]],[[4,6,"pl-k"],[11,19,"pl-smi"],[23,24,"pl-c1"],[31,36,"pl-smi"]],[[29,32,"pl-k"],[36,49,"pl-smi"],[50,54,"pl-c1"]],[],[[16,26,"pl-smi"],[27,31,"pl-c1"]],[],[[4,6,"pl-k"],[9,26,"pl-c1"],[110,115,"pl-c1"]],[[8,14,"pl-k"],[15,20,"pl-c1"]],[],[],[[4,6,"pl-k"],[28,29,"pl-c1"]],[[11,15,"pl-smi"],[16,22,"pl-c1"],[26,30,"pl-smi"],[31,36,"pl-c1"],[66,70,"pl-smi"]],[[8,79,"pl-c"],[8,10,"pl-c"]],[[8,72,"pl-c"],[8,10,"pl-c"]],[[19,26,"pl-c1"]],[],[],[[4,72,"pl-c"],[4,6,"pl-c"]],[[4,28,"pl-c"],[4,6,"pl-c"]],[[4,7,"pl-k"],[9,17,"pl-k"],[18,21,"pl-k"],[28,29,"pl-c1"],[40,44,"pl-smi"],[45,49,"pl-c1"]],[[11,15,"pl-smi"],[31,35,"pl-smi"]],[],[],[[4,65,"pl-c"],[4,6,"pl-c"]],[[4,7,"pl-k"],[9,14,"pl-k"],[37,40,"pl-smi"]],[[8,10,"pl-k"],[25,35,"pl-c1"],[41,48,"pl-smi"]],[[15,18,"pl-smi"],[19,28,"pl-c1"]],[],[[12,14,"pl-k"]],[[16,24,"pl-c1"],[30,37,"pl-smi"]],[],[],[],[],[[4,10,"pl-k"],[11,15,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,41,"pl-en"],[42,45,"pl-k"]],[],[[4,9,"pl-c1"]],[],[[24,25,"pl-c1"]],[],[],[],[],[[17,22,"pl-c1"]],[],[[4,6,"pl-k"],[9,39,"pl-c1"]],[[8,14,"pl-k"],[15,20,"pl-c1"]],[],[[27,58,"pl-c1"]],[],[],[[17,26,"pl-smi"]],[[4,18,"pl-c1"],[27,31,"pl-c1"]],[[4,12,"pl-c1"],[30,66,"pl-s"],[30,31,"pl-pds"],[63,65,"pl-cce"],[65,66,"pl-pds"],[85,89,"pl-c1"]],[],[[4,11,"pl-c1"],[19,25,"pl-c1"],[36,40,"pl-c1"],[44,61,"pl-c1"]],[],[[4,7,"pl-k"],[9,14,"pl-k"],[15,19,"pl-k"]],[[29,31,"pl-smi"],[33,40,"pl-c1"]],[[29,31,"pl-smi"],[33,35,"pl-smi"],[37,41,"pl-smi"],[46,47,"pl-smi"],[49,55,"pl-smi"]],[[8,10,"pl-k"],[27,31,"pl-c1"],[58,61,"pl-c1"],[65,73,"pl-k"],[75,96,"pl-c"],[75,77,"pl-c"]],[[8,10,"pl-k"],[46,54,"pl-k"]],[[8,10,"pl-k"],[36,44,"pl-k"]],[],[[21,26,"pl-c1"],[39,40,"pl-smi"]],[[35,37,"pl-smi"],[39,41,"pl-smi"],[43,47,"pl-smi"],[52,53,"pl-smi"],[55,67,"pl-smi"]],[[8,11,"pl-k"],[22,51,"pl-c1"],[57,64,"pl-smi"]],[],[],[[21,33,"pl-c1"],[34,41,"pl-c1"]],[[23,30,"pl-c1"]],[[8,16,"pl-c1"],[34,78,"pl-s"],[34,35,"pl-pds"],[75,77,"pl-cce"],[77,78,"pl-pds"]],[[29,37,"pl-c1"]],[],[],[[4,12,"pl-c1"],[30,74,"pl-s"],[30,31,"pl-pds"],[71,73,"pl-cce"],[73,74,"pl-pds"],[101,105,"pl-c1"]],[],[[4,10,"pl-k"],[25,26,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,43,"pl-en"],[88,92,"pl-k"],[93,109,"pl-smi"],[111,115,"pl-k"],[116,129,"pl-smi"],[131,135,"pl-k"],[136,152,"pl-smi"],[154,157,"pl-k"],[182,187,"pl-k"]],[],[[4,9,"pl-c1"]],[],[],[],[[4,64,"pl-c"],[4,6,"pl-c"]],[[4,76,"pl-c"],[4,6,"pl-c"]],[[4,6,"pl-k"],[35,36,"pl-c1"],[40,53,"pl-smi"],[57,73,"pl-smi"]],[[8,10,"pl-k"],[12,28,"pl-smi"],[32,64,"pl-smi"]],[],[[12,20,"pl-c1"],[41,112,"pl-s"],[41,42,"pl-pds"],[109,111,"pl-cce"],[111,112,"pl-pds"],[126,130,"pl-c1"]],[[12,18,"pl-k"],[31,35,"pl-c1"],[40,41,"pl-c1"]],[],[[8,10,"pl-k"],[13,29,"pl-smi"],[33,57,"pl-smi"]],[],[[12,20,"pl-c1"],[41,106,"pl-s"],[41,42,"pl-pds"],[103,105,"pl-cce"],[105,106,"pl-pds"],[120,124,"pl-c1"]],[[12,18,"pl-k"],[31,35,"pl-c1"],[40,41,"pl-c1"]],[],[],[],[[29,63,"pl-c1"]],[[39,45,"pl-c1"],[48,60,"pl-c1"],[63,75,"pl-smi"]],[],[[4,12,"pl-c"],[4,6,"pl-c"]],[],[],[[4,7,"pl-k"],[9,14,"pl-k"],[15,19,"pl-k"]],[[8,10,"pl-k"],[34,41,"pl-c1"],[51,55,"pl-smi"],[57,63,"pl-smi"],[65,73,"pl-k"]],[],[[68,72,"pl-c1"],[82,86,"pl-smi"]],[[8,10,"pl-k"],[28,31,"pl-c1"],[35,43,"pl-k"]],[],[[8,13,"pl-k"],[37,43,"pl-smi"]],[],[[8,10,"pl-k"],[16,26,"pl-c1"],[36,55,"pl-c1"],[60,61,"pl-c1"],[63,71,"pl-k"]],[[8,10,"pl-k"],[12,28,"pl-smi"],[37,46,"pl-c1"],[50,58,"pl-k"]],[[8,10,"pl-k"],[16,35,"pl-c1"],[40,41,"pl-c1"],[43,51,"pl-k"]],[],[[8,11,"pl-k"],[13,21,"pl-k"],[22,25,"pl-k"],[30,31,"pl-c1"],[41,43,"pl-smi"],[45,49,"pl-smi"],[50,54,"pl-c1"]],[],[[12,14,"pl-k"],[17,35,"pl-c1"],[40,42,"pl-smi"],[44,48,"pl-smi"],[52,64,"pl-smi"],[75,83,"pl-k"]],[],[[34,40,"pl-c1"],[42,46,"pl-c1"]],[[12,14,"pl-k"],[34,42,"pl-k"]],[],[[12,16,"pl-k"],[40,44,"pl-c1"]],[[12,14,"pl-k"],[43,44,"pl-c1"],[72,75,"pl-c1"],[94,100,"pl-smi"],[101,114,"pl-smi"],[115,119,"pl-c1"],[149,157,"pl-k"]],[],[[12,14,"pl-k"],[16,23,"pl-c1"],[33,37,"pl-smi"],[45,57,"pl-c1"],[67,71,"pl-smi"],[77,85,"pl-k"]],[],[[12,14,"pl-k"],[16,32,"pl-smi"],[36,66,"pl-c1"],[71,73,"pl-smi"],[75,79,"pl-smi"],[83,89,"pl-smi"],[92,100,"pl-k"]],[],[[12,14,"pl-k"],[16,29,"pl-smi"]],[[16,37,"pl-c"],[16,18,"pl-c"]],[[16,18,"pl-k"],[20,49,"pl-c1"],[54,56,"pl-smi"],[58,62,"pl-smi"],[66,72,"pl-smi"],[75,83,"pl-k"]],[[16,18,"pl-k"],[20,34,"pl-smi"],[50,67,"pl-c1"],[72,74,"pl-smi"],[76,80,"pl-smi"],[84,90,"pl-smi"],[93,101,"pl-k"]],[[16,90,"pl-c"],[16,18,"pl-c"]],[[16,79,"pl-c"],[16,18,"pl-c"]],[[16,18,"pl-k"],[24,26,"pl-smi"],[28,32,"pl-smi"],[36,42,"pl-smi"],[63,65,"pl-c1"],[67,75,"pl-k"]],[[16,31,"pl-c"],[16,18,"pl-c"]],[[16,18,"pl-k"],[20,32,"pl-c1"],[33,42,"pl-c1"],[52,56,"pl-smi"],[63,71,"pl-k"]],[],[],[[12,14,"pl-k"],[40,43,"pl-c1"]],[[39,46,"pl-c1"],[55,71,"pl-c1"],[75,80,"pl-smi"]],[[29,35,"pl-smi"],[36,42,"pl-smi"]],[],[[25,31,"pl-smi"],[32,39,"pl-smi"],[47,49,"pl-smi"],[51,55,"pl-smi"],[59,65,"pl-smi"]],[[25,31,"pl-smi"],[32,45,"pl-smi"],[46,58,"pl-c1"],[63,65,"pl-smi"]],[],[],[],[[4,33,"pl-c"],[4,6,"pl-c"]],[[4,81,"pl-c"],[4,6,"pl-c"]],[[16,21,"pl-c1"]],[[4,7,"pl-k"],[9,14,"pl-k"],[15,19,"pl-k"]],[[8,10,"pl-k"],[12,25,"pl-smi"],[34,40,"pl-smi"],[41,48,"pl-smi"],[67,75,"pl-k"]],[[20,29,"pl-c1"],[35,41,"pl-smi"]],[],[],[[4,61,"pl-c"],[4,6,"pl-c"]],[[4,76,"pl-c"],[4,6,"pl-c"]],[[4,6,"pl-k"],[35,36,"pl-c1"],[40,53,"pl-smi"],[57,73,"pl-smi"]],[[8,10,"pl-k"],[12,28,"pl-smi"]],[],[[12,44,"pl-smi"],[47,51,"pl-c1"]],[[10,14,"pl-k"]],[],[[12,36,"pl-smi"],[39,43,"pl-c1"]],[],[],[],[[4,12,"pl-c"],[4,6,"pl-c"]],[[4,6,"pl-k"],[8,25,"pl-c1"]],[[33,81,"pl-s"],[33,34,"pl-pds"],[78,80,"pl-cce"],[80,81,"pl-pds"]],[[8,11,"pl-k"],[13,18,"pl-k"],[19,23,"pl-k"]],[[26,35,"pl-c1"],[36,47,"pl-s"],[36,37,"pl-pds"],[44,46,"pl-cce"],[46,47,"pl-pds"],[49,66,"pl-c1"],[72,78,"pl-smi"],[80,85,"pl-c1"],[89,94,"pl-c1"],[100,107,"pl-smi"]],[[8,16,"pl-c1"],[37,41,"pl-s"],[37,38,"pl-pds"],[40,41,"pl-pds"],[56,71,"pl-c"],[56,58,"pl-c"],[69,71,"pl-c"]],[],[],[[4,10,"pl-k"],[23,27,"pl-c1"],[32,33,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,38,"pl-en"],[92,97,"pl-k"]],[],[[4,9,"pl-c1"]],[],[[24,25,"pl-c1"]],[[18,23,"pl-c1"]],[],[],[],[[17,26,"pl-smi"]],[[4,18,"pl-c1"],[27,31,"pl-c1"]],[[4,26,"pl-c"],[4,6,"pl-c"]],[[4,13,"pl-c1"],[21,27,"pl-c1"],[38,42,"pl-c1"],[46,63,"pl-c1"]],[],[[4,7,"pl-k"],[9,14,"pl-k"],[15,19,"pl-k"]],[[29,31,"pl-smi"],[33,35,"pl-smi"],[37,41,"pl-smi"],[46,47,"pl-smi"],[49,55,"pl-smi"]],[[8,10,"pl-k"]],[],[[26,33,"pl-c1"]],[],[],[],[[4,10,"pl-k"],[26,60,"pl-c1"]],[],[],[[0,3,"pl-k"],[4,34,"pl-en"],[57,62,"pl-k"]],[],[[21,22,"pl-c1"]],[],[[4,9,"pl-c1"]],[],[[4,7,"pl-k"],[9,14,"pl-k"],[15,19,"pl-k"]],[[8,13,"pl-k"],[14,18,"pl-k"],[34,38,"pl-c1"],[48,52,"pl-smi"]],[[8,10,"pl-k"],[28,31,"pl-c1"],[35,43,"pl-k"]],[[8,10,"pl-k"],[16,22,"pl-smi"],[23,25,"pl-smi"],[27,31,"pl-smi"],[41,42,"pl-smi"],[44,50,"pl-smi"],[68,76,"pl-k"]],[[8,10,"pl-k"],[16,22,"pl-smi"],[23,42,"pl-c1"],[47,48,"pl-c1"],[50,58,"pl-k"]],[],[],[],[],[[4,10,"pl-k"]],[],[],[[0,4,"pl-k"],[5,33,"pl-en"],[34,38,"pl-k"],[39,53,"pl-smi"],[55,60,"pl-k"]],[],[[4,9,"pl-c1"]],[],[],[],[[17,26,"pl-smi"]],[[4,18,"pl-c1"],[27,41,"pl-smi"]],[],[[4,10,"pl-k"],[19,24,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,41,"pl-en"],[93,98,"pl-k"]],[],[[4,30,"pl-c"],[4,6,"pl-c"]],[[16,26,"pl-smi"],[27,31,"pl-c1"]],[],[],[[33,45,"pl-c1"]],[],[[22,23,"pl-c1"]],[[4,7,"pl-k"],[25,26,"pl-c1"]],[[26,28,"pl-s"],[26,27,"pl-pds"],[27,28,"pl-pds"]],[],[[12,21,"pl-c1"],[57,62,"pl-c1"]],[],[],[[4,6,"pl-k"],[18,24,"pl-c1"]],[[20,26,"pl-c1"]],[],[[4,8,"pl-k"],[19,36,"pl-c1"]],[[4,6,"pl-k"]],[[8,17,"pl-c1"],[18,71,"pl-s"],[18,19,"pl-pds"],[68,70,"pl-cce"],[70,71,"pl-pds"]],[[8,14,"pl-k"],[15,20,"pl-c1"]],[],[],[[4,10,"pl-k"],[11,15,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,31,"pl-en"],[32,37,"pl-k"],[136,139,"pl-k"],[186,191,"pl-k"],[220,224,"pl-k"],[231,234,"pl-k"]],[],[[21,22,"pl-c1"]],[[4,7,"pl-k"]],[[4,12,"pl-k"],[13,16,"pl-k"],[42,43,"pl-c1"]],[[4,7,"pl-k"],[9,14,"pl-k"],[15,19,"pl-k"]],[[8,10,"pl-k"],[21,22,"pl-c1"],[36,43,"pl-smi"],[46,47,"pl-c1"]],[[28,29,"pl-c1"],[30,72,"pl-s"],[30,31,"pl-pds"],[71,72,"pl-pds"]],[[12,18,"pl-k"],[19,24,"pl-c1"]],[],[[28,35,"pl-smi"]],[],[[8,10,"pl-k"],[22,44,"pl-smi"]],[],[],[[4,6,"pl-k"],[16,21,"pl-c1"]],[[24,25,"pl-c1"],[26,72,"pl-s"],[26,27,"pl-pds"],[71,72,"pl-pds"]],[[8,14,"pl-k"],[15,20,"pl-c1"]],[],[],[],[],[[26,27,"pl-c1"]],[[4,6,"pl-k"]],[[14,22,"pl-smi"],[25,26,"pl-c1"]],[[14,19,"pl-smi"]],[[12,20,"pl-smi"]],[[12,20,"pl-smi"],[28,36,"pl-smi"]],[[12,20,"pl-smi"],[28,36,"pl-smi"]],[[12,27,"pl-smi"],[30,31,"pl-c1"]],[[12,34,"pl-smi"],[37,42,"pl-c1"]],[[12,15,"pl-smi"],[18,31,"pl-c1"]],[[22,39,"pl-c1"]],[],[[4,30,"pl-c"],[4,6,"pl-c"]],[[4,6,"pl-c"],[4,6,"pl-c"]],[[4,76,"pl-c"],[4,6,"pl-c"]],[[4,77,"pl-c"],[4,6,"pl-c"]],[[4,78,"pl-c"],[4,6,"pl-c"]],[[4,74,"pl-c"],[4,6,"pl-c"]],[[4,75,"pl-c"],[4,6,"pl-c"]],[[4,73,"pl-c"],[4,6,"pl-c"]],[[4,6,"pl-c"],[4,6,"pl-c"]],[[4,77,"pl-c"],[4,6,"pl-c"]],[[4,76,"pl-c"],[4,6,"pl-c"]],[[4,70,"pl-c"],[4,6,"pl-c"]],[[4,76,"pl-c"],[4,6,"pl-c"]],[[4,75,"pl-c"],[4,6,"pl-c"]],[[4,54,"pl-c"],[4,6,"pl-c"]],[[4,6,"pl-c"],[4,6,"pl-c"]],[[4,72,"pl-c"],[4,6,"pl-c"]],[[4,78,"pl-c"],[4,6,"pl-c"]],[[4,71,"pl-c"],[4,6,"pl-c"]],[[4,43,"pl-c"],[4,6,"pl-c"]],[],[[10,19,"pl-smi"],[34,40,"pl-c1"]],[],[[4,76,"pl-c"],[4,6,"pl-c"]],[[4,76,"pl-c"],[4,6,"pl-c"]],[[4,77,"pl-c"],[4,6,"pl-c"]],[[4,22,"pl-c"],[4,6,"pl-c"]],[[4,6,"pl-k"],[8,18,"pl-c1"],[19,21,"pl-c1"],[26,27,"pl-c1"]],[[14,23,"pl-smi"],[26,34,"pl-c1"],[35,36,"pl-c1"],[39,42,"pl-k"],[49,58,"pl-smi"],[61,71,"pl-c1"],[72,75,"pl-c1"]],[],[[4,10,"pl-c1"],[17,26,"pl-smi"],[31,39,"pl-k"],[40,43,"pl-k"],[56,62,"pl-c1"]],[[4,10,"pl-c1"],[17,26,"pl-smi"]],[],[[41,58,"pl-smi"],[75,92,"pl-smi"],[95,109,"pl-c1"]],[[4,12,"pl-k"],[13,16,"pl-k"]],[],[],[[8,13,"pl-c1"],[31,33,"pl-smi"]],[[8,12,"pl-c1"]],[],[[37,38,"pl-c1"]],[],[[12,26,"pl-c1"],[44,48,"pl-c1"]],[[55,104,"pl-c"],[55,57,"pl-c"]],[[34,41,"pl-smi"],[44,49,"pl-c1"],[55,71,"pl-c"],[55,57,"pl-c"]],[],[[12,15,"pl-k"],[17,21,"pl-k"]],[[16,18,"pl-k"],[24,34,"pl-smi"],[42,59,"pl-smi"]],[[44,46,"pl-smi"],[48,50,"pl-smi"],[52,56,"pl-smi"],[61,62,"pl-smi"],[64,70,"pl-smi"]],[],[],[[12,71,"pl-c"],[12,14,"pl-c"]],[[12,66,"pl-c"],[12,14,"pl-c"]],[[12,69,"pl-c"],[12,14,"pl-c"]],[],[],[[12,58,"pl-c"],[12,14,"pl-c"]],[[12,14,"pl-k"],[58,68,"pl-smi"]],[[31,54,"pl-c1"],[68,78,"pl-smi"]],[[14,18,"pl-k"],[21,79,"pl-c"],[21,23,"pl-c"]],[[16,102,"pl-c"],[16,18,"pl-c"]],[[16,99,"pl-c"],[16,18,"pl-c"]],[[16,102,"pl-c"],[16,18,"pl-c"]],[[16,94,"pl-c"],[16,18,"pl-c"]],[[16,98,"pl-c"],[16,18,"pl-c"]],[[16,39,"pl-c"],[16,18,"pl-c"]],[],[[16,55,"pl-c"],[16,18,"pl-c"]],[],[[16,20,"pl-k"]],[[33,47,"pl-c1"],[59,63,"pl-c1"]],[[16,18,"pl-k"]],[[36,37,"pl-c1"],[38,88,"pl-s"],[38,39,"pl-pds"],[87,88,"pl-pds"]],[[20,26,"pl-k"],[27,32,"pl-c1"]],[],[],[[31,54,"pl-c1"],[65,70,"pl-c1"]],[],[],[[22,23,"pl-c1"]],[[12,16,"pl-k"],[35,39,"pl-c1"]],[[31,32,"pl-c1"]],[[46,47,"pl-c1"]],[[12,131,"pl-c"],[12,14,"pl-c"]],[[12,15,"pl-k"],[28,31,"pl-c1"]],[[12,17,"pl-k"],[33,34,"pl-c1"]],[[54,57,"pl-k"],[60,63,"pl-c1"]],[[22,25,"pl-smi"],[26,31,"pl-c1"]],[[22,26,"pl-smi"],[27,32,"pl-c1"]],[[16,20,"pl-k"],[21,27,"pl-smi"],[30,34,"pl-c1"]],[],[],[[16,18,"pl-k"],[46,47,"pl-c1"]],[[20,26,"pl-c1"],[56,57,"pl-c1"]],[],[],[[16,38,"pl-c"],[16,18,"pl-c"]],[[16,19,"pl-k"],[21,26,"pl-k"],[27,31,"pl-k"]],[[27,32,"pl-smi"],[43,50,"pl-smi"],[62,74,"pl-smi"]],[],[[20,22,"pl-k"],[34,56,"pl-smi"]],[[24,30,"pl-c1"],[57,58,"pl-c1"]],[[30,36,"pl-smi"],[74,126,"pl-c"],[74,76,"pl-c"]],[],[[24,26,"pl-k"],[28,34,"pl-smi"],[36,102,"pl-c"],[36,38,"pl-c"]],[],[[28,34,"pl-smi"],[37,42,"pl-c1"]],[[34,40,"pl-smi"]],[],[],[[20,22,"pl-k"],[24,30,"pl-c1"]],[[24,26,"pl-k"],[38,60,"pl-smi"],[74,75,"pl-c1"]],[[28,30,"pl-k"],[38,44,"pl-smi"],[47,48,"pl-c1"]],[[48,49,"pl-c1"],[50,102,"pl-s"],[50,51,"pl-pds"],[101,102,"pl-pds"]],[[28,32,"pl-k"]],[[48,49,"pl-c1"],[50,127,"pl-s"],[50,51,"pl-pds"],[126,127,"pl-pds"]],[[26,30,"pl-k"]],[[44,45,"pl-c1"],[46,76,"pl-s"],[46,47,"pl-pds"],[75,76,"pl-pds"]],[[24,30,"pl-k"],[31,36,"pl-c1"]],[],[[20,22,"pl-k"],[41,53,"pl-smi"],[62,77,"pl-smi"]],[[28,43,"pl-smi"],[52,56,"pl-smi"],[57,61,"pl-c1"]],[[36,38,"pl-smi"]],[],[[30,43,"pl-smi"],[44,50,"pl-c1"],[54,59,"pl-c1"],[66,69,"pl-c1"]],[[50,63,"pl-smi"],[64,68,"pl-c1"]],[],[[26,30,"pl-smi"],[31,40,"pl-c1"]],[],[],[[16,38,"pl-c"],[16,18,"pl-c"]],[[16,20,"pl-k"]],[],[[16,18,"pl-k"]],[[31,32,"pl-c1"]],[],[[20,22,"pl-k"],[25,36,"pl-c1"]],[[24,26,"pl-k"],[41,50,"pl-smi"]],[[44,45,"pl-c1"],[46,115,"pl-s"],[46,47,"pl-pds"],[114,115,"pl-pds"]],[[26,30,"pl-k"],[31,33,"pl-k"],[48,57,"pl-smi"]],[[44,45,"pl-c1"],[46,105,"pl-s"],[46,47,"pl-pds"],[104,105,"pl-pds"]],[[45,48,"pl-s"],[45,46,"pl-pds"],[47,48,"pl-pds"],[51,60,"pl-c1"],[61,62,"pl-c1"],[63,159,"pl-s"],[63,64,"pl-pds"],[158,159,"pl-pds"],[162,172,"pl-s"],[162,163,"pl-pds"],[171,172,"pl-pds"]],[[26,30,"pl-k"],[31,33,"pl-k"]],[[44,45,"pl-c1"],[46,67,"pl-s"],[46,47,"pl-pds"],[66,67,"pl-pds"]],[],[[24,30,"pl-k"],[31,36,"pl-c1"]],[],[[29,35,"pl-c1"],[48,53,"pl-c1"],[69,72,"pl-c1"]],[],[],[[16,27,"pl-c"],[16,18,"pl-c"]],[[16,18,"pl-c"],[16,18,"pl-c"]],[[16,77,"pl-c"],[16,18,"pl-c"]],[[16,54,"pl-c"],[16,18,"pl-c"]],[[22,25,"pl-smi"],[26,31,"pl-c1"]],[[16,19,"pl-k"],[21,26,"pl-k"],[27,31,"pl-k"]],[[26,29,"pl-smi"],[30,42,"pl-c1"],[48,56,"pl-smi"],[58,65,"pl-c1"],[93,94,"pl-c1"]],[],[],[[16,20,"pl-k"],[58,62,"pl-k"]],[[20,68,"pl-c"],[20,22,"pl-c"]],[[20,23,"pl-k"],[30,31,"pl-c1"]],[[20,23,"pl-k"],[25,30,"pl-k"],[31,35,"pl-k"]],[[24,29,"pl-k"],[59,64,"pl-smi"],[65,77,"pl-smi"]],[],[[24,26,"pl-k"],[29,45,"pl-c1"],[46,67,"pl-c1"],[68,72,"pl-c1"]],[[44,45,"pl-c1"],[46,74,"pl-s"],[46,47,"pl-pds"],[73,74,"pl-pds"]],[[28,34,"pl-k"],[35,40,"pl-c1"]],[[26,30,"pl-k"]],[[28,45,"pl-c1"]],[],[],[],[],[],[[31,47,"pl-c1"]],[],[[20,22,"pl-k"],[45,46,"pl-c1"]],[[24,71,"pl-c"],[24,26,"pl-c"]],[[34,54,"pl-c1"]],[],[],[[20,22,"pl-k"]],[[24,84,"pl-c"],[24,26,"pl-c"]],[[40,41,"pl-c1"],[42,65,"pl-s"],[42,43,"pl-pds"],[64,65,"pl-pds"]],[[24,30,"pl-k"],[31,36,"pl-c1"]],[],[],[[20,90,"pl-c"],[20,22,"pl-c"]],[[20,23,"pl-k"],[25,29,"pl-k"],[44,47,"pl-smi"]],[[29,38,"pl-smi"],[41,48,"pl-c1"]],[],[],[[27,40,"pl-c1"]],[],[[20,113,"pl-c"],[20,22,"pl-c"]],[[20,69,"pl-c"],[20,22,"pl-c"]],[[20,22,"pl-k"],[47,53,"pl-c1"]],[[40,41,"pl-c1"],[42,80,"pl-s"],[42,43,"pl-pds"],[79,80,"pl-pds"]],[[24,30,"pl-k"],[31,36,"pl-c1"]],[],[],[[20,26,"pl-k"],[27,31,"pl-c1"]],[],[],[[16,18,"pl-k"],[21,33,"pl-c1"]],[[20,26,"pl-k"],[27,32,"pl-c1"]],[],[],[],[[16,21,"pl-k"]],[[16,20,"pl-k"]],[[20,22,"pl-k"],[49,50,"pl-c1"]],[[24,30,"pl-k"]],[[22,26,"pl-k"]],[[24,30,"pl-k"]],[],[],[],[[16,18,"pl-k"],[20,29,"pl-c1"],[34,35,"pl-c1"]],[[20,60,"pl-c"],[20,22,"pl-c"]],[[20,22,"pl-k"],[37,46,"pl-smi"]],[[43,44,"pl-c1"]],[[35,44,"pl-c1"]],[[22,26,"pl-k"]],[[24,99,"pl-c"],[24,26,"pl-c"]],[[35,41,"pl-c1"],[42,43,"pl-c1"]],[[30,34,"pl-smi"],[35,44,"pl-c1"]],[],[[24,84,"pl-c"],[24,26,"pl-c"]],[[24,87,"pl-c"],[24,26,"pl-c"]],[[24,70,"pl-c"],[24,26,"pl-c"]],[],[[24,26,"pl-k"],[29,41,"pl-c1"]],[[28,34,"pl-k"],[35,40,"pl-c1"]],[],[],[[24,99,"pl-c"],[24,26,"pl-c"]],[[30,34,"pl-smi"],[35,43,"pl-c1"]],[],[[24,57,"pl-c"],[24,26,"pl-c"]],[[33,39,"pl-smi"],[42,51,"pl-c1"]],[],[[24,71,"pl-c"],[24,26,"pl-c"]],[[24,51,"pl-c"],[24,26,"pl-c"]],[[24,26,"pl-k"],[28,34,"pl-c1"]],[],[[47,48,"pl-c1"]],[[39,48,"pl-c1"]],[[26,30,"pl-k"]],[[28,30,"pl-k"],[54,55,"pl-c1"]],[[32,72,"pl-c"],[32,34,"pl-c"]],[[50,60,"pl-c1"],[67,71,"pl-smi"],[72,76,"pl-c1"],[81,82,"pl-c1"]],[[30,34,"pl-k"],[35,37,"pl-k"],[40,48,"pl-k"],[49,52,"pl-k"],[79,83,"pl-smi"],[84,88,"pl-c1"]],[[48,49,"pl-c1"],[50,77,"pl-s"],[50,51,"pl-pds"],[76,77,"pl-pds"]],[[32,38,"pl-k"],[39,44,"pl-c1"]],[[30,34,"pl-k"]],[],[],[],[[75,79,"pl-smi"],[80,85,"pl-c1"]],[[34,38,"pl-smi"],[39,45,"pl-c1"]],[],[],[[18,22,"pl-k"]],[[39,40,"pl-c1"]],[],[],[[16,18,"pl-k"],[20,29,"pl-c1"],[34,35,"pl-c1"]],[[20,22,"pl-k"],[50,51,"pl-c1"]],[[24,123,"pl-c"],[24,26,"pl-c"]],[[24,114,"pl-c"],[24,26,"pl-c"]],[[53,56,"pl-c1"],[57,66,"pl-c1"]],[[22,26,"pl-k"],[27,29,"pl-k"],[59,60,"pl-c1"]],[[24,91,"pl-c"],[24,26,"pl-c"]],[[24,97,"pl-c"],[24,26,"pl-c"]],[[53,54,"pl-c1"]],[],[[20,28,"pl-k"]],[],[],[[16,76,"pl-c"],[16,18,"pl-c"]],[[16,18,"pl-k"],[42,43,"pl-c1"]],[[20,29,"pl-c1"],[39,44,"pl-c1"],[57,60,"pl-c1"],[64,85,"pl-c1"]],[[20,29,"pl-c1"],[36,39,"pl-smi"],[40,45,"pl-c1"],[55,58,"pl-smi"],[59,62,"pl-c1"],[66,83,"pl-c1"]],[[20,29,"pl-c1"],[36,40,"pl-smi"],[41,46,"pl-c1"],[56,60,"pl-smi"],[61,64,"pl-c1"],[68,86,"pl-c1"]],[],[[20,97,"pl-c"],[20,22,"pl-c"]],[[20,22,"pl-k"],[44,45,"pl-c1"]],[[24,27,"pl-k"],[32,33,"pl-c1"]],[[24,27,"pl-k"],[29,34,"pl-k"],[57,61,"pl-smi"]],[[28,30,"pl-k"]],[],[[32,37,"pl-k"]],[],[],[],[],[],[],[[16,18,"pl-k"]],[[20,108,"pl-c"],[20,22,"pl-c"]],[[20,76,"pl-c"],[20,22,"pl-c"]],[[20,113,"pl-c"],[20,22,"pl-c"]],[[20,25,"pl-k"]],[],[],[[16,116,"pl-c"],[16,18,"pl-c"]],[[16,18,"pl-k"],[40,41,"pl-c1"],[71,72,"pl-c1"]],[[20,25,"pl-k"]],[],[],[[16,78,"pl-c"],[16,18,"pl-c"]],[[16,73,"pl-c"],[16,18,"pl-c"]],[[16,18,"pl-k"],[45,46,"pl-c1"]],[[20,104,"pl-c"],[20,22,"pl-c"]],[[20,111,"pl-c"],[20,22,"pl-c"]],[[20,40,"pl-c"],[20,22,"pl-c"]],[[20,22,"pl-k"]],[[24,29,"pl-k"]],[],[[38,43,"pl-c1"]],[],[],[],[[12,14,"pl-k"],[29,30,"pl-c1"]],[[32,33,"pl-c1"],[34,55,"pl-s"],[34,35,"pl-pds"],[54,55,"pl-pds"]],[[16,22,"pl-k"],[23,28,"pl-c1"]],[],[],[],[[8,67,"pl-c"],[8,10,"pl-c"]],[[8,14,"pl-c1"],[54,57,"pl-k"],[60,63,"pl-c1"]],[],[[8,10,"pl-k"],[32,33,"pl-c1"],[46,55,"pl-c1"],[59,109,"pl-c"],[59,61,"pl-c"]],[[8,10,"pl-k"]],[[16,31,"pl-smi"],[34,35,"pl-c1"]],[[12,92,"pl-c"],[12,14,"pl-c"]],[[12,15,"pl-k"],[17,22,"pl-k"],[23,27,"pl-k"],[43,47,"pl-smi"]],[[16,18,"pl-k"],[26,38,"pl-smi"],[47,62,"pl-smi"]],[[20,25,"pl-k"]],[[20,35,"pl-smi"]],[],[[12,37,"pl-c1"]],[[12,24,"pl-c1"]],[],[],[[8,10,"pl-k"]],[[25,35,"pl-smi"]],[[12,15,"pl-k"],[22,23,"pl-c1"]],[[12,15,"pl-k"],[17,22,"pl-k"],[23,27,"pl-k"]],[[16,21,"pl-k"],[51,56,"pl-smi"],[57,69,"pl-smi"]],[],[],[[16,18,"pl-k"],[21,37,"pl-c1"],[38,65,"pl-c1"],[66,70,"pl-c1"]],[[36,37,"pl-c1"],[38,66,"pl-s"],[38,39,"pl-pds"],[65,66,"pl-pds"]],[[20,26,"pl-k"],[27,32,"pl-c1"]],[[18,22,"pl-k"]],[[20,37,"pl-c1"]],[],[],[],[],[],[],[[8,51,"pl-c"],[8,10,"pl-c"]],[[13,31,"pl-c1"],[32,41,"pl-c1"]],[],[],[[4,6,"pl-k"],[8,13,"pl-smi"],[14,24,"pl-c1"],[25,50,"pl-s"],[25,26,"pl-pds"],[49,50,"pl-pds"]],[[8,70,"pl-c"],[8,10,"pl-c"]],[],[[24,29,"pl-smi"],[34,35,"pl-c1"],[37,38,"pl-c1"],[40,41,"pl-c1"],[43,44,"pl-c1"],[46,51,"pl-c1"],[53,54,"pl-c1"]],[],[[8,14,"pl-c1"],[33,38,"pl-smi"],[39,45,"pl-c1"],[46,67,"pl-s"],[46,47,"pl-pds"],[66,67,"pl-pds"]],[[8,14,"pl-c1"],[36,41,"pl-smi"],[42,48,"pl-c1"],[49,69,"pl-s"],[49,50,"pl-pds"],[68,69,"pl-pds"],[102,106,"pl-c1"]],[[8,14,"pl-c1"],[35,40,"pl-smi"],[41,47,"pl-c1"],[48,71,"pl-s"],[48,49,"pl-pds"],[70,71,"pl-pds"]],[[8,14,"pl-c1"],[38,43,"pl-smi"],[44,50,"pl-c1"],[51,73,"pl-s"],[51,52,"pl-pds"],[72,73,"pl-pds"],[108,112,"pl-c1"]],[],[[8,12,"pl-c1"],[23,25,"pl-smi"]],[[8,10,"pl-k"],[23,48,"pl-c1"]],[[28,29,"pl-c1"],[30,75,"pl-s"],[30,31,"pl-pds"],[74,75,"pl-pds"]],[[12,18,"pl-k"],[19,24,"pl-c1"]],[],[],[],[[4,13,"pl-c1"],[14,206,"pl-s"],[14,15,"pl-pds"],[77,79,"pl-cce"],[81,83,"pl-cce"],[203,205,"pl-cce"],[205,206,"pl-pds"]],[[33,47,"pl-smi"],[57,70,"pl-smi"],[72,90,"pl-c1"],[99,105,"pl-smi"],[116,119,"pl-smi"],[120,125,"pl-smi"]],[[16,19,"pl-smi"],[20,24,"pl-smi"],[25,30,"pl-smi"],[40,43,"pl-smi"],[44,48,"pl-smi"],[49,52,"pl-smi"]],[[8,11,"pl-c1"],[22,25,"pl-smi"],[26,30,"pl-smi"],[31,43,"pl-smi"],[55,58,"pl-smi"],[59,63,"pl-smi"],[64,78,"pl-smi"],[89,92,"pl-smi"],[93,97,"pl-smi"],[98,107,"pl-smi"],[118,121,"pl-smi"],[122,126,"pl-smi"],[127,138,"pl-smi"]],[[16,19,"pl-smi"],[20,24,"pl-smi"],[25,37,"pl-smi"],[47,50,"pl-smi"],[51,55,"pl-smi"],[56,70,"pl-smi"],[80,83,"pl-smi"],[84,88,"pl-smi"],[89,98,"pl-smi"],[108,111,"pl-smi"],[112,116,"pl-smi"],[117,128,"pl-smi"]],[[16,19,"pl-smi"],[20,24,"pl-smi"],[25,30,"pl-smi"],[40,43,"pl-smi"],[44,48,"pl-smi"],[49,52,"pl-smi"]],[[8,11,"pl-c1"],[22,25,"pl-smi"],[26,30,"pl-smi"],[31,43,"pl-smi"],[55,58,"pl-smi"],[59,63,"pl-smi"],[64,78,"pl-smi"],[89,92,"pl-smi"],[93,97,"pl-smi"],[98,107,"pl-smi"],[118,121,"pl-smi"],[122,126,"pl-smi"],[127,138,"pl-smi"]],[[16,19,"pl-smi"],[20,24,"pl-smi"],[25,37,"pl-smi"],[47,50,"pl-smi"],[51,55,"pl-smi"],[56,70,"pl-smi"],[80,83,"pl-smi"],[84,88,"pl-smi"],[89,98,"pl-smi"],[108,111,"pl-smi"],[112,116,"pl-smi"],[117,128,"pl-smi"]],[[4,10,"pl-k"],[11,15,"pl-c1"]],[],[],[[0,3,"pl-c"],[0,2,"pl-c"]],[[0,56,"pl-c"]],[[0,3,"pl-c"],[1,3,"pl-c"]],[[0,4,"pl-k"],[5,31,"pl-en"]],[],[],[[8,13,"pl-c1"],[31,33,"pl-smi"]],[[8,12,"pl-c1"]],[],[[18,24,"pl-smi"],[25,29,"pl-c1"],[31,40,"pl-c1"]],[[15,23,"pl-smi"],[26,35,"pl-c1"]],[[15,25,"pl-smi"],[28,37,"pl-c1"]],[[15,29,"pl-smi"],[32,41,"pl-c1"]],[[15,36,"pl-smi"],[39,43,"pl-c1"]],[[15,22,"pl-smi"],[25,29,"pl-c1"]],[],[[8,17,"pl-c1"],[18,44,"pl-s"],[18,19,"pl-pds"],[37,39,"pl-cce"],[41,43,"pl-cce"],[43,44,"pl-pds"],[53,55,"pl-smi"],[57,65,"pl-c1"]],[],[[12,68,"pl-c"],[12,14,"pl-c"]],[[23,30,"pl-c1"]],[],[[12,73,"pl-c"],[12,14,"pl-c"]],[[12,54,"pl-c"],[12,14,"pl-c"]],[[12,23,"pl-c1"]],[],[[12,46,"pl-c"],[12,14,"pl-c"]],[],[[12,15,"pl-k"],[17,22,"pl-k"],[44,46,"pl-smi"],[48,51,"pl-smi"]],[[16,35,"pl-c"],[16,18,"pl-c"]],[[16,18,"pl-k"],[34,38,"pl-c1"],[44,51,"pl-smi"],[52,56,"pl-smi"],[75,78,"pl-c1"],[82,90,"pl-k"]],[],[[44,46,"pl-c1"],[52,59,"pl-smi"],[60,64,"pl-smi"]],[[21,31,"pl-c1"],[32,36,"pl-c1"]],[[16,40,"pl-c1"],[41,45,"pl-c1"],[52,59,"pl-smi"],[60,64,"pl-smi"]],[[30,36,"pl-c1"],[42,49,"pl-smi"],[50,54,"pl-smi"]],[],[],[],[[8,64,"pl-c"],[8,10,"pl-c"]],[[8,45,"pl-c"],[8,10,"pl-c"]],[[35,37,"pl-c1"],[45,52,"pl-c1"]],[],[[8,10,"pl-k"],[12,34,"pl-smi"]],[[12,24,"pl-c"],[12,14,"pl-c"]],[[12,14,"pl-k"],[21,39,"pl-c1"]],[[16,25,"pl-c1"],[26,98,"pl-s"],[26,27,"pl-pds"],[95,97,"pl-cce"],[97,98,"pl-pds"],[100,118,"pl-c1"]],[[16,134,"pl-c"],[16,18,"pl-c"]],[[14,18,"pl-k"]],[[20,42,"pl-c1"]],[],[],[],[[4,10,"pl-k"],[11,15,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,36,"pl-en"],[37,42,"pl-k"]],[],[[16,21,"pl-smi"]],[[4,10,"pl-k"],[17,39,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,32,"pl-en"],[33,38,"pl-k"]],[],[[16,21,"pl-smi"]],[],[[4,10,"pl-k"],[11,29,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,32,"pl-en"],[33,38,"pl-k"]],[],[[4,6,"pl-k"],[16,36,"pl-c1"]],[[8,14,"pl-k"],[15,20,"pl-c1"]],[],[],[[16,25,"pl-c1"]],[[42,46,"pl-c1"]],[[15,21,"pl-c1"],[22,36,"pl-c1"],[43,52,"pl-smi"],[54,60,"pl-c1"],[61,68,"pl-c1"]],[],[[4,10,"pl-k"],[11,15,"pl-c1"]],[],[],[[9,28,"pl-en"],[29,33,"pl-k"],[35,47,"pl-smi"]],[],[[4,9,"pl-c1"]],[],[[4,16,"pl-smi"],[19,24,"pl-c1"]],[[30,41,"pl-c1"],[53,58,"pl-s"],[53,54,"pl-pds"],[57,58,"pl-pds"],[60,70,"pl-c1"],[71,75,"pl-c1"]],[[4,6,"pl-k"]],[[8,10,"pl-k"],[22,29,"pl-c1"],[30,40,"pl-s"],[30,31,"pl-pds"],[31,35,"pl-cce"],[39,40,"pl-pds"]],[[31,36,"pl-c1"]],[[31,36,"pl-c1"]],[[39,40,"pl-c1"]],[[32,37,"pl-c1"]],[[12,73,"pl-c"],[12,14,"pl-c"]],[[12,72,"pl-c"],[12,14,"pl-c"]],[[12,39,"pl-c"],[12,14,"pl-c"]],[],[],[],[],[[8,12,"pl-c1"]],[[8,68,"pl-c"],[8,10,"pl-c"]],[[8,20,"pl-smi"],[31,36,"pl-c1"],[55,60,"pl-c1"],[81,86,"pl-c1"],[105,110,"pl-c1"],[129,134,"pl-c1"],[151,156,"pl-c1"]],[],[],[],[[8,13,"pl-c1"]],[[8,11,"pl-k"],[13,17,"pl-k"]],[[12,15,"pl-k"],[17,25,"pl-k"],[26,29,"pl-k"],[34,35,"pl-c1"],[46,52,"pl-smi"],[53,55,"pl-smi"],[57,61,"pl-smi"],[62,66,"pl-c1"]],[[16,18,"pl-k"],[20,26,"pl-c1"],[32,38,"pl-smi"],[39,41,"pl-smi"],[43,47,"pl-smi"],[56,63,"pl-c1"],[69,74,"pl-smi"]],[[34,40,"pl-c1"],[41,50,"pl-c1"],[56,61,"pl-smi"]],[],[],[],[],[],[[4,20,"pl-c1"]],[],[[4,6,"pl-k"]],[[8,14,"pl-k"]],[],[[4,10,"pl-k"]],[],[],[[0,116,"pl-c"],[0,2,"pl-c"]],[[0,118,"pl-c"],[0,2,"pl-c"]],[[0,4,"pl-k"],[5,42,"pl-en"]],[],[[4,8,"pl-k"],[42,59,"pl-c1"]],[],[[4,9,"pl-c1"]],[[4,7,"pl-k"],[9,14,"pl-k"],[15,19,"pl-k"]],[[8,11,"pl-k"],[13,21,"pl-k"],[22,25,"pl-k"],[30,31,"pl-c1"],[42,48,"pl-smi"],[49,51,"pl-smi"],[53,57,"pl-smi"],[58,62,"pl-c1"]],[[12,14,"pl-k"],[16,22,"pl-c1"],[28,34,"pl-smi"],[35,37,"pl-smi"],[39,43,"pl-smi"],[52,59,"pl-c1"],[65,70,"pl-smi"]],[[16,18,"pl-k"],[44,65,"pl-c1"],[71,77,"pl-smi"],[78,80,"pl-smi"],[95,112,"pl-c1"],[113,122,"pl-c1"],[128,133,"pl-smi"]],[[20,28,"pl-c1"],[29,38,"pl-c1"],[44,49,"pl-smi"]],[],[],[],[],[],[],[[9,29,"pl-en"]],[],[[4,18,"pl-c1"],[31,43,"pl-c"],[31,33,"pl-c"]],[[31,42,"pl-c1"],[54,59,"pl-s"],[54,55,"pl-pds"],[58,59,"pl-pds"],[61,72,"pl-c1"]],[[4,7,"pl-k"]],[[8,13,"pl-k"],[14,18,"pl-k"],[35,39,"pl-c1"]],[[19,24,"pl-c1"],[29,35,"pl-smi"],[36,51,"pl-smi"]],[[18,23,"pl-c1"]],[],[],[[4,6,"pl-k"]],[[8,10,"pl-k"],[22,29,"pl-c1"],[30,40,"pl-s"],[30,31,"pl-pds"],[31,35,"pl-cce"],[39,40,"pl-pds"]],[[31,36,"pl-c1"]],[[31,36,"pl-c1"]],[[32,37,"pl-c1"]],[[12,73,"pl-c"],[12,14,"pl-c"]],[[12,72,"pl-c"],[12,14,"pl-c"]],[[12,39,"pl-c"],[12,14,"pl-c"]],[],[],[],[[4,6,"pl-k"]],[[8,14,"pl-k"]],[],[[4,13,"pl-c1"]],[],[[4,10,"pl-k"]],[],[],[[9,29,"pl-en"]],[],[[31,42,"pl-c1"],[54,59,"pl-s"],[54,55,"pl-pds"],[58,59,"pl-pds"],[61,72,"pl-c1"]],[[4,6,"pl-k"]],[[8,10,"pl-k"],[22,29,"pl-c1"],[30,40,"pl-s"],[30,31,"pl-pds"],[31,35,"pl-cce"],[39,40,"pl-pds"]],[[12,16,"pl-c1"]],[[31,36,"pl-c1"]],[[31,36,"pl-c1"]],[[39,40,"pl-c1"]],[[32,37,"pl-c1"]],[[12,73,"pl-c"],[12,14,"pl-c"]],[[12,72,"pl-c"],[12,14,"pl-c"]],[[12,39,"pl-c"],[12,14,"pl-c"]],[],[],[],[[4,6,"pl-k"]],[[8,14,"pl-k"]],[],[[4,10,"pl-k"]],[],[],[],[[0,4,"pl-k"],[5,28,"pl-en"],[29,34,"pl-k"],[60,65,"pl-k"],[88,93,"pl-k"]],[],[[4,8,"pl-k"],[9,17,"pl-smi"],[20,25,"pl-c1"]],[],[[8,12,"pl-c1"],[25,42,"pl-c"],[25,27,"pl-c"]],[[81,85,"pl-c1"]],[[8,16,"pl-smi"],[40,43,"pl-c1"]],[[32,36,"pl-smi"]],[[8,10,"pl-k"],[24,29,"pl-c1"],[33,71,"pl-c"],[33,35,"pl-c"],[69,71,"pl-c"]],[[36,43,"pl-smi"]],[],[[4,28,"pl-c1"],[29,33,"pl-c1"],[55,61,"pl-c1"],[63,67,"pl-c1"]],[[21,29,"pl-smi"]],[[4,6,"pl-k"],[20,25,"pl-c1"],[32,43,"pl-c1"],[55,67,"pl-c1"],[68,85,"pl-c1"]],[[8,14,"pl-k"],[15,20,"pl-c1"]],[[4,10,"pl-k"],[11,22,"pl-c1"],[34,43,"pl-c1"],[44,61,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,28,"pl-en"],[29,34,"pl-k"]],[],[],[[8,12,"pl-c1"],[25,42,"pl-c"],[25,27,"pl-c"]],[],[[8,57,"pl-c"],[8,10,"pl-c"]],[[33,50,"pl-c1"]],[[8,11,"pl-k"],[13,18,"pl-k"],[29,34,"pl-k"],[93,101,"pl-smi"]],[[12,23,"pl-c1"],[35,48,"pl-c1"],[66,71,"pl-smi"]],[],[[23,28,"pl-c1"]],[],[],[[4,28,"pl-c1"],[29,33,"pl-c1"],[44,46,"pl-s"],[44,45,"pl-pds"],[45,46,"pl-pds"],[50,56,"pl-c1"],[58,62,"pl-c1"],[87,89,"pl-s"],[87,88,"pl-pds"],[88,89,"pl-pds"]],[],[[4,15,"pl-c1"],[27,39,"pl-c1"],[40,57,"pl-c1"]],[[4,10,"pl-k"],[11,22,"pl-c1"],[34,43,"pl-c1"],[44,61,"pl-c1"]],[],[],[[0,5,"pl-k"],[19,40,"pl-en"],[41,46,"pl-k"],[70,75,"pl-k"]],[],[],[[4,6,"pl-k"],[8,26,"pl-c1"],[67,80,"pl-c1"]],[[8,12,"pl-k"],[33,37,"pl-c1"]],[[8,10,"pl-k"],[33,36,"pl-c1"]],[[12,18,"pl-k"],[23,29,"pl-smi"],[30,34,"pl-smi"]],[],[],[[4,71,"pl-c"],[4,6,"pl-c"]],[[4,46,"pl-c"],[4,6,"pl-c"]],[[4,9,"pl-k"],[10,16,"pl-k"]],[[4,10,"pl-k"]],[],[],[[0,3,"pl-c"],[0,2,"pl-c"]],[[0,33,"pl-c"]],[[0,28,"pl-c"]],[[0,3,"pl-c"],[1,3,"pl-c"]],[[0,4,"pl-k"],[5,24,"pl-en"]],[],[],[[8,12,"pl-c1"]],[[20,25,"pl-smi"]],[[8,11,"pl-k"],[13,20,"pl-c1"]],[[18,27,"pl-c1"]],[],[[27,32,"pl-c1"]],[[8,11,"pl-k"],[13,20,"pl-c1"]],[[18,27,"pl-c1"]],[],[[27,32,"pl-c1"]],[[31,33,"pl-c1"],[34,41,"pl-c1"],[46,56,"pl-c1"]],[[35,36,"pl-c1"]],[],[[28,33,"pl-c1"]],[],[[8,10,"pl-k"],[13,25,"pl-c1"]],[[12,18,"pl-k"],[19,24,"pl-c1"]],[],[[8,17,"pl-c1"],[18,57,"pl-s"],[18,19,"pl-pds"],[54,56,"pl-cce"],[56,57,"pl-pds"]],[],[[4,10,"pl-k"],[11,15,"pl-c1"]],[],[],[[0,6,"pl-c1"],[7,40,"pl-en"]],[],[[4,18,"pl-c1"],[31,52,"pl-c"],[31,33,"pl-c"]],[[4,10,"pl-k"],[30,34,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,25,"pl-en"],[26,33,"pl-c1"],[42,47,"pl-k"]],[],[[4,18,"pl-c1"]],[[4,6,"pl-k"],[16,25,"pl-smi"]],[[27,33,"pl-c1"]],[[6,10,"pl-k"]],[[27,33,"pl-c1"]],[],[[26,34,"pl-c1"]],[[32,41,"pl-smi"],[42,47,"pl-c1"]],[],[[4,70,"pl-c"],[4,6,"pl-c"]],[[4,67,"pl-c"],[4,6,"pl-c"]],[[4,57,"pl-c"],[4,6,"pl-c"]],[[27,36,"pl-smi"],[37,42,"pl-c1"]],[[4,6,"pl-k"],[23,28,"pl-c1"],[39,40,"pl-c1"]],[[32,44,"pl-c1"],[53,58,"pl-smi"]],[],[],[[0,6,"pl-c1"],[7,40,"pl-en"]],[],[[4,18,"pl-c1"],[31,52,"pl-c"],[31,33,"pl-c"]],[[4,10,"pl-k"],[30,34,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,26,"pl-en"],[27,35,"pl-k"],[36,39,"pl-k"]],[],[],[[8,12,"pl-c1"]],[],[[8,10,"pl-k"],[12,20,"pl-c1"],[21,25,"pl-c1"]],[[12,18,"pl-k"],[19,24,"pl-c1"]],[],[[8,26,"pl-c"],[8,10,"pl-c"]],[[8,16,"pl-k"],[17,20,"pl-k"]],[[8,10,"pl-k"],[21,22,"pl-c1"]],[],[[8,12,"pl-k"]],[[26,34,"pl-c1"],[35,40,"pl-smi"],[41,47,"pl-c1"],[48,58,"pl-s"],[48,49,"pl-pds"],[57,58,"pl-pds"],[84,91,"pl-c1"],[92,93,"pl-c1"]],[],[[8,62,"pl-c"],[8,10,"pl-c"]],[[8,103,"pl-c"],[8,10,"pl-c"]],[[8,15,"pl-c1"],[52,56,"pl-c1"]],[[8,15,"pl-c1"],[52,56,"pl-c1"]],[[8,15,"pl-c1"],[34,42,"pl-c1"],[43,51,"pl-c1"],[53,60,"pl-c1"],[75,82,"pl-c1"],[83,84,"pl-c1"],[105,112,"pl-c1"],[113,114,"pl-c1"]],[[8,15,"pl-c1"],[34,42,"pl-c1"],[43,51,"pl-c1"],[53,60,"pl-c1"],[75,82,"pl-c1"],[83,84,"pl-c1"],[105,112,"pl-c1"],[113,114,"pl-c1"]],[],[[8,10,"pl-k"],[13,24,"pl-c1"]],[[12,47,"pl-c"],[12,14,"pl-c"]],[[30,31,"pl-c1"]],[[10,14,"pl-k"]],[[27,28,"pl-c1"]],[],[[8,12,"pl-k"],[13,22,"pl-smi"],[25,30,"pl-c1"]],[[20,25,"pl-smi"]],[[8,11,"pl-k"],[13,20,"pl-c1"]],[[12,14,"pl-k"]],[[16,25,"pl-smi"],[28,32,"pl-c1"]],[],[],[[12,18,"pl-c1"],[61,68,"pl-c1"],[71,74,"pl-c1"],[79,123,"pl-c"],[79,81,"pl-c"]],[[12,19,"pl-c1"]],[],[[12,57,"pl-c"],[12,14,"pl-c"]],[[20,26,"pl-smi"],[27,41,"pl-c1"],[49,50,"pl-c1"],[52,61,"pl-smi"]],[[12,14,"pl-k"],[23,32,"pl-c1"],[40,48,"pl-c1"],[57,66,"pl-smi"]],[[16,21,"pl-k"],[22,40,"pl-smi"],[41,52,"pl-c1"],[65,97,"pl-s"],[65,66,"pl-pds"],[96,97,"pl-pds"]],[],[],[[12,14,"pl-k"],[16,25,"pl-smi"]],[[35,41,"pl-c1"]],[[14,18,"pl-k"]],[[35,41,"pl-c1"]],[],[],[[39,44,"pl-c1"]],[[12,14,"pl-k"],[52,53,"pl-c1"]],[[16,25,"pl-c1"],[26,88,"pl-s"],[26,27,"pl-pds"],[85,87,"pl-cce"],[87,88,"pl-pds"]],[],[[39,43,"pl-c1"],[67,71,"pl-c1"],[94,98,"pl-c1"]],[],[],[[12,18,"pl-k"],[31,34,"pl-c1"],[35,36,"pl-smi"],[62,63,"pl-c1"]],[[33,42,"pl-c1"],[43,44,"pl-c1"],[45,75,"pl-s"],[45,46,"pl-pds"],[74,75,"pl-pds"]],[[24,35,"pl-c1"]],[],[],[[4,10,"pl-k"],[11,15,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,35,"pl-en"],[36,43,"pl-c1"],[72,76,"pl-k"],[77,86,"pl-smi"]],[],[[14,15,"pl-c1"]],[[12,21,"pl-smi"],[24,31,"pl-c1"]],[],[[8,12,"pl-c1"]],[],[[8,10,"pl-k"],[13,21,"pl-c1"],[22,26,"pl-c1"]],[[12,24,"pl-c1"]],[],[[8,17,"pl-smi"],[20,29,"pl-smi"],[33,44,"pl-c1"]],[[17,24,"pl-c1"],[40,49,"pl-smi"]],[],[[8,29,"pl-c"],[8,10,"pl-c"]],[[8,10,"pl-k"],[23,28,"pl-c1"]],[[12,18,"pl-k"]],[],[[20,25,"pl-smi"]],[],[[29,34,"pl-c1"]],[[19,24,"pl-c1"]],[[8,10,"pl-k"],[19,27,"pl-c1"]],[[12,17,"pl-k"],[18,36,"pl-smi"],[37,48,"pl-c1"],[61,76,"pl-s"],[61,62,"pl-pds"],[75,76,"pl-pds"]],[],[[8,10,"pl-k"],[13,20,"pl-c1"],[29,38,"pl-smi"],[39,44,"pl-c1"]],[[12,17,"pl-k"],[18,36,"pl-smi"],[37,48,"pl-c1"],[61,88,"pl-s"],[61,62,"pl-pds"],[87,88,"pl-pds"]],[],[[8,10,"pl-k"],[20,29,"pl-smi"],[33,42,"pl-smi"]],[[12,17,"pl-k"],[18,36,"pl-smi"],[37,48,"pl-c1"],[61,92,"pl-s"],[61,62,"pl-pds"],[91,92,"pl-pds"]],[],[],[[8,14,"pl-c1"],[23,32,"pl-smi"],[33,40,"pl-c1"]],[[28,33,"pl-c1"],[42,51,"pl-smi"],[52,57,"pl-c1"]],[[8,17,"pl-c1"],[18,40,"pl-s"],[18,19,"pl-pds"],[37,39,"pl-cce"],[39,40,"pl-pds"]],[],[],[],[[0,4,"pl-k"],[5,21,"pl-en"],[22,29,"pl-c1"]],[],[[4,27,"pl-c"],[4,6,"pl-c"]],[],[[8,12,"pl-c1"]],[[20,25,"pl-smi"]],[[8,10,"pl-k"],[18,27,"pl-c1"]],[],[[8,10,"pl-k"]],[[39,40,"pl-c1"]],[],[[4,13,"pl-c1"],[14,33,"pl-s"],[14,15,"pl-pds"],[30,32,"pl-cce"],[32,33,"pl-pds"]],[],[],[[0,4,"pl-k"],[5,23,"pl-en"],[24,31,"pl-c1"],[40,44,"pl-k"],[45,54,"pl-smi"],[56,61,"pl-k"]],[],[[4,25,"pl-c"],[4,6,"pl-c"]],[],[[8,12,"pl-c1"]],[[8,10,"pl-k"],[12,21,"pl-smi"]],[[31,37,"pl-c1"]],[[10,14,"pl-k"]],[[31,37,"pl-c1"]],[],[[35,40,"pl-c1"]],[],[[4,13,"pl-c1"],[14,35,"pl-s"],[14,15,"pl-pds"],[32,34,"pl-cce"],[34,35,"pl-pds"]],[],[],[[0,4,"pl-k"],[5,28,"pl-en"],[46,50,"pl-k"]],[],[],[],[[8,12,"pl-c1"]],[[8,15,"pl-c1"],[25,26,"pl-c1"]],[[8,29,"pl-c1"]],[[8,10,"pl-k"],[23,24,"pl-c1"]],[[12,14,"pl-k"],[16,24,"pl-c1"],[25,29,"pl-c1"],[32,38,"pl-k"],[39,44,"pl-c1"]],[[12,55,"pl-c"],[12,14,"pl-c"]],[],[[24,29,"pl-smi"]],[[21,35,"pl-c1"],[43,44,"pl-c1"]],[[12,18,"pl-k"],[19,23,"pl-c1"]],[],[[8,15,"pl-c1"]],[[25,34,"pl-smi"]],[],[[4,10,"pl-k"],[11,15,"pl-c1"]],[],[],[[0,6,"pl-k"],[7,14,"pl-c1"],[15,33,"pl-en"],[34,39,"pl-k"],[49,56,"pl-c1"]],[],[],[[4,11,"pl-c1"],[34,39,"pl-c1"]],[[4,6,"pl-k"],[15,23,"pl-c1"]],[[8,13,"pl-k"],[14,32,"pl-smi"],[33,44,"pl-c1"],[57,94,"pl-s"],[57,58,"pl-pds"],[93,94,"pl-pds"]],[],[[4,10,"pl-c1"],[19,28,"pl-smi"],[29,36,"pl-c1"]],[[4,10,"pl-k"],[19,24,"pl-smi"]],[],[],[[0,7,"pl-c1"],[8,37,"pl-en"]],[],[[4,8,"pl-c1"]],[],[[4,44,"pl-c"],[4,6,"pl-c"]],[[4,6,"pl-k"],[27,32,"pl-c1"],[57,62,"pl-c1"]],[[8,14,"pl-k"],[15,22,"pl-c1"]],[],[[16,21,"pl-smi"]],[[4,11,"pl-c1"],[25,26,"pl-c1"]],[],[[4,56,"pl-c"],[4,6,"pl-c"]],[[4,6,"pl-k"],[28,33,"pl-c1"]],[[20,28,"pl-c1"],[29,47,"pl-c1"]],[],[[4,6,"pl-k"],[28,33,"pl-c1"]],[[20,28,"pl-c1"],[29,47,"pl-c1"]],[],[[4,10,"pl-k"]],[],[],[[34,61,"pl-en"]],[],[],[],[],[[8,12,"pl-c1"]],[[8,11,"pl-k"],[13,18,"pl-k"],[19,23,"pl-k"]],[[12,17,"pl-k"],[50,56,"pl-smi"]],[],[[12,14,"pl-k"],[24,33,"pl-c1"]],[[16,24,"pl-k"]],[],[[12,14,"pl-k"],[23,33,"pl-c1"],[46,65,"pl-c1"],[70,71,"pl-c1"]],[[16,24,"pl-k"]],[],[[12,15,"pl-k"],[32,51,"pl-c1"]],[[12,14,"pl-k"],[34,42,"pl-c1"],[57,58,"pl-c1"],[61,62,"pl-c1"],[76,97,"pl-c1"]],[[16,24,"pl-k"]],[],[[12,15,"pl-k"],[17,25,"pl-k"],[26,29,"pl-k"],[34,35,"pl-c1"],[48,50,"pl-smi"],[52,56,"pl-smi"],[57,61,"pl-c1"]],[],[[16,18,"pl-k"],[21,27,"pl-c1"],[35,37,"pl-smi"],[39,43,"pl-smi"]],[[20,28,"pl-k"]],[[16,18,"pl-k"],[21,39,"pl-c1"],[47,49,"pl-smi"],[51,55,"pl-smi"],[59,71,"pl-smi"]],[[20,28,"pl-k"]],[],[[28,35,"pl-c1"],[48,53,"pl-smi"],[60,61,"pl-c1"],[71,73,"pl-smi"],[75,79,"pl-smi"],[83,89,"pl-smi"]],[],[[16,18,"pl-k"],[30,35,"pl-c1"]],[[37,38,"pl-c1"]],[],[],[],[],[],[[4,10,"pl-k"]],[],[],[[35,63,"pl-en"]],[],[[4,18,"pl-c1"],[31,43,"pl-c"],[31,33,"pl-c"]],[],[],[],[[4,7,"pl-k"],[9,14,"pl-k"],[15,19,"pl-k"]],[[8,13,"pl-k"],[46,52,"pl-smi"]],[],[[8,10,"pl-k"],[19,21,"pl-smi"],[23,26,"pl-smi"],[27,31,"pl-c1"],[36,37,"pl-c1"]],[[12,16,"pl-k"],[28,33,"pl-c1"]],[[12,56,"pl-c"],[12,14,"pl-c"]],[[12,15,"pl-k"],[37,39,"pl-smi"],[41,44,"pl-smi"]],[],[[16,18,"pl-k"],[21,27,"pl-c1"],[35,76,"pl-c"],[35,37,"pl-c"],[74,76,"pl-c"]],[[20,28,"pl-k"]],[[16,18,"pl-k"],[21,39,"pl-c1"],[50,52,"pl-c1"],[58,65,"pl-smi"],[66,70,"pl-smi"],[72,74,"pl-smi"],[76,80,"pl-smi"],[86,93,"pl-smi"],[94,95,"pl-smi"],[97,109,"pl-smi"]],[[20,28,"pl-k"]],[[25,31,"pl-c1"]],[[27,31,"pl-c1"]],[],[],[[12,48,"pl-c"],[12,14,"pl-c"]],[[12,14,"pl-k"]],[[16,19,"pl-k"],[43,45,"pl-smi"],[47,51,"pl-smi"]],[[20,22,"pl-k"],[24,32,"pl-c1"]],[],[[24,26,"pl-k"],[29,47,"pl-c1"],[54,66,"pl-smi"]],[[28,36,"pl-k"]],[[33,39,"pl-c1"]],[],[],[[12,14,"pl-k"],[25,29,"pl-c1"],[34,35,"pl-c1"]],[[26,32,"pl-c1"]],[[25,30,"pl-c1"]],[],[],[],[[8,41,"pl-c"],[8,10,"pl-c"]],[[8,11,"pl-k"],[13,18,"pl-k"],[19,23,"pl-k"],[40,42,"pl-smi"],[44,48,"pl-smi"]],[[12,14,"pl-k"],[16,22,"pl-c1"]],[],[[16,18,"pl-k"],[21,39,"pl-c1"],[46,58,"pl-smi"]],[[20,28,"pl-k"]],[[25,31,"pl-c1"]],[[26,32,"pl-c1"]],[[25,30,"pl-c1"]],[],[],[],[[64,107,"pl-c"],[64,66,"pl-c"]],[[64,114,"pl-c"],[64,66,"pl-c"]],[[4,7,"pl-k"]],[[8,61,"pl-c"],[8,10,"pl-c"]],[],[],[[8,11,"pl-k"]],[[12,14,"pl-k"],[29,33,"pl-c1"],[54,57,"pl-c1"]],[[21,27,"pl-c1"],[34,40,"pl-smi"]],[],[[8,77,"pl-c"],[8,10,"pl-c"]],[[43,46,"pl-k"]],[[8,11,"pl-k"]],[[20,26,"pl-c1"],[32,37,"pl-c1"],[46,49,"pl-c1"]],[[28,33,"pl-c1"]],[[12,18,"pl-k"]],[],[[24,30,"pl-c1"]],[],[[8,24,"pl-c"],[8,10,"pl-c"]],[[8,11,"pl-k"]],[],[],[],[],[[4,7,"pl-k"]],[[12,18,"pl-c1"]],[[8,14,"pl-k"]],[],[],[[4,10,"pl-k"]],[],[],[[25,51,"pl-en"],[52,57,"pl-k"],[78,83,"pl-k"]],[],[[4,8,"pl-c1"]],[],[[4,7,"pl-k"],[9,14,"pl-k"],[25,30,"pl-k"]],[[8,13,"pl-k"],[45,50,"pl-smi"]],[[8,13,"pl-k"],[42,48,"pl-smi"],[49,53,"pl-smi"]],[[8,10,"pl-k"]],[[19,25,"pl-c1"]],[],[[4,10,"pl-k"]],[],[],[[0,4,"pl-k"],[5,25,"pl-en"],[26,31,"pl-k"]],[],[[16,21,"pl-smi"]],[[10,22,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,32,"pl-en"],[50,54,"pl-k"],[55,66,"pl-smi"]],[],[[4,6,"pl-k"],[19,20,"pl-c1"]],[],[[17,38,"pl-c1"],[56,67,"pl-smi"]],[[8,10,"pl-k"],[23,24,"pl-c1"]],[[32,41,"pl-smi"]],[[10,14,"pl-k"]],[[12,18,"pl-k"],[19,24,"pl-c1"]],[],[[8,17,"pl-smi"],[28,37,"pl-smi"]],[],[[4,10,"pl-c1"],[21,28,"pl-c1"]],[],[[4,10,"pl-k"],[11,15,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,25,"pl-en"]],[],[[4,6,"pl-k"],[19,20,"pl-c1"]],[[17,24,"pl-c1"]],[],[[14,15,"pl-c1"]],[[16,23,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,27,"pl-en"]],[],[[4,6,"pl-k"],[19,20,"pl-c1"]],[[17,26,"pl-c1"],[35,44,"pl-smi"]],[],[[14,15,"pl-c1"]],[[16,23,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,35,"pl-en"],[36,43,"pl-c1"]],[],[[4,18,"pl-c1"]],[[4,8,"pl-k"],[39,44,"pl-c1"]],[[4,6,"pl-k"],[19,25,"pl-c1"],[45,50,"pl-c1"]],[[13,20,"pl-c1"]],[[4,8,"pl-k"],[26,31,"pl-c1"]],[],[[16,21,"pl-smi"]],[[4,9,"pl-k"],[17,25,"pl-c1"]],[[8,13,"pl-k"],[14,21,"pl-c1"]],[[8,10,"pl-k"],[32,37,"pl-k"],[39,64,"pl-c"],[39,41,"pl-c"]],[],[],[[8,10,"pl-k"],[18,26,"pl-c1"],[46,81,"pl-c"],[46,48,"pl-c"]],[[32,37,"pl-c1"],[46,55,"pl-smi"],[56,61,"pl-c1"]],[],[[14,23,"pl-c1"]],[[8,17,"pl-c1"],[18,46,"pl-s"],[18,19,"pl-pds"],[43,45,"pl-cce"],[45,46,"pl-pds"]],[[25,30,"pl-c1"]],[],[],[],[[0,4,"pl-k"],[5,32,"pl-en"]],[],[[70,74,"pl-c1"]],[],[[4,6,"pl-k"],[15,29,"pl-c1"],[38,43,"pl-c1"]],[[8,14,"pl-k"]],[],[],[[12,25,"pl-smi"],[28,35,"pl-c1"],[41,53,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,22,"pl-en"],[23,28,"pl-k"]],[],[[4,18,"pl-c1"],[31,48,"pl-c"],[31,33,"pl-c"]],[[19,25,"pl-c1"]],[[58,62,"pl-c1"],[70,74,"pl-smi"]],[[4,6,"pl-k"],[24,27,"pl-c1"],[35,41,"pl-smi"],[42,51,"pl-c1"],[55,93,"pl-c"],[55,57,"pl-c"]],[],[[4,28,"pl-smi"],[31,36,"pl-c1"]],[[4,36,"pl-smi"],[39,44,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,24,"pl-en"],[25,30,"pl-k"]],[],[[4,18,"pl-c1"],[31,48,"pl-c"],[31,33,"pl-c"]],[[19,24,"pl-c1"]],[[58,62,"pl-c1"],[70,74,"pl-smi"]],[[4,6,"pl-k"],[24,27,"pl-c1"],[35,41,"pl-smi"],[42,51,"pl-c1"],[55,93,"pl-c"],[55,57,"pl-c"]],[],[[4,28,"pl-smi"],[31,36,"pl-c1"]],[[4,36,"pl-smi"],[39,44,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,28,"pl-en"]],[],[[4,18,"pl-c1"],[31,48,"pl-c"],[31,33,"pl-c"]],[[19,24,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,26,"pl-en"],[41,49,"pl-k"],[50,53,"pl-k"],[57,62,"pl-k"]],[],[[4,18,"pl-c1"],[31,48,"pl-c"],[31,33,"pl-c"]],[[14,19,"pl-smi"]],[],[[4,10,"pl-k"],[27,32,"pl-c1"],[42,43,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,29,"pl-en"],[63,68,"pl-k"]],[],[[4,18,"pl-c1"],[31,48,"pl-c"],[31,33,"pl-c"]],[[4,7,"pl-k"],[59,64,"pl-c1"]],[[30,33,"pl-c1"]],[],[[16,25,"pl-c1"]],[],[],[],[[0,4,"pl-k"],[5,27,"pl-en"],[28,33,"pl-k"],[97,102,"pl-k"]],[],[[4,18,"pl-c1"]],[[4,7,"pl-k"],[9,14,"pl-k"],[15,19,"pl-k"]],[[8,12,"pl-k"],[28,32,"pl-c1"],[35,39,"pl-smi"]],[[8,10,"pl-k"],[28,31,"pl-c1"]],[[12,17,"pl-k"],[18,22,"pl-k"],[32,38,"pl-smi"]],[[12,14,"pl-k"],[40,61,"pl-c1"],[64,66,"pl-smi"],[70,71,"pl-smi"],[83,100,"pl-c1"]],[[24,36,"pl-c1"]],[],[],[],[],[],[[0,4,"pl-k"],[5,28,"pl-en"],[29,32,"pl-k"],[74,79,"pl-k"]],[],[[4,17,"pl-c1"],[42,57,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,28,"pl-en"],[62,67,"pl-k"]],[],[[4,17,"pl-c1"],[42,59,"pl-c1"]],[],[],[[0,9,"pl-c"],[0,2,"pl-c"],[7,9,"pl-c"],[10,27,"pl-c"],[10,12,"pl-c"]],[],[[0,4,"pl-k"],[5,30,"pl-en"],[56,63,"pl-c1"],[79,84,"pl-k"]],[],[[4,18,"pl-c1"],[31,48,"pl-c"],[31,33,"pl-c"]],[[16,21,"pl-c1"]],[],[[4,45,"pl-c"],[4,6,"pl-c"]],[[4,7,"pl-k"],[9,14,"pl-k"],[15,19,"pl-k"]],[[8,10,"pl-k"],[18,24,"pl-smi"],[25,36,"pl-smi"]],[[30,35,"pl-smi"],[45,51,"pl-smi"],[52,63,"pl-smi"]],[],[],[],[[4,53,"pl-c"],[4,6,"pl-c"]],[[41,49,"pl-c1"],[50,51,"pl-c1"],[65,71,"pl-c1"],[76,79,"pl-c1"],[83,143,"pl-c"],[83,85,"pl-c"]],[],[[4,7,"pl-k"],[9,14,"pl-k"],[31,38,"pl-c1"]],[[8,10,"pl-k"],[24,29,"pl-c1"],[40,41,"pl-c1"]],[],[],[],[[4,44,"pl-c"],[4,6,"pl-c"]],[[4,6,"pl-k"],[25,30,"pl-c1"]],[[8,14,"pl-k"]],[],[[4,70,"pl-c"],[4,6,"pl-c"]],[],[[4,7,"pl-k"],[9,14,"pl-k"],[15,19,"pl-k"]],[[8,50,"pl-c"],[8,10,"pl-c"]],[[8,13,"pl-k"],[37,43,"pl-smi"]],[[30,46,"pl-c1"],[51,60,"pl-smi"]],[[8,10,"pl-k"],[34,42,"pl-c1"]],[[12,47,"pl-c"],[12,14,"pl-c"]],[[12,15,"pl-k"],[34,41,"pl-smi"]],[[12,15,"pl-k"],[17,22,"pl-k"],[43,45,"pl-smi"],[47,51,"pl-smi"]],[[16,49,"pl-c"],[16,18,"pl-c"]],[[16,36,"pl-c1"],[38,42,"pl-c1"],[55,62,"pl-c1"],[69,81,"pl-smi"]],[[16,19,"pl-k"],[21,26,"pl-k"]],[[20,54,"pl-c"],[20,22,"pl-c"]],[[84,88,"pl-c1"]],[[20,22,"pl-k"],[48,51,"pl-c1"],[72,78,"pl-smi"],[80,87,"pl-smi"]],[[29,35,"pl-smi"]],[],[[26,31,"pl-c1"]],[],[],[],[],[[4,46,"pl-c"],[4,6,"pl-c"]],[[4,7,"pl-k"],[9,14,"pl-k"],[15,19,"pl-k"]],[[26,31,"pl-smi"],[41,47,"pl-smi"],[49,61,"pl-c1"],[84,112,"pl-c"],[84,86,"pl-c"]],[],[],[[0,3,"pl-c"],[0,2,"pl-c"]],[[0,71,"pl-c"]],[[0,2,"pl-c"]],[[0,9,"pl-c"]],[[0,72,"pl-c"]],[[0,76,"pl-c"]],[[0,18,"pl-c"]],[[0,75,"pl-c"]],[[0,68,"pl-c"]],[[0,78,"pl-c"]],[[0,57,"pl-c"]],[[0,77,"pl-c"]],[[0,73,"pl-c"]],[[0,77,"pl-c"]],[[0,17,"pl-c"]],[[0,80,"pl-c"]],[[0,80,"pl-c"]],[[0,20,"pl-c"]],[[0,2,"pl-c"]],[[0,50,"pl-c"]],[[0,43,"pl-c"]],[[0,48,"pl-c"]],[[0,3,"pl-c"],[1,3,"pl-c"]],[[0,8,"pl-k"],[9,12,"pl-k"],[13,38,"pl-en"],[39,44,"pl-k"],[61,65,"pl-k"],[86,91,"pl-k"]],[],[[4,12,"pl-k"],[13,16,"pl-k"],[34,47,"pl-smi"]],[[4,6,"pl-k"],[13,22,"pl-c1"]],[[8,10,"pl-k"],[12,17,"pl-k"],[40,56,"pl-c1"],[61,70,"pl-smi"]],[[12,19,"pl-c1"],[50,59,"pl-smi"],[62,74,"pl-c1"]],[[12,14,"pl-k"]],[],[[14,18,"pl-k"]],[[16,23,"pl-c1"],[40,53,"pl-smi"]],[[16,23,"pl-c1"],[38,39,"pl-c1"]],[],[[16,112,"pl-c"],[16,18,"pl-c"]],[[16,23,"pl-c1"],[54,57,"pl-c1"]],[[16,21,"pl-k"]],[[16,19,"pl-k"],[21,25,"pl-k"],[41,47,"pl-c1"],[67,71,"pl-c1"]],[[31,36,"pl-k"],[48,54,"pl-smi"],[55,60,"pl-smi"]],[[20,22,"pl-k"]],[[24,32,"pl-k"]],[],[[38,43,"pl-k"],[59,65,"pl-smi"],[66,72,"pl-smi"]],[[20,27,"pl-c1"]],[[20,22,"pl-k"]],[[43,53,"pl-smi"]],[[24,26,"pl-k"]],[[47,60,"pl-smi"]],[],[[22,26,"pl-k"]],[[47,52,"pl-smi"]],[],[[20,22,"pl-k"]],[],[[24,26,"pl-k"]],[],[],[[24,29,"pl-k"]],[],[],[[29,37,"pl-c1"],[51,59,"pl-c1"]],[],[[10,14,"pl-k"]],[[12,21,"pl-c1"],[22,63,"pl-s"],[22,23,"pl-pds"],[60,62,"pl-cce"],[62,63,"pl-pds"],[79,86,"pl-c1"],[89,97,"pl-c1"],[105,114,"pl-smi"],[115,123,"pl-c1"]],[],[],[[4,10,"pl-k"]],[],[],[[0,4,"pl-k"],[5,25,"pl-en"],[26,31,"pl-k"],[54,59,"pl-k"],[78,83,"pl-k"]],[],[[4,6,"pl-k"]],[[8,14,"pl-k"],[15,20,"pl-c1"]],[],[[25,33,"pl-smi"],[34,40,"pl-c1"],[41,55,"pl-c1"]],[[4,10,"pl-k"],[11,22,"pl-c1"],[34,47,"pl-c1"],[48,65,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,27,"pl-en"],[28,33,"pl-k"],[56,61,"pl-k"]],[],[[4,6,"pl-k"],[30,38,"pl-smi"],[39,44,"pl-c1"]],[[8,14,"pl-k"],[15,20,"pl-c1"]],[[4,10,"pl-k"],[11,22,"pl-c1"],[34,47,"pl-c1"],[48,65,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,26,"pl-en"],[27,32,"pl-k"],[55,60,"pl-k"],[79,84,"pl-k"]],[],[[25,33,"pl-smi"],[34,40,"pl-c1"],[41,55,"pl-c1"]],[[4,10,"pl-k"],[11,15,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,25,"pl-en"],[26,31,"pl-k"],[54,59,"pl-k"],[98,103,"pl-k"]],[],[[82,86,"pl-c1"]],[[4,6,"pl-k"],[28,31,"pl-c1"]],[[59,65,"pl-smi"],[66,74,"pl-smi"],[75,79,"pl-c1"]],[[8,10,"pl-k"],[20,26,"pl-smi"],[27,35,"pl-smi"],[36,39,"pl-c1"]],[[12,14,"pl-k"]],[[28,34,"pl-smi"]],[[12,18,"pl-k"],[19,23,"pl-c1"]],[],[],[[4,10,"pl-k"],[11,16,"pl-c1"]],[],[],[[25,47,"pl-en"],[48,53,"pl-k"],[75,80,"pl-k"]],[],[[4,8,"pl-c1"]],[],[[4,7,"pl-k"],[9,14,"pl-k"],[15,19,"pl-k"]],[[8,11,"pl-k"],[13,18,"pl-k"],[19,23,"pl-k"],[40,46,"pl-smi"],[47,55,"pl-smi"]],[[12,14,"pl-k"],[22,27,"pl-smi"],[28,35,"pl-c1"],[36,37,"pl-c1"],[46,50,"pl-c1"]],[[23,35,"pl-c1"],[41,47,"pl-smi"]],[],[],[],[[4,10,"pl-k"]],[],[],[[0,4,"pl-k"],[5,20,"pl-en"],[21,26,"pl-k"],[53,57,"pl-k"]],[],[[4,62,"pl-c"],[4,6,"pl-c"]],[[4,6,"pl-c"],[4,6,"pl-c"]],[[4,48,"pl-c"],[4,6,"pl-c"]],[[4,40,"pl-c"],[4,6,"pl-c"]],[[4,43,"pl-c"],[4,6,"pl-c"]],[[4,77,"pl-c"],[4,6,"pl-c"]],[[4,8,"pl-c1"]],[[4,9,"pl-k"],[43,50,"pl-c1"]],[[30,48,"pl-c1"],[62,66,"pl-c1"]],[[4,6,"pl-k"]],[[46,62,"pl-c1"]],[[46,54,"pl-c1"],[64,71,"pl-c1"],[75,83,"pl-c1"],[98,105,"pl-c1"]],[[23,32,"pl-c1"]],[[12,103,"pl-s"],[12,13,"pl-pds"],[102,103,"pl-pds"]],[[12,111,"pl-s"],[12,13,"pl-pds"],[110,111,"pl-pds"]],[[12,99,"pl-s"],[12,13,"pl-pds"],[98,99,"pl-pds"]],[[21,28,"pl-c1"],[32,44,"pl-c1"]],[[8,14,"pl-k"],[15,20,"pl-c1"]],[],[],[[4,80,"pl-c"],[4,6,"pl-c"]],[[4,6,"pl-k"],[8,22,"pl-c1"]],[[23,32,"pl-c1"],[33,97,"pl-s"],[33,34,"pl-pds"],[96,97,"pl-pds"],[108,115,"pl-c1"]],[[8,14,"pl-k"],[15,20,"pl-c1"]],[],[],[[4,7,"pl-k"]],[[8,10,"pl-k"],[13,43,"pl-c1"]],[[12,18,"pl-k"],[19,24,"pl-c1"]],[],[[6,11,"pl-k"],[13,18,"pl-k"]],[[23,32,"pl-c1"],[33,62,"pl-s"],[33,34,"pl-pds"],[61,62,"pl-pds"],[73,80,"pl-c1"],[86,90,"pl-c1"]],[[8,14,"pl-k"],[15,20,"pl-c1"]],[],[],[[72,94,"pl-c1"]],[[4,6,"pl-k"],[21,37,"pl-c1"],[98,103,"pl-c1"]],[[8,14,"pl-k"],[15,20,"pl-c1"]],[],[],[[4,6,"pl-k"]],[[8,37,"pl-c"],[8,10,"pl-c"]],[[16,27,"pl-smi"],[28,42,"pl-c1"],[46,73,"pl-c1"]],[],[[8,10,"pl-k"],[13,33,"pl-c1"],[48,52,"pl-k"]],[[12,18,"pl-k"],[19,24,"pl-c1"]],[],[],[],[[4,10,"pl-k"],[11,42,"pl-c1"]],[],[],[[25,54,"pl-en"],[55,60,"pl-k"]],[],[[4,9,"pl-k"],[45,52,"pl-c1"]],[],[[4,74,"pl-c"],[4,6,"pl-c"]],[],[],[[4,6,"pl-k"],[8,13,"pl-smi"],[14,24,"pl-c1"],[25,41,"pl-s"],[25,26,"pl-pds"],[40,41,"pl-pds"],[43,48,"pl-c1"]],[[20,31,"pl-c1"],[32,33,"pl-c1"],[34,75,"pl-s"],[34,35,"pl-pds"],[74,75,"pl-pds"]],[],[[76,98,"pl-c1"],[108,115,"pl-c1"]],[[45,56,"pl-c1"]],[[8,10,"pl-k"]],[[12,21,"pl-c1"],[22,31,"pl-c1"],[32,33,"pl-c1"],[34,70,"pl-s"],[34,35,"pl-pds"],[69,70,"pl-pds"]],[[12,18,"pl-k"],[19,26,"pl-c1"]],[],[],[],[[16,27,"pl-c1"],[28,29,"pl-c1"],[30,49,"pl-s"],[30,31,"pl-pds"],[48,49,"pl-pds"]],[],[[4,11,"pl-c1"],[21,34,"pl-c1"]],[[4,8,"pl-k"],[9,18,"pl-smi"],[21,25,"pl-c1"]],[[4,76,"pl-c"],[4,6,"pl-c"]],[[4,54,"pl-c"],[4,6,"pl-c"]],[[29,43,"pl-c1"],[44,47,"pl-k"],[48,55,"pl-c1"],[66,88,"pl-c1"],[98,105,"pl-c1"]],[[4,13,"pl-c1"]],[[4,8,"pl-k"],[21,26,"pl-k"]],[[8,20,"pl-c1"]],[[8,17,"pl-c1"]],[[8,14,"pl-k"],[15,22,"pl-c1"]],[],[],[[4,7,"pl-k"]],[[41,51,"pl-c1"],[52,61,"pl-smi"]],[[6,11,"pl-k"],[13,18,"pl-k"]],[[8,20,"pl-c1"]],[[8,13,"pl-k"]],[],[[4,6,"pl-k"]],[[8,10,"pl-k"]],[[12,18,"pl-k"],[19,24,"pl-c1"],[25,34,"pl-c1"],[35,36,"pl-c1"],[37,73,"pl-s"],[37,38,"pl-pds"],[72,73,"pl-pds"]],[[10,14,"pl-k"],[15,17,"pl-k"]],[[12,23,"pl-c1"],[24,33,"pl-c1"],[34,35,"pl-c1"],[36,101,"pl-s"],[36,37,"pl-pds"],[100,101,"pl-pds"]],[[36,93,"pl-s"],[36,37,"pl-pds"],[92,93,"pl-pds"]],[],[[10,14,"pl-k"],[15,17,"pl-k"]],[[12,18,"pl-k"],[19,24,"pl-c1"],[25,34,"pl-c1"],[35,36,"pl-c1"],[37,92,"pl-s"],[37,38,"pl-pds"],[91,92,"pl-pds"],[107,108,"pl-c1"]],[[10,14,"pl-k"],[15,17,"pl-k"]],[[12,18,"pl-k"],[19,24,"pl-c1"],[25,34,"pl-c1"],[35,36,"pl-c1"],[37,92,"pl-s"],[37,38,"pl-pds"],[91,92,"pl-pds"],[95,96,"pl-c1"]],[[10,14,"pl-k"]],[[12,18,"pl-k"],[19,24,"pl-c1"],[25,34,"pl-c1"],[35,36,"pl-c1"],[37,55,"pl-s"],[37,38,"pl-pds"],[54,55,"pl-pds"]],[],[],[],[[4,6,"pl-k"],[8,13,"pl-smi"],[14,24,"pl-c1"],[25,41,"pl-s"],[25,26,"pl-pds"],[40,41,"pl-pds"],[43,52,"pl-smi"]],[[8,11,"pl-k"],[26,31,"pl-smi"],[32,38,"pl-c1"],[39,55,"pl-s"],[39,40,"pl-pds"],[54,55,"pl-pds"],[57,58,"pl-c1"]],[[8,10,"pl-k"],[27,28,"pl-c1"],[30,73,"pl-c"],[30,32,"pl-c"]],[],[[12,21,"pl-c1"],[22,57,"pl-s"],[22,23,"pl-pds"],[54,56,"pl-cce"],[56,57,"pl-pds"]],[],[[28,41,"pl-c1"],[59,104,"pl-c"],[59,61,"pl-c"]],[[10,14,"pl-k"]],[[12,21,"pl-c1"],[22,58,"pl-s"],[22,23,"pl-pds"],[55,57,"pl-cce"],[57,58,"pl-pds"]],[[8,10,"pl-k"],[42,52,"pl-c1"]],[[12,18,"pl-k"],[19,24,"pl-c1"],[25,26,"pl-c1"],[27,52,"pl-s"],[27,28,"pl-pds"],[51,52,"pl-pds"]],[],[[24,37,"pl-c1"]],[],[],[[4,6,"pl-k"],[8,17,"pl-smi"]],[[8,52,"pl-c"],[8,10,"pl-c"]],[[8,10,"pl-k"],[12,17,"pl-smi"],[18,28,"pl-c1"],[29,37,"pl-s"],[29,30,"pl-pds"],[36,37,"pl-pds"],[82,93,"pl-c1"]],[[34,39,"pl-smi"],[40,46,"pl-c1"],[47,56,"pl-s"],[47,48,"pl-pds"],[55,56,"pl-pds"],[58,67,"pl-s"],[58,59,"pl-pds"],[66,67,"pl-pds"]],[],[[12,14,"pl-k"],[16,21,"pl-smi"],[22,30,"pl-c1"],[31,40,"pl-s"],[31,32,"pl-pds"],[39,40,"pl-pds"],[45,50,"pl-c1"]],[],[[28,36,"pl-k"],[37,41,"pl-k"],[53,61,"pl-c1"]],[[16,18,"pl-k"],[32,39,"pl-c1"],[40,52,"pl-c1"],[61,66,"pl-c1"],[78,81,"pl-c1"],[86,90,"pl-c1"]],[[20,26,"pl-k"],[27,32,"pl-c1"],[33,42,"pl-c1"],[43,44,"pl-c1"],[45,56,"pl-s"],[45,46,"pl-pds"],[55,56,"pl-pds"],[59,68,"pl-s"],[59,60,"pl-pds"],[67,68,"pl-pds"]],[],[[16,18,"pl-k"],[37,53,"pl-c1"],[66,71,"pl-c1"]],[[20,26,"pl-k"],[27,32,"pl-c1"],[33,42,"pl-c1"],[43,44,"pl-c1"],[45,56,"pl-s"],[45,46,"pl-pds"],[55,56,"pl-pds"],[59,77,"pl-s"],[59,60,"pl-pds"],[76,77,"pl-pds"]],[],[[27,32,"pl-c1"]],[[14,18,"pl-k"]],[[16,18,"pl-k"],[20,25,"pl-smi"],[26,34,"pl-c1"],[35,44,"pl-s"],[35,36,"pl-pds"],[43,44,"pl-pds"],[50,55,"pl-c1"]],[[20,29,"pl-c1"],[30,92,"pl-s"],[30,31,"pl-pds"],[89,91,"pl-cce"],[91,92,"pl-pds"]],[],[[46,51,"pl-smi"],[52,58,"pl-c1"],[59,70,"pl-s"],[59,60,"pl-pds"],[69,70,"pl-pds"],[72,74,"pl-s"],[72,73,"pl-pds"],[73,74,"pl-pds"],[76,81,"pl-c1"]],[[56,61,"pl-smi"],[62,68,"pl-c1"],[69,90,"pl-s"],[69,70,"pl-pds"],[89,90,"pl-pds"],[92,94,"pl-s"],[92,93,"pl-pds"],[93,94,"pl-pds"],[96,101,"pl-c1"]],[[32,50,"pl-c1"]],[],[],[[12,81,"pl-c"],[12,14,"pl-c"]],[[12,21,"pl-c1"],[22,48,"pl-s"],[22,23,"pl-pds"],[45,47,"pl-cce"],[47,48,"pl-pds"]],[[28,41,"pl-c1"]],[],[[12,23,"pl-c"],[12,14,"pl-c"]],[[12,17,"pl-smi"],[18,32,"pl-c1"],[33,42,"pl-s"],[33,34,"pl-pds"],[41,42,"pl-pds"]],[[12,17,"pl-smi"],[18,32,"pl-c1"],[33,44,"pl-s"],[33,34,"pl-pds"],[43,44,"pl-pds"]],[[12,17,"pl-smi"],[18,32,"pl-c1"],[33,54,"pl-s"],[33,34,"pl-pds"],[53,54,"pl-pds"]],[],[],[[8,29,"pl-c"],[8,10,"pl-c"]],[[8,10,"pl-k"],[29,41,"pl-c1"]],[[12,18,"pl-k"],[19,24,"pl-c1"],[25,26,"pl-c1"],[27,60,"pl-s"],[27,28,"pl-pds"],[59,60,"pl-pds"]],[],[],[[24,36,"pl-c1"],[49,59,"pl-c1"]],[],[[8,73,"pl-c"],[8,10,"pl-c"]],[],[],[[8,10,"pl-k"],[29,45,"pl-c1"],[46,48,"pl-s"],[46,47,"pl-pds"],[47,48,"pl-pds"]],[[12,14,"pl-k"],[34,39,"pl-c1"]],[[16,27,"pl-c1"]],[],[[12,14,"pl-k"],[32,37,"pl-c1"]],[[16,22,"pl-k"],[23,28,"pl-c1"]],[],[],[],[[6,10,"pl-k"],[11,13,"pl-k"],[15,20,"pl-smi"],[21,29,"pl-c1"],[30,38,"pl-s"],[30,31,"pl-pds"],[37,38,"pl-pds"]],[[8,12,"pl-k"],[21,26,"pl-smi"],[27,37,"pl-c1"],[38,46,"pl-s"],[38,39,"pl-pds"],[45,46,"pl-pds"]],[[8,10,"pl-k"],[28,39,"pl-c1"]],[[12,18,"pl-k"],[19,24,"pl-c1"],[25,34,"pl-c1"],[35,36,"pl-c1"],[37,110,"pl-s"],[37,38,"pl-pds"],[109,110,"pl-pds"]],[[32,39,"pl-c1"]],[],[[8,10,"pl-k"],[29,40,"pl-c1"]],[[12,18,"pl-k"],[19,24,"pl-c1"],[25,34,"pl-c1"],[35,36,"pl-c1"],[37,113,"pl-s"],[37,38,"pl-pds"],[112,113,"pl-pds"]],[[32,39,"pl-c1"]],[],[],[],[[4,61,"pl-c"],[4,6,"pl-c"]],[[4,6,"pl-k"],[8,13,"pl-smi"],[14,24,"pl-c1"],[25,33,"pl-s"],[25,26,"pl-pds"],[32,33,"pl-pds"],[78,86,"pl-c1"]],[[8,19,"pl-c1"],[20,21,"pl-c1"],[22,140,"pl-s"],[22,23,"pl-pds"],[139,140,"pl-pds"]],[],[],[[4,13,"pl-c1"],[14,37,"pl-s"],[14,15,"pl-pds"],[34,36,"pl-cce"],[36,37,"pl-pds"],[39,52,"pl-c1"]],[],[[4,60,"pl-c"],[4,6,"pl-c"]],[[20,32,"pl-c1"]],[],[[4,8,"pl-c1"]],[],[[44,51,"pl-c1"]],[[4,6,"pl-k"],[9,14,"pl-smi"],[15,25,"pl-c1"],[26,35,"pl-s"],[26,27,"pl-pds"],[34,35,"pl-pds"],[37,42,"pl-c1"]],[[20,25,"pl-smi"],[43,51,"pl-smi"]],[],[[8,10,"pl-k"],[18,31,"pl-c1"]],[[27,48,"pl-c1"]],[],[],[[20,42,"pl-smi"],[57,60,"pl-c1"]],[],[[4,6,"pl-k"],[20,23,"pl-c1"],[41,44,"pl-c1"]],[[8,76,"pl-c"],[8,10,"pl-c"]],[[8,78,"pl-c"],[8,10,"pl-c"]],[[8,84,"pl-c"],[8,10,"pl-c"]],[[8,10,"pl-k"],[12,22,"pl-smi"]],[[45,48,"pl-c1"]],[[12,17,"pl-k"],[35,40,"pl-smi"],[52,57,"pl-smi"],[59,66,"pl-smi"],[96,101,"pl-smi"],[103,106,"pl-smi"],[109,110,"pl-c1"]],[[31,36,"pl-smi"]],[],[[12,14,"pl-k"]],[[16,22,"pl-k"],[23,28,"pl-c1"],[29,30,"pl-c1"],[31,174,"pl-s"],[31,32,"pl-pds"],[173,174,"pl-pds"]],[],[],[],[[20,31,"pl-c1"],[32,33,"pl-c1"],[34,49,"pl-s"],[34,35,"pl-pds"],[48,49,"pl-pds"]],[[8,17,"pl-c1"],[18,66,"pl-s"],[18,19,"pl-pds"],[63,65,"pl-cce"],[65,66,"pl-pds"],[80,86,"pl-c1"],[105,112,"pl-smi"],[128,135,"pl-smi"]],[],[[8,69,"pl-c"],[8,10,"pl-c"]],[[8,71,"pl-c"],[8,10,"pl-c"]],[[8,45,"pl-c"],[8,10,"pl-c"]],[[8,10,"pl-k"],[12,17,"pl-smi"],[18,24,"pl-c1"],[25,34,"pl-s"],[25,26,"pl-pds"],[33,34,"pl-pds"],[36,37,"pl-c1"],[42,43,"pl-c1"]],[[12,17,"pl-k"],[51,64,"pl-smi"],[83,95,"pl-c1"],[117,130,"pl-smi"]],[[43,47,"pl-c1"]],[],[],[],[[17,30,"pl-c1"]],[],[[33,41,"pl-smi"],[57,60,"pl-c1"]],[[12,14,"pl-k"],[26,33,"pl-c1"]],[[16,22,"pl-k"],[23,28,"pl-c1"],[29,30,"pl-c1"],[31,82,"pl-s"],[31,32,"pl-pds"],[81,82,"pl-pds"]],[],[[28,53,"pl-c1"],[68,75,"pl-c1"],[87,91,"pl-c1"]],[],[[8,17,"pl-c1"],[18,41,"pl-s"],[18,19,"pl-pds"],[38,40,"pl-cce"],[40,41,"pl-pds"],[43,56,"pl-c1"]],[[24,36,"pl-c1"],[49,59,"pl-c1"]],[[24,32,"pl-smi"],[34,56,"pl-c1"]],[],[[8,69,"pl-c"],[8,10,"pl-c"]],[[8,10,"pl-k"],[12,17,"pl-smi"],[18,28,"pl-c1"],[29,45,"pl-s"],[29,30,"pl-pds"],[44,45,"pl-pds"],[47,52,"pl-c1"],[57,62,"pl-smi"],[63,69,"pl-c1"],[70,86,"pl-s"],[70,71,"pl-pds"],[85,86,"pl-pds"],[88,91,"pl-s"],[88,89,"pl-pds"],[90,91,"pl-pds"],[96,99,"pl-s"],[96,97,"pl-pds"],[98,99,"pl-pds"]],[[24,29,"pl-smi"],[47,55,"pl-smi"]],[],[[12,15,"pl-k"],[17,22,"pl-k"]],[[38,45,"pl-c1"]],[[76,85,"pl-smi"],[86,90,"pl-c1"]],[[16,18,"pl-k"],[42,51,"pl-smi"],[52,55,"pl-c1"]],[[20,25,"pl-k"]],[[45,51,"pl-smi"]],[[28,36,"pl-smi"],[49,57,"pl-smi"]],[[28,38,"pl-smi"],[51,61,"pl-smi"]],[[28,41,"pl-smi"],[54,67,"pl-smi"]],[[28,38,"pl-smi"],[51,61,"pl-smi"]],[[28,35,"pl-smi"],[48,55,"pl-smi"]],[[28,42,"pl-smi"],[55,69,"pl-smi"]],[[28,37,"pl-smi"],[50,59,"pl-smi"]],[[26,33,"pl-c1"]],[],[],[],[],[],[[16,26,"pl-c1"]],[],[[4,113,"pl-c"],[4,6,"pl-c"]],[[4,31,"pl-c1"],[47,50,"pl-c1"]],[],[[20,44,"pl-c1"],[45,50,"pl-smi"],[51,61,"pl-c1"],[62,80,"pl-s"],[62,63,"pl-pds"],[79,80,"pl-pds"]],[],[],[[8,12,"pl-c1"],[29,38,"pl-smi"]],[[8,17,"pl-c1"],[18,52,"pl-s"],[18,19,"pl-pds"],[49,51,"pl-cce"],[51,52,"pl-pds"],[70,94,"pl-c1"]],[[8,17,"pl-c1"],[18,52,"pl-s"],[18,19,"pl-pds"],[49,51,"pl-cce"],[51,52,"pl-pds"],[70,94,"pl-c1"]],[[8,17,"pl-c1"],[18,43,"pl-s"],[18,19,"pl-pds"],[40,42,"pl-cce"],[42,43,"pl-pds"],[61,70,"pl-smi"],[71,75,"pl-c1"]],[[8,17,"pl-c1"],[18,48,"pl-s"],[18,19,"pl-pds"],[45,47,"pl-cce"],[47,48,"pl-pds"],[66,80,"pl-smi"],[81,85,"pl-c1"]],[[8,17,"pl-c1"],[18,40,"pl-s"],[18,19,"pl-pds"],[37,39,"pl-cce"],[39,40,"pl-pds"],[58,71,"pl-smi"]],[],[],[[4,10,"pl-k"]],[],[],[[0,4,"pl-k"],[5,29,"pl-en"]],[],[[4,72,"pl-c"],[4,6,"pl-c"]],[[4,66,"pl-c"],[4,6,"pl-c"]],[[4,30,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,28,"pl-en"]],[],[[4,6,"pl-k"],[8,13,"pl-smi"],[14,24,"pl-c1"],[25,41,"pl-s"],[25,26,"pl-pds"],[40,41,"pl-pds"]],[[8,14,"pl-k"],[15,19,"pl-c1"]],[],[[21,26,"pl-smi"],[27,33,"pl-c1"],[34,56,"pl-s"],[34,35,"pl-pds"],[55,56,"pl-pds"],[58,60,"pl-c1"]],[[21,29,"pl-c1"],[30,31,"pl-c1"],[33,41,"pl-c1"],[42,44,"pl-c1"]],[],[[4,10,"pl-k"],[11,15,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,26,"pl-en"],[27,32,"pl-k"]],[],[[4,10,"pl-k"],[21,27,"pl-c1"]],[],[],[[0,35,"pl-c"],[0,2,"pl-c"]],[[0,124,"pl-c"],[0,2,"pl-c"]],[[0,4,"pl-k"],[5,30,"pl-en"],[31,36,"pl-k"]],[],[[46,48,"pl-s"],[46,47,"pl-pds"],[47,48,"pl-pds"]],[[32,39,"pl-c1"]],[[4,6,"pl-k"],[22,27,"pl-c1"]],[[24,36,"pl-s"],[24,25,"pl-pds"],[35,36,"pl-pds"]],[],[],[[4,6,"pl-k"],[26,27,"pl-c1"]],[[8,17,"pl-c1"],[18,60,"pl-s"],[18,19,"pl-pds"],[57,59,"pl-cce"],[59,60,"pl-pds"]],[[8,14,"pl-k"],[15,20,"pl-c1"]],[],[],[[26,39,"pl-c1"]],[[15,29,"pl-c1"]],[],[[4,6,"pl-k"],[9,19,"pl-c1"]],[[8,89,"pl-c"],[8,10,"pl-c"]],[[8,17,"pl-c1"],[18,47,"pl-s"],[18,19,"pl-pds"],[44,46,"pl-cce"],[46,47,"pl-pds"],[60,66,"pl-c1"]],[[8,10,"pl-k"],[13,35,"pl-c1"]],[[12,76,"pl-c"],[12,14,"pl-c"]],[[32,41,"pl-c1"],[42,43,"pl-c1"],[44,92,"pl-s"],[44,45,"pl-pds"],[91,92,"pl-pds"],[106,112,"pl-c1"]],[[12,21,"pl-c1"],[22,28,"pl-s"],[22,23,"pl-pds"],[25,27,"pl-cce"],[27,28,"pl-pds"]],[[30,31,"pl-c1"]],[[12,18,"pl-k"],[19,24,"pl-c1"]],[],[[6,10,"pl-k"],[11,13,"pl-k"],[16,32,"pl-c1"]],[[8,72,"pl-c"],[8,10,"pl-c"]],[[28,37,"pl-c1"],[38,39,"pl-c1"],[40,74,"pl-s"],[40,41,"pl-pds"],[73,74,"pl-pds"],[88,94,"pl-c1"]],[[8,17,"pl-c1"],[18,24,"pl-s"],[18,19,"pl-pds"],[21,23,"pl-cce"],[23,24,"pl-pds"]],[[26,27,"pl-c1"]],[[8,14,"pl-k"],[15,20,"pl-c1"]],[],[],[[4,31,"pl-c"],[4,6,"pl-c"]],[[30,47,"pl-c1"],[48,65,"pl-s"],[48,49,"pl-pds"],[64,65,"pl-pds"],[67,74,"pl-c1"]],[[4,6,"pl-k"],[20,25,"pl-c1"]],[[8,28,"pl-c"],[8,10,"pl-c"]],[[8,13,"pl-c1"]],[],[[19,33,"pl-c1"]],[[8,10,"pl-k"],[13,25,"pl-c1"],[37,43,"pl-c1"]],[[34,43,"pl-c1"],[44,45,"pl-c1"],[46,75,"pl-s"],[46,47,"pl-pds"],[74,75,"pl-pds"],[89,95,"pl-c1"]],[[12,21,"pl-c1"],[22,28,"pl-s"],[22,23,"pl-pds"],[25,27,"pl-cce"],[27,28,"pl-pds"]],[[30,31,"pl-c1"]],[[12,18,"pl-k"],[19,24,"pl-c1"]],[],[],[[8,78,"pl-c"],[8,10,"pl-c"]],[[35,59,"pl-c1"]],[[8,17,"pl-c1"],[18,50,"pl-s"],[18,19,"pl-pds"],[47,49,"pl-cce"],[49,50,"pl-pds"]],[[8,10,"pl-k"],[12,20,"pl-c1"],[21,25,"pl-c1"]],[[34,35,"pl-c1"],[36,171,"pl-s"],[36,37,"pl-pds"],[170,171,"pl-pds"]],[[12,21,"pl-c1"],[22,28,"pl-s"],[22,23,"pl-pds"],[25,27,"pl-cce"],[27,28,"pl-pds"]],[[30,31,"pl-c1"]],[[12,18,"pl-k"],[19,24,"pl-c1"]],[],[[6,10,"pl-k"]],[[8,33,"pl-c"],[8,10,"pl-c"]],[],[[35,47,"pl-c1"]],[[35,44,"pl-c1"]],[],[[19,33,"pl-c1"]],[[19,33,"pl-c1"]],[[8,10,"pl-k"],[12,22,"pl-c1"]],[[34,35,"pl-c1"],[36,192,"pl-s"],[36,37,"pl-pds"],[191,192,"pl-pds"]],[[12,21,"pl-c1"],[22,28,"pl-s"],[22,23,"pl-pds"],[25,27,"pl-cce"],[27,28,"pl-pds"]],[[12,18,"pl-k"],[19,24,"pl-c1"]],[],[[8,10,"pl-k"],[12,22,"pl-c1"]],[[12,15,"pl-k"]],[[16,29,"pl-c1"]],[[16,25,"pl-c1"],[26,57,"pl-s"],[26,27,"pl-pds"],[54,56,"pl-cce"],[56,57,"pl-pds"],[70,76,"pl-c1"],[91,97,"pl-c1"]],[[14,19,"pl-k"]],[[38,47,"pl-c1"],[48,49,"pl-c1"],[50,86,"pl-s"],[50,51,"pl-pds"],[85,86,"pl-pds"],[95,99,"pl-c1"]],[[16,25,"pl-c1"],[26,32,"pl-s"],[26,27,"pl-pds"],[29,31,"pl-cce"],[31,32,"pl-pds"]],[[34,35,"pl-c1"]],[[16,22,"pl-k"],[23,28,"pl-c1"]],[],[],[],[],[[4,69,"pl-c"],[4,6,"pl-c"]],[[4,11,"pl-k"],[31,37,"pl-c1"],[49,61,"pl-c1"]],[[4,16,"pl-c1"]],[],[[4,80,"pl-c"],[4,6,"pl-c"]],[],[[4,7,"pl-k"],[32,40,"pl-smi"]],[[8,35,"pl-c"],[8,10,"pl-c"]],[[8,10,"pl-k"],[12,31,"pl-c1"],[42,48,"pl-c1"]],[[36,40,"pl-c1"],[43,51,"pl-c1"]],[[12,77,"pl-c"],[12,14,"pl-c"]],[[12,14,"pl-k"],[26,30,"pl-c1"],[33,37,"pl-c1"],[40,46,"pl-c1"]],[[27,33,"pl-c1"],[34,58,"pl-c1"],[59,78,"pl-c1"],[89,93,"pl-c1"]],[],[],[],[],[[4,83,"pl-c"],[4,6,"pl-c"]],[[4,7,"pl-k"],[18,19,"pl-c1"]],[[4,7,"pl-k"],[9,13,"pl-k"],[30,36,"pl-c1"],[57,61,"pl-c1"]],[[18,23,"pl-k"],[29,35,"pl-c1"]],[],[[8,10,"pl-k"]],[[12,69,"pl-c"],[12,14,"pl-c"]],[[12,15,"pl-k"]],[[16,26,"pl-c1"],[32,38,"pl-smi"]],[[16,25,"pl-c1"],[26,52,"pl-s"],[26,27,"pl-pds"],[49,51,"pl-cce"],[51,52,"pl-pds"],[59,65,"pl-smi"]],[[14,19,"pl-k"]],[[38,47,"pl-c1"],[48,49,"pl-c1"],[50,86,"pl-s"],[50,51,"pl-pds"],[85,86,"pl-pds"],[95,99,"pl-c1"]],[[16,25,"pl-c1"],[26,32,"pl-s"],[26,27,"pl-pds"],[29,31,"pl-cce"],[31,32,"pl-pds"]],[[16,22,"pl-k"],[23,28,"pl-c1"]],[],[],[],[],[[4,10,"pl-k"],[11,15,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,35,"pl-en"],[36,41,"pl-k"],[63,68,"pl-k"],[85,90,"pl-k"]],[],[[4,8,"pl-c1"]],[[4,59,"pl-c"],[4,6,"pl-c"]],[[25,32,"pl-c1"]],[[64,68,"pl-c1"]],[[4,6,"pl-k"],[24,27,"pl-c1"]],[[8,32,"pl-c1"],[33,37,"pl-c1"]],[[8,28,"pl-c1"]],[[8,36,"pl-c"],[8,10,"pl-c"]],[[29,34,"pl-smi"],[35,41,"pl-c1"],[42,62,"pl-s"],[42,43,"pl-pds"],[61,62,"pl-pds"],[64,66,"pl-s"],[64,65,"pl-pds"],[65,66,"pl-pds"]],[[8,10,"pl-k"],[20,25,"pl-c1"]],[[12,30,"pl-c1"],[39,43,"pl-s"],[39,40,"pl-pds"],[42,43,"pl-pds"],[52,58,"pl-c1"]],[[24,25,"pl-smi"]],[[14,20,"pl-c1"],[24,43,"pl-c"],[24,26,"pl-c"]],[],[],[],[],[[0,4,"pl-k"],[5,29,"pl-en"],[30,35,"pl-k"],[66,71,"pl-k"],[88,93,"pl-k"]],[],[[4,27,"pl-c1"],[45,52,"pl-smi"]],[],[],[[0,4,"pl-k"],[5,34,"pl-en"],[35,40,"pl-k"]],[],[[4,18,"pl-c1"]],[[4,10,"pl-k"],[22,29,"pl-c1"],[34,41,"pl-c1"],[50,56,"pl-smi"]],[],[],[[0,4,"pl-k"],[5,35,"pl-en"],[36,41,"pl-k"]],[],[[4,18,"pl-c1"]],[[16,21,"pl-smi"]],[[4,10,"pl-k"],[17,38,"pl-c1"],[47,67,"pl-c1"]],[],[],[[12,17,"pl-k"],[38,67,"pl-en"]],[],[[4,18,"pl-c1"]],[[16,21,"pl-k"]],[[15,22,"pl-c1"],[34,38,"pl-c1"]],[[4,7,"pl-k"],[9,13,"pl-k"]],[[19,28,"pl-c1"],[34,40,"pl-smi"]],[],[[4,10,"pl-k"]],[],[],[[0,18,"pl-en"]],[],[[12,19,"pl-c1"]],[[4,13,"pl-smi"],[16,21,"pl-c1"]],[],[],[[0,18,"pl-en"],[19,24,"pl-k"],[47,51,"pl-k"],[52,63,"pl-smi"]],[],[[12,19,"pl-c1"]],[],[[4,13,"pl-smi"],[16,27,"pl-smi"]],[],[],[[0,22,"pl-en"],[23,30,"pl-c1"]],[],[[31,38,"pl-c1"],[43,44,"pl-c1"]],[],[],[],[[0,4,"pl-k"],[5,31,"pl-en"],[32,37,"pl-k"],[59,62,"pl-k"]],[],[[4,32,"pl-c"],[4,6,"pl-c"]],[[24,36,"pl-c1"]],[],[[4,55,"pl-c"],[4,6,"pl-c"]],[],[],[],[[0,7,"pl-c1"],[8,38,"pl-en"],[41,46,"pl-k"]],[],[[4,7,"pl-k"]],[],[[4,6,"pl-k"],[8,17,"pl-c1"]],[[8,14,"pl-k"],[16,17,"pl-c1"]],[],[[4,18,"pl-c1"]],[],[[4,40,"pl-c"],[4,6,"pl-c"]],[[26,42,"pl-c1"]],[[4,6,"pl-k"],[32,40,"pl-c1"],[63,64,"pl-c1"]],[[8,14,"pl-k"],[16,17,"pl-c1"]],[],[[4,10,"pl-k"],[19,31,"pl-c1"]],[],[],[[0,3,"pl-k"],[4,34,"pl-en"],[37,42,"pl-k"]],[],[[4,7,"pl-k"]],[],[[4,6,"pl-k"],[8,17,"pl-c1"]],[[8,14,"pl-k"],[15,16,"pl-c1"]],[],[[4,18,"pl-c1"]],[],[[4,40,"pl-c"],[4,6,"pl-c"]],[[26,42,"pl-c1"]],[[4,6,"pl-k"],[32,40,"pl-c1"]],[[8,14,"pl-k"],[15,16,"pl-c1"]],[],[[4,10,"pl-k"],[24,25,"pl-c1"],[31,32,"pl-c1"],[36,37,"pl-c1"],[54,60,"pl-c1"],[73,80,"pl-smi"],[83,84,"pl-c1"]],[],[],[[0,4,"pl-k"],[5,37,"pl-en"],[40,45,"pl-k"]],[],[[4,6,"pl-k"],[8,22,"pl-smi"]],[[8,28,"pl-smi"],[31,36,"pl-c1"]],[[6,10,"pl-k"],[11,13,"pl-k"],[16,36,"pl-smi"]],[[8,28,"pl-smi"],[63,71,"pl-c1"],[72,79,"pl-c1"]],[],[[4,10,"pl-k"],[11,31,"pl-smi"]],[],[],[[0,4,"pl-k"],[5,29,"pl-en"],[32,37,"pl-k"]],[],[[4,6,"pl-k"],[9,23,"pl-smi"]],[[8,22,"pl-c1"]],[[30,46,"pl-c1"]],[[8,10,"pl-k"],[22,29,"pl-c1"]],[[12,26,"pl-smi"],[54,66,"pl-c1"],[75,82,"pl-smi"]],[],[],[[4,10,"pl-k"],[11,25,"pl-smi"]],[],[],[[0,3,"pl-k"],[4,34,"pl-en"],[37,42,"pl-k"]],[],[[4,6,"pl-k"],[9,19,"pl-c1"]],[[8,14,"pl-k"],[15,16,"pl-c1"]],[[4,7,"pl-k"],[22,41,"pl-c1"]],[[4,10,"pl-c1"],[26,27,"pl-c1"],[30,69,"pl-c"],[30,32,"pl-c"]],[[4,10,"pl-k"],[11,19,"pl-c1"],[20,21,"pl-c1"],[44,45,"pl-c1"]],[],[],[],[[0,4,"pl-k"],[5,34,"pl-en"],[35,40,"pl-k"]],[],[[4,75,"pl-c"],[4,6,"pl-c"]],[[4,76,"pl-c"],[4,6,"pl-c"]],[[4,79,"pl-c"],[4,6,"pl-c"]],[[4,73,"pl-c"],[4,6,"pl-c"]],[[4,68,"pl-c"],[4,6,"pl-c"]],[[4,8,"pl-k"],[17,35,"pl-c1"],[56,63,"pl-c1"],[64,85,"pl-c"],[64,66,"pl-c"],[83,85,"pl-c"]],[[8,13,"pl-c1"],[14,33,"pl-c"],[14,16,"pl-c"],[31,33,"pl-c"]],[[4,14,"pl-smi"]],[[4,10,"pl-k"]],[]],"colorizedLines":null,"csv":null,"csvError":null,"dependabotInfo":{"showConfigurationBanner":false,"configFilePath":null,"networkDependabotPath":"/FewBit-Coin/Core-Wallet/network/updates","dismissConfigurationNoticePath":"/settings/dismiss-notice/dependabot_configuration_notice","configurationNoticeDismissed":null},"displayName":"wallet.cpp","displayUrl":"https://github.com/FewBit-Coin/Core-Wallet/blob/main/src/wallet/wallet.cpp?raw=true","headerInfo":{"blobSize":"201 KB","deleteTooltip":"You must be signed in to make or propose changes","editTooltip":"You must be signed in to make or propose changes","ghDesktopPath":"https://desktop.github.com","isGitLfs":false,"onBranch":true,"shortPath":"8cc6c4b","siteNavLoginPath":"/login?return_to=https%3A%2F%2Fgithub.com%2FFewBit-Coin%2FCore-Wallet%2Fblob%2Fmain%2Fsrc%2Fwallet%2Fwallet.cpp","isCSV":false,"isRichtext":false,"toc":null,"lineInfo":{"truncatedLoc":"5510","truncatedSloc":"4696"},"mode":"file"},"image":false,"isCodeownersFile":null,"isPlain":false,"isValidLegacyIssueTemplate":false,"issueTemplate":null,"discussionTemplate":null,"language":"C++","languageID":43,"large":false,"planSupportInfo":{"repoIsFork":null,"repoOwnedByCurrentUser":null,"requestFullPath":"/FewBit-Coin/Core-Wallet/blob/main/src/wallet/wallet.cpp","showFreeOrgGatedFeatureMessage":null,"showPlanSupportBanner":null,"upgradeDataAttributes":null,"upgradePath":null},"publishBannersInfo":{"dismissActionNoticePath":"/settings/dismiss-notice/publish_action_from_dockerfile","releasePath":"/FewBit-Coin/Core-Wallet/releases/new?marketplace=true","showPublishActionBanner":false},"rawBlobUrl":"https://github.com/FewBit-Coin/Core-Wallet/raw/refs/heads/main/src/wallet/wallet.cpp","renderImageOrRaw":false,"richText":null,"renderedFileInfo":null,"shortPath":null,"symbolsEnabled":true,"tabSize":8,"topBannersInfo":{"overridingGlobalFundingFile":false,"globalPreferredFundingPath":null,"showInvalidCitationWarning":false,"citationHelpUrl":"https://docs.github.com/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-citation-files","actionsOnboardingTip":null},"truncated":false,"viewable":true,"workflowRedirectUrl":null,"symbols":{"timed_out":true,"not_analyzed":false,"symbols":[{"name":"GUARDED_BY","kind":"function","ident_start":1426,"ident_end":1436,"extent_start":1371,"extent_end":1449,"fully_qualified_name":"GUARDED_BY","ident_utf16":{"start":{"line_number":51,"utf16_col":55},"end":{"line_number":51,"utf16_col":65}},"extent_utf16":{"start":{"line_number":51,"utf16_col":0},"end":{"line_number":51,"utf16_col":78}}},{"name":"AddWallet","kind":"function","ident_start":1456,"ident_end":1465,"extent_start":1451,"extent_end":1884,"fully_qualified_name":"AddWallet","ident_utf16":{"start":{"line_number":53,"utf16_col":5},"end":{"line_number":53,"utf16_col":14}},"extent_utf16":{"start":{"line_number":53,"utf16_col":0},"end":{"line_number":62,"utf16_col":1}}},{"name":"RemoveWallet","kind":"function","ident_start":1891,"ident_end":1903,"extent_start":1886,"extent_end":2285,"fully_qualified_name":"RemoveWallet","ident_utf16":{"start":{"line_number":64,"utf16_col":5},"end":{"line_number":64,"utf16_col":17}},"extent_utf16":{"start":{"line_number":64,"utf16_col":0},"end":{"line_number":74,"utf16_col":1}}},{"name":"HasWallets","kind":"function","ident_start":2292,"ident_end":2302,"extent_start":2287,"extent_end":2361,"fully_qualified_name":"HasWallets","ident_utf16":{"start":{"line_number":76,"utf16_col":5},"end":{"line_number":76,"utf16_col":15}},"extent_utf16":{"start":{"line_number":76,"utf16_col":0},"end":{"line_number":80,"utf16_col":1}}},{"name":"GetWallets","kind":"function","ident_start":2633,"ident_end":2643,"extent_start":2595,"extent_end":2693,"fully_qualified_name":"GetWallets","ident_utf16":{"start":{"line_number":95,"utf16_col":38},"end":{"line_number":95,"utf16_col":48}},"extent_utf16":{"start":{"line_number":95,"utf16_col":0},"end":{"line_number":99,"utf16_col":1}}},{"name":"GetWallet","kind":"function","ident_start":2720,"ident_end":2729,"extent_start":2695,"extent_end":2923,"fully_qualified_name":"GetWallet","ident_utf16":{"start":{"line_number":101,"utf16_col":25},"end":{"line_number":101,"utf16_col":34}},"extent_utf16":{"start":{"line_number":101,"utf16_col":0},"end":{"line_number":108,"utf16_col":1}}},{"name":"payTxFee","kind":"function","ident_start":2973,"ident_end":2981,"extent_start":2964,"extent_end":3007,"fully_qualified_name":"payTxFee","ident_utf16":{"start":{"line_number":111,"utf16_col":9},"end":{"line_number":111,"utf16_col":17}},"extent_utf16":{"start":{"line_number":111,"utf16_col":0},"end":{"line_number":111,"utf16_col":43}}},{"name":"ReleaseWallet","kind":"function","ident_start":3678,"ident_end":3691,"extent_start":3666,"extent_end":3857,"fully_qualified_name":"ReleaseWallet","ident_utf16":{"start":{"line_number":130,"utf16_col":12},"end":{"line_number":130,"utf16_col":25}},"extent_utf16":{"start":{"line_number":130,"utf16_col":0},"end":{"line_number":136,"utf16_col":1}}},{"name":"ToString","kind":"method","ident_start":4036,"ident_end":4044,"extent_start":4015,"extent_end":4180,"fully_qualified_name":"COutput::ToString","ident_utf16":{"start":{"line_number":145,"utf16_col":21},"end":{"line_number":145,"utf16_col":29}},"extent_utf16":{"start":{"line_number":145,"utf16_col":0},"end":{"line_number":148,"utf16_col":1}}},{"name":"CAffectedKeysVisitor","kind":"class","ident_start":4188,"ident_end":4208,"extent_start":4182,"extent_end":5132,"fully_qualified_name":"CAffectedKeysVisitor","ident_utf16":{"start":{"line_number":150,"utf16_col":6},"end":{"line_number":150,"utf16_col":26}},"extent_utf16":{"start":{"line_number":150,"utf16_col":0},"end":{"line_number":185,"utf16_col":1}}},{"name":"CAffectedKeysVisitor","kind":"function","ident_start":4333,"ident_end":4353,"extent_start":4333,"extent_end":4462,"fully_qualified_name":"CAffectedKeysVisitor::CAffectedKeysVisitor","ident_utf16":{"start":{"line_number":157,"utf16_col":4},"end":{"line_number":157,"utf16_col":24}},"extent_utf16":{"start":{"line_number":157,"utf16_col":4},"end":{"line_number":158,"utf16_col":47}}},{"name":"Process","kind":"function","ident_start":4473,"ident_end":4480,"extent_start":4468,"extent_end":4787,"fully_qualified_name":"CAffectedKeysVisitor::Process","ident_utf16":{"start":{"line_number":160,"utf16_col":9},"end":{"line_number":160,"utf16_col":16}},"extent_utf16":{"start":{"line_number":160,"utf16_col":4},"end":{"line_number":169,"utf16_col":5}}},{"name":"Priority","kind":"method","ident_start":5148,"ident_end":5156,"extent_start":5135,"extent_end":5494,"fully_qualified_name":"COutput::Priority","ident_utf16":{"start":{"line_number":187,"utf16_col":13},"end":{"line_number":187,"utf16_col":21}},"extent_utf16":{"start":{"line_number":187,"utf16_col":0},"end":{"line_number":197,"utf16_col":1}}},{"name":"GenerateNewKey","kind":"method","ident_start":5761,"ident_end":5775,"extent_start":5744,"extent_end":6993,"fully_qualified_name":"CWallet::GenerateNewKey","ident_utf16":{"start":{"line_number":208,"utf16_col":17},"end":{"line_number":208,"utf16_col":31}},"extent_utf16":{"start":{"line_number":208,"utf16_col":0},"end":{"line_number":244,"utf16_col":1}}},{"name":"DeriveNewChildKey","kind":"method","ident_start":7009,"ident_end":7026,"extent_start":6995,"extent_end":9242,"fully_qualified_name":"CWallet::DeriveNewChildKey","ident_utf16":{"start":{"line_number":246,"utf16_col":14},"end":{"line_number":246,"utf16_col":31}},"extent_utf16":{"start":{"line_number":246,"utf16_col":0},"end":{"line_number":303,"utf16_col":1}}},{"name":"GetPubKey","kind":"method","ident_start":9258,"ident_end":9267,"extent_start":9244,"extent_end":9659,"fully_qualified_name":"CWallet::GetPubKey","ident_utf16":{"start":{"line_number":305,"utf16_col":14},"end":{"line_number":305,"utf16_col":23}},"extent_utf16":{"start":{"line_number":305,"utf16_col":0},"end":{"line_number":315,"utf16_col":1}}},{"name":"GetKey","kind":"method","ident_start":9675,"ident_end":9681,"extent_start":9661,"extent_end":10761,"fully_qualified_name":"CWallet::GetKey","ident_utf16":{"start":{"line_number":317,"utf16_col":14},"end":{"line_number":317,"utf16_col":20}},"extent_utf16":{"start":{"line_number":317,"utf16_col":0},"end":{"line_number":341,"utf16_col":1}}},{"name":"HaveKey","kind":"method","ident_start":10777,"ident_end":10784,"extent_start":10763,"extent_end":10946,"fully_qualified_name":"CWallet::HaveKey","ident_utf16":{"start":{"line_number":343,"utf16_col":14},"end":{"line_number":343,"utf16_col":21}},"extent_utf16":{"start":{"line_number":343,"utf16_col":0},"end":{"line_number":349,"utf16_col":1}}},{"name":"LoadHDPubKey","kind":"method","ident_start":10962,"ident_end":10974,"extent_start":10948,"extent_end":11118,"fully_qualified_name":"CWallet::LoadHDPubKey","ident_utf16":{"start":{"line_number":351,"utf16_col":14},"end":{"line_number":351,"utf16_col":26}},"extent_utf16":{"start":{"line_number":351,"utf16_col":0},"end":{"line_number":357,"utf16_col":1}}},{"name":"AddHDPubKey","kind":"method","ident_start":11134,"ident_end":11145,"extent_start":11120,"extent_end":11921,"fully_qualified_name":"CWallet::AddHDPubKey","ident_utf16":{"start":{"line_number":359,"utf16_col":14},"end":{"line_number":359,"utf16_col":25}},"extent_utf16":{"start":{"line_number":359,"utf16_col":0},"end":{"line_number":382,"utf16_col":1}}},{"name":"AddKeyPubKeyWithDB","kind":"method","ident_start":11937,"ident_end":11955,"extent_start":11923,"extent_end":13012,"fully_qualified_name":"CWallet::AddKeyPubKeyWithDB","ident_utf16":{"start":{"line_number":384,"utf16_col":14},"end":{"line_number":384,"utf16_col":32}},"extent_utf16":{"start":{"line_number":384,"utf16_col":0},"end":{"line_number":417,"utf16_col":1}}},{"name":"AddKeyPubKey","kind":"method","ident_start":13029,"ident_end":13041,"extent_start":13015,"extent_end":13186,"fully_qualified_name":"CWallet::AddKeyPubKey","ident_utf16":{"start":{"line_number":420,"utf16_col":14},"end":{"line_number":420,"utf16_col":26}},"extent_utf16":{"start":{"line_number":420,"utf16_col":0},"end":{"line_number":425,"utf16_col":1}}},{"name":"AddCryptedKey","kind":"method","ident_start":13202,"ident_end":13215,"extent_start":13188,"extent_end":13776,"fully_qualified_name":"CWallet::AddCryptedKey","ident_utf16":{"start":{"line_number":427,"utf16_col":14},"end":{"line_number":427,"utf16_col":27}},"extent_utf16":{"start":{"line_number":427,"utf16_col":0},"end":{"line_number":443,"utf16_col":1}}},{"name":"LoadKeyMetadata","kind":"method","ident_start":13792,"ident_end":13807,"extent_start":13778,"extent_end":14000,"fully_qualified_name":"CWallet::LoadKeyMetadata","ident_utf16":{"start":{"line_number":445,"utf16_col":14},"end":{"line_number":445,"utf16_col":29}},"extent_utf16":{"start":{"line_number":445,"utf16_col":0},"end":{"line_number":451,"utf16_col":1}}},{"name":"LoadScriptMetadata","kind":"method","ident_start":14016,"ident_end":14034,"extent_start":14002,"extent_end":14244,"fully_qualified_name":"CWallet::LoadScriptMetadata","ident_utf16":{"start":{"line_number":453,"utf16_col":14},"end":{"line_number":453,"utf16_col":32}},"extent_utf16":{"start":{"line_number":453,"utf16_col":0},"end":{"line_number":459,"utf16_col":1}}},{"name":"LoadCryptedKey","kind":"method","ident_start":14260,"ident_end":14274,"extent_start":14246,"extent_end":14428,"fully_qualified_name":"CWallet::LoadCryptedKey","ident_utf16":{"start":{"line_number":461,"utf16_col":14},"end":{"line_number":461,"utf16_col":28}},"extent_utf16":{"start":{"line_number":461,"utf16_col":0},"end":{"line_number":464,"utf16_col":1}}},{"name":"UpdateTimeFirstKey","kind":"method","ident_start":14593,"ident_end":14611,"extent_start":14579,"extent_end":14943,"fully_qualified_name":"CWallet::UpdateTimeFirstKey","ident_utf16":{"start":{"line_number":470,"utf16_col":14},"end":{"line_number":470,"utf16_col":32}},"extent_utf16":{"start":{"line_number":470,"utf16_col":0},"end":{"line_number":480,"utf16_col":1}}},{"name":"GetTimeFirstKey","kind":"method","ident_start":14962,"ident_end":14977,"extent_start":14945,"extent_end":15046,"fully_qualified_name":"CWallet::GetTimeFirstKey","ident_utf16":{"start":{"line_number":482,"utf16_col":17},"end":{"line_number":482,"utf16_col":32}},"extent_utf16":{"start":{"line_number":482,"utf16_col":0},"end":{"line_number":486,"utf16_col":1}}},{"name":"AddCScript","kind":"method","ident_start":15062,"ident_end":15072,"extent_start":15048,"extent_end":15264,"fully_qualified_name":"CWallet::AddCScript","ident_utf16":{"start":{"line_number":488,"utf16_col":14},"end":{"line_number":488,"utf16_col":24}},"extent_utf16":{"start":{"line_number":488,"utf16_col":0},"end":{"line_number":493,"utf16_col":1}}},{"name":"LoadCScript","kind":"method","ident_start":15280,"ident_end":15291,"extent_start":15266,"extent_end":15986,"fully_qualified_name":"CWallet::LoadCScript","ident_utf16":{"start":{"line_number":495,"utf16_col":14},"end":{"line_number":495,"utf16_col":25}},"extent_utf16":{"start":{"line_number":495,"utf16_col":0},"end":{"line_number":508,"utf16_col":1}}},{"name":"AddWatchOnly","kind":"method","ident_start":16002,"ident_end":16014,"extent_start":15988,"extent_end":16312,"fully_qualified_name":"CWallet::AddWatchOnly","ident_utf16":{"start":{"line_number":510,"utf16_col":14},"end":{"line_number":510,"utf16_col":26}},"extent_utf16":{"start":{"line_number":510,"utf16_col":0},"end":{"line_number":518,"utf16_col":1}}},{"name":"AddWatchOnly","kind":"method","ident_start":16328,"ident_end":16340,"extent_start":16314,"extent_end":16483,"fully_qualified_name":"CWallet::AddWatchOnly","ident_utf16":{"start":{"line_number":520,"utf16_col":14},"end":{"line_number":520,"utf16_col":26}},"extent_utf16":{"start":{"line_number":520,"utf16_col":0},"end":{"line_number":524,"utf16_col":1}}},{"name":"RemoveWatchOnly","kind":"method","ident_start":16499,"ident_end":16514,"extent_start":16485,"extent_end":16935,"fully_qualified_name":"CWallet::RemoveWatchOnly","ident_utf16":{"start":{"line_number":526,"utf16_col":14},"end":{"line_number":526,"utf16_col":29}},"extent_utf16":{"start":{"line_number":526,"utf16_col":0},"end":{"line_number":540,"utf16_col":1}}},{"name":"LoadWatchOnly","kind":"method","ident_start":16951,"ident_end":16964,"extent_start":16937,"extent_end":17037,"fully_qualified_name":"CWallet::LoadWatchOnly","ident_utf16":{"start":{"line_number":542,"utf16_col":14},"end":{"line_number":542,"utf16_col":27}},"extent_utf16":{"start":{"line_number":542,"utf16_col":0},"end":{"line_number":545,"utf16_col":1}}},{"name":"Unlock","kind":"method","ident_start":17053,"ident_end":17059,"extent_start":17039,"extent_end":18639,"fully_qualified_name":"CWallet::Unlock","ident_utf16":{"start":{"line_number":547,"utf16_col":14},"end":{"line_number":547,"utf16_col":20}},"extent_utf16":{"start":{"line_number":547,"utf16_col":0},"end":{"line_number":587,"utf16_col":1}}},{"name":"ChangeWalletPassphrase","kind":"method","ident_start":18655,"ident_end":18677,"extent_start":18641,"extent_end":22154,"fully_qualified_name":"CWallet::ChangeWalletPassphrase","ident_utf16":{"start":{"line_number":589,"utf16_col":14},"end":{"line_number":589,"utf16_col":36}},"extent_utf16":{"start":{"line_number":589,"utf16_col":0},"end":{"line_number":659,"utf16_col":1}}},{"name":"SetBestChain","kind":"method","ident_start":22170,"ident_end":22182,"extent_start":22156,"extent_end":22277,"fully_qualified_name":"CWallet::SetBestChain","ident_utf16":{"start":{"line_number":661,"utf16_col":14},"end":{"line_number":661,"utf16_col":26}},"extent_utf16":{"start":{"line_number":661,"utf16_col":0},"end":{"line_number":665,"utf16_col":1}}},{"name":"SetMinVersion","kind":"method","ident_start":22293,"ident_end":22306,"extent_start":22279,"extent_end":23014,"fully_qualified_name":"CWallet::SetMinVersion","ident_utf16":{"start":{"line_number":667,"utf16_col":14},"end":{"line_number":667,"utf16_col":27}},"extent_utf16":{"start":{"line_number":667,"utf16_col":0},"end":{"line_number":691,"utf16_col":1}}},{"name":"WalletFeature","kind":"type","ident_start":22312,"ident_end":22325,"extent_start":22307,"extent_end":22325,"fully_qualified_name":"WalletFeature","ident_utf16":{"start":{"line_number":667,"utf16_col":33},"end":{"line_number":667,"utf16_col":46}},"extent_utf16":{"start":{"line_number":667,"utf16_col":28},"end":{"line_number":667,"utf16_col":46}}},{"name":"SetMaxVersion","kind":"method","ident_start":23030,"ident_end":23043,"extent_start":23016,"extent_end":23275,"fully_qualified_name":"CWallet::SetMaxVersion","ident_utf16":{"start":{"line_number":693,"utf16_col":14},"end":{"line_number":693,"utf16_col":27}},"extent_utf16":{"start":{"line_number":693,"utf16_col":0},"end":{"line_number":703,"utf16_col":1}}},{"name":"GetConflicts","kind":"method","ident_start":23304,"ident_end":23316,"extent_start":23277,"extent_end":24011,"fully_qualified_name":"CWallet::GetConflicts","ident_utf16":{"start":{"line_number":705,"utf16_col":27},"end":{"line_number":705,"utf16_col":39}},"extent_utf16":{"start":{"line_number":705,"utf16_col":0},"end":{"line_number":725,"utf16_col":1}}},{"name":"Flush","kind":"method","ident_start":24027,"ident_end":24032,"extent_start":24013,"extent_end":24082,"fully_qualified_name":"CWallet::Flush","ident_utf16":{"start":{"line_number":727,"utf16_col":14},"end":{"line_number":727,"utf16_col":19}},"extent_utf16":{"start":{"line_number":727,"utf16_col":0},"end":{"line_number":730,"utf16_col":1}}},{"name":"SyncMetaData","kind":"method","ident_start":24098,"ident_end":24110,"extent_start":24084,"extent_end":25590,"fully_qualified_name":"CWallet::SyncMetaData","ident_utf16":{"start":{"line_number":732,"utf16_col":14},"end":{"line_number":732,"utf16_col":26}},"extent_utf16":{"start":{"line_number":732,"utf16_col":0},"end":{"line_number":769,"utf16_col":1}}},{"name":"IsSpent","kind":"method","ident_start":25683,"ident_end":25690,"extent_start":25669,"extent_end":26344,"fully_qualified_name":"CWallet::IsSpent","ident_utf16":{"start":{"line_number":775,"utf16_col":14},"end":{"line_number":775,"utf16_col":21}},"extent_utf16":{"start":{"line_number":775,"utf16_col":0},"end":{"line_number":791,"utf16_col":1}}},{"name":"AddToSpends","kind":"method","ident_start":26360,"ident_end":26371,"extent_start":26346,"extent_end":26687,"fully_qualified_name":"CWallet::AddToSpends","ident_utf16":{"start":{"line_number":793,"utf16_col":14},"end":{"line_number":793,"utf16_col":25}},"extent_utf16":{"start":{"line_number":793,"utf16_col":0},"end":{"line_number":803,"utf16_col":1}}},{"name":"AddToSpends","kind":"method","ident_start":26704,"ident_end":26715,"extent_start":26690,"extent_end":27017,"fully_qualified_name":"CWallet::AddToSpends","ident_utf16":{"start":{"line_number":806,"utf16_col":14},"end":{"line_number":806,"utf16_col":25}},"extent_utf16":{"start":{"line_number":806,"utf16_col":0},"end":{"line_number":816,"utf16_col":1}}},{"name":"EncryptWallet","kind":"method","ident_start":27033,"ident_end":27046,"extent_start":27019,"extent_end":31689,"fully_qualified_name":"CWallet::EncryptWallet","ident_utf16":{"start":{"line_number":818,"utf16_col":14},"end":{"line_number":818,"utf16_col":27}},"extent_utf16":{"start":{"line_number":818,"utf16_col":0},"end":{"line_number":940,"utf16_col":1}}},{"name":"ReorderTransactions","kind":"method","ident_start":31709,"ident_end":31728,"extent_start":31691,"extent_end":34021,"fully_qualified_name":"CWallet::ReorderTransactions","ident_utf16":{"start":{"line_number":942,"utf16_col":18},"end":{"line_number":942,"utf16_col":37}},"extent_utf16":{"start":{"line_number":942,"utf16_col":0},"end":{"line_number":1004,"utf16_col":1}}},{"name":"TxPair","kind":"type","ident_start":32050,"ident_end":32056,"extent_start":32001,"extent_end":32057,"fully_qualified_name":"TxPair","ident_utf16":{"start":{"line_number":951,"utf16_col":53},"end":{"line_number":951,"utf16_col":59}},"extent_utf16":{"start":{"line_number":951,"utf16_col":4},"end":{"line_number":951,"utf16_col":60}}},{"name":"TxItems","kind":"type","ident_start":32101,"ident_end":32108,"extent_start":32062,"extent_end":32109,"fully_qualified_name":"TxItems","ident_utf16":{"start":{"line_number":952,"utf16_col":43},"end":{"line_number":952,"utf16_col":50}},"extent_utf16":{"start":{"line_number":952,"utf16_col":4},"end":{"line_number":952,"utf16_col":51}}},{"name":"IncOrderPosNext","kind":"method","ident_start":34040,"ident_end":34055,"extent_start":34023,"extent_end":34330,"fully_qualified_name":"CWallet::IncOrderPosNext","ident_utf16":{"start":{"line_number":1006,"utf16_col":17},"end":{"line_number":1006,"utf16_col":32}},"extent_utf16":{"start":{"line_number":1006,"utf16_col":0},"end":{"line_number":1016,"utf16_col":1}}},{"name":"AccountMove","kind":"method","ident_start":34346,"ident_end":34357,"extent_start":34332,"extent_end":35219,"fully_qualified_name":"CWallet::AccountMove","ident_utf16":{"start":{"line_number":1018,"utf16_col":14},"end":{"line_number":1018,"utf16_col":25}},"extent_utf16":{"start":{"line_number":1018,"utf16_col":0},"end":{"line_number":1050,"utf16_col":1}}},{"name":"GetLabelDestination","kind":"method","ident_start":35235,"ident_end":35254,"extent_start":35221,"extent_end":36425,"fully_qualified_name":"CWallet::GetLabelDestination","ident_utf16":{"start":{"line_number":1052,"utf16_col":14},"end":{"line_number":1052,"utf16_col":33}},"extent_utf16":{"start":{"line_number":1052,"utf16_col":0},"end":{"line_number":1089,"utf16_col":1}}},{"name":"MarkDirty","kind":"method","ident_start":36441,"ident_end":36450,"extent_start":36427,"extent_end":36683,"fully_qualified_name":"CWallet::MarkDirty","ident_utf16":{"start":{"line_number":1091,"utf16_col":14},"end":{"line_number":1091,"utf16_col":23}},"extent_utf16":{"start":{"line_number":1091,"utf16_col":0},"end":{"line_number":1101,"utf16_col":1}}},{"name":"AddToWallet","kind":"method","ident_start":36699,"ident_end":36710,"extent_start":36685,"extent_end":40244,"fully_qualified_name":"CWallet::AddToWallet","ident_utf16":{"start":{"line_number":1103,"utf16_col":14},"end":{"line_number":1103,"utf16_col":25}},"extent_utf16":{"start":{"line_number":1103,"utf16_col":0},"end":{"line_number":1195,"utf16_col":1}}},{"name":"LoadToWallet","kind":"method","ident_start":40260,"ident_end":40272,"extent_start":40246,"extent_end":40990,"fully_qualified_name":"CWallet::LoadToWallet","ident_utf16":{"start":{"line_number":1197,"utf16_col":14},"end":{"line_number":1197,"utf16_col":26}},"extent_utf16":{"start":{"line_number":1197,"utf16_col":0},"end":{"line_number":1218,"utf16_col":1}}},{"name":"AddToWalletIfInvolvingMe","kind":"method","ident_start":41754,"ident_end":41778,"extent_start":41740,"extent_end":45290,"fully_qualified_name":"CWallet::AddToWalletIfInvolvingMe","ident_utf16":{"start":{"line_number":1233,"utf16_col":14},"end":{"line_number":1233,"utf16_col":38}},"extent_utf16":{"start":{"line_number":1233,"utf16_col":0},"end":{"line_number":1300,"utf16_col":1}}},{"name":"TransactionCanBeAbandoned","kind":"method","ident_start":45306,"ident_end":45331,"extent_start":45292,"extent_end":45538,"fully_qualified_name":"CWallet::TransactionCanBeAbandoned","ident_utf16":{"start":{"line_number":1302,"utf16_col":14},"end":{"line_number":1302,"utf16_col":39}},"extent_utf16":{"start":{"line_number":1302,"utf16_col":0},"end":{"line_number":1307,"utf16_col":1}}},{"name":"AbandonTransaction","kind":"method","ident_start":45554,"ident_end":45572,"extent_start":45540,"extent_end":47865,"fully_qualified_name":"CWallet::AbandonTransaction","ident_utf16":{"start":{"line_number":1309,"utf16_col":14},"end":{"line_number":1309,"utf16_col":32}},"extent_utf16":{"start":{"line_number":1309,"utf16_col":0},"end":{"line_number":1370,"utf16_col":1}}},{"name":"MarkConflicted","kind":"method","ident_start":47881,"ident_end":47895,"extent_start":47867,"extent_end":50278,"fully_qualified_name":"CWallet::MarkConflicted","ident_utf16":{"start":{"line_number":1372,"utf16_col":14},"end":{"line_number":1372,"utf16_col":28}},"extent_utf16":{"start":{"line_number":1372,"utf16_col":0},"end":{"line_number":1432,"utf16_col":1}}},{"name":"SyncTransaction","kind":"method","ident_start":50294,"ident_end":50309,"extent_start":50280,"extent_end":50999,"fully_qualified_name":"CWallet::SyncTransaction","ident_utf16":{"start":{"line_number":1434,"utf16_col":14},"end":{"line_number":1434,"utf16_col":29}},"extent_utf16":{"start":{"line_number":1434,"utf16_col":0},"end":{"line_number":1453,"utf16_col":1}}},{"name":"TransactionAddedToMempool","kind":"method","ident_start":51015,"ident_end":51040,"extent_start":51001,"extent_end":51274,"fully_qualified_name":"CWallet::TransactionAddedToMempool","ident_utf16":{"start":{"line_number":1455,"utf16_col":14},"end":{"line_number":1455,"utf16_col":39}},"extent_utf16":{"start":{"line_number":1455,"utf16_col":0},"end":{"line_number":1464,"utf16_col":1}}},{"name":"TransactionRemovedFromMempool","kind":"method","ident_start":51290,"ident_end":51319,"extent_start":51276,"extent_end":51603,"fully_qualified_name":"CWallet::TransactionRemovedFromMempool","ident_utf16":{"start":{"line_number":1466,"utf16_col":14},"end":{"line_number":1466,"utf16_col":43}},"extent_utf16":{"start":{"line_number":1466,"utf16_col":0},"end":{"line_number":1475,"utf16_col":1}}},{"name":"BlockConnected","kind":"method","ident_start":51619,"ident_end":51633,"extent_start":51605,"extent_end":54243,"fully_qualified_name":"CWallet::BlockConnected","ident_utf16":{"start":{"line_number":1477,"utf16_col":14},"end":{"line_number":1477,"utf16_col":28}},"extent_utf16":{"start":{"line_number":1477,"utf16_col":0},"end":{"line_number":1531,"utf16_col":1}}},{"name":"BlockDisconnected","kind":"method","ident_start":54259,"ident_end":54276,"extent_start":54245,"extent_end":54679,"fully_qualified_name":"CWallet::BlockDisconnected","ident_utf16":{"start":{"line_number":1533,"utf16_col":14},"end":{"line_number":1533,"utf16_col":31}},"extent_utf16":{"start":{"line_number":1533,"utf16_col":0},"end":{"line_number":1545,"utf16_col":1}}},{"name":"BlockUntilSyncedToCurrentChain","kind":"method","ident_start":54696,"ident_end":54726,"extent_start":54682,"extent_end":55646,"fully_qualified_name":"CWallet::BlockUntilSyncedToCurrentChain","ident_utf16":{"start":{"line_number":1548,"utf16_col":14},"end":{"line_number":1548,"utf16_col":44}},"extent_utf16":{"start":{"line_number":1548,"utf16_col":0},"end":{"line_number":1571,"utf16_col":1}}},{"name":"IsMine","kind":"method","ident_start":55669,"ident_end":55675,"extent_start":55649,"extent_end":56070,"fully_qualified_name":"CWallet::IsMine","ident_utf16":{"start":{"line_number":1574,"utf16_col":20},"end":{"line_number":1574,"utf16_col":26}},"extent_utf16":{"start":{"line_number":1574,"utf16_col":0},"end":{"line_number":1586,"utf16_col":1}}},{"name":"GetDebit","kind":"method","ident_start":56218,"ident_end":56226,"extent_start":56201,"extent_end":56891,"fully_qualified_name":"CWallet::GetDebit","ident_utf16":{"start":{"line_number":1590,"utf16_col":17},"end":{"line_number":1590,"utf16_col":25}},"extent_utf16":{"start":{"line_number":1590,"utf16_col":0},"end":{"line_number":1607,"utf16_col":1}}},{"name":"GetRealOutpointCoinJoinRounds","kind":"method","ident_start":57010,"ident_end":57039,"extent_start":56997,"extent_end":60248,"fully_qualified_name":"CWallet::GetRealOutpointCoinJoinRounds","ident_utf16":{"start":{"line_number":1610,"utf16_col":13},"end":{"line_number":1610,"utf16_col":42}},"extent_utf16":{"start":{"line_number":1610,"utf16_col":0},"end":{"line_number":1688,"utf16_col":1}}},{"name":"GetCappedOutpointCoinJoinRounds","kind":"method","ident_start":60291,"ident_end":60322,"extent_start":60278,"extent_end":60578,"fully_qualified_name":"CWallet::GetCappedOutpointCoinJoinRounds","ident_utf16":{"start":{"line_number":1691,"utf16_col":13},"end":{"line_number":1691,"utf16_col":44}},"extent_utf16":{"start":{"line_number":1691,"utf16_col":0},"end":{"line_number":1696,"utf16_col":1}}},{"name":"IsDenominated","kind":"method","ident_start":60594,"ident_end":60607,"extent_start":60580,"extent_end":60943,"fully_qualified_name":"CWallet::IsDenominated","ident_utf16":{"start":{"line_number":1698,"utf16_col":14},"end":{"line_number":1698,"utf16_col":27}},"extent_utf16":{"start":{"line_number":1698,"utf16_col":0},"end":{"line_number":1712,"utf16_col":1}}},{"name":"IsFullyMixed","kind":"method","ident_start":60959,"ident_end":60971,"extent_start":60945,"extent_end":61930,"fully_qualified_name":"CWallet::IsFullyMixed","ident_utf16":{"start":{"line_number":1714,"utf16_col":14},"end":{"line_number":1714,"utf16_col":26}},"extent_utf16":{"start":{"line_number":1714,"utf16_col":0},"end":{"line_number":1735,"utf16_col":1}}},{"name":"IsMine","kind":"method","ident_start":61952,"ident_end":61958,"extent_start":61932,"extent_end":62037,"fully_qualified_name":"CWallet::IsMine","ident_utf16":{"start":{"line_number":1737,"utf16_col":20},"end":{"line_number":1737,"utf16_col":26}},"extent_utf16":{"start":{"line_number":1737,"utf16_col":0},"end":{"line_number":1740,"utf16_col":1}}},{"name":"GetCredit","kind":"method","ident_start":62056,"ident_end":62065,"extent_start":62039,"extent_end":62443,"fully_qualified_name":"CWallet::GetCredit","ident_utf16":{"start":{"line_number":1742,"utf16_col":17},"end":{"line_number":1742,"utf16_col":26}},"extent_utf16":{"start":{"line_number":1742,"utf16_col":0},"end":{"line_number":1752,"utf16_col":1}}},{"name":"IsChange","kind":"method","ident_start":62459,"ident_end":62467,"extent_start":62445,"extent_end":63300,"fully_qualified_name":"CWallet::IsChange","ident_utf16":{"start":{"line_number":1754,"utf16_col":14},"end":{"line_number":1754,"utf16_col":22}},"extent_utf16":{"start":{"line_number":1754,"utf16_col":0},"end":{"line_number":1773,"utf16_col":1}}},{"name":"GetChange","kind":"method","ident_start":63319,"ident_end":63328,"extent_start":63302,"extent_end":63525,"fully_qualified_name":"CWallet::GetChange","ident_utf16":{"start":{"line_number":1775,"utf16_col":17},"end":{"line_number":1775,"utf16_col":26}},"extent_utf16":{"start":{"line_number":1775,"utf16_col":0},"end":{"line_number":1780,"utf16_col":1}}},{"name":"GenerateNewHDChain","kind":"method","ident_start":63541,"ident_end":63559,"extent_start":63527,"extent_end":64255,"fully_qualified_name":"CWallet::GenerateNewHDChain","ident_utf16":{"start":{"line_number":1782,"utf16_col":14},"end":{"line_number":1782,"utf16_col":32}},"extent_utf16":{"start":{"line_number":1782,"utf16_col":0},"end":{"line_number":1801,"utf16_col":1}}},{"name":"GenerateNewHDChainEncrypted","kind":"method","ident_start":64271,"ident_end":64298,"extent_start":64257,"extent_end":66521,"fully_qualified_name":"CWallet::GenerateNewHDChainEncrypted","ident_utf16":{"start":{"line_number":1803,"utf16_col":14},"end":{"line_number":1803,"utf16_col":41}},"extent_utf16":{"start":{"line_number":1803,"utf16_col":0},"end":{"line_number":1864,"utf16_col":1}}},{"name":"SetHDChain","kind":"method","ident_start":66537,"ident_end":66547,"extent_start":66523,"extent_end":66847,"fully_qualified_name":"CWallet::SetHDChain","ident_utf16":{"start":{"line_number":1866,"utf16_col":14},"end":{"line_number":1866,"utf16_col":24}},"extent_utf16":{"start":{"line_number":1866,"utf16_col":0},"end":{"line_number":1877,"utf16_col":1}}},{"name":"SetCryptedHDChain","kind":"method","ident_start":66863,"ident_end":66880,"extent_start":66849,"extent_end":67449,"fully_qualified_name":"CWallet::SetCryptedHDChain","ident_utf16":{"start":{"line_number":1879,"utf16_col":14},"end":{"line_number":1879,"utf16_col":31}},"extent_utf16":{"start":{"line_number":1879,"utf16_col":0},"end":{"line_number":1897,"utf16_col":1}}},{"name":"SetHDChainSingle","kind":"method","ident_start":67465,"ident_end":67481,"extent_start":67451,"extent_end":67602,"fully_qualified_name":"CWallet::SetHDChainSingle","ident_utf16":{"start":{"line_number":1899,"utf16_col":14},"end":{"line_number":1899,"utf16_col":30}},"extent_utf16":{"start":{"line_number":1899,"utf16_col":0},"end":{"line_number":1903,"utf16_col":1}}},{"name":"SetCryptedHDChainSingle","kind":"method","ident_start":67618,"ident_end":67641,"extent_start":67604,"extent_end":67769,"fully_qualified_name":"CWallet::SetCryptedHDChainSingle","ident_utf16":{"start":{"line_number":1905,"utf16_col":14},"end":{"line_number":1905,"utf16_col":37}},"extent_utf16":{"start":{"line_number":1905,"utf16_col":0},"end":{"line_number":1909,"utf16_col":1}}},{"name":"GetDecryptedHDChain","kind":"method","ident_start":67785,"ident_end":67804,"extent_start":67771,"extent_end":68168,"fully_qualified_name":"CWallet::GetDecryptedHDChain","ident_utf16":{"start":{"line_number":1911,"utf16_col":14},"end":{"line_number":1911,"utf16_col":33}},"extent_utf16":{"start":{"line_number":1911,"utf16_col":0},"end":{"line_number":1930,"utf16_col":1}}},{"name":"IsHDEnabled","kind":"method","ident_start":68184,"ident_end":68195,"extent_start":68170,"extent_end":68275,"fully_qualified_name":"CWallet::IsHDEnabled","ident_utf16":{"start":{"line_number":1932,"utf16_col":14},"end":{"line_number":1932,"utf16_col":25}},"extent_utf16":{"start":{"line_number":1932,"utf16_col":0},"end":{"line_number":1936,"utf16_col":1}}},{"name":"IsMine","kind":"method","ident_start":68291,"ident_end":68297,"extent_start":68277,"extent_end":68441,"fully_qualified_name":"CWallet::IsMine","ident_utf16":{"start":{"line_number":1938,"utf16_col":14},"end":{"line_number":1938,"utf16_col":20}},"extent_utf16":{"start":{"line_number":1938,"utf16_col":0},"end":{"line_number":1944,"utf16_col":1}}},{"name":"IsFromMe","kind":"method","ident_start":68457,"ident_end":68465,"extent_start":68443,"extent_end":68542,"fully_qualified_name":"CWallet::IsFromMe","ident_utf16":{"start":{"line_number":1946,"utf16_col":14},"end":{"line_number":1946,"utf16_col":22}},"extent_utf16":{"start":{"line_number":1946,"utf16_col":0},"end":{"line_number":1949,"utf16_col":1}}},{"name":"GetDebit","kind":"method","ident_start":68561,"ident_end":68569,"extent_start":68544,"extent_end":68916,"fully_qualified_name":"CWallet::GetDebit","ident_utf16":{"start":{"line_number":1951,"utf16_col":17},"end":{"line_number":1951,"utf16_col":25}},"extent_utf16":{"start":{"line_number":1951,"utf16_col":0},"end":{"line_number":1960,"utf16_col":1}}},{"name":"IsAllFromMe","kind":"method","ident_start":68932,"ident_end":68943,"extent_start":68918,"extent_end":69476,"fully_qualified_name":"CWallet::IsAllFromMe","ident_utf16":{"start":{"line_number":1962,"utf16_col":14},"end":{"line_number":1962,"utf16_col":25}},"extent_utf16":{"start":{"line_number":1962,"utf16_col":0},"end":{"line_number":1980,"utf16_col":1}}},{"name":"GetCredit","kind":"method","ident_start":69495,"ident_end":69504,"extent_start":69478,"extent_end":69860,"fully_qualified_name":"CWallet::GetCredit","ident_utf16":{"start":{"line_number":1982,"utf16_col":17},"end":{"line_number":1982,"utf16_col":26}},"extent_utf16":{"start":{"line_number":1982,"utf16_col":0},"end":{"line_number":1991,"utf16_col":1}}},{"name":"GetChange","kind":"method","ident_start":69879,"ident_end":69888,"extent_start":69862,"extent_end":70172,"fully_qualified_name":"CWallet::GetChange","ident_utf16":{"start":{"line_number":1993,"utf16_col":17},"end":{"line_number":1993,"utf16_col":26}},"extent_utf16":{"start":{"line_number":1993,"utf16_col":0},"end":{"line_number":2002,"utf16_col":1}}},{"name":"GetTxTime","kind":"method","ident_start":70193,"ident_end":70202,"extent_start":70174,"extent_end":70276,"fully_qualified_name":"CWalletTx::GetTxTime","ident_utf16":{"start":{"line_number":2004,"utf16_col":19},"end":{"line_number":2004,"utf16_col":28}},"extent_utf16":{"start":{"line_number":2004,"utf16_col":0},"end":{"line_number":2008,"utf16_col":1}}},{"name":"isFutureSpendable","kind":"method","ident_start":70294,"ident_end":70311,"extent_start":70278,"extent_end":71415,"fully_qualified_name":"CWalletTx::isFutureSpendable","ident_utf16":{"start":{"line_number":2010,"utf16_col":16},"end":{"line_number":2010,"utf16_col":33}},"extent_utf16":{"start":{"line_number":2010,"utf16_col":0},"end":{"line_number":2036,"utf16_col":1}}},{"name":"DummySignInput","kind":"method","ident_start":71497,"ident_end":71511,"extent_start":71483,"extent_end":71867,"fully_qualified_name":"CWallet::DummySignInput","ident_utf16":{"start":{"line_number":2039,"utf16_col":14},"end":{"line_number":2039,"utf16_col":28}},"extent_utf16":{"start":{"line_number":2039,"utf16_col":0},"end":{"line_number":2051,"utf16_col":1}}},{"name":"DummySignTx","kind":"method","ident_start":71959,"ident_end":71970,"extent_start":71945,"extent_end":72281,"fully_qualified_name":"CWallet::DummySignTx","ident_utf16":{"start":{"line_number":2054,"utf16_col":14},"end":{"line_number":2054,"utf16_col":25}},"extent_utf16":{"start":{"line_number":2054,"utf16_col":0},"end":{"line_number":2066,"utf16_col":1}}},{"name":"CalculateMaximumSignedTxSize","kind":"function","ident_start":72291,"ident_end":72319,"extent_start":72283,"extent_end":73016,"fully_qualified_name":"CalculateMaximumSignedTxSize","ident_utf16":{"start":{"line_number":2068,"utf16_col":8},"end":{"line_number":2068,"utf16_col":36}},"extent_utf16":{"start":{"line_number":2068,"utf16_col":0},"end":{"line_number":2083,"utf16_col":1}}},{"name":"CalculateMaximumSignedTxSize","kind":"function","ident_start":73071,"ident_end":73099,"extent_start":73063,"extent_end":73489,"fully_qualified_name":"CalculateMaximumSignedTxSize","ident_utf16":{"start":{"line_number":2086,"utf16_col":8},"end":{"line_number":2086,"utf16_col":36}},"extent_utf16":{"start":{"line_number":2086,"utf16_col":0},"end":{"line_number":2095,"utf16_col":1}}},{"name":"CalculateMaximumSignedInputSize","kind":"function","ident_start":73495,"ident_end":73526,"extent_start":73491,"extent_end":73927,"fully_qualified_name":"CalculateMaximumSignedInputSize","ident_utf16":{"start":{"line_number":2097,"utf16_col":4},"end":{"line_number":2097,"utf16_col":35}},"extent_utf16":{"start":{"line_number":2097,"utf16_col":0},"end":{"line_number":2107,"utf16_col":1}}},{"name":"GetAmounts","kind":"method","ident_start":73945,"ident_end":73955,"extent_start":73929,"extent_end":75738,"fully_qualified_name":"CWalletTx::GetAmounts","ident_utf16":{"start":{"line_number":2109,"utf16_col":16},"end":{"line_number":2109,"utf16_col":26}},"extent_utf16":{"start":{"line_number":2109,"utf16_col":0},"end":{"line_number":2161,"utf16_col":1}}},{"name":"RescanFromTime","kind":"method","ident_start":76104,"ident_end":76118,"extent_start":76087,"extent_end":76930,"fully_qualified_name":"CWallet::RescanFromTime","ident_utf16":{"start":{"line_number":2171,"utf16_col":17},"end":{"line_number":2171,"utf16_col":31}},"extent_utf16":{"start":{"line_number":2171,"utf16_col":0},"end":{"line_number":2190,"utf16_col":1}}},{"name":"ReacceptWalletTransactions","kind":"method","ident_start":81181,"ident_end":81207,"extent_start":81167,"extent_end":82210,"fully_qualified_name":"CWallet::ReacceptWalletTransactions","ident_utf16":{"start":{"line_number":2289,"utf16_col":14},"end":{"line_number":2289,"utf16_col":40}},"extent_utf16":{"start":{"line_number":2289,"utf16_col":0},"end":{"line_number":2317,"utf16_col":1}}},{"name":"RelayWalletTransaction","kind":"method","ident_start":82228,"ident_end":82250,"extent_start":82212,"extent_end":82812,"fully_qualified_name":"CWalletTx::RelayWalletTransaction","ident_utf16":{"start":{"line_number":2319,"utf16_col":16},"end":{"line_number":2319,"utf16_col":38}},"extent_utf16":{"start":{"line_number":2319,"utf16_col":0},"end":{"line_number":2336,"utf16_col":1}}},{"name":"GetConflicts","kind":"method","ident_start":82843,"ident_end":82855,"extent_start":82814,"extent_end":83066,"fully_qualified_name":"CWalletTx::GetConflicts","ident_utf16":{"start":{"line_number":2338,"utf16_col":29},"end":{"line_number":2338,"utf16_col":41}},"extent_utf16":{"start":{"line_number":2338,"utf16_col":0},"end":{"line_number":2347,"utf16_col":1}}},{"name":"GetDebit","kind":"method","ident_start":83087,"ident_end":83095,"extent_start":83068,"extent_end":83978,"fully_qualified_name":"CWalletTx::GetDebit","ident_utf16":{"start":{"line_number":2349,"utf16_col":19},"end":{"line_number":2349,"utf16_col":27}},"extent_utf16":{"start":{"line_number":2349,"utf16_col":0},"end":{"line_number":2376,"utf16_col":1}}},{"name":"GetCredit","kind":"method","ident_start":83999,"ident_end":84008,"extent_start":83980,"extent_end":85094,"fully_qualified_name":"CWalletTx::GetCredit","ident_utf16":{"start":{"line_number":2378,"utf16_col":19},"end":{"line_number":2378,"utf16_col":28}},"extent_utf16":{"start":{"line_number":2378,"utf16_col":0},"end":{"line_number":2407,"utf16_col":1}}},{"name":"GetImmatureCredit","kind":"method","ident_start":85115,"ident_end":85132,"extent_start":85096,"extent_end":85492,"fully_qualified_name":"CWalletTx::GetImmatureCredit","ident_utf16":{"start":{"line_number":2409,"utf16_col":19},"end":{"line_number":2409,"utf16_col":36}},"extent_utf16":{"start":{"line_number":2409,"utf16_col":0},"end":{"line_number":2420,"utf16_col":1}}},{"name":"GetAvailableCredit","kind":"method","ident_start":85513,"ident_end":85531,"extent_start":85494,"extent_end":86738,"fully_qualified_name":"CWalletTx::GetAvailableCredit","ident_utf16":{"start":{"line_number":2422,"utf16_col":19},"end":{"line_number":2422,"utf16_col":37}},"extent_utf16":{"start":{"line_number":2422,"utf16_col":0},"end":{"line_number":2463,"utf16_col":1}}},{"name":"GetImmatureWatchOnlyCredit","kind":"method","ident_start":86759,"ident_end":86785,"extent_start":86740,"extent_end":87177,"fully_qualified_name":"CWalletTx::GetImmatureWatchOnlyCredit","ident_utf16":{"start":{"line_number":2465,"utf16_col":19},"end":{"line_number":2465,"utf16_col":45}},"extent_utf16":{"start":{"line_number":2465,"utf16_col":0},"end":{"line_number":2476,"utf16_col":1}}},{"name":"GetAnonymizedCredit","kind":"method","ident_start":87198,"ident_end":87217,"extent_start":87179,"extent_end":88370,"fully_qualified_name":"CWalletTx::GetAnonymizedCredit","ident_utf16":{"start":{"line_number":2478,"utf16_col":19},"end":{"line_number":2478,"utf16_col":38}},"extent_utf16":{"start":{"line_number":2478,"utf16_col":0},"end":{"line_number":2515,"utf16_col":1}}},{"name":"GetDenominatedCredit","kind":"method","ident_start":88391,"ident_end":88411,"extent_start":88372,"extent_end":89734,"fully_qualified_name":"CWalletTx::GetDenominatedCredit","ident_utf16":{"start":{"line_number":2517,"utf16_col":19},"end":{"line_number":2517,"utf16_col":39}},"extent_utf16":{"start":{"line_number":2517,"utf16_col":0},"end":{"line_number":2559,"utf16_col":1}}},{"name":"GetChange","kind":"method","ident_start":89755,"ident_end":89764,"extent_start":89736,"extent_end":89926,"fully_qualified_name":"CWalletTx::GetChange","ident_utf16":{"start":{"line_number":2561,"utf16_col":19},"end":{"line_number":2561,"utf16_col":28}},"extent_utf16":{"start":{"line_number":2561,"utf16_col":0},"end":{"line_number":2568,"utf16_col":1}}},{"name":"InMempool","kind":"method","ident_start":89944,"ident_end":89953,"extent_start":89928,"extent_end":89988,"fully_qualified_name":"CWalletTx::InMempool","ident_utf16":{"start":{"line_number":2570,"utf16_col":16},"end":{"line_number":2570,"utf16_col":25}},"extent_utf16":{"start":{"line_number":2570,"utf16_col":0},"end":{"line_number":2573,"utf16_col":1}}},{"name":"IsTrusted","kind":"method","ident_start":90006,"ident_end":90015,"extent_start":89990,"extent_end":90991,"fully_qualified_name":"CWalletTx::IsTrusted","ident_utf16":{"start":{"line_number":2575,"utf16_col":16},"end":{"line_number":2575,"utf16_col":25}},"extent_utf16":{"start":{"line_number":2575,"utf16_col":0},"end":{"line_number":2605,"utf16_col":1}}},{"name":"IsEquivalentTo","kind":"method","ident_start":91009,"ident_end":91023,"extent_start":90993,"extent_end":91320,"fully_qualified_name":"CWalletTx::IsEquivalentTo","ident_utf16":{"start":{"line_number":2607,"utf16_col":16},"end":{"line_number":2607,"utf16_col":30}},"extent_utf16":{"start":{"line_number":2607,"utf16_col":0},"end":{"line_number":2616,"utf16_col":1}}},{"name":"ResendWalletTransactionsBefore","kind":"method","ident_start":91352,"ident_end":91382,"extent_start":91322,"extent_end":92102,"fully_qualified_name":"CWallet::ResendWalletTransactionsBefore","ident_utf16":{"start":{"line_number":2618,"utf16_col":30},"end":{"line_number":2618,"utf16_col":60}},"extent_utf16":{"start":{"line_number":2618,"utf16_col":0},"end":{"line_number":2639,"utf16_col":1}}},{"name":"ResendWalletTransactions","kind":"method","ident_start":92118,"ident_end":92142,"extent_start":92104,"extent_end":92950,"fully_qualified_name":"CWallet::ResendWalletTransactions","ident_utf16":{"start":{"line_number":2641,"utf16_col":14},"end":{"line_number":2641,"utf16_col":38}},"extent_utf16":{"start":{"line_number":2641,"utf16_col":0},"end":{"line_number":2662,"utf16_col":1}}},{"name":"GetSpendableTXs","kind":"method","ident_start":93082,"ident_end":93097,"extent_start":93020,"extent_end":93733,"fully_qualified_name":"CWallet::GetSpendableTXs","ident_utf16":{"start":{"line_number":2672,"utf16_col":62},"end":{"line_number":2672,"utf16_col":77}},"extent_utf16":{"start":{"line_number":2672,"utf16_col":0},"end":{"line_number":2691,"utf16_col":1}}},{"name":"GetBalance","kind":"method","ident_start":93752,"ident_end":93762,"extent_start":93735,"extent_end":94210,"fully_qualified_name":"CWallet::GetBalance","ident_utf16":{"start":{"line_number":2693,"utf16_col":17},"end":{"line_number":2693,"utf16_col":27}},"extent_utf16":{"start":{"line_number":2693,"utf16_col":0},"end":{"line_number":2706,"utf16_col":1}}},{"name":"GetAnonymizableBalance","kind":"method","ident_start":94229,"ident_end":94251,"extent_start":94212,"extent_end":95087,"fully_qualified_name":"CWallet::GetAnonymizableBalance","ident_utf16":{"start":{"line_number":2708,"utf16_col":17},"end":{"line_number":2708,"utf16_col":39}},"extent_utf16":{"start":{"line_number":2708,"utf16_col":0},"end":{"line_number":2728,"utf16_col":1}}},{"name":"GetAnonymizedBalance","kind":"method","ident_start":95106,"ident_end":95126,"extent_start":95089,"extent_end":95411,"fully_qualified_name":"CWallet::GetAnonymizedBalance","ident_utf16":{"start":{"line_number":2730,"utf16_col":17},"end":{"line_number":2730,"utf16_col":37}},"extent_utf16":{"start":{"line_number":2730,"utf16_col":0},"end":{"line_number":2743,"utf16_col":1}}},{"name":"GetAverageAnonymizedRounds","kind":"method","ident_start":95537,"ident_end":95563,"extent_start":95522,"extent_end":95955,"fully_qualified_name":"CWallet::GetAverageAnonymizedRounds","ident_utf16":{"start":{"line_number":2747,"utf16_col":15},"end":{"line_number":2747,"utf16_col":41}},"extent_utf16":{"start":{"line_number":2747,"utf16_col":0},"end":{"line_number":2765,"utf16_col":1}}},{"name":"GetNormalizedAnonymizedBalance","kind":"method","ident_start":96083,"ident_end":96113,"extent_start":96066,"extent_end":96742,"fully_qualified_name":"CWallet::GetNormalizedAnonymizedBalance","ident_utf16":{"start":{"line_number":2769,"utf16_col":17},"end":{"line_number":2769,"utf16_col":47}},"extent_utf16":{"start":{"line_number":2769,"utf16_col":0},"end":{"line_number":2789,"utf16_col":1}}},{"name":"GetDenominatedBalance","kind":"method","ident_start":96761,"ident_end":96782,"extent_start":96744,"extent_end":97053,"fully_qualified_name":"CWallet::GetDenominatedBalance","ident_utf16":{"start":{"line_number":2791,"utf16_col":17},"end":{"line_number":2791,"utf16_col":38}},"extent_utf16":{"start":{"line_number":2791,"utf16_col":0},"end":{"line_number":2804,"utf16_col":1}}},{"name":"GetUnconfirmedBalance","kind":"method","ident_start":97072,"ident_end":97093,"extent_start":97055,"extent_end":97438,"fully_qualified_name":"CWallet::GetUnconfirmedBalance","ident_utf16":{"start":{"line_number":2806,"utf16_col":17},"end":{"line_number":2806,"utf16_col":38}},"extent_utf16":{"start":{"line_number":2806,"utf16_col":0},"end":{"line_number":2817,"utf16_col":1}}},{"name":"GetImmatureBalance","kind":"method","ident_start":97457,"ident_end":97475,"extent_start":97440,"extent_end":97684,"fully_qualified_name":"CWallet::GetImmatureBalance","ident_utf16":{"start":{"line_number":2819,"utf16_col":17},"end":{"line_number":2819,"utf16_col":35}},"extent_utf16":{"start":{"line_number":2819,"utf16_col":0},"end":{"line_number":2829,"utf16_col":1}}},{"name":"GetUnconfirmedWatchOnlyBalance","kind":"method","ident_start":97703,"ident_end":97733,"extent_start":97686,"extent_end":98101,"fully_qualified_name":"CWallet::GetUnconfirmedWatchOnlyBalance","ident_utf16":{"start":{"line_number":2831,"utf16_col":17},"end":{"line_number":2831,"utf16_col":47}},"extent_utf16":{"start":{"line_number":2831,"utf16_col":0},"end":{"line_number":2842,"utf16_col":1}}},{"name":"GetImmatureWatchOnlyBalance","kind":"method","ident_start":98120,"ident_end":98147,"extent_start":98103,"extent_end":98365,"fully_qualified_name":"CWallet::GetImmatureWatchOnlyBalance","ident_utf16":{"start":{"line_number":2844,"utf16_col":17},"end":{"line_number":2844,"utf16_col":44}},"extent_utf16":{"start":{"line_number":2844,"utf16_col":0},"end":{"line_number":2854,"utf16_col":1}}},{"name":"GetLegacyBalance","kind":"method","ident_start":98780,"ident_end":98796,"extent_start":98763,"extent_end":100120,"fully_qualified_name":"CWallet::GetLegacyBalance","ident_utf16":{"start":{"line_number":2862,"utf16_col":17},"end":{"line_number":2862,"utf16_col":33}},"extent_utf16":{"start":{"line_number":2862,"utf16_col":0},"end":{"line_number":2897,"utf16_col":1}}},{"name":"GetAvailableBalance","kind":"method","ident_start":100139,"ident_end":100158,"extent_start":100122,"extent_end":100524,"fully_qualified_name":"CWallet::GetAvailableBalance","ident_utf16":{"start":{"line_number":2899,"utf16_col":17},"end":{"line_number":2899,"utf16_col":36}},"extent_utf16":{"start":{"line_number":2899,"utf16_col":0},"end":{"line_number":2912,"utf16_col":1}}},{"name":"AvailableCoins","kind":"method","ident_start":100540,"ident_end":100554,"extent_start":100526,"extent_end":104666,"fully_qualified_name":"CWallet::AvailableCoins","ident_utf16":{"start":{"line_number":2914,"utf16_col":14},"end":{"line_number":2914,"utf16_col":28}},"extent_utf16":{"start":{"line_number":2914,"utf16_col":0},"end":{"line_number":3008,"utf16_col":1}}},{"name":"ListCoins","kind":"method","ident_start":104724,"ident_end":104733,"extent_start":104668,"extent_end":106682,"fully_qualified_name":"CWallet::ListCoins","ident_utf16":{"start":{"line_number":3010,"utf16_col":56},"end":{"line_number":3010,"utf16_col":65}},"extent_utf16":{"start":{"line_number":3010,"utf16_col":0},"end":{"line_number":3055,"utf16_col":1}}},{"name":"InitCoinJoinSalt","kind":"method","ident_start":107266,"ident_end":107282,"extent_start":107252,"extent_end":107720,"fully_qualified_name":"CWallet::InitCoinJoinSalt","ident_utf16":{"start":{"line_number":3074,"utf16_col":14},"end":{"line_number":3074,"utf16_col":30}},"extent_utf16":{"start":{"line_number":3074,"utf16_col":0},"end":{"line_number":3089,"utf16_col":1}}},{"name":"CompareByPriority","kind":"class","ident_start":107729,"ident_end":107746,"extent_start":107722,"extent_end":107880,"fully_qualified_name":"CompareByPriority","ident_utf16":{"start":{"line_number":3091,"utf16_col":7},"end":{"line_number":3091,"utf16_col":24}},"extent_utf16":{"start":{"line_number":3091,"utf16_col":0},"end":{"line_number":3097,"utf16_col":1}}},{"name":"OutputEligibleForSpending","kind":"method","ident_start":107897,"ident_end":107922,"extent_start":107883,"extent_end":108600,"fully_qualified_name":"CWallet::OutputEligibleForSpending","ident_utf16":{"start":{"line_number":3099,"utf16_col":14},"end":{"line_number":3099,"utf16_col":39}},"extent_utf16":{"start":{"line_number":3099,"utf16_col":0},"end":{"line_number":3116,"utf16_col":1}}},{"name":"SelectCoinsMinConf","kind":"method","ident_start":108616,"ident_end":108634,"extent_start":108602,"extent_end":111168,"fully_qualified_name":"CWallet::SelectCoinsMinConf","ident_utf16":{"start":{"line_number":3118,"utf16_col":14},"end":{"line_number":3118,"utf16_col":32}},"extent_utf16":{"start":{"line_number":3118,"utf16_col":0},"end":{"line_number":3164,"utf16_col":1}}},{"name":"SelectCoins","kind":"method","ident_start":111184,"ident_end":111195,"extent_start":111170,"extent_end":116417,"fully_qualified_name":"CWallet::SelectCoins","ident_utf16":{"start":{"line_number":3166,"utf16_col":14},"end":{"line_number":3166,"utf16_col":25}},"extent_utf16":{"start":{"line_number":3166,"utf16_col":0},"end":{"line_number":3252,"utf16_col":1}}},{"name":"FundTransaction","kind":"method","ident_start":116433,"ident_end":116448,"extent_start":116419,"extent_end":118553,"fully_qualified_name":"CWallet::FundTransaction","ident_utf16":{"start":{"line_number":3254,"utf16_col":14},"end":{"line_number":3254,"utf16_col":29}},"extent_utf16":{"start":{"line_number":3254,"utf16_col":0},"end":{"line_number":3311,"utf16_col":1}}},{"name":"SelectTxDSInsByDenomination","kind":"method","ident_start":118569,"ident_end":118596,"extent_start":118555,"extent_end":120235,"fully_qualified_name":"CWallet::SelectTxDSInsByDenomination","ident_utf16":{"start":{"line_number":3313,"utf16_col":14},"end":{"line_number":3313,"utf16_col":41}},"extent_utf16":{"start":{"line_number":3313,"utf16_col":0},"end":{"line_number":3357,"utf16_col":1}}},{"name":"SelectCoinsGroupedByAddresses","kind":"method","ident_start":120251,"ident_end":120280,"extent_start":120237,"extent_end":124998,"fully_qualified_name":"CWallet::SelectCoinsGroupedByAddresses","ident_utf16":{"start":{"line_number":3359,"utf16_col":14},"end":{"line_number":3359,"utf16_col":43}},"extent_utf16":{"start":{"line_number":3359,"utf16_col":0},"end":{"line_number":3461,"utf16_col":1}}},{"name":"SelectDenominatedAmounts","kind":"method","ident_start":125014,"ident_end":125038,"extent_start":125000,"extent_end":125758,"fully_qualified_name":"CWallet::SelectDenominatedAmounts","ident_utf16":{"start":{"line_number":3463,"utf16_col":14},"end":{"line_number":3463,"utf16_col":38}},"extent_utf16":{"start":{"line_number":3463,"utf16_col":0},"end":{"line_number":3486,"utf16_col":1}}},{"name":"CountInputsWithAmount","kind":"method","ident_start":125773,"ident_end":125794,"extent_start":125760,"extent_end":126215,"fully_qualified_name":"CWallet::CountInputsWithAmount","ident_utf16":{"start":{"line_number":3488,"utf16_col":13},"end":{"line_number":3488,"utf16_col":34}},"extent_utf16":{"start":{"line_number":3488,"utf16_col":0},"end":{"line_number":3504,"utf16_col":1}}},{"name":"HasCollateralInputs","kind":"method","ident_start":126231,"ident_end":126250,"extent_start":126217,"extent_end":126530,"fully_qualified_name":"CWallet::HasCollateralInputs","ident_utf16":{"start":{"line_number":3506,"utf16_col":14},"end":{"line_number":3506,"utf16_col":33}},"extent_utf16":{"start":{"line_number":3506,"utf16_col":0},"end":{"line_number":3516,"utf16_col":1}}},{"name":"GetBudgetSystemCollateralTX","kind":"method","ident_start":126546,"ident_end":126573,"extent_start":126532,"extent_end":127350,"fully_qualified_name":"CWallet::GetBudgetSystemCollateralTX","ident_utf16":{"start":{"line_number":3518,"utf16_col":14},"end":{"line_number":3518,"utf16_col":41}},"extent_utf16":{"start":{"line_number":3518,"utf16_col":0},"end":{"line_number":3543,"utf16_col":1}}},{"name":"CreateTransaction","kind":"method","ident_start":127366,"ident_end":127383,"extent_start":127352,"extent_end":148725,"fully_qualified_name":"CWallet::CreateTransaction","ident_utf16":{"start":{"line_number":3545,"utf16_col":14},"end":{"line_number":3545,"utf16_col":31}},"extent_utf16":{"start":{"line_number":3545,"utf16_col":0},"end":{"line_number":3974,"utf16_col":1}}},{"name":"CommitTransaction","kind":"method","ident_start":148806,"ident_end":148823,"extent_start":148792,"extent_end":150933,"fully_qualified_name":"CWallet::CommitTransaction","ident_utf16":{"start":{"line_number":3979,"utf16_col":14},"end":{"line_number":3979,"utf16_col":31}},"extent_utf16":{"start":{"line_number":3979,"utf16_col":0},"end":{"line_number":4029,"utf16_col":1}}},{"name":"ListAccountCreditDebit","kind":"method","ident_start":150949,"ident_end":150971,"extent_start":150935,"extent_end":151140,"fully_qualified_name":"CWallet::ListAccountCreditDebit","ident_utf16":{"start":{"line_number":4031,"utf16_col":14},"end":{"line_number":4031,"utf16_col":36}},"extent_utf16":{"start":{"line_number":4031,"utf16_col":0},"end":{"line_number":4035,"utf16_col":1}}},{"name":"AddAccountingEntry","kind":"method","ident_start":151156,"ident_end":151174,"extent_start":151142,"extent_end":151294,"fully_qualified_name":"CWallet::AddAccountingEntry","ident_utf16":{"start":{"line_number":4037,"utf16_col":14},"end":{"line_number":4037,"utf16_col":32}},"extent_utf16":{"start":{"line_number":4037,"utf16_col":0},"end":{"line_number":4042,"utf16_col":1}}},{"name":"AddAccountingEntry","kind":"method","ident_start":151310,"ident_end":151328,"extent_start":151296,"extent_end":151674,"fully_qualified_name":"CWallet::AddAccountingEntry","ident_utf16":{"start":{"line_number":4044,"utf16_col":14},"end":{"line_number":4044,"utf16_col":32}},"extent_utf16":{"start":{"line_number":4044,"utf16_col":0},"end":{"line_number":4055,"utf16_col":1}}},{"name":"LoadWallet","kind":"method","ident_start":151694,"ident_end":151704,"extent_start":151676,"extent_end":153085,"fully_qualified_name":"CWallet::LoadWallet","ident_utf16":{"start":{"line_number":4057,"utf16_col":18},"end":{"line_number":4057,"utf16_col":28}},"extent_utf16":{"start":{"line_number":4057,"utf16_col":0},"end":{"line_number":4098,"utf16_col":1}}},{"name":"AutoLockSmartnodeCollaterals","kind":"method","ident_start":153337,"ident_end":153365,"extent_start":153323,"extent_end":153904,"fully_qualified_name":"CWallet::AutoLockSmartnodeCollaterals","ident_utf16":{"start":{"line_number":4102,"utf16_col":14},"end":{"line_number":4102,"utf16_col":42}},"extent_utf16":{"start":{"line_number":4102,"utf16_col":0},"end":{"line_number":4116,"utf16_col":1}}},{"name":"ZapSelectTx","kind":"method","ident_start":153924,"ident_end":153935,"extent_start":153906,"extent_end":154862,"fully_qualified_name":"CWallet::ZapSelectTx","ident_utf16":{"start":{"line_number":4118,"utf16_col":18},"end":{"line_number":4118,"utf16_col":29}},"extent_utf16":{"start":{"line_number":4118,"utf16_col":0},"end":{"line_number":4145,"utf16_col":1}}},{"name":"ZapWalletTx","kind":"method","ident_start":154882,"ident_end":154893,"extent_start":154864,"extent_end":155610,"fully_qualified_name":"CWallet::ZapWalletTx","ident_utf16":{"start":{"line_number":4147,"utf16_col":18},"end":{"line_number":4147,"utf16_col":29}},"extent_utf16":{"start":{"line_number":4147,"utf16_col":0},"end":{"line_number":4167,"utf16_col":1}}},{"name":"SetAddressBook","kind":"method","ident_start":155627,"ident_end":155641,"extent_start":155613,"extent_end":156498,"fully_qualified_name":"CWallet::SetAddressBook","ident_utf16":{"start":{"line_number":4170,"utf16_col":14},"end":{"line_number":4170,"utf16_col":28}},"extent_utf16":{"start":{"line_number":4170,"utf16_col":0},"end":{"line_number":4186,"utf16_col":1}}},{"name":"DelAddressBook","kind":"method","ident_start":156514,"ident_end":156528,"extent_start":156500,"extent_end":157214,"fully_qualified_name":"CWallet::DelAddressBook","ident_utf16":{"start":{"line_number":4188,"utf16_col":14},"end":{"line_number":4188,"utf16_col":28}},"extent_utf16":{"start":{"line_number":4188,"utf16_col":0},"end":{"line_number":4205,"utf16_col":1}}},{"name":"NewKeyPool","kind":"method","ident_start":157837,"ident_end":157847,"extent_start":157823,"extent_end":158468,"fully_qualified_name":"CWallet::NewKeyPool","ident_utf16":{"start":{"line_number":4226,"utf16_col":14},"end":{"line_number":4226,"utf16_col":24}},"extent_utf16":{"start":{"line_number":4226,"utf16_col":0},"end":{"line_number":4250,"utf16_col":1}}},{"name":"KeypoolCountExternalKeys","kind":"method","ident_start":158486,"ident_end":158510,"extent_start":158470,"extent_end":158607,"fully_qualified_name":"CWallet::KeypoolCountExternalKeys","ident_utf16":{"start":{"line_number":4252,"utf16_col":16},"end":{"line_number":4252,"utf16_col":40}},"extent_utf16":{"start":{"line_number":4252,"utf16_col":0},"end":{"line_number":4256,"utf16_col":1}}},{"name":"LoadKeyPool","kind":"method","ident_start":158623,"ident_end":158634,"extent_start":158609,"extent_end":159317,"fully_qualified_name":"CWallet::LoadKeyPool","ident_utf16":{"start":{"line_number":4258,"utf16_col":14},"end":{"line_number":4258,"utf16_col":25}},"extent_utf16":{"start":{"line_number":4258,"utf16_col":0},"end":{"line_number":4275,"utf16_col":1}}},{"name":"KeypoolCountInternalKeys","kind":"method","ident_start":159335,"ident_end":159359,"extent_start":159319,"extent_end":159456,"fully_qualified_name":"CWallet::KeypoolCountInternalKeys","ident_utf16":{"start":{"line_number":4277,"utf16_col":16},"end":{"line_number":4277,"utf16_col":40}},"extent_utf16":{"start":{"line_number":4277,"utf16_col":0},"end":{"line_number":4281,"utf16_col":1}}},{"name":"TopUpKeyPool","kind":"method","ident_start":159472,"ident_end":159484,"extent_start":159458,"extent_end":162020,"fully_qualified_name":"CWallet::TopUpKeyPool","ident_utf16":{"start":{"line_number":4283,"utf16_col":14},"end":{"line_number":4283,"utf16_col":26}},"extent_utf16":{"start":{"line_number":4283,"utf16_col":0},"end":{"line_number":4346,"utf16_col":1}}},{"name":"ReserveKeyFromKeyPool","kind":"method","ident_start":162036,"ident_end":162057,"extent_start":162022,"extent_end":163196,"fully_qualified_name":"CWallet::ReserveKeyFromKeyPool","ident_utf16":{"start":{"line_number":4348,"utf16_col":14},"end":{"line_number":4348,"utf16_col":35}},"extent_utf16":{"start":{"line_number":4348,"utf16_col":0},"end":{"line_number":4383,"utf16_col":1}}},{"name":"KeepKey","kind":"method","ident_start":163212,"ident_end":163219,"extent_start":163198,"extent_end":163534,"fully_qualified_name":"CWallet::KeepKey","ident_utf16":{"start":{"line_number":4385,"utf16_col":14},"end":{"line_number":4385,"utf16_col":21}},"extent_utf16":{"start":{"line_number":4385,"utf16_col":0},"end":{"line_number":4397,"utf16_col":1}}},{"name":"ReturnKey","kind":"method","ident_start":163550,"ident_end":163559,"extent_start":163536,"extent_end":163927,"fully_qualified_name":"CWallet::ReturnKey","ident_utf16":{"start":{"line_number":4399,"utf16_col":14},"end":{"line_number":4399,"utf16_col":23}},"extent_utf16":{"start":{"line_number":4399,"utf16_col":0},"end":{"line_number":4412,"utf16_col":1}}},{"name":"GetKeyFromPool","kind":"method","ident_start":163943,"ident_end":163957,"extent_start":163929,"extent_end":164481,"fully_qualified_name":"CWallet::GetKeyFromPool","ident_utf16":{"start":{"line_number":4414,"utf16_col":14},"end":{"line_number":4414,"utf16_col":28}},"extent_utf16":{"start":{"line_number":4414,"utf16_col":0},"end":{"line_number":4433,"utf16_col":1}}},{"name":"GetOldestKeyInPool","kind":"function","ident_start":164498,"ident_end":164516,"extent_start":164483,"extent_end":164857,"fully_qualified_name":"GetOldestKeyInPool","ident_utf16":{"start":{"line_number":4435,"utf16_col":15},"end":{"line_number":4435,"utf16_col":33}},"extent_utf16":{"start":{"line_number":4435,"utf16_col":0},"end":{"line_number":4444,"utf16_col":1}}},{"name":"GetOldestKeyPoolTime","kind":"method","ident_start":164876,"ident_end":164896,"extent_start":164859,"extent_end":165470,"fully_qualified_name":"CWallet::GetOldestKeyPoolTime","ident_utf16":{"start":{"line_number":4446,"utf16_col":17},"end":{"line_number":4446,"utf16_col":37}},"extent_utf16":{"start":{"line_number":4446,"utf16_col":0},"end":{"line_number":4465,"utf16_col":1}}},{"name":"GetAddressBalances","kind":"method","ident_start":165515,"ident_end":165533,"extent_start":165472,"extent_end":166640,"fully_qualified_name":"CWallet::GetAddressBalances","ident_utf16":{"start":{"line_number":4467,"utf16_col":43},"end":{"line_number":4467,"utf16_col":61}},"extent_utf16":{"start":{"line_number":4467,"utf16_col":0},"end":{"line_number":4503,"utf16_col":1}}},{"name":"GetAddressGroupings","kind":"method","ident_start":166686,"ident_end":166705,"extent_start":166642,"extent_end":169823,"fully_qualified_name":"CWallet::GetAddressGroupings","ident_utf16":{"start":{"line_number":4505,"utf16_col":44},"end":{"line_number":4505,"utf16_col":63}},"extent_utf16":{"start":{"line_number":4505,"utf16_col":0},"end":{"line_number":4586,"utf16_col":1}}},{"name":"GetLabelAddresses","kind":"method","ident_start":169859,"ident_end":169876,"extent_start":169825,"extent_end":170259,"fully_qualified_name":"CWallet::GetLabelAddresses","ident_utf16":{"start":{"line_number":4588,"utf16_col":34},"end":{"line_number":4588,"utf16_col":51}},"extent_utf16":{"start":{"line_number":4588,"utf16_col":0},"end":{"line_number":4599,"utf16_col":1}}},{"name":"DeleteLabel","kind":"method","ident_start":170275,"ident_end":170286,"extent_start":170261,"extent_end":170381,"fully_qualified_name":"CWallet::DeleteLabel","ident_utf16":{"start":{"line_number":4601,"utf16_col":14},"end":{"line_number":4601,"utf16_col":25}},"extent_utf16":{"start":{"line_number":4601,"utf16_col":0},"end":{"line_number":4605,"utf16_col":1}}},{"name":"GetReservedKey","kind":"method","ident_start":170401,"ident_end":170415,"extent_start":170383,"extent_end":170817,"fully_qualified_name":"CReserveKey::GetReservedKey","ident_utf16":{"start":{"line_number":4607,"utf16_col":18},"end":{"line_number":4607,"utf16_col":32}},"extent_utf16":{"start":{"line_number":4607,"utf16_col":0},"end":{"line_number":4622,"utf16_col":1}}},{"name":"KeepKey","kind":"method","ident_start":170837,"ident_end":170844,"extent_start":170819,"extent_end":170958,"fully_qualified_name":"CReserveKey::KeepKey","ident_utf16":{"start":{"line_number":4624,"utf16_col":18},"end":{"line_number":4624,"utf16_col":25}},"extent_utf16":{"start":{"line_number":4624,"utf16_col":0},"end":{"line_number":4631,"utf16_col":1}}},{"name":"ReturnKey","kind":"method","ident_start":170978,"ident_end":170987,"extent_start":170960,"extent_end":171125,"fully_qualified_name":"CReserveKey::ReturnKey","ident_utf16":{"start":{"line_number":4633,"utf16_col":18},"end":{"line_number":4633,"utf16_col":27}},"extent_utf16":{"start":{"line_number":4633,"utf16_col":0},"end":{"line_number":4640,"utf16_col":1}}},{"name":"MarkReserveKeysAsUsed","kind":"method","ident_start":171141,"ident_end":171162,"extent_start":171127,"extent_end":171960,"fully_qualified_name":"CWallet::MarkReserveKeysAsUsed","ident_utf16":{"start":{"line_number":4642,"utf16_col":14},"end":{"line_number":4642,"utf16_col":35}},"extent_utf16":{"start":{"line_number":4642,"utf16_col":0},"end":{"line_number":4663,"utf16_col":1}}},{"name":"GetScriptForMining","kind":"method","ident_start":171976,"ident_end":171994,"extent_start":171962,"extent_end":172296,"fully_qualified_name":"CWallet::GetScriptForMining","ident_utf16":{"start":{"line_number":4665,"utf16_col":14},"end":{"line_number":4665,"utf16_col":32}},"extent_utf16":{"start":{"line_number":4665,"utf16_col":0},"end":{"line_number":4674,"utf16_col":1}}},{"name":"LockCoin","kind":"method","ident_start":172312,"ident_end":172320,"extent_start":172298,"extent_end":172689,"fully_qualified_name":"CWallet::LockCoin","ident_utf16":{"start":{"line_number":4676,"utf16_col":14},"end":{"line_number":4676,"utf16_col":22}},"extent_utf16":{"start":{"line_number":4676,"utf16_col":0},"end":{"line_number":4685,"utf16_col":1}}},{"name":"UnlockCoin","kind":"method","ident_start":172705,"ident_end":172715,"extent_start":172691,"extent_end":173083,"fully_qualified_name":"CWallet::UnlockCoin","ident_utf16":{"start":{"line_number":4687,"utf16_col":14},"end":{"line_number":4687,"utf16_col":24}},"extent_utf16":{"start":{"line_number":4687,"utf16_col":0},"end":{"line_number":4696,"utf16_col":1}}},{"name":"UnlockAllCoins","kind":"method","ident_start":173099,"ident_end":173113,"extent_start":173085,"extent_end":173196,"fully_qualified_name":"CWallet::UnlockAllCoins","ident_utf16":{"start":{"line_number":4698,"utf16_col":14},"end":{"line_number":4698,"utf16_col":28}},"extent_utf16":{"start":{"line_number":4698,"utf16_col":0},"end":{"line_number":4702,"utf16_col":1}}},{"name":"IsLockedCoin","kind":"method","ident_start":173212,"ident_end":173224,"extent_start":173198,"extent_end":173390,"fully_qualified_name":"CWallet::IsLockedCoin","ident_utf16":{"start":{"line_number":4704,"utf16_col":14},"end":{"line_number":4704,"utf16_col":26}},"extent_utf16":{"start":{"line_number":4704,"utf16_col":0},"end":{"line_number":4710,"utf16_col":1}}},{"name":"ListLockedCoins","kind":"method","ident_start":173406,"ident_end":173421,"extent_start":173392,"extent_end":173699,"fully_qualified_name":"CWallet::ListLockedCoins","ident_utf16":{"start":{"line_number":4712,"utf16_col":14},"end":{"line_number":4712,"utf16_col":29}},"extent_utf16":{"start":{"line_number":4712,"utf16_col":0},"end":{"line_number":4720,"utf16_col":1}}},{"name":"GetProTxCoins","kind":"method","ident_start":173715,"ident_end":173728,"extent_start":173701,"extent_end":174177,"fully_qualified_name":"CWallet::GetProTxCoins","ident_utf16":{"start":{"line_number":4722,"utf16_col":14},"end":{"line_number":4722,"utf16_col":27}},"extent_utf16":{"start":{"line_number":4722,"utf16_col":0},"end":{"line_number":4734,"utf16_col":1}}},{"name":"ListProTxCoins","kind":"method","ident_start":174193,"ident_end":174207,"extent_start":174179,"extent_end":174352,"fully_qualified_name":"CWallet::ListProTxCoins","ident_utf16":{"start":{"line_number":4736,"utf16_col":14},"end":{"line_number":4736,"utf16_col":28}},"extent_utf16":{"start":{"line_number":4736,"utf16_col":0},"end":{"line_number":4739,"utf16_col":1}}},{"name":"ListProTxCoins","kind":"method","ident_start":174368,"ident_end":174382,"extent_start":174354,"extent_end":174498,"fully_qualified_name":"CWallet::ListProTxCoins","ident_utf16":{"start":{"line_number":4741,"utf16_col":14},"end":{"line_number":4741,"utf16_col":28}},"extent_utf16":{"start":{"line_number":4741,"utf16_col":0},"end":{"line_number":4744,"utf16_col":1}}},{"name":"GetKeyBirthTimes","kind":"method","ident_start":174543,"ident_end":174559,"extent_start":174529,"extent_end":176672,"fully_qualified_name":"CWallet::GetKeyBirthTimes","ident_utf16":{"start":{"line_number":4748,"utf16_col":14},"end":{"line_number":4748,"utf16_col":30}},"extent_utf16":{"start":{"line_number":4748,"utf16_col":0},"end":{"line_number":4798,"utf16_col":1}}},{"name":"ComputeTimeSmart","kind":"method","ident_start":177818,"ident_end":177834,"extent_start":177796,"extent_end":179814,"fully_qualified_name":"CWallet::ComputeTimeSmart","ident_utf16":{"start":{"line_number":4823,"utf16_col":22},"end":{"line_number":4823,"utf16_col":38}},"extent_utf16":{"start":{"line_number":4823,"utf16_col":0},"end":{"line_number":4868,"utf16_col":1}}},{"name":"AddDestData","kind":"method","ident_start":179830,"ident_end":179841,"extent_start":179816,"extent_end":180145,"fully_qualified_name":"CWallet::AddDestData","ident_utf16":{"start":{"line_number":4870,"utf16_col":14},"end":{"line_number":4870,"utf16_col":25}},"extent_utf16":{"start":{"line_number":4870,"utf16_col":0},"end":{"line_number":4877,"utf16_col":1}}},{"name":"EraseDestData","kind":"method","ident_start":180161,"ident_end":180174,"extent_start":180147,"extent_end":180382,"fully_qualified_name":"CWallet::EraseDestData","ident_utf16":{"start":{"line_number":4879,"utf16_col":14},"end":{"line_number":4879,"utf16_col":27}},"extent_utf16":{"start":{"line_number":4879,"utf16_col":0},"end":{"line_number":4884,"utf16_col":1}}},{"name":"LoadDestData","kind":"method","ident_start":180398,"ident_end":180410,"extent_start":180384,"extent_end":180579,"fully_qualified_name":"CWallet::LoadDestData","ident_utf16":{"start":{"line_number":4886,"utf16_col":14},"end":{"line_number":4886,"utf16_col":26}},"extent_utf16":{"start":{"line_number":4886,"utf16_col":0},"end":{"line_number":4890,"utf16_col":1}}},{"name":"GetDestData","kind":"method","ident_start":180595,"ident_end":180606,"extent_start":180581,"extent_end":181068,"fully_qualified_name":"CWallet::GetDestData","ident_utf16":{"start":{"line_number":4892,"utf16_col":14},"end":{"line_number":4892,"utf16_col":25}},"extent_utf16":{"start":{"line_number":4892,"utf16_col":0},"end":{"line_number":4904,"utf16_col":1}}},{"name":"GetDestValues","kind":"method","ident_start":181104,"ident_end":181117,"extent_start":181070,"extent_end":181484,"fully_qualified_name":"CWallet::GetDestValues","ident_utf16":{"start":{"line_number":4906,"utf16_col":34},"end":{"line_number":4906,"utf16_col":47}},"extent_utf16":{"start":{"line_number":4906,"utf16_col":0},"end":{"line_number":4918,"utf16_col":1}}},{"name":"Verify","kind":"method","ident_start":181500,"ident_end":181506,"extent_start":181486,"extent_end":183989,"fully_qualified_name":"CWallet::Verify","ident_utf16":{"start":{"line_number":4920,"utf16_col":14},"end":{"line_number":4920,"utf16_col":20}},"extent_utf16":{"start":{"line_number":4920,"utf16_col":0},"end":{"line_number":4972,"utf16_col":1}}},{"name":"CreateWalletFromFile","kind":"method","ident_start":184025,"ident_end":184045,"extent_start":183991,"extent_end":194973,"fully_qualified_name":"CWallet::CreateWalletFromFile","ident_utf16":{"start":{"line_number":4974,"utf16_col":34},"end":{"line_number":4974,"utf16_col":54}},"extent_utf16":{"start":{"line_number":4974,"utf16_col":0},"end":{"line_number":5208,"utf16_col":1}}},{"name":"postInitProcess","kind":"method","ident_start":194989,"ident_end":195004,"extent_start":194975,"extent_end":195184,"fully_qualified_name":"CWallet::postInitProcess","ident_utf16":{"start":{"line_number":5210,"utf16_col":14},"end":{"line_number":5210,"utf16_col":29}},"extent_utf16":{"start":{"line_number":5210,"utf16_col":0},"end":{"line_number":5215,"utf16_col":1}}},{"name":"InitAutoBackup","kind":"method","ident_start":195200,"ident_end":195214,"extent_start":195186,"extent_end":195455,"fully_qualified_name":"CWallet::InitAutoBackup","ident_utf16":{"start":{"line_number":5217,"utf16_col":14},"end":{"line_number":5217,"utf16_col":28}},"extent_utf16":{"start":{"line_number":5217,"utf16_col":0},"end":{"line_number":5226,"utf16_col":1}}},{"name":"BackupWallet","kind":"method","ident_start":195471,"ident_end":195483,"extent_start":195457,"extent_end":195553,"fully_qualified_name":"CWallet::BackupWallet","ident_utf16":{"start":{"line_number":5228,"utf16_col":14},"end":{"line_number":5228,"utf16_col":26}},"extent_utf16":{"start":{"line_number":5228,"utf16_col":0},"end":{"line_number":5231,"utf16_col":1}}},{"name":"AutoBackupWallet","kind":"method","ident_start":195730,"ident_end":195746,"extent_start":195716,"extent_end":201064,"fully_qualified_name":"CWallet::AutoBackupWallet","ident_utf16":{"start":{"line_number":5235,"utf16_col":14},"end":{"line_number":5235,"utf16_col":30}},"extent_utf16":{"start":{"line_number":5235,"utf16_col":0},"end":{"line_number":5354,"utf16_col":1}}},{"name":"folder_set_t","kind":"type","ident_start":199568,"ident_end":199580,"extent_start":199523,"extent_end":199581,"fully_qualified_name":"folder_set_t","ident_utf16":{"start":{"line_number":5319,"utf16_col":49},"end":{"line_number":5319,"utf16_col":61}},"extent_utf16":{"start":{"line_number":5319,"utf16_col":4},"end":{"line_number":5319,"utf16_col":62}}},{"name":"NotifyTransactionLock","kind":"method","ident_start":201080,"ident_end":201101,"extent_start":201066,"extent_end":201820,"fully_qualified_name":"CWallet::NotifyTransactionLock","ident_utf16":{"start":{"line_number":5356,"utf16_col":14},"end":{"line_number":5356,"utf16_col":35}},"extent_utf16":{"start":{"line_number":5356,"utf16_col":0},"end":{"line_number":5373,"utf16_col":1}}},{"name":"NotifyChainLock","kind":"method","ident_start":201836,"ident_end":201851,"extent_start":201822,"extent_end":202003,"fully_qualified_name":"CWallet::NotifyChainLock","ident_utf16":{"start":{"line_number":5375,"utf16_col":14},"end":{"line_number":5375,"utf16_col":29}},"extent_utf16":{"start":{"line_number":5375,"utf16_col":0},"end":{"line_number":5378,"utf16_col":1}}},{"name":"LoadGovernanceObject","kind":"method","ident_start":202019,"ident_end":202039,"extent_start":202005,"extent_end":202162,"fully_qualified_name":"CWallet::LoadGovernanceObject","ident_utf16":{"start":{"line_number":5380,"utf16_col":14},"end":{"line_number":5380,"utf16_col":34}},"extent_utf16":{"start":{"line_number":5380,"utf16_col":0},"end":{"line_number":5384,"utf16_col":1}}},{"name":"WriteGovernanceObject","kind":"method","ident_start":202178,"ident_end":202199,"extent_start":202164,"extent_end":202372,"fully_qualified_name":"CWallet::WriteGovernanceObject","ident_utf16":{"start":{"line_number":5386,"utf16_col":14},"end":{"line_number":5386,"utf16_col":35}},"extent_utf16":{"start":{"line_number":5386,"utf16_col":0},"end":{"line_number":5391,"utf16_col":1}}},{"name":"GetGovernanceObjects","kind":"method","ident_start":202421,"ident_end":202441,"extent_start":202374,"extent_end":202682,"fully_qualified_name":"CWallet::GetGovernanceObjects","ident_utf16":{"start":{"line_number":5393,"utf16_col":47},"end":{"line_number":5393,"utf16_col":67}},"extent_utf16":{"start":{"line_number":5393,"utf16_col":0},"end":{"line_number":5402,"utf16_col":1}}},{"name":"CKeyPool","kind":"method","ident_start":202694,"ident_end":202702,"extent_start":202684,"extent_end":202754,"fully_qualified_name":"CKeyPool::CKeyPool","ident_utf16":{"start":{"line_number":5404,"utf16_col":10},"end":{"line_number":5404,"utf16_col":18}},"extent_utf16":{"start":{"line_number":5404,"utf16_col":0},"end":{"line_number":5408,"utf16_col":1}}},{"name":"CKeyPool","kind":"method","ident_start":202766,"ident_end":202774,"extent_start":202756,"extent_end":202905,"fully_qualified_name":"CKeyPool::CKeyPool","ident_utf16":{"start":{"line_number":5410,"utf16_col":10},"end":{"line_number":5410,"utf16_col":18}},"extent_utf16":{"start":{"line_number":5410,"utf16_col":0},"end":{"line_number":5415,"utf16_col":1}}},{"name":"CWalletKey","kind":"method","ident_start":202919,"ident_end":202929,"extent_start":202907,"extent_end":203027,"fully_qualified_name":"CWalletKey::CWalletKey","ident_utf16":{"start":{"line_number":5417,"utf16_col":12},"end":{"line_number":5417,"utf16_col":22}},"extent_utf16":{"start":{"line_number":5417,"utf16_col":0},"end":{"line_number":5421,"utf16_col":1}}},{"name":"SetMerkleBranch","kind":"method","ident_start":203045,"ident_end":203060,"extent_start":203029,"extent_end":203262,"fully_qualified_name":"CMerkleTx::SetMerkleBranch","ident_utf16":{"start":{"line_number":5423,"utf16_col":16},"end":{"line_number":5423,"utf16_col":31}},"extent_utf16":{"start":{"line_number":5423,"utf16_col":0},"end":{"line_number":5430,"utf16_col":1}}},{"name":"GetConfirmationTime","kind":"method","ident_start":203283,"ident_end":203302,"extent_start":203264,"extent_end":203620,"fully_qualified_name":"CMerkleTx::GetConfirmationTime","ident_utf16":{"start":{"line_number":5432,"utf16_col":19},"end":{"line_number":5432,"utf16_col":38}},"extent_utf16":{"start":{"line_number":5432,"utf16_col":0},"end":{"line_number":5447,"utf16_col":1}}},{"name":"GetDepthInMainChain","kind":"method","ident_start":203637,"ident_end":203656,"extent_start":203622,"extent_end":204008,"fully_qualified_name":"CMerkleTx::GetDepthInMainChain","ident_utf16":{"start":{"line_number":5449,"utf16_col":15},"end":{"line_number":5449,"utf16_col":34}},"extent_utf16":{"start":{"line_number":5449,"utf16_col":0},"end":{"line_number":5464,"utf16_col":1}}},{"name":"IsLockedByInstantSend","kind":"method","ident_start":204026,"ident_end":204047,"extent_start":204010,"extent_end":204286,"fully_qualified_name":"CMerkleTx::IsLockedByInstantSend","ident_utf16":{"start":{"line_number":5466,"utf16_col":16},"end":{"line_number":5466,"utf16_col":37}},"extent_utf16":{"start":{"line_number":5466,"utf16_col":0},"end":{"line_number":5474,"utf16_col":1}}},{"name":"IsChainLocked","kind":"method","ident_start":204304,"ident_end":204317,"extent_start":204288,"extent_end":204620,"fully_qualified_name":"CMerkleTx::IsChainLocked","ident_utf16":{"start":{"line_number":5476,"utf16_col":16},"end":{"line_number":5476,"utf16_col":29}},"extent_utf16":{"start":{"line_number":5476,"utf16_col":0},"end":{"line_number":5486,"utf16_col":1}}},{"name":"GetBlocksToMaturity","kind":"method","ident_start":204637,"ident_end":204656,"extent_start":204622,"extent_end":204887,"fully_qualified_name":"CMerkleTx::GetBlocksToMaturity","ident_utf16":{"start":{"line_number":5488,"utf16_col":15},"end":{"line_number":5488,"utf16_col":34}},"extent_utf16":{"start":{"line_number":5488,"utf16_col":0},"end":{"line_number":5495,"utf16_col":1}}},{"name":"AcceptToMemoryPool","kind":"method","ident_start":204906,"ident_end":204924,"extent_start":204890,"extent_end":205530,"fully_qualified_name":"CWalletTx::AcceptToMemoryPool","ident_utf16":{"start":{"line_number":5498,"utf16_col":16},"end":{"line_number":5498,"utf16_col":34}},"extent_utf16":{"start":{"line_number":5498,"utf16_col":0},"end":{"line_number":5509,"utf16_col":1}}}]}},"copilotInfo":null,"copilotAccessAllowed":false,"modelsAccessAllowed":false,"modelsRepoIntegrationEnabled":false,"csrf_tokens":{"/FewBit-Coin/Core-Wallet/branches":{"post":"fxpxWHAAKgY7bhMAxYhOPgog2EqOwRV42AYeTuF1T4UduZemvXvDQ81G7UCslgGpt4prokA9ZAgUrpdv4ED_aw"},"/repos/preferences":{"post":"LwJO9-gXcsJAfE6Rvt2-QNzbPjkgHcLycxrJdnpU-clNF11_ckfqXK8r85ZjxRQ1kiRlzUsVYKaGqifF5hnz8A"}}},"title":"Core-Wallet/src/wallet/wallet.cpp at main · FewBit-Coin/Core-Wallet","appPayload":{"helpUrl":"https://docs.github.com","findFileWorkerPath":"/assets-cdn/worker/find-file-worker-263cab1760dd.js","findInFileWorkerPath":"/assets-cdn/worker/find-in-file-worker-1b17b3e7786a.js","githubDevUrl":null,"enabled_features":{"code_nav_ui_events":false,"react_blob_overlay":false,"accessible_code_button":true}}}</script>
-  <div data-target="react-app.reactRoot"></div>
-</react-app>
-</turbo-frame>
-
-
-
-  </div>
-
-</turbo-frame>
-
-    </main>
-  </div>
-
-  </div>
-
-          <footer class="footer pt-8 pb-6 f6 color-fg-muted p-responsive" role="contentinfo" >
-  <h2 class='sr-only'>Footer</h2>
-
-  
-
-
-  <div class="d-flex flex-justify-center flex-items-center flex-column-reverse flex-lg-row flex-wrap flex-lg-nowrap">
-    <div class="d-flex flex-items-center flex-shrink-0 mx-2">
-      <a aria-label="GitHub Homepage" class="footer-octicon mr-2" href="https://github.com">
-        <svg aria-hidden="true" height="24" viewBox="0 0 24 24" version="1.1" width="24" data-view-component="true" class="octicon octicon-mark-github">
-    <path d="M12 1C5.9225 1 1 5.9225 1 12C1 16.8675 4.14875 20.9787 8.52125 22.4362C9.07125 22.5325 9.2775 22.2025 9.2775 21.9137C9.2775 21.6525 9.26375 20.7862 9.26375 19.865C6.5 20.3737 5.785 19.1912 5.565 18.5725C5.44125 18.2562 4.905 17.28 4.4375 17.0187C4.0525 16.8125 3.5025 16.3037 4.42375 16.29C5.29 16.2762 5.90875 17.0875 6.115 17.4175C7.105 19.0812 8.68625 18.6137 9.31875 18.325C9.415 17.61 9.70375 17.1287 10.02 16.8537C7.5725 16.5787 5.015 15.63 5.015 11.4225C5.015 10.2262 5.44125 9.23625 6.1425 8.46625C6.0325 8.19125 5.6475 7.06375 6.2525 5.55125C6.2525 5.55125 7.17375 5.2625 9.2775 6.67875C10.1575 6.43125 11.0925 6.3075 12.0275 6.3075C12.9625 6.3075 13.8975 6.43125 14.7775 6.67875C16.8813 5.24875 17.8025 5.55125 17.8025 5.55125C18.4075 7.06375 18.0225 8.19125 17.9125 8.46625C18.6138 9.23625 19.04 10.2125 19.04 11.4225C19.04 15.6437 16.4688 16.5787 14.0213 16.8537C14.42 17.1975 14.7638 17.8575 14.7638 18.8887C14.7638 20.36 14.75 21.5425 14.75 21.9137C14.75 22.2025 14.9563 22.5462 15.5063 22.4362C19.8513 20.9787 23 16.8537 23 12C23 5.9225 18.0775 1 12 1Z"></path>
-</svg>
-</a>
-      <span>
-        // © 2025 GitHub, Inc.
-      </span>
-    </div>
-
-    <nav aria-label="Footer">
-      <h3 class="sr-only" id="sr-footer-heading">Footer navigation</h3>
-
-      <ul class="list-style-none d-flex flex-justify-center flex-wrap mb-2 mb-lg-0" aria-labelledby="sr-footer-heading">
-
-          <li class="mx-2">
-            <a data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to Terms&quot;,&quot;label&quot;:&quot;text:terms&quot;}" href="https://docs.github.com/site-policy/github-terms/github-terms-of-service" data-view-component="true" class="Link--secondary Link">Terms</a>
-          </li>
-
-          <li class="mx-2">
-            <a data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to privacy&quot;,&quot;label&quot;:&quot;text:privacy&quot;}" href="https://docs.github.com/site-policy/privacy-policies/github-privacy-statement" data-view-component="true" class="Link--secondary Link">Privacy</a>
-          </li>
-
-          <li class="mx-2">
-            <a data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to security&quot;,&quot;label&quot;:&quot;text:security&quot;}" href="https://github.com/security" data-view-component="true" class="Link--secondary Link">Security</a>
-          </li>
-
-          <li class="mx-2">
-            <a data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to status&quot;,&quot;label&quot;:&quot;text:status&quot;}" href="https://www.githubstatus.com/" data-view-component="true" class="Link--secondary Link">Status</a>
-          </li>
-
-          <li class="mx-2">
-            <a data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to docs&quot;,&quot;label&quot;:&quot;text:docs&quot;}" href="https://docs.github.com/" data-view-component="true" class="Link--secondary Link">Docs</a>
-          </li>
-
-          <li class="mx-2">
-            <a data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to contact&quot;,&quot;label&quot;:&quot;text:contact&quot;}" href="https://support.github.com?tags=dotcom-footer" data-view-component="true" class="Link--secondary Link">Contact</a>
-          </li>
-
-          <li class="mx-2" >
-  <cookie-consent-link>
-    <button
-      type="button"
-      class="Link--secondary underline-on-hover border-0 p-0 color-bg-transparent"
-      data-action="click:cookie-consent-link#showConsentManagement"
-      data-analytics-event="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;cookies&quot;,&quot;context&quot;:&quot;subfooter&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;cookies_link_subfooter_footer&quot;}"
-    >
-       Manage cookies
-    </button>
-  </cookie-consent-link>
-</li>
-
-<li class="mx-2">
-  <cookie-consent-link>
-    <button
-      type="button"
-      class="Link--secondary underline-on-hover border-0 p-0 color-bg-transparent"
-      data-action="click:cookie-consent-link#showConsentManagement"
-      data-analytics-event="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;dont_share_info&quot;,&quot;context&quot;:&quot;subfooter&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;dont_share_info_link_subfooter_footer&quot;}"
-    >
-      Do not share my personal information
-    </button>
-  </cookie-consent-link>
-</li>
-
-      </ul>
-    </nav>
-  </div>
-</footer>
-
-
-
-    <ghcc-consent id="ghcc" class="position-fixed bottom-0 left-0" style="z-index: 999999"
-      data-locale="en"
-      data-initial-cookie-consent-allowed=""
-      data-cookie-consent-required="true"
-    ></ghcc-consent>
-
-
-
-  <div id="ajax-error-message" class="ajax-error-message flash flash-error" hidden>
-    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
-    <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
-</svg>
-    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
-    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
-</svg>
-    </button>
-    You can’t perform that action at this time.
-  </div>
-
-    <template id="site-details-dialog">
-  <details class="details-reset details-overlay details-overlay-dark lh-default color-fg-default hx_rsm" open>
-    <summary role="button" aria-label="Close dialog"></summary>
-    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast hx_rsm-dialog hx_rsm-modal">
-      <button class="Box-btn-octicon m-0 btn-octicon position-absolute right-0 top-0" type="button" aria-label="Close dialog" data-close-dialog>
-        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
-    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
-</svg>
-      </button>
-      <div class="octocat-spinner my-6 js-details-dialog-spinner"></div>
-    </details-dialog>
-  </details>
-</template>
-
-    <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;">
-  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box color-shadow-large" style="width:360px;">
-  </div>
-</div>
-
-    <template id="snippet-clipboard-copy-button">
-  <div class="zeroclipboard-container position-absolute right-0 top-0">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn js-clipboard-copy m-2 p-0" data-copy-feedback="Copied!" data-tooltip-direction="w">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon m-2">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none m-2">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
-  </div>
-</template>
-<template id="snippet-clipboard-copy-button-unpositioned">
-  <div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
-  </div>
-</template>
-
-
-
-
-    </div>
-
-    <div id="js-global-screen-reader-notice" class="sr-only mt-n1" aria-live="polite" aria-atomic="true" ></div>
-    <div id="js-global-screen-reader-notice-assertive" class="sr-only mt-n1" aria-live="assertive" aria-atomic="true"></div>
-  </body>
-</html>
-
+// Copyright (c) 2009-2010 Satoshi Nakamoto
+// Copyright (c) 2009-2015 The Bitcoin Core developers
+// Copyright (c) 2014-2021 The Dash Core developers
+// Copyright (c) 2020-2022 The FewBit developers
+// Copyright (c) 2024-2025 The FewBit Network developers
+// Distributed under the MIT software license, see the accompanying
+// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+#include <wallet/wallet.h>
+
+#include <chain.h>
+#include <checkpoints.h>
+#include <consensus/consensus.h>
+#include <consensus/validation.h>
+#include <fs.h>
+#include <future/fee.h>
+#include <init.h>
+#include <key.h>
+#include <key_io.h>
+#include <keystore.h>
+#include <net.h>
+#include <policy/fees.h>
+#include <policy/policy.h>
+#include <primitives/block.h>
+#include <primitives/transaction.h>
+#include <script/script.h>
+#include <script/sign.h>
+#include <timedata.h>
+#include <txmempool.h>
+#include <utilmoneystr.h>
+#include <validation.h>
+#include <wallet/coinselection.h>
+#include <wallet/fees.h>
+
+#include <coinjoin/coinjoin-client-options.h>
+#include <coinjoin/coinjoin-client.h>
+#include <governance/governance.h>
+#include <keepass.h>
+
+#include <evo/providertx.h>
+
+#include <llmq/quorums_chainlocks.h>
+#include <llmq/quorums_instantsend.h>
+#include <rpc/specialtx_utilities.h>
+
+#include <assert.h>
+#include <future>
+
+#include <boost/algorithm/string/replace.hpp>
+#include <boost/thread.hpp>
+
+static CCriticalSection cs_wallets;
+static std::vector<std::shared_ptr<CWallet>> vpwallets GUARDED_BY(cs_wallets);
+
+bool AddWallet(const std::shared_ptr<CWallet>& wallet)
+{
+    LOCK(cs_wallets);
+    assert(wallet);
+    std::vector<std::shared_ptr<CWallet>>::const_iterator i = std::find(vpwallets.begin(), vpwallets.end(), wallet);
+    if (i != vpwallets.end()) return false;
+    coinJoinClientManagers.emplace(std::make_pair(wallet->GetName(), std::make_shared<CCoinJoinClientManager>(*wallet)));
+    vpwallets.push_back(wallet);
+    return true;
+}
+
+bool RemoveWallet(const std::shared_ptr<CWallet>& wallet)
+{
+    LOCK(cs_wallets);
+    assert(wallet);
+    std::vector<std::shared_ptr<CWallet>>::iterator i = std::find(vpwallets.begin(), vpwallets.end(), wallet);
+    if (i == vpwallets.end()) return false;
+    vpwallets.erase(i);
+    auto it = coinJoinClientManagers.find(wallet->GetName());
+    coinJoinClientManagers.erase(it);
+    return true;
+}
+
+bool HasWallets()
+{
+    LOCK(cs_wallets);
+    return !vpwallets.empty();
+}
+
+CWallet* GetFirstWallet()
+{
+#ifdef ENABLE_WALLET
+    while (vpwallets.size() == 0) {
+        MilliSleep(100);
+    }
+    if (vpwallets.size() == 0)
+        return (NULL);
+    return (vpwallets[0].get());
+#endif
+    return (NULL);
+}
+
+std::vector<std::shared_ptr<CWallet>> GetWallets()
+{
+    LOCK(cs_wallets);
+    return vpwallets;
+}
+
+std::shared_ptr<CWallet> GetWallet(const std::string& name)
+{
+    LOCK(cs_wallets);
+    for (const std::shared_ptr<CWallet>& wallet : vpwallets) {
+        if (wallet->GetName() == name) return wallet;
+    }
+    return nullptr;
+}
+
+/** Transaction fee set by the user */
+CFeeRate payTxFee(DEFAULT_TRANSACTION_FEE);
+unsigned int nTxConfirmTarget = DEFAULT_TX_CONFIRM_TARGET;
+bool bSpendZeroConfChange = DEFAULT_SPEND_ZEROCONF_CHANGE;
+
+/**
+ * Fees smaller than this (in ruffs) are considered zero fee (for transaction creation)
+ * Override with -mintxfee
+ */
+CFeeRate CWallet::minTxFee = CFeeRate(DEFAULT_TRANSACTION_MINFEE);
+/**
+ * If fee estimation does not have enough data to provide estimates, use this fee instead.
+ * Has no effect if not using fee estimation
+ * Override with -fallbackfee
+ */
+CFeeRate CWallet::fallbackFee = CFeeRate(DEFAULT_FALLBACK_FEE);
+
+CFeeRate CWallet::m_discard_rate = CFeeRate(DEFAULT_DISCARD_FEE);
+
+// Custom deleter for shared_ptr<CWallet>.
+static void ReleaseWallet(CWallet* wallet)
+{
+    LogPrintf("Releasing wallet %s\n", wallet->GetName());
+    wallet->BlockUntilSyncedToCurrentChain();
+    wallet->Flush();
+    delete wallet;
+}
+
+const uint256 CMerkleTx::ABANDON_HASH(uint256S("0000000000000000000000000000000000000000000000000000000000000001"));
+
+/** @defgroup mapWallet
+ *
+ * @{
+ */
+
+std::string COutput::ToString() const
+{
+    return strprintf("COutput(%s, %d, %d) [%s]", tx->GetHash().ToString(), i, nDepth, FormatMoney(tx->tx->vout[i].nValue));
+}
+
+class CAffectedKeysVisitor : public boost::static_visitor<void>
+{
+private:
+    const CKeyStore& keystore;
+    std::vector<CKeyID>& vKeys;
+
+public:
+    CAffectedKeysVisitor(const CKeyStore& keystoreIn, std::vector<CKeyID>& vKeysIn) :
+        keystore(keystoreIn), vKeys(vKeysIn) {}
+
+    void Process(const CScript& script)
+    {
+        txnouttype type;
+        std::vector<CTxDestination> vDest;
+        int nRequired;
+        if (ExtractDestinations(script, type, vDest, nRequired)) {
+            for (const CTxDestination& dest : vDest)
+                boost::apply_visitor(*this, dest);
+        }
+    }
+
+    void operator()(const CKeyID& keyId)
+    {
+        if (keystore.HaveKey(keyId))
+            vKeys.push_back(keyId);
+    }
+
+    void operator()(const CScriptID& scriptId)
+    {
+        CScript script;
+        if (keystore.GetCScript(scriptId, script))
+            Process(script);
+    }
+
+    void operator()(const CNoDestination& none) {}
+};
+
+int COutput::Priority() const
+{
+    for (const auto& d : CCoinJoin::GetStandardDenominations()) {
+        // large denoms have lower value
+        if (tx->tx->vout[i].nValue == d) return (float)COIN / d * 10000;
+    }
+    if (tx->tx->vout[i].nValue < 1 * COIN) return 20000;
+
+    // nondenom return largest first
+    return -(tx->tx->vout[i].nValue / COIN);
+}
+
+const CWalletTx* CWallet::GetWalletTx(const uint256& hash) const
+{
+    LOCK(cs_wallet);
+    std::map<uint256, CWalletTx>::const_iterator it = mapWallet.find(hash);
+    if (it == mapWallet.end())
+        return nullptr;
+    return &(it->second);
+}
+
+CPubKey CWallet::GenerateNewKey(WalletBatch& batch, uint32_t nAccountIndex, bool fInternal)
+{
+    AssertLockHeld(cs_wallet);                                 // mapKeyMetadata
+    bool fCompressed = CanSupportFeature(FEATURE_COMPRPUBKEY); // default to compressed public keys if we want 0.6.0 wallets
+
+    CKey secret;
+
+    // Create new metadata
+    int64_t nCreationTime = GetTime();
+    CKeyMetadata metadata(nCreationTime);
+
+    CPubKey pubkey;
+    // use HD key derivation if HD was enabled during wallet creation
+    if (IsHDEnabled()) {
+        DeriveNewChildKey(batch, metadata, secret, nAccountIndex, fInternal);
+        pubkey = secret.GetPubKey();
+    } else {
+        secret.MakeNewKey(fCompressed);
+
+        // Compressed public keys were introduced in version 0.6.0
+        if (fCompressed) {
+            SetMinVersion(FEATURE_COMPRPUBKEY);
+        }
+
+        pubkey = secret.GetPubKey();
+        assert(secret.VerifyPubKey(pubkey));
+
+        // Create new metadata
+        mapKeyMetadata[pubkey.GetID()] = metadata;
+        UpdateTimeFirstKey(nCreationTime);
+
+        if (!AddKeyPubKeyWithDB(batch, secret, pubkey)) {
+            throw std::runtime_error(std::string(__func__) + ": AddKey failed");
+        }
+    }
+    return pubkey;
+}
+
+void CWallet::DeriveNewChildKey(WalletBatch& batch, const CKeyMetadata& metadata, CKey& secretRet, uint32_t nAccountIndex, bool fInternal)
+{
+    CHDChain hdChainTmp;
+    if (!GetHDChain(hdChainTmp)) {
+        throw std::runtime_error(std::string(__func__) + ": GetHDChain failed");
+    }
+
+    if (!DecryptHDChain(hdChainTmp))
+        throw std::runtime_error(std::string(__func__) + ": DecryptHDChain failed");
+    // make sure seed matches this chain
+    if (hdChainTmp.GetID() != hdChainTmp.GetSeedHash())
+        throw std::runtime_error(std::string(__func__) + ": Wrong HD chain!");
+
+    CHDAccount acc;
+    if (!hdChainTmp.GetAccount(nAccountIndex, acc))
+        throw std::runtime_error(std::string(__func__) + ": Wrong HD account!");
+
+    // derive child key at next index, skip keys already known to the wallet
+    CExtKey childKey;
+    uint32_t nChildIndex = fInternal ? acc.nInternalChainCounter : acc.nExternalChainCounter;
+    do {
+        hdChainTmp.DeriveChildExtKey(nAccountIndex, fInternal, nChildIndex, childKey);
+        // increment childkey index
+        nChildIndex++;
+    } while (HaveKey(childKey.key.GetPubKey().GetID()));
+    secretRet = childKey.key;
+
+    CPubKey pubkey = secretRet.GetPubKey();
+    assert(secretRet.VerifyPubKey(pubkey));
+
+    // store metadata
+    mapKeyMetadata[pubkey.GetID()] = metadata;
+    UpdateTimeFirstKey(metadata.nCreateTime);
+
+    // update the chain model in the database
+    CHDChain hdChainCurrent;
+    GetHDChain(hdChainCurrent);
+
+    if (fInternal) {
+        acc.nInternalChainCounter = nChildIndex;
+    } else {
+        acc.nExternalChainCounter = nChildIndex;
+    }
+
+    if (!hdChainCurrent.SetAccount(nAccountIndex, acc))
+        throw std::runtime_error(std::string(__func__) + ": SetAccount failed");
+
+    if (IsCrypted()) {
+        if (!SetCryptedHDChain(batch, hdChainCurrent, false))
+            throw std::runtime_error(std::string(__func__) + ": SetCryptedHDChain failed");
+    } else {
+        if (!SetHDChain(batch, hdChainCurrent, false))
+            throw std::runtime_error(std::string(__func__) + ": SetHDChain failed");
+    }
+
+    if (!AddHDPubKey(batch, childKey.Neuter(), fInternal))
+        throw std::runtime_error(std::string(__func__) + ": AddHDPubKey failed");
+}
+
+bool CWallet::GetPubKey(const CKeyID& address, CPubKey& vchPubKeyOut) const
+{
+    LOCK(cs_wallet);
+    std::map<CKeyID, CHDPubKey>::const_iterator mi = mapHdPubKeys.find(address);
+    if (mi != mapHdPubKeys.end()) {
+        const CHDPubKey& hdPubKey = (*mi).second;
+        vchPubKeyOut = hdPubKey.extPubKey.pubkey;
+        return true;
+    } else
+        return CCryptoKeyStore::GetPubKey(address, vchPubKeyOut);
+}
+
+bool CWallet::GetKey(const CKeyID& address, CKey& keyOut) const
+{
+    LOCK(cs_wallet);
+    std::map<CKeyID, CHDPubKey>::const_iterator mi = mapHdPubKeys.find(address);
+    if (mi != mapHdPubKeys.end()) {
+        // if the key has been found in mapHdPubKeys, derive it on the fly
+        const CHDPubKey& hdPubKey = (*mi).second;
+        CHDChain hdChainCurrent;
+        if (!GetHDChain(hdChainCurrent))
+            throw std::runtime_error(std::string(__func__) + ": GetHDChain failed");
+        if (!DecryptHDChain(hdChainCurrent))
+            throw std::runtime_error(std::string(__func__) + ": DecryptHDChain failed");
+        // make sure seed matches this chain
+        if (hdChainCurrent.GetID() != hdChainCurrent.GetSeedHash())
+            throw std::runtime_error(std::string(__func__) + ": Wrong HD chain!");
+
+        CExtKey extkey;
+        hdChainCurrent.DeriveChildExtKey(hdPubKey.nAccountIndex, hdPubKey.nChangeIndex != 0, hdPubKey.extPubKey.nChild, extkey);
+        keyOut = extkey.key;
+
+        return true;
+    } else {
+        return CCryptoKeyStore::GetKey(address, keyOut);
+    }
+}
+
+bool CWallet::HaveKey(const CKeyID& address) const
+{
+    LOCK(cs_wallet);
+    if (mapHdPubKeys.count(address) > 0)
+        return true;
+    return CCryptoKeyStore::HaveKey(address);
+}
+
+bool CWallet::LoadHDPubKey(const CHDPubKey& hdPubKey)
+{
+    AssertLockHeld(cs_wallet);
+
+    mapHdPubKeys[hdPubKey.extPubKey.pubkey.GetID()] = hdPubKey;
+    return true;
+}
+
+bool CWallet::AddHDPubKey(WalletBatch& batch, const CExtPubKey& extPubKey, bool fInternal)
+{
+    AssertLockHeld(cs_wallet);
+
+    CHDChain hdChainCurrent;
+    GetHDChain(hdChainCurrent);
+
+    CHDPubKey hdPubKey;
+    hdPubKey.extPubKey = extPubKey;
+    hdPubKey.hdchainID = hdChainCurrent.GetID();
+    hdPubKey.nChangeIndex = fInternal ? 1 : 0;
+    mapHdPubKeys[extPubKey.pubkey.GetID()] = hdPubKey;
+
+    // check if we need to remove from watch-only
+    CScript script;
+    script = GetScriptForDestination(extPubKey.pubkey.GetID());
+    if (HaveWatchOnly(script))
+        RemoveWatchOnly(script);
+    script = GetScriptForRawPubKey(extPubKey.pubkey);
+    if (HaveWatchOnly(script))
+        RemoveWatchOnly(script);
+
+    return batch.WriteHDPubKey(hdPubKey, mapKeyMetadata[extPubKey.pubkey.GetID()]);
+}
+
+bool CWallet::AddKeyPubKeyWithDB(WalletBatch& batch, const CKey& secret, const CPubKey& pubkey)
+{
+    AssertLockHeld(cs_wallet); // mapKeyMetadata
+
+    // CCryptoKeyStore has no concept of wallet databases, but calls AddCryptedKey
+    // which is overridden below.  To avoid flushes, the database handle is
+    // tunneled through to it.
+    bool needsDB = !encrypted_batch;
+    if (needsDB) {
+        encrypted_batch = &batch;
+    }
+    if (!CCryptoKeyStore::AddKeyPubKey(secret, pubkey)) {
+        if (needsDB) encrypted_batch = nullptr;
+        return false;
+    }
+    if (needsDB) encrypted_batch = nullptr;
+    // check if we need to remove from watch-only
+    CScript script;
+    script = GetScriptForDestination(pubkey.GetID());
+    if (HaveWatchOnly(script)) {
+        RemoveWatchOnly(script);
+    }
+    script = GetScriptForRawPubKey(pubkey);
+    if (HaveWatchOnly(script)) {
+        RemoveWatchOnly(script);
+    }
+
+    if (!IsCrypted()) {
+        return batch.WriteKey(pubkey,
+            secret.GetPrivKey(),
+            mapKeyMetadata[pubkey.GetID()]);
+    }
+    return true;
+}
+
+
+bool CWallet::AddKeyPubKey(const CKey& secret, const CPubKey& pubkey)
+{
+    WalletBatch batch(*database);
+
+    return CWallet::AddKeyPubKeyWithDB(batch, secret, pubkey);
+}
+
+bool CWallet::AddCryptedKey(const CPubKey& vchPubKey,
+    const std::vector<unsigned char>& vchCryptedSecret)
+{
+    if (!CCryptoKeyStore::AddCryptedKey(vchPubKey, vchCryptedSecret))
+        return false;
+    {
+        LOCK(cs_wallet);
+        if (encrypted_batch)
+            return encrypted_batch->WriteCryptedKey(vchPubKey,
+                vchCryptedSecret,
+                mapKeyMetadata[vchPubKey.GetID()]);
+        else
+            return WalletBatch(*database).WriteCryptedKey(vchPubKey,
+                vchCryptedSecret,
+                mapKeyMetadata[vchPubKey.GetID()]);
+    }
+}
+
+bool CWallet::LoadKeyMetadata(const CKeyID& keyID, const CKeyMetadata& meta)
+{
+    AssertLockHeld(cs_wallet); // mapKeyMetadata
+    UpdateTimeFirstKey(meta.nCreateTime);
+    mapKeyMetadata[keyID] = meta;
+    return true;
+}
+
+bool CWallet::LoadScriptMetadata(const CScriptID& script_id, const CKeyMetadata& meta)
+{
+    AssertLockHeld(cs_wallet); // m_script_metadata
+    UpdateTimeFirstKey(meta.nCreateTime);
+    m_script_metadata[script_id] = meta;
+    return true;
+}
+
+bool CWallet::LoadCryptedKey(const CPubKey& vchPubKey, const std::vector<unsigned char>& vchCryptedSecret)
+{
+    return CCryptoKeyStore::AddCryptedKey(vchPubKey, vchCryptedSecret);
+}
+
+/**
+ * Update wallet first key creation time. This should be called whenever keys
+ * are added to the wallet, with the oldest key creation time.
+ */
+void CWallet::UpdateTimeFirstKey(int64_t nCreateTime)
+{
+    AssertLockHeld(cs_wallet);
+    if (nCreateTime <= 1) {
+        // Cannot determine birthday information, so set the wallet birthday to
+        // the beginning of time.
+        nTimeFirstKey = 1;
+    } else if (!nTimeFirstKey || nCreateTime < nTimeFirstKey) {
+        nTimeFirstKey = nCreateTime;
+    }
+}
+
+int64_t CWallet::GetTimeFirstKey() const
+{
+    AssertLockHeld(cs_wallet);
+    return nTimeFirstKey;
+}
+
+bool CWallet::AddCScript(const CScript& redeemScript)
+{
+    if (!CCryptoKeyStore::AddCScript(redeemScript))
+        return false;
+    return WalletBatch(*database).WriteCScript(Hash160(redeemScript), redeemScript);
+}
+
+bool CWallet::LoadCScript(const CScript& redeemScript)
+{
+    /* A sanity check was added in pull #3843 to avoid adding redeemScripts
+     * that never can be redeemed. However, old wallets may still contain
+     * these. Do not add them to the wallet and warn. */
+    if (redeemScript.size() > MAX_SCRIPT_ELEMENT_SIZE) {
+        std::string strAddr = EncodeDestination(CScriptID(redeemScript));
+        LogPrintf("%s: Warning: This wallet contains a redeemScript of size %i which exceeds maximum size %i thus can never be redeemed. Do not use address %s.\n",
+            __func__, redeemScript.size(), MAX_SCRIPT_ELEMENT_SIZE, strAddr);
+        return true;
+    }
+
+    return CCryptoKeyStore::AddCScript(redeemScript);
+}
+
+bool CWallet::AddWatchOnly(const CScript& dest)
+{
+    if (!CCryptoKeyStore::AddWatchOnly(dest))
+        return false;
+    const CKeyMetadata& meta = m_script_metadata[CScriptID(dest)];
+    UpdateTimeFirstKey(meta.nCreateTime);
+    NotifyWatchonlyChanged(true);
+    return WalletBatch(*database).WriteWatchOnly(dest, meta);
+}
+
+bool CWallet::AddWatchOnly(const CScript& dest, int64_t nCreateTime)
+{
+    m_script_metadata[CScriptID(dest)].nCreateTime = nCreateTime;
+    return AddWatchOnly(dest);
+}
+
+bool CWallet::RemoveWatchOnly(const CScript& dest)
+{
+    AssertLockHeld(cs_wallet);
+    if (!CCryptoKeyStore::RemoveWatchOnly(dest))
+        return false;
+    if (!HaveWatchOnly())
+        NotifyWatchonlyChanged(false);
+    if (!WalletBatch(*database).EraseWatchOnly(dest))
+        return false;
+
+    // Full refresh of UI because many transactions may have been deleted:
+    NotifyTransactionChanged(this, uint256(), CT_UPDATED);
+
+    return true;
+}
+
+bool CWallet::LoadWatchOnly(const CScript& dest)
+{
+    return CCryptoKeyStore::AddWatchOnly(dest);
+}
+
+bool CWallet::Unlock(const SecureString& strWalletPassphrase, bool fForMixingOnly)
+{
+    SecureString strWalletPassphraseFinal;
+
+    if (!IsLocked()) // was already fully unlocked, not only for mixing
+        return true;
+
+    // Verify KeePassIntegration
+    if (strWalletPassphrase == "keepass" && gArgs.GetBoolArg("-keepass", false)) {
+        try {
+            strWalletPassphraseFinal = keePassInt.retrievePassphrase();
+        } catch (std::exception& e) {
+            LogPrintf("CWallet::Unlock could not retrieve passphrase from KeePass: Error: %s\n", e.what());
+            return false;
+        }
+    } else {
+        strWalletPassphraseFinal = strWalletPassphrase;
+    }
+
+    CCrypter crypter;
+    CKeyingMaterial _vMasterKey;
+
+    {
+        LOCK(cs_wallet);
+        for (const MasterKeyMap::value_type& pMasterKey : mapMasterKeys) {
+            if (!crypter.SetKeyFromPassphrase(strWalletPassphraseFinal, pMasterKey.second.vchSalt, pMasterKey.second.nDeriveIterations, pMasterKey.second.nDerivationMethod))
+                return false;
+            if (!crypter.Decrypt(pMasterKey.second.vchCryptedKey, _vMasterKey))
+                continue; // try another master key
+            if (CCryptoKeyStore::Unlock(_vMasterKey, fForMixingOnly)) {
+                if (nWalletBackups == -2) {
+                    TopUpKeyPool();
+                    LogPrintf("Keypool replenished, re-initializing automatic backups.\n");
+                    nWalletBackups = gArgs.GetArg("-createwalletbackups", 10);
+                }
+                return true;
+            }
+        }
+    }
+    return false;
+}
+
+bool CWallet::ChangeWalletPassphrase(const SecureString& strOldWalletPassphrase, const SecureString& strNewWalletPassphrase)
+{
+    bool fWasLocked = IsLocked(true);
+    bool bUseKeePass = false;
+
+    SecureString strOldWalletPassphraseFinal;
+
+    // Verify KeePassIntegration
+    if (strOldWalletPassphrase == "keepass" && gArgs.GetBoolArg("-keepass", false)) {
+        bUseKeePass = true;
+        try {
+            strOldWalletPassphraseFinal = keePassInt.retrievePassphrase();
+        } catch (std::exception& e) {
+            LogPrintf("CWallet::ChangeWalletPassphrase -- could not retrieve passphrase from KeePass: Error: %s\n", e.what());
+            return false;
+        }
+    } else {
+        strOldWalletPassphraseFinal = strOldWalletPassphrase;
+    }
+
+    {
+        LOCK(cs_wallet);
+        Lock();
+
+        CCrypter crypter;
+        CKeyingMaterial _vMasterKey;
+        for (MasterKeyMap::value_type& pMasterKey : mapMasterKeys) {
+            if (!crypter.SetKeyFromPassphrase(strOldWalletPassphraseFinal, pMasterKey.second.vchSalt, pMasterKey.second.nDeriveIterations, pMasterKey.second.nDerivationMethod))
+                return false;
+            if (!crypter.Decrypt(pMasterKey.second.vchCryptedKey, _vMasterKey))
+                return false;
+            if (CCryptoKeyStore::Unlock(_vMasterKey)) {
+                int64_t nStartTime = GetTimeMillis();
+                crypter.SetKeyFromPassphrase(strNewWalletPassphrase, pMasterKey.second.vchSalt, pMasterKey.second.nDeriveIterations, pMasterKey.second.nDerivationMethod);
+                pMasterKey.second.nDeriveIterations = static_cast<unsigned int>(pMasterKey.second.nDeriveIterations * (100 / ((double)(GetTimeMillis() - nStartTime))));
+
+                nStartTime = GetTimeMillis();
+                crypter.SetKeyFromPassphrase(strNewWalletPassphrase, pMasterKey.second.vchSalt, pMasterKey.second.nDeriveIterations, pMasterKey.second.nDerivationMethod);
+                pMasterKey.second.nDeriveIterations = (pMasterKey.second.nDeriveIterations + static_cast<unsigned int>(pMasterKey.second.nDeriveIterations * 100 / ((double)(GetTimeMillis() - nStartTime)))) / 2;
+
+                if (pMasterKey.second.nDeriveIterations < 25000)
+                    pMasterKey.second.nDeriveIterations = 25000;
+
+                LogPrintf("Wallet passphrase changed to an nDeriveIterations of %i\n", pMasterKey.second.nDeriveIterations);
+
+                if (!crypter.SetKeyFromPassphrase(strNewWalletPassphrase, pMasterKey.second.vchSalt, pMasterKey.second.nDeriveIterations, pMasterKey.second.nDerivationMethod))
+                    return false;
+                if (!crypter.Encrypt(_vMasterKey, pMasterKey.second.vchCryptedKey))
+                    return false;
+                WalletBatch(*database).WriteMasterKey(pMasterKey.first, pMasterKey.second);
+                if (fWasLocked)
+                    Lock();
+
+                // Update KeePass if necessary
+                if (bUseKeePass) {
+                    LogPrintf("CWallet::ChangeWalletPassphrase -- Updating KeePass with new passphrase\n");
+                    try {
+                        keePassInt.updatePassphrase(strNewWalletPassphrase);
+                    } catch (std::exception& e) {
+                        LogPrintf("CWallet::ChangeWalletPassphrase -- could not update passphrase in KeePass: Error: %s\n", e.what());
+                        return false;
+                    }
+                }
+
+                return true;
+            }
+        }
+    }
+
+    return false;
+}
+
+void CWallet::SetBestChain(const CBlockLocator& loc)
+{
+    WalletBatch batch(*database);
+    batch.WriteBestBlock(loc);
+}
+
+bool CWallet::SetMinVersion(enum WalletFeature nVersion, WalletBatch* batch_in, bool fExplicit)
+{
+    LOCK(cs_wallet); // nWalletVersion
+    if (nWalletVersion >= nVersion)
+        return true;
+
+    // when doing an explicit upgrade, if we pass the max version permitted, upgrade all the way
+    if (fExplicit && nVersion > nWalletMaxVersion)
+        nVersion = FEATURE_LATEST;
+
+    nWalletVersion = nVersion;
+
+    if (nVersion > nWalletMaxVersion)
+        nWalletMaxVersion = nVersion;
+
+    {
+        WalletBatch* batch = batch_in ? batch_in : new WalletBatch(*database);
+        if (nWalletVersion > 40000)
+            batch->WriteMinVersion(nWalletVersion);
+        if (!batch_in)
+            delete batch;
+    }
+
+    return true;
+}
+
+bool CWallet::SetMaxVersion(int nVersion)
+{
+    LOCK(cs_wallet); // nWalletVersion, nWalletMaxVersion
+    // cannot downgrade below current version
+    if (nWalletVersion > nVersion)
+        return false;
+
+    nWalletMaxVersion = nVersion;
+
+    return true;
+}
+
+std::set<uint256> CWallet::GetConflicts(const uint256& txid) const
+{
+    std::set<uint256> result;
+    AssertLockHeld(cs_wallet);
+
+    std::map<uint256, CWalletTx>::const_iterator it = mapWallet.find(txid);
+    if (it == mapWallet.end())
+        return result;
+    const CWalletTx& wtx = it->second;
+
+    std::pair<TxSpends::const_iterator, TxSpends::const_iterator> range;
+
+    for (const CTxIn& txin : wtx.tx->vin) {
+        if (mapTxSpends.count(txin.prevout) <= 1)
+            continue; // No conflict if zero or one spends
+        range = mapTxSpends.equal_range(txin.prevout);
+        for (TxSpends::const_iterator _it = range.first; _it != range.second; ++_it)
+            result.insert(_it->second);
+    }
+    return result;
+}
+
+void CWallet::Flush(bool shutdown)
+{
+    database->Flush(shutdown);
+}
+
+void CWallet::SyncMetaData(std::pair<TxSpends::iterator, TxSpends::iterator> range)
+{
+    // We want all the wallet transactions in range to have the same metadata as
+    // the oldest (smallest nOrderPos).
+    // So: find smallest nOrderPos:
+
+    int nMinOrderPos = std::numeric_limits<int>::max();
+    const CWalletTx* copyFrom = nullptr;
+    for (TxSpends::iterator it = range.first; it != range.second; ++it) {
+        const CWalletTx* wtx = &mapWallet.at(it->second);
+        if (wtx->nOrderPos < nMinOrderPos) {
+            nMinOrderPos = wtx->nOrderPos;
+            copyFrom = wtx;
+        }
+    }
+
+    if (!copyFrom) {
+        return;
+    }
+
+    // Now copy data from copyFrom to rest:
+    for (TxSpends::iterator it = range.first; it != range.second; ++it) {
+        const uint256& hash = it->second;
+        CWalletTx* copyTo = &mapWallet.at(hash);
+        if (copyFrom == copyTo) continue;
+        assert(copyFrom && "Oldest wallet transaction in range assumed to have been found.");
+        if (!copyFrom->IsEquivalentTo(*copyTo)) continue;
+        copyTo->mapValue = copyFrom->mapValue;
+        copyTo->vOrderForm = copyFrom->vOrderForm;
+        // fTimeReceivedIsTxTime not copied on purpose
+        // nTimeReceived not copied on purpose
+        copyTo->nTimeSmart = copyFrom->nTimeSmart;
+        copyTo->fFromMe = copyFrom->fFromMe;
+        copyTo->strFromAccount = copyFrom->strFromAccount;
+        // nOrderPos not copied on purpose
+        // cached members not copied on purpose
+    }
+}
+
+/**
+ * Outpoint is spent if any non-conflicted transaction
+ * spends it:
+ */
+bool CWallet::IsSpent(const uint256& hash, unsigned int n) const
+{
+    const COutPoint outpoint(hash, n);
+    std::pair<TxSpends::const_iterator, TxSpends::const_iterator> range;
+    range = mapTxSpends.equal_range(outpoint);
+
+    for (TxSpends::const_iterator it = range.first; it != range.second; ++it) {
+        const uint256& wtxid = it->second;
+        std::map<uint256, CWalletTx>::const_iterator mit = mapWallet.find(wtxid);
+        if (mit != mapWallet.end()) {
+            int depth = mit->second.GetDepthInMainChain();
+            if (depth > 0 || (depth == 0 && !mit->second.isAbandoned()))
+                return true; // Spent
+        }
+    }
+    return false;
+}
+
+void CWallet::AddToSpends(const COutPoint& outpoint, const uint256& wtxid)
+{
+    mapTxSpends.insert(std::make_pair(outpoint, wtxid));
+    setWalletUTXO.erase(outpoint);
+
+    setLockedCoins.erase(outpoint);
+
+    std::pair<TxSpends::iterator, TxSpends::iterator> range;
+    range = mapTxSpends.equal_range(outpoint);
+    SyncMetaData(range);
+}
+
+
+void CWallet::AddToSpends(const uint256& wtxid)
+{
+    auto it = mapWallet.find(wtxid);
+    assert(it != mapWallet.end());
+    CWalletTx& thisTx = it->second;
+    if (thisTx.IsCoinBase()) // Coinbases don't spend anything!
+        return;
+
+    for (const CTxIn& txin : thisTx.tx->vin)
+        AddToSpends(txin.prevout, wtxid);
+}
+
+bool CWallet::EncryptWallet(const SecureString& strWalletPassphrase)
+{
+    if (IsCrypted())
+        return false;
+
+    CKeyingMaterial _vMasterKey;
+
+    _vMasterKey.resize(WALLET_CRYPTO_KEY_SIZE);
+    GetStrongRandBytes(&_vMasterKey[0], WALLET_CRYPTO_KEY_SIZE);
+
+    CMasterKey kMasterKey;
+
+    kMasterKey.vchSalt.resize(WALLET_CRYPTO_SALT_SIZE);
+    GetStrongRandBytes(&kMasterKey.vchSalt[0], WALLET_CRYPTO_SALT_SIZE);
+
+    CCrypter crypter;
+    int64_t nStartTime = GetTimeMillis();
+    crypter.SetKeyFromPassphrase(strWalletPassphrase, kMasterKey.vchSalt, 25000, kMasterKey.nDerivationMethod);
+    kMasterKey.nDeriveIterations = static_cast<unsigned int>(2500000 / ((double)(GetTimeMillis() - nStartTime)));
+
+    nStartTime = GetTimeMillis();
+    crypter.SetKeyFromPassphrase(strWalletPassphrase, kMasterKey.vchSalt, kMasterKey.nDeriveIterations, kMasterKey.nDerivationMethod);
+    kMasterKey.nDeriveIterations = (kMasterKey.nDeriveIterations + static_cast<unsigned int>(kMasterKey.nDeriveIterations * 100 / ((double)(GetTimeMillis() - nStartTime)))) / 2;
+
+    if (kMasterKey.nDeriveIterations < 25000)
+        kMasterKey.nDeriveIterations = 25000;
+
+    LogPrintf("Encrypting Wallet with an nDeriveIterations of %i\n", kMasterKey.nDeriveIterations);
+
+    if (!crypter.SetKeyFromPassphrase(strWalletPassphrase, kMasterKey.vchSalt, kMasterKey.nDeriveIterations, kMasterKey.nDerivationMethod))
+        return false;
+    if (!crypter.Encrypt(_vMasterKey, kMasterKey.vchCryptedKey))
+        return false;
+
+    {
+        LOCK(cs_wallet);
+        mapMasterKeys[++nMasterKeyMaxID] = kMasterKey;
+        assert(!encrypted_batch);
+        encrypted_batch = new WalletBatch(*database);
+        if (!encrypted_batch->TxnBegin()) {
+            delete encrypted_batch;
+            encrypted_batch = nullptr;
+            return false;
+        }
+        encrypted_batch->WriteMasterKey(nMasterKeyMaxID, kMasterKey);
+
+        // must get current HD chain before EncryptKeys
+        CHDChain hdChainCurrent;
+        GetHDChain(hdChainCurrent);
+
+        if (!EncryptKeys(_vMasterKey)) {
+            encrypted_batch->TxnAbort();
+            delete encrypted_batch;
+            // We now probably have half of our keys encrypted in memory, and half not...
+            // die and let the user reload the unencrypted wallet.
+            assert(false);
+        }
+
+        if (!hdChainCurrent.IsNull()) {
+            assert(EncryptHDChain(_vMasterKey));
+
+            CHDChain hdChainCrypted;
+            assert(GetHDChain(hdChainCrypted));
+
+            DBG(
+                printf("EncryptWallet -- current seed: '%s'\n", HexStr(hdChainCurrent.GetSeed()).c_str());
+                printf("EncryptWallet -- crypted seed: '%s'\n", HexStr(hdChainCrypted.GetSeed()).c_str()););
+
+            // ids should match, seed hashes should not
+            assert(hdChainCurrent.GetID() == hdChainCrypted.GetID());
+            assert(hdChainCurrent.GetSeedHash() != hdChainCrypted.GetSeedHash());
+
+            assert(SetCryptedHDChain(*encrypted_batch, hdChainCrypted, false));
+        }
+
+        // Encryption was introduced in version 0.4.0
+        SetMinVersion(FEATURE_WALLETCRYPT, encrypted_batch, true);
+
+        if (!encrypted_batch->TxnCommit()) {
+            delete encrypted_batch;
+            // We now have keys encrypted in memory, but not on disk...
+            // die to avoid confusion and let the user reload the unencrypted wallet.
+            assert(false);
+        }
+
+        delete encrypted_batch;
+        encrypted_batch = nullptr;
+
+        Lock();
+        Unlock(strWalletPassphrase);
+
+        // if we are not using HD, generate new keypool
+        if (IsHDEnabled()) {
+            TopUpKeyPool();
+        } else {
+            NewKeyPool();
+        }
+
+        Lock();
+
+        // Need to completely rewrite the wallet file; if we don't, bdb might keep
+        // bits of the unencrypted private key in slack space in the database file.
+        database->Rewrite();
+
+        // Update KeePass if necessary
+        if (gArgs.GetBoolArg("-keepass", false)) {
+            LogPrintf("CWallet::EncryptWallet -- Updating KeePass with new passphrase\n");
+            try {
+                keePassInt.updatePassphrase(strWalletPassphrase);
+            } catch (std::exception& e) {
+                LogPrintf("CWallet::EncryptWallet -- could not update passphrase in KeePass: Error: %s\n", e.what());
+            }
+        }
+
+        // BDB seems to have a bad habit of writing old data into
+        // slack space in .dat files; that is bad if the old data is
+        // unencrypted private keys. So:
+        database->ReloadDbEnv();
+    }
+    NotifyStatusChanged(this);
+
+    return true;
+}
+
+DBErrors CWallet::ReorderTransactions()
+{
+    LOCK(cs_wallet);
+    WalletBatch batch(*database);
+
+    // Old wallets didn't have any defined order for transactions
+    // Probably a bad idea to change the output of this
+
+    // First: get all CWalletTx and CAccountingEntry into a sorted-by-time multimap.
+    typedef std::pair<CWalletTx*, CAccountingEntry*> TxPair;
+    typedef std::multimap<int64_t, TxPair> TxItems;
+    TxItems txByTime;
+
+    for (auto& entry : mapWallet) {
+        CWalletTx* wtx = &entry.second;
+        txByTime.insert(std::make_pair(wtx->nTimeReceived, TxPair(wtx, nullptr)));
+    }
+    std::list<CAccountingEntry> acentries;
+    batch.ListAccountCreditDebit("", acentries);
+    for (CAccountingEntry& entry : acentries) {
+        txByTime.insert(std::make_pair(entry.nTime, TxPair(nullptr, &entry)));
+    }
+
+    nOrderPosNext = 0;
+    std::vector<int64_t> nOrderPosOffsets;
+    for (TxItems::iterator it = txByTime.begin(); it != txByTime.end(); ++it) {
+        CWalletTx* const pwtx = (*it).second.first;
+        CAccountingEntry* const pacentry = (*it).second.second;
+        int64_t& nOrderPos = (pwtx != nullptr) ? pwtx->nOrderPos : pacentry->nOrderPos;
+
+        if (nOrderPos == -1) {
+            nOrderPos = nOrderPosNext++;
+            nOrderPosOffsets.push_back(nOrderPos);
+
+            if (pwtx) {
+                if (!batch.WriteTx(*pwtx))
+                    return DBErrors::LOAD_FAIL;
+            } else if (!batch.WriteAccountingEntry(pacentry->nEntryNo, *pacentry))
+                return DBErrors::LOAD_FAIL;
+        } else {
+            int64_t nOrderPosOff = 0;
+            for (const int64_t& nOffsetStart : nOrderPosOffsets) {
+                if (nOrderPos >= nOffsetStart)
+                    ++nOrderPosOff;
+            }
+            nOrderPos += nOrderPosOff;
+            nOrderPosNext = std::max(nOrderPosNext, nOrderPos + 1);
+
+            if (!nOrderPosOff)
+                continue;
+
+            // Since we're changing the order, write it back
+            if (pwtx) {
+                if (!batch.WriteTx(*pwtx))
+                    return DBErrors::LOAD_FAIL;
+            } else if (!batch.WriteAccountingEntry(pacentry->nEntryNo, *pacentry))
+                return DBErrors::LOAD_FAIL;
+        }
+    }
+    batch.WriteOrderPosNext(nOrderPosNext);
+
+    return DBErrors::LOAD_OK;
+}
+
+int64_t CWallet::IncOrderPosNext(WalletBatch* batch)
+{
+    AssertLockHeld(cs_wallet); // nOrderPosNext
+    int64_t nRet = nOrderPosNext++;
+    if (batch) {
+        batch->WriteOrderPosNext(nOrderPosNext);
+    } else {
+        WalletBatch(*database).WriteOrderPosNext(nOrderPosNext);
+    }
+    return nRet;
+}
+
+bool CWallet::AccountMove(std::string strFrom, std::string strTo, CAmount nAmount, std::string strComment)
+{
+    WalletBatch batch(*database);
+    if (!batch.TxnBegin())
+        return false;
+
+    int64_t nNow = GetAdjustedTime();
+
+    // Debit
+    CAccountingEntry debit;
+    debit.nOrderPos = IncOrderPosNext(&batch);
+    debit.strAccount = strFrom;
+    debit.nCreditDebit = -nAmount;
+    debit.nTime = nNow;
+    debit.strOtherAccount = strTo;
+    debit.strComment = strComment;
+    AddAccountingEntry(debit, &batch);
+
+    // Credit
+    CAccountingEntry credit;
+    credit.nOrderPos = IncOrderPosNext(&batch);
+    credit.strAccount = strTo;
+    credit.nCreditDebit = nAmount;
+    credit.nTime = nNow;
+    credit.strOtherAccount = strFrom;
+    credit.strComment = strComment;
+    AddAccountingEntry(credit, &batch);
+
+    if (!batch.TxnCommit())
+        return false;
+
+    return true;
+}
+
+bool CWallet::GetLabelDestination(CTxDestination& dest, const std::string& label, bool bForceNew)
+{
+    WalletBatch batch(*database);
+
+    CAccount account;
+    batch.ReadAccount(label, account);
+
+    if (!bForceNew) {
+        if (!account.vchPubKey.IsValid())
+            bForceNew = true;
+        else {
+            // Check if the current key has been used
+            CScript scriptPubKey = GetScriptForDestination(account.vchPubKey.GetID());
+            for (std::map<uint256, CWalletTx>::iterator it = mapWallet.begin();
+                 it != mapWallet.end() && account.vchPubKey.IsValid();
+                 ++it)
+                for (const CTxOut& txout : (*it).second.tx->vout)
+                    if (txout.scriptPubKey == scriptPubKey) {
+                        bForceNew = true;
+                        break;
+                    }
+        }
+    }
+
+    // Generate a new key
+    if (bForceNew) {
+        if (!GetKeyFromPool(account.vchPubKey, false))
+            return false;
+
+        dest = account.vchPubKey.GetID();
+        SetAddressBook(dest, label, "receive");
+        batch.WriteAccount(label, account);
+    } else {
+        dest = account.vchPubKey.GetID();
+    }
+
+    return true;
+}
+
+void CWallet::MarkDirty()
+{
+    {
+        LOCK(cs_wallet);
+        for (std::pair<const uint256, CWalletTx>& item : mapWallet)
+            item.second.MarkDirty();
+    }
+
+    fAnonymizableTallyCached = false;
+    fAnonymizableTallyCachedNonDenom = false;
+}
+
+bool CWallet::AddToWallet(const CWalletTx& wtxIn, bool fFlushOnClose, bool rescanningOldBlock)
+{
+    AssertLockHeld(cs_main); // detect potential deadlocks which might be caused by GetListAtChainTip and IsSpent below
+    LOCK(cs_wallet);
+
+    WalletBatch batch(*database, "r+", fFlushOnClose);
+
+    uint256 hash = wtxIn.GetHash();
+
+    // Inserts only if not already there, returns tx inserted or tx found
+    std::pair<std::map<uint256, CWalletTx>::iterator, bool> ret = mapWallet.insert(std::make_pair(hash, wtxIn));
+    CWalletTx& wtx = (*ret.first).second;
+    wtx.BindWallet(this);
+    bool fInsertedNew = ret.second;
+    if (fInsertedNew) {
+        wtx.nTimeReceived = GetAdjustedTime();
+        wtx.nOrderPos = IncOrderPosNext(&batch);
+        wtx.m_it_wtxOrdered = wtxOrdered.insert(std::make_pair(wtx.nOrderPos, TxPair(&wtx, nullptr)));
+        wtx.nTimeSmart = ComputeTimeSmart(wtx, rescanningOldBlock);
+        AddToSpends(hash);
+
+        auto mnList = deterministicMNManager->GetListAtChainTip();
+        for (unsigned int i = 0; i < wtx.tx->vout.size(); ++i) {
+            if (IsMine(wtx.tx->vout[i]) && !IsSpent(hash, i)) {
+                setWalletUTXO.insert(COutPoint(hash, i));
+                if (deterministicMNManager->IsProTxWithCollateral(wtx.tx, i) || mnList.HasMNByCollateral(COutPoint(hash, i))) {
+                    LockCoin(COutPoint(hash, i));
+                }
+            }
+        }
+    }
+
+    bool fUpdated = false;
+    if (!fInsertedNew) {
+        // Merge
+        if (!wtxIn.hashUnset() && wtxIn.hashBlock != wtx.hashBlock) {
+            wtx.hashBlock = wtxIn.hashBlock;
+            fUpdated = true;
+        }
+        // If no longer abandoned, update
+        if (wtxIn.hashBlock.IsNull() && wtx.isAbandoned()) {
+            wtx.hashBlock = wtxIn.hashBlock;
+            fUpdated = true;
+        }
+        if (wtxIn.nIndex != -1 && (wtxIn.nIndex != wtx.nIndex)) {
+            wtx.nIndex = wtxIn.nIndex;
+            fUpdated = true;
+        }
+        if (wtxIn.fFromMe && wtxIn.fFromMe != wtx.fFromMe) {
+            wtx.fFromMe = wtxIn.fFromMe;
+            fUpdated = true;
+        }
+
+        auto mnList = deterministicMNManager->GetListAtChainTip();
+        for (unsigned int i = 0; i < wtx.tx->vout.size(); ++i) {
+            if (IsMine(wtx.tx->vout[i]) && !IsSpent(hash, i)) {
+                bool new_utxo = setWalletUTXO.insert(COutPoint(hash, i)).second;
+                if (new_utxo && (deterministicMNManager->IsProTxWithCollateral(wtx.tx, i) || mnList.HasMNByCollateral(COutPoint(hash, i)))) {
+                    LockCoin(COutPoint(hash, i));
+                }
+                fUpdated |= new_utxo;
+            }
+        }
+    }
+
+    //// debug print
+    LogPrintf("AddToWallet %s  %s%s\n", wtxIn.GetHash().ToString(), (fInsertedNew ? "new" : ""), (fUpdated ? "update" : ""));
+
+    // Write to disk
+    if (fInsertedNew || fUpdated)
+        if (!batch.WriteTx(wtx))
+            return false;
+
+    // Break debit/credit balance caches:
+    wtx.MarkDirty();
+
+    // Notify UI of new or updated transaction
+    NotifyTransactionChanged(this, hash, fInsertedNew ? CT_NEW : CT_UPDATED);
+
+    // notify an external script when a wallet transaction comes in or is updated
+    std::string strCmd = gArgs.GetArg("-walletnotify", "");
+
+    if (!strCmd.empty()) {
+        boost::replace_all(strCmd, "%s", wtxIn.GetHash().GetHex());
+        std::thread t(runCommand, strCmd);
+        t.detach(); // thread runs free
+    }
+
+    fAnonymizableTallyCached = false;
+    fAnonymizableTallyCachedNonDenom = false;
+
+    return true;
+}
+
+bool CWallet::LoadToWallet(const CWalletTx& wtxIn)
+{
+    uint256 hash = wtxIn.GetHash();
+    const auto& ins = mapWallet.emplace(hash, wtxIn);
+    CWalletTx& wtx = ins.first->second;
+    wtx.BindWallet(this);
+    if (/* insertion took place */ ins.second) {
+        wtx.m_it_wtxOrdered = wtxOrdered.insert(std::make_pair(wtx.nOrderPos, TxPair(&wtx, nullptr)));
+    }
+    AddToSpends(hash);
+    for (const CTxIn& txin : wtx.tx->vin) {
+        auto it = mapWallet.find(txin.prevout.hash);
+        if (it != mapWallet.end()) {
+            CWalletTx& prevtx = it->second;
+            if (prevtx.nIndex == -1 && !prevtx.hashUnset()) {
+                MarkConflicted(prevtx.hashBlock, wtx.GetHash());
+            }
+        }
+    }
+
+    return true;
+}
+
+/**
+ * Add a transaction to the wallet, or update it.  pIndex and posInBlock should
+ * be set when the transaction was known to be included in a block.  When
+ * pIndex == nullptr, then wallet state is not updated in AddToWallet, but
+ * notifications happen and cached balances are marked dirty.
+ *
+ * If fUpdate is true, existing transactions will be updated.
+ * TODO: One exception to this is that the abandoned state is cleared under the
+ * assumption that any further notification of a transaction that was considered
+ * abandoned is an indication that it is not safe to be considered abandoned.
+ * Abandoned state should probably be more carefully tracked via different
+ * posInBlock signals or by checking mempool presence when necessary.
+ */
+bool CWallet::AddToWalletIfInvolvingMe(const CTransactionRef& ptx, const CBlockIndex* pIndex, int posInBlock, bool fUpdate, bool rescanningOldBlock)
+{
+    const CTransaction& tx = *ptx;
+    {
+        AssertLockHeld(cs_main); // because of AddToWallet
+        AssertLockHeld(cs_wallet);
+
+        if (pIndex != nullptr) {
+            for (const CTxIn& txin : tx.vin) {
+                std::pair<TxSpends::const_iterator, TxSpends::const_iterator> range = mapTxSpends.equal_range(txin.prevout);
+                while (range.first != range.second) {
+                    if (range.first->second != tx.GetHash()) {
+                        LogPrintf("Transaction %s (in block %s) conflicts with wallet transaction %s (both spend %s:%i)\n", tx.GetHash().ToString(), pIndex->GetBlockHash().ToString(), range.first->second.ToString(), range.first->first.hash.ToString(), range.first->first.n);
+                        MarkConflicted(pIndex->GetBlockHash(), range.first->second);
+                    }
+                    range.first++;
+                }
+            }
+        }
+
+        bool fExisted = mapWallet.count(tx.GetHash()) != 0;
+        if (fExisted && !fUpdate) return false;
+        if (fExisted || IsMine(tx) || IsFromMe(tx)) {
+            /* Check if any keys in the wallet keypool that were supposed to be unused
+             * have appeared in a new transaction. If so, remove those keys from the keypool.
+             * This can happen when restoring an old wallet backup that does not contain
+             * the mostly recently created transactions from newer versions of the wallet.
+             */
+
+            WalletBatch batch(*database);
+            // loop though all outputs
+            for (const CTxOut& txout : tx.vout) {
+                // extract addresses, check if they match with an unused keypool key, update metadata if needed
+                std::vector<CKeyID> vAffected;
+                CAffectedKeysVisitor(*this, vAffected).Process(txout.scriptPubKey);
+                for (const CKeyID& keyid : vAffected) {
+                    std::map<CKeyID, int64_t>::const_iterator mi = m_pool_key_to_index.find(keyid);
+                    if (mi != m_pool_key_to_index.end()) {
+                        LogPrintf("%s: Detected a used keypool key, mark all keypool key up to this key as used\n", __func__);
+                        MarkReserveKeysAsUsed(mi->second);
+
+                        if (!TopUpKeyPool()) {
+                            LogPrintf("%s: Topping up keypool failed (locked wallet)\n", __func__);
+                        }
+                    }
+                    if (pIndex != nullptr && mapKeyMetadata[keyid].nCreateTime > pIndex->nTime) {
+                        LogPrintf("%s: Found a key which appears to be used earlier than we expected, updating metadata\n", __func__);
+                        CPubKey vchPubKey;
+                        bool res = GetPubKey(keyid, vchPubKey);
+                        assert(res); // this should never fail
+                        mapKeyMetadata[keyid].nCreateTime = pIndex->nTime;
+                        batch.WriteKeyMeta(vchPubKey, mapKeyMetadata[keyid]);
+                        UpdateTimeFirstKey(pIndex->nTime);
+                    }
+                }
+            }
+
+            CWalletTx wtx(this, ptx);
+
+            // Get merkle branch if transaction was found in a block
+            if (pIndex != nullptr)
+                wtx.SetMerkleBranch(pIndex, posInBlock);
+
+            return AddToWallet(wtx, false, rescanningOldBlock);
+        }
+    }
+    return false;
+}
+
+bool CWallet::TransactionCanBeAbandoned(const uint256& hashTx) const
+{
+    LOCK2(cs_main, cs_wallet);
+    const CWalletTx* wtx = GetWalletTx(hashTx);
+    return wtx && !wtx->isAbandoned() && wtx->GetDepthInMainChain() == 0 && !wtx->InMempool();
+}
+
+bool CWallet::AbandonTransaction(const uint256& hashTx)
+{
+    LOCK2(cs_main, cs_wallet);
+
+    WalletBatch batch(*database, "r+");
+
+    std::set<uint256> todo;
+    std::set<uint256> done;
+
+    // Can't mark abandoned if confirmed or in mempool
+    auto it = mapWallet.find(hashTx);
+    assert(it != mapWallet.end());
+    CWalletTx& origtx = it->second;
+    if (origtx.GetDepthInMainChain() != 0 || origtx.InMempool() || origtx.IsLockedByInstantSend()) {
+        return false;
+    }
+
+    todo.insert(hashTx);
+
+    while (!todo.empty()) {
+        uint256 now = *todo.begin();
+        todo.erase(now);
+        done.insert(now);
+        auto it = mapWallet.find(now);
+        assert(it != mapWallet.end());
+        CWalletTx& wtx = it->second;
+        int currentconfirm = wtx.GetDepthInMainChain();
+        // If the orig tx was not in block, none of its spends can be
+        assert(currentconfirm <= 0);
+        // if (currentconfirm < 0) {Tx and spends are already conflicted, no need to abandon}
+        if (currentconfirm == 0 && !wtx.isAbandoned()) {
+            // If the orig tx was not in block/mempool, none of its spends can be in mempool
+            assert(!wtx.InMempool());
+            wtx.nIndex = -1;
+            wtx.setAbandoned();
+            wtx.MarkDirty();
+            batch.WriteTx(wtx);
+            NotifyTransactionChanged(this, wtx.GetHash(), CT_UPDATED);
+            // Iterate over all its outputs, and mark transactions in the wallet that spend them abandoned too
+            TxSpends::const_iterator iter = mapTxSpends.lower_bound(COutPoint(now, 0));
+            while (iter != mapTxSpends.end() && iter->first.hash == now) {
+                if (!done.count(iter->second)) {
+                    todo.insert(iter->second);
+                }
+                iter++;
+            }
+            // If a transaction changes 'conflicted' state, that changes the balance
+            // available of the outputs it spends. So force those to be recomputed
+            for (const CTxIn& txin : wtx.tx->vin) {
+                auto it = mapWallet.find(txin.prevout.hash);
+                if (it != mapWallet.end()) {
+                    it->second.MarkDirty();
+                }
+            }
+        }
+    }
+
+    fAnonymizableTallyCached = false;
+    fAnonymizableTallyCachedNonDenom = false;
+
+    return true;
+}
+
+void CWallet::MarkConflicted(const uint256& hashBlock, const uint256& hashTx)
+{
+    LOCK2(cs_main, cs_wallet); // check "LOCK2(cs_main, pwallet->cs_wallet);" in WalletBatch::LoadWallet()
+
+    int conflictconfirms = 0;
+    CBlockIndex* pindex = LookupBlockIndex(hashBlock);
+    if (pindex && chainActive.Contains(pindex)) {
+        conflictconfirms = -(chainActive.Height() - pindex->nHeight + 1);
+    }
+    // If number of conflict confirms cannot be determined, this means
+    // that the block is still unknown or not yet part of the main chain,
+    // for example when loading the wallet during a reindex. Do nothing in that
+    // case.
+    if (conflictconfirms >= 0)
+        return;
+
+    // Do not flush the wallet here for performance reasons
+    WalletBatch batch(*database, "r+", false);
+
+    std::set<uint256> todo;
+    std::set<uint256> done;
+
+    todo.insert(hashTx);
+
+    while (!todo.empty()) {
+        uint256 now = *todo.begin();
+        todo.erase(now);
+        done.insert(now);
+        auto it = mapWallet.find(now);
+        assert(it != mapWallet.end());
+        CWalletTx& wtx = it->second;
+        int currentconfirm = wtx.GetDepthInMainChain();
+        if (conflictconfirms < currentconfirm) {
+            // Block is 'more conflicted' than current confirm; update.
+            // Mark transaction as conflicted with this block.
+            wtx.nIndex = -1;
+            wtx.hashBlock = hashBlock;
+            wtx.MarkDirty();
+            batch.WriteTx(wtx);
+            // Iterate over all its outputs, and mark transactions in the wallet that spend them conflicted too
+            TxSpends::const_iterator iter = mapTxSpends.lower_bound(COutPoint(now, 0));
+            while (iter != mapTxSpends.end() && iter->first.hash == now) {
+                if (!done.count(iter->second)) {
+                    todo.insert(iter->second);
+                }
+                iter++;
+            }
+            // If a transaction changes 'conflicted' state, that changes the balance
+            // available of the outputs it spends. So force those to be recomputed
+            for (const CTxIn& txin : wtx.tx->vin) {
+                auto it = mapWallet.find(txin.prevout.hash);
+                if (it != mapWallet.end()) {
+                    it->second.MarkDirty();
+                }
+            }
+        }
+    }
+
+    fAnonymizableTallyCached = false;
+    fAnonymizableTallyCachedNonDenom = false;
+}
+
+void CWallet::SyncTransaction(const CTransactionRef& ptx, const CBlockIndex* pindex, int posInBlock, bool rescanningOldBlock)
+{
+    const CTransaction& tx = *ptx;
+
+    if (!AddToWalletIfInvolvingMe(ptx, pindex, posInBlock, true, rescanningOldBlock))
+        return; // Not one of ours
+
+    // If a transaction changes 'conflicted' state, that changes the balance
+    // available of the outputs it spends. So force those to be
+    // recomputed, also:
+    for (const CTxIn& txin : tx.vin) {
+        auto it = mapWallet.find(txin.prevout.hash);
+        if (it != mapWallet.end()) {
+            it->second.MarkDirty();
+        }
+    }
+
+    fAnonymizableTallyCached = false;
+    fAnonymizableTallyCachedNonDenom = false;
+}
+
+void CWallet::TransactionAddedToMempool(const CTransactionRef& ptx, int64_t nAcceptTime)
+{
+    LOCK2(cs_main, cs_wallet);
+    SyncTransaction(ptx);
+
+    auto it = mapWallet.find(ptx->GetHash());
+    if (it != mapWallet.end()) {
+        it->second.fInMempool = true;
+    }
+}
+
+void CWallet::TransactionRemovedFromMempool(const CTransactionRef& ptx, MemPoolRemovalReason reason)
+{
+    if (reason != MemPoolRemovalReason::CONFLICT) {
+        LOCK(cs_wallet);
+        auto it = mapWallet.find(ptx->GetHash());
+        if (it != mapWallet.end()) {
+            it->second.fInMempool = false;
+        }
+    }
+}
+
+void CWallet::BlockConnected(const std::shared_ptr<const CBlock>& pblock, const CBlockIndex* pindex, const std::vector<CTransactionRef>& vtxConflicted)
+{
+    LOCK2(cs_main, cs_wallet);
+    // TODO: Temporarily ensure that mempool removals are notified before
+    // connected transactions.  This shouldn't matter, but the abandoned
+    // state of transactions in our wallet is currently cleared when we
+    // receive another notification and there is a race condition where
+    // notification of a connected conflict might cause an outside process
+    // to abandon a transaction and then have it inadvertently cleared by
+    // the notification that the conflicted transaction was evicted.
+
+    for (const CTransactionRef& ptx : vtxConflicted) {
+        SyncTransaction(ptx);
+        // UNKNOWN because it's a manual removal, not using mempool logic
+        TransactionRemovedFromMempool(ptx, MemPoolRemovalReason::UNKNOWN);
+    }
+    for (size_t i = 0; i < pblock->vtx.size(); i++) {
+        SyncTransaction(pblock->vtx[i], pindex, i);
+        // UNKNOWN because it's a manual removal, not using mempool logic
+        TransactionRemovedFromMempool(pblock->vtx[i], MemPoolRemovalReason::UNKNOWN);
+    }
+
+    m_last_block_processed = pindex;
+
+    // The GUI expects a NotifyTransactionChanged when a coinbase tx
+    // which is in our wallet moves from in-the-best-block to
+    // 2-confirmations (as it only displays them at that time).
+    // We do that here.
+    if (hashPrevBestCoinbase.IsNull()) {
+        // Immediately after restart we have no idea what the coinbase
+        // transaction from the previous block is.
+        // For correctness we scan over the entire wallet, looking for
+        // the previous block's coinbase, just in case it is ours, so
+        // that we can notify the UI that it should now be displayed.
+        if (pindex->pprev) {
+            for (const std::pair<const uint256, CWalletTx>& p : mapWallet) {
+                if (p.second.IsCoinBase() && p.second.hashBlock == pindex->pprev->GetBlockHash()) {
+                    NotifyTransactionChanged(this, p.first, CT_UPDATED);
+                    break;
+                }
+            }
+        }
+    } else {
+        std::map<uint256, CWalletTx>::const_iterator mi = mapWallet.find(hashPrevBestCoinbase);
+        if (mi != mapWallet.end()) {
+            NotifyTransactionChanged(this, hashPrevBestCoinbase, CT_UPDATED);
+        }
+    }
+
+    hashPrevBestCoinbase = pblock->vtx[0]->GetHash();
+
+    // reset cache to make sure no longer immature coins are included
+    fAnonymizableTallyCached = false;
+    fAnonymizableTallyCachedNonDenom = false;
+}
+
+void CWallet::BlockDisconnected(const std::shared_ptr<const CBlock>& pblock, const CBlockIndex* pindexDisconnected)
+{
+    LOCK2(cs_main, cs_wallet);
+
+    for (const CTransactionRef& ptx : pblock->vtx) {
+        // NOTE: do NOT pass pindex here
+        SyncTransaction(ptx);
+    }
+
+    // reset cache to make sure no longer mature coins are excluded
+    fAnonymizableTallyCached = false;
+    fAnonymizableTallyCachedNonDenom = false;
+}
+
+
+void CWallet::BlockUntilSyncedToCurrentChain()
+{
+    AssertLockNotHeld(cs_main);
+    AssertLockNotHeld(cs_wallet);
+
+    {
+        // Skip the queue-draining stuff if we know we're caught up with
+        // chainActive.Tip()...
+        // We could also take cs_wallet here, and call m_last_block_processed
+        // protected by cs_wallet instead of cs_main, but as long as we need
+        // cs_main here anyway, it's easier to just call it cs_main-protected.
+        LOCK(cs_main);
+        const CBlockIndex* initialChainTip = chainActive.Tip();
+
+        if (m_last_block_processed && m_last_block_processed->GetAncestor(initialChainTip->nHeight) == initialChainTip) {
+            return;
+        }
+    }
+
+    // ...otherwise put a callback in the validation interface queue and wait
+    // for the queue to drain enough to execute it (indicating we are caught up
+    // at least with the time we entered this function).
+    SyncWithValidationInterfaceQueue();
+}
+
+
+isminetype CWallet::IsMine(const CTxIn& txin) const
+{
+    {
+        LOCK(cs_wallet);
+        std::map<uint256, CWalletTx>::const_iterator mi = mapWallet.find(txin.prevout.hash);
+        if (mi != mapWallet.end()) {
+            const CWalletTx& prev = (*mi).second;
+            if (txin.prevout.n < prev.tx->vout.size())
+                return IsMine(prev.tx->vout[txin.prevout.n]);
+        }
+    }
+    return ISMINE_NO;
+}
+
+// Note that this function doesn't distinguish between a 0-valued input,
+// and a not-"is mine" (according to the filter) input.
+CAmount CWallet::GetDebit(const CTxIn& txin, const isminefilter& filter, isminefilter* mineTypes) const
+{
+    {
+        LOCK(cs_wallet);
+        std::map<uint256, CWalletTx>::const_iterator mi = mapWallet.find(txin.prevout.hash);
+        if (mi != mapWallet.end()) {
+            const CWalletTx& prev = (*mi).second;
+            if (txin.prevout.n < prev.tx->vout.size()) {
+                isminefilter txMineTypes = IsMine(prev.tx->vout[txin.prevout.n]);
+                if (txMineTypes & filter) {
+                    if (mineTypes) *mineTypes |= txMineTypes;
+                    return prev.tx->vout[txin.prevout.n].nValue;
+                }
+            }
+        }
+    }
+    return 0;
+}
+
+// Recursively determine the rounds of a given input (How deep is the CoinJoin chain for a given input)
+int CWallet::GetRealOutpointCoinJoinRounds(const COutPoint& outpoint, int nRounds) const
+{
+    LOCK(cs_wallet);
+
+    const int nRoundsMax = MAX_COINJOIN_ROUNDS + CCoinJoinClientOptions::GetRandomRounds();
+
+    if (nRounds >= nRoundsMax) {
+        // there can only be nRoundsMax rounds max
+        return nRoundsMax - 1;
+    }
+
+    auto pair = mapOutpointRoundsCache.emplace(outpoint, -10);
+    auto nRoundsRef = &pair.first->second;
+    if (!pair.second) {
+        // we already processed it, just return what we have
+        return *nRoundsRef;
+    }
+
+    // TODO wtx should refer to a CWalletTx object, not a pointer, based on surrounding code
+    const CWalletTx* wtx = GetWalletTx(outpoint.hash);
+
+    if (wtx == nullptr || wtx->tx == nullptr) {
+        // no such tx in this wallet
+        *nRoundsRef = -1;
+        LogPrint(BCLog::COINJOIN, "%s FAILED    %-70s %3d\n", __func__, outpoint.ToStringShort(), -1);
+        return *nRoundsRef;
+    }
+
+    // bounds check
+    if (outpoint.n >= wtx->tx->vout.size()) {
+        // should never actually hit this
+        *nRoundsRef = -4;
+        LogPrint(BCLog::COINJOIN, "%s FAILED    %-70s %3d\n", __func__, outpoint.ToStringShort(), -4);
+        return *nRoundsRef;
+    }
+
+    auto txOutRef = &wtx->tx->vout[outpoint.n];
+
+    if (CCoinJoin::IsCollateralAmount(txOutRef->nValue)) {
+        *nRoundsRef = -3;
+        LogPrint(BCLog::COINJOIN, "%s UPDATED   %-70s %3d\n", __func__, outpoint.ToStringShort(), *nRoundsRef);
+        return *nRoundsRef;
+    }
+
+    // make sure the final output is non-denominate
+    if (!CCoinJoin::IsDenominatedAmount(txOutRef->nValue)) { // NOT DENOM
+        *nRoundsRef = -2;
+        LogPrint(BCLog::COINJOIN, "%s UPDATED   %-70s %3d\n", __func__, outpoint.ToStringShort(), *nRoundsRef);
+        return *nRoundsRef;
+    }
+
+    for (const auto& out : wtx->tx->vout) {
+        if (!CCoinJoin::IsDenominatedAmount(out.nValue)) {
+            // this one is denominated but there is another non-denominated output found in the same tx
+            *nRoundsRef = 0;
+            LogPrint(BCLog::COINJOIN, "%s UPDATED   %-70s %3d\n", __func__, outpoint.ToStringShort(), *nRoundsRef);
+            return *nRoundsRef;
+        }
+    }
+
+    int nShortest = -10; // an initial value, should be no way to get this by calculations
+    bool fDenomFound = false;
+    // only denoms here so let's look up
+    for (const auto& txinNext : wtx->tx->vin) {
+        if (IsMine(txinNext)) {
+            int n = GetRealOutpointCoinJoinRounds(txinNext.prevout, nRounds + 1);
+            // denom found, find the shortest chain or initially assign nShortest with the first found value
+            if (n >= 0 && (n < nShortest || nShortest == -10)) {
+                nShortest = n;
+                fDenomFound = true;
+            }
+        }
+    }
+    *nRoundsRef = fDenomFound
+                      ? (nShortest >= nRoundsMax - 1 ? nRoundsMax : nShortest + 1) // good, we a +1 to the shortest one but only nRoundsMax rounds max allowed
+                      : 0;                                                         // too bad, we are the fist one in that chain
+    LogPrint(BCLog::COINJOIN, "%s UPDATED   %-70s %3d\n", __func__, outpoint.ToStringShort(), *nRoundsRef);
+    return *nRoundsRef;
+}
+
+// respect current settings
+int CWallet::GetCappedOutpointCoinJoinRounds(const COutPoint& outpoint) const
+{
+    LOCK(cs_wallet);
+    int realCoinJoinRounds = GetRealOutpointCoinJoinRounds(outpoint);
+    return realCoinJoinRounds > CCoinJoinClientOptions::GetRounds() ? CCoinJoinClientOptions::GetRounds() : realCoinJoinRounds;
+}
+
+bool CWallet::IsDenominated(const COutPoint& outpoint) const
+{
+    LOCK(cs_wallet);
+
+    const auto it = mapWallet.find(outpoint.hash);
+    if (it == mapWallet.end()) {
+        return false;
+    }
+
+    if (outpoint.n >= it->second.tx->vout.size()) {
+        return false;
+    }
+
+    return CCoinJoin::IsDenominatedAmount(it->second.tx->vout[outpoint.n].nValue);
+}
+
+bool CWallet::IsFullyMixed(const COutPoint& outpoint) const
+{
+    int nRounds = GetRealOutpointCoinJoinRounds(outpoint);
+    // Mix again if we don't have N rounds yet
+    if (nRounds < CCoinJoinClientOptions::GetRounds()) return false;
+
+    // Try to mix a "random" number of rounds more than minimum.
+    // If we have already mixed N + MaxOffset rounds, don't mix again.
+    // Otherwise, we should mix again 50% of the time, this results in an exponential decay
+    // N rounds 50% N+1 25% N+2 12.5%... until we reach N + GetRandomRounds() rounds where we stop.
+    if (nRounds < CCoinJoinClientOptions::GetRounds() + CCoinJoinClientOptions::GetRandomRounds()) {
+        CDataStream ss(SER_GETHASH, PROTOCOL_VERSION);
+        ss << outpoint << nCoinJoinSalt;
+        uint256 nHash;
+        CSHA256().Write((const unsigned char*)ss.data(), ss.size()).Finalize(nHash.begin());
+        if (nHash.GetCheapHash() % 2 == 0) {
+            return false;
+        }
+    }
+
+    return true;
+}
+
+isminetype CWallet::IsMine(const CTxOut& txout) const
+{
+    return ::IsMine(*this, txout.scriptPubKey);
+}
+
+CAmount CWallet::GetCredit(const CTxOut& txout, const isminefilter& filter, isminefilter* mineTypes) const
+{
+    if (!MoneyRange(txout.nValue))
+        throw std::runtime_error(std::string(__func__) + ": value out of range");
+    isminefilter txMineTypes = IsMine(txout);
+    if (txMineTypes & filter) {
+        if (mineTypes) *mineTypes |= txMineTypes;
+        return txout.nValue;
+    }
+    return 0;
+}
+
+bool CWallet::IsChange(const CTxOut& txout) const
+{
+    // TODO: fix handling of 'change' outputs. The assumption is that any
+    // payment to a script that is ours, but is not in the address book
+    // is change. That assumption is likely to break when we implement multisignature
+    // wallets that return change back into a multi-signature-protected address;
+    // a better way of identifying which outputs are 'the send' and which are
+    // 'the change' will need to be implemented (maybe extend CWalletTx to remember
+    // which output, if any, was change).
+    if (::IsMine(*this, txout.scriptPubKey)) {
+        CTxDestination address;
+        if (!ExtractDestination(txout.scriptPubKey, address))
+            return true;
+
+        LOCK(cs_wallet);
+        if (!mapAddressBook.count(address))
+            return true;
+    }
+    return false;
+}
+
+CAmount CWallet::GetChange(const CTxOut& txout) const
+{
+    if (!MoneyRange(txout.nValue))
+        throw std::runtime_error(std::string(__func__) + ": value out of range");
+    return (IsChange(txout) ? txout.nValue : 0);
+}
+
+void CWallet::GenerateNewHDChain(const SecureString& secureMnemonic, const SecureString& secureMnemonicPassphrase)
+{
+    CHDChain newHdChain;
+
+    // NOTE: an empty mnemonic means "generate a new one for me"
+    // NOTE: default mnemonic passphrase is an empty string
+    if (!newHdChain.SetMnemonic(secureMnemonic, secureMnemonicPassphrase, true)) {
+        throw std::runtime_error(std::string(__func__) + ": SetMnemonic failed");
+    }
+
+    newHdChain.Debug(__func__);
+
+    if (!SetHDChainSingle(newHdChain, false)) {
+        throw std::runtime_error(std::string(__func__) + ": SetHDChainSingle failed");
+    }
+
+    if (!NewKeyPool()) {
+        throw std::runtime_error(std::string(__func__) + ": NewKeyPool failed");
+    }
+}
+
+bool CWallet::GenerateNewHDChainEncrypted(const SecureString& secureMnemonic, const SecureString& secureMnemonicPassphrase, const SecureString& secureWalletPassphrase)
+{
+    LOCK(cs_wallet);
+
+    if (!IsCrypted()) {
+        return false;
+    }
+
+    CCrypter crypter;
+    CKeyingMaterial vMasterKey;
+    CHDChain hdChainTmp;
+
+    // NOTE: an empty mnemonic means "generate a new one for me"
+    // NOTE: default mnemonic passphrase is an empty string
+    if (!hdChainTmp.SetMnemonic(secureMnemonic, secureMnemonicPassphrase, true)) {
+        throw std::runtime_error(std::string(__func__) + ": SetMnemonic failed");
+    }
+
+    hdChainTmp.Debug(__func__);
+
+    for (const MasterKeyMap::value_type& pMasterKey : mapMasterKeys) {
+        if (!crypter.SetKeyFromPassphrase(secureWalletPassphrase, pMasterKey.second.vchSalt, pMasterKey.second.nDeriveIterations, pMasterKey.second.nDerivationMethod)) {
+            return false;
+        }
+        // get vMasterKey to encrypt new hdChain
+        if (!crypter.Decrypt(pMasterKey.second.vchCryptedKey, vMasterKey)) {
+            continue; // try another master key
+        }
+
+        bool res = EncryptHDChain(vMasterKey, hdChainTmp);
+        assert(res);
+
+        CHDChain hdChainCrypted;
+        res = GetHDChain(hdChainCrypted);
+        assert(res);
+
+        DBG(
+            printf("GenerateNewHDChainEncrypted -- current seed: '%s'\n", HexStr(hdChainTmp.GetSeed()).c_str());
+            printf("GenerateNewHDChainEncrypted -- crypted seed: '%s'\n", HexStr(hdChainCrypted.GetSeed()).c_str()););
+
+        // ids should match, seed hashes should not
+        assert(hdChainTmp.GetID() == hdChainCrypted.GetID());
+        assert(hdChainTmp.GetSeedHash() != hdChainCrypted.GetSeedHash());
+
+        hdChainCrypted.Debug(__func__);
+
+        if (SetCryptedHDChainSingle(hdChainCrypted, false)) {
+            Lock();
+            if (!Unlock(secureWalletPassphrase)) {
+                // this should never happen
+                throw std::runtime_error(std::string(__func__) + ": Unlock failed");
+            }
+            if (!NewKeyPool()) {
+                throw std::runtime_error(std::string(__func__) + ": NewKeyPool failed");
+            }
+            Lock();
+            return true;
+        }
+    }
+
+    return false;
+}
+
+bool CWallet::SetHDChain(WalletBatch& batch, const CHDChain& chain, bool memonly)
+{
+    LOCK(cs_wallet);
+
+    if (!CCryptoKeyStore::SetHDChain(chain))
+        return false;
+
+    if (!memonly && !batch.WriteHDChain(chain))
+        throw std::runtime_error(std::string(__func__) + ": WriteHDChain failed");
+
+    return true;
+}
+
+bool CWallet::SetCryptedHDChain(WalletBatch& batch, const CHDChain& chain, bool memonly)
+{
+    LOCK(cs_wallet);
+
+    if (!CCryptoKeyStore::SetCryptedHDChain(chain))
+        return false;
+
+    if (!memonly) {
+        if (encrypted_batch) {
+            if (!encrypted_batch->WriteCryptedHDChain(chain))
+                throw std::runtime_error(std::string(__func__) + ": WriteCryptedHDChain failed");
+        } else {
+            if (!batch.WriteCryptedHDChain(chain))
+                throw std::runtime_error(std::string(__func__) + ": WriteCryptedHDChain failed");
+        }
+    }
+
+    return true;
+}
+
+bool CWallet::SetHDChainSingle(const CHDChain& chain, bool memonly)
+{
+    WalletBatch batch(*database);
+    return SetHDChain(batch, chain, memonly);
+}
+
+bool CWallet::SetCryptedHDChainSingle(const CHDChain& chain, bool memonly)
+{
+    WalletBatch batch(*database);
+    return SetCryptedHDChain(batch, chain, memonly);
+}
+
+bool CWallet::GetDecryptedHDChain(CHDChain& hdChainRet)
+{
+    LOCK(cs_wallet);
+
+    CHDChain hdChainTmp;
+    if (!GetHDChain(hdChainTmp)) {
+        return false;
+    }
+
+    if (!DecryptHDChain(hdChainTmp))
+        return false;
+
+    // make sure seed matches this chain
+    if (hdChainTmp.GetID() != hdChainTmp.GetSeedHash())
+        return false;
+
+    hdChainRet = hdChainTmp;
+
+    return true;
+}
+
+bool CWallet::IsHDEnabled() const
+{
+    CHDChain hdChainCurrent;
+    return GetHDChain(hdChainCurrent);
+}
+
+bool CWallet::IsMine(const CTransaction& tx) const
+{
+    for (const CTxOut& txout : tx.vout)
+        if (IsMine(txout))
+            return true;
+    return false;
+}
+
+bool CWallet::IsFromMe(const CTransaction& tx) const
+{
+    return (GetDebit(tx, ISMINE_ALL) > 0);
+}
+
+CAmount CWallet::GetDebit(const CTransaction& tx, const isminefilter& filter, isminefilter* mineTypes) const
+{
+    CAmount nDebit = 0;
+    for (const CTxIn& txin : tx.vin) {
+        nDebit += GetDebit(txin, filter, mineTypes);
+        if (!MoneyRange(nDebit))
+            throw std::runtime_error(std::string(__func__) + ": value out of range");
+    }
+    return nDebit;
+}
+
+bool CWallet::IsAllFromMe(const CTransaction& tx, const isminefilter& filter) const
+{
+    LOCK(cs_wallet);
+
+    for (const CTxIn& txin : tx.vin) {
+        auto mi = mapWallet.find(txin.prevout.hash);
+        if (mi == mapWallet.end())
+            return false; // any unknown inputs can't be from us
+
+        const CWalletTx& prev = (*mi).second;
+
+        if (txin.prevout.n >= prev.tx->vout.size())
+            return false; // invalid input!
+
+        if (!(IsMine(prev.tx->vout[txin.prevout.n]) & filter))
+            return false;
+    }
+    return true;
+}
+
+CAmount CWallet::GetCredit(const CTransaction& tx, const isminefilter& filter, isminefilter* mineTypes) const
+{
+    CAmount nCredit = 0;
+    for (const CTxOut& txout : tx.vout) {
+        nCredit += GetCredit(txout, filter, mineTypes);
+        if (!MoneyRange(nCredit))
+            throw std::runtime_error(std::string(__func__) + ": value out of range");
+    }
+    return nCredit;
+}
+
+CAmount CWallet::GetChange(const CTransaction& tx) const
+{
+    CAmount nChange = 0;
+    for (const CTxOut& txout : tx.vout) {
+        nChange += GetChange(txout);
+        if (!MoneyRange(nChange))
+            throw std::runtime_error(std::string(__func__) + ": value out of range");
+    }
+    return nChange;
+}
+
+int64_t CWalletTx::GetTxTime() const
+{
+    int64_t n = nTimeSmart;
+    return n ? n : nTimeReceived;
+}
+
+bool CWalletTx::isFutureSpendable(unsigned int outputIndex) const
+{
+    bool isCoinSpendable;
+    if (tx->nType == TRANSACTION_FUTURE) {
+        CFutureTx futureTx;
+        if (GetTxPayload(tx->vExtraPayload, futureTx)) {
+            int maturity = GetDepthInMainChain();
+            int64_t adjustCurrentTime = GetAdjustedTime();
+            uint32_t confirmedTime = GetConfirmationTime();
+            // confirmedTime = currentTime if it is not confirmed so that time maturity math does not need special case
+            if (confirmedTime < 0) confirmedTime = adjustCurrentTime;
+            if (futureTx.lockOutputIndex == outputIndex) {
+                bool isBlockMature = futureTx.maturity >= 0 && maturity >= futureTx.maturity;
+                bool isTimeMature = futureTx.lockTime >= 0 && adjustCurrentTime - confirmedTime >= futureTx.lockTime;
+                isCoinSpendable = isBlockMature || isTimeMature;
+            } else {
+                isCoinSpendable = true;
+            }
+        } else {
+            isCoinSpendable = false;
+        }
+    } else {
+        isCoinSpendable = true;
+    }
+
+    return isCoinSpendable;
+}
+
+// Helper for producing a max-sized low-S signature (eg 72 bytes)
+bool CWallet::DummySignInput(CTxIn& tx_in, const CTxOut& txout) const
+{
+    // Fill in dummy signatures for fee calculation.
+    const CScript& scriptPubKey = txout.scriptPubKey;
+    SignatureData sigdata;
+
+    if (!ProduceSignature(DummySignatureCreator(this), scriptPubKey, sigdata)) {
+        return false;
+    } else {
+        UpdateInput(tx_in, sigdata);
+    }
+    return true;
+}
+
+// Helper for producing a bunch of max-sized low-S signatures (eg 72 bytes)
+bool CWallet::DummySignTx(CMutableTransaction& txNew, const std::vector<CTxOut>& txouts) const
+{
+    // Fill in dummy signatures for fee calculation.
+    int nIn = 0;
+    for (const auto& txout : txouts) {
+        if (!DummySignInput(txNew.vin[nIn], txout)) {
+            return false;
+        }
+
+        nIn++;
+    }
+    return true;
+}
+
+int64_t CalculateMaximumSignedTxSize(const CTransaction& tx, const CWallet* wallet)
+{
+    std::vector<CTxOut> txouts;
+    // Look up the inputs.  We should have already checked that this transaction
+    // IsAllFromMe(ISMINE_SPENDABLE), so every input should already be in our
+    // wallet, with a valid index into the vout array, and the ability to sign.
+    for (auto& input : tx.vin) {
+        const auto mi = wallet->mapWallet.find(input.prevout.hash);
+        if (mi == wallet->mapWallet.end()) {
+            return -1;
+        }
+        assert(input.prevout.n < mi->second.tx->vout.size());
+        txouts.emplace_back(mi->second.tx->vout[input.prevout.n]);
+    }
+    return CalculateMaximumSignedTxSize(tx, wallet, txouts);
+}
+
+// txouts needs to be in the order of tx.vin
+int64_t CalculateMaximumSignedTxSize(const CTransaction& tx, const CWallet* wallet, const std::vector<CTxOut>& txouts)
+{
+    CMutableTransaction txNew(tx);
+    if (!wallet->DummySignTx(txNew, txouts)) {
+        // This should never happen, because IsAllFromMe(ISMINE_SPENDABLE)
+        // implies that we can sign for every input.
+        return -1;
+    }
+    return ::GetSerializeSize(txNew, SER_NETWORK, PROTOCOL_VERSION);
+}
+
+int CalculateMaximumSignedInputSize(const CTxOut& txout, const CWallet* wallet)
+{
+    CMutableTransaction txn;
+    txn.vin.push_back(CTxIn(COutPoint()));
+    if (!wallet->DummySignInput(txn.vin[0], txout)) {
+        // This should never happen, because IsAllFromMe(ISMINE_SPENDABLE)
+        // implies that we can sign for every input.
+        return -1;
+    }
+    return ::GetSerializeSize(txn.vin[0], SER_NETWORK, PROTOCOL_VERSION);
+}
+
+void CWalletTx::GetAmounts(std::list<COutputEntry>& listReceived,
+    std::list<COutputEntry>& listSent,
+    CAmount& nFee,
+    std::string& strSentAccount,
+    const isminefilter& filter) const
+{
+    nFee = 0;
+    listReceived.clear();
+    listSent.clear();
+    strSentAccount = strFromAccount;
+
+    // Compute fee:
+    CAmount nDebit = GetDebit(filter);
+    if (nDebit > 0) // debit>0 means we signed/sent this transaction
+    {
+        CAmount nValueOut = tx->GetValueOut();
+        nFee = nDebit - nValueOut;
+    }
+
+    // Sent/received.
+    for (unsigned int i = 0; i < tx->vout.size(); ++i) {
+        const CTxOut& txout = tx->vout[i];
+        isminetype fIsMine = pwallet->IsMine(txout);
+        // Only need to handle txouts if AT LEAST one of these is true:
+        //   1) they debit from us (sent)
+        //   2) the output is to us (received)
+        if (nDebit > 0) {
+            // Don't report 'change' txouts
+            if (pwallet->IsChange(txout))
+                continue;
+        } else if (!(fIsMine & filter))
+            continue;
+
+        // In either case, we need to get the destination address
+        CTxDestination address;
+
+        if (!ExtractDestination(txout.scriptPubKey, address) && !txout.scriptPubKey.IsUnspendable()) {
+            LogPrintf("CWalletTx::GetAmounts: Unknown transaction type found, txid %s\n",
+                this->GetHash().ToString());
+            address = CNoDestination();
+        }
+
+        COutputEntry output = {address, txout.nValue, (int)i};
+
+        // If we are debited by the transaction, add the output as a "sent" entry
+        if (nDebit > 0)
+            listSent.push_back(output);
+
+        // If we are receiving the output, add it as a "received" entry
+        if (fIsMine & filter)
+            listReceived.push_back(output);
+    }
+}
+
+/**
+ * Scan active chain for relevant transactions after importing keys. This should
+ * be called whenever new keys are added to the wallet, with the oldest key
+ * creation time.
+ *
+ * @return Earliest timestamp that could be successfully scanned from. Timestamp
+ * returned will be higher than startTime if relevant blocks could not be read.
+ */
+int64_t CWallet::RescanFromTime(int64_t startTime, const WalletRescanReserver& reserver, bool update)
+{
+    // Find starting block. May be null if nCreateTime is greater than the
+    // highest blockchain timestamp, in which case there is nothing that needs
+    // to be scanned.
+    CBlockIndex* startBlock = nullptr;
+    {
+        LOCK(cs_main);
+        startBlock = chainActive.FindEarliestAtLeast(startTime - TIMESTAMP_WINDOW);
+        LogPrintf("%s: Rescanning last %i blocks\n", __func__, startBlock ? chainActive.Height() - startBlock->nHeight + 1 : 0);
+    }
+
+    if (startBlock) {
+        const CBlockIndex* const failedBlock = ScanForWalletTransactions(startBlock, nullptr, reserver, update);
+        if (failedBlock) {
+            return failedBlock->GetBlockTimeMax() + TIMESTAMP_WINDOW + 1;
+        }
+    }
+    return startTime;
+}
+
+/**
+ * Scan the block chain (starting in pindexStart) for transactions
+ * from or to us. If fUpdate is true, found transactions that already
+ * exist in the wallet will be updated.
+ *
+ * Returns null if scan was successful. Otherwise, if a complete rescan was not
+ * possible (due to pruning or corruption), returns pointer to the most recent
+ * block that could not be scanned.
+ *
+ * If pindexStop is not a nullptr, the scan will stop at the block-index
+ * defined by pindexStop
+ *
+ * Caller needs to make sure pindexStop (and the optional pindexStart) are on
+ * the main chain after to the addition of any new keys you want to detect
+ * transactions for.
+ */
+CBlockIndex* CWallet::ScanForWalletTransactions(CBlockIndex* pindexStart, CBlockIndex* pindexStop, const WalletRescanReserver& reserver, bool fUpdate)
+{
+    int64_t nNow = GetTime();
+    const CChainParams& chainParams = Params();
+
+    assert(reserver.isReserved());
+    if (pindexStop) {
+        assert(pindexStop->nHeight >= pindexStart->nHeight);
+    }
+
+    CBlockIndex* pindex = pindexStart;
+    CBlockIndex* ret = nullptr;
+
+    if (pindex) LogPrintf("Rescan started from block %d...\n", pindex->nHeight);
+
+    {
+        fAbortRescan = false;
+        ShowProgress(_("Rescanning..."), 0); // show rescan progress in GUI as dialog or on splashscreen, if -rescan on startup
+        CBlockIndex* tip = nullptr;
+        double progress_begin;
+        double progress_end;
+        {
+            LOCK(cs_main);
+            progress_begin = GuessVerificationProgress(chainParams.TxData(), pindex);
+            if (pindexStop == nullptr) {
+                tip = chainActive.Tip();
+                progress_end = GuessVerificationProgress(chainParams.TxData(), tip);
+            } else {
+                progress_end = GuessVerificationProgress(chainParams.TxData(), pindexStop);
+            }
+        }
+        double progress_current = progress_begin;
+        while (pindex && !fAbortRescan && !ShutdownRequested()) {
+            m_scanning_progress = (progress_current - progress_begin) / (progress_end - progress_begin);
+            if (pindex->nHeight % 100 == 0 && progress_end - progress_begin > 0.0) {
+                ShowProgress(_("Rescanning..."), std::max(1, std::min(99, (int)(m_scanning_progress * 100))));
+            }
+            if (GetTime() >= nNow + 60) {
+                nNow = GetTime();
+                LogPrintf("Still rescanning. At block %d. Progress=%f\n", pindex->nHeight, progress_current);
+            }
+
+            CBlock block;
+            if (ReadBlockFromDisk(block, pindex, Params().GetConsensus())) {
+                LOCK2(cs_main, cs_wallet);
+                if (pindex && !chainActive.Contains(pindex)) {
+                    // Abort scan if current block is no longer active, to prevent
+                    // marking transactions as coming from the wrong block.
+                    ret = pindex;
+                    break;
+                }
+                for (size_t posInBlock = 0; posInBlock < block.vtx.size(); ++posInBlock) {
+                    AddToWalletIfInvolvingMe(block.vtx[posInBlock], pindex, posInBlock, fUpdate, true);
+                }
+            } else {
+                ret = pindex;
+            }
+            if (pindex == pindexStop) {
+                break;
+            }
+            {
+                LOCK(cs_main);
+                pindex = chainActive.Next(pindex);
+                progress_current = GuessVerificationProgress(chainParams.TxData(), pindex);
+                if (pindexStop == nullptr && tip != chainActive.Tip()) {
+                    tip = chainActive.Tip();
+                    // in case the tip has changed, update progress max
+                    progress_end = GuessVerificationProgress(chainParams.TxData(), tip);
+                }
+            }
+        }
+        if (pindex && fAbortRescan) {
+            LogPrintf("Rescan aborted at block %d. Progress=%f\n", pindex->nHeight, progress_current);
+        } else if (pindex && ShutdownRequested()) {
+            LogPrintf("Rescan interrupted by shutdown request at block %d. Progress=%f\n", pindex->nHeight, progress_current);
+        }
+        ShowProgress(_("Rescanning..."), 100); // hide progress dialog in GUI
+    }
+    return ret;
+}
+
+void CWallet::ReacceptWalletTransactions()
+{
+    // If transactions aren't being broadcasted, don't let them into local mempool either
+    if (!fBroadcastTransactions)
+        return;
+    LOCK2(cs_main, mempool.cs);
+    LOCK(cs_wallet);
+    std::map<int64_t, CWalletTx*> mapSorted;
+
+    // Sort pending wallet transactions based on their initial wallet insertion order
+    for (std::pair<const uint256, CWalletTx>& item : mapWallet) {
+        const uint256& wtxid = item.first;
+        CWalletTx& wtx = item.second;
+        assert(wtx.GetHash() == wtxid);
+
+        int nDepth = wtx.GetDepthInMainChain();
+
+        if (!wtx.IsCoinBase() && (nDepth == 0 && !wtx.IsLockedByInstantSend() && !wtx.isAbandoned())) {
+            mapSorted.insert(std::make_pair(wtx.nOrderPos, &wtx));
+        }
+    }
+
+    // Try to add wallet transactions to memory pool
+    for (std::pair<const int64_t, CWalletTx*>& item : mapSorted) {
+        CWalletTx& wtx = *(item.second);
+        CValidationState state;
+        wtx.AcceptToMemoryPool(maxTxFee, state);
+    }
+}
+
+bool CWalletTx::RelayWalletTransaction(CConnman* connman)
+{
+    assert(pwallet->GetBroadcastTransactions());
+    if (!IsCoinBase() && !isAbandoned() && GetDepthInMainChain() == 0) {
+        CValidationState state;
+        /* GetDepthInMainChain already catches known conflicts. */
+        if (InMempool() || AcceptToMemoryPool(maxTxFee, state)) {
+            uint256 hash = GetHash();
+            LogPrintf("Relaying wtx %s\n", hash.ToString());
+
+            if (connman) {
+                connman->RelayTransaction(*tx);
+                return true;
+            }
+        }
+    }
+    return false;
+}
+
+std::set<uint256> CWalletTx::GetConflicts() const
+{
+    std::set<uint256> result;
+    if (pwallet != nullptr) {
+        uint256 myHash = GetHash();
+        result = pwallet->GetConflicts(myHash);
+        result.erase(myHash);
+    }
+    return result;
+}
+
+CAmount CWalletTx::GetDebit(const isminefilter& filter, isminefilter* mineTypes) const
+{
+    if (tx->vin.empty())
+        return 0;
+
+    CAmount debit = 0;
+    if (filter & ISMINE_SPENDABLE) {
+        if (fDebitCached) {
+            debit += nDebitCached;
+            if (mineTypes && nDebitCached > 0.0) *mineTypes |= ISMINE_SPENDABLE;
+        } else {
+            nDebitCached = pwallet->GetDebit(*tx, ISMINE_SPENDABLE);
+            fDebitCached = true;
+            debit += nDebitCached;
+        }
+    }
+    if (filter & ISMINE_WATCH_ONLY) {
+        if (fWatchDebitCached) {
+            debit += nWatchDebitCached;
+            if (mineTypes && nWatchDebitCached > 0.0) *mineTypes |= ISMINE_WATCH_ONLY;
+        } else {
+            nWatchDebitCached = pwallet->GetDebit(*tx, ISMINE_WATCH_ONLY);
+            fWatchDebitCached = true;
+            debit += nWatchDebitCached;
+        }
+    }
+    return debit;
+}
+
+CAmount CWalletTx::GetCredit(const isminefilter& filter, isminefilter* mineTypes) const
+{
+    // Must wait until coinbase is safely deep enough in the chain before valuing it
+    if (IsCoinBase() && GetBlocksToMaturity() > 0)
+        return 0;
+
+    CAmount credit = 0;
+    if (filter & ISMINE_SPENDABLE) {
+        // GetBalance can assume transactions in mapWallet won't change
+        if (fCreditCached) {
+            credit += nCreditCached;
+            if (mineTypes && nCreditCached > 0.0) *mineTypes |= ISMINE_SPENDABLE;
+        } else {
+            nCreditCached = pwallet->GetCredit(*tx, ISMINE_SPENDABLE);
+            fCreditCached = true;
+            credit += nCreditCached;
+        }
+    }
+    if (filter & ISMINE_WATCH_ONLY) {
+        if (fWatchCreditCached) {
+            credit += nWatchCreditCached;
+            if (mineTypes && nWatchCreditCached > 0.0) *mineTypes |= ISMINE_WATCH_ONLY;
+        } else {
+            nWatchCreditCached = pwallet->GetCredit(*tx, ISMINE_WATCH_ONLY);
+            fWatchCreditCached = true;
+            credit += nWatchCreditCached;
+        }
+    }
+    return credit;
+}
+
+CAmount CWalletTx::GetImmatureCredit(bool fUseCache) const
+{
+    if (IsCoinBase() && GetBlocksToMaturity() > 0 && IsInMainChain()) {
+        if (fUseCache && fImmatureCreditCached)
+            return nImmatureCreditCached;
+        nImmatureCreditCached = pwallet->GetCredit(*tx, ISMINE_SPENDABLE);
+        fImmatureCreditCached = true;
+        return nImmatureCreditCached;
+    }
+
+    return 0;
+}
+
+CAmount CWalletTx::GetAvailableCredit(bool fUseCache, const isminefilter& filter) const
+{
+    if (pwallet == nullptr)
+        return 0;
+
+    // Must wait until coinbase is safely deep enough in the chain before valuing it
+    if (IsCoinBase() && GetBlocksToMaturity() > 0)
+        return 0;
+
+    CAmount* cache = nullptr;
+    bool* cache_used = nullptr;
+
+    if (filter == ISMINE_SPENDABLE) {
+        cache = &nAvailableCreditCached;
+        cache_used = &fAvailableCreditCached;
+    } else if (filter == ISMINE_WATCH_ONLY) {
+        cache = &nAvailableWatchCreditCached;
+        cache_used = &fAvailableWatchCreditCached;
+    }
+
+    if (fUseCache && cache_used && *cache_used) {
+        return *cache;
+    }
+
+    CAmount nCredit = 0;
+    uint256 hashTx = GetHash();
+    for (unsigned int i = 0; i < tx->vout.size(); i++) {
+        if (!pwallet->IsSpent(hashTx, i)) {
+            const CTxOut& txout = tx->vout[i];
+            nCredit += pwallet->GetCredit(txout, filter);
+            if (!MoneyRange(nCredit))
+                throw std::runtime_error(std::string(__func__) + ": value out of range");
+        }
+    }
+
+    if (cache) {
+        *cache = nCredit;
+        assert(cache_used);
+        *cache_used = true;
+    }
+    return nCredit;
+}
+
+CAmount CWalletTx::GetImmatureWatchOnlyCredit(const bool fUseCache) const
+{
+    if (IsCoinBase() && GetBlocksToMaturity() > 0 && IsInMainChain()) {
+        if (fUseCache && fImmatureWatchCreditCached)
+            return nImmatureWatchCreditCached;
+        nImmatureWatchCreditCached = pwallet->GetCredit(*tx, ISMINE_WATCH_ONLY);
+        fImmatureWatchCreditCached = true;
+        return nImmatureWatchCreditCached;
+    }
+
+    return 0;
+}
+
+CAmount CWalletTx::GetAnonymizedCredit(const CCoinControl* coinControl) const
+{
+    if (!pwallet)
+        return 0;
+
+    // Exclude coinbase and conflicted txes
+    if (IsCoinBase() || GetDepthInMainChain() < 0)
+        return 0;
+
+    if (coinControl == nullptr && fAnonymizedCreditCached)
+        return nAnonymizedCreditCached;
+
+    CAmount nCredit = 0;
+    uint256 hashTx = GetHash();
+    for (unsigned int i = 0; i < tx->vout.size(); i++) {
+        const CTxOut& txout = tx->vout[i];
+        const COutPoint outpoint = COutPoint(hashTx, i);
+
+        if (coinControl != nullptr && coinControl->HasSelected() && !coinControl->IsSelected(outpoint)) {
+            continue;
+        }
+
+        if (pwallet->IsSpent(hashTx, i) || !CCoinJoin::IsDenominatedAmount(txout.nValue)) continue;
+
+        if (pwallet->IsFullyMixed(outpoint)) {
+            nCredit += pwallet->GetCredit(txout, ISMINE_SPENDABLE);
+            if (!MoneyRange(nCredit))
+                throw std::runtime_error(std::string(__func__) + ": value out of range");
+        }
+    }
+
+    if (coinControl == nullptr) {
+        nAnonymizedCreditCached = nCredit;
+        fAnonymizedCreditCached = true;
+    }
+
+    return nCredit;
+}
+
+CAmount CWalletTx::GetDenominatedCredit(bool unconfirmed, bool fUseCache) const
+{
+    if (pwallet == nullptr)
+        return 0;
+
+    // Must wait until coinbase is safely deep enough in the chain before valuing it
+    if (IsCoinBase() && GetBlocksToMaturity() > 0)
+        return 0;
+
+    int nDepth = GetDepthInMainChain();
+    if (nDepth < 0) return 0;
+
+    bool isUnconfirmed = IsTrusted() && nDepth == 0;
+    if (unconfirmed != isUnconfirmed) return 0;
+
+    if (fUseCache) {
+        if (unconfirmed && fDenomUnconfCreditCached)
+            return nDenomUnconfCreditCached;
+        else if (!unconfirmed && fDenomConfCreditCached)
+            return nDenomConfCreditCached;
+    }
+
+    CAmount nCredit = 0;
+    uint256 hashTx = GetHash();
+    for (unsigned int i = 0; i < tx->vout.size(); i++) {
+        const CTxOut& txout = tx->vout[i];
+
+        if (pwallet->IsSpent(hashTx, i) || !CCoinJoin::IsDenominatedAmount(txout.nValue)) continue;
+
+        nCredit += pwallet->GetCredit(txout, ISMINE_SPENDABLE);
+        if (!MoneyRange(nCredit))
+            throw std::runtime_error(std::string(__func__) + ": value out of range");
+    }
+
+    if (unconfirmed) {
+        nDenomUnconfCreditCached = nCredit;
+        fDenomUnconfCreditCached = true;
+    } else {
+        nDenomConfCreditCached = nCredit;
+        fDenomConfCreditCached = true;
+    }
+    return nCredit;
+}
+
+CAmount CWalletTx::GetChange() const
+{
+    if (fChangeCached)
+        return nChangeCached;
+    nChangeCached = pwallet->GetChange(*tx);
+    fChangeCached = true;
+    return nChangeCached;
+}
+
+bool CWalletTx::InMempool() const
+{
+    return fInMempool;
+}
+
+bool CWalletTx::IsTrusted() const
+{
+    // Quick answer in most cases
+    if (!CheckFinalTx(*tx))
+        return false;
+    int nDepth = GetDepthInMainChain();
+    if (nDepth >= 1)
+        return true;
+    if (nDepth < 0)
+        return false;
+    if (IsLockedByInstantSend())
+        return true;
+    if (!bSpendZeroConfChange || !IsFromMe(ISMINE_ALL)) // using wtx's cached debit
+        return false;
+
+    // Don't trust unconfirmed transactions from us unless they are in the mempool.
+    if (!InMempool())
+        return false;
+
+    // Trusted if all inputs are from us and are in the mempool:
+    for (const CTxIn& txin : tx->vin) {
+        // Transactions not sent by us: not trusted
+        const CWalletTx* parent = pwallet->GetWalletTx(txin.prevout.hash);
+        if (parent == nullptr)
+            return false;
+        const CTxOut& parentOut = parent->tx->vout[txin.prevout.n];
+        if (pwallet->IsMine(parentOut) != ISMINE_SPENDABLE)
+            return false;
+    }
+    return true;
+}
+
+bool CWalletTx::IsEquivalentTo(const CWalletTx& _tx) const
+{
+    CMutableTransaction tx1 = *this->tx;
+    CMutableTransaction tx2 = *_tx.tx;
+    for (auto& txin : tx1.vin)
+        txin.scriptSig = CScript();
+    for (auto& txin : tx2.vin)
+        txin.scriptSig = CScript();
+    return CTransaction(tx1) == CTransaction(tx2);
+}
+
+std::vector<uint256> CWallet::ResendWalletTransactionsBefore(int64_t nTime, CConnman* connman)
+{
+    std::vector<uint256> result;
+
+    LOCK2(mempool.cs, cs_wallet);
+
+    // Sort them in chronological order
+    std::multimap<unsigned int, CWalletTx*> mapSorted;
+    for (std::pair<const uint256, CWalletTx>& item : mapWallet) {
+        CWalletTx& wtx = item.second;
+        // Don't rebroadcast if newer than nTime:
+        if (wtx.nTimeReceived > nTime)
+            continue;
+        mapSorted.insert(std::make_pair(wtx.nTimeReceived, &wtx));
+    }
+    for (std::pair<const unsigned int, CWalletTx*>& item : mapSorted) {
+        CWalletTx& wtx = *item.second;
+        if (wtx.RelayWalletTransaction(connman))
+            result.push_back(wtx.GetHash());
+    }
+    return result;
+}
+
+void CWallet::ResendWalletTransactions(int64_t nBestBlockTime, CConnman* connman)
+{
+    // Do this infrequently and randomly to avoid giving away
+    // that these are our transactions.
+    if (GetTime() < nNextResend || !fBroadcastTransactions)
+        return;
+    bool fFirst = (nNextResend == 0);
+    nNextResend = GetTime() + GetRand(30 * 60);
+    if (fFirst)
+        return;
+
+    // Only do it if there's been a new block since last time
+    if (nBestBlockTime < nLastResend)
+        return;
+    nLastResend = GetTime();
+
+    // Rebroadcast unconfirmed txes older than 5 minutes before the last
+    // block was found:
+    std::vector<uint256> relayed = ResendWalletTransactionsBefore(nBestBlockTime - 5 * 60, connman);
+    if (!relayed.empty())
+        LogPrintf("%s: rebroadcast %u unconfirmed transactions\n", __func__, relayed.size());
+}
+/** @} */ // end of mapWallet
+
+
+/** @defgroup Actions
+ *
+ * @{
+ */
+
+
+std::unordered_set<const CWalletTx*, WalletTxHasher> CWallet::GetSpendableTXs() const
+{
+    AssertLockHeld(cs_wallet);
+
+    std::unordered_set<const CWalletTx*, WalletTxHasher> ret;
+    for (auto it = setWalletUTXO.begin(); it != setWalletUTXO.end();) {
+        const auto& outpoint = *it;
+        const auto jt = mapWallet.find(outpoint.hash);
+        if (jt != mapWallet.end()) {
+            ret.emplace(&jt->second);
+        }
+
+        // setWalletUTXO is sorted by COutPoint, which means that all UTXOs for the same TX are neighbors
+        // skip entries until we encounter a new TX
+        while (it != setWalletUTXO.end() && it->hash == outpoint.hash) {
+            ++it;
+        }
+    }
+    return ret;
+}
+
+CAmount CWallet::GetBalance(const isminefilter& filter, const int min_depth, const bool fAddLocked) const
+{
+    CAmount nTotal = 0;
+    {
+        LOCK2(cs_main, cs_wallet);
+        for (auto pcoin : GetSpendableTXs()) {
+            if (pcoin->IsTrusted() && ((pcoin->GetDepthInMainChain() >= min_depth) || (fAddLocked && pcoin->IsLockedByInstantSend()))) {
+                nTotal += pcoin->GetAvailableCredit(true, filter);
+            }
+        }
+    }
+
+    return nTotal;
+}
+
+CAmount CWallet::GetAnonymizableBalance(bool fSkipDenominated, bool fSkipUnconfirmed) const
+{
+    if (!CCoinJoinClientOptions::IsEnabled()) return 0;
+
+    std::vector<CompactTallyItem> vecTally;
+    if (!SelectCoinsGroupedByAddresses(vecTally, fSkipDenominated, true, fSkipUnconfirmed)) return 0;
+
+    CAmount nTotal = 0;
+
+    const CAmount nSmallestDenom = CCoinJoin::GetSmallestDenomination();
+    const CAmount nMixingCollateral = CCoinJoin::GetCollateralAmount();
+    for (const auto& item : vecTally) {
+        bool fIsDenominated = CCoinJoin::IsDenominatedAmount(item.nAmount);
+        if (fSkipDenominated && fIsDenominated) continue;
+        // assume that the fee to create denoms should be mixing collateral at max
+        if (item.nAmount >= nSmallestDenom + (fIsDenominated ? 0 : nMixingCollateral))
+            nTotal += item.nAmount;
+    }
+
+    return nTotal;
+}
+
+CAmount CWallet::GetAnonymizedBalance(const CCoinControl* coinControl) const
+{
+    if (!CCoinJoinClientOptions::IsEnabled()) return 0;
+
+    CAmount nTotal = 0;
+
+    LOCK2(cs_main, cs_wallet);
+
+    for (auto pcoin : GetSpendableTXs()) {
+        nTotal += pcoin->GetAnonymizedCredit(coinControl);
+    }
+
+    return nTotal;
+}
+
+// Note: calculated including unconfirmed,
+// that's ok as long as we use it for informational purposes only
+float CWallet::GetAverageAnonymizedRounds() const
+{
+    if (!CCoinJoinClientOptions::IsEnabled()) return 0;
+
+    int nTotal = 0;
+    int nCount = 0;
+
+    LOCK2(cs_main, cs_wallet);
+    for (const auto& outpoint : setWalletUTXO) {
+        if (!IsDenominated(outpoint)) continue;
+
+        nTotal += GetCappedOutpointCoinJoinRounds(outpoint);
+        nCount++;
+    }
+
+    if (nCount == 0) return 0;
+
+    return (float)nTotal / nCount;
+}
+
+// Note: calculated including unconfirmed,
+// that's ok as long as we use it for informational purposes only
+CAmount CWallet::GetNormalizedAnonymizedBalance() const
+{
+    if (!CCoinJoinClientOptions::IsEnabled()) return 0;
+
+    CAmount nTotal = 0;
+
+    LOCK2(cs_main, cs_wallet);
+    for (const auto& outpoint : setWalletUTXO) {
+        const auto it = mapWallet.find(outpoint.hash);
+        if (it == mapWallet.end()) continue;
+
+        CAmount nValue = it->second.tx->vout[outpoint.n].nValue;
+        if (!CCoinJoin::IsDenominatedAmount(nValue)) continue;
+        if (it->second.GetDepthInMainChain() < 0) continue;
+
+        int nRounds = GetCappedOutpointCoinJoinRounds(outpoint);
+        nTotal += nValue * nRounds / CCoinJoinClientOptions::GetRounds();
+    }
+
+    return nTotal;
+}
+
+CAmount CWallet::GetDenominatedBalance(bool unconfirmed) const
+{
+    if (!CCoinJoinClientOptions::IsEnabled()) return 0;
+
+    CAmount nTotal = 0;
+
+    LOCK2(cs_main, cs_wallet);
+
+    for (auto pcoin : GetSpendableTXs()) {
+        nTotal += pcoin->GetDenominatedCredit(unconfirmed);
+    }
+
+    return nTotal;
+}
+
+CAmount CWallet::GetUnconfirmedBalance() const
+{
+    CAmount nTotal = 0;
+    {
+        LOCK2(cs_main, cs_wallet);
+        for (auto pcoin : GetSpendableTXs()) {
+            if (!pcoin->IsTrusted() && pcoin->GetDepthInMainChain() == 0 && !pcoin->IsLockedByInstantSend() && pcoin->InMempool())
+                nTotal += pcoin->GetAvailableCredit();
+        }
+    }
+    return nTotal;
+}
+
+CAmount CWallet::GetImmatureBalance() const
+{
+    CAmount nTotal = 0;
+    {
+        LOCK2(cs_main, cs_wallet);
+        for (auto pcoin : GetSpendableTXs()) {
+            nTotal += pcoin->GetImmatureCredit();
+        }
+    }
+    return nTotal;
+}
+
+CAmount CWallet::GetUnconfirmedWatchOnlyBalance() const
+{
+    CAmount nTotal = 0;
+    {
+        LOCK2(cs_main, cs_wallet);
+        for (auto pcoin : GetSpendableTXs()) {
+            if (!pcoin->IsTrusted() && pcoin->GetDepthInMainChain() == 0 && !pcoin->IsLockedByInstantSend() && pcoin->InMempool())
+                nTotal += pcoin->GetAvailableCredit(true, ISMINE_WATCH_ONLY);
+        }
+    }
+    return nTotal;
+}
+
+CAmount CWallet::GetImmatureWatchOnlyBalance() const
+{
+    CAmount nTotal = 0;
+    {
+        LOCK2(cs_main, cs_wallet);
+        for (auto pcoin : GetSpendableTXs()) {
+            nTotal += pcoin->GetImmatureWatchOnlyCredit();
+        }
+    }
+    return nTotal;
+}
+
+// Calculate total balance in a different way from GetBalance. The biggest
+// difference is that GetBalance sums up all unspent TxOuts paying to the
+// wallet, while this sums up both spent and unspent TxOuts paying to the
+// wallet, and then subtracts the values of TxIns spending from the wallet. This
+// also has fewer restrictions on which unconfirmed transactions are considered
+// trusted.
+CAmount CWallet::GetLegacyBalance(const isminefilter& filter, int minDepth, const std::string* account, const bool fAddLocked) const
+{
+    LOCK2(cs_main, cs_wallet);
+
+    CAmount balance = 0;
+    for (const auto& entry : mapWallet) {
+        const CWalletTx& wtx = entry.second;
+        const int depth = wtx.GetDepthInMainChain();
+        if (depth < 0 || !CheckFinalTx(*wtx.tx) || wtx.GetBlocksToMaturity() > 0) {
+            continue;
+        }
+
+        // Loop through tx outputs and add incoming payments. For outgoing txs,
+        // treat change outputs specially, as part of the amount debited.
+        CAmount debit = wtx.GetDebit(filter);
+        const bool outgoing = debit > 0;
+        for (const CTxOut& out : wtx.tx->vout) {
+            if (outgoing && IsChange(out)) {
+                debit -= out.nValue;
+            } else if (IsMine(out) & filter && (depth >= minDepth || (fAddLocked && wtx.IsLockedByInstantSend())) && (!account || *account == GetLabelName(out.scriptPubKey))) {
+                balance += out.nValue;
+            }
+        }
+
+        // For outgoing txs, subtract amount debited.
+        if (outgoing && (!account || *account == wtx.strFromAccount)) {
+            balance -= debit;
+        }
+    }
+
+    if (account) {
+        balance += WalletBatch(*database).GetAccountCreditDebit(*account);
+    }
+
+    return balance;
+}
+
+CAmount CWallet::GetAvailableBalance(const CCoinControl* coinControl) const
+{
+    LOCK2(cs_main, cs_wallet);
+
+    CAmount balance = 0;
+    std::vector<COutput> vCoins;
+    AvailableCoins(vCoins, true, coinControl);
+    for (const COutput& out : vCoins) {
+        if (out.fSpendable && out.isFutureSpendable) {
+            balance += out.tx->tx->vout[out.i].nValue;
+        }
+    }
+    return balance;
+}
+
+void CWallet::AvailableCoins(std::vector<COutput>& vCoins, bool fOnlySafe, const CCoinControl* coinControl, const CAmount& nMinimumAmount, const CAmount& nMaximumAmount, const CAmount& nMinimumSumAmount, const uint64_t nMaximumCount, const int nMinDepth, const int nMaxDepth) const
+{
+    AssertLockHeld(cs_main);
+    AssertLockHeld(cs_wallet);
+
+    vCoins.clear();
+    CoinType nCoinType = coinControl ? coinControl->nCoinType : CoinType::ALL_COINS;
+    SmartnodeCollaterals collaterals = Params().GetConsensus().nCollaterals;
+
+    CAmount nTotal = 0;
+
+    for (auto pcoin : GetSpendableTXs()) {
+        const uint256& wtxid = pcoin->GetHash();
+
+        if (!CheckFinalTx(*pcoin->tx))
+            continue;
+
+        if (pcoin->IsCoinBase() && pcoin->GetBlocksToMaturity() > 0)
+            continue;
+
+        int nDepth = pcoin->GetDepthInMainChain();
+
+        // We should not consider coins which aren't at least in our mempool
+        // It's possible for these to be conflicted via ancestors which we may never be able to detect
+        if (nDepth == 0 && !pcoin->InMempool())
+            continue;
+
+        bool safeTx = pcoin->IsTrusted(); // This doesn't account for future Tx outputs - we check that below.
+
+        if (fOnlySafe && !safeTx) {
+            continue;
+        }
+
+        if (nDepth < nMinDepth || nDepth > nMaxDepth)
+            continue;
+
+        for (unsigned int i = 0; i < pcoin->tx->vout.size(); i++) {
+            bool found = false;
+            if (nCoinType == CoinType::ONLY_FULLY_MIXED) {
+                if (!CCoinJoin::IsDenominatedAmount(pcoin->tx->vout[i].nValue)) continue;
+                found = IsFullyMixed(COutPoint(wtxid, i));
+            } else if (nCoinType == CoinType::ONLY_READY_TO_MIX) {
+                if (!CCoinJoin::IsDenominatedAmount(pcoin->tx->vout[i].nValue)) continue;
+                found = !IsFullyMixed(COutPoint(wtxid, i));
+            } else if (nCoinType == CoinType::ONLY_NONDENOMINATED) {
+                if (CCoinJoin::IsCollateralAmount(pcoin->tx->vout[i].nValue)) continue; // do not use collateral amounts
+                found = !CCoinJoin::IsDenominatedAmount(pcoin->tx->vout[i].nValue);
+            } else if (nCoinType == CoinType::ONLY_SMARTNODE_COLLATERAL) {
+                found = collaterals.isValidCollateral(pcoin->tx->vout[i].nValue);
+            } else if (nCoinType == CoinType::ONLY_COINJOIN_COLLATERAL) {
+                found = CCoinJoin::IsCollateralAmount(pcoin->tx->vout[i].nValue);
+            } else {
+                found = true;
+            }
+            if (!found) continue;
+
+            if (pcoin->tx->vout[i].nValue < nMinimumAmount || pcoin->tx->vout[i].nValue > nMaximumAmount)
+                continue;
+
+            if (coinControl && coinControl->HasSelected() && !coinControl->fAllowOtherInputs && !coinControl->IsSelected(COutPoint(wtxid, i)))
+                continue;
+
+            if (IsLockedCoin(wtxid, i) && nCoinType != CoinType::ONLY_SMARTNODE_COLLATERAL)
+                continue;
+
+            if (IsSpent(wtxid, i))
+                continue;
+
+            isminetype mine = IsMine(pcoin->tx->vout[i]);
+
+            if (mine == ISMINE_NO) {
+                continue;
+            }
+
+            bool fSpendableIn = ((mine & ISMINE_SPENDABLE) != ISMINE_NO) || (coinControl && coinControl->fAllowWatchOnly && (mine & ISMINE_WATCH_SOLVABLE) != ISMINE_NO);
+            bool fSolvableIn = (mine & (ISMINE_SPENDABLE | ISMINE_WATCH_SOLVABLE)) != ISMINE_NO;
+            bool isCoinSpendable = pcoin->isFutureSpendable(i);
+
+            vCoins.push_back(COutput(pcoin, i, nDepth, fSpendableIn, fSolvableIn, safeTx && isCoinSpendable, pcoin->tx->nType == TRANSACTION_FUTURE, isCoinSpendable));
+            // Checks the sum amount of all UTXO's.
+            if (nMinimumSumAmount != MAX_MONEY) {
+                nTotal += pcoin->tx->vout[i].nValue;
+
+                if (nTotal >= nMinimumSumAmount) {
+                    return;
+                }
+            }
+
+            // Checks the maximum number of UTXO's.
+            if (nMaximumCount > 0 && vCoins.size() >= nMaximumCount) {
+                return;
+            }
+        }
+    }
+}
+
+std::map<CTxDestination, std::vector<COutput>> CWallet::ListCoins() const
+{
+    // TODO: Add AssertLockHeld(cs_wallet) here.
+    //
+    // Because the return value from this function contains pointers to
+    // CWalletTx objects, callers to this function really should acquire the
+    // cs_wallet lock before calling it. However, the current caller doesn't
+    // acquire this lock yet. There was an attempt to add the missing lock in
+    // https://github.com/bitcoin/bitcoin/pull/10340, but that change has been
+    // postponed until after https://github.com/bitcoin/bitcoin/pull/10244 to
+    // avoid adding some extra complexity to the Qt code.
+
+    std::map<CTxDestination, std::vector<COutput>> result;
+    std::vector<COutput> availableCoins;
+
+    LOCK2(cs_main, cs_wallet);
+    AvailableCoins(availableCoins);
+
+    for (auto& coin : availableCoins) {
+        CTxDestination address;
+        if (coin.fSpendable &&
+            ExtractDestination(FindNonChangeParentOutput(*coin.tx->tx, coin.i).scriptPubKey, address)) {
+            result[address].emplace_back(std::move(coin));
+        }
+    }
+
+    std::vector<COutPoint> lockedCoins;
+    ListLockedCoins(lockedCoins);
+    for (const auto& output : lockedCoins) {
+        auto it = mapWallet.find(output.hash);
+        if (it != mapWallet.end()) {
+            int depth = it->second.GetDepthInMainChain();
+            if (depth >= 0 && output.n < it->second.tx->vout.size() &&
+                IsMine(it->second.tx->vout[output.n]) == ISMINE_SPENDABLE) {
+                CTxDestination address;
+                if (ExtractDestination(FindNonChangeParentOutput(*it->second.tx, output.n).scriptPubKey, address)) {
+                    result[address].emplace_back(
+                        &it->second, output.n, depth, true /* spendable */, true /* solvable */, false /* safe */,
+                        it->second.tx->nType == TRANSACTION_FUTURE, it->second.isFutureSpendable(output.n));
+                }
+            }
+        }
+    }
+
+    return result;
+}
+
+const CTxOut& CWallet::FindNonChangeParentOutput(const CTransaction& tx, int output) const
+{
+    const CTransaction* ptx = &tx;
+    int n = output;
+    while (IsChange(ptx->vout[n]) && ptx->vin.size() > 0) {
+        const COutPoint& prevout = ptx->vin[0].prevout;
+        auto it = mapWallet.find(prevout.hash);
+        if (it == mapWallet.end() || it->second.tx->vout.size() <= prevout.n ||
+            !IsMine(it->second.tx->vout[prevout.n])) {
+            break;
+        }
+        ptx = it->second.tx.get();
+        n = prevout.n;
+    }
+    return ptx->vout[n];
+}
+
+void CWallet::InitCoinJoinSalt()
+{
+    // Avoid fetching it multiple times
+    assert(nCoinJoinSalt.IsNull());
+
+    WalletBatch batch(*database);
+    if (!batch.ReadCoinJoinSalt(nCoinJoinSalt) && batch.ReadCoinJoinSalt(nCoinJoinSalt, true)) {
+        batch.WriteCoinJoinSalt(nCoinJoinSalt);
+    }
+
+    while (nCoinJoinSalt.IsNull()) {
+        // We never generated/saved it
+        nCoinJoinSalt = GetRandHash();
+        batch.WriteCoinJoinSalt(nCoinJoinSalt);
+    }
+}
+
+struct CompareByPriority {
+    bool operator()(const COutput& t1,
+        const COutput& t2) const
+    {
+        return t1.Priority() > t2.Priority();
+    }
+};
+
+bool CWallet::OutputEligibleForSpending(const COutput& output, const CoinEligibilityFilter& eligibility_filter) const
+{
+    if (!output.fSpendable || (output.isFuture && !output.isFutureSpendable))
+        return false;
+
+    bool fLockedByIS = output.tx->IsLockedByInstantSend();
+
+    if ((output.nDepth < (output.tx->IsFromMe(ISMINE_ALL) ? eligibility_filter.conf_mine : eligibility_filter.conf_theirs)) && !fLockedByIS)
+        return false;
+
+    size_t ancestors, descendants;
+    mempool.GetTransactionAncestry(output.tx->GetHash(), ancestors, descendants);
+    if (ancestors > eligibility_filter.max_ancestors || descendants > eligibility_filter.max_descendants) {
+        return false;
+    }
+
+    return true;
+}
+
+bool CWallet::SelectCoinsMinConf(const CAmount& nTargetValue, const CoinEligibilityFilter& eligibility_filter, std::vector<COutput> vCoins, std::set<CInputCoin>& setCoinsRet, CAmount& nValueRet, const CoinSelectionParams& coin_selection_params, bool& bnb_used, CoinType nCoinType) const
+{
+    setCoinsRet.clear();
+    nValueRet = 0;
+
+    std::vector<CInputCoin> utxo_pool;
+    if (coin_selection_params.use_bnb) {
+        // Get long term estimate
+        FeeCalculation feeCalc;
+        CCoinControl temp;
+        temp.m_confirm_target = 1008;
+        CFeeRate long_term_feerate = GetMinimumFeeRate(temp, ::mempool, ::feeEstimator, &feeCalc);
+
+        // Calculate cost of change
+        CAmount cost_of_change = GetDiscardRate(::feeEstimator).GetFee(coin_selection_params.change_spend_size) + coin_selection_params.effective_fee.GetFee(coin_selection_params.change_output_size);
+
+        // Filter by the min conf specs and add to utxo_pool and calculate effective value
+        for (const COutput& output : vCoins) {
+            if (!OutputEligibleForSpending(output, eligibility_filter))
+                continue;
+
+            CInputCoin coin(output.tx->tx, output.i);
+            coin.effective_value = coin.txout.nValue - (output.nInputBytes < 0 ? 0 : coin_selection_params.effective_fee.GetFee(output.nInputBytes));
+            // Only include outputs that are positive effective value (i.e. not dust)
+            if (coin.effective_value > 0) {
+                coin.fee = output.nInputBytes < 0 ? 0 : coin_selection_params.effective_fee.GetFee(output.nInputBytes);
+                coin.long_term_fee = output.nInputBytes < 0 ? 0 : long_term_feerate.GetFee(output.nInputBytes);
+                utxo_pool.push_back(coin);
+            }
+        }
+        // Calculate the fees for things that aren't inputs
+        CAmount not_input_fees = coin_selection_params.effective_fee.GetFee(coin_selection_params.tx_noinputs_size);
+        bnb_used = true;
+        return SelectCoinsBnB(utxo_pool, nTargetValue, cost_of_change, setCoinsRet, nValueRet, not_input_fees);
+    } else {
+        // Filter by the min conf specs and add to utxo_pool
+        for (const COutput& output : vCoins) {
+            if (!OutputEligibleForSpending(output, eligibility_filter))
+                continue;
+
+            CInputCoin coin = CInputCoin(output.tx->tx, output.i);
+            utxo_pool.push_back(coin);
+        }
+        bnb_used = false;
+        return KnapsackSolver(nTargetValue, utxo_pool, setCoinsRet, nValueRet, nCoinType == CoinType::ONLY_FULLY_MIXED, maxTxFee);
+    }
+}
+
+bool CWallet::SelectCoins(const std::vector<COutput>& vAvailableCoins, const CAmount& nTargetValue, std::set<CInputCoin>& setCoinsRet, CAmount& nValueRet, const CCoinControl& coin_control, const CoinSelectionParams& coin_selection_params, bool& bnb_used) const
+{
+    // Note: this function should never be used for "always free" tx types like dstx
+
+    std::vector<COutput> vCoins(vAvailableCoins);
+    CoinType nCoinType = coin_control.nCoinType;
+
+    // coin control -> return all selected outputs (we want all selected to go into the transaction for sure)
+    if (coin_control.HasSelected() && !coin_control.fAllowOtherInputs) {
+        // We didn't use BnB here, so set it to false.
+        bnb_used = false;
+
+        for (const COutput& out : vCoins) {
+            if (!out.fSpendable || (out.isFuture && !out.isFutureSpendable))
+                continue;
+
+            nValueRet += out.tx->tx->vout[out.i].nValue;
+            setCoinsRet.insert(CInputCoin(out.tx->tx, out.i));
+
+            if (!coin_control.fRequireAllInputs && nValueRet >= nTargetValue) {
+                // stop when we added at least one input and enough inputs to have at least nTargetValue funds
+                return true;
+            }
+        }
+
+        return (nValueRet >= nTargetValue);
+    }
+
+    // calculate value from preset inputs and store them
+    std::set<CInputCoin> setPresetCoins;
+    CAmount nValueFromPresetInputs = 0;
+
+    std::vector<COutPoint> vPresetInputs;
+    coin_control.ListSelected(vPresetInputs);
+    for (const COutPoint& outpoint : vPresetInputs) {
+        // For now, don't use BnB if preset inputs are selected. TODO: Enable this later
+        bnb_used = false;
+
+        std::map<uint256, CWalletTx>::const_iterator it = mapWallet.find(outpoint.hash);
+        if (it != mapWallet.end()) {
+            const CWalletTx* pcoin = &it->second;
+            // Clearly invalid input, fail
+            if (pcoin->tx->vout.size() <= outpoint.n)
+                return false;
+            if (nCoinType == CoinType::ONLY_FULLY_MIXED) {
+                // Make sure to include mixed preset inputs only,
+                // even if some non-mixed inputs were manually selected via CoinControl
+                if (!IsFullyMixed(outpoint)) continue;
+            } else if (!pcoin->isFutureSpendable(outpoint.n)) {
+                continue;
+            }
+            // Just to calculate the marginal byte size
+            nValueFromPresetInputs += pcoin->tx->vout[outpoint.n].nValue;
+            setPresetCoins.insert(CInputCoin(pcoin->tx, outpoint.n));
+        } else
+            return false; // TODO: Allow non-wallet inputs
+    }
+
+    // remove preset inputs from vCoins
+    for (std::vector<COutput>::iterator it = vCoins.begin(); it != vCoins.end() && coin_control.HasSelected();) {
+        if (setPresetCoins.count(CInputCoin(it->tx->tx, it->i)))
+            it = vCoins.erase(it);
+        else
+            ++it;
+    }
+
+    size_t max_ancestors = (size_t)std::max<int64_t>(1, gArgs.GetArg("-limitancestorcount", DEFAULT_ANCESTOR_LIMIT));
+    size_t max_descendants = (size_t)std::max<int64_t>(1, gArgs.GetArg("-limitdescendantcount", DEFAULT_DESCENDANT_LIMIT));
+    bool fRejectLongChains = gArgs.GetBoolArg("-walletrejectlongchains", DEFAULT_WALLET_REJECT_LONG_CHAINS);
+
+    bool res = nTargetValue <= nValueFromPresetInputs ||
+               SelectCoinsMinConf(nTargetValue - nValueFromPresetInputs, CoinEligibilityFilter(1, 6, 0), vCoins, setCoinsRet, nValueRet, coin_selection_params, bnb_used, nCoinType) ||
+               SelectCoinsMinConf(nTargetValue - nValueFromPresetInputs, CoinEligibilityFilter(1, 1, 0), vCoins, setCoinsRet, nValueRet, coin_selection_params, bnb_used, nCoinType) ||
+               (bSpendZeroConfChange && SelectCoinsMinConf(nTargetValue - nValueFromPresetInputs, CoinEligibilityFilter(0, 1, 2), vCoins, setCoinsRet, nValueRet, coin_selection_params, bnb_used, nCoinType)) ||
+               (bSpendZeroConfChange && SelectCoinsMinConf(nTargetValue - nValueFromPresetInputs, CoinEligibilityFilter(0, 1, std::min((size_t)4, max_ancestors / 3), std::min((size_t)4, max_descendants / 3)), vCoins, setCoinsRet, nValueRet, coin_selection_params, bnb_used, nCoinType)) ||
+               (bSpendZeroConfChange && SelectCoinsMinConf(nTargetValue - nValueFromPresetInputs, CoinEligibilityFilter(0, 1, max_ancestors / 2, max_descendants / 2), vCoins, setCoinsRet, nValueRet, coin_selection_params, bnb_used, nCoinType)) ||
+               (bSpendZeroConfChange && SelectCoinsMinConf(nTargetValue - nValueFromPresetInputs, CoinEligibilityFilter(0, 1, max_ancestors - 1, max_descendants - 1), vCoins, setCoinsRet, nValueRet, coin_selection_params, bnb_used, nCoinType)) ||
+               (bSpendZeroConfChange && !fRejectLongChains && SelectCoinsMinConf(nTargetValue - nValueFromPresetInputs, CoinEligibilityFilter(0, 1, std::numeric_limits<uint64_t>::max()), vCoins, setCoinsRet, nValueRet, coin_selection_params, bnb_used, nCoinType));
+
+    // because SelectCoinsMinConf clears the setCoinsRet, we now add the possible inputs to the coinset
+    setCoinsRet.insert(setPresetCoins.begin(), setPresetCoins.end());
+
+    // add preset inputs to the total value selected
+    nValueRet += nValueFromPresetInputs;
+
+    return res;
+}
+
+bool CWallet::FundTransaction(CMutableTransaction& tx, CAmount& nFeeRet, int& nChangePosInOut, std::string& strFailReason, bool lockUnspents, const std::set<int>& setSubtractFeeFromOutputs, CCoinControl coinControl)
+{
+    std::vector<CRecipient> vecSend;
+
+    // Turn the txout set into a CRecipient vector.
+    for (size_t idx = 0; idx < tx.vout.size(); idx++) {
+        const CTxOut& txOut = tx.vout[idx];
+        CRecipient recipient = {txOut.scriptPubKey, txOut.nValue, setSubtractFeeFromOutputs.count(idx) == 1};
+        vecSend.push_back(recipient);
+    }
+
+    coinControl.fAllowOtherInputs = true;
+
+    for (const CTxIn& txin : tx.vin) {
+        coinControl.Select(txin.prevout);
+    }
+
+    // Acquire the locks to prevent races to the new locked unspents between the
+    // CreateTransaction call and LockCoin calls (when lockUnspents is true).
+    LOCK2(cs_main, mempool.cs);
+    LOCK(cs_wallet);
+
+    int nExtraPayloadSize = 0;
+    if (tx.nVersion == 3 && tx.nType != TRANSACTION_NORMAL)
+        nExtraPayloadSize = (int)tx.vExtraPayload.size();
+
+    CReserveKey reservekey(this);
+    CTransactionRef tx_new;
+    if (!CreateTransaction(vecSend, tx_new, reservekey, nFeeRet, nChangePosInOut, strFailReason, coinControl, false, nExtraPayloadSize)) {
+        return false;
+    }
+
+    if (nChangePosInOut != -1) {
+        tx.vout.insert(tx.vout.begin() + nChangePosInOut, tx_new->vout[nChangePosInOut]);
+        // We don't have the normal Create/Commit cycle, and don't want to risk
+        // reusing change, so just remove the key from the keypool here.
+        reservekey.KeepKey();
+    }
+
+    // Copy output sizes from new transaction; they may have had the fee
+    // subtracted from them.
+    for (unsigned int idx = 0; idx < tx.vout.size(); idx++) {
+        tx.vout[idx] = tx_new->vout[idx];
+    }
+
+    // Add new txins while keeping original txin scriptSig/order.
+    for (const CTxIn& txin : tx_new->vin) {
+        if (!coinControl.IsSelected(txin.prevout)) {
+            tx.vin.push_back(txin);
+
+            if (lockUnspents) {
+                LockCoin(txin.prevout);
+            }
+        }
+    }
+
+    return true;
+}
+
+bool CWallet::SelectTxDSInsByDenomination(int nDenom, CAmount nValueMax, std::vector<CTxDSIn>& vecTxDSInRet)
+{
+    LOCK2(cs_main, cs_wallet);
+
+    CAmount nValueTotal{0};
+
+    std::set<uint256> setRecentTxIds;
+    std::vector<COutput> vCoins;
+
+    vecTxDSInRet.clear();
+
+    if (!CCoinJoin::IsValidDenomination(nDenom)) {
+        return false;
+    }
+    CAmount nDenomAmount = CCoinJoin::DenominationToAmount(nDenom);
+
+    CCoinControl coin_control;
+    coin_control.nCoinType = CoinType::ONLY_READY_TO_MIX;
+    AvailableCoins(vCoins, true, &coin_control);
+    LogPrint(BCLog::COINJOIN, "CWallet::%s -- vCoins.size(): %d\n", __func__, vCoins.size());
+
+    Shuffle(vCoins.rbegin(), vCoins.rend(), FastRandomContext());
+
+    for (const auto& out : vCoins) {
+        uint256 txHash = out.tx->GetHash();
+        CAmount nValue = out.tx->tx->vout[out.i].nValue;
+        if (setRecentTxIds.find(txHash) != setRecentTxIds.end()) continue; // no duplicate txids
+        if (nValueTotal + nValue > nValueMax) continue;
+        if (nValue != nDenomAmount) continue;
+
+        CTxIn txin = CTxIn(txHash, out.i);
+        CScript scriptPubKey = out.tx->tx->vout[out.i].scriptPubKey;
+        int nRounds = GetRealOutpointCoinJoinRounds(txin.prevout);
+
+        nValueTotal += nValue;
+        vecTxDSInRet.emplace_back(CTxDSIn(txin, scriptPubKey, nRounds));
+        setRecentTxIds.emplace(txHash);
+        LogPrint(BCLog::COINJOIN, "CWallet::%s -- hash: %s, nValue: %d.%08d\n",
+            __func__, txHash.ToString(), nValue / COIN, nValue % COIN);
+    }
+
+    LogPrint(BCLog::COINJOIN, "CWallet::%s -- setRecentTxIds.size(): %d\n", __func__, setRecentTxIds.size());
+
+    return nValueTotal > 0;
+}
+
+bool CWallet::SelectCoinsGroupedByAddresses(std::vector<CompactTallyItem>& vecTallyRet, bool fSkipDenominated, bool fAnonymizable, bool fSkipUnconfirmed, int nMaxOupointsPerAddress) const
+{
+    LOCK2(cs_main, cs_wallet);
+
+    isminefilter filter = ISMINE_SPENDABLE;
+
+    // Try using the cache for already confirmed mixable inputs.
+    // This should only be used if nMaxOupointsPerAddress was NOT specified.
+    if (nMaxOupointsPerAddress == -1 && fAnonymizable && fSkipUnconfirmed) {
+        if (fSkipDenominated && fAnonymizableTallyCachedNonDenom) {
+            vecTallyRet = vecAnonymizableTallyCachedNonDenom;
+            LogPrint(BCLog::SELECTCOINS, "SelectCoinsGroupedByAddresses - using cache for non-denom inputs %d\n", vecTallyRet.size());
+            return vecTallyRet.size() > 0;
+        }
+        if (!fSkipDenominated && fAnonymizableTallyCached) {
+            vecTallyRet = vecAnonymizableTallyCached;
+            LogPrint(BCLog::SELECTCOINS, "SelectCoinsGroupedByAddresses - using cache for all inputs %d\n", vecTallyRet.size());
+            return vecTallyRet.size() > 0;
+        }
+    }
+
+    CAmount nSmallestDenom = CCoinJoin::GetSmallestDenomination();
+    SmartnodeCollaterals collaterals = Params().GetConsensus().nCollaterals;
+
+    // Tally
+    std::map<CTxDestination, CompactTallyItem> mapTally;
+    std::set<uint256> setWalletTxesCounted;
+    for (const auto& outpoint : setWalletUTXO) {
+        if (!setWalletTxesCounted.emplace(outpoint.hash).second) continue;
+
+        std::map<uint256, CWalletTx>::const_iterator it = mapWallet.find(outpoint.hash);
+        if (it == mapWallet.end()) continue;
+
+        const CWalletTx& wtx = (*it).second;
+
+        if (wtx.IsCoinBase() && wtx.GetBlocksToMaturity() > 0) continue;
+        if (fSkipUnconfirmed && !wtx.IsTrusted()) continue;
+        if (wtx.GetDepthInMainChain() < 0) continue;
+
+        for (unsigned int i = 0; i < wtx.tx->vout.size(); i++) {
+            CTxDestination txdest;
+            if (!ExtractDestination(wtx.tx->vout[i].scriptPubKey, txdest)) continue;
+
+            isminefilter mine = ::IsMine(*this, txdest);
+            if (!(mine & filter)) continue;
+
+            auto itTallyItem = mapTally.find(txdest);
+            if (nMaxOupointsPerAddress != -1 && itTallyItem != mapTally.end() && itTallyItem->second.vecInputCoins.size() >= nMaxOupointsPerAddress) continue;
+
+            if (IsSpent(outpoint.hash, i) || IsLockedCoin(outpoint.hash, i)) continue;
+
+            if (fSkipDenominated && CCoinJoin::IsDenominatedAmount(wtx.tx->vout[i].nValue)) continue;
+
+            if (fAnonymizable) {
+                // ignore collaterals
+                if (CCoinJoin::IsCollateralAmount(wtx.tx->vout[i].nValue)) continue;
+                if (fSmartnodeMode && collaterals.isValidCollateral(wtx.tx->vout[i].nValue)) continue;
+                // ignore outputs that are 10 times smaller then the smallest denomination
+                // otherwise they will just lead to higher fee / lower priority
+                if (wtx.tx->vout[i].nValue <= nSmallestDenom / 10) continue;
+                // ignore mixed
+                if (IsFullyMixed(COutPoint(outpoint.hash, i))) continue;
+            }
+
+            if (itTallyItem == mapTally.end()) {
+                itTallyItem = mapTally.emplace(txdest, CompactTallyItem()).first;
+                itTallyItem->second.txdest = txdest;
+            }
+            itTallyItem->second.nAmount += wtx.tx->vout[i].nValue;
+            itTallyItem->second.vecInputCoins.emplace_back(wtx.tx, i);
+        }
+    }
+
+    // construct resulting vector
+    // NOTE: vecTallyRet is "sorted" by txdest (i.e. address), just like mapTally
+    vecTallyRet.clear();
+    for (const auto& item : mapTally) {
+        if (fAnonymizable && item.second.nAmount < nSmallestDenom) continue;
+        vecTallyRet.push_back(item.second);
+    }
+
+    // Cache already confirmed mixable entries for later use.
+    // This should only be used if nMaxOupointsPerAddress was NOT specified.
+    if (nMaxOupointsPerAddress == -1 && fAnonymizable && fSkipUnconfirmed) {
+        if (fSkipDenominated) {
+            vecAnonymizableTallyCachedNonDenom = vecTallyRet;
+            fAnonymizableTallyCachedNonDenom = true;
+        } else {
+            vecAnonymizableTallyCached = vecTallyRet;
+            fAnonymizableTallyCached = true;
+        }
+    }
+
+    // debug
+    if (LogAcceptCategory(BCLog::SELECTCOINS)) {
+        std::string strMessage = "SelectCoinsGroupedByAddresses - vecTallyRet:\n";
+        for (const auto& item : vecTallyRet)
+            strMessage += strprintf("  %s %f\n", EncodeDestination(item.txdest).c_str(), float(item.nAmount) / COIN);
+        LogPrint(BCLog::SELECTCOINS, "%s", strMessage); /* Continued */
+    }
+
+    return vecTallyRet.size() > 0;
+}
+
+bool CWallet::SelectDenominatedAmounts(CAmount nValueMax, std::set<CAmount>& setAmountsRet) const
+{
+    LOCK2(cs_main, cs_wallet);
+
+    CAmount nValueTotal{0};
+    setAmountsRet.clear();
+
+    std::vector<COutput> vCoins;
+    CCoinControl coin_control;
+    coin_control.nCoinType = CoinType::ONLY_READY_TO_MIX;
+    AvailableCoins(vCoins, true, &coin_control);
+    // larger denoms first
+    std::sort(vCoins.rbegin(), vCoins.rend(), CompareByPriority());
+
+    for (const auto& out : vCoins) {
+        CAmount nValue = out.tx->tx->vout[out.i].nValue;
+        if (nValueTotal + nValue <= nValueMax) {
+            nValueTotal += nValue;
+            setAmountsRet.emplace(nValue);
+        }
+    }
+
+    return nValueTotal >= CCoinJoin::GetSmallestDenomination();
+}
+
+int CWallet::CountInputsWithAmount(CAmount nInputAmount) const
+{
+    CAmount nTotal = 0;
+
+    LOCK2(cs_main, cs_wallet);
+
+    for (const auto& outpoint : setWalletUTXO) {
+        const auto it = mapWallet.find(outpoint.hash);
+        if (it == mapWallet.end()) continue;
+        if (it->second.tx->vout[outpoint.n].nValue != nInputAmount) continue;
+        if (it->second.GetDepthInMainChain() < 0) continue;
+
+        nTotal++;
+    }
+
+    return nTotal;
+}
+
+bool CWallet::HasCollateralInputs(bool fOnlyConfirmed) const
+{
+    LOCK2(cs_main, cs_wallet);
+
+    std::vector<COutput> vCoins;
+    CCoinControl coin_control;
+    coin_control.nCoinType = CoinType::ONLY_COINJOIN_COLLATERAL;
+    AvailableCoins(vCoins, fOnlyConfirmed, &coin_control);
+
+    return !vCoins.empty();
+}
+
+bool CWallet::GetBudgetSystemCollateralTX(CTransactionRef& tx, uint256 hash, CAmount amount, const COutPoint& outpoint)
+{
+    // make our change address
+    CReserveKey reservekey(this);
+
+    CScript scriptChange;
+    scriptChange << OP_RETURN << ToByteVector(hash);
+
+    CAmount nFeeRet = 0;
+    int nChangePosRet = -1;
+    std::string strFail = "";
+    std::vector<CRecipient> vecSend;
+    vecSend.push_back((CRecipient){scriptChange, amount, false});
+
+    CCoinControl coinControl;
+    if (!outpoint.IsNull()) {
+        coinControl.Select(outpoint);
+    }
+    bool success = CreateTransaction(vecSend, tx, reservekey, nFeeRet, nChangePosRet, strFail, coinControl);
+    if (!success) {
+        LogPrintf("CWallet::GetBudgetSystemCollateralTX -- Error: %s\n", strFail);
+        return false;
+    }
+
+    return true;
+}
+
+bool CWallet::CreateTransaction(const std::vector<CRecipient>& vecSend, CTransactionRef& tx, CReserveKey& reservekey, CAmount& nFeeRet, int& nChangePosInOut, std::string& strFailReason, const CCoinControl& coin_control, bool sign, int nExtraPayloadSize, FuturePartialPayload* fpp)
+{
+    CAmount nValue = 0;
+    int nChangePosRequest = nChangePosInOut;
+    unsigned int nSubtractFeeFromAmount = 0;
+    for (const auto& recipient : vecSend) {
+        if (nValue < 0 || recipient.nAmount < 0) {
+            strFailReason = _("Transaction amounts must not be negative");
+            return false;
+        }
+        nValue += recipient.nAmount;
+
+        if (recipient.fSubtractFeeFromAmount)
+            nSubtractFeeFromAmount++;
+    }
+    if (vecSend.empty()) {
+        strFailReason = _("Transaction must have at least one recipient");
+        return false;
+    }
+
+    CMutableTransaction txNew;
+    CFutureTx ftx;
+    CAmount specialFees = 0;
+    if (fpp) {
+        txNew.nVersion = 3;
+        txNew.nType = TRANSACTION_FUTURE;
+        ftx.nVersion = CFutureTx::CURRENT_VERSION;
+        ftx.lockTime = fpp->locktime;
+        ftx.maturity = fpp->maturity;
+        ftx.lockOutputIndex = 0;
+        ftx.updatableByDestination = false;
+        ftx.fee = getFutureFees();
+        specialFees = getFutureFeesCoin();
+    }
+    // Discourage fee sniping.
+    //
+    // For a large miner the value of the transactions in the best block and
+    // the mempool can exceed the cost of deliberately attempting to mine two
+    // blocks to orphan the current best block. By setting nLockTime such that
+    // only the next block can include the transaction, we discourage this
+    // practice as the height restricted and limited blocksize gives miners
+    // considering fee sniping fewer options for pulling off this attack.
+    //
+    // A simple way to think about this is from the wallet's point of view we
+    // always want the blockchain to move forward. By setting nLockTime this
+    // way we're basically making the statement that we only want this
+    // transaction to appear in the next block; we don't want to potentially
+    // encourage reorgs by allowing transactions to appear at lower heights
+    // than the next block in forks of the best chain.
+    //
+    // Of course, the subsidy is high enough, and transaction volume low
+    // enough, that fee sniping isn't a problem yet, but by implementing a fix
+    // now we ensure code won't be written that makes assumptions about
+    // nLockTime that preclude a fix later.
+
+    txNew.nLockTime = chainActive.Height();
+
+    // Secondly occasionally randomly pick a nLockTime even further back, so
+    // that transactions that are delayed after signing for whatever reason,
+    // e.g. high-latency mix networks and some CoinJoin implementations, have
+    // better privacy.
+    if (GetRandInt(10) == 0)
+        txNew.nLockTime = std::max(0, (int)txNew.nLockTime - GetRandInt(100));
+
+    assert(txNew.nLockTime <= (unsigned int)chainActive.Height());
+    assert(txNew.nLockTime < LOCKTIME_THRESHOLD);
+    FeeCalculation feeCalc;
+    CFeeRate discard_rate = coin_control.m_discard_feerate ? *coin_control.m_discard_feerate : GetDiscardRate(::feeEstimator);
+    unsigned int nBytes;
+    {
+        std::vector<CInputCoin> vecCoins;
+        LOCK2(cs_main, mempool.cs);
+        LOCK(cs_wallet);
+        {
+            CAmount nAmountAvailable{0};
+            std::vector<COutput> vAvailableCoins;
+            AvailableCoins(vAvailableCoins, true, &coin_control);
+            CoinSelectionParams coin_selection_params; // Parameters for coin selection, init with dummy
+            coin_selection_params.use_bnb = false;     // never use BnB
+
+            for (auto out : vAvailableCoins) {
+                if (out.fSpendable && out.isFutureSpendable) {
+                    nAmountAvailable += out.tx->tx->vout[out.i].nValue;
+                }
+            }
+            // Create change script that will be used if we need change
+            // TODO: pass in scriptChange instead of reservekey so
+            // change transaction isn't always pay-to-bitcoin-address
+            CScript scriptChange;
+
+            // coin control: send change to custom address
+            if (!boost::get<CNoDestination>(&coin_control.destChange)) {
+                scriptChange = GetScriptForDestination(coin_control.destChange);
+            } else { // no coin control: send change to newly generated address
+                // Note: We use a new key here to keep it from being obvious which side is the change.
+                //  The drawback is that by not reusing a previous key, the change may be lost if a
+                //  backup is restored, if the backup doesn't have the new private key for the change.
+                //  If we reused the old key, it would be possible to add code to look for and
+                //  rediscover unknown transactions that were written with keys of ours to recover
+                //  post-backup change.
+
+                // Reserve a new key pair from key pool
+                CPubKey vchPubKey;
+                bool ret;
+                ret = reservekey.GetReservedKey(vchPubKey, true);
+                if (!ret) {
+                    strFailReason = _("Keypool ran out, please call keypoolrefill first");
+                    return false;
+                }
+
+                scriptChange = GetScriptForDestination(vchPubKey.GetID());
+            }
+
+            nFeeRet = 0;
+            bool pick_new_inputs = true;
+            CAmount nValueIn = 0;
+            CAmount nAmountToSelectAdditional{0};
+            // Start with nAmountToSelectAdditional=0 and loop until there is enough to cover the request + fees, try it 500 times.
+            int nMaxTries = 500;
+            while (--nMaxTries > 0) {
+                nChangePosInOut = std::numeric_limits<int>::max();
+                txNew.vin.clear();
+                txNew.vout.clear();
+                bool fFirst = true;
+
+                CAmount nValueToSelect = nValue;
+                if (nSubtractFeeFromAmount == 0) {
+                    assert(nAmountToSelectAdditional >= 0);
+                    nValueToSelect += nAmountToSelectAdditional;
+                }
+                // vouts to the payees
+                for (const auto& recipient : vecSend) {
+                    CTxOut txout(recipient.nAmount, recipient.scriptPubKey);
+
+                    if (recipient.fSubtractFeeFromAmount) {
+                        assert(nSubtractFeeFromAmount != 0);
+                        txout.nValue -= nFeeRet / nSubtractFeeFromAmount; // Subtract fee equally from each selected recipient
+
+                        if (fFirst) // first receiver pays the remainder not divisible by output count
+                        {
+                            fFirst = false;
+                            txout.nValue -= nFeeRet % nSubtractFeeFromAmount;
+                        }
+                    }
+                    if (IsDust(txout, ::dustRelayFee)) {
+                        if (recipient.fSubtractFeeFromAmount && nFeeRet > 0) {
+                            if (txout.nValue < 0)
+                                strFailReason = _("The transaction amount is too small to pay the fee");
+                            else
+                                strFailReason = _("The transaction amount is too small to send after the fee has been deducted");
+                        } else
+                            strFailReason = _("Transaction amount too small");
+                        return false;
+                    }
+                    if (fpp && recipient.scriptPubKey == fpp->futureRecScript) {
+                        ftx.lockOutputIndex = txNew.vout.size();
+                        CDataStream ds(SER_NETWORK, PROTOCOL_VERSION);
+                        ds << ftx;
+                        txNew.vExtraPayload.assign(ds.begin(), ds.end());
+                        nExtraPayloadSize = txNew.vExtraPayload.size();
+                    }
+                    txNew.vout.push_back(txout);
+                }
+
+                // Choose coins to use
+                bool bnb_used;
+                nValueToSelect += specialFees;
+                if (pick_new_inputs) {
+                    nValueIn = 0;
+                    std::set<CInputCoin> setCoinsTmp;
+                    if (!SelectCoins(vAvailableCoins, nValueToSelect, setCoinsTmp, nValueIn, coin_control, coin_selection_params, bnb_used)) {
+                        if (coin_control.nCoinType == CoinType::ONLY_NONDENOMINATED) {
+                            strFailReason = _("Unable to locate enough non-denominated funds for this transaction.");
+                        } else if (coin_control.nCoinType == CoinType::ONLY_FULLY_MIXED) {
+                            strFailReason = _("Unable to locate enough mixed funds for this transaction.");
+                            strFailReason += " " + strprintf(_("%s uses exact denominated amounts to send funds, you might simply need to mix some more coins."), "CoinJoin");
+                        } else if (nValueIn < nValueToSelect) {
+                            strFailReason = _("Insufficient funds.");
+                        }
+                        return false;
+                    }
+                    vecCoins.assign(setCoinsTmp.begin(), setCoinsTmp.end());
+                }
+
+                // Fill vin
+                //
+                // Note how the sequence number is set to max()-1 so that the
+                // nLockTime set above actually works.
+                txNew.vin.clear();
+                for (const auto& coin : vecCoins) {
+                    txNew.vin.emplace_back(coin.outpoint, CScript(), CTxIn::SEQUENCE_FINAL - 1);
+                }
+
+                auto calculateFee = [&](CAmount& nFee) -> bool {
+                    // Fill in dummy signatures for fee calculation.
+                    int nIn = 0;
+                    for (const auto& coin : vecCoins) {
+                        const CScript& scriptPubKey = coin.txout.scriptPubKey;
+                        SignatureData sigdata;
+                        if (!ProduceSignature(DummySignatureCreator(this), scriptPubKey, sigdata)) {
+                            strFailReason = _("Signing transaction failed");
+                            return false;
+                        } else {
+                            UpdateTransaction(txNew, nIn, sigdata);
+                        }
+
+                        nIn++;
+                    }
+
+                    nBytes = ::GetSerializeSize(txNew, SER_NETWORK, PROTOCOL_VERSION);
+
+                    if (nExtraPayloadSize != 0) {
+                        // account for extra payload in fee calculation
+                        nBytes += GetSizeOfCompactSize(nExtraPayloadSize) + nExtraPayloadSize;
+                    }
+
+                    if (nBytes > MAX_STANDARD_TX_SIZE) {
+                        // Do not create oversized transactions (bad-txns-oversize).
+                        strFailReason = _("Transaction too large");
+                        return false;
+                    }
+
+                    // Remove scriptSigs to eliminate the fee calculation dummy signatures
+                    for (auto& txin : txNew.vin) {
+                        txin.scriptSig = CScript();
+                    }
+
+                    nFee = GetMinimumFee(nBytes, coin_control, ::mempool, ::feeEstimator, &feeCalc);
+
+                    // If we made it here and we aren't even able to meet the relay fee on the next pass, give up
+                    // because we must be at the maximum allowed fee.
+                    if (nFee < ::minRelayTxFee.GetFee(nBytes)) {
+                        strFailReason = _("Transaction too large for fee policy");
+                        return false;
+                    }
+
+                    return true;
+                };
+
+                if (!calculateFee(nFeeRet)) {
+                    return false;
+                }
+
+                CTxOut newTxOut;
+                const CAmount nAmountLeft = nValueIn - nValue - specialFees;
+                auto getChange = [&]() {
+                    if (nSubtractFeeFromAmount > 0) {
+                        return nAmountLeft;
+                    } else {
+                        return nAmountLeft - nFeeRet;
+                    }
+                };
+
+                if (getChange() > 0) {
+                    // over pay for denominated transactions
+                    if (coin_control.nCoinType == CoinType::ONLY_FULLY_MIXED) {
+                        nChangePosInOut = -1;
+                        nFeeRet += getChange();
+                    } else {
+                        // Fill a vout to ourself with zero amount until we know the correct change
+                        newTxOut = CTxOut(0, scriptChange);
+                        txNew.vout.push_back(newTxOut);
+
+                        // Calculate the fee with the change output added, store the
+                        // current fee to reset it in case the remainder is dust and we
+                        // don't need to fee with change output added.
+                        CAmount nFeePrev = nFeeRet;
+                        if (!calculateFee(nFeeRet)) {
+                            return false;
+                        }
+
+                        // Remove the change output again, it will be added later again if required
+                        txNew.vout.pop_back();
+
+                        // Set the change amount properly
+                        newTxOut.nValue = getChange();
+
+                        // Never create dust outputs; if we would, just
+                        // add the dust to the fee.
+                        if (IsDust(newTxOut, discard_rate)) {
+                            nFeeRet = nFeePrev;
+                            nChangePosInOut = -1;
+                            nFeeRet += getChange();
+                        } else {
+                            if (nChangePosRequest == -1) {
+                                // Insert change txn at random position:
+                                nChangePosInOut = GetRandInt(txNew.vout.size() + 1);
+                            } else if ((unsigned int)nChangePosRequest > txNew.vout.size()) {
+                                strFailReason = _("Change index out of range");
+                                return false;
+                            } else {
+                                nChangePosInOut = nChangePosRequest;
+                            }
+
+                            std::vector<CTxOut>::iterator position = txNew.vout.begin() + nChangePosInOut;
+                            txNew.vout.insert(position, newTxOut);
+                        }
+                    }
+                } else {
+                    nChangePosInOut = -1;
+                }
+
+                if (getChange() < 0) {
+                    if (nSubtractFeeFromAmount == 0) {
+                        // nValueIn is not enough to cover nValue + nFeeRet. Add the missing amount abs(nChange) to the fee
+                        // and try to select other inputs in the next loop step to cover the full required amount.
+                        nAmountToSelectAdditional += abs(getChange());
+                    } else if (nAmountToSelectAdditional > 0 && nValueToSelect == nAmountAvailable) {
+                        // We tried selecting more and failed. We have no extra funds left,
+                        // so just add 1 ruff to fail in the next loop step with a correct reason
+                        nAmountToSelectAdditional += 1;
+                    }
+                    continue;
+                }
+
+                // If no specific change position was requested, apply BIP69
+                if (nChangePosRequest == -1) {
+                    std::sort(vecCoins.begin(), vecCoins.end(), CompareInputCoinBIP69());
+                    std::sort(txNew.vin.begin(), txNew.vin.end(), CompareInputBIP69());
+                    std::sort(txNew.vout.begin(), txNew.vout.end(), CompareOutputBIP69());
+
+                    // If there was a change output added before, we must update its position now
+                    if (nChangePosInOut != -1) {
+                        int i = 0;
+                        for (const CTxOut& txOut : txNew.vout) {
+                            if (txOut == newTxOut) {
+                                nChangePosInOut = i;
+                                break;
+                            }
+                            i++;
+                        }
+                    }
+                }
+
+                if (nAmountLeft == nFeeRet) {
+                    // We either added the change amount to nFeeRet because the change amount was considered
+                    // to be dust or the input exactly matches output + fee.
+                    // Either way, we used the total amount of the inputs we picked and the transaction is ready.
+                    break;
+                }
+
+                // We have a change output and we don't need to subtruct fees, which means the transaction is ready.
+                if (nChangePosInOut != -1 && nSubtractFeeFromAmount == 0) {
+                    break;
+                }
+
+                // If subtracting fee from recipients, we now know what fee we
+                // need to subtract, we have no reason to reselect inputs
+                if (nSubtractFeeFromAmount > 0) {
+                    // If we are in here the second time it means we already subtracted the fee from the
+                    // output(s) and there weren't any issues while doing that. So the transaction is ready now
+                    // and we can break.
+                    if (!pick_new_inputs) {
+                        break;
+                    }
+                    pick_new_inputs = false;
+                }
+            }
+
+            if (nMaxTries == 0) {
+                strFailReason = _("Exceeded max tries.");
+                return false;
+            }
+        }
+
+        // Make sure change position was updated one way or another
+        assert(nChangePosInOut != std::numeric_limits<int>::max());
+
+        if (nChangePosInOut == -1) reservekey.ReturnKey(); // Return any reserved key if we don't have change
+        if (fpp) {
+            ftx.lockOutputIndex = 0;
+            // this loop needed because vout may be in a different order then recipient list
+            for (const auto& txOut : txNew.vout) {
+                if (txOut.scriptPubKey == fpp->futureRecScript)
+                    break;
+                ftx.lockOutputIndex++;
+            }
+            UpdateSpecialTxInputsHash(txNew, ftx);
+            SetTxPayload(txNew, ftx);
+        }
+
+        if (sign) {
+            CTransaction txNewConst(txNew);
+            int nIn = 0;
+            for (const auto& coin : vecCoins) {
+                const CScript& scriptPubKey = coin.txout.scriptPubKey;
+                SignatureData sigdata;
+
+                if (!ProduceSignature(TransactionSignatureCreator(this, &txNewConst, nIn, SIGHASH_ALL), scriptPubKey, sigdata)) {
+                    strFailReason = _("Signing transaction failed");
+                    return false;
+                } else {
+                    UpdateTransaction(txNew, nIn, sigdata);
+                }
+
+                nIn++;
+            }
+        }
+
+        // Return the constructed transaction data.
+        tx = MakeTransactionRef(std::move(txNew));
+    }
+
+    if (gArgs.GetBoolArg("-walletrejectlongchains", DEFAULT_WALLET_REJECT_LONG_CHAINS)) {
+        // Lastly, ensure this tx will pass the mempool's chain limits
+        LockPoints lp;
+        CTxMemPoolEntry entry(tx, 0, 0, 0, 0, false, 0, lp);
+        CTxMemPool::setEntries setAncestors;
+        size_t nLimitAncestors = gArgs.GetArg("-limitancestorcount", DEFAULT_ANCESTOR_LIMIT);
+        size_t nLimitAncestorSize = gArgs.GetArg("-limitancestorsize", DEFAULT_ANCESTOR_SIZE_LIMIT) * 1000;
+        size_t nLimitDescendants = gArgs.GetArg("-limitdescendantcount", DEFAULT_DESCENDANT_LIMIT);
+        size_t nLimitDescendantSize = gArgs.GetArg("-limitdescendantsize", DEFAULT_DESCENDANT_SIZE_LIMIT) * 1000;
+        std::string errString;
+        LOCK(::mempool.cs);
+        if (!::mempool.CalculateMemPoolAncestors(entry, setAncestors, nLimitAncestors, nLimitAncestorSize, nLimitDescendants, nLimitDescendantSize, errString)) {
+            strFailReason = _("Transaction has too long of a mempool chain");
+            return false;
+        }
+    }
+
+    LogPrintf("Fee Calculation: Fee:%d Bytes:%u Tgt:%d (requested %d) Reason:\"%s\" Decay %.5f: Estimation: (%g - %g) %.2f%% %.1f/(%.1f %d mem %.1f out) Fail: (%g - %g) %.2f%% %.1f/(%.1f %d mem %.1f out)\n",
+        nFeeRet, nBytes, feeCalc.returnedTarget, feeCalc.desiredTarget, StringForFeeReason(feeCalc.reason), feeCalc.est.decay,
+        feeCalc.est.pass.start, feeCalc.est.pass.end,
+        100 * feeCalc.est.pass.withinTarget / (feeCalc.est.pass.totalConfirmed + feeCalc.est.pass.inMempool + feeCalc.est.pass.leftMempool),
+        feeCalc.est.pass.withinTarget, feeCalc.est.pass.totalConfirmed, feeCalc.est.pass.inMempool, feeCalc.est.pass.leftMempool,
+        feeCalc.est.fail.start, feeCalc.est.fail.end,
+        100 * feeCalc.est.fail.withinTarget / (feeCalc.est.fail.totalConfirmed + feeCalc.est.fail.inMempool + feeCalc.est.fail.leftMempool),
+        feeCalc.est.fail.withinTarget, feeCalc.est.fail.totalConfirmed, feeCalc.est.fail.inMempool, feeCalc.est.fail.leftMempool);
+    return true;
+}
+
+/**
+ * Call after CreateTransaction unless you want to abort
+ */
+bool CWallet::CommitTransaction(CTransactionRef tx, mapValue_t mapValue, std::vector<std::pair<std::string, std::string>> orderForm, std::string fromAccount, CReserveKey& reservekey, CConnman* connman, CValidationState& state)
+{
+    {
+        LOCK2(cs_main, mempool.cs);
+        LOCK(cs_wallet);
+
+        CWalletTx wtxNew(this, std::move(tx));
+        wtxNew.mapValue = std::move(mapValue);
+        wtxNew.vOrderForm = std::move(orderForm);
+        wtxNew.strFromAccount = std::move(fromAccount);
+        wtxNew.fTimeReceivedIsTxTime = true;
+        wtxNew.fFromMe = true;
+
+        LogPrintf("CommitTransaction:\n%s\n", wtxNew.tx->ToString());
+        {
+            // Take key pair from key pool so it won't be used again
+            reservekey.KeepKey();
+
+            // Add tx to wallet, because if it has change it's also ours,
+            // otherwise just for transaction history.
+            AddToWallet(wtxNew);
+
+            // Notify that old coins are spent
+            std::set<uint256> updated_hahes;
+            for (const CTxIn& txin : wtxNew.tx->vin) {
+                // notify only once
+                if (updated_hahes.find(txin.prevout.hash) != updated_hahes.end()) continue;
+
+                CWalletTx& coin = mapWallet.at(txin.prevout.hash);
+                coin.BindWallet(this);
+                NotifyTransactionChanged(this, txin.prevout.hash, CT_UPDATED);
+                updated_hahes.insert(txin.prevout.hash);
+            }
+        }
+
+        // Get the inserted-CWalletTx from mapWallet so that the
+        // fInMempool flag is cached properly
+        CWalletTx& wtx = mapWallet.at(wtxNew.GetHash());
+
+        if (fBroadcastTransactions) {
+            // Broadcast
+            if (!wtx.AcceptToMemoryPool(maxTxFee, state)) {
+                LogPrintf("CommitTransaction(): Transaction cannot be broadcast immediately, %s\n", FormatStateMessage(state));
+                // TODO: if we expect the failure to be long term or permanent, instead delete wtx from the wallet and return failure.
+            } else {
+                wtx.RelayWalletTransaction(connman);
+            }
+        }
+    }
+    return true;
+}
+
+void CWallet::ListAccountCreditDebit(const std::string& strAccount, std::list<CAccountingEntry>& entries)
+{
+    WalletBatch batch(*database);
+    return batch.ListAccountCreditDebit(strAccount, entries);
+}
+
+bool CWallet::AddAccountingEntry(const CAccountingEntry& acentry)
+{
+    WalletBatch batch(*database);
+
+    return AddAccountingEntry(acentry, &batch);
+}
+
+bool CWallet::AddAccountingEntry(const CAccountingEntry& acentry, WalletBatch* batch)
+{
+    if (!batch->WriteAccountingEntry(++nAccountingEntryNumber, acentry)) {
+        return false;
+    }
+
+    laccentries.push_back(acentry);
+    CAccountingEntry& entry = laccentries.back();
+    wtxOrdered.insert(std::make_pair(entry.nOrderPos, TxPair(nullptr, &entry)));
+
+    return true;
+}
+
+DBErrors CWallet::LoadWallet(bool& fFirstRunRet)
+{
+    LOCK2(cs_main, cs_wallet);
+
+    fFirstRunRet = false;
+    DBErrors nLoadWalletRet = WalletBatch(*database, "cr+").LoadWallet(this);
+    if (nLoadWalletRet == DBErrors::NEED_REWRITE) {
+        if (database->Rewrite("\x04pool")) {
+            setInternalKeyPool.clear();
+            setExternalKeyPool.clear();
+            nKeysLeftSinceAutoBackup = 0;
+            m_pool_key_to_index.clear();
+            // Note: can't top-up keypool here, because wallet is locked.
+            // User will be prompted to unlock wallet the next operation
+            // that requires a new key.
+        }
+    }
+
+    {
+        LOCK(cs_KeyStore);
+        // This wallet is in its first run if all of these are empty
+        fFirstRunRet = mapKeys.empty() && mapHdPubKeys.empty() && mapCryptedKeys.empty() && mapWatchKeys.empty() && setWatchOnly.empty() && mapScripts.empty();
+    }
+
+    {
+        LOCK2(cs_main, cs_wallet);
+        for (auto& pair : mapWallet) {
+            for (unsigned int i = 0; i < pair.second.tx->vout.size(); ++i) {
+                if (IsMine(pair.second.tx->vout[i]) && !IsSpent(pair.first, i)) {
+                    setWalletUTXO.insert(COutPoint(pair.first, i));
+                }
+            }
+        }
+    }
+
+    InitCoinJoinSalt();
+
+    if (nLoadWalletRet != DBErrors::LOAD_OK)
+        return nLoadWalletRet;
+
+    return DBErrors::LOAD_OK;
+}
+
+// Goes through all wallet transactions and checks if they are smartnode collaterals, in which case these are locked
+// This avoids accidential spending of collaterals. They can still be unlocked manually if a spend is really intended.
+void CWallet::AutoLockSmartnodeCollaterals()
+{
+    auto mnList = deterministicMNManager->GetListAtChainTip();
+
+    LOCK2(cs_main, cs_wallet);
+    for (const auto& pair : mapWallet) {
+        for (unsigned int i = 0; i < pair.second.tx->vout.size(); ++i) {
+            if (IsMine(pair.second.tx->vout[i]) && !IsSpent(pair.first, i)) {
+                if (deterministicMNManager->IsProTxWithCollateral(pair.second.tx, i) || mnList.HasMNByCollateral(COutPoint(pair.first, i))) {
+                    LockCoin(COutPoint(pair.first, i));
+                }
+            }
+        }
+    }
+}
+
+DBErrors CWallet::ZapSelectTx(std::vector<uint256>& vHashIn, std::vector<uint256>& vHashOut)
+{
+    AssertLockHeld(cs_wallet); // mapWallet
+    DBErrors nZapSelectTxRet = WalletBatch(*database, "cr+").ZapSelectTx(vHashIn, vHashOut);
+    for (uint256 hash : vHashOut) {
+        const auto& it = mapWallet.find(hash);
+        wtxOrdered.erase(it->second.m_it_wtxOrdered);
+        mapWallet.erase(it);
+    }
+
+    if (nZapSelectTxRet == DBErrors::NEED_REWRITE) {
+        if (database->Rewrite("\x04pool")) {
+            setInternalKeyPool.clear();
+            setExternalKeyPool.clear();
+            m_pool_key_to_index.clear();
+            // Note: can't top-up keypool here, because wallet is locked.
+            // User will be prompted to unlock wallet the next operation
+            // that requires a new key.
+        }
+    }
+
+    if (nZapSelectTxRet != DBErrors::LOAD_OK)
+        return nZapSelectTxRet;
+
+    MarkDirty();
+
+    return DBErrors::LOAD_OK;
+}
+
+DBErrors CWallet::ZapWalletTx(std::vector<CWalletTx>& vWtx)
+{
+    DBErrors nZapWalletTxRet = WalletBatch(*database, "cr+").ZapWalletTx(vWtx);
+    if (nZapWalletTxRet == DBErrors::NEED_REWRITE) {
+        if (database->Rewrite("\x04pool")) {
+            LOCK(cs_wallet);
+            setInternalKeyPool.clear();
+            setExternalKeyPool.clear();
+            nKeysLeftSinceAutoBackup = 0;
+            m_pool_key_to_index.clear();
+            // Note: can't top-up keypool here, because wallet is locked.
+            // User will be prompted to unlock wallet the next operation
+            // that requires a new key.
+        }
+    }
+
+    if (nZapWalletTxRet != DBErrors::LOAD_OK)
+        return nZapWalletTxRet;
+
+    return DBErrors::LOAD_OK;
+}
+
+
+bool CWallet::SetAddressBook(const CTxDestination& address, const std::string& strName, const std::string& strPurpose)
+{
+    bool fUpdated = false;
+    {
+        LOCK(cs_wallet); // mapAddressBook
+        std::map<CTxDestination, CAddressBookData>::iterator mi = mapAddressBook.find(address);
+        fUpdated = mi != mapAddressBook.end();
+        mapAddressBook[address].name = strName;
+        if (!strPurpose.empty()) /* update purpose only if requested */
+            mapAddressBook[address].purpose = strPurpose;
+    }
+    NotifyAddressBookChanged(this, address, strName, ::IsMine(*this, address) != ISMINE_NO,
+        strPurpose, (fUpdated ? CT_UPDATED : CT_NEW));
+    if (!strPurpose.empty() && !WalletBatch(*database).WritePurpose(EncodeDestination(address), strPurpose))
+        return false;
+    return WalletBatch(*database).WriteName(EncodeDestination(address), strName);
+}
+
+bool CWallet::DelAddressBook(const CTxDestination& address)
+{
+    {
+        LOCK(cs_wallet); // mapAddressBook
+
+        // Delete destdata tuples associated with address
+        std::string strAddress = EncodeDestination(address);
+        for (const std::pair<const std::string, std::string>& item : mapAddressBook[address].destdata) {
+            WalletBatch(*database).EraseDestData(strAddress, item.first);
+        }
+        mapAddressBook.erase(address);
+    }
+
+    NotifyAddressBookChanged(this, address, "", ::IsMine(*this, address) != ISMINE_NO, "", CT_DELETED);
+
+    WalletBatch(*database).ErasePurpose(EncodeDestination(address));
+    return WalletBatch(*database).EraseName(EncodeDestination(address));
+}
+
+const std::string& CWallet::GetLabelName(const CScript& scriptPubKey) const
+{
+    CTxDestination address;
+    if (ExtractDestination(scriptPubKey, address) && !scriptPubKey.IsUnspendable()) {
+        auto mi = mapAddressBook.find(address);
+        if (mi != mapAddressBook.end()) {
+            return mi->second.name;
+        }
+    }
+    // A scriptPubKey that doesn't have an entry in the address book is
+    // associated with the default label ("").
+    const static std::string DEFAULT_LABEL_NAME;
+    return DEFAULT_LABEL_NAME;
+}
+
+/**
+ * Mark old keypool keys as used,
+ * and generate all new keys
+ */
+bool CWallet::NewKeyPool()
+{
+    {
+        LOCK(cs_wallet);
+        WalletBatch batch(*database);
+        for (int64_t nIndex : setInternalKeyPool) {
+            batch.ErasePool(nIndex);
+        }
+        setInternalKeyPool.clear();
+        for (int64_t nIndex : setExternalKeyPool) {
+            batch.ErasePool(nIndex);
+        }
+        setExternalKeyPool.clear();
+        coinJoinClientManagers.at(GetName())->StopMixing();
+        nKeysLeftSinceAutoBackup = 0;
+
+        m_pool_key_to_index.clear();
+
+        if (!TopUpKeyPool())
+            return false;
+
+        LogPrintf("CWallet::NewKeyPool rewrote keypool\n");
+    }
+    return true;
+}
+
+size_t CWallet::KeypoolCountExternalKeys()
+{
+    AssertLockHeld(cs_wallet); // setExternalKeyPool
+    return setExternalKeyPool.size();
+}
+
+void CWallet::LoadKeyPool(int64_t nIndex, const CKeyPool& keypool)
+{
+    AssertLockHeld(cs_wallet);
+    if (keypool.fInternal) {
+        setInternalKeyPool.insert(nIndex);
+    } else {
+        setExternalKeyPool.insert(nIndex);
+    }
+    m_max_keypool_index = std::max(m_max_keypool_index, nIndex);
+    m_pool_key_to_index[keypool.vchPubKey.GetID()] = nIndex;
+
+    // If no metadata exists yet, create a default with the pool key's
+    // creation time. Note that this may be overwritten by actually
+    // stored metadata for that key later, which is fine.
+    CKeyID keyid = keypool.vchPubKey.GetID();
+    if (mapKeyMetadata.count(keyid) == 0)
+        mapKeyMetadata[keyid] = CKeyMetadata(keypool.nTime);
+}
+
+size_t CWallet::KeypoolCountInternalKeys()
+{
+    AssertLockHeld(cs_wallet); // setInternalKeyPool
+    return setInternalKeyPool.size();
+}
+
+bool CWallet::TopUpKeyPool(unsigned int kpSize)
+{
+    {
+        LOCK(cs_wallet);
+
+        if (IsLocked(true))
+            return false;
+
+        // Top up key pool
+        unsigned int nTargetSize;
+        if (kpSize > 0)
+            nTargetSize = kpSize;
+        else
+            nTargetSize = std::max(gArgs.GetArg("-keypool", DEFAULT_KEYPOOL_SIZE), (int64_t)0);
+
+        // count amount of available keys (internal, external)
+        // make sure the keypool of external and internal keys fits the user selected target (-keypool)
+        int64_t amountExternal = setExternalKeyPool.size();
+        int64_t amountInternal = setInternalKeyPool.size();
+        int64_t missingExternal = std::max(std::max((int64_t)nTargetSize, (int64_t)1) - amountExternal, (int64_t)0);
+        int64_t missingInternal = std::max(std::max((int64_t)nTargetSize, (int64_t)1) - amountInternal, (int64_t)0);
+
+        if (!IsHDEnabled()) {
+            // don't create extra internal keys
+            missingInternal = 0;
+        } else {
+            nTargetSize *= 2;
+        }
+        bool fInternal = false;
+        WalletBatch batch(*database);
+        for (int64_t i = missingInternal + missingExternal; i--;) {
+            if (i < missingInternal) {
+                fInternal = true;
+            }
+
+            assert(m_max_keypool_index < std::numeric_limits<int64_t>::max()); // How in the hell did you use so many keys?
+            int64_t index = ++m_max_keypool_index;
+
+            // TODO: implement keypools for all accounts?
+            CPubKey pubkey(GenerateNewKey(batch, 0, fInternal));
+            if (!batch.WritePool(index, CKeyPool(pubkey, fInternal))) {
+                throw std::runtime_error(std::string(__func__) + ": writing generated key failed");
+            }
+
+            if (fInternal) {
+                setInternalKeyPool.insert(index);
+            } else {
+                setExternalKeyPool.insert(index);
+            }
+
+            m_pool_key_to_index[pubkey.GetID()] = index;
+            if (missingInternal + missingExternal > 0) {
+                LogPrintf("keypool added %d keys (%d internal), size=%u (%u internal)\n",
+                    missingInternal + missingExternal, missingInternal,
+                    setInternalKeyPool.size() + setExternalKeyPool.size(), setInternalKeyPool.size());
+            }
+
+            double dProgress = 100.f * index / (nTargetSize + 1);
+            std::string strMsg = strprintf(_("Loading wallet... (%3.2f %%)"), dProgress);
+            uiInterface.InitMessage(strMsg);
+        }
+    }
+    return true;
+}
+
+void CWallet::ReserveKeyFromKeyPool(int64_t& nIndex, CKeyPool& keypool, bool fInternal)
+{
+    nIndex = -1;
+    keypool.vchPubKey = CPubKey();
+    {
+        LOCK(cs_wallet);
+
+        if (!IsLocked(true))
+            TopUpKeyPool();
+
+        fInternal = fInternal && IsHDEnabled();
+        std::set<int64_t>& setKeyPool = fInternal ? setInternalKeyPool : setExternalKeyPool;
+
+        // Get the oldest key
+        if (setKeyPool.empty())
+            return;
+
+        WalletBatch batch(*database);
+
+        nIndex = *setKeyPool.begin();
+        setKeyPool.erase(nIndex);
+        if (!batch.ReadPool(nIndex, keypool)) {
+            throw std::runtime_error(std::string(__func__) + ": read failed");
+        }
+        if (!HaveKey(keypool.vchPubKey.GetID())) {
+            throw std::runtime_error(std::string(__func__) + ": unknown key in key pool");
+        }
+        if (keypool.fInternal != fInternal) {
+            throw std::runtime_error(std::string(__func__) + ": keypool entry misclassified");
+        }
+
+        assert(keypool.vchPubKey.IsValid());
+        m_pool_key_to_index.erase(keypool.vchPubKey.GetID());
+        LogPrintf("keypool reserve %d\n", nIndex);
+    }
+}
+
+void CWallet::KeepKey(int64_t nIndex)
+{
+    // Remove from key pool
+    {
+        LOCK(cs_wallet);
+        WalletBatch batch(*database);
+        if (batch.ErasePool(nIndex))
+            --nKeysLeftSinceAutoBackup;
+        if (!nWalletBackups)
+            nKeysLeftSinceAutoBackup = 0;
+    }
+    LogPrintf("keypool keep %d\n", nIndex);
+}
+
+void CWallet::ReturnKey(int64_t nIndex, bool fInternal, const CPubKey& pubkey)
+{
+    // Return to key pool
+    {
+        LOCK(cs_wallet);
+        if (fInternal) {
+            setInternalKeyPool.insert(nIndex);
+        } else {
+            setExternalKeyPool.insert(nIndex);
+        }
+        m_pool_key_to_index[pubkey.GetID()] = nIndex;
+    }
+    LogPrintf("keypool return %d\n", nIndex);
+}
+
+bool CWallet::GetKeyFromPool(CPubKey& result, bool internal)
+{
+    CKeyPool keypool;
+    {
+        LOCK(cs_wallet);
+        int64_t nIndex = 0;
+        ReserveKeyFromKeyPool(nIndex, keypool, internal);
+        if (nIndex == -1) {
+            if (IsLocked(true)) return false;
+            // TODO: implement keypool for all accouts?
+
+            WalletBatch batch(*database);
+            result = GenerateNewKey(batch, 0, internal);
+            return true;
+        }
+        KeepKey(nIndex);
+        result = keypool.vchPubKey;
+    }
+    return true;
+}
+
+static int64_t GetOldestKeyInPool(const std::set<int64_t>& setKeyPool, WalletBatch& batch)
+{
+    CKeyPool keypool;
+    int64_t nIndex = *(setKeyPool.begin());
+    if (!batch.ReadPool(nIndex, keypool)) {
+        throw std::runtime_error(std::string(__func__) + ": read oldest key in keypool failed");
+    }
+    assert(keypool.vchPubKey.IsValid());
+    return keypool.nTime;
+}
+
+int64_t CWallet::GetOldestKeyPoolTime()
+{
+    LOCK(cs_wallet);
+
+    // if the keypool is empty, return <NOW>
+    if (setExternalKeyPool.empty() && setInternalKeyPool.empty())
+        return GetTime();
+
+    WalletBatch batch(*database);
+    int64_t oldestKey = -1;
+
+    // load oldest key from keypool, get time and return
+    if (!setInternalKeyPool.empty()) {
+        oldestKey = std::max(GetOldestKeyInPool(setInternalKeyPool, batch), oldestKey);
+    }
+    if (!setExternalKeyPool.empty()) {
+        oldestKey = std::max(GetOldestKeyInPool(setExternalKeyPool, batch), oldestKey);
+    }
+    return oldestKey;
+}
+
+std::map<CTxDestination, CAmount> CWallet::GetAddressBalances()
+{
+    std::map<CTxDestination, CAmount> balances;
+
+    {
+        LOCK(cs_wallet);
+        for (const auto& walletEntry : mapWallet) {
+            const CWalletTx* pcoin = &walletEntry.second;
+
+            if (!pcoin->IsTrusted())
+                continue;
+
+            if (pcoin->IsCoinBase() && pcoin->GetBlocksToMaturity() > 0)
+                continue;
+
+            int nDepth = pcoin->GetDepthInMainChain();
+            if ((nDepth < (pcoin->IsFromMe(ISMINE_ALL) ? 0 : 1)) && !pcoin->IsLockedByInstantSend())
+                continue;
+
+            for (unsigned int i = 0; i < pcoin->tx->vout.size(); i++) {
+                CTxDestination addr;
+                if (!IsMine(pcoin->tx->vout[i]))
+                    continue;
+                if (!ExtractDestination(pcoin->tx->vout[i].scriptPubKey, addr))
+                    continue;
+
+                CAmount n = IsSpent(walletEntry.first, i) ? 0 : pcoin->tx->vout[i].nValue;
+
+                if (!balances.count(addr))
+                    balances[addr] = 0;
+                balances[addr] += n;
+            }
+        }
+    }
+
+    return balances;
+}
+
+std::set<std::set<CTxDestination>> CWallet::GetAddressGroupings()
+{
+    AssertLockHeld(cs_wallet); // mapWallet
+    std::set<std::set<CTxDestination>> groupings;
+    std::set<CTxDestination> grouping;
+
+    for (const auto& walletEntry : mapWallet) {
+        const CWalletTx* pcoin = &walletEntry.second;
+
+        if (pcoin->tx->vin.size() > 0) {
+            bool any_mine = false;
+            // group all input addresses with each other
+            for (CTxIn txin : pcoin->tx->vin) {
+                CTxDestination address;
+                if (!IsMine(txin)) /* If this input isn't mine, ignore it */
+                    continue;
+                if (!ExtractDestination(mapWallet.at(txin.prevout.hash).tx->vout[txin.prevout.n].scriptPubKey, address))
+                    continue;
+                grouping.insert(address);
+                any_mine = true;
+            }
+
+            // group change with input addresses
+            if (any_mine) {
+                for (CTxOut txout : pcoin->tx->vout)
+                    if (IsChange(txout)) {
+                        CTxDestination txoutAddr;
+                        if (!ExtractDestination(txout.scriptPubKey, txoutAddr))
+                            continue;
+                        grouping.insert(txoutAddr);
+                    }
+            }
+            if (grouping.size() > 0) {
+                groupings.insert(grouping);
+                grouping.clear();
+            }
+        }
+
+        // group lone addrs by themselves
+        for (const auto& txout : pcoin->tx->vout)
+            if (IsMine(txout)) {
+                CTxDestination address;
+                if (!ExtractDestination(txout.scriptPubKey, address))
+                    continue;
+                grouping.insert(address);
+                groupings.insert(grouping);
+                grouping.clear();
+            }
+    }
+
+    std::set<std::set<CTxDestination>*> uniqueGroupings;        // a set of pointers to groups of addresses
+    std::map<CTxDestination, std::set<CTxDestination>*> setmap; // map addresses to the unique group containing it
+    for (std::set<CTxDestination> _grouping : groupings) {
+        // make a set of all the groups hit by this new group
+        std::set<std::set<CTxDestination>*> hits;
+        std::map<CTxDestination, std::set<CTxDestination>*>::iterator it;
+        for (CTxDestination address : _grouping)
+            if ((it = setmap.find(address)) != setmap.end())
+                hits.insert((*it).second);
+
+        // merge all hit groups into a new single group and delete old groups
+        std::set<CTxDestination>* merged = new std::set<CTxDestination>(_grouping);
+        for (std::set<CTxDestination>* hit : hits) {
+            merged->insert(hit->begin(), hit->end());
+            uniqueGroupings.erase(hit);
+            delete hit;
+        }
+        uniqueGroupings.insert(merged);
+
+        // update setmap
+        for (CTxDestination element : *merged)
+            setmap[element] = merged;
+    }
+
+    std::set<std::set<CTxDestination>> ret;
+    for (std::set<CTxDestination>* uniqueGrouping : uniqueGroupings) {
+        ret.insert(*uniqueGrouping);
+        delete uniqueGrouping;
+    }
+
+    return ret;
+}
+
+std::set<CTxDestination> CWallet::GetLabelAddresses(const std::string& label) const
+{
+    LOCK(cs_wallet);
+    std::set<CTxDestination> result;
+    for (const std::pair<const CTxDestination, CAddressBookData>& item : mapAddressBook) {
+        const CTxDestination& address = item.first;
+        const std::string& strName = item.second.name;
+        if (strName == label)
+            result.insert(address);
+    }
+    return result;
+}
+
+void CWallet::DeleteLabel(const std::string& label)
+{
+    WalletBatch batch(*database);
+    batch.EraseAccount(label);
+}
+
+bool CReserveKey::GetReservedKey(CPubKey& pubkey, bool fInternalIn)
+{
+    if (nIndex == -1) {
+        CKeyPool keypool;
+        pwallet->ReserveKeyFromKeyPool(nIndex, keypool, fInternalIn);
+        if (nIndex != -1) {
+            vchPubKey = keypool.vchPubKey;
+        } else {
+            return false;
+        }
+        fInternal = keypool.fInternal;
+    }
+    assert(vchPubKey.IsValid());
+    pubkey = vchPubKey;
+    return true;
+}
+
+void CReserveKey::KeepKey()
+{
+    if (nIndex != -1) {
+        pwallet->KeepKey(nIndex);
+    }
+    nIndex = -1;
+    vchPubKey = CPubKey();
+}
+
+void CReserveKey::ReturnKey()
+{
+    if (nIndex != -1) {
+        pwallet->ReturnKey(nIndex, fInternal, vchPubKey);
+    }
+    nIndex = -1;
+    vchPubKey = CPubKey();
+}
+
+void CWallet::MarkReserveKeysAsUsed(int64_t keypool_id)
+{
+    AssertLockHeld(cs_wallet);
+    bool internal = setInternalKeyPool.count(keypool_id);
+    if (!internal) assert(setExternalKeyPool.count(keypool_id));
+    std::set<int64_t>* setKeyPool = internal ? &setInternalKeyPool : &setExternalKeyPool;
+    auto it = setKeyPool->begin();
+
+    WalletBatch batch(*database);
+    while (it != std::end(*setKeyPool)) {
+        const int64_t& index = *(it);
+        if (index > keypool_id) break; // set*KeyPool is ordered
+
+        CKeyPool keypool;
+        if (batch.ReadPool(index, keypool)) { // TODO: This should be unnecessary
+            m_pool_key_to_index.erase(keypool.vchPubKey.GetID());
+        }
+        batch.ErasePool(index);
+        LogPrintf("keypool index %d removed\n", index);
+        it = setKeyPool->erase(it);
+    }
+}
+
+void CWallet::GetScriptForMining(std::shared_ptr<CReserveScript>& script)
+{
+    std::shared_ptr<CReserveKey> rKey = std::make_shared<CReserveKey>(this);
+    CPubKey pubkey;
+    if (!rKey->GetReservedKey(pubkey, false))
+        return;
+
+    script = rKey;
+    script->reserveScript = CScript() << ToByteVector(pubkey) << OP_CHECKSIG;
+}
+
+void CWallet::LockCoin(const COutPoint& output)
+{
+    AssertLockHeld(cs_wallet); // setLockedCoins
+    setLockedCoins.insert(output);
+    std::map<uint256, CWalletTx>::iterator it = mapWallet.find(output.hash);
+    if (it != mapWallet.end()) it->second.MarkDirty(); // recalculate all credits for this tx
+
+    fAnonymizableTallyCached = false;
+    fAnonymizableTallyCachedNonDenom = false;
+}
+
+void CWallet::UnlockCoin(const COutPoint& output)
+{
+    AssertLockHeld(cs_wallet); // setLockedCoins
+    setLockedCoins.erase(output);
+    std::map<uint256, CWalletTx>::iterator it = mapWallet.find(output.hash);
+    if (it != mapWallet.end()) it->second.MarkDirty(); // recalculate all credits for this tx
+
+    fAnonymizableTallyCached = false;
+    fAnonymizableTallyCachedNonDenom = false;
+}
+
+void CWallet::UnlockAllCoins()
+{
+    AssertLockHeld(cs_wallet); // setLockedCoins
+    setLockedCoins.clear();
+}
+
+bool CWallet::IsLockedCoin(uint256 hash, unsigned int n) const
+{
+    AssertLockHeld(cs_wallet); // setLockedCoins
+    COutPoint outpt(hash, n);
+
+    return (setLockedCoins.count(outpt) > 0);
+}
+
+void CWallet::ListLockedCoins(std::vector<COutPoint>& vOutpts) const
+{
+    AssertLockHeld(cs_wallet); // setLockedCoins
+    for (std::set<COutPoint>::iterator it = setLockedCoins.begin();
+         it != setLockedCoins.end(); it++) {
+        COutPoint outpt = (*it);
+        vOutpts.push_back(outpt);
+    }
+}
+
+void CWallet::GetProTxCoins(const CDeterministicMNList& mnList, std::vector<COutPoint>& vOutpts) const
+{
+    AssertLockHeld(cs_wallet);
+    for (const auto& o : setWalletUTXO) {
+        auto it = mapWallet.find(o.hash);
+        if (it != mapWallet.end()) {
+            const auto& p = it->second;
+            if (deterministicMNManager->IsProTxWithCollateral(p.tx, o.n) || mnList.HasMNByCollateral(o)) {
+                vOutpts.emplace_back(o);
+            }
+        }
+    }
+}
+
+void CWallet::ListProTxCoins(int height, std::vector<COutPoint>& vOutpts) const
+{
+    GetProTxCoins(deterministicMNManager->GetListForBlock(chainActive[height]), vOutpts);
+}
+
+void CWallet::ListProTxCoins(std::vector<COutPoint>& vOutpts) const
+{
+    GetProTxCoins(deterministicMNManager->GetListAtChainTip(), vOutpts);
+}
+
+/** @} */ // end of Actions
+
+void CWallet::GetKeyBirthTimes(std::map<CTxDestination, int64_t>& mapKeyBirth) const
+{
+    AssertLockHeld(cs_wallet); // mapKeyMetadata
+    mapKeyBirth.clear();
+
+    // get birth times for keys with metadata
+    for (const auto& entry : mapKeyMetadata) {
+        if (entry.second.nCreateTime) {
+            mapKeyBirth[entry.first] = entry.second.nCreateTime;
+        }
+    }
+
+    // map in which we'll infer heights of other keys
+    CBlockIndex* pindexMax = chainActive[std::max(0, chainActive.Height() - 144)]; // the tip can be reorganized; use a 144-block safety margin
+    std::map<CKeyID, CBlockIndex*> mapKeyFirstBlock;
+    for (const CKeyID& keyid : GetKeys()) {
+        if (mapKeyBirth.count(keyid) == 0)
+            mapKeyFirstBlock[keyid] = pindexMax;
+    }
+
+    // if there are no such keys, we're done
+    if (mapKeyFirstBlock.empty())
+        return;
+
+    // find first block that affects those keys, if there are any left
+    std::vector<CKeyID> vAffected;
+    for (const auto& entry : mapWallet) {
+        // iterate over all wallet transactions...
+        const CWalletTx& wtx = entry.second;
+        CBlockIndex* pindex = LookupBlockIndex(wtx.hashBlock);
+        if (pindex && chainActive.Contains(pindex)) {
+            // ... which are already in a block
+            int nHeight = pindex->nHeight;
+            for (const CTxOut& txout : wtx.tx->vout) {
+                // iterate over all their outputs
+                CAffectedKeysVisitor(*this, vAffected).Process(txout.scriptPubKey);
+                for (const CKeyID& keyid : vAffected) {
+                    // ... and all their affected keys
+                    std::map<CKeyID, CBlockIndex*>::iterator rit = mapKeyFirstBlock.find(keyid);
+                    if (rit != mapKeyFirstBlock.end() && nHeight < rit->second->nHeight)
+                        rit->second = pindex;
+                }
+                vAffected.clear();
+            }
+        }
+    }
+
+    // Extract block timestamps for those keys
+    for (const auto& entry : mapKeyFirstBlock)
+        mapKeyBirth[entry.first] = entry.second->GetBlockTime() - TIMESTAMP_WINDOW; // block times can be 2h off
+}
+
+/**
+ * Compute smart timestamp for a transaction being added to the wallet.
+ *
+ * Logic:
+ * - If sending a transaction, assign its timestamp to the current time.
+ * - If receiving a transaction outside a block, assign its timestamp to the
+ *   current time.
+ * - If receiving a transaction during a rescanning process, assign all its
+ *   (not already known) transactions' timestamps to the block time.
+ * - If receiving a block with a future timestamp, assign all its (not already
+ *   known) transactions' timestamps to the current time.
+ * - If receiving a block with a past timestamp, before the most recent known
+ *   transaction (that we care about), assign all its (not already known)
+ *   transactions' timestamps to the same timestamp as that most-recent-known
+ *   transaction.
+ * - If receiving a block with a past timestamp, but after the most recent known
+ *   transaction, assign all its (not already known) transactions' timestamps to
+ *   the block time.
+ *
+ * For more information see CWalletTx::nTimeSmart,
+ * https://bitcointalk.org/?topic=54527, or
+ * https://github.com/bitcoin/bitcoin/pull/1393.
+ */
+unsigned int CWallet::ComputeTimeSmart(const CWalletTx& wtx, bool rescanningOldBlock) const
+{
+    unsigned int nTimeSmart = wtx.nTimeReceived;
+    if (!wtx.hashUnset()) {
+        if (const CBlockIndex* pindex = LookupBlockIndex(wtx.hashBlock)) {
+            int64_t blocktime = mapBlockIndex[wtx.hashBlock]->GetBlockTime();
+            if (rescanningOldBlock) {
+                nTimeSmart = blocktime;
+            } else {
+                int64_t latestNow = wtx.nTimeReceived;
+                int64_t latestEntry = 0;
+
+                // Tolerate times up to the last timestamp in the wallet not more than 5 minutes into the future
+                int64_t latestTolerated = latestNow + 300;
+                const TxItems& txOrdered = wtxOrdered;
+                for (auto it = txOrdered.rbegin(); it != txOrdered.rend(); ++it) {
+                    CWalletTx* const pwtx = it->second.first;
+                    if (pwtx == &wtx) {
+                        continue;
+                    }
+                    CAccountingEntry* const pacentry = it->second.second;
+                    int64_t nSmartTime;
+                    if (pwtx) {
+                        nSmartTime = pwtx->nTimeSmart;
+                        if (!nSmartTime) {
+                            nSmartTime = pwtx->nTimeReceived;
+                        }
+                    } else {
+                        nSmartTime = pacentry->nTime;
+                    }
+                    if (nSmartTime <= latestTolerated) {
+                        latestEntry = nSmartTime;
+                        if (nSmartTime > latestNow) {
+                            latestNow = nSmartTime;
+                        }
+                        break;
+                    }
+                }
+                nTimeSmart = std::max(latestEntry, std::min(blocktime, latestNow));
+            }
+        } else {
+            LogPrintf("%s: found %s in block %s not in index\n", __func__, wtx.GetHash().ToString(), wtx.hashBlock.ToString());
+        }
+    }
+    return nTimeSmart;
+}
+
+bool CWallet::AddDestData(const CTxDestination& dest, const std::string& key, const std::string& value)
+{
+    if (boost::get<CNoDestination>(&dest))
+        return false;
+
+    mapAddressBook[dest].destdata.insert(std::make_pair(key, value));
+    return WalletBatch(*database).WriteDestData(EncodeDestination(dest), key, value);
+}
+
+bool CWallet::EraseDestData(const CTxDestination& dest, const std::string& key)
+{
+    if (!mapAddressBook[dest].destdata.erase(key))
+        return false;
+    return WalletBatch(*database).EraseDestData(EncodeDestination(dest), key);
+}
+
+bool CWallet::LoadDestData(const CTxDestination& dest, const std::string& key, const std::string& value)
+{
+    mapAddressBook[dest].destdata.insert(std::make_pair(key, value));
+    return true;
+}
+
+bool CWallet::GetDestData(const CTxDestination& dest, const std::string& key, std::string* value) const
+{
+    std::map<CTxDestination, CAddressBookData>::const_iterator i = mapAddressBook.find(dest);
+    if (i != mapAddressBook.end()) {
+        CAddressBookData::StringMap::const_iterator j = i->second.destdata.find(key);
+        if (j != i->second.destdata.end()) {
+            if (value)
+                *value = j->second;
+            return true;
+        }
+    }
+    return false;
+}
+
+std::vector<std::string> CWallet::GetDestValues(const std::string& prefix) const
+{
+    LOCK(cs_wallet);
+    std::vector<std::string> values;
+    for (const auto& address : mapAddressBook) {
+        for (const auto& data : address.second.destdata) {
+            if (!data.first.compare(0, prefix.size(), prefix)) {
+                values.emplace_back(data.second);
+            }
+        }
+    }
+    return values;
+}
+
+bool CWallet::Verify(const WalletLocation& location, bool salvage_wallet, std::string& error_string, std::string& warning_string)
+{
+    // Do some checking on wallet path. It should be either a:
+    //
+    // 1. Path where a directory can be created.
+    // 2. Path to an existing directory.
+    // 3. Path to a symlink to a directory.
+    // 4. For backwards compatibility, the name of a data file in -walletdir.
+    LOCK(cs_wallets);
+    const fs::path& wallet_path = location.GetPath();
+    fs::file_type path_type = fs::symlink_status(wallet_path).type();
+    if (!(path_type == fs::file_not_found || path_type == fs::directory_file ||
+            (path_type == fs::symlink_file && fs::is_directory(wallet_path)) ||
+            (path_type == fs::regular_file && fs::path(location.GetName()).filename() == location.GetName()))) {
+        error_string = strprintf(
+            "Invalid -wallet path '%s'. -wallet path should point to a directory where wallet.dat and "
+            "database/log.?????????? files can be stored, a location where such a directory could be created, "
+            "or (for backwards compatibility) the name of an existing data file in -walletdir (%s)",
+            location.GetName(), GetWalletDir());
+        return false;
+    }
+
+    // Make sure that the wallet path doesn't clash with an existing wallet path
+    if (IsWalletLoaded(wallet_path)) {
+        error_string = strprintf("Error loading wallet %s. Duplicate -wallet filename specified.", location.GetName());
+        return false;
+    }
+
+    try {
+        if (!WalletBatch::VerifyEnvironment(wallet_path, error_string)) {
+            return false;
+        }
+    } catch (const fs::filesystem_error& e) {
+        error_string = strprintf("Error loading wallet %s. %s", location.GetName(), e.what());
+        return false;
+    }
+
+    std::unique_ptr<CWallet> tempWallet = MakeUnique<CWallet>(location, WalletDatabase::Create(wallet_path));
+    if (!tempWallet->AutoBackupWallet(wallet_path, warning_string, error_string) && !error_string.empty()) {
+        return false;
+    }
+
+    if (salvage_wallet) {
+        // Recover readable keypairs:
+        CWallet dummyWallet(WalletLocation(), WalletDatabase::CreateDummy());
+        std::string backup_filename;
+        if (!WalletBatch::Recover(wallet_path, (void*)&dummyWallet, WalletBatch::RecoverKeysOnlyFilter, backup_filename)) {
+            return false;
+        }
+    }
+
+    return WalletBatch::VerifyDatabaseFile(wallet_path, warning_string, error_string);
+}
+
+std::shared_ptr<CWallet> CWallet::CreateWalletFromFile(const WalletLocation& location)
+{
+    const std::string& walletFile = location.GetName();
+
+    // needed to restore wallet transaction meta data after -zapwallettxes
+    std::vector<CWalletTx> vWtx;
+
+    if (gArgs.GetBoolArg("-zapwallettxes", false)) {
+        uiInterface.InitMessage(_("Zapping all transactions from wallet..."));
+
+        std::unique_ptr<CWallet> tempWallet = MakeUnique<CWallet>(location, WalletDatabase::Create(location.GetPath()));
+        DBErrors nZapWalletRet = tempWallet->ZapWalletTx(vWtx);
+        if (nZapWalletRet != DBErrors::LOAD_OK) {
+            InitError(strprintf(_("Error loading %s: Wallet corrupted"), walletFile));
+            return nullptr;
+        }
+    }
+
+    uiInterface.InitMessage(_("Loading wallet..."));
+
+    int64_t nStart = GetTimeMillis();
+    bool fFirstRun = true;
+    // TODO: Can't use std::make_shared because we need a custom deleter but
+    // should be possible to use std::allocate_shared.
+    std::shared_ptr<CWallet> walletInstance(new CWallet(location, WalletDatabase::Create(location.GetPath())), ReleaseWallet);
+    AddWallet(walletInstance);
+    auto error = [&](const std::string& strError) {
+        RemoveWallet(walletInstance);
+        InitError(strError);
+        return nullptr;
+    };
+    DBErrors nLoadWalletRet;
+    try {
+        nLoadWalletRet = walletInstance->LoadWallet(fFirstRun);
+    } catch (const std::exception& e) {
+        RemoveWallet(walletInstance);
+        throw;
+    }
+    if (nLoadWalletRet != DBErrors::LOAD_OK) {
+        if (nLoadWalletRet == DBErrors::CORRUPT) {
+            return error(strprintf(_("Error loading %s: Wallet corrupted"), walletFile));
+        } else if (nLoadWalletRet == DBErrors::NONCRITICAL_ERROR) {
+            InitWarning(strprintf(_("Error reading %s! All keys read correctly, but transaction data"
+                                    " or address book entries might be missing or incorrect."),
+                walletFile));
+        } else if (nLoadWalletRet == DBErrors::TOO_NEW) {
+            return error(strprintf(_("Error loading %s: Wallet requires newer version of %s"), walletFile, _(PACKAGE_NAME)));
+        } else if (nLoadWalletRet == DBErrors::NEED_REWRITE) {
+            return error(strprintf(_("Wallet needed to be rewritten: restart %s to complete"), _(PACKAGE_NAME)));
+        } else {
+            return error(strprintf(_("Error loading %s"), walletFile));
+        }
+    }
+
+    if (gArgs.GetBoolArg("-upgradewallet", fFirstRun)) {
+        int nMaxVersion = gArgs.GetArg("-upgradewallet", 0);
+        if (nMaxVersion == 0) // the -upgradewallet without argument case
+        {
+            LogPrintf("Performing wallet upgrade to %i\n", FEATURE_LATEST);
+            nMaxVersion = FEATURE_LATEST;
+            walletInstance->SetMinVersion(FEATURE_LATEST); // permanently upgrade the wallet immediately
+        } else
+            LogPrintf("Allowing wallet upgrade up to %i\n", nMaxVersion);
+        if (nMaxVersion < walletInstance->GetVersion()) {
+            return error(_("Cannot downgrade wallet"));
+        }
+        walletInstance->SetMaxVersion(nMaxVersion);
+    }
+
+    if (fFirstRun) {
+        // Create new keyUser and set as default key
+        if (gArgs.GetBoolArg("-usehd", DEFAULT_USE_HD_WALLET) && !walletInstance->IsHDEnabled()) {
+            std::string strSeed = gArgs.GetArg("-hdseed", "not hex");
+
+            if (gArgs.IsArgSet("-hdseed") && IsHex(strSeed)) {
+                CHDChain newHdChain;
+                std::vector<unsigned char> vchSeed = ParseHex(strSeed);
+                if (!newHdChain.SetSeed(SecureVector(vchSeed.begin(), vchSeed.end()), true)) {
+                    return error(strprintf(_("%s failed"), "SetSeed"));
+                }
+                if (!walletInstance->SetHDChainSingle(newHdChain, false)) {
+                    return error(strprintf(_("%s failed"), "SetHDChainSingle"));
+                }
+                newHdChain.Debug(__func__);
+            } else {
+                if (gArgs.IsArgSet("-hdseed") && !IsHex(strSeed)) {
+                    LogPrintf("%s -- Incorrect seed, generating a random mnemonic instead\n", __func__);
+                }
+                SecureString secureMnemonic = gArgs.GetArg("-mnemonic", "").c_str();
+                SecureString secureMnemonicPassphrase = gArgs.GetArg("-mnemonicpassphrase", "").c_str();
+                walletInstance->GenerateNewHDChain(secureMnemonic, secureMnemonicPassphrase);
+            }
+
+            // ensure this wallet.dat can only be opened by clients supporting HD
+            LogPrintf("Upgrading wallet to HD\n");
+            walletInstance->SetMinVersion(FEATURE_HD);
+
+            // clean up
+            gArgs.ForceRemoveArg("-hdseed");
+            gArgs.ForceRemoveArg("-mnemonic");
+            gArgs.ForceRemoveArg("-mnemonicpassphrase");
+        }
+
+        // Top up the keypool
+        if (!walletInstance->TopUpKeyPool()) {
+            return error(_("Unable to generate initial keys"));
+        }
+
+        walletInstance->SetBestChain(chainActive.GetLocator());
+
+        // Try to create wallet backup right after new wallet was created
+        std::string strBackupWarning;
+        std::string strBackupError;
+        if (!walletInstance->AutoBackupWallet("", strBackupWarning, strBackupError)) {
+            if (!strBackupWarning.empty()) {
+                InitWarning(strBackupWarning);
+            }
+            if (!strBackupError.empty()) {
+                return error(strBackupError);
+            }
+        }
+
+    } else if (gArgs.IsArgSet("-usehd")) {
+        bool useHD = gArgs.GetBoolArg("-usehd", DEFAULT_USE_HD_WALLET);
+        if (walletInstance->IsHDEnabled() && !useHD) {
+            return error(strprintf(_("Error loading %s: You can't disable HD on an already existing HD wallet"),
+                walletInstance->GetName()));
+        }
+        if (!walletInstance->IsHDEnabled() && useHD) {
+            return error(strprintf(_("Error loading %s: You can't enable HD on an already existing non-HD wallet"),
+                walletInstance->GetName()));
+        }
+    }
+
+    // Warn user every time he starts non-encrypted HD wallet
+    if (gArgs.GetBoolArg("-usehd", DEFAULT_USE_HD_WALLET) && !walletInstance->IsLocked()) {
+        InitWarning(_("Make sure to encrypt your wallet and delete all non-encrypted backups after you have verified that the wallet works!"));
+    }
+
+    LogPrintf(" wallet      %15dms\n", GetTimeMillis() - nStart);
+
+    // Try to top up keypool. No-op if the wallet is locked.
+    walletInstance->TopUpKeyPool();
+
+    LOCK(cs_main);
+
+    CBlockIndex* pindexRescan = chainActive.Genesis();
+    if (!gArgs.GetBoolArg("-rescan", false)) {
+        WalletBatch batch(*walletInstance->database);
+        CBlockLocator locator;
+        if (batch.ReadBestBlock(locator))
+            pindexRescan = FindForkInGlobalIndex(chainActive, locator);
+    }
+
+    walletInstance->m_last_block_processed = chainActive.Tip();
+
+    if (chainActive.Tip() && chainActive.Tip() != pindexRescan) {
+        // We can't rescan beyond non-pruned blocks, stop and throw an error
+        // this might happen if a user uses an old wallet within a pruned node
+        //  or if he ran -disablewallet for a longer time, then decided to re-enable
+        if (fPruneMode) {
+            CBlockIndex* block = chainActive.Tip();
+            while (block && block->pprev && (block->pprev->nStatus & BLOCK_HAVE_DATA) && block->pprev->nTx > 0 && pindexRescan != block)
+                block = block->pprev;
+
+            if (pindexRescan != block) {
+                return error(_("Prune: last wallet synchronisation goes beyond pruned data. You need to -reindex (download the whole blockchain again in case of pruned node)"));
+            }
+        }
+
+        uiInterface.InitMessage(_("Rescanning..."));
+        LogPrintf("Rescanning last %i blocks (from block %i)...\n", chainActive.Height() - pindexRescan->nHeight, pindexRescan->nHeight);
+
+        // No need to read and scan block if block was created before
+        // our wallet birthday (as adjusted for block time variability)
+        // unless a full rescan was requested
+        if (gArgs.GetArg("-rescan", 0) != 2) {
+            while (pindexRescan && walletInstance->nTimeFirstKey && (pindexRescan->GetBlockTime() < (walletInstance->nTimeFirstKey - TIMESTAMP_WINDOW))) {
+                pindexRescan = chainActive.Next(pindexRescan);
+            }
+        }
+
+        nStart = GetTimeMillis();
+        {
+            WalletRescanReserver reserver(walletInstance.get());
+            if (!reserver.reserve()) {
+                return error(_("Failed to rescan the wallet during initialization"));
+            }
+            walletInstance->ScanForWalletTransactions(pindexRescan, nullptr, reserver, true);
+        }
+        LogPrintf(" rescan      %15dms\n", GetTimeMillis() - nStart);
+        walletInstance->SetBestChain(chainActive.GetLocator());
+        walletInstance->database->IncrementUpdateCounter();
+
+        // Restore wallet transaction metadata after -zapwallettxes=1
+        if (gArgs.GetBoolArg("-zapwallettxes", false) && gArgs.GetArg("-zapwallettxes", "1") != "2") {
+            WalletBatch batch(*walletInstance->database);
+
+            for (const CWalletTx& wtxOld : vWtx) {
+                uint256 hash = wtxOld.GetHash();
+                std::map<uint256, CWalletTx>::iterator mi = walletInstance->mapWallet.find(hash);
+                if (mi != walletInstance->mapWallet.end()) {
+                    const CWalletTx* copyFrom = &wtxOld;
+                    CWalletTx* copyTo = &mi->second;
+                    copyTo->mapValue = copyFrom->mapValue;
+                    copyTo->vOrderForm = copyFrom->vOrderForm;
+                    copyTo->nTimeReceived = copyFrom->nTimeReceived;
+                    copyTo->nTimeSmart = copyFrom->nTimeSmart;
+                    copyTo->fFromMe = copyFrom->fFromMe;
+                    copyTo->strFromAccount = copyFrom->strFromAccount;
+                    copyTo->nOrderPos = copyFrom->nOrderPos;
+                    batch.WriteTx(*copyTo);
+                }
+            }
+        }
+    }
+
+    uiInterface.LoadWallet(walletInstance);
+
+    // Register with the validation interface. It's ok to do this after rescan since we're still holding cs_main.
+    RegisterValidationInterface(walletInstance.get());
+
+    walletInstance->SetBroadcastTransactions(gArgs.GetBoolArg("-walletbroadcast", DEFAULT_WALLETBROADCAST));
+
+    {
+        LOCK(walletInstance->cs_wallet);
+        LogPrintf("setExternalKeyPool.size() = %u\n", walletInstance->KeypoolCountExternalKeys());
+        LogPrintf("setInternalKeyPool.size() = %u\n", walletInstance->KeypoolCountInternalKeys());
+        LogPrintf("mapWallet.size() = %u\n", walletInstance->mapWallet.size());
+        LogPrintf("mapAddressBook.size() = %u\n", walletInstance->mapAddressBook.size());
+        LogPrintf("nTimeFirstKey = %u\n", walletInstance->nTimeFirstKey);
+    }
+
+    return walletInstance;
+}
+
+void CWallet::postInitProcess()
+{
+    // Add wallet transactions that aren't already in a block to mempool
+    // Do this here as mempool requires genesis block to be loaded
+    ReacceptWalletTransactions();
+}
+
+bool CWallet::InitAutoBackup()
+{
+    if (gArgs.GetBoolArg("-disablewallet", DEFAULT_DISABLE_WALLET))
+        return true;
+
+    nWalletBackups = gArgs.GetArg("-createwalletbackups", 10);
+    nWalletBackups = std::max(0, std::min(10, nWalletBackups));
+
+    return true;
+}
+
+bool CWallet::BackupWallet(const std::string& strDest)
+{
+    return database->Backup(strDest);
+}
+
+// This should be called carefully:
+// either supply the actual wallet_path to make a raw copy of wallet.dat or "" to backup current instance via BackupWallet()
+bool CWallet::AutoBackupWallet(const fs::path& wallet_path, std::string& strBackupWarningRet, std::string& strBackupErrorRet)
+{
+    strBackupWarningRet = strBackupErrorRet = "";
+    std::string strWalletName = GetName();
+    if (strWalletName.empty()) {
+        strWalletName = "wallet.dat";
+    }
+
+    if (nWalletBackups <= 0) {
+        LogPrintf("Automatic wallet backups are disabled!\n");
+        return false;
+    }
+
+    fs::path backupsDir = GetBackupsDir();
+    backupsDir.make_preferred();
+
+    if (!fs::exists(backupsDir)) {
+        // Always create backup folder to not confuse the operating system's file browser
+        LogPrintf("Creating backup folder %s\n", backupsDir.string());
+        if (!fs::create_directories(backupsDir)) {
+            // something is wrong, we shouldn't continue until it's resolved
+            strBackupErrorRet = strprintf(_("Wasn't able to create wallet backup folder %s!"), backupsDir.string());
+            LogPrintf("%s\n", strBackupErrorRet);
+            nWalletBackups = -1;
+            return false;
+        }
+    } else if (!fs::is_directory(backupsDir)) {
+        // something is wrong, we shouldn't continue until it's resolved
+        strBackupErrorRet = strprintf(_("%s is not a valid backup folder!"), backupsDir.string());
+        LogPrintf("%s\n", strBackupErrorRet);
+        nWalletBackups = -1;
+        return false;
+    }
+
+    // Create backup of the ...
+    std::string dateTimeStr = DateTimeStrFormat(".%Y-%m-%d-%H-%M", GetTime());
+    if (wallet_path.empty()) {
+        // ... opened wallet
+        LOCK2(cs_main, cs_wallet);
+        fs::path backupFile = backupsDir / (strWalletName + dateTimeStr);
+        backupFile.make_preferred();
+        if (!BackupWallet(backupFile.string())) {
+            strBackupWarningRet = strprintf(_("Failed to create backup %s!"), backupFile.string());
+            LogPrintf("%s\n", strBackupWarningRet);
+            nWalletBackups = -1;
+            return false;
+        }
+
+        // Update nKeysLeftSinceAutoBackup using current external keypool size
+        nKeysLeftSinceAutoBackup = KeypoolCountExternalKeys();
+        LogPrintf("nKeysLeftSinceAutoBackup: %d\n", nKeysLeftSinceAutoBackup);
+        if (IsLocked(true)) {
+            strBackupWarningRet = _("Wallet is locked, can't replenish keypool! Automatic backups and mixing are disabled, please unlock your wallet to replenish keypool.");
+            LogPrintf("%s\n", strBackupWarningRet);
+            nWalletBackups = -2;
+            return false;
+        }
+    } else {
+        // ... strWalletName file
+        std::string strSourceFile;
+        BerkeleyEnvironment* env = GetWalletEnv(wallet_path, strSourceFile);
+        fs::path sourceFile = env->Directory() / strSourceFile;
+        fs::path backupFile = backupsDir / (strWalletName + dateTimeStr);
+        sourceFile.make_preferred();
+        backupFile.make_preferred();
+        if (fs::exists(backupFile)) {
+            strBackupWarningRet = _("Failed to create backup, file already exists! This could happen if you restarted wallet in less than 60 seconds. You can continue if you are ok with this.");
+            LogPrintf("%s\n", strBackupWarningRet);
+            return false;
+        }
+        if (fs::exists(sourceFile)) {
+            try {
+                fs::copy_file(sourceFile, backupFile);
+                LogPrintf("Creating backup of %s -> %s\n", sourceFile.string(), backupFile.string());
+            } catch (fs::filesystem_error& error) {
+                strBackupWarningRet = strprintf(_("Failed to create backup, error: %s"), error.what());
+                LogPrintf("%s\n", strBackupWarningRet);
+                nWalletBackups = -1;
+                return false;
+            }
+        }
+    }
+
+    // Keep only the last 10 backups, including the new one of course
+    typedef std::multimap<std::time_t, fs::path> folder_set_t;
+    folder_set_t folder_set;
+    fs::directory_iterator end_iter;
+    // Build map of backup files for current(!) wallet sorted by last write time
+    fs::path currentFile;
+    for (fs::directory_iterator dir_iter(backupsDir); dir_iter != end_iter; ++dir_iter) {
+        // Only check regular files
+        if (fs::is_regular_file(dir_iter->status())) {
+            currentFile = dir_iter->path().filename();
+            // Only add the backups for the current wallet, e.g. wallet.dat.*
+            if (dir_iter->path().stem().string() == strWalletName) {
+                folder_set.insert(folder_set_t::value_type(fs::last_write_time(dir_iter->path()), *dir_iter));
+            }
+        }
+    }
+
+    // Loop backward through backup files and keep the N newest ones (1 <= N <= 10)
+    int counter = 0;
+    for (auto it = folder_set.rbegin(); it != folder_set.rend(); ++it) {
+        std::pair<const std::time_t, fs::path> file = *it;
+        counter++;
+        if (counter > nWalletBackups) {
+            // More than nWalletBackups backups: delete oldest one(s)
+            try {
+                fs::remove(file.second);
+                LogPrintf("Old backup deleted: %s\n", file.second);
+            } catch (fs::filesystem_error& error) {
+                strBackupWarningRet = strprintf(_("Failed to delete backup, error: %s"), error.what());
+                LogPrintf("%s\n", strBackupWarningRet);
+                return false;
+            }
+        }
+    }
+
+    return true;
+}
+
+void CWallet::NotifyTransactionLock(const CTransactionRef& tx, const std::shared_ptr<const llmq::CInstantSendLock>& islock)
+{
+    LOCK(cs_wallet);
+    // Only notify UI if this transaction is in this wallet
+    uint256 txHash = tx->GetHash();
+    std::map<uint256, CWalletTx>::const_iterator mi = mapWallet.find(txHash);
+    if (mi != mapWallet.end()) {
+        NotifyTransactionChanged(this, txHash, CT_UPDATED);
+        NotifyISLockReceived();
+        // notify an external script
+        std::string strCmd = gArgs.GetArg("-instantsendnotify", "");
+        if (!strCmd.empty()) {
+            boost::replace_all(strCmd, "%s", txHash.GetHex());
+            std::thread t(runCommand, strCmd);
+            t.detach(); // thread runs free
+        }
+    }
+}
+
+void CWallet::NotifyChainLock(const CBlockIndex* pindexChainLock, const std::shared_ptr<const llmq::CChainLockSig>& clsig)
+{
+    NotifyChainLockReceived(pindexChainLock->nHeight);
+}
+
+bool CWallet::LoadGovernanceObject(const CGovernanceObject& obj)
+{
+    AssertLockHeld(cs_wallet);
+    return m_gobjects.emplace(obj.GetHash(), obj).second;
+}
+
+bool CWallet::WriteGovernanceObject(const CGovernanceObject& obj)
+{
+    AssertLockHeld(cs_wallet);
+    WalletBatch batch(*database);
+    return batch.WriteGovernanceObject(obj) && LoadGovernanceObject(obj);
+}
+
+std::vector<const CGovernanceObject*> CWallet::GetGovernanceObjects()
+{
+    AssertLockHeld(cs_wallet);
+    std::vector<const CGovernanceObject*> vecObjects;
+    vecObjects.reserve(m_gobjects.size());
+    for (auto& obj : m_gobjects) {
+        vecObjects.push_back(&obj.second);
+    }
+    return vecObjects;
+}
+
+CKeyPool::CKeyPool()
+{
+    nTime = GetTime();
+    fInternal = false;
+}
+
+CKeyPool::CKeyPool(const CPubKey& vchPubKeyIn, bool fInternalIn)
+{
+    nTime = GetTime();
+    vchPubKey = vchPubKeyIn;
+    fInternal = fInternalIn;
+}
+
+CWalletKey::CWalletKey(int64_t nExpires)
+{
+    nTimeCreated = (nExpires ? GetTime() : 0);
+    nTimeExpires = nExpires;
+}
+
+void CMerkleTx::SetMerkleBranch(const CBlockIndex* pindex, int posInBlock)
+{
+    // Update the tx's hashBlock
+    hashBlock = pindex->GetBlockHash();
+
+    // set the position of the transaction in the block
+    nIndex = posInBlock;
+}
+
+int64_t CMerkleTx::GetConfirmationTime() const
+{
+    int nResult;
+
+    if (hashUnset())
+        return -1;
+
+    AssertLockHeld(cs_main);
+
+    // Find the block it claims to be in
+    CBlockIndex* pindex = LookupBlockIndex(hashBlock);
+    if (!pindex || !chainActive.Contains(pindex) || nIndex == -1)
+        return -1;
+
+    return pindex->GetBlockTime();
+}
+
+int CMerkleTx::GetDepthInMainChain() const
+{
+    int nResult;
+
+    if (hashUnset())
+        return 0;
+
+    AssertLockHeld(cs_main);
+
+    // Find the block it claims to be in
+    CBlockIndex* pindex = LookupBlockIndex(hashBlock);
+    if (!pindex || !chainActive.Contains(pindex))
+        return 0;
+
+    return ((nIndex == -1) ? (-1) : 1) * (chainActive.Height() - pindex->nHeight + 1);
+}
+
+bool CMerkleTx::IsLockedByInstantSend() const
+{
+    if (fIsChainlocked) {
+        fIsInstantSendLocked = false;
+    } else if (!fIsInstantSendLocked) {
+        fIsInstantSendLocked = llmq::quorumInstantSendManager->IsLocked(GetHash());
+    }
+    return fIsInstantSendLocked;
+}
+
+bool CMerkleTx::IsChainLocked() const
+{
+    if (!fIsChainlocked) {
+        AssertLockHeld(cs_main);
+        CBlockIndex* pIndex = LookupBlockIndex(hashBlock);
+        if (pIndex != nullptr) {
+            fIsChainlocked = llmq::chainLocksHandler->HasChainLock(pIndex->nHeight, hashBlock);
+        }
+    }
+    return fIsChainlocked;
+}
+
+int CMerkleTx::GetBlocksToMaturity() const
+{
+    if (!IsCoinBase())
+        return 0;
+    int chain_depth = GetDepthInMainChain();
+    assert(chain_depth >= 0); // coinbase tx should not be conflicted
+    return std::max(0, (COINBASE_MATURITY + 1) - chain_depth);
+}
+
+
+bool CWalletTx::AcceptToMemoryPool(const CAmount& nAbsurdFee, CValidationState& state)
+{
+    // We must set fInMempool here - while it will be re-set to true by the
+    // entered-mempool callback, if we did not there would be a race where a
+    // user could call sendmoney in a loop and hit spurious out of funds errors
+    // because we think that this newly generated transaction's change is
+    // unavailable as we're not yet aware that it is in the mempool.
+    bool ret = ::AcceptToMemoryPool(mempool, state, tx, nullptr /* pfMissingInputs */,
+        false /* bypass_limits */, nAbsurdFee);
+    fInMempool |= ret;
+    return ret;
+}
