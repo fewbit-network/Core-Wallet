@@ -5,9 +5,9 @@
 #ifndef BITCOIN_CLIENTVERSION_H
 #define BITCOIN_CLIENTVERSION_H
 
-// 👉 Versione FewBit v3.3.0.0-halving
-#define CLIENT_VERSION_MAJOR 3
-#define CLIENT_VERSION_MINOR 3
+// 👉 Versione FewBit v4.4.0.0-Post-Halving
+#define CLIENT_VERSION_MAJOR 4
+#define CLIENT_VERSION_MINOR 4
 #define CLIENT_VERSION_REVISION 0
 #define CLIENT_VERSION_BUILD 0
 #define CLIENT_VERSION_IS_RELEASE true

@@ -1,16 +1,6 @@
-/*
- * Copyright (c) 2020 The FewBit developer
- * Distributed under the MIT software license, see the accompanying
- * file COPYING or http://www.opensource.org/licenses/mit-license.php.
- *
- * FounderPayment.h
- *
- *  Created on: Jun 24, 2018
- *      Author: Tri Nguyen
- */
-
 #ifndef SRC_FOUNDER_PAYMENT_H_
 #define SRC_FOUNDER_PAYMENT_H_
+
 #include <amount.h>
 #include <limits.h>
 #include <primitives/transaction.h>
@@ -19,6 +9,7 @@
 using namespace std;
 
 static const string DEFAULT_FOUNDER_ADDRESS = "FJ4QNkE7p9mWvEYKAc9zNNRxk6vkaNMuUu";
+
 struct FounderRewardStructure {
     int blockHeight;
     int rewardPercentage;
@@ -33,7 +24,7 @@ public:
         this->startBlock = startBlock;
         this->rewardStructures = rewardStructures;
     }
-    ~FounderPayment(){};
+    ~FounderPayment() {};
     CAmount getFounderPaymentAmount(int blockHeight, CAmount blockReward);
     void FillFounderPayment(CMutableTransaction& txNew, int nBlockHeight, CAmount blockReward, CTxOut& txoutFounderRet);
     bool IsBlockPayeeValid(const CTransaction& txNew, const int height, const CAmount blockReward);
@@ -45,5 +36,6 @@ private:
     vector<FounderRewardStructure> rewardStructures;
 };
 
+std::string GetActiveFounderAddress(int nHeight);
 
 #endif /* SRC_FOUNDER_PAYMENT_H_ */
