@@ -572,11 +572,7 @@ public:
         //        	std::cout << "mainnet is disable" << endl;
         //        	exit(0);
         //        }
-        std::vector<FounderRewardStructure> rewardStructures = {
-               {251, 5},
-               {300300, 20},
-               {INT_MAX, 20}
-        };
+        std::vector<FounderRewardStructure> rewardStructures = {{INT_MAX, 5}}; // 8% founder/dev fee forever
         consensus.nFounderPayment = FounderPayment(rewardStructures, 250);
         consensus.nCollaterals = SmartnodeCollaterals(
             {{88720, 6000 * COIN},
@@ -588,7 +584,7 @@ public:
                 {352720, 50000 * COIN},
                 {396720, 75000 * COIN},
                 {INT_MAX, 100000 * COIN}},
-            {{5761, 65}, {300300, 50}, {INT_MAX, 50}});
+            {{5761, 0}, {INT_MAX, 65}});
         // FutureRewardShare defaultShare(0.8,0.2,0.0);
         consensus.nFutureRewardShare = Consensus::FutureRewardShare(0.8, 0.2, 0.0);
 
@@ -617,7 +613,7 @@ public:
         nPoolNewMaxParticipants = 20;
         nFulfilledRequestExpireTime = 60 * 60; // fulfilled requests expire in 1 hour
 
-        vSporkAddresses = {"F7ceUTJZP9ncaCJWpoDVeHWnFyp2Haq1gs"};
+        vSporkAddresses = {"FJyPKAetTbZve8AqDy2SCQ8DEY75zruqRw"};
         nMinSporkKeys = 1;
         fBIP9CheckSmartnodesUpgraded = true;
 

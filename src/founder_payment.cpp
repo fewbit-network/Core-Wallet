@@ -5,32 +5,18 @@
 #include <key_io.h>
 #include <util.h>
 
-std::string GetActiveFounderAddress(int nHeight)
-{
-    if (nHeight >= 300300) {
-        return "FBA69LP6syGpa3zGiiaQmkSUTY2XrtQbov";  // Nuovo dev address solo da 300300 in avanti
-    } else {
-        return DEFAULT_FOUNDER_ADDRESS;  // BURN address storico per tutti i blocchi precedenti
-    }
-}
-
 CAmount FounderPayment::getFounderPaymentAmount(int blockHeight, CAmount blockReward)
 {
     if (blockHeight <= startBlock) {
         return 0;
     }
-
-    for (size_t i = 0; i < rewardStructures.size(); i++) {
-        if (i == 0 && blockHeight <= rewardStructures[i].blockHeight) {
-            return blockReward * rewardStructures[i].rewardPercentage / 100;
-        }
-
-        if (blockHeight > rewardStructures[i - 1].blockHeight && blockHeight <= rewardStructures[i].blockHeight) {
-            return blockReward * rewardStructures[i].rewardPercentage / 100;
+    for (int i = 0; i < rewardStructures.size(); i++) {
+        FounderRewardStructure rewardStructure = rewardStructures[i];
+        if (rewardStructure.blockHeight == INT_MAX || blockHeight <= rewardStructure.blockHeight) {
+            return blockReward * rewardStructure.rewardPercentage / 100;
         }
     }
-
-    return rewardStructures.back().rewardPercentage * blockReward / 100;
+    return 0;
 }
 
 void FounderPayment::FillFounderPayment(CMutableTransaction& txNew, int nBlockHeight, CAmount blockReward, CTxOut& txoutFounderRet)
@@ -54,13 +40,8 @@ void FounderPayment::FillFounderPayment(CMutableTransaction& txNew, int nBlockHe
 
 bool FounderPayment::IsBlockPayeeValid(const CTransaction& txNew, const int height, const CAmount blockReward)
 {
-    const CAmount founderReward = getFounderPaymentAmount(height, blockReward);
-
-    if (founderReward == 0) {
-        return true;  // Nessun founder payment previsto su questo blocco
-    }
-
     CScript payee = GetScriptForDestination(DecodeDestination(GetActiveFounderAddress(height)));
+    const CAmount founderReward = getFounderPaymentAmount(height, blockReward);
 
     BOOST_FOREACH (const CTxOut& out, txNew.vout) {
         if (out.scriptPubKey == payee && out.nValue >= founderReward) {
@@ -68,12 +49,14 @@ bool FounderPayment::IsBlockPayeeValid(const CTransaction& txNew, const int heig
         }
     }
 
-    // Eccezione: blocchi storici prima del 300300 → accettiamo comunque per non corrompere la chain
-    if (height < 300300) {
-        LogPrintf("FounderPayment::IsBlockPayeeValid -- Skipping strict founder check for legacy block %d\n", height);
-        return true;
-    }
+    return founderReward == 0;
+}
 
-    // Per blocchi da 300300 in poi → controllo rigoroso
-    return false;
+std::string GetActiveFounderAddress(int nHeight)
+{
+    if (nHeight >= 300300) {
+        return "FBA69LP6syGpa3zGiiaQmkSUTY2XrtQbov";  // Nuovo founder address dal block 300300
+    } else {
+        return DEFAULT_FOUNDER_ADDRESS;  // Address storico fino al 300299
+    }
 }
