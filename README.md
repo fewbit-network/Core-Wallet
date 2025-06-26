@@ -27,9 +27,6 @@ From Block 300300 onwards	5% of each block reward goes to the Development Fund A
 
 New Development Fund Address (from block 300300):
 
-nginx
-Copia
-Modifica
 FBA69LP6syGpa3zGiiaQmkSUTY2XrtQbov
 ⚖️ Fair Distribution Model
 
