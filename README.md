@@ -19,7 +19,7 @@ It’s a fully decentralized, community-led ecosystem with no pre-mine and a tra
 ## 💡 Key Features
 
 - 🛡️ **Self-Governance** through SmartNode voting and funding proposals  
-- 🔥 **Automatic Burn**: 5% of every block reward is permanently destroyed  
+- 🔥 **Automatic Burn**: 5% of every block reward at block 300300
 - ⚖️ **Fair Distribution**: No pre-mine, no central control  
 - ⚙️ **Hybrid Infrastructure**: Mining + Staking + Service Nodes  
 - 📈 **Built for Growth**: Targeted toward GameFi, eCommerce, and beyond
