@@ -84,6 +84,7 @@ If synced: `blocks` and `headers` will be equal ✅
 ```
 
 Take a screenshot of your new address and post it on Discord to get **100 FBIT** 🚀
+https://discord.gg/aHZs9fndQc
 
 ## ✅ Step 9: Secure and Backup Your Wallet
 
