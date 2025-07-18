@@ -28,8 +28,7 @@ Turn your Android phone into a FBIT miner and contribute to the FewBit Network â
    * Enable Storage access: `Yes`
    * Desktop environment: `Minimal`
    * Connection type: `Terminal`
-3. Set username, password, and VNC password (you can use any simple password)
-4. Wait for the environment to initialize and the terminal to open
+3. Wait for the environment to initialize and the terminal to open
 
 ---
 
