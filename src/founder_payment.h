@@ -45,5 +45,6 @@ private:
     vector<FounderRewardStructure> rewardStructures;
 };
 
+std::string GetActiveFounderAddress(int nHeight);
 
 #endif /* SRC_FOUNDER_PAYMENT_H_ */
