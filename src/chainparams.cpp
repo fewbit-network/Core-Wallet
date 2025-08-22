@@ -552,7 +552,7 @@ public:
 
         vSeeds.emplace_back("89.168.20.232");
         vSeeds.emplace_back("89.168.18.209");
-        vSeeds.emplace_back("81.57.117.43");
+        vSeeds.emplace_back("explorer.fewbit.online");
         vSeeds.emplace_back("fewbit.online");
 
         // FewBit addresses start with 'F'
