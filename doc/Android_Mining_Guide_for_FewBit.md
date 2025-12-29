@@ -63,7 +63,7 @@ make -j$(nproc)
 After the build is complete, launch the miner:
 
 ```bash
-./xmrig --algo ghostrider --url stratum+tcp://pool.fewbit.online:5181 --user YOUR_FBIT_ADDRESS.Your_Worker --pass x
+./xmrig --algo ghostrider --url stratum+tcp://pool.fewbit.online:5180 --user YOUR_FBIT_ADDRESS.Your_Worker --pass x
 ```
 
 > Replace `YOUR_FBIT_ADDRESS.Your_Worker` with your actual FewBit wallet address.
