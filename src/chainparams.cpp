@@ -575,17 +575,22 @@ public:
         std::vector<FounderRewardStructure> rewardStructures = {{INT_MAX, 5}}; // 8% founder/dev fee forever
         consensus.nFounderPayment = FounderPayment(rewardStructures, 250);
         consensus.nCollaterals = SmartnodeCollaterals{
-        {
-            {88720, 6000 * COIN},
-            {132720, 8000 * COIN},
-            {176720, 10000 * COIN},
-            {220720, 12500 * COIN},
-            {264720, 15000 * COIN},
-            {308720, 18000 * COIN},
-            {352720, 50000 * COIN},
-            {396720, 75000 * COIN},
-            {INT_MAX, 100000 * COIN}},
-            {{5761, 0}, {INT_MAX, 65}});
+    {
+        {88720, 6000 * COIN},
+        {132720, 8000 * COIN},
+        {176720, 10000 * COIN},
+        {220720, 12500 * COIN},
+        {264720, 15000 * COIN},
+        {308720, 18000 * COIN},
+        {352720, 50000 * COIN},
+        {396720, 75000 * COIN},
+        {INT_MAX, 100000 * COIN}
+    },
+    {
+        {5761, 0},
+        {INT_MAX, 65}
+    }
+};
 
         // FutureRewardShare defaultShare(0.8,0.2,0.0);
         consensus.nFutureRewardShare = Consensus::FutureRewardShare(0.8, 0.2, 0.0);
