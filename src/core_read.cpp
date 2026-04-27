@@ -46,8 +46,7 @@ CScript ParseScript(const std::string& s)
     }
 
     std::vector<std::string> words;
-    std::string tmp = s;
-    boost::algorithm::split(words, tmp, boost::algorithm::is_any_of(" \t\n"));
+    boost::algorithm::split(words, s, boost::algorithm::is_any_of(" \t\n"), boost::algorithm::token_compress_on);
 
     for (std::vector<std::string>::const_iterator w = words.begin(); w != words.end(); ++w)
     {

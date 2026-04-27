@@ -1229,7 +1229,7 @@ static void AlertNotify(const std::string& strMessage)
     std::string singleQuote("'");
     std::string safeStatus = SanitizeString(strMessage);
     safeStatus = singleQuote + safeStatus + singleQuote;
-    boost::replace_all(strCmd, "%s", std::string(safeStatus));
+    boost::replace_all(strCmd, "%s", safeStatus);
 
     std::thread t(runCommand, strCmd);
     t.detach(); // thread runs free

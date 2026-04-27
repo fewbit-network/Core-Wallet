@@ -574,24 +574,17 @@ public:
         //        }
         std::vector<FounderRewardStructure> rewardStructures = {{INT_MAX, 5}}; // 8% founder/dev fee forever
         consensus.nFounderPayment = FounderPayment(rewardStructures, 250);
-        consensus.nCollaterals = SmartnodeCollaterals{
-    {
-        {88720, 6000 * COIN},
-        {132720, 8000 * COIN},
-        {176720, 10000 * COIN},
-        {220720, 12500 * COIN},
-        {264720, 15000 * COIN},
-        {308720, 18000 * COIN},
-        {352720, 50000 * COIN},
-        {396720, 75000 * COIN},
-        {INT_MAX, 100000 * COIN}
-    },
-    {
-        {5761, 0},
-        {INT_MAX, 65}
-    }
-};
-
+        consensus.nCollaterals = SmartnodeCollaterals(
+            {{88720, 6000 * COIN},
+                {132720, 8000 * COIN},
+                {176720, 10000 * COIN},
+                {220720, 12500 * COIN},
+                {264720, 15000 * COIN},
+                {308720, 18000 * COIN},
+                {352720, 50000 * COIN},
+                {396720, 75000 * COIN},
+                {INT_MAX,100000 * COIN}},
+            {{5761, 0}, {INT_MAX, 65}});
         // FutureRewardShare defaultShare(0.8,0.2,0.0);
         consensus.nFutureRewardShare = Consensus::FutureRewardShare(0.8, 0.2, 0.0);
 
@@ -625,16 +618,13 @@ public:
         fBIP9CheckSmartnodesUpgraded = true;
 
         checkpointData = {
-            {
-                {2744, uint256S("0x2e3f75b45a25238f94d44655a44f5259c3ba4d4d031ec2f7485cafdd338092c8")},
-                {396720, uint256S("0x6a68da3f7ae5e11f21bc299a1e94d1ff40ef70c50b33f9f7411f9c8fbcc1a4c5")}
-            }
-        };
+            {{2744, uint256S("0x2e3f75b45a25238f94d44655a44f5259c3ba4d4d031ec2f7485cafdd338092c8")}}};
 
         chainTxData = ChainTxData{
-            1762166930,      // * UNIX timestamp of last known number of transactions
-            863621,          // * total number of transactions between genesis and that timestamp
-            0.0149326746     // * estimated number of transactions per second after that timestamp
+            1715727745, // * UNIX timestamp of last known number of transactions (Block 0)
+            0,          // * total number of transactions between genesis and that timestamp
+                        //   (the tx=... number in the SetBestChain debug.log lines)
+            0.06        // * estimated number of transactions per second after that timestamp
         };
     }
 };
