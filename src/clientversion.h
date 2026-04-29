@@ -5,7 +5,6 @@
 #ifndef BITCOIN_CLIENTVERSION_H
 #define BITCOIN_CLIENTVERSION_H
 
-// 👉 Versione FewBit v4.4.0.0-Post-Halving
 #define CLIENT_VERSION_MAJOR 5
 #define CLIENT_VERSION_MINOR 5
 #define CLIENT_VERSION_REVISION 0
@@ -17,7 +16,6 @@
 #include <config/fewbit-config.h>
 #endif // HAVE_CONFIG_H
 
-// ✅ Le definizioni sono ora presenti, quindi questo check passerà
 #if !defined(CLIENT_VERSION_MAJOR) || !defined(CLIENT_VERSION_MINOR) || \
     !defined(CLIENT_VERSION_REVISION) || !defined(CLIENT_VERSION_BUILD) || \
     !defined(CLIENT_VERSION_IS_RELEASE) || !defined(COPYRIGHT_YEAR)
