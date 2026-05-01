@@ -583,7 +583,17 @@ public:
                 {308720, 18000 * COIN},
                 {352720, 50000 * COIN},
                 {396720, 75000 * COIN},
-                {INT_MAX,100000 * COIN}},
+                {600000, 100000 * COIN},
+                {900000, 112500 * COIN},
+                {1200000, 128750 * COIN},
+                {1500000, 140000 * COIN},
+                {1800000, 148750 * COIN},
+                {2100000, 155000 * COIN},
+                {2400000, 160000 * COIN},
+                {2700000, 163750 * COIN},
+                {3000000, 166250 * COIN},
+                {3300000, 168000 * COIN},
+                {INT_MAX,200000 * COIN}},
             {{5761, 0}, {INT_MAX, 65}});
         // FutureRewardShare defaultShare(0.8,0.2,0.0);
         consensus.nFutureRewardShare = Consensus::FutureRewardShare(0.8, 0.2, 0.0);
