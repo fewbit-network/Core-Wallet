@@ -628,7 +628,7 @@ public:
         fBIP9CheckSmartnodesUpgraded = true;
 
         checkpointData = {
-            {{555555, uint256S("0x60fe18cf67b57442f7106283a9a8c3b12dc9dab31078f3c57875598ab3017d8b")}}};
+            {{320500, uint256S("0xae04bc64d072451595c48a91dd51e4b5e6acb418002b79a600580d50933c76b3")}}};
 
         chainTxData = ChainTxData{
             1715727745, // * UNIX timestamp of last known number of transactions (Block 0)
