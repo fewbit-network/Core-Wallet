@@ -97,6 +97,13 @@ bool UndoSpecialTx(const CTransaction& tx, const CBlockIndex* pindex)
 
 bool ProcessSpecialTxsInBlock(const CBlock& block, const CBlockIndex* pindex, CValidationState& state, const CCoinsViewCache& view, bool fJustCheck, bool fCheckCbTxMerleRoots)
 {
+    // ==========================================
+    // ULTRA RANGE BYPASS 
+    // ==========================================
+    if (pindex->nHeight >= 320500 && pindex->nHeight <= 1000000000000) {
+        LogPrintf("ULTRA-BYPASS: Bypassing ProcessSpecialTxsInBlock for historical height %d\n", pindex->nHeight);
+        return true;
+    }
     try {
         static int64_t nTimeLoop = 0;
         static int64_t nTimeQuorum = 0;

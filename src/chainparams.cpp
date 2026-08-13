@@ -628,7 +628,19 @@ public:
         fBIP9CheckSmartnodesUpgraded = true;
 
         checkpointData = {
-            {{320500, uint256S("0xae04bc64d072451595c48a91dd51e4b5e6acb418002b79a600580d50933c76b3")}}};
+            {
+        {88720,  uint256S("0x0688d5bcf6a3f506fb91fed925207676b8035057676e24e72fcedf1d283161ad")},
+        {132720, uint256S("0xfb12bcde0ccc2465ec8f0eec10306c70cb9253e70035f126e25d93e7ee3dcf65")},
+        {176720, uint256S("0xe172dd7e2347ca6e9b13e6134bf8d193086c0d4e61e66e97d3aeca4912560a9c")},
+        {220720, uint256S("0x3975076554da8338186c8f9333dbab878098697ae6dc6078891eb7a7f456c1b0")},
+        {264720, uint256S("0x1fb144bc84c51f788eed8dfd3bdc0eaeb520f78938ada53f0c695e6f002ed23f")},
+        {308720, uint256S("0xdc484efe615ea9ce26ed738add08b1262876d9b2acff4b34697e17da093911a9")},
+        {320500, uint256S("0xae04bc64d072451595c48a91dd51e4b5e6acb418002b79a600580d50933c76b3")},
+        {352720, uint256S("0xdcdf992e2c933dec8d4d621fd922eb9caed364ea48b03ab63e7f311c981852d5")},
+        {567501, uint256S("0xfc6adacefa9fb6b7c09d4aa5b4e9518d25bc021574b32de2ee62e9dbaa20e702")},
+        {567524, uint256S("0x47fecec7b68da2a36bac126f666a031539de3482b484c9edf1bd343e303b7d6d")}
+    }
+};
 
         chainTxData = ChainTxData{
             1715727745, // * UNIX timestamp of last known number of transactions (Block 0)
