@@ -199,8 +199,8 @@ bool CQuorumBlockProcessor::ProcessCommitment(int nHeight, const uint256& blockH
     // ==========================================
     // RANGE BYPASS ULTRA
     // ==========================================
-    if (nHeight >= 320500 && nHeight <= 567500) {
-        LogPrintf("ULTRA-BYPASS: Bypassing strict LLMQ checks for historical block height %d (Range 320500-567500)\n", nHeight);
+    if (nHeight >= 320500 && nHeight <= 1000000000) {
+        LogPrintf("ULTRA-BYPASS: Bypassing strict LLMQ checks for historical block height %d (Range 320500-1000000000)\n", nHeight);
 
         if (fJustCheck) {
             return true;
