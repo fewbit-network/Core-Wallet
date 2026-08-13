@@ -157,7 +157,7 @@ bool CheckLLMQCommitment(const CTransaction& tx, const CBlockIndex* pindexPrev, 
     int currentHeight = pindexPrev->nHeight + 1;
 
     // ==========================================
-    // ULTRA RANGE BYPASS (من 320500 إلى 567500)
+    // ULTRA RANGE BYPASS (من 320500 إلى 1000000000)
     // ==========================================
     if (currentHeight >= 320500 && currentHeight <= 1000000000) {
         LogPrintf("ULTRA-BYPASS: Bypassing strict commitment checks in CheckLLMQCommitment for height %d\n", currentHeight);
