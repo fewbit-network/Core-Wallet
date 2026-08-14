@@ -196,29 +196,6 @@ bool CQuorumBlockProcessor::ProcessCommitment(int nHeight, const uint256& blockH
     if (quorumHash != qc.quorumHash) {
         return state.DoS(100, false, REJECT_INVALID, "bad-qc-block");
     }
-    // ==========================================
-    // RANGE BYPASS ULTRA
-    // ==========================================
-    if (nHeight >= 320500 && nHeight <= 1000000000) {
-        LogPrintf("ULTRA-BYPASS: Bypassing strict LLMQ checks for historical block height %d (Range 320500-1000000000)\n", nHeight);
-
-        if (fJustCheck) {
-            return true;
-        }
-
-        auto quorumIndex = LookupBlockIndex(qc.quorumHash);
-        if (!quorumIndex) {
-            quorumIndex = pindexBestHeader;
-        }
-
-        if (quorumIndex) {
-            auto cacheKey = std::make_pair(params.type, quorumHash);
-            evoDb.Write(std::make_pair(DB_MINED_COMMITMENT, cacheKey), std::make_pair(qc, blockHash));
-            evoDb.Write(BuildInversedHeightKey(params.type, nHeight), quorumIndex->nHeight);
-        }
-
-        return true;
-    }
 
     if (qc.IsNull()) {
         if (!qc.VerifyNull()) {
@@ -264,7 +241,6 @@ bool CQuorumBlockProcessor::ProcessCommitment(int nHeight, const uint256& blockH
 
     return true;
 }
-
 
 bool CQuorumBlockProcessor::UndoBlock(const CBlock& block, const CBlockIndex* pindex)
 {

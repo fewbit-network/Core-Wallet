@@ -154,20 +154,11 @@ bool CheckLLMQCommitment(const CTransaction& tx, const CBlockIndex* pindexPrev, 
         return state.DoS(100, false, REJECT_INVALID, "bad-qc-height");
     }
 
-    int currentHeight = pindexPrev->nHeight + 1;
-
-    // ==========================================
-    // ULTRA RANGE BYPASS (من 320500 إلى 1000000000)
-    // ==========================================
-    if (currentHeight >= 320500 && currentHeight <= 1000000000) {
-        LogPrintf("ULTRA-BYPASS: Bypassing strict commitment checks in CheckLLMQCommitment for height %d\n", currentHeight);
-        return true;
-    }
-
     const CBlockIndex* pindexQuorum = LookupBlockIndex(qcTx.commitment.quorumHash);
     if (!pindexQuorum) {
         return state.DoS(100, false, REJECT_INVALID, "bad-qc-quorum-hash");
     }
+
 
     if (pindexQuorum != pindexPrev->GetAncestor(pindexQuorum->nHeight)) {
         // not part of active chain

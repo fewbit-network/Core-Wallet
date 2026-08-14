@@ -55,13 +55,6 @@ bool CheckCbTx(const CTransaction& tx, const CBlockIndex* pindexPrev, CValidatio
 // This can only be done after the block has been fully processed, as otherwise we won't have the finished MN list
 bool CheckCbTxMerkleRoots(const CBlock& block, const CBlockIndex* pindex, CValidationState& state, const CCoinsViewCache& view)
 {
-    // ==========================================
-    // ULTRA RANGE BYPASS 
-    // ==========================================
-    if (pindex->nHeight >= 320500 && pindex->nHeight <= 1000000000000) {
-        LogPrintf("ULTRA-BYPASS: Bypassing CheckCbTxMerkleRoots for historical height %d\n", pindex->nHeight);
-        return true;
-    }
     if (block.vtx[0]->nType != TRANSACTION_COINBASE) {
         return true;
     }
