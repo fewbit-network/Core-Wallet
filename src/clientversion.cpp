@@ -10,13 +10,13 @@
  * for both fewbitd and fewbit-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("FewBit Core 6.6 by GhostRider");
+const std::string CLIENT_NAME("FewBit Core by GhostRider");
 
 /**
  * Client version number
  */
 
-#define CLIENT_VERSION_SUFFIX "EVO"
+#define CLIENT_VERSION_SUFFIX "SUPER_EVO"
 
 /**
  * The following part of the code determines the CLIENT_BUILD variable.
