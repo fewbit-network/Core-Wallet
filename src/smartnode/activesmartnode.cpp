@@ -184,35 +184,51 @@ bool CActiveSmartnodeManager::GetLocalAddress(CService& addrRet)
 {
     // First try to find whatever our own local address is known internally.
     // Addresses could be specified via externalip or bind option, discovered via UPnP
-    // or added by TorController. Use some random dummy IPv4 peer to prefer the one
-    // reachable via IPv4.
+    // or added by TorController. Try both IPv4 and IPv6 peers to find the address
+    // reachable through either network.
     CNetAddr addrDummyPeer;
     bool fFoundLocal{false};
+
+    // Try IPv4 first
     if (LookupHost("8.8.8.8", addrDummyPeer, false)) {
         fFoundLocal = GetLocal(addrRet, &addrDummyPeer) && IsValidNetAddr(addrRet);
     }
+
+    // If IPv4 did not work, try IPv6
+    if (!fFoundLocal && LookupHost("2001:4860:4860::8888", addrDummyPeer, false)) {
+        fFoundLocal = GetLocal(addrRet, &addrDummyPeer) && IsValidNetAddr(addrRet);
+    }
+
     if (!fFoundLocal && !Params().RequireRoutableExternalIP()) {
         if (Lookup("127.0.0.1", addrRet, GetListenPort(), false)) {
             fFoundLocal = true;
         }
     }
+
     if (!fFoundLocal) {
         bool empty = true;
+
         // If we have some peers, let's try to find our local address from one of them
         auto service = WITH_LOCK(activeSmartnodeInfoCs, return activeSmartnodeInfo.service);
+
         g_connman->ForEachNodeContinueIf(CConnman::AllNodes, [&](CNode* pnode) {
             empty = false;
-            if (pnode->addr.IsIPv4())
+
+            if (pnode->addr.IsIPv4() || pnode->addr.IsIPv6()) {
                 fFoundLocal = GetLocal(service, &pnode->addr) && IsValidNetAddr(service);
+            }
+
             return !fFoundLocal;
         });
-        // nothing and no live connections, can't do anything for now
+
+        // Nothing and no live connections, can't do anything for now
         if (empty) {
-            strError = "Can't detect valid external address. Please consider using the externalip configuration option if problem persists. Make sure to use IPv4 address only.";
+            strError = "Can't detect valid external address. Please consider using the externalip configuration option if problem persists.";
             LogPrintf("CActiveSmartnodeManager::GetLocalAddress -- ERROR: %s\n", strError);
             return false;
         }
     }
+
     return true;
 }
 
@@ -220,6 +236,10 @@ bool CActiveSmartnodeManager::IsValidNetAddr(CService addrIn)
 {
     // TODO: regtest is fine with any addresses for now,
     // should probably be a bit smarter if one day we start to implement tests for this
+
     return !Params().RequireRoutableExternalIP() ||
-           (addrIn.IsIPv4() && IsReachable(addrIn) && addrIn.IsRoutable());
+           ((addrIn.IsIPv4() || addrIn.IsIPv6()) &&
+            IsReachable(addrIn) &&
+            addrIn.IsRoutable());
 }
+
