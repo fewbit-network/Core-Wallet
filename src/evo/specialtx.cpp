@@ -105,6 +105,10 @@ bool ProcessSpecialTxsInBlock(const CBlock& block, const CBlockIndex* pindex, CV
 
         int64_t nTime1 = GetTimeMicros();
 
+        // Historical blocks must be validated with the SPORK_21_LOW_LLMQ_PARAMS state inferred from the chain
+        // (see SelectLLMQParamsForSize). cs_main is held here, so IsInitialBlockDownload() can't cause lock order issues.
+        SetInferLowLLMQParams(IsInitialBlockDownload());
+
         for (int i = 0; i < (int)block.vtx.size(); i++) {
             const CTransaction& tx = *block.vtx[i];
             if (!CheckSpecialTx(tx, pindex->pprev, state, view)) {

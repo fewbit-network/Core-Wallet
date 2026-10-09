@@ -4,6 +4,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include <evo/deterministicmns.h>
+#include <evo/cbtx.h>
 #include <evo/specialtx.h>
 
 #include <base58.h>
@@ -737,7 +738,7 @@ bool CDeterministicMNManager::BuildNewListFromBlock(const CBlock& block, const C
             newList.UpdateMN(dmn->proTxHash, newState);
         }
     });
-    bool isDecrease = sporkManager.IsSporkActive(SPORK_21_LOW_LLMQ_PARAMS) ? nHeight % 30 == 0 : nHeight % 2 == 0;
+    bool isDecrease = IsLowLLMQParamsActive(pindexPrev) ? nHeight % 30 == 0 : nHeight % 2 == 0;
     if (isDecrease) {
         DecreasePoSePenalties(newList);
     }
@@ -941,13 +942,17 @@ bool CDeterministicMNManager::BuildNewListFromBlock(const CBlock& block, const C
     }
 
     mnListRet = std::move(newList);
-    UpdateLLMQParams(mnListRet.GetAllMNsCount(), nHeight, sporkManager.IsSporkActive(SPORK_21_LOW_LLMQ_PARAMS));
+    UpdateLLMQParams(mnListRet.GetAllMNsCount(), nHeight, IsLowLLMQParamsActive(pindexPrev));
     return true;
 }
 
 void CDeterministicMNManager::HandleQuorumCommitment(const llmq::CFinalCommitment& qc, const CBlockIndex* pindexQuorum, CDeterministicMNList& mnList, bool debugLogs)
 {
     // The commitment has already been validated at this point so it's safe to use members of it
+    if (IsInferLowLLMQParams()) {
+        // use the same params the commitment was validated with (see CFinalCommitment::Verify)
+        SelectLLMQParamsForSize((Consensus::LLMQType)qc.llmqType, qc.validMembers.size());
+    }
 
     auto members = llmq::CLLMQUtils::GetAllQuorumMembers((Consensus::LLMQType)qc.llmqType, pindexQuorum);
 
@@ -1049,7 +1054,7 @@ CDeterministicMNList CDeterministicMNManager::GetListForBlock(const CBlockIndex*
         }
     }
     // is this needed?
-    UpdateLLMQParams(snapshot.GetAllMNsCount(), snapshot.GetHeight(), sporkManager.IsSporkActive(SPORK_21_LOW_LLMQ_PARAMS));
+    UpdateLLMQParams(snapshot.GetAllMNsCount(), snapshot.GetHeight(), IsLowLLMQParamsActive(nullptr));
     return snapshot;
 }
 

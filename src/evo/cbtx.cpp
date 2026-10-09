@@ -13,6 +13,8 @@
 #include <chain.h>
 #include <chainparams.h>
 #include <consensus/merkle.h>
+#include <spork.h>
+#include <validation.h>
 
 bool CheckCbTx(const CTransaction& tx, const CBlockIndex* pindexPrev, CValidationState& state)
 {
@@ -96,7 +98,20 @@ bool CheckCbTxMerkleRoots(const CBlock& block, const CBlockIndex* pindex, CValid
                 return false;
             }
             if (calculatedMerkleRoot != cbTx.merkleRootQuorums) {
-                return state.DoS(100, false, REJECT_INVALID, "bad-cbtx-quorummerkleroot");
+                if (!IsInferLowLLMQParams()) {
+                    return state.DoS(100, false, REJECT_INVALID, "bad-cbtx-quorummerkleroot");
+                }
+                // signingActiveQuorumCount depends on SPORK_21_LOW_LLMQ_PARAMS, which may have been toggled on the
+                // network at this block. Check whether the other state reproduces the merkle root of the block.
+                bool lowLLMQParams = IsLowLLMQParamsActive(pindex->pprev);
+                SetInferredLowLLMQParams(!lowLLMQParams);
+                uint256 altMerkleRoot;
+                CValidationState altState;
+                if (!CalcCbTxMerkleRootQuorums(block, pindex->pprev, altMerkleRoot, altState) || altMerkleRoot != cbTx.merkleRootQuorums) {
+                    SetInferredLowLLMQParams(lowLLMQParams);
+                    return state.DoS(100, false, REJECT_INVALID, "bad-cbtx-quorummerkleroot");
+                }
+                LogPrintf("CheckCbTxMerkleRoots -- low LLMQ params switched to %d at height %d\n", !lowLLMQParams, pindex->nHeight);
             }
         }
 
@@ -180,6 +195,8 @@ bool CalcCbTxMerkleRootQuorums(const CBlock& block, const CBlockIndex* pindexPre
 
     static std::map<Consensus::LLMQType, std::vector<const CBlockIndex*>> quorumsCached;
     static std::map<Consensus::LLMQType, std::vector<uint256>> qcHashesCached;
+
+    InitInferredLowLLMQParams(pindexPrev);
 
     // The returned quorums are in reversed order, so the most recent one is at index 0
     auto quorums = llmq::quorumBlockProcessor->GetMinedAndActiveCommitmentsUntilBlock(pindexPrev);
@@ -268,6 +285,59 @@ bool CalcCbTxMerkleRootQuorums(const CBlock& block, const CBlockIndex* pindexPre
     }
 
     return true;
+}
+
+void InitInferredLowLLMQParams(const CBlockIndex* pindexPrev)
+{
+    static bool fRunning = false;
+    if (IsLowLLMQParamsInferred() || fRunning || !pindexPrev || !pindexPrev->pprev || !IsInferLowLLMQParams()) {
+        return;
+    }
+    fRunning = true;
+
+    bool matchLow = false, matchNormal = false;
+    CBlock tipBlock;
+    CCbTx tipCbTx;
+    if (ReadBlockFromDisk(tipBlock, pindexPrev, Params().GetConsensus()) && !tipBlock.vtx.empty() &&
+        GetTxPayload(*tipBlock.vtx[0], tipCbTx) && tipCbTx.nVersion >= 2) {
+        for (bool lowLLMQParams : {false, true}) {
+            SetInferredLowLLMQParams(lowLLMQParams);
+            uint256 merkleRoot;
+            CValidationState dummyState;
+            if (CalcCbTxMerkleRootQuorums(tipBlock, pindexPrev->pprev, merkleRoot, dummyState) && merkleRoot == tipCbTx.merkleRootQuorums) {
+                (lowLLMQParams ? matchLow : matchNormal) = true;
+            }
+        }
+    }
+
+    if (matchLow != matchNormal) {
+        SetInferredLowLLMQParams(matchLow);
+    } else {
+        // Not enough active quorums to tell the states apart: use the size of the last mined commitment
+        bool lowLLMQParams = sporkManager.IsSporkActive(SPORK_21_LOW_LLMQ_PARAMS);
+        auto lastQuorums = llmq::quorumBlockProcessor->GetMinedCommitmentsUntilBlock(Consensus::LLMQ_50_60, pindexPrev, 1);
+        if (!lastQuorums.empty()) {
+            llmq::CFinalCommitment lastQc;
+            uint256 lastMinedBlockHash;
+            if (llmq::quorumBlockProcessor->GetMinedCommitment(Consensus::LLMQ_50_60, lastQuorums[0]->GetBlockHash(), lastQc, lastMinedBlockHash)) {
+                lowLLMQParams = IsLowLLMQParamsSize(Consensus::LLMQ_50_60, lastQc.validMembers.size());
+            }
+        }
+        SetInferredLowLLMQParams(lowLLMQParams);
+    }
+    LogPrintf("%s -- height=%d matchLow=%d matchNormal=%d -> lowLLMQParams=%d\n", __func__, pindexPrev->nHeight, matchLow, matchNormal, GetInferredLowLLMQParams());
+
+    fRunning = false;
+}
+
+bool IsLowLLMQParamsActive(const CBlockIndex* pindexPrev)
+{
+    if (!IsInferLowLLMQParams()) {
+        return sporkManager.IsSporkActive(SPORK_21_LOW_LLMQ_PARAMS);
+    }
+    InitInferredLowLLMQParams(pindexPrev);
+    int inferred = GetInferredLowLLMQParams();
+    return inferred != -1 ? inferred == 1 : sporkManager.IsSporkActive(SPORK_21_LOW_LLMQ_PARAMS);
 }
 
 std::string CCbTx::ToString() const

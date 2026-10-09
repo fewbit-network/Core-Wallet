@@ -26,23 +26,26 @@ std::vector<CDeterministicMNCPtr> CLLMQUtils::GetAllQuorumMembers(Consensus::LLM
     static CCriticalSection cs_members;
     static std::map<Consensus::LLMQType, unordered_lru_cache<uint256, std::vector<CDeterministicMNCPtr>, StaticSaltedHasher>> mapQuorumMembers;
 
+    auto& params = Params().GetConsensus().llmqs.at(llmqType);
+    // params.size may change with SPORK_21_LOW_LLMQ_PARAMS, so it must be part of the cache key
+    const uint256 cacheKey = ::SerializeHash(std::make_pair(pindexQuorum->GetBlockHash(), (uint32_t)params.size));
+
     std::vector<CDeterministicMNCPtr> quorumMembers;
     {
         LOCK(cs_members);
         if (mapQuorumMembers.empty()) {
             InitQuorumsCache(mapQuorumMembers);
         }
-        if (mapQuorumMembers[llmqType].get(pindexQuorum->GetBlockHash(), quorumMembers)) {
+        if (mapQuorumMembers[llmqType].get(cacheKey, quorumMembers)) {
             return quorumMembers;
         }
     }
 
-    auto& params = Params().GetConsensus().llmqs.at(llmqType);
     auto allMns = deterministicMNManager->GetListForBlock(pindexQuorum);
     auto modifier = ::SerializeHash(std::make_pair(llmqType, pindexQuorum->GetBlockHash()));
     quorumMembers = allMns.CalculateQuorum(params.size, modifier);
     LOCK(cs_members);
-    mapQuorumMembers[llmqType].insert(pindexQuorum->GetBlockHash(), quorumMembers);
+    mapQuorumMembers[llmqType].insert(cacheKey, quorumMembers);
     return quorumMembers;
 }
 
