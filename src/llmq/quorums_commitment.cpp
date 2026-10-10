@@ -42,6 +42,11 @@ bool CFinalCommitment::Verify(const CBlockIndex* pQuorumIndex, bool checkSigs) c
         LogPrintfFinalCommitment("invalid llmqType=%d\n", llmqType);
         return false;
     }
+    // The quorum size depends on SPORK_21_LOW_LLMQ_PARAMS at the time the commitment was created, which can't be
+    // known from the current spork value when syncing from scratch. Use the params matching the commitment size.
+    if (IsInferLowLLMQParams() && signers.size() == validMembers.size()) {
+        SelectLLMQParamsForSize((Consensus::LLMQType)llmqType, signers.size());
+    }
     const auto& params = Params().GetConsensus().llmqs.at((Consensus::LLMQType)llmqType);
 
     if (!VerifySizes(params)) {
@@ -117,9 +122,16 @@ bool CFinalCommitment::VerifyNull() const
         LogPrintfFinalCommitment("invalid llmqType=%d\n", llmqType);
         return false;
     }
+    if (!IsNull()) {
+        return false;
+    }
+    // See Verify(): use the params matching the commitment size
+    if (IsInferLowLLMQParams() && signers.size() == validMembers.size()) {
+        SelectLLMQParamsForSize((Consensus::LLMQType)llmqType, signers.size());
+    }
     const auto& params = Params().GetConsensus().llmqs.at((Consensus::LLMQType)llmqType);
 
-    if (!IsNull() || !VerifySizes(params)) {
+    if (!VerifySizes(params)) {
         return false;
     }
 

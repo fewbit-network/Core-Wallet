@@ -7,6 +7,8 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include <chainparams.h>
+
+#include <atomic>
 #include <consensus/merkle.h>
 
 #include <tinyformat.h>
@@ -25,6 +27,13 @@
 static size_t lastCheckMnCount = 0;
 static int lastCheckHeight = 0;
 static bool lastCheckedLowLLMQParams = false;
+// SPORK_21_LOW_LLMQ_PARAMS state of the chain being synced, inferred from mined commitments and quorum merkle roots
+// (-1 = unknown). Used during initial block download instead of the current spork value, which says nothing about
+// historical blocks.
+static std::atomic<int> inferredLowLLMQParams{-1};
+// Whether the node is syncing historical blocks (initial block download), so the inferred state must be used.
+// Updated by block validation while holding cs_main, read without locks to avoid lock order issues.
+static std::atomic<bool> fInferLowLLMQParams{false};
 
 static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesisOutputScript, uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
 {
@@ -1150,6 +1159,78 @@ void UpdateLLMQParams(size_t totalMnCount, int height, bool lowLLMQParams)
 {
     globalChainParams->UpdateLLMQParams(totalMnCount, height, lowLLMQParams);
 }
+
+static const Consensus::LLMQParams* FindLLMQParamsBySize(Consensus::LLMQType llmqType, size_t size)
+{
+    static const Consensus::LLMQParams* const allParams[] = {
+        &llmq200_2, &llmq3_60, &llmq5_60, &llmq5_85, &llmq20_60, &llmq20_85, &llmq10_60,
+        &llmq40_60, &llmq40_85, &llmq50_60, &llmq400_60, &llmq400_85,
+    };
+    for (const auto* params : allParams) {
+        if (params->type == llmqType && (size_t)params->size == size) {
+            return params;
+        }
+    }
+    return nullptr;
+}
+
+void SetInferLowLLMQParams(bool fInfer)
+{
+    fInferLowLLMQParams = fInfer;
+}
+
+bool IsInferLowLLMQParams()
+{
+    return fInferLowLLMQParams;
+}
+
+bool IsLowLLMQParamsSize(Consensus::LLMQType llmqType, size_t size)
+{
+    return llmqType == llmq200_2.type && size == (size_t)llmq200_2.size;
+}
+
+bool IsLowLLMQParamsInferred()
+{
+    return inferredLowLLMQParams != -1;
+}
+
+int GetInferredLowLLMQParams()
+{
+    return inferredLowLLMQParams;
+}
+
+void SetInferredLowLLMQParams(bool lowLLMQParams)
+{
+    LogPrintf("---SetInferredLowLLMQParams %d -> %d (mnCount=%ld)\n", inferredLowLLMQParams.load(), lowLLMQParams, lastCheckMnCount);
+    inferredLowLLMQParams = lowLLMQParams;
+    lastCheckedLowLLMQParams = lowLLMQParams;
+    globalChainParams->ApplyLLMQParams(lastCheckMnCount, lowLLMQParams);
+}
+
+bool SelectLLMQParamsForSize(Consensus::LLMQType llmqType, size_t size)
+{
+    const auto* params = FindLLMQParamsBySize(llmqType, size);
+    if (!params) {
+        return false;
+    }
+    if (llmqType == Consensus::LLMQ_50_60) {
+        int low = params == &llmq200_2 ? 1 : 0;
+        if (low != inferredLowLLMQParams) {
+            LogPrintf("---SelectLLMQParamsForSize inferred lowLLMQParams %d -> %d\n", inferredLowLLMQParams.load(), low);
+            inferredLowLLMQParams = low;
+        }
+    }
+    const auto& llmqs = globalChainParams->GetConsensus().llmqs;
+    auto it = llmqs.find(llmqType);
+    if (it != llmqs.end() && (size_t)it->second.size == size) {
+        return true;
+    }
+    LogPrintf("---SelectLLMQParamsForSize type=%d %s -> %s\n", (int)llmqType,
+        it != llmqs.end() ? it->second.name : "none", params->name);
+    globalChainParams->SetLLMQParams(*params);
+    return true;
+}
+
 bool IsMiningPhase(Consensus::LLMQParams params, int nHeight)
 {
     int phaseIndex = nHeight % params.dkgInterval;
@@ -1169,6 +1250,36 @@ bool IsLLMQsMiningPhase(int nHeight)
     return false;
 }
 
+void CChainParams::ApplyLLMQParams(size_t totalMnCount, bool lowLLMQParams)
+{
+    bool isTestNet = strcmp(Params().NetworkIDString().c_str(), "test") == 0;
+    if (totalMnCount < 5) {
+        consensus.llmqs[Consensus::LLMQ_50_60] = llmq3_60;
+        if (isTestNet) {
+            consensus.llmqs[Consensus::LLMQ_400_60] = llmq5_60;
+            consensus.llmqs[Consensus::LLMQ_400_85] = llmq5_85;
+        } else {
+            consensus.llmqs[Consensus::LLMQ_400_60] = llmq20_60;
+            consensus.llmqs[Consensus::LLMQ_400_85] = llmq20_85;
+        }
+    } else if ((totalMnCount < 80 && isTestNet) || (totalMnCount < 100 && !isTestNet)) {
+        consensus.llmqs[Consensus::LLMQ_50_60] = llmq10_60;
+        consensus.llmqs[Consensus::LLMQ_400_60] = llmq20_60;
+        consensus.llmqs[Consensus::LLMQ_400_85] = llmq20_85;
+    } else if ((totalMnCount < 4000 && isTestNet) || (totalMnCount < 600 && !isTestNet)) {
+        consensus.llmqs[Consensus::LLMQ_50_60] = llmq50_60;
+        consensus.llmqs[Consensus::LLMQ_400_60] = llmq40_60;
+        consensus.llmqs[Consensus::LLMQ_400_85] = llmq40_85;
+    } else {
+        consensus.llmqs[Consensus::LLMQ_50_60] = llmq50_60;
+        consensus.llmqs[Consensus::LLMQ_400_60] = llmq400_60;
+        consensus.llmqs[Consensus::LLMQ_400_85] = llmq400_85;
+    }
+    if (lowLLMQParams) {
+        consensus.llmqs[Consensus::LLMQ_50_60] = llmq200_2;
+    }
+}
+
 void CChainParams::UpdateLLMQParams(size_t totalMnCount, int height, bool lowLLMQParams)
 {
     bool isNotLLMQsMiningPhase;
@@ -1179,31 +1290,6 @@ void CChainParams::UpdateLLMQParams(size_t totalMnCount, int height, bool lowLLM
         lastCheckMnCount = totalMnCount;
         lastCheckedLowLLMQParams = lowLLMQParams;
         lastCheckHeight = height;
-        bool isTestNet = strcmp(Params().NetworkIDString().c_str(), "test") == 0;
-        if (totalMnCount < 5) {
-            consensus.llmqs[Consensus::LLMQ_50_60] = llmq3_60;
-            if (isTestNet) {
-                consensus.llmqs[Consensus::LLMQ_400_60] = llmq5_60;
-                consensus.llmqs[Consensus::LLMQ_400_85] = llmq5_85;
-            } else {
-                consensus.llmqs[Consensus::LLMQ_400_60] = llmq20_60;
-                consensus.llmqs[Consensus::LLMQ_400_85] = llmq20_85;
-            }
-        } else if ((totalMnCount < 80 && isTestNet) || (totalMnCount < 100 && !isTestNet)) {
-            consensus.llmqs[Consensus::LLMQ_50_60] = llmq10_60;
-            consensus.llmqs[Consensus::LLMQ_400_60] = llmq20_60;
-            consensus.llmqs[Consensus::LLMQ_400_85] = llmq20_85;
-        } else if ((totalMnCount < 4000 && isTestNet) || (totalMnCount < 600 && !isTestNet)) {
-            consensus.llmqs[Consensus::LLMQ_50_60] = llmq50_60;
-            consensus.llmqs[Consensus::LLMQ_400_60] = llmq40_60;
-            consensus.llmqs[Consensus::LLMQ_400_85] = llmq40_85;
-        } else {
-            consensus.llmqs[Consensus::LLMQ_50_60] = llmq50_60;
-            consensus.llmqs[Consensus::LLMQ_400_60] = llmq400_60;
-            consensus.llmqs[Consensus::LLMQ_400_85] = llmq400_85;
-        }
-        if (lowLLMQParams) {
-            consensus.llmqs[Consensus::LLMQ_50_60] = llmq200_2;
-        }
+        ApplyLLMQParams(totalMnCount, lowLLMQParams);
     }
 }

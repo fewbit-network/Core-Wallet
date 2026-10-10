@@ -62,4 +62,16 @@ bool CheckCbTxMerkleRoots(const CBlock& block, const CBlockIndex* pindex, CValid
 bool CalcCbTxMerkleRootMNList(const CBlock& block, const CBlockIndex* pindexPrev, uint256& merkleRootRet, CValidationState& state, const CCoinsViewCache& view);
 bool CalcCbTxMerkleRootQuorums(const CBlock& block, const CBlockIndex* pindexPrev, uint256& merkleRootRet, CValidationState& state);
 
+/**
+ * Makes sure the SPORK_21_LOW_LLMQ_PARAMS state used for validation is known (see SelectLLMQParamsForSize). After a
+ * restart it is recovered from the tip block, by checking which state reproduces its quorum merkle root.
+ */
+void InitInferredLowLLMQParams(const CBlockIndex* pindexPrev);
+
+/**
+ * SPORK_21_LOW_LLMQ_PARAMS state to validate the next block with. During initial block download it is inferred from
+ * the chain, as the current spork value says nothing about historical blocks. Otherwise it is the current spork value.
+ */
+bool IsLowLLMQParamsActive(const CBlockIndex* pindexPrev);
+
 #endif // BITCOIN_EVO_CBTX_H

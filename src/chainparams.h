@@ -97,6 +97,8 @@ public:
     void UpdateLLMQChainLocks(Consensus::LLMQType llmqType);
     void UpdateLLMQInstantSend(Consensus::LLMQType llmqType);
     void UpdateLLMQParams(size_t totalMnCount, int height, bool lowLLMQParams = false);
+    void SetLLMQParams(const Consensus::LLMQParams& params) { consensus.llmqs[params.type] = params; }
+    void ApplyLLMQParams(size_t totalMnCount, bool lowLLMQParams);
     int PoolMinParticipants() const { return nPoolMinParticipants; }
     int PoolNewMinParticipants() const { return nPoolNewMinParticipants; }
     int PoolMaxParticipants() const { return nPoolMaxParticipants; }
@@ -196,5 +198,32 @@ void UpdateDevnetLLMQChainLocks(Consensus::LLMQType llmqType);
 void UpdateDevnetLLMQInstantSend(Consensus::LLMQType llmqType);
 
 void UpdateLLMQParams(size_t totalMnCount, int height, bool lowLLMQParams = false);
+
+/**
+ * Switches the active params of `llmqType` to the set whose size matches `size` (taken from a mined commitment).
+ * Historical commitments were created with params that depended on SPORK_21_LOW_LLMQ_PARAMS at that time, which
+ * can't be reconstructed from the current spork state, so the commitment itself tells us which params were used.
+ * Returns false if no known params set matches.
+ */
+bool SelectLLMQParamsForSize(Consensus::LLMQType llmqType, size_t size);
+
+/**
+ * Whether the SPORK_21_LOW_LLMQ_PARAMS state must be inferred from the chain instead of using the current spork value.
+ * True while syncing historical blocks (initial block download). Set by block validation, safe to read without locks.
+ */
+void SetInferLowLLMQParams(bool fInfer);
+bool IsInferLowLLMQParams();
+
+/** True if a commitment of `llmqType` with `size` members was created with SPORK_21_LOW_LLMQ_PARAMS active. */
+bool IsLowLLMQParamsSize(Consensus::LLMQType llmqType, size_t size);
+
+/** True once the low LLMQ params state has been inferred from the chain (see SelectLLMQParamsForSize). */
+bool IsLowLLMQParamsInferred();
+
+/** Inferred low LLMQ params state: -1 unknown, 0 off, 1 on. */
+int GetInferredLowLLMQParams();
+
+/** Forces the inferred low LLMQ params state and re-applies the LLMQ params for the last known MN count. */
+void SetInferredLowLLMQParams(bool lowLLMQParams);
 
 #endif // BITCOIN_CHAINPARAMS_H
