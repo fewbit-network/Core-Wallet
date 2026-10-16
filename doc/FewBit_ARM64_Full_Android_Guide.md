@@ -26,9 +26,9 @@ sudo apt install unzip nano -y
 
 ```bash
 cd
-wget https://github.com/fewbit-network/Core-Wallet/releases/download/Post-Halving/FewBit_ARM64_Ubunu_22.tar.gz
-tar -xf FewBit_ARM64_Ubunu_22.tar.gz
-rm FewBit_ARM64_Ubunu_22.tar.gz
+wget https://github.com/fewbit-network/Core-Wallet/releases/download/GENESIS/FewBit-v6.6.6.6-Linux-ARM-64-bit.tar.gz
+tar -xnf FewBit-v6.6.6.6-Linux-ARM-64-bit.tar.gz
+rm -r FewBit-v6.6.6.6-Linux-ARM-64-bit.tar.gz
 cd
 ```
 
@@ -36,9 +36,9 @@ cd
 
 ```bash
 mkdir .fewbitcore && cd .fewbitcore
-wget https://github.com/fewbit-network/Core-Wallet/releases/download/Post-Halving/FewBitCore_BootStrap.v4.4.zip
-unzip FewBitCore_BootStrap.v4.4.zip
-rm FewBitCore_BootStrap.v4.4.zip
+wget https://github.com/fewbit-network/Core-Wallet/releases/download/GENESIS/FewBit-BootStrap.tar.gz
+tar -xvf FewBit-BootStrap.tar.gz
+rm -r FewBit-BootStrap.tar.gz
 ```
 
 ## ✅ Step 6: Create your fewbit.conf file (Change user and password)
@@ -64,7 +64,7 @@ Save and exit with: `CTRL + X`, then `Y`, then `Enter`
 ## ✅ Step 7: Start the FewBit Daemon
 
 ```bash
-cd ~/FewBit_ARM64
+cd
 ./fewbitd
 ```
 
@@ -83,7 +83,7 @@ If synced: `blocks` and `headers` will be equal ✅
 ./fewbit-cli getnewaddress "Promo"
 ```
 
-Take a screenshot of your new address and post it on Discord to get **100 FBIT** 🚀
+Take a screenshot of your new address and post it on Discord to get **50 FBIT** 🚀
 https://discord.gg/aHZs9fndQc
 
 ## ✅ Step 9: Secure and Backup Your Wallet
@@ -100,13 +100,13 @@ Keep both your password and the backup file safe!
 - Start the wallet:
 
 ```bash
-cd ~/FewBit_ARM64 && ./fewbitd
+./fewbitd
 ```
 
 - Stop the wallet:
 
 ```bash
-cd ~/FewBit_ARM64 && ./fewbit-cli stop
+./fewbit-cli stop
 ```
 
 - View all available commands:
